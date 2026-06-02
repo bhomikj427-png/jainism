@@ -139,7 +139,7 @@ Physics comparanda (if high confidence reading exists):
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `asrava.md` | pending | karmic influx; beginning of the soteriological problem |
+| 1 | `asrava.md` | done | converged, medium; TS 6.2 fetched (Vijay K. Jain 2018) |
 | 2 | `samvara.md` | pending | stoppage of influx; the turning point |
 | 3 | `nirjara.md` | pending | erosion/shedding of karma; active purification |
 | 4 | `kevala-jnana.md` | pending | omniscience; pre-liberation cognitive state |
