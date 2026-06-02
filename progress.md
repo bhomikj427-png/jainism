@@ -141,7 +141,7 @@ Physics comparanda (if high confidence reading exists):
 |---|---|---|---|
 | 1 | `asrava.md` | done | converged, medium; TS 6.2 fetched (Vijay K. Jain 2018) |
 | 2 | `samvara.md` | done | converged, LOW confidence; TS 9.1 text not fetched; definition from aggregation |
-| 3 | `nirjara.md` | pending | erosion/shedding of karma; active purification |
+| 3 | `nirjara.md` | done | converged, medium; TS 8.23 fetched directly |
 | 4 | `kevala-jnana.md` | pending | omniscience; pre-liberation cognitive state |
 | 5 | `pramana.md` | pending | valid cognition; contrasted with naya (TS 1.6 gap) |
 | 6 | `atman-vedanta.md` | pending | Advaita/Upanishadic ātman — fills jīva NOT-equiv edge |
