@@ -1,0 +1,70 @@
+digraph ancient_texts {
+  rankdir=LR;
+  fontname=Helvetica;
+  node [fontname=Helvetica fontsize=11];
+  edge [fontname=Helvetica fontsize=9];
+
+  /* === Written nodes (ellipse, coloured by tradition) === */
+  /* Jain tradition: #f5c518 */
+  "paramanu"      [label="paramāṇu"      style=filled fillcolor="#f5c518" shape=ellipse];
+  "anekantavada"  [label="anekāntavāda"  style=filled fillcolor="#f5c518" shape=ellipse];
+  "dravya"        [label="dravya"        style=filled fillcolor="#f5c518" shape=ellipse];
+  "jiva"          [label="jīva"          style=filled fillcolor="#f5c518" shape=ellipse];
+  "ajiva"         [label="ajīva"         style=filled fillcolor="#f5c518" shape=ellipse];
+  "pudgala"       [label="pudgala"       style=filled fillcolor="#f5c518" shape=ellipse];
+  "skandha"       [label="skandha (Jain)" style=filled fillcolor="#f5c518" shape=ellipse];
+
+  /* === Unwritten forward-link targets (box, grey) === */
+  "paramanu-vaisheshika" [label="paramāṇu (Vaiśeṣika)" style=filled fillcolor="#dddddd" shape=box];
+  "modern-atom"          [label="modern atom"           style=filled fillcolor="#e0e0e0" shape=box];
+  "syadvada"             [label="syādvāda"              style=filled fillcolor="#dddddd" shape=box];
+  "saptabhangi"          [label="saptabhaṅgī"           style=filled fillcolor="#dddddd" shape=box];
+  "quantum-complementarity" [label="quantum complementarity" style=filled fillcolor="#e0e0e0" shape=box];
+  "dravya-vaisheshika"   [label="dravya (Vaiśeṣika)"    style=filled fillcolor="#dddddd" shape=box];
+  "atman-vedanta"        [label="ātman (Vedānta)"        style=filled fillcolor="#b0e0b0" shape=box];
+  "skandha-buddhist"     [label="skandha (Buddhist)"     style=filled fillcolor="#ffa07a" shape=box];
+  "prakriti-samkhya"     [label="prakṛti (Sāṃkhya)"      style=filled fillcolor="#d8b4fe" shape=box];
+
+  /* === Edges === */
+  /* solid = structural; dashed = honest cross-tradition; dotted = conflated-NOT-equivalent */
+
+  /* paramanu.md */
+  "paramanu" -> "pudgala"            [label="part-of"        style=solid  color="#333333"];
+  "paramanu" -> "skandha"            [label="aggregates-into" style=solid  color="#555555"];
+  "paramanu" -> "paramanu-vaisheshika" [label="structurally-parallel-to" style=dashed color="#009933"];
+  "paramanu" -> "modern-atom"        [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* anekantavada.md */
+  "anekantavada" -> "syadvada"       [label="expressed-by"   style=solid  color="#555555"];
+  "anekantavada" -> "saptabhangi"    [label="formalizes"     style=solid  color="#555555"];
+  "anekantavada" -> "dravya"         [label="part-of"        style=solid  color="#333333"];
+  "anekantavada" -> "quantum-complementarity" [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* dravya.md */
+  "dravya" -> "jiva"                 [label="is-a-type-of"   style=solid  color="#333333"];
+  "dravya" -> "ajiva"                [label="is-a-type-of"   style=solid  color="#333333"];
+  "dravya" -> "pudgala"              [label="is-a-type-of"   style=solid  color="#333333"];
+  "dravya" -> "dravya-vaisheshika"   [label="shares-vocabulary-with" style=dashed color="#0066cc"];
+
+  /* jiva.md */
+  "jiva"   -> "dravya"               [label="is-a-type-of"   style=solid  color="#333333"];
+  "jiva"   -> "atman-vedanta"        [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "jiva"   -> "atman-vedanta"        [label="shares-vocabulary-with" style=dashed color="#0066cc"];
+
+  /* ajiva.md */
+  "ajiva"  -> "dravya"               [label="part-of"        style=solid  color="#333333"];
+  "ajiva"  -> "pudgala"              [label="is-a-type-of"   style=solid  color="#333333"];
+  "ajiva"  -> "jiva"                 [label="part-of"        style=solid  color="#333333"];
+
+  /* pudgala.md */
+  "pudgala" -> "ajiva"               [label="is-a-type-of"   style=solid  color="#333333"];
+  "pudgala" -> "dravya"              [label="is-a-type-of"   style=solid  color="#333333"];
+  "pudgala" -> "paramanu"            [label="expressed-by"   style=solid  color="#555555"];
+  "pudgala" -> "skandha"             [label="expressed-by"   style=solid  color="#555555"];
+  "pudgala" -> "prakriti-samkhya"    [label="structurally-parallel-to" style=dashed color="#009933"];
+
+  /* skandha.md */
+  "skandha" -> "paramanu"            [label="aggregates-from" style=solid  color="#555555"];
+  "skandha" -> "pudgala"             [label="part-of"        style=solid  color="#333333"];
+  "skandha" -> "skandha-buddhist"    [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+}
