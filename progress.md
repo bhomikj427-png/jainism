@@ -160,7 +160,7 @@ Physics comparanda (if high confidence reading exists):
 | 5 | `brahman.md` | done | converged, medium; Sat-Cit-Ananda; 3-way ontological map (Advaita/Buddhist/Jain) |
 | 6 | `tattva-jain.md` | done | converged, medium (near-high); TS 1.4 DIRECTLY FETCHED + Pujyapada ordering logic |
 | 7 | `loka-jain.md` | done | converged, medium; loka/aloka; siddha-shila; dharma/adharma scope |
-| 8 | `bandha.md` | pending | karmic bondage (deeper treatment beyond karma.md) |
+| 8 | `bandha.md` | done | converged, medium; TS 8.1 DIRECTLY FETCHED (5 causes, corrects karma.md 4-cause error) |
 
 ## Batch 5 concepts
 
