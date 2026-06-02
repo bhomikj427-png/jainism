@@ -29,7 +29,7 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | concept | status | confidence |
 |---|---|---|
 | paramanu | converged | medium confidence |
-| anekantavada | pending | — |
+| anekantavada | contested | medium confidence |
 | dravya | pending | — |
 | jiva | pending | — |
 | ajiva | pending | — |
