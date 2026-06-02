@@ -34,7 +34,7 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | jiva | converged | medium confidence |
 | ajiva | converged | medium confidence |
 | pudgala | converged | medium confidence |
-| skandha | pending | — |
+| skandha | converged | medium confidence |
 
 ## Buddhist Canon
 

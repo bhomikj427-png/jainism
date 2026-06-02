@@ -15,7 +15,7 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 | 4 | `jiva.md` | done | converged, medium confidence; TS 2.8/2.9/2.10 cited; JainSquare unattributed; Tatia Ch.2 not fetched |
 | 5 | `ajiva.md` | done | converged, medium confidence; TS 5.1 fetched directly (Vijay K. Jain 2018) |
 | 6 | `pudgala.md` | done | converged, medium confidence; TS 5.5 fetched (Vijay K. Jain 2018); verse-attribution discrepancy noted |
-| 7 | `skandha.md` | pending | |
+| 7 | `skandha.md` | done | converged, medium confidence; bonding rule from Wikipedia; TS skandha verse # unconfirmed |
 
 ## Run log
 *(appended at end-of-batch per §9)*
