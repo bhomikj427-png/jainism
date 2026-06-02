@@ -49,7 +49,7 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 
 | concept | status | notes |
 |---|---|---|
-| paramanu-vaisheshika | unwritten | forward-link target from paramanu |
+| paramanu-vaisheshika | converged | medium confidence |
 | modern-atom | unwritten | forward-link target from paramanu |
 | quantum-complementarity | unwritten | forward-link target from anekantavada |
 | syadvada | converged | medium confidence |
