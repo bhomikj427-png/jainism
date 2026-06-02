@@ -169,7 +169,7 @@ Physics comparanda (if high confidence reading exists):
 | 1 | `democritus-atom.md` | done | converged, medium; qualitative-neutrality vs quality-bearing table; independence consensus noted |
 | 2 | `anatta-buddhist.md` | done | contested, medium; SN 22.59 argument; ontological/methodological debate table; vs-jiva table |
 | 3 | `sunyata.md` | done | converged, medium; MMK 24.18; emptiness-of-emptiness; vs Jain dravya-realism table |
-| 4 | `maya-advaita.md` | pending | Advaita illusion doctrine — contrast with Jain ontological realism |
+| 4 | `maya-advaita.md` | done | contested, medium; Shankara realistic vs post-Shankara illusory debate; vs Jain co-equal realism |
 | 5 | `ahimsa.md` | pending | non-violence — ethical link to anekāntavāda and jīva |
 | 6 | `guna-samkhya.md` | pending | Sāṃkhya three qualities (tamas/rajas/sattva) — compare with pudgala qualities |
 | 7 | `many-valued-logic.md` | pending | fills saptabhaṅgī NOT-equiv stub |
