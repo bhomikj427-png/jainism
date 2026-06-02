@@ -1,4 +1,4 @@
-# progress.md — Batch 1 & 2 Work Queue
+# progress.md — Batches 1–5 Work Queue
 
 ## Anchor text
 **Tattvārtha Sūtra** (Umāsvāti / Umāsvāmī) — to be confirmed by fetch before writing concepts.
@@ -132,3 +132,47 @@ Cross-tradition (forward-links exist):
 
 Physics comparanda (if high confidence reading exists):
 - `modern-atom` (the forward-link target; write the empirical-physics side of the NOT-equivalent edge)
+
+---
+
+## Batch 3 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `asrava.md` | pending | karmic influx; beginning of the soteriological problem |
+| 2 | `samvara.md` | pending | stoppage of influx; the turning point |
+| 3 | `nirjara.md` | pending | erosion/shedding of karma; active purification |
+| 4 | `kevala-jnana.md` | pending | omniscience; pre-liberation cognitive state |
+| 5 | `pramana.md` | pending | valid cognition; contrasted with naya (TS 1.6 gap) |
+| 6 | `atman-vedanta.md` | pending | Advaita/Upanishadic ātman — fills jīva NOT-equiv edge |
+| 7 | `karma-vedic.md` | pending | Hindu karma as intentional action vs. Jain physical matter |
+| 8 | `dravya-vaisheshika.md` | pending | Vaiśeṣika nine-substance system |
+| 9 | `modern-atom.md` | pending | empirical atom — fills paramāṇu NOT-equiv edge |
+
+## Batch 4 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `prakriti-samkhya.md` | pending | Sāṃkhya primal matter — forward-link stub from pudgala |
+| 2 | `purusha-samkhya.md` | pending | Sāṃkhya consciousness — compare with jīva |
+| 3 | `nirvana-buddhist.md` | pending | Buddhist liberation — compare with Jain mokṣa |
+| 4 | `pratityasamutpada.md` | pending | Buddhist dependent origination — compare with karma/bandha |
+| 5 | `brahman.md` | pending | Advaita absolute — connects to ātman-vedānta |
+| 6 | `tattva-jain.md` | pending | the seven fundamental categories (Jain) |
+| 7 | `loka-jain.md` | pending | Jain cosmology — lokāgra, siddha location |
+| 8 | `bandha.md` | pending | karmic bondage (deeper treatment beyond karma.md) |
+
+## Batch 5 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `democritus-atom.md` | pending | Greek atomism — cross-tradition parallel to paramāṇu |
+| 2 | `anatta-buddhist.md` | pending | Buddhist no-self — deeper treatment, contrast with jīva |
+| 3 | `sunyata.md` | pending | Buddhist emptiness — contrast with Jain realism |
+| 4 | `maya-advaita.md` | pending | Advaita illusion doctrine — contrast with Jain ontological realism |
+| 5 | `ahimsa.md` | pending | non-violence — ethical link to anekāntavāda and jīva |
+| 6 | `guna-samkhya.md` | pending | Sāṃkhya three qualities (tamas/rajas/sattva) — compare with pudgala qualities |
+| 7 | `many-valued-logic.md` | pending | fills saptabhaṅgī NOT-equiv stub |
+
+## Run logs — Batches 3–5
+*(appended at end-of-batch per §9)*
