@@ -154,7 +154,7 @@ Physics comparanda (if high confidence reading exists):
 | # | concept (filename) | status | notes |
 |---|---|---|---|
 | 1 | `prakriti-samkhya.md` | done | converged, medium; 25-tattva sketch; 3-tradition comparison table |
-| 2 | `purusha-samkhya.md` | pending | Sāṃkhya consciousness — compare with jīva |
+| 2 | `purusha-samkhya.md` | done | converged, medium; SK 19 cited; passive-witness vs active-jiva table |
 | 3 | `nirvana-buddhist.md` | pending | Buddhist liberation — compare with Jain mokṣa |
 | 4 | `pratityasamutpada.md` | pending | Buddhist dependent origination — compare with karma/bandha |
 | 5 | `brahman.md` | pending | Advaita absolute — connects to ātman-vedānta |
