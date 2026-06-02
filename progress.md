@@ -147,7 +147,7 @@ Physics comparanda (if high confidence reading exists):
 | 6 | `atman-vedanta.md` | done | converged, medium; Wikipedia + Britannica; 4-school comparison table |
 | 7 | `karma-vedic.md` | done | converged, medium; moral-law vs physical-matter table; Vedic evolution documented |
 | 8 | `dravya-vaisheshika.md` | done | converged, medium; 9-substance table; dharma/adharma absent in Vaisheshika noted |
-| 9 | `modern-atom.md` | pending | empirical atom — fills paramāṇu NOT-equiv edge |
+| 9 | `modern-atom.md` | done | converged, HIGH confidence; standard physics; partless-vs-has-parts table |
 
 ## Batch 4 concepts
 
