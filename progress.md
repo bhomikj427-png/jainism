@@ -73,7 +73,7 @@ Cross-tradition comparanda (not yet written):
 | 2 | `syadvada.md` | done | converged, medium confidence; two independent sources; Sankara critique documented |
 | 3 | `saptabhangi.md` | done | converged, medium confidence; 7-predication table; Buddhist critique + Lukasiewicz caution documented |
 | 4 | `karma.md` | done | converged, medium confidence; TS 8.1/8.3 from Wikipedia; 8 karma types from Bhagavati Sutra |
-| 5 | `moksha.md` | pending | liberation; completes jīva arc |
+| 5 | `moksha.md` | done | converged, medium confidence; TS 10.2 cited; four infinites from Purusarthasiddhyupaya |
 | 6 | `paramanu-vaisheshika.md` | pending | forward-link stub exists; Vaiśeṣika side |
 | 7 | `skandha-buddhist.md` | pending | forward-link stub exists; Buddhist khandhas |
 
