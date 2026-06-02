@@ -32,7 +32,7 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | anekantavada | contested | medium confidence |
 | dravya | converged | medium confidence |
 | jiva | converged | medium confidence |
-| ajiva | pending | — |
+| ajiva | converged | medium confidence |
 | pudgala | pending | — |
 | skandha | pending | — |
 
