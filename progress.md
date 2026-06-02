@@ -172,7 +172,7 @@ Physics comparanda (if high confidence reading exists):
 | 4 | `maya-advaita.md` | done | contested, medium; Shankara realistic vs post-Shankara illusory debate; vs Jain co-equal realism |
 | 5 | `ahimsa.md` | done | converged, medium; 6-jiva-category table; 5 mahavrata; intellectual-ahimsa overlay cautioned |
 | 6 | `guna-samkhya.md` | done | converged, medium; 3-guna table; Samkhya vs Jain guna structural difference |
-| 7 | `many-valued-logic.md` | pending | fills saptabhaṅgī NOT-equiv stub |
+| 7 | `many-valued-logic.md` | done | converged, medium; T/F/# vs predication-modes table; Schang cited; non-equivalence argued |
 
 ## Run logs — Batches 3–5
 *(appended at end-of-batch per §9)*
