@@ -29,6 +29,7 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | concept | status | confidence |
 |---|---|---|
 | naya | converged | medium confidence |
+| karma | converged | medium confidence |
 | paramanu | converged | medium confidence |
 | anekantavada | contested | medium confidence |
 | dravya | converged | medium confidence |
