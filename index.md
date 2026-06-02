@@ -33,7 +33,7 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | dravya | converged | medium confidence |
 | jiva | converged | medium confidence |
 | ajiva | converged | medium confidence |
-| pudgala | pending | — |
+| pudgala | converged | medium confidence |
 | skandha | pending | — |
 
 ## Buddhist Canon
