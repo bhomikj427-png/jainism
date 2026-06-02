@@ -51,4 +51,4 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | modern-atom | unwritten | forward-link target from paramanu |
 | quantum-complementarity | unwritten | forward-link target from anekantavada |
 | syadvada | converged | medium confidence |
-| saptabhangi | unwritten | forward-link target from anekantavada |
+| saptabhangi | converged | medium confidence |
