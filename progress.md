@@ -166,7 +166,7 @@ Physics comparanda (if high confidence reading exists):
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `democritus-atom.md` | pending | Greek atomism — cross-tradition parallel to paramāṇu |
+| 1 | `democritus-atom.md` | done | converged, medium; qualitative-neutrality vs quality-bearing table; independence consensus noted |
 | 2 | `anatta-buddhist.md` | pending | Buddhist no-self — deeper treatment, contrast with jīva |
 | 3 | `sunyata.md` | pending | Buddhist emptiness — contrast with Jain realism |
 | 4 | `maya-advaita.md` | pending | Advaita illusion doctrine — contrast with Jain ontological realism |
