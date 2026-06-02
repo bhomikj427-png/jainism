@@ -159,7 +159,7 @@ Physics comparanda (if high confidence reading exists):
 | 4 | `pratityasamutpada.md` | done | converged, medium; idappaccayata formula; 12-link table; vs-Jain karma table |
 | 5 | `brahman.md` | done | converged, medium; Sat-Cit-Ananda; 3-way ontological map (Advaita/Buddhist/Jain) |
 | 6 | `tattva-jain.md` | done | converged, medium (near-high); TS 1.4 DIRECTLY FETCHED + Pujyapada ordering logic |
-| 7 | `loka-jain.md` | pending | Jain cosmology — lokāgra, siddha location |
+| 7 | `loka-jain.md` | done | converged, medium; loka/aloka; siddha-shila; dharma/adharma scope |
 | 8 | `bandha.md` | pending | karmic bondage (deeper treatment beyond karma.md) |
 
 ## Batch 5 concepts
