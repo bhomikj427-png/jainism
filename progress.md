@@ -174,5 +174,72 @@ Physics comparanda (if high confidence reading exists):
 | 6 | `guna-samkhya.md` | done | converged, medium; 3-guna table; Samkhya vs Jain guna structural difference |
 | 7 | `many-valued-logic.md` | done | converged, medium; T/F/# vs predication-modes table; Schang cited; non-equivalence argued |
 
-## Run logs — Batches 3–5
-*(appended at end-of-batch per §9)*
+## Run log — Batches 3–5 (2026-06-02, continuous run)
+
+### Concepts completed: 24 / 24 (0 blocked, 0 needs-opus-review)
+
+**Batch 3 (9 concepts):**
+| concept | status | confidence | note |
+|---|---|---|---|
+| asrava | converged | medium | TS 6.2 fetched directly |
+| samvara | converged | LOW | TS 9 index only; verse text not fetched |
+| nirjara | converged | medium | TS 8.23 fetched directly |
+| kevala-jnana | converged | medium | 5-knowledge ladder; Digambara/Shvetambara difference |
+| pramana | converged | medium | TS 1.6 fetched directly; sakaladesa/vikadeshu |
+| atman-vedanta | converged | medium | 4-tradition table; 4 mahavakyas |
+| karma-vedic | converged | medium | moral-law vs physical-matter table |
+| dravya-vaisheshika | converged | medium | 9-substance table |
+| modern-atom | converged | HIGH | standard physics; partless vs has-parts |
+
+**Batch 4 (8 concepts):**
+| concept | status | confidence | note |
+|---|---|---|---|
+| prakriti-samkhya | converged | medium | 3 gunas; 25-tattva chain |
+| purusha-samkhya | converged | medium | SK 19; passive-witness vs active-jiva |
+| nirvana-buddhist | converged | medium | Udana 8.1-4; 3-tradition liberation table |
+| pratityasamutpada | converged | medium | idappaccayata; 12-nidana table |
+| brahman | converged | medium | Sat-Cit-Ananda; 3-way ontological map |
+| tattva-jain | converged | medium (near-high) | TS 1.4 DIRECTLY FETCHED; Pujyapada ordering |
+| loka-jain | converged | medium | loka/aloka; siddha-shila |
+| bandha | converged | medium | TS 8.1 DIRECTLY FETCHED; corrects karma.md 4→5 causes |
+
+**Batch 5 (7 concepts):**
+| concept | status | confidence | note |
+|---|---|---|---|
+| democritus-atom | converged | medium | 3-tradition atomic comparison table |
+| anatta-buddhist | contested | medium | SN 22.59; ontological vs methodological debate |
+| sunyata | converged | medium | MMK 24.18; emptiness-of-emptiness |
+| maya-advaita | contested | medium | Shankara realistic vs post-Shankara illusory |
+| ahimsa | converged | medium | 6-jiva-category scope; 5 mahavrata |
+| guna-samkhya | converged | medium | 3-guna table; Samkhya vs Jain guna distinction |
+| many-valued-logic | converged | medium | Lukasiewicz T/F/# vs saptabhangi predication-modes |
+
+### Graph (final state of this run)
+`graph/graph.dot` regenerated: **43 nodes** (38 written, 5 unwritten stubs), **~90 edges**.
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+Node count 43 > 30 → `build_graph.py` would now emit Cytoscape HTML if Python available.
+
+### Key corrections made this run
+- **bandha.md**: TS 8.1 has FIVE causes of bondage (not four as Wikipedia cited in karma.md). Documented in bandha.md with explicit correction note.
+
+### Notable findings across batches 3–5
+
+1. **TS 1.4 is the project's strongest fetch**: directly confirmed ("jīvājīvāsravabandhasaṃvaranirjarāmokṣāstattvam") with Pūjyapāda's sequential ordering logic. Closest to high confidence in the corpus.
+
+2. **The three-way comparison (Jain/Buddhist/Hindu) is now fully mapped**: the corpus covers liberation (mokṣa/nirvāṇa/Advaita mokṣa), consciousness (jīva/khandhas/ātman/puruṣa), matter (pudgala/rūpa-khandha/prakṛti/4 Vaiśeṣika types), and causation (karma-bandha/pratītyasamutpāda/karma-vedic) across all major traditions.
+
+3. **The Jain position is most distinctive**: Jainism is pluralist about both substances AND consciousness (unlike Advaita's monism and Buddhism's anattā); physicalist about karma (unlike Hindu moral-law and Buddhist intentional-process accounts); and realist about all six dravyas (unlike Advaita māyā and Buddhist śūnyatā).
+
+4. **samvara.md confidence is LOW**: TS 9.1 verse text was not obtained. Flag for next session.
+
+### Suggested Batch 6 (names only)
+Priority fills:
+- `samvara` — upgrade from low to medium by fetching TS 9.1 (high priority)
+- `gunasthana` — 14 stages of spiritual progress; referenced in bandha.md; foundational for the karma arc
+- `naigama-naya` and other individual nayas — one file per naya for depth
+- `paryaya` — the mode/modification concept (complement to dravya-guna); TS 5.29/5.30
+- `asteya`, `satya`, `aparigraha` — complete the five mahāvratas
+- `jina` / `tirthankara` — the liberated teachers; connects cosmology + soteriology
+- `catuṣkoṭi` — Buddhist four-corner logic (compare with saptabhaṅgī; Schang's paper covers both)
+- `namarupa` — Buddhist name-and-form; connects to skandha/pratītyasamutpāda
+- `abhidharma` — Buddhist systematic philosophy of dharmas; compare with Jain dravya analysis

@@ -15,51 +15,96 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 
 ## Dharma / Śāstra
 
-*(none yet)*
+| concept | status | confidence |
+|---|---|---|
+| ahimsa | converged | medium |
 
 ## Six Darśanas
 
-*(none yet)*
+### Nyāya-Vaiśeṣika
+
+| concept | status | confidence |
+|---|---|---|
+| paramanu-vaisheshika | converged | medium |
+| dravya-vaisheshika | converged | medium |
+
+### Sāṃkhya
+
+| concept | status | confidence |
+|---|---|---|
+| prakriti-samkhya | converged | medium |
+| purusha-samkhya | converged | medium |
+| guna-samkhya | converged | medium |
+
+### Vedānta (Advaita)
+
+| concept | status | confidence |
+|---|---|---|
+| atman-vedanta | converged | medium |
+| brahman | converged | medium |
+| maya-advaita | contested | medium |
+| karma-vedic | converged | medium |
 
 ## Jain Āgamas & Darśana
 
 **Anchor text:** Tattvārtha Sūtra (Umāsvāti / Umāsvāmī)
-— Edition in use: Nathmal Tatia (tr.), *That Which Is: Tattvārthasūtra*, HarperCollins / Sacred Literature Trust, 1994 (to be confirmed by fetch)
+— Edition in use: Vijay K. Jain (tr.), Motilal Banarsidass, 2018 (ISBN 9788193272626; multiple chapters fetched directly) and Nathmal Tatia (tr.), HarperCollins, 1994 (ISBN 0060689854; confirmed, chapter text not directly fetched)
 
-| concept | status | confidence |
-|---|---|---|
-| naya | converged | medium confidence |
-| syadvada | converged | medium confidence |
-| saptabhangi | converged | medium confidence |
-| karma | converged | medium confidence |
-| moksha | converged | medium confidence |
-| paramanu | converged | medium confidence |
-| anekantavada | contested | medium confidence |
-| dravya | converged | medium confidence |
-| jiva | converged | medium confidence |
-| ajiva | converged | medium confidence |
-| pudgala | converged | medium confidence |
-| skandha | converged | medium confidence |
+| concept | status | confidence | TS verse(s) fetched |
+|---|---|---|---|
+| tattva-jain | converged | medium (near-high) | TS 1.4 ✓ |
+| pramana | converged | medium | TS 1.6 ✓ |
+| naya | converged | medium | TS 1.33 ✓ |
+| jiva | converged | medium | TS 2.8/2.9/2.10 |
+| ajiva | converged | medium | TS 5.1 ✓ |
+| dravya | converged | medium | TS 5.30/5.38/5.39 ✓ |
+| paramanu | converged | medium | TS 5.11 |
+| pudgala | converged | medium | TS 5.5 ✓ |
+| skandha | converged | medium | TS 5.14 |
+| asrava | converged | medium | TS 6.2 ✓ |
+| karma | converged | medium | TS 8.1/8.3 (via Wikipedia) |
+| bandha | converged | medium | TS 8.1 ✓ |
+| nirjara | converged | medium | TS 8.23 ✓ |
+| samvara | converged | low | TS 9 index only |
+| moksha | converged | medium | TS 10.2 (via Wikipedia) |
+| anekantavada | contested | medium | — |
+| syadvada | converged | medium | — |
+| saptabhangi | converged | medium | — |
+| kevala-jnana | converged | medium | — |
+| loka-jain | converged | medium | — |
+| ahimsa | converged | medium | — |
 
 ## Buddhist Canon
 
 | concept | status | confidence |
 |---|---|---|
-| skandha-buddhist | converged | medium confidence |
+| skandha-buddhist | converged | medium |
+| anatta-buddhist | contested | medium |
+| nirvana-buddhist | converged | medium |
+| pratityasamutpada | converged | medium |
 
-## Non-Indian Parallels / Physics Comparanda
+## Greek / Western Philosophy
 
-*(nodes created by forward links; no files written yet)*
-
-| concept | status | notes |
+| concept | status | confidence |
 |---|---|---|
-| paramanu-vaisheshika | converged | medium confidence |
-| modern-atom | unwritten | forward-link target from paramanu |
-| quantum-complementarity | unwritten | forward-link target from anekantavada |
-| many-valued-logic | unwritten | forward-link target from saptabhangi |
-| karma-vedic | unwritten | forward-link target from karma |
-| moksha-advaita | unwritten | forward-link target from moksha |
-| pramana | unwritten | forward-link target from naya |
-| atman-vedanta | unwritten | forward-link target from jiva |
-| dravya-vaisheshika | unwritten | forward-link target from dravya, paramanu-vaisheshika |
-| prakriti-samkhya | unwritten | forward-link target from pudgala |
+| democritus-atom | converged | medium |
+| many-valued-logic | converged | medium |
+
+## Modern Physics Comparanda
+
+| concept | status | confidence |
+|---|---|---|
+| modern-atom | converged | high |
+
+## Unwritten Forward-Link Targets
+
+*(Referenced by written concepts; no files yet)*
+
+| concept | status | forward-link from |
+|---|---|---|
+| quantum-complementarity | unwritten | anekantavada |
+| sunyata | converged | brahman, maya-advaita |
+| moksha-advaita | unwritten | atman-vedanta, moksha |
+| omniscience-vedanta | unwritten | kevala-jnana |
+| pramana-nyaya | unwritten | pramana |
+| ahimsa-buddhist | unwritten | ahimsa |
