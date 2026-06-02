@@ -29,6 +29,8 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | concept | status | confidence |
 |---|---|---|
 | naya | converged | medium confidence |
+| syadvada | converged | medium confidence |
+| saptabhangi | converged | medium confidence |
 | karma | converged | medium confidence |
 | moksha | converged | medium confidence |
 | paramanu | converged | medium confidence |
@@ -41,7 +43,9 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 
 ## Buddhist Canon
 
-*(none yet)*
+| concept | status | confidence |
+|---|---|---|
+| skandha-buddhist | converged | medium confidence |
 
 ## Non-Indian Parallels / Physics Comparanda
 
@@ -52,5 +56,10 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | paramanu-vaisheshika | converged | medium confidence |
 | modern-atom | unwritten | forward-link target from paramanu |
 | quantum-complementarity | unwritten | forward-link target from anekantavada |
-| syadvada | converged | medium confidence |
-| saptabhangi | converged | medium confidence |
+| many-valued-logic | unwritten | forward-link target from saptabhangi |
+| karma-vedic | unwritten | forward-link target from karma |
+| moksha-advaita | unwritten | forward-link target from moksha |
+| pramana | unwritten | forward-link target from naya |
+| atman-vedanta | unwritten | forward-link target from jiva |
+| dravya-vaisheshika | unwritten | forward-link target from dravya, paramanu-vaisheshika |
+| prakriti-samkhya | unwritten | forward-link target from pudgala |

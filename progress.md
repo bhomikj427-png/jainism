@@ -75,7 +75,7 @@ Cross-tradition comparanda (not yet written):
 | 4 | `karma.md` | done | converged, medium confidence; TS 8.1/8.3 from Wikipedia; 8 karma types from Bhagavati Sutra |
 | 5 | `moksha.md` | done | converged, medium confidence; TS 10.2 cited; four infinites from Purusarthasiddhyupaya |
 | 6 | `paramanu-vaisheshika.md` | done | converged, medium confidence; four-kind tiered-quality table; God/adrishta mechanism |
-| 7 | `skandha-buddhist.md` | pending | forward-link stub exists; Buddhist khandhas |
+| 7 | `skandha-buddhist.md` | done | converged, medium confidence; five-khandha table; anattā doctrine; vs-Jain comparison table |
 
 ## Run log — Batch 2
 *(appended at end-of-batch per §9)*
