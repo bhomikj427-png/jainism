@@ -31,7 +31,7 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | paramanu | converged | medium confidence |
 | anekantavada | contested | medium confidence |
 | dravya | converged | medium confidence |
-| jiva | pending | — |
+| jiva | converged | medium confidence |
 | ajiva | pending | — |
 | pudgala | pending | — |
 | skandha | pending | — |

@@ -12,7 +12,7 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 | 1 | `paramanu.md` | done | converged, confidence medium; Tatia Ch.5 wording not directly fetched — note in file |
 | 2 | `anekantavada.md` | done | contested, confidence medium; 8-row divergence table; Matilal/Dundas primary sources not directly fetched — noted |
 | 3 | `dravya.md` | done | converged, medium confidence; TS 5.30/5.38/5.39 cited; Tatia Ch.5 not fetched |
-| 4 | `jiva.md` | pending | |
+| 4 | `jiva.md` | done | converged, medium confidence; TS 2.8/2.9/2.10 cited; JainSquare unattributed; Tatia Ch.2 not fetched |
 | 5 | `ajiva.md` | pending | |
 | 6 | `pudgala.md` | pending | |
 | 7 | `skandha.md` | pending | |
