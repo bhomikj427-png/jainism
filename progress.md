@@ -144,7 +144,7 @@ Physics comparanda (if high confidence reading exists):
 | 3 | `nirjara.md` | done | converged, medium; TS 8.23 fetched directly |
 | 4 | `kevala-jnana.md` | done | converged, medium; 5-knowledge ladder; Digambara/Shvetambara difference noted |
 | 5 | `pramana.md` | done | converged, medium; TS 1.6 fetched directly; sakaladesha/vikaladeshe distinction from Pujyapada |
-| 6 | `atman-vedanta.md` | pending | Advaita/Upanishadic ātman — fills jīva NOT-equiv edge |
+| 6 | `atman-vedanta.md` | done | converged, medium; Wikipedia + Britannica; 4-school comparison table |
 | 7 | `karma-vedic.md` | pending | Hindu karma as intentional action vs. Jain physical matter |
 | 8 | `dravya-vaisheshika.md` | pending | Vaiśeṣika nine-substance system |
 | 9 | `modern-atom.md` | pending | empirical atom — fills paramāṇu NOT-equiv edge |
