@@ -170,7 +170,7 @@ Physics comparanda (if high confidence reading exists):
 | 2 | `anatta-buddhist.md` | done | contested, medium; SN 22.59 argument; ontological/methodological debate table; vs-jiva table |
 | 3 | `sunyata.md` | done | converged, medium; MMK 24.18; emptiness-of-emptiness; vs Jain dravya-realism table |
 | 4 | `maya-advaita.md` | done | contested, medium; Shankara realistic vs post-Shankara illusory debate; vs Jain co-equal realism |
-| 5 | `ahimsa.md` | pending | non-violence — ethical link to anekāntavāda and jīva |
+| 5 | `ahimsa.md` | done | converged, medium; 6-jiva-category table; 5 mahavrata; intellectual-ahimsa overlay cautioned |
 | 6 | `guna-samkhya.md` | pending | Sāṃkhya three qualities (tamas/rajas/sattva) — compare with pudgala qualities |
 | 7 | `many-valued-logic.md` | pending | fills saptabhaṅgī NOT-equiv stub |
 
