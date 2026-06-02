@@ -77,5 +77,58 @@ Cross-tradition comparanda (not yet written):
 | 6 | `paramanu-vaisheshika.md` | done | converged, medium confidence; four-kind tiered-quality table; God/adrishta mechanism |
 | 7 | `skandha-buddhist.md` | done | converged, medium confidence; five-khandha table; anattā doctrine; vs-Jain comparison table |
 
-## Run log — Batch 2
-*(appended at end-of-batch per §9)*
+## Run log — Batch 2 (2026-06-02)
+
+### Concepts completed: 7 / 7
+
+| concept | status | confidence | key source confirmed |
+|---|---|---|---|
+| naya | converged | medium | TS 1.33 (Vijay K. Jain 2018); Pujyapada + Prabhacandra definitions independent |
+| syadvada | converged | medium | Baruah 2017 + New World Enc. (independent); Sankara critique documented |
+| saptabhangi | converged | medium | Wikipedia (citing Mallavadin 5-6c); 7-predication table; Lukasiewicz NOT-equiv |
+| karma | converged | medium | TS 8.1/8.3 via Wikipedia; 8 karma types from Bhagavati Sutra (Bagadia 2016) |
+| moksha | converged | medium | TS 10.2 via Wikipedia; TS 1.1 tri-ratna noted |
+| paramanu-vaisheshika | converged | medium | New World Enc. + Wikipedia (independent); 4-kind tiered-quality table |
+| skandha-buddhist | converged | medium | Wikipedia; five-khandha table; anattman doctrine; vs-Jain comparison table |
+
+### Nothing blocked or needs-opus-review
+
+All 7 completed. No blocking.
+
+### Graph (updated)
+`graph/graph.dot` regenerated: **23 nodes** (14 written, 9 unwritten forward-link targets), **39 edges**.
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+Node count still below 30; `build_graph.py` will not yet emit Cytoscape HTML (threshold is >30).
+
+### Highlights / notable findings this batch
+
+1. **naya has the strongest independence so far**: two genuinely independent commentarial definitions (Pūjyapāda, ~5th–6th c., and Prabhācandra, ~10th–11th c.) both converge on "partial-aspect valid knowledge without discarding the whole." This is the only concept where confidence could arguably be raised to high — pending Tatia Chapter 1 verification.
+
+2. **Saptabhaṅgī is post-TS**: Like anekāntavāda's term, the saptabhaṅgī scheme was first systematised by Mallavādin (~5th–6th c.), not Umāsvāti. The TS provides the naya foundation; the seven-fold predication is a subsequent formalisation.
+
+3. **Karma's physicalism is the standout**: Jain karma as fine physical matter (fine skandha) is unique among major Indian traditions. Hindu/Vedic and Buddhist karma are not material particles — the physical-matter account is specifically Jain.
+
+4. **Buddhist anattā directly contradicts Jain jīva**: the `often-conflated-with-NOT-equivalent: skandha` edge between Jain skandha and Buddhist khandha marks a deep ontological split — one tradition has permanent individual souls, the other denies them.
+
+### Recurring confidence ceiling: medium
+
+Same root cause as batch 1: Nathmal Tatia 1994 chapter texts not independently fetched. Additionally, for cross-tradition concepts (paramāṇu-vaiśeṣika, skandha-buddhist): primary critical-edition texts (Vaiśeṣika Sūtra, Pali Canon SN22) not directly fetched.
+
+### Suggested Batch 3 (names only — no files written)
+
+Jain soteriology remaining:
+- `samvara` (stoppage of karmic influx; the turning point in soteriology)
+- `nirjara` (karma erosion; the active purification process)
+- `asrava` (karmic influx; the beginning of the soteriological problem)
+- `kevala-jnana` (omniscience; the pre-liberation cognitive state)
+
+Logic / epistemology:
+- `pramana` (forward-link exists; valid cognition, contrasted with naya)
+
+Cross-tradition (forward-links exist):
+- `atman-vedanta` (write the Advaita/Upanishadic side)
+- `karma-vedic` (write the Hindu karma account)
+- `dravya-vaisheshika` (write full Vaiśeṣika nine-substance system)
+
+Physics comparanda (if high confidence reading exists):
+- `modern-atom` (the forward-link target; write the empirical-physics side of the NOT-equivalent edge)
