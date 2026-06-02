@@ -1,4 +1,4 @@
-# progress.md — Batch 1 Work Queue
+# progress.md — Batch 1 & 2 Work Queue
 
 ## Anchor text
 **Tattvārtha Sūtra** (Umāsvāti / Umāsvāmī) — to be confirmed by fetch before writing concepts.
@@ -62,3 +62,20 @@ Core Jain soteriology and epistemology to extend the graph:
 Cross-tradition comparanda (not yet written):
 - `paramanu-vaisheshika` (forward-link exists)
 - `skandha-buddhist` (forward-link exists; Buddhist khandhas)
+
+---
+
+## Batch 2 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `naya.md` | pending | Jain standpoint doctrine; foundation of anekāntavāda |
+| 2 | `syadvada.md` | pending | forward-link stub exists; conditioned predication |
+| 3 | `saptabhangi.md` | pending | forward-link stub exists; sevenfold predication |
+| 4 | `karma.md` | pending | karmic matter as fine skandha; bridges physics/soteriology |
+| 5 | `moksha.md` | pending | liberation; completes jīva arc |
+| 6 | `paramanu-vaisheshika.md` | pending | forward-link stub exists; Vaiśeṣika side |
+| 7 | `skandha-buddhist.md` | pending | forward-link stub exists; Buddhist khandhas |
+
+## Run log — Batch 2
+*(appended at end-of-batch per §9)*
