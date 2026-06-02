@@ -70,7 +70,7 @@ Cross-tradition comparanda (not yet written):
 | # | concept (filename) | status | notes |
 |---|---|---|---|
 | 1 | `naya.md` | done | converged, medium confidence; two independent definitions (Pujyapada + Prabhacandra); TS 1.33 fetched |
-| 2 | `syadvada.md` | pending | forward-link stub exists; conditioned predication |
+| 2 | `syadvada.md` | done | converged, medium confidence; two independent sources; Sankara critique documented |
 | 3 | `saptabhangi.md` | pending | forward-link stub exists; sevenfold predication |
 | 4 | `karma.md` | pending | karmic matter as fine skandha; bridges physics/soteriology |
 | 5 | `moksha.md` | pending | liberation; completes jīva arc |
