@@ -171,7 +171,7 @@ Physics comparanda (if high confidence reading exists):
 | 3 | `sunyata.md` | done | converged, medium; MMK 24.18; emptiness-of-emptiness; vs Jain dravya-realism table |
 | 4 | `maya-advaita.md` | done | contested, medium; Shankara realistic vs post-Shankara illusory debate; vs Jain co-equal realism |
 | 5 | `ahimsa.md` | done | converged, medium; 6-jiva-category table; 5 mahavrata; intellectual-ahimsa overlay cautioned |
-| 6 | `guna-samkhya.md` | pending | Sāṃkhya three qualities (tamas/rajas/sattva) — compare with pudgala qualities |
+| 6 | `guna-samkhya.md` | done | converged, medium; 3-guna table; Samkhya vs Jain guna structural difference |
 | 7 | `many-valued-logic.md` | pending | fills saptabhaṅgī NOT-equiv stub |
 
 ## Run logs — Batches 3–5
