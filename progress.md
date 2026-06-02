@@ -156,7 +156,7 @@ Physics comparanda (if high confidence reading exists):
 | 1 | `prakriti-samkhya.md` | done | converged, medium; 25-tattva sketch; 3-tradition comparison table |
 | 2 | `purusha-samkhya.md` | done | converged, medium; SK 19 cited; passive-witness vs active-jiva table |
 | 3 | `nirvana-buddhist.md` | done | converged, medium; Udana 8.1-4 cited; 3-tradition liberation table |
-| 4 | `pratityasamutpada.md` | pending | Buddhist dependent origination — compare with karma/bandha |
+| 4 | `pratityasamutpada.md` | done | converged, medium; idappaccayata formula; 12-link table; vs-Jain karma table |
 | 5 | `brahman.md` | pending | Advaita absolute — connects to ātman-vedānta |
 | 6 | `tattva-jain.md` | pending | the seven fundamental categories (Jain) |
 | 7 | `loka-jain.md` | pending | Jain cosmology — lokāgra, siddha location |
