@@ -420,6 +420,7 @@ digraph ancient_texts {
   "kala-dravya"    [label="kāla"           style=filled fillcolor="#f5c518" shape=ellipse];
   "upayoga"        [label="upayoga"        style=filled fillcolor="#f5c518" shape=ellipse];
   "arihant"        [label="arihant"        style=filled fillcolor="#f5c518" shape=ellipse];
+  "dignaga-pramana"[label="pramāṇa (Dignāga)" style=filled fillcolor="#ffa07a" shape=ellipse];
   "dharma-dravya" [label="dharmāstikāya"   style=filled fillcolor="#f5c518" shape=ellipse];
   "adharma-dravya"[label="adharmāstikāya"  style=filled fillcolor="#f5c518" shape=ellipse];
   "jina"          [label="jina"            style=filled fillcolor="#f5c518" shape=ellipse];
@@ -444,6 +445,14 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain"    [label="expressed-by"                    style=solid  color="#555555"];
   "adharma-dravya" -> "dharma-dravya"[label="structurally-parallel-to"        style=dashed color="#009933"];
   "adharma-dravya" -> "karma-vedic"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* dignaga-pramana.md */
+  "dignaga-pramana" -> "pramana-nyaya"     [label="shares-vocabulary-with"             style=dashed color="#0066cc"];
+  "dignaga-pramana" -> "pramana-nyaya"     [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "dignaga-pramana" -> "pramana"           [label="shares-vocabulary-with"             style=dashed color="#0066cc"];
+  "dignaga-pramana" -> "pramana"           [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "dignaga-pramana" -> "anatta-buddhist"   [label="part-of"                            style=solid  color="#333333"];
+  "dignaga-pramana" -> "pratityasamutpada" [label="part-of"                            style=solid  color="#333333"];
 
   /* omniscience-vedanta.md */
   "omniscience-vedanta" -> "kevala-jnana"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
