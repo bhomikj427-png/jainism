@@ -438,7 +438,7 @@ Physics/logic comparanda:
 | 4 | `arihant.md` | done | converged, medium; Wikipedia + Jainworld; 4-ghati/4-aghati table; gunasthana 13-14; not-a-god |
 | 5 | `omniscience-vedanta.md` | done | converged, medium; fills unwritten stub; saguna/nirguna split; tatasta vs svarupa; vs kevala-jnana |
 | 6 | `dignaga-pramana.md` | done | converged, medium; Enc. of Buddhism; svalakshana/samanyalakshana; non-conceptual perception; apoha; 3-tradition table |
-| 7 | `quantum-complementarity.md` | pending | |
+| 7 | `quantum-complementarity.md` | done | converged, medium; fills last stub; hard measurement exclusivity vs ontological coexistence; D.S. Kothari analogy defused |
 
 ## Run log — Batch 9
 *(appended at end-of-batch per §9)*

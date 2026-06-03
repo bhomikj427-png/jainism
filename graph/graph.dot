@@ -70,7 +70,7 @@ digraph ancient_texts {
   "many-valued-logic"   [label="many-valued logic"      style=filled fillcolor="#e0e0e0" shape=ellipse];
 
   /* === UNWRITTEN STUBS (box) === */
-  "quantum-complementarity" [label="quantum complementarity" style=filled fillcolor="#dddddd" shape=box];
+  "quantum-complementarity" [label="quantum complementarity" style=filled fillcolor="#e0e0e0" shape=ellipse];
   "moksha-advaita"      [label="mokṣa (Advaita)"        style=filled fillcolor="#b0e0b0" shape=ellipse];
   "omniscience-vedanta" [label="omniscience (Vedānta)"   style=filled fillcolor="#b0e0b0" shape=ellipse];
   "pramana-nyaya"       [label="pramāṇa (Nyāya)"        style=filled fillcolor="#82b4ff" shape=ellipse];
@@ -445,6 +445,12 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain"    [label="expressed-by"                    style=solid  color="#555555"];
   "adharma-dravya" -> "dharma-dravya"[label="structurally-parallel-to"        style=dashed color="#009933"];
   "adharma-dravya" -> "karma-vedic"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* quantum-complementarity.md */
+  "quantum-complementarity" -> "anekantavada" [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "quantum-complementarity" -> "anekantavada" [label="structurally-parallel-to"           style=dashed color="#009933"];
+  "quantum-complementarity" -> "many-valued-logic" [label="structurally-parallel-to"      style=dashed color="#009933"];
+  "quantum-complementarity" -> "many-valued-logic" [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
 
   /* dignaga-pramana.md */
   "dignaga-pramana" -> "pramana-nyaya"     [label="shares-vocabulary-with"             style=dashed color="#0066cc"];
