@@ -494,3 +494,20 @@ Remaining threads to close:
 - `paroksha-jnana` — indirect knowledge in Jain system; counterpart to upayoga/pratyaksha treatment
 
 **Lower priority** (later batches): Greek philosophy (Aristotle substance, Plato forms); Mīmāṃsā epistemology; Yoga psychology (citta-vritti)
+
+---
+
+## Batch 10 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `mati-jnana.md` | pending | |
+| 2 | `shruta-jnana.md` | pending | |
+| 3 | `anicca.md` | pending | |
+| 4 | `paroksha-jnana.md` | pending | |
+| 5 | `avatara-vedanta.md` | pending | |
+| 6 | `acarya.md` | pending | |
+| 7 | `mimamsa-pramana.md` | pending | |
+
+## Run log — Batch 10
+*(appended at end-of-batch per §9)*
