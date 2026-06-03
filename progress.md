@@ -358,8 +358,8 @@ Filling structural gaps and unwritten stubs:
 | # | concept (filename) | status | notes |
 |---|---|---|---|
 | 1 | `kashaya.md` | done | converged, medium; TS 6.5 FETCHED; 16-type matrix; gunasthana arc |
-| 2 | `dharma-dravya.md` | pending | |
-| 3 | `adharma-dravya.md` | pending | |
+| 2 | `dharma-dravya.md` | done | converged, medium; TS 5.17 + 5.6 FETCHED; fish-in-water analogy; dharma ≠ Hindu dharma |
+| 3 | `adharma-dravya.md` | done | converged, medium; TS 5.17 + 5.6 FETCHED; earth analogy; paired with dharma-dravya |
 | 4 | `jina.md` | pending | |
 | 5 | `pramana-nyaya.md` | pending | |
 | 6 | `moksha-advaita.md` | pending | |
