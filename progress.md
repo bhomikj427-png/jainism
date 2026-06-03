@@ -436,7 +436,7 @@ Physics/logic comparanda:
 | 2 | `kala-dravya.md` | done | converged, medium; TS 5.22 + 5.39 FETCHED; vartana function; kala NOT astikaya; sectarian note |
 | 3 | `upayoga.md` | done | converged, medium; TS 2.8 FETCHED; sakara/nirakara; jnana/darsana; liberation arc |
 | 4 | `arihant.md` | done | converged, medium; Wikipedia + Jainworld; 4-ghati/4-aghati table; gunasthana 13-14; not-a-god |
-| 5 | `omniscience-vedanta.md` | pending | |
+| 5 | `omniscience-vedanta.md` | done | converged, medium; fills unwritten stub; saguna/nirguna split; tatasta vs svarupa; vs kevala-jnana |
 | 6 | `dignaga-pramana.md` | pending | |
 | 7 | `quantum-complementarity.md` | pending | |
 
