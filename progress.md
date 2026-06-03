@@ -357,7 +357,7 @@ Filling structural gaps and unwritten stubs:
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `kashaya.md` | pending | |
+| 1 | `kashaya.md` | done | converged, medium; TS 6.5 FETCHED; 16-type matrix; gunasthana arc |
 | 2 | `dharma-dravya.md` | pending | |
 | 3 | `adharma-dravya.md` | pending | |
 | 4 | `jina.md` | pending | |
