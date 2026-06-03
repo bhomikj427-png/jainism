@@ -360,7 +360,7 @@ Filling structural gaps and unwritten stubs:
 | 1 | `kashaya.md` | done | converged, medium; TS 6.5 FETCHED; 16-type matrix; gunasthana arc |
 | 2 | `dharma-dravya.md` | done | converged, medium; TS 5.17 + 5.6 FETCHED; fish-in-water analogy; dharma ≠ Hindu dharma |
 | 3 | `adharma-dravya.md` | done | converged, medium; TS 5.17 + 5.6 FETCHED; earth analogy; paired with dharma-dravya |
-| 4 | `jina.md` | pending | |
+| 4 | `jina.md` | done | converged, medium; Uttaradhyayana 9.34; jina/tirthankara/siddha taxonomy; non-creator clarified |
 | 5 | `pramana-nyaya.md` | pending | |
 | 6 | `moksha-advaita.md` | pending | |
 | 7 | `ahimsa-buddhist.md` | pending | |

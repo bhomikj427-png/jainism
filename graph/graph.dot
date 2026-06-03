@@ -418,6 +418,7 @@ digraph ancient_texts {
   "kashaya"       [label="kaṣāya"          style=filled fillcolor="#f5c518" shape=ellipse];
   "dharma-dravya" [label="dharmāstikāya"   style=filled fillcolor="#f5c518" shape=ellipse];
   "adharma-dravya"[label="adharmāstikāya"  style=filled fillcolor="#f5c518" shape=ellipse];
+  "jina"          [label="jina"            style=filled fillcolor="#f5c518" shape=ellipse];
 
   /* kashaya.md */
   "kashaya" -> "asrava"       [label="is-a-type-of"             style=solid  color="#333333"];
@@ -439,4 +440,12 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain"    [label="expressed-by"                    style=solid  color="#555555"];
   "adharma-dravya" -> "dharma-dravya"[label="structurally-parallel-to"        style=dashed color="#009933"];
   "adharma-dravya" -> "karma-vedic"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* jina.md */
+  "jina" -> "kevala-jnana"   [label="part-of"          style=solid  color="#333333"];
+  "jina" -> "moksha"         [label="part-of"          style=solid  color="#333333"];
+  "jina" -> "kashaya"        [label="expressed-by"     style=solid  color="#555555"];
+  "jina" -> "gunasthana"     [label="expressed-by"     style=solid  color="#555555"];
+  "jina" -> "tirthankara"    [label="is-a-type-of"     style=solid  color="#333333"];
+  "jina" -> "nirvana-buddhist" [label="shares-vocabulary-with" style=dashed color="#0066cc"];
 }
