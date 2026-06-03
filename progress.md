@@ -297,7 +297,7 @@ TS 5.30 (*utpādavyayadhrauvyayuktaṃ sat*) with Pūjyapāda's clay analogy is 
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `satya.md` | pending | second mahāvrata; truthfulness; TS 7.6 |
+| 1 | `satya.md` | done | converged, medium; TS 7.5 FETCHED; 5 observances; ahimsa constraint |
 | 2 | `asteya.md` | pending | third mahāvrata; non-stealing; TS 7.7 |
 | 3 | `brahmacarya.md` | pending | fourth mahāvrata; celibacy; TS 7.7 |
 | 4 | `dhyana-jain.md` | pending | four meditation types; TS Chapter 9 |
