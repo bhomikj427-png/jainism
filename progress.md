@@ -306,5 +306,61 @@ TS 5.30 (*utpādavyayadhrauvyayuktaṃ sat*) with Pūjyapāda's clay analogy is 
 | 7 | `dravyarthika-naya.md` | done | converged, medium; 3-naya table; rjusutra classification discrepancy noted |
 | 8 | `paryayarthika-naya.md` | done | converged, medium; 4-naya table; rjusutra-Buddhist momentariness link |
 
-## Run log — Batch 7
-*(appended at end-of-batch per §9)*
+## Run log — Batch 7 (2026-06-03)
+
+### Concepts completed: 8 / 8 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| satya | converged | medium | TS 7.5 FETCHED; 5 observances (anger/greed/fear/jest + careful speech); ahimsa constraint |
+| asteya | converged | medium | TS 7.6 FETCHED; 5 spatial-non-interference observances |
+| brahmacarya | converged | medium | TS 7.7 FETCHED; 5 desire-prevention observances; celibacy as mahavrata |
+| dhyana-jain | converged | medium | TS 9.28 FETCHED; arta/raudra = karma-generating; dharma/shukla = karma-destroying |
+| karma-vargana | converged | LOW | 8-vargana table; karmana body as finest pudgala; Satkhanda/Dravyasangraha not directly fetched |
+| leshya | converged | medium | Wikipedia + Uttaradhyayana Ch.34; 6-color table; crystal analogy; Dundas/Wiley/Jacobi |
+| dravyarthika-naya | converged | medium | 3-naya table (naigama/sangraha/vyavahara); rjusutra classification discrepancy noted |
+| paryayarthika-naya | converged | medium | 4-naya table (rjusutra/shabda/samabhirudha/evambhuta); vs Abhidharma momentariness |
+
+### TS verses directly fetched this batch
+- TS 7.5 (satya): five care-conditions for truth-telling
+- TS 7.6 (asteya): five spatial-non-interference observances
+- TS 7.7 (brahmacarya): five desire-prevention observances
+- TS 9.28 (dhyana-jain): four types of meditation
+
+### Graph (final state)
+`graph/graph.dot` updated: **54 nodes written + 6 unwritten stubs = 60 nodes total**, **~145 edges**.
+Unwritten stubs: quantum-complementarity, moksha-advaita, omniscience-vedanta, pramana-nyaya, ahimsa-buddhist, avatara-vedanta.
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+
+### Notable findings
+1. **All 5 mahāvratas are now complete**: ahimsa (Batch 5), aparigraha (Batch 6), satya/asteya/brahmacarya (Batch 7). The full ascetic ethics system is in the corpus.
+2. **karma-vargana is the only LOW-confidence concept** (after samvara was upgraded). The 8-vargana list comes from aggregated secondary sources; primary Digambara texts (Ṣaṭkhaṇḍāgama, Dravyasaṃgraha) not fetched.
+3. **naya system now fully mapped**: naya (general), dravyarthika-naya (substance-aspect) and paryayarthika-naya (mode-aspect) form the complete epistemological foundation of anekāntavāda.
+4. **paryayarthika-naya links to Buddhist momentariness**: the ṛjusūtra naya (present-moment only) is structurally parallel to Abhidharma momentariness — but the Jain framing treats it as a partial standpoint rather than the whole truth.
+
+### Corpus milestone: 54 concepts across 7 batches
+The three-tradition comparison (Jain / Buddhist / Hindu/Vedic) is now comprehensively mapped at the level of ontology, epistemology, soteriology, and ethics. The graph is dense enough for cross-tradition pattern-finding.
+
+### Suggested Batch 8
+Filling structural gaps and unwritten stubs:
+- `kashaya` — 4 passions (krodha/māna/māyā/lobha); central to karma-bondage mechanism; forward-linked from aparigraha, bandha, dhyana-jain
+- `dharma-dravya` — medium of motion (one of the 6 ajīva dravyas); completes the dravya-substance system
+- `adharma-dravya` — medium of rest; pairs with dharma-dravya; together explain why things stop
+- `jina` — the "conqueror"; individual who achieves liberation; companion to tirthankara
+- `pramana-nyaya` — Nyāya 4-pramana theory; fills unwritten stub; vs Jain 2-pramana comparison
+- `moksha-advaita` — Advaita liberation; fills unwritten stub; completes 3-tradition liberation map
+- `ahimsa-buddhist` — Buddhist compassion ethics; fills unwritten stub; mettā/karuṇā vs Jain ahiṃsā
+
+---
+
+## Batch 8 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `kashaya.md` | pending | |
+| 2 | `dharma-dravya.md` | pending | |
+| 3 | `adharma-dravya.md` | pending | |
+| 4 | `jina.md` | pending | |
+| 5 | `pramana-nyaya.md` | pending | |
+| 6 | `moksha-advaita.md` | pending | |
+| 7 | `ahimsa-buddhist.md` | pending | |

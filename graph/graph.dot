@@ -351,4 +351,62 @@ digraph ancient_texts {
   "sat" -> "paryaya"                [label="expressed-by" style=solid color="#555555"];
   "sat" -> "anekantavada"           [label="expressed-by" style=solid color="#555555"];
   "sat" -> "brahman"                [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* ================================================================
+     BATCH 7 ADDITIONS
+     ================================================================ */
+
+  /* New written nodes — Jain */
+  "satya"              [label="satya"              style=filled fillcolor="#f5c518" shape=ellipse];
+  "asteya"             [label="asteya"             style=filled fillcolor="#f5c518" shape=ellipse];
+  "brahmacarya"        [label="brahmacarya"        style=filled fillcolor="#f5c518" shape=ellipse];
+  "dhyana-jain"        [label="dhyāna (Jain)"      style=filled fillcolor="#f5c518" shape=ellipse];
+  "karma-vargana"      [label="kārmaṇa-varganā"    style=filled fillcolor="#f5c518" shape=ellipse];
+  "leshya"             [label="leśyā"              style=filled fillcolor="#f5c518" shape=ellipse];
+  "dravyarthika-naya"  [label="dravyārthika naya"  style=filled fillcolor="#f5c518" shape=ellipse];
+  "paryayarthika-naya" [label="paryāyārthika naya" style=filled fillcolor="#f5c518" shape=ellipse];
+
+  /* satya.md */
+  "satya" -> "ahimsa"          [label="part-of"   style=solid  color="#333333"];
+  "satya" -> "aparigraha"      [label="part-of"   style=solid  color="#333333"];
+  "satya" -> "karma"           [label="part-of"   style=solid  color="#333333"];
+
+  /* asteya.md */
+  "asteya" -> "ahimsa"         [label="part-of"   style=solid  color="#333333"];
+  "asteya" -> "aparigraha"     [label="part-of"   style=solid  color="#333333"];
+  "asteya" -> "karma"          [label="part-of"   style=solid  color="#333333"];
+
+  /* brahmacarya.md */
+  "brahmacarya" -> "ahimsa"    [label="part-of"   style=solid  color="#333333"];
+  "brahmacarya" -> "karma"     [label="part-of"   style=solid  color="#333333"];
+  "brahmacarya" -> "aparigraha" [label="part-of"  style=solid  color="#333333"];
+  "brahmacarya" -> "tirthankara" [label="part-of" style=solid  color="#333333"];
+
+  /* dhyana-jain.md */
+  "dhyana-jain" -> "samvara"       [label="part-of"    style=solid  color="#333333"];
+  "dhyana-jain" -> "nirjara"       [label="part-of"    style=solid  color="#333333"];
+  "dhyana-jain" -> "gunasthana"    [label="formalizes" style=solid  color="#555555"];
+  "dhyana-jain" -> "kevala-jnana"  [label="part-of"    style=solid  color="#333333"];
+
+  /* karma-vargana.md */
+  "karma-vargana" -> "skandha"     [label="is-a-type-of"  style=solid  color="#333333"];
+  "karma-vargana" -> "pudgala"     [label="is-a-type-of"  style=solid  color="#333333"];
+  "karma-vargana" -> "karma"       [label="expressed-by"  style=solid  color="#555555"];
+  "karma-vargana" -> "bandha"      [label="part-of"       style=solid  color="#333333"];
+
+  /* leshya.md */
+  "leshya" -> "karma"          [label="part-of"    style=solid  color="#333333"];
+  "leshya" -> "gunasthana"     [label="formalizes" style=solid  color="#555555"];
+  "leshya" -> "jiva"           [label="part-of"    style=solid  color="#333333"];
+
+  /* dravyarthika-naya.md */
+  "dravyarthika-naya" -> "naya"      [label="part-of"      style=solid  color="#333333"];
+  "dravyarthika-naya" -> "sat"       [label="expressed-by" style=solid  color="#555555"];
+  "dravyarthika-naya" -> "anekantavada" [label="expressed-by" style=solid color="#555555"];
+
+  /* paryayarthika-naya.md */
+  "paryayarthika-naya" -> "naya"      [label="part-of"      style=solid  color="#333333"];
+  "paryayarthika-naya" -> "paryaya"   [label="expressed-by" style=solid  color="#555555"];
+  "paryayarthika-naya" -> "anekantavada" [label="expressed-by" style=solid color="#555555"];
+  "paryayarthika-naya" -> "abhidharma"   [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
 }
