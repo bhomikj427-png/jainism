@@ -74,7 +74,7 @@ digraph ancient_texts {
   "moksha-advaita"      [label="mokṣa (Advaita)"        style=filled fillcolor="#b0e0b0" shape=ellipse];
   "omniscience-vedanta" [label="omniscience (Vedānta)"   style=filled fillcolor="#dddddd" shape=box];
   "pramana-nyaya"       [label="pramāṇa (Nyāya)"        style=filled fillcolor="#82b4ff" shape=ellipse];
-  "ahimsa-buddhist"     [label="ahiṃsā (Buddhist)"      style=filled fillcolor="#dddddd" shape=box];
+  "ahimsa-buddhist"     [label="ahiṃsā (Buddhist)"      style=filled fillcolor="#ffa07a" shape=ellipse];
 
   /* ================================================================
      EDGES
@@ -440,6 +440,12 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain"    [label="expressed-by"                    style=solid  color="#555555"];
   "adharma-dravya" -> "dharma-dravya"[label="structurally-parallel-to"        style=dashed color="#009933"];
   "adharma-dravya" -> "karma-vedic"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* ahimsa-buddhist.md */
+  "ahimsa-buddhist" -> "ahimsa"            [label="shares-vocabulary-with"             style=dashed color="#0066cc"];
+  "ahimsa-buddhist" -> "ahimsa"            [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "ahimsa-buddhist" -> "pratityasamutpada" [label="part-of"                            style=solid  color="#333333"];
+  "ahimsa-buddhist" -> "nirvana-buddhist"  [label="part-of"                            style=solid  color="#333333"];
 
   /* moksha-advaita.md */
   "moksha-advaita" -> "moksha"         [label="shares-vocabulary-with"             style=dashed color="#0066cc"];

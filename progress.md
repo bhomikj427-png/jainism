@@ -363,4 +363,4 @@ Filling structural gaps and unwritten stubs:
 | 4 | `jina.md` | done | converged, medium; Uttaradhyayana 9.34; jina/tirthankara/siddha taxonomy; non-creator clarified |
 | 5 | `pramana-nyaya.md` | done | converged, medium; IEP cited; 4-pramana vs Jain 2-pramana table; Dignaga Buddhist challenge noted |
 | 6 | `moksha-advaita.md` | done | converged, medium; Vivekacudamani + Wikipedia; 3-tradition liberation table; intra-Vedanta split |
-| 7 | `ahimsa-buddhist.md` | pending | |
+| 7 | `ahimsa-buddhist.md` | done | converged, medium; Dhammapada 10.129; brahmaviharas; intentional vs ontological ahimsa table |
