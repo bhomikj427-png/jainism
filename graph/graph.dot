@@ -422,6 +422,7 @@ digraph ancient_texts {
   "arihant"        [label="arihant"        style=filled fillcolor="#f5c518" shape=ellipse];
   "dignaga-pramana"[label="pramāṇa (Dignāga)" style=filled fillcolor="#ffa07a" shape=ellipse];
   "mati-jnana"     [label="matijñāna"         style=filled fillcolor="#f5c518" shape=ellipse];
+  "shruta-jnana"   [label="śrutajñāna"        style=filled fillcolor="#f5c518" shape=ellipse];
   "dharma-dravya" [label="dharmāstikāya"   style=filled fillcolor="#f5c518" shape=ellipse];
   "adharma-dravya"[label="adharmāstikāya"  style=filled fillcolor="#f5c518" shape=ellipse];
   "jina"          [label="jina"            style=filled fillcolor="#f5c518" shape=ellipse];
@@ -446,6 +447,12 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain"    [label="expressed-by"                    style=solid  color="#555555"];
   "adharma-dravya" -> "dharma-dravya"[label="structurally-parallel-to"        style=dashed color="#009933"];
   "adharma-dravya" -> "karma-vedic"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* shruta-jnana.md */
+  "shruta-jnana" -> "pramana"       [label="is-a-type-of"                    style=solid  color="#333333"];
+  "shruta-jnana" -> "mati-jnana"    [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "shruta-jnana" -> "upayoga"       [label="expressed-by"                    style=solid  color="#555555"];
+  "shruta-jnana" -> "pramana-nyaya" [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
 
   /* mati-jnana.md */
   "mati-jnana" -> "pramana"          [label="is-a-type-of"                    style=solid  color="#333333"];
