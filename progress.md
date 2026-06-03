@@ -244,7 +244,7 @@ Node count 43 > 30 → `build_graph.py` would now emit Cytoscape HTML if Python 
 | 2 | `paryaya.md` | done | converged, medium; TS 5.38 fetched directly; anvaya/vyatireka from Pujyapada |
 | 3 | `tirthankara.md` | done | converged, medium; 24-per-cycle; non-creator; Parsvanatha/Mahavira historical |
 | 4 | `catuskoti.md` | done | converged, medium; avyakata + Nagarjuna prasanga uses; vs saptabhangi table; Priest/Schang cited |
-| 5 | `namarupa.md` | pending | Buddhist name-and-form; connects skandha/pratityasamutpada |
+| 5 | `namarupa.md` | done | converged, medium; DN15 loop; nāma/rūpa breakdown; vs Jain jiva |
 | 6 | `abhidharma.md` | pending | Buddhist dharma-analysis; compare with Jain dravya |
 | 7 | `aparigraha.md` | pending | non-possessiveness; fifth mahavrata; compare with moksha |
 | 8 | `sat.md` | pending | "being/existence" in Jain ontology; TS 5.29 — sat = utpada+vyaya+dhrauvya |
