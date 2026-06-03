@@ -300,7 +300,7 @@ TS 5.30 (*utpādavyayadhrauvyayuktaṃ sat*) with Pūjyapāda's clay analogy is 
 | 1 | `satya.md` | done | converged, medium; TS 7.5 FETCHED; 5 observances; ahimsa constraint |
 | 2 | `asteya.md` | done | converged, medium; TS 7.6 FETCHED; 5 spatial-non-interference observances |
 | 3 | `brahmacarya.md` | done | converged, medium; TS 7.7 FETCHED; 5 desire-prevention observances |
-| 4 | `dhyana-jain.md` | pending | four meditation types; TS Chapter 9 |
+| 4 | `dhyana-jain.md` | done | converged, medium; TS 9.28 FETCHED; arta/raudra=karma-generating, dharma/shukla=karma-destroying |
 | 5 | `karma-vargana.md` | pending | karma-class matter; 8 vargaṇā types |
 | 6 | `leshya.md` | pending | six karmic colorings; guṇasthāna indicator |
 | 7 | `dravyarthika-naya.md` | pending | substance-standpoint nayas (first 3); TS 1.33 |
