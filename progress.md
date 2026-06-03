@@ -509,5 +509,56 @@ Remaining threads to close:
 | 6 | `acarya.md` | done | converged, medium; Wikipedia + Namaskar Mantra; panca-paramesthi table; not-a-god |
 | 7 | `mimamsa-pramana.md` | done | converged, medium; Wikipedia; 5/6 pramanas; apauruseyatva; svatah-pramanya; arthapatti; Kumarila vs Dignaga |
 
-## Run log — Batch 10
-*(appended at end-of-batch per §9)*
+## Run log — Batch 10 (2026-06-03)
+
+### Concepts completed: 7 / 7 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| mati-jnana | converged | medium | TS 1.15+1.26 FETCHED; 4-stage arc; paroksha paradox; inverted vs Dignaga/Nyaya |
+| shruta-jnana | converged | medium | TS 1.9+1.26 FETCHED; paroksha/preceded-by-mati; Samayasara text≠knowledge |
+| anicca | converged | medium | Dhp 277-279 + SN 22.59; conditioned/unconditioned split; 3-tradition permanence table |
+| paroksha-jnana | converged | medium | TS 1.9 (cross-ref); paroksha/pratyaksha inversion across all 3 epistemologies |
+| avatara-vedanta | converged | medium | BG 4.7-4.8; fills last stub (0 stubs now remain); descent vs ascent vs tirthankara |
+| acarya | converged | medium | Wikipedia + Namaskar Mantra; panca-paramesthi table; non-liberated path-leader |
+| mimamsa-pramana | converged | medium | Wikipedia; 5/6-pramana; apauruseyatva+svatah-pramanya; arthapatti; Kumarila vs Dignaga |
+
+### TS verses directly fetched this session
+- TS 1.15 (mati-jnana four stages): *avagrahehāvāyadhāraṇāḥ*
+- TS 1.9 (five knowledge types): *matiśrutāvadhimanaḥparyayakevalāni jñānam*
+- TS 1.26 (range of mati + shruta): *matiśrutayornibandho dravyeṣvasarvaparyāyeṣu*
+
+### Graph (final state)
+`graph/graph.dot` updated: **75 written nodes, 0 unwritten stubs — 75 total**.
+All previously pending stubs (quantum-complementarity, omniscience-vedanta, pramana-nyaya, ahimsa-buddhist, moksha-advaita, avatara-vedanta) are now fully written concepts.
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+
+### Notable findings this batch
+
+1. **Epistemology coverage now complete across four traditions**: Jain (2-pramāṇa / parokṣa-pratyakṣa inversion), Buddhist/Dignāga (2-pramāṇa / non-conceptual perception), Nyāya (4-pramāṇa / conceptual), Mīmāṃsā (5–6-pramāṇa / apauruṣeya-śabda). The Kumārila vs. Dignāga historical debate is the spine connecting Buddhist and Hindu epistemology.
+
+2. **The parokṣa paradox is the Jain epistemology signature**: sensory perception is *parokṣa* (indirect) in Jainism because the soul's contact with the object is mediated. This directly inverts Nyāya and Buddhist usage. mati-jnana.md + paroksha-jnana.md together document this.
+
+3. **Anicca completes the permanence triangle**: Buddhist (no permanent substrate) / Jain sat (permanent dravya + changing paryāya) / Advaita (only brahman is permanent, change is māyā). All three are now written and cross-linked.
+
+4. **All stubs filled; 0 remaining**: The graph is now a clean 75-node, no-stub structure.
+
+5. **Mīmāṃsā is the fourth epistemological tradition**: with mimamsa-pramana.md, the corpus now covers Indian epistemology exhaustively at the "major school" level — Nyāya, Mīmāṃsā, Buddhist (Dignāga), and Jain.
+
+### Corpus milestone: 75 concepts across 10 batches. 0 unwritten stubs.
+
+### Suggested Batch 11
+With all major structures in place, Batch 11 can deepen specific threads:
+
+Jain knowledge system:
+- `avadhi-jnana` — clairvoyance; pratyakṣa; limited range; Digambara/Shvetambara difference
+- `manah-paryaya-jnana` — telepathy; higher than avadhi; limited to human minds
+
+Cross-tradition logic/inference:
+- `vyapti` — invariable concomitance (the key concept in Indian inference — Nyāya, Buddhist, Jain all use it)
+- `hetu-vidya` — Buddhist logic as a tradition (Dignāga-Dharmakīrti line)
+
+Cross-tradition ethics:
+- `ahimsa-vedic` — Vedic/Hindu non-violence; how it differs from Jain and Buddhist
+- `dana` — giving/charity; present across traditions with different metaphysical groundings
+- `tapas` — austerity; shared vocabulary across Jain/Hindu/Buddhist with different ontologies
