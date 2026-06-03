@@ -300,7 +300,7 @@ digraph ancient_texts {
   "sat"           [label="sat"          style=filled fillcolor="#f5c518" shape=ellipse];
 
   /* New unwritten stub */
-  "avatara-vedanta" [label="avatāra (Vedānta)" style=filled fillcolor="#dddddd" shape=box];
+  "avatara-vedanta" [label="avatāra (Vedānta)" style=filled fillcolor="#b0e0b0" shape=ellipse];
 
   /* gunasthana.md */
   "gunasthana" -> "bandha"         [label="formalizes"   style=solid  color="#555555"];
@@ -424,6 +424,7 @@ digraph ancient_texts {
   "mati-jnana"     [label="matijñāna"         style=filled fillcolor="#f5c518" shape=ellipse];
   "shruta-jnana"   [label="śrutajñāna"        style=filled fillcolor="#f5c518" shape=ellipse];
   "anicca"         [label="anicca"            style=filled fillcolor="#ffa07a" shape=ellipse];
+  "paroksha-jnana" [label="parokṣajñāna"     style=filled fillcolor="#f5c518" shape=ellipse];
   "dharma-dravya" [label="dharmāstikāya"   style=filled fillcolor="#f5c518" shape=ellipse];
   "adharma-dravya"[label="adharmāstikāya"  style=filled fillcolor="#f5c518" shape=ellipse];
   "jina"          [label="jina"            style=filled fillcolor="#f5c518" shape=ellipse];
@@ -448,6 +449,19 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain"    [label="expressed-by"                    style=solid  color="#555555"];
   "adharma-dravya" -> "dharma-dravya"[label="structurally-parallel-to"        style=dashed color="#009933"];
   "adharma-dravya" -> "karma-vedic"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* paroksha-jnana.md */
+  "paroksha-jnana" -> "pramana"          [label="formalizes"                         style=solid  color="#555555"];
+  "paroksha-jnana" -> "mati-jnana"       [label="expressed-by"                       style=solid  color="#555555"];
+  "paroksha-jnana" -> "shruta-jnana"     [label="expressed-by"                       style=solid  color="#555555"];
+  "paroksha-jnana" -> "pramana-nyaya"    [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "paroksha-jnana" -> "dignaga-pramana"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* avatara-vedanta.md */
+  "avatara-vedanta" -> "tirthankara"     [label="shares-vocabulary-with"             style=dashed color="#0066cc"];
+  "avatara-vedanta" -> "tirthankara"     [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "avatara-vedanta" -> "brahman"         [label="part-of"                            style=solid  color="#333333"];
+  "avatara-vedanta" -> "atman-vedanta"   [label="part-of"                            style=solid  color="#333333"];
 
   /* anicca.md */
   "anicca" -> "sat"             [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
