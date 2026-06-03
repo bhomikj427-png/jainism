@@ -503,7 +503,7 @@ Remaining threads to close:
 |---|---|---|---|
 | 1 | `mati-jnana.md` | done | converged, medium; TS 1.15+1.26 FETCHED; 4-stage table; paroksha-paradox; vs Dignaga/Nyaya |
 | 2 | `shruta-jnana.md` | done | converged, medium; TS 1.9+1.26 FETCHED; paroksha; Samayasara text≠knowledge; angapravista/angabahya |
-| 3 | `anicca.md` | pending | |
+| 3 | `anicca.md` | done | converged, medium; Dhp 277-279; SN 22.59; 3-tradition permanence table; anatta-extension noted |
 | 4 | `paroksha-jnana.md` | pending | |
 | 5 | `avatara-vedanta.md` | pending | |
 | 6 | `acarya.md` | pending | |
