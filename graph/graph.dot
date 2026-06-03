@@ -415,7 +415,8 @@ digraph ancient_texts {
      ================================================================ */
 
   /* New written nodes */
-  "kashaya"       [label="kaṣāya"          style=filled fillcolor="#f5c518" shape=ellipse];
+  "kashaya"        [label="kaṣāya"          style=filled fillcolor="#f5c518" shape=ellipse];
+  "akasha-dravya"  [label="ākāśāstikāya"   style=filled fillcolor="#f5c518" shape=ellipse];
   "dharma-dravya" [label="dharmāstikāya"   style=filled fillcolor="#f5c518" shape=ellipse];
   "adharma-dravya"[label="adharmāstikāya"  style=filled fillcolor="#f5c518" shape=ellipse];
   "jina"          [label="jina"            style=filled fillcolor="#f5c518" shape=ellipse];
@@ -440,6 +441,13 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain"    [label="expressed-by"                    style=solid  color="#555555"];
   "adharma-dravya" -> "dharma-dravya"[label="structurally-parallel-to"        style=dashed color="#009933"];
   "adharma-dravya" -> "karma-vedic"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* akasha-dravya.md */
+  "akasha-dravya" -> "ajiva"           [label="is-a-type-of"                    style=solid  color="#333333"];
+  "akasha-dravya" -> "dravya"          [label="part-of"                         style=solid  color="#333333"];
+  "akasha-dravya" -> "loka-jain"       [label="expressed-by"                    style=solid  color="#555555"];
+  "akasha-dravya" -> "adharma-dravya"  [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "akasha-dravya" -> "dravya-vaisheshika" [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
 
   /* ahimsa-buddhist.md */
   "ahimsa-buddhist" -> "ahimsa"            [label="shares-vocabulary-with"             style=dashed color="#0066cc"];

@@ -432,7 +432,7 @@ Physics/logic comparanda:
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `akasha-dravya.md` | pending | |
+| 1 | `akasha-dravya.md` | done | converged, medium; TS 5.18 FETCHED; lokakasha/alokakasha; akasha ≠ Vaisheshika ether |
 | 2 | `kala-dravya.md` | pending | |
 | 3 | `upayoga.md` | pending | |
 | 4 | `arihant.md` | pending | |
