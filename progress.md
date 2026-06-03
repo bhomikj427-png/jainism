@@ -364,3 +364,64 @@ Filling structural gaps and unwritten stubs:
 | 5 | `pramana-nyaya.md` | done | converged, medium; IEP cited; 4-pramana vs Jain 2-pramana table; Dignaga Buddhist challenge noted |
 | 6 | `moksha-advaita.md` | done | converged, medium; Vivekacudamani + Wikipedia; 3-tradition liberation table; intra-Vedanta split |
 | 7 | `ahimsa-buddhist.md` | done | converged, medium; Dhammapada 10.129; brahmaviharas; intentional vs ontological ahimsa table |
+
+## Run log — Batch 8 (2026-06-03)
+
+### Startup reconcile
+- All Batch 7 concepts committed; graph.dot had uncommitted Batch 7 additions (not a concept file — no reset required)
+- Batch 7 run log was incomplete (placeholder only) — completed as first action of this session
+
+### Concepts completed: 7 / 7 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| kashaya | converged | medium | TS 6.5 FETCHED; 16 charitra-mohaniya sub-types; glue metaphor; gunasthana arc |
+| dharma-dravya | converged | medium | TS 5.17 + 5.6 FETCHED; fish-in-water analogy; dharma-name-trap flagged |
+| adharma-dravya | converged | medium | TS 5.17 + 5.6 FETCHED; earth analogy; paired medium of rest |
+| jina | converged | medium | Uttaradhyayana 9.34; jina/tirthankara/arihant/siddha taxonomy; non-creator |
+| pramana-nyaya | converged | medium | IEP (Nyayasutra I.i.4); 4-pramana table; 5-member syllogism; fills unwritten stub |
+| moksha-advaita | converged | medium | Vivekacudamani + Wikipedia; 3-tradition liberation table; jivanmukti; fills unwritten stub |
+| ahimsa-buddhist | converged | medium | Dhammapada 10.129; 4 brahmaviharas; intentional vs ontological ahimsa; fills unwritten stub |
+
+### TS verses directly fetched this session
+- TS 6.5 (kashaya): *indriyakaṣāyāvratakriyāḥ pañcacatuḥpañcapañcaviṃśatisaṃkhyāḥ pūrvasya bhedāḥ*
+- TS 5.17 (dharma/adharma): *gatisthityupagrahau dharmādharmayorupakāraḥ*
+- TS 5.6 (dharma/adharma singular): *ā ākāśādekadravyāṇi*
+
+### Unwritten stubs filled this batch: 3 of 6 original stubs
+- pramana-nyaya ✓ (now written)
+- moksha-advaita ✓ (now written)
+- ahimsa-buddhist ✓ (now written)
+- Remaining stubs: quantum-complementarity, omniscience-vedanta, avatara-vedanta
+
+### Graph (final state)
+`graph/graph.dot` updated: **61 nodes written + 3 unwritten stubs = 64 nodes total**.
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+
+### Notable findings this batch
+
+1. **Dravya system now complete**: with dharma-dravya and adharma-dravya, all six Jain dravyas have dedicated files. The "dharma"/"adharma" name-trap (≠ moral dharma) is explicitly flagged.
+
+2. **Three liberation accounts fully mapped**: mokṣa-Jain (individual jīva persists), mokṣa-Advaita (ātman dissolves into Brahman), nirvāṇa (no-self cessation). The three are mutually inconsistent on whether a self survives liberation.
+
+3. **kashaya is a hub concept**: Referenced in 13 existing files before being written. Its 16-sub-type matrix integrates karma theory, gunasthāna arc, and the mahāvrata system.
+
+4. **Buddhist vs Jain intentionality gap**: cetanā/karma-as-matter split (Buddhist intention-based vs Jain consequence-based) now documented in three concept files. This is the deepest philosophical difference between the two traditions in the corpus.
+
+5. **Nyāya epistemology fills a major gap**: pramana-nyaya.md provides the third major epistemological framework alongside Jain 2-pramāṇa and Buddhist Dignāga 2-pramāṇa.
+
+### Corpus milestone: 61 concepts across 8 batches
+
+### Suggested Batch 9
+Jain soteriology depth:
+- `akasha-dravya` — space substance (ākāśāstikāya); sixth dravya; only one extending beyond loka
+- `kala-dravya` — time (kāla); sixth substance; Digambara/Shvetambara status disputed
+- `upayoga` — the soul's consciousness-activity; core Jain epistemological concept
+- `arihant` — living omniscient jina before body-shedding; bridges jina.md and siddha
+
+Cross-tradition epistemology:
+- `omniscience-vedanta` — fills unwritten stub; Vedānta vs Jain kevala-jñāna
+- `dignaga-pramana` — Buddhist 2-pramāṇa theory; completes epistemology triangle
+
+Physics/logic comparanda:
+- `quantum-complementarity` — fills unwritten stub; NOT-equivalent to anekāntavāda; needs careful treatment
