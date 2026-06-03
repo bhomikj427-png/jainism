@@ -419,6 +419,7 @@ digraph ancient_texts {
   "akasha-dravya"  [label="ākāśāstikāya"   style=filled fillcolor="#f5c518" shape=ellipse];
   "kala-dravya"    [label="kāla"           style=filled fillcolor="#f5c518" shape=ellipse];
   "upayoga"        [label="upayoga"        style=filled fillcolor="#f5c518" shape=ellipse];
+  "arihant"        [label="arihant"        style=filled fillcolor="#f5c518" shape=ellipse];
   "dharma-dravya" [label="dharmāstikāya"   style=filled fillcolor="#f5c518" shape=ellipse];
   "adharma-dravya"[label="adharmāstikāya"  style=filled fillcolor="#f5c518" shape=ellipse];
   "jina"          [label="jina"            style=filled fillcolor="#f5c518" shape=ellipse];
@@ -443,6 +444,15 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain"    [label="expressed-by"                    style=solid  color="#555555"];
   "adharma-dravya" -> "dharma-dravya"[label="structurally-parallel-to"        style=dashed color="#009933"];
   "adharma-dravya" -> "karma-vedic"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* arihant.md */
+  "arihant" -> "jina"         [label="is-a-type-of"  style=solid  color="#333333"];
+  "arihant" -> "tirthankara"  [label="is-a-type-of"  style=solid  color="#333333"];
+  "arihant" -> "kevala-jnana" [label="part-of"       style=solid  color="#333333"];
+  "arihant" -> "gunasthana"   [label="expressed-by"  style=solid  color="#555555"];
+  "arihant" -> "kashaya"      [label="expressed-by"  style=solid  color="#555555"];
+  "arihant" -> "upayoga"      [label="expressed-by"  style=solid  color="#555555"];
+  "arihant" -> "moksha"       [label="part-of"       style=solid  color="#333333"];
 
   /* upayoga.md */
   "upayoga" -> "jiva"         [label="is-a-type-of"  style=solid  color="#333333"];
