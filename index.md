@@ -52,6 +52,7 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 
 | concept | status | confidence | TS verse(s) fetched |
 |---|---|---|---|
+| sat | converged | medium | TS 5.30 ✓ |
 | tattva-jain | converged | medium (near-high) | TS 1.4 ✓ |
 | pramana | converged | medium | TS 1.6 ✓ |
 | naya | converged | medium | TS 1.33 ✓ |
@@ -65,7 +66,7 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | karma | converged | medium | TS 8.1/8.3 (via Wikipedia) |
 | bandha | converged | medium | TS 8.1 ✓ |
 | nirjara | converged | medium | TS 8.23 ✓ |
-| samvara | converged | low | TS 9 index only |
+| samvara | converged | medium | TS 9.1 ✓ (upgraded) |
 | moksha | converged | medium | TS 10.2 (via Wikipedia) |
 | anekantavada | contested | medium | — |
 | syadvada | converged | medium | — |
@@ -73,6 +74,10 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | kevala-jnana | converged | medium | — |
 | loka-jain | converged | medium | — |
 | ahimsa | converged | medium | — |
+| aparigraha | converged | medium | TS 7.8 ✓ |
+| gunasthana | converged | medium | — |
+| paryaya | converged | medium | TS 5.38 ✓ |
+| tirthankara | converged | medium | — |
 
 ## Buddhist Canon
 
@@ -82,6 +87,9 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 | anatta-buddhist | contested | medium |
 | nirvana-buddhist | converged | medium |
 | pratityasamutpada | converged | medium |
+| catuskoti | converged | medium |
+| namarupa | converged | medium |
+| abhidharma | converged | medium |
 
 ## Greek / Western Philosophy
 

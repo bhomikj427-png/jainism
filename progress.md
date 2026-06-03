@@ -249,5 +249,44 @@ Node count 43 > 30 → `build_graph.py` would now emit Cytoscape HTML if Python 
 | 7 | `aparigraha.md` | done | converged, medium; TS 7.8 FETCHED; raga-dvesa as kashaya root; Digambara sky-clad |
 | 8 | `sat.md` | done | converged, medium; TS 5.30 FETCHED; clay analogy from Pujyapada; 3-tradition sat comparison |
 
-## Run log — Batch 6
-*(appended at end-of-batch per §9)*
+## Run log — Batch 6 (2026-06-03)
+
+### Confidence upgrade (pre-batch)
+- **samvara**: LOW → MEDIUM. TS 9.1 *āstravanirodhaḥ saṃvaraḥ* fetched directly (Vijay K. Jain 2018). Added Pūjyapāda's bhāva/dravya-saṃvara distinction. **All 46 concepts now medium or higher.**
+
+### Concepts completed: 8 / 8 (0 blocked)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| gunasthana | converged | medium | 14-stage table; karma-arc; Jaini/Tatia cited |
+| paryaya | converged | medium | TS 5.38 FETCHED; anvaya/vyatireka; naya-split grounding |
+| tirthankara | converged | medium | 24-per-cycle; non-creator/non-interventionist |
+| catuskoti | converged | medium | 4-corner; avyakata + Nagarjuna uses; vs saptabhangi |
+| namarupa | converged | medium | link 4; DN15 loop; vs Jain jiva |
+| abhidharma | converged | medium | 82/75 dharmas; dharma-stream vs dravya opposition |
+| aparigraha | converged | medium | TS 7.8 FETCHED; raga-dvesa = kashaya root |
+| sat | converged | medium | TS 5.30 FETCHED; clay analogy; 3-tradition comparison |
+
+### TS verses directly fetched this session (Vijay K. Jain 2018)
+- TS 9.1 (samvara upgrade): *āstravanirodhaḥ saṃvaraḥ* + bhāva/dravya commentary
+- TS 5.38 (paryaya): *guṇaparyāyavat dravyam* + anvaya/vyatireka commentary
+- TS 7.8 (aparigraha): rāga-dveṣa observances for five senses + commentary
+- TS 5.30 (sat): *utpādavyayadhrauvyayuktaṃ sat* + clay analogy
+
+### Graph (final state)
+`graph/graph.dot` updated: **52 nodes** (46 written, 6 unwritten stubs), **~125 edges**.
+Node count 46 > 30 → `build_graph.py` would now emit Cytoscape HTML if Python available.
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+
+### Key finding: sat.md is the philosophical keystone
+TS 5.30 (*utpādavyayadhrauvyayuktaṃ sat*) with Pūjyapāda's clay analogy is the ontological foundation of the entire Jain dravya/guṇa/paryāya/anekāntavāda system. It explains why Jain metaphysics is neither pure permanence (Advaita Brahman) nor pure impermanence (Buddhist anicca) — it is the deliberate philosophical middle.
+
+### Suggested Batch 7
+- `satya` — second mahāvrata (truthfulness); TS 7.6 likely has the verse
+- `asteya` — third mahāvrata (non-stealing); TS 7.7
+- `brahmacarya` — fourth mahāvrata (celibacy); TS 7.7
+- `gunasthana-detail` — individual guṇasthānas (4, 12, 13, 14) for depth
+- `jina` — the *jina* as individual conqueror (companion to tirthankara)
+- `dhyana-jain` — the four types of meditation in TS Chapter 9 (auspicious and inauspicious)
+- `karma-vargana` — karma-class matter (specific skandha types); bridges physics+soteriology
+- `leshya` — karmic coloring of the soul; psycho-physical indicator of guṇasthāna level

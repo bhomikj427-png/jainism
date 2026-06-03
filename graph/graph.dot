@@ -284,4 +284,71 @@ digraph ancient_texts {
 
   /* many-valued-logic.md */
   "many-valued-logic" -> "saptabhangi"   [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* ================================================================
+     BATCH 6 ADDITIONS
+     ================================================================ */
+
+  /* New written nodes */
+  "gunasthana"    [label="guṇasthāna"   style=filled fillcolor="#f5c518" shape=ellipse];
+  "paryaya"       [label="paryāya"      style=filled fillcolor="#f5c518" shape=ellipse];
+  "tirthankara"   [label="tīrthaṅkara" style=filled fillcolor="#f5c518" shape=ellipse];
+  "catuskoti"     [label="catuṣkoṭi"   style=filled fillcolor="#ffa07a" shape=ellipse];
+  "namarupa"      [label="nāmarūpa"     style=filled fillcolor="#ffa07a" shape=ellipse];
+  "abhidharma"    [label="abhidharma"   style=filled fillcolor="#ffa07a" shape=ellipse];
+  "aparigraha"    [label="aparigraha"   style=filled fillcolor="#f5c518" shape=ellipse];
+  "sat"           [label="sat"          style=filled fillcolor="#f5c518" shape=ellipse];
+
+  /* New unwritten stub */
+  "avatara-vedanta" [label="avatāra (Vedānta)" style=filled fillcolor="#dddddd" shape=box];
+
+  /* gunasthana.md */
+  "gunasthana" -> "bandha"         [label="formalizes"   style=solid  color="#555555"];
+  "gunasthana" -> "samvara"        [label="formalizes"   style=solid  color="#555555"];
+  "gunasthana" -> "nirjara"        [label="formalizes"   style=solid  color="#555555"];
+  "gunasthana" -> "kevala-jnana"   [label="formalizes"   style=solid  color="#555555"];
+  "gunasthana" -> "moksha"         [label="formalizes"   style=solid  color="#555555"];
+  "gunasthana" -> "karma"          [label="part-of"      style=solid  color="#333333"];
+
+  /* paryaya.md */
+  "paryaya" -> "dravya"            [label="part-of"      style=solid  color="#333333"];
+  "paryaya" -> "anekantavada"      [label="expressed-by" style=solid  color="#555555"];
+  "paryaya" -> "naya"              [label="expressed-by" style=solid  color="#555555"];
+  "paryaya" -> "pratityasamutpada" [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* tirthankara.md */
+  "tirthankara" -> "kevala-jnana"  [label="part-of"      style=solid  color="#333333"];
+  "tirthankara" -> "moksha"        [label="part-of"      style=solid  color="#333333"];
+  "tirthankara" -> "loka-jain"     [label="part-of"      style=solid  color="#333333"];
+  "tirthankara" -> "ahimsa"        [label="part-of"      style=solid  color="#333333"];
+  "tirthankara" -> "avatara-vedanta" [label="shares-vocabulary-with" style=dashed color="#0066cc"];
+
+  /* catuskoti.md */
+  "catuskoti" -> "saptabhangi"     [label="structurally-parallel-to" style=dashed color="#009933"];
+  "catuskoti" -> "saptabhangi"     [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "catuskoti" -> "sunyata"         [label="part-of"      style=solid  color="#333333"];
+  "catuskoti" -> "pratityasamutpada" [label="part-of"    style=solid  color="#333333"];
+
+  /* namarupa.md */
+  "namarupa" -> "pratityasamutpada" [label="part-of"     style=solid  color="#333333"];
+  "namarupa" -> "skandha-buddhist"  [label="part-of"     style=solid  color="#333333"];
+  "namarupa" -> "jiva"              [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* abhidharma.md */
+  "abhidharma" -> "dravya"          [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "abhidharma" -> "pratityasamutpada" [label="part-of"   style=solid  color="#333333"];
+  "abhidharma" -> "sunyata"         [label="part-of"     style=solid  color="#333333"];
+  "abhidharma" -> "anatta-buddhist" [label="part-of"     style=solid  color="#333333"];
+
+  /* aparigraha.md */
+  "aparigraha" -> "ahimsa"          [label="part-of"     style=solid  color="#333333"];
+  "aparigraha" -> "karma"           [label="part-of"     style=solid  color="#333333"];
+  "aparigraha" -> "samvara"         [label="part-of"     style=solid  color="#333333"];
+  "aparigraha" -> "moksha"          [label="part-of"     style=solid  color="#333333"];
+
+  /* sat.md */
+  "sat" -> "dravya"                 [label="part-of"     style=solid  color="#333333"];
+  "sat" -> "paryaya"                [label="expressed-by" style=solid color="#555555"];
+  "sat" -> "anekantavada"           [label="expressed-by" style=solid color="#555555"];
+  "sat" -> "brahman"                [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
 }
