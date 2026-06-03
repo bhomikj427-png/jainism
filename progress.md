@@ -425,3 +425,20 @@ Cross-tradition epistemology:
 
 Physics/logic comparanda:
 - `quantum-complementarity` — fills unwritten stub; NOT-equivalent to anekāntavāda; needs careful treatment
+
+---
+
+## Batch 9 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `akasha-dravya.md` | pending | |
+| 2 | `kala-dravya.md` | pending | |
+| 3 | `upayoga.md` | pending | |
+| 4 | `arihant.md` | pending | |
+| 5 | `omniscience-vedanta.md` | pending | |
+| 6 | `dignaga-pramana.md` | pending | |
+| 7 | `quantum-complementarity.md` | pending | |
+
+## Run log — Batch 9
+*(appended at end-of-batch per §9)*
