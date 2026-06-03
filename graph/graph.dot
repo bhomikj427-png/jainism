@@ -424,7 +424,9 @@ digraph ancient_texts {
   "mati-jnana"     [label="matijñāna"         style=filled fillcolor="#f5c518" shape=ellipse];
   "shruta-jnana"   [label="śrutajñāna"        style=filled fillcolor="#f5c518" shape=ellipse];
   "anicca"         [label="anicca"            style=filled fillcolor="#ffa07a" shape=ellipse];
-  "paroksha-jnana" [label="parokṣajñāna"     style=filled fillcolor="#f5c518" shape=ellipse];
+  "paroksha-jnana"  [label="parokṣajñāna"     style=filled fillcolor="#f5c518" shape=ellipse];
+  "acarya"          [label="ācārya"           style=filled fillcolor="#f5c518" shape=ellipse];
+  "mimamsa-pramana" [label="pramāṇa (Mīmāṃsā)" style=filled fillcolor="#b0e0b0" shape=ellipse];
   "dharma-dravya" [label="dharmāstikāya"   style=filled fillcolor="#f5c518" shape=ellipse];
   "adharma-dravya"[label="adharmāstikāya"  style=filled fillcolor="#f5c518" shape=ellipse];
   "jina"          [label="jina"            style=filled fillcolor="#f5c518" shape=ellipse];
@@ -449,6 +451,19 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain"    [label="expressed-by"                    style=solid  color="#555555"];
   "adharma-dravya" -> "dharma-dravya"[label="structurally-parallel-to"        style=dashed color="#009933"];
   "adharma-dravya" -> "karma-vedic"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* acarya.md */
+  "acarya" -> "jina"        [label="is-a-type-of"  style=solid  color="#333333"];
+  "acarya" -> "gunasthana"  [label="expressed-by"  style=solid  color="#555555"];
+  "acarya" -> "ahimsa"      [label="expressed-by"  style=solid  color="#555555"];
+  "acarya" -> "tirthankara" [label="part-of"       style=solid  color="#333333"];
+
+  /* mimamsa-pramana.md */
+  "mimamsa-pramana" -> "pramana-nyaya"   [label="shares-vocabulary-with"             style=dashed color="#0066cc"];
+  "mimamsa-pramana" -> "pramana-nyaya"   [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "mimamsa-pramana" -> "shruta-jnana"    [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "mimamsa-pramana" -> "dignaga-pramana" [label="structurally-parallel-to"           style=dashed color="#009933"];
+  "mimamsa-pramana" -> "brahman"         [label="part-of"                            style=solid  color="#333333"];
 
   /* paroksha-jnana.md */
   "paroksha-jnana" -> "pramana"          [label="formalizes"                         style=solid  color="#555555"];

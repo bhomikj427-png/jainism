@@ -506,8 +506,8 @@ Remaining threads to close:
 | 3 | `anicca.md` | done | converged, medium; Dhp 277-279; SN 22.59; 3-tradition permanence table; anatta-extension noted |
 | 4 | `paroksha-jnana.md` | done | converged, medium; Nandi Sutra + TS 1.9; paroksha/pratyaksha inversion table; all three traditions compared |
 | 5 | `avatara-vedanta.md` | done | converged, medium; BG 4.7-4.8; fills last stub; descent vs ascent; Buddhist inclusion problem noted |
-| 6 | `acarya.md` | pending | |
-| 7 | `mimamsa-pramana.md` | pending | |
+| 6 | `acarya.md` | done | converged, medium; Wikipedia + Namaskar Mantra; panca-paramesthi table; not-a-god |
+| 7 | `mimamsa-pramana.md` | done | converged, medium; Wikipedia; 5/6 pramanas; apauruseyatva; svatah-pramanya; arthapatti; Kumarila vs Dignaga |
 
 ## Run log — Batch 10
 *(appended at end-of-batch per §9)*
