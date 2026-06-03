@@ -303,8 +303,8 @@ TS 5.30 (*utpādavyayadhrauvyayuktaṃ sat*) with Pūjyapāda's clay analogy is 
 | 4 | `dhyana-jain.md` | done | converged, medium; TS 9.28 FETCHED; arta/raudra=karma-generating, dharma/shukla=karma-destroying |
 | 5 | `karma-vargana.md` | done | converged, LOW — 8-vargana list from aggregation; Satkhanda/Dravyasangraha not fetched |
 | 6 | `leshya.md` | done | converged, medium; Wikipedia fetched; 6-color table; Uttaradhyayana primary text |
-| 7 | `dravyarthika-naya.md` | pending | substance-standpoint nayas (first 3); TS 1.33 |
-| 8 | `paryayarthika-naya.md` | pending | mode-standpoint nayas (last 4); TS 1.33 |
+| 7 | `dravyarthika-naya.md` | done | converged, medium; 3-naya table; rjusutra classification discrepancy noted |
+| 8 | `paryayarthika-naya.md` | done | converged, medium; 4-naya table; rjusutra-Buddhist momentariness link |
 
 ## Run log — Batch 7
 *(appended at end-of-batch per §9)*
