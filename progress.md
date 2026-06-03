@@ -290,3 +290,21 @@ TS 5.30 (*utpādavyayadhrauvyayuktaṃ sat*) with Pūjyapāda's clay analogy is 
 - `dhyana-jain` — the four types of meditation in TS Chapter 9 (auspicious and inauspicious)
 - `karma-vargana` — karma-class matter (specific skandha types); bridges physics+soteriology
 - `leshya` — karmic coloring of the soul; psycho-physical indicator of guṇasthāna level
+
+---
+
+## Batch 7 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `satya.md` | pending | second mahāvrata; truthfulness; TS 7.6 |
+| 2 | `asteya.md` | pending | third mahāvrata; non-stealing; TS 7.7 |
+| 3 | `brahmacarya.md` | pending | fourth mahāvrata; celibacy; TS 7.7 |
+| 4 | `dhyana-jain.md` | pending | four meditation types; TS Chapter 9 |
+| 5 | `karma-vargana.md` | pending | karma-class matter; 8 vargaṇā types |
+| 6 | `leshya.md` | pending | six karmic colorings; guṇasthāna indicator |
+| 7 | `dravyarthika-naya.md` | pending | substance-standpoint nayas (first 3); TS 1.33 |
+| 8 | `paryayarthika-naya.md` | pending | mode-standpoint nayas (last 4); TS 1.33 |
+
+## Run log — Batch 7
+*(appended at end-of-batch per §9)*
