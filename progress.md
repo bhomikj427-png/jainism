@@ -434,7 +434,7 @@ Physics/logic comparanda:
 |---|---|---|---|
 | 1 | `akasha-dravya.md` | done | converged, medium; TS 5.18 FETCHED; lokakasha/alokakasha; akasha ≠ Vaisheshika ether |
 | 2 | `kala-dravya.md` | done | converged, medium; TS 5.22 + 5.39 FETCHED; vartana function; kala NOT astikaya; sectarian note |
-| 3 | `upayoga.md` | pending | |
+| 3 | `upayoga.md` | done | converged, medium; TS 2.8 FETCHED; sakara/nirakara; jnana/darsana; liberation arc |
 | 4 | `arihant.md` | pending | |
 | 5 | `omniscience-vedanta.md` | pending | |
 | 6 | `dignaga-pramana.md` | pending | |
