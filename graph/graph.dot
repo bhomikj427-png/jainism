@@ -73,7 +73,7 @@ digraph ancient_texts {
   "quantum-complementarity" [label="quantum complementarity" style=filled fillcolor="#dddddd" shape=box];
   "moksha-advaita"      [label="mokṣa (Advaita)"        style=filled fillcolor="#dddddd" shape=box];
   "omniscience-vedanta" [label="omniscience (Vedānta)"   style=filled fillcolor="#dddddd" shape=box];
-  "pramana-nyaya"       [label="pramāṇa (Nyāya)"        style=filled fillcolor="#dddddd" shape=box];
+  "pramana-nyaya"       [label="pramāṇa (Nyāya)"        style=filled fillcolor="#82b4ff" shape=ellipse];
   "ahimsa-buddhist"     [label="ahiṃsā (Buddhist)"      style=filled fillcolor="#dddddd" shape=box];
 
   /* ================================================================
@@ -440,6 +440,12 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain"    [label="expressed-by"                    style=solid  color="#555555"];
   "adharma-dravya" -> "dharma-dravya"[label="structurally-parallel-to"        style=dashed color="#009933"];
   "adharma-dravya" -> "karma-vedic"  [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* pramana-nyaya.md */
+  "pramana-nyaya" -> "pramana"       [label="shares-vocabulary-with"             style=dashed color="#0066cc"];
+  "pramana-nyaya" -> "pramana"       [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "pramana-nyaya" -> "dravya-vaisheshika" [label="is-a-type-of"                  style=solid  color="#333333"];
+  "pramana-nyaya" -> "atman-vedanta" [label="structurally-parallel-to"           style=dashed color="#009933"];
 
   /* jina.md */
   "jina" -> "kevala-jnana"   [label="part-of"          style=solid  color="#333333"];
