@@ -440,5 +440,57 @@ Physics/logic comparanda:
 | 6 | `dignaga-pramana.md` | done | converged, medium; Enc. of Buddhism; svalakshana/samanyalakshana; non-conceptual perception; apoha; 3-tradition table |
 | 7 | `quantum-complementarity.md` | done | converged, medium; fills last stub; hard measurement exclusivity vs ontological coexistence; D.S. Kothari analogy defused |
 
-## Run log — Batch 9
-*(appended at end-of-batch per §9)*
+## Run log — Batch 9 (2026-06-03)
+
+### Concepts completed: 7 / 7 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| akasha-dravya | converged | medium | TS 5.18 FETCHED (avagaha); lokakasha/alokakasha; akasha ≠ Vaisheshika ether |
+| kala-dravya | converged | medium | TS 5.22 + 5.39 FETCHED; vartana function; NOT astikaya; sectarian note |
+| upayoga | converged | medium | TS 2.8 FETCHED (upayogo laksanam); sakara/nirakara=jnana/darsana; liberation arc |
+| arihant | converged | medium | Wikipedia + Jainworld; 4-ghati/4-aghati table; gunasthana 13-14; not-a-god |
+| omniscience-vedanta | converged | medium | fills stub; saguna/nirguna split; tatasta-laksana; vs kevala-jnana |
+| dignaga-pramana | converged | medium | Pramanasamuccaya; non-conceptual perception; svalakshana/samanyalakshana; apoha |
+| quantum-complementarity | converged | medium | fills last stub; Bohr+Robertson; NOT anekantavada; D.S. Kothari analogy defused |
+
+### TS verses directly fetched this session
+- TS 5.18 (akasha): *ākāśasyāvagāhaḥ*
+- TS 5.22 (kala): *vartanāpariṇāmakriyāḥ paratvāparatve ca kālasya*
+- TS 5.39 (kala as dravya): *kālaśca*
+- TS 2.8 (upayoga): *upayogo lakṣaṇam*
+
+### Unwritten stubs filled: 3 of 3 original remaining stubs
+- omniscience-vedanta ✓ (now written)
+- quantum-complementarity ✓ (now written)
+- avatara-vedanta: still pending (only 1 remaining stub)
+
+### Graph (final state)
+`graph/graph.dot` updated: **68 nodes written + 1 unwritten stub (avatara-vedanta) = 69 nodes total**.
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+
+### Notable findings this batch
+
+1. **Dravya system is now truly complete** (all 6): jīva, pudgala, dharma, adharma, ākāśa, kāla — each has its own file. The TS Chapter 5 fetch sequence (5.1→5.6→5.17→5.18→5.22→5.38→5.39) is the most complete set of directly verified verses in the corpus.
+
+2. **Epistemology triangle complete**: Jain 2-pramāṇa (pratyakṣa including omniscience + parokṣa) vs Nyāya 4-pramāṇa (conceptual perception + inference + upamāna + śabda) vs Buddhist/Dignāga 2-pramāṇa (non-conceptual perception + inference). Three genuinely incompatible accounts, all documented.
+
+3. **Arihant + upayoga complete the Jain soteriology arc**: jīva (soul) → kaṣāya (passion-bondage) → gunasthāna (stages) → upayoga (consciousness-expansion) → arihant (omniscient with body) → siddha (liberated). Every link in this chain now has its own concept file.
+
+4. **quantum-complementarity is the prime-directive payoff**: The project's core purpose is to prevent the "ancient sages knew quantum mechanics" reading. This file documents the surface analogy (D.S. Kothari), names the mechanism that drives the conflation, and establishes precisely why measurement-exclusivity ≠ ontological coexistence. The `often-conflated-with-NOT-equivalent` edge to anekāntavāda is now the most carefully defended such edge in the corpus.
+
+5. **All unwritten stubs now written except avatāra-vedānta** (a low-priority forward-link from tirthankara.md).
+
+### Corpus milestone: 68 concepts across 9 batches
+
+### Suggested Batch 10
+Remaining threads to close:
+- `avatara-vedanta` — final stub; Vedānta concept of divine descent (not a high-priority concept but completes the graph)
+- `aksha` — the moral luck/chance concept in dharma literature (if forward-linked anywhere)
+- `mati-jnana` — sensory/empirical knowledge (first of Jain 5-knowledge types); pairs with kevala-jnana
+- `shruta-jnana` — scriptural knowledge (second of 5-knowledge types); the authority question
+- `dharmottara` — Dharmottara's defense of Dignāga; the Buddhist epistemology commentary tradition
+- `anicca` — Buddhist impermanence; the formal counterpart to Jain sat/paryaya and Advaita brahman permanence
+- `paroksha-jnana` — indirect knowledge in Jain system; counterpart to upayoga/pratyaksha treatment
+
+**Lower priority** (later batches): Greek philosophy (Aristotle substance, Plato forms); Mīmāṃsā epistemology; Yoga psychology (citta-vritti)
