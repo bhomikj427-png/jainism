@@ -140,7 +140,7 @@ Physics comparanda (if high confidence reading exists):
 | # | concept (filename) | status | notes |
 |---|---|---|---|
 | 1 | `asrava.md` | done | converged, medium; TS 6.2 fetched (Vijay K. Jain 2018) |
-| 2 | `samvara.md` | done | converged, LOW confidence; TS 9.1 text not fetched; definition from aggregation |
+| 2 | `samvara.md` | done | converged, MEDIUM — TS 9.1 FETCHED (Vijay K. Jain 2018); bhava/dravya from Pujyapada |
 | 3 | `nirjara.md` | done | converged, medium; TS 8.23 fetched directly |
 | 4 | `kevala-jnana.md` | done | converged, medium; 5-knowledge ladder; Digambara/Shvetambara difference noted |
 | 5 | `pramana.md` | done | converged, medium; TS 1.6 fetched directly; sakaladesha/vikaladeshe distinction from Pujyapada |
@@ -182,7 +182,7 @@ Physics comparanda (if high confidence reading exists):
 | concept | status | confidence | note |
 |---|---|---|---|
 | asrava | converged | medium | TS 6.2 fetched directly |
-| samvara | converged | LOW | TS 9 index only; verse text not fetched |
+| samvara | converged | medium | TS 9.1 fetched directly ✓ |
 | nirjara | converged | medium | TS 8.23 fetched directly |
 | kevala-jnana | converged | medium | 5-knowledge ladder; Digambara/Shvetambara difference |
 | pramana | converged | medium | TS 1.6 fetched directly; sakaladesa/vikadeshu |
