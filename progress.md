@@ -240,7 +240,7 @@ Node count 43 > 30 → `build_graph.py` would now emit Cytoscape HTML if Python 
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `gunasthana.md` | pending | 14 stages of spiritual progress; referenced in bandha.md |
+| 1 | `gunasthana.md` | done | converged, medium; 14-stage table; karma arc; Jaini cited |
 | 2 | `paryaya.md` | pending | mode/modification; complement to dravya-guna; TS 5.29/5.30 |
 | 3 | `tirthankara.md` | pending | liberated teachers; connects cosmology + soteriology |
 | 4 | `catuskoti.md` | pending | Buddhist four-corner logic; compare with saptabhangi |
