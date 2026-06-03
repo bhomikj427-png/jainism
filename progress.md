@@ -232,14 +232,22 @@ Node count 43 > 30 → `build_graph.py` would now emit Cytoscape HTML if Python 
 
 4. **samvara.md confidence is LOW**: TS 9.1 verse text was not obtained. Flag for next session.
 
-### Suggested Batch 6 (names only)
-Priority fills:
-- `samvara` — upgrade from low to medium by fetching TS 9.1 (high priority)
-- `gunasthana` — 14 stages of spiritual progress; referenced in bandha.md; foundational for the karma arc
-- `naigama-naya` and other individual nayas — one file per naya for depth
-- `paryaya` — the mode/modification concept (complement to dravya-guna); TS 5.29/5.30
-- `asteya`, `satya`, `aparigraha` — complete the five mahāvratas
-- `jina` / `tirthankara` — the liberated teachers; connects cosmology + soteriology
-- `catuṣkoṭi` — Buddhist four-corner logic (compare with saptabhaṅgī; Schang's paper covers both)
-- `namarupa` — Buddhist name-and-form; connects to skandha/pratītyasamutpāda
-- `abhidharma` — Buddhist systematic philosophy of dharmas; compare with Jain dravya analysis
+### Suggested Batch 6 → now active
+
+---
+
+## Batch 6 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `gunasthana.md` | pending | 14 stages of spiritual progress; referenced in bandha.md |
+| 2 | `paryaya.md` | pending | mode/modification; complement to dravya-guna; TS 5.29/5.30 |
+| 3 | `tirthankara.md` | pending | liberated teachers; connects cosmology + soteriology |
+| 4 | `catuskoti.md` | pending | Buddhist four-corner logic; compare with saptabhangi |
+| 5 | `namarupa.md` | pending | Buddhist name-and-form; connects skandha/pratityasamutpada |
+| 6 | `abhidharma.md` | pending | Buddhist dharma-analysis; compare with Jain dravya |
+| 7 | `aparigraha.md` | pending | non-possessiveness; fifth mahavrata; compare with moksha |
+| 8 | `sat.md` | pending | "being/existence" in Jain ontology; TS 5.29 — sat = utpada+vyaya+dhrauvya |
+
+## Run log — Batch 6
+*(appended at end-of-batch per §9)*
