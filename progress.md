@@ -433,7 +433,7 @@ Physics/logic comparanda:
 | # | concept (filename) | status | notes |
 |---|---|---|---|
 | 1 | `akasha-dravya.md` | done | converged, medium; TS 5.18 FETCHED; lokakasha/alokakasha; akasha ≠ Vaisheshika ether |
-| 2 | `kala-dravya.md` | pending | |
+| 2 | `kala-dravya.md` | done | converged, medium; TS 5.22 + 5.39 FETCHED; vartana function; kala NOT astikaya; sectarian note |
 | 3 | `upayoga.md` | pending | |
 | 4 | `arihant.md` | pending | |
 | 5 | `omniscience-vedanta.md` | pending | |
