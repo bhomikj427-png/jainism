@@ -501,7 +501,7 @@ Remaining threads to close:
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `mati-jnana.md` | pending | |
+| 1 | `mati-jnana.md` | done | converged, medium; TS 1.15+1.26 FETCHED; 4-stage table; paroksha-paradox; vs Dignaga/Nyaya |
 | 2 | `shruta-jnana.md` | pending | |
 | 3 | `anicca.md` | pending | |
 | 4 | `paroksha-jnana.md` | pending | |
