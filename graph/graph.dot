@@ -649,4 +649,76 @@ digraph ancient_texts {
   "tapas" -> "brahmacarya"   [label="structurally-parallel-to"        style=dashed color="#009933"];
   "tapas" -> "guna-samkhya"  [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
   "tapas" -> "karma"         [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* ================================================================
+     BATCH 12 ADDITIONS
+     ================================================================ */
+
+  /* New written nodes */
+  "siddha"             [label="siddha"                style=filled fillcolor="#f5c518" shape=ellipse];
+  "charitra"           [label="cāritra"               style=filled fillcolor="#f5c518" shape=ellipse];
+  "naigama-naya"       [label="naigama naya"           style=filled fillcolor="#f5c518" shape=ellipse];
+  "arthapatti"         [label="arthāpatti"             style=filled fillcolor="#b0e0b0" shape=ellipse];
+  "dharmottara"        [label="Dharmottara"            style=filled fillcolor="#ffa07a" shape=ellipse];
+  "aristotle-substance"[label="ousia (Aristotle)"      style=filled fillcolor="#c0c0c0" shape=ellipse];
+  "plato-forms"        [label="eidos (Plato)"          style=filled fillcolor="#c0c0c0" shape=ellipse];
+
+  /* siddha.md */
+  "siddha" -> "jiva"          [label="is-a-type-of"                    style=solid  color="#333333"];
+  "siddha" -> "moksha"        [label="part-of"                         style=solid  color="#333333"];
+  "siddha" -> "loka-jain"     [label="part-of"                         style=solid  color="#333333"];
+  "siddha" -> "kevala-jnana"  [label="expressed-by"                    style=solid  color="#555555"];
+  "siddha" -> "tattva-jain"   [label="part-of"                         style=solid  color="#333333"];
+  "siddha" -> "arihant"       [label="is-a-type-of"                    style=solid  color="#333333"];
+  "siddha" -> "dharma-dravya" [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "siddha" -> "nirvana-buddhist" [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "siddha" -> "moksha-advaita"   [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* charitra.md */
+  "charitra" -> "tattva-jain"  [label="part-of"         style=solid  color="#333333"];
+  "charitra" -> "ahimsa"       [label="expressed-by"    style=solid  color="#555555"];
+  "charitra" -> "satya"        [label="expressed-by"    style=solid  color="#555555"];
+  "charitra" -> "asteya"       [label="expressed-by"    style=solid  color="#555555"];
+  "charitra" -> "brahmacarya"  [label="expressed-by"    style=solid  color="#555555"];
+  "charitra" -> "aparigraha"   [label="expressed-by"    style=solid  color="#555555"];
+  "charitra" -> "samvara"      [label="part-of"         style=solid  color="#333333"];
+  "charitra" -> "nirjara"      [label="part-of"         style=solid  color="#333333"];
+  "charitra" -> "gunasthana"   [label="formalizes"      style=solid  color="#555555"];
+
+  /* naigama-naya.md */
+  "naigama-naya" -> "naya"           [label="is-a-type-of"    style=solid  color="#333333"];
+  "naigama-naya" -> "anekantavada"   [label="part-of"         style=solid  color="#333333"];
+  "naigama-naya" -> "dravyarthika-naya" [label="part-of"      style=solid  color="#333333"];
+  "naigama-naya" -> "syadvada"       [label="expressed-by"    style=solid  color="#555555"];
+  "naigama-naya" -> "paryayarthika-naya" [label="shares-vocabulary-with" style=dashed color="#0066cc"];
+
+  /* arthapatti.md */
+  "arthapatti" -> "mimamsa-pramana"  [label="part-of"                         style=solid  color="#333333"];
+  "arthapatti" -> "pramana"          [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "arthapatti" -> "vyapti"           [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "arthapatti" -> "pramana-nyaya"    [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "arthapatti" -> "hetu-vidya"       [label="structurally-parallel-to"        style=dashed color="#009933"];
+
+  /* dharmottara.md */
+  "dharmottara" -> "hetu-vidya"      [label="part-of"                  style=solid  color="#333333"];
+  "dharmottara" -> "dignaga-pramana" [label="historically-influenced-by" style=dashed color="#666666"];
+  "dharmottara" -> "vyapti"          [label="formalizes"                style=solid  color="#555555"];
+  "dharmottara" -> "mimamsa-pramana" [label="shares-vocabulary-with"    style=dashed color="#0066cc"];
+  "dharmottara" -> "pramana-nyaya"   [label="structurally-parallel-to"  style=dashed color="#009933"];
+
+  /* aristotle-substance.md */
+  "aristotle-substance" -> "dravya"              [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "aristotle-substance" -> "dravya-vaisheshika"  [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "aristotle-substance" -> "dravya"              [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "aristotle-substance" -> "sat"                 [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "aristotle-substance" -> "paramanu"            [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "aristotle-substance" -> "plato-forms"         [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+
+  /* plato-forms.md */
+  "plato-forms" -> "aristotle-substance"  [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "plato-forms" -> "brahman"              [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "plato-forms" -> "maya-advaita"         [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "plato-forms" -> "dravya"              [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "plato-forms" -> "dravya"              [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "plato-forms" -> "democritus-atom"     [label="structurally-parallel-to"        style=dashed color="#009933"];
 }

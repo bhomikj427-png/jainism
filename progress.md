@@ -639,10 +639,65 @@ Greek philosophy thread:
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `siddha.md` | pending | |
-| 2 | `charitra.md` | pending | |
-| 3 | `naigama-naya.md` | pending | |
-| 4 | `arthapatti.md` | pending | |
-| 5 | `dharmottara.md` | pending | |
-| 6 | `aristotle-substance.md` | pending | |
-| 7 | `plato-forms.md` | pending | |
+| 1 | `siddha.md` | done | converged, medium; TS 10.3+10.8+10.9 FETCHED; 8-attribute table; 13 differentiation criteria; anti-Advaita individual-persistence |
+| 2 | `charitra.md` | done | converged, medium; TS 1.1 FETCHED; simultaneous ratnatraya; sakala/vikala table; 5-mahavrata links |
+| 3 | `naigama-naya.md` | done | converged, medium; TS 1.33 FETCHED; teleological/purpose standpoint; 7-naya table; dravyarthika classification |
+| 4 | `arthapatti.md` | done | converged, medium; Devadatta+Caitra examples; drshta/shruta types; simultaneous-vs-sequential Nyaya debate |
+| 5 | `dharmottara.md` | done | converged, medium; Dignaga→Dharmakirti→Dharmottara chain; niscaya-pratyaya; Tibetan transmission |
+| 6 | `aristotle-substance.md` | done | converged, medium; hylomorphism; Categories/Metaphysics shift; 4-tradition comparison table |
+| 7 | `plato-forms.md` | done | converged, medium; transcendent universals; Third Man Argument; Brahman conflation defused; 6-tradition comparison |
+
+## Run log — Batch 12 (2026-06-04)
+
+### Concepts completed: 7 / 7 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| siddha | converged | medium | TS 10.3+10.8+10.9 FETCHED; 8-attribute (ananta-catustaya+4); arihant→siddha; 13 criteria |
+| charitra | converged | medium | TS 1.1 FETCHED (*samyagdarsanajnanacaritrāni mokshamārgah*); sakala/vikala; 5-mahavrata expressed-by links |
+| naigama-naya | converged | medium | TS 1.33 FETCHED; axe/prastha example; 7-naya complete table; Prabhacandra's simultaneous treatment |
+| arthapatti | converged | medium | Bhatta-Mimamsa 6th pramana; Devadatta+Caitra; drshta/shruta; Kumarila vs Prabhakara split |
+| dharmottara | converged | medium | ~740-800 CE Kashmir; niścaya-pratyaya innovation; Tibetan *chos mchog* transmission |
+| aristotle-substance | converged | medium | hylomorphism; primary/secondary shift; ousia-dravya-Vaisheshika-Plato 4-tradition table |
+| plato-forms | converged | medium | transcendent universals; Form of the Good; Third Man Argument; Brahman conflation defused |
+
+### TS verses directly fetched this session
+- TS 10.3 (liberation mechanism): *aupaśamikādibhavyatvānāṃ ca*
+- TS 10.8 (siddha at loka apex): *dharmāstikāyābhāvāt*
+- TS 10.9 (13 differentiation criteria): *kṣetrakālagatiliṃga...sādhyāḥ*
+- TS 1.1 (three jewels path): *samyagdarśanajñānacāritrāṇi mokṣamārgaḥ*
+- TS 1.33 (seven nayas): *naigamasaṃgrahavyavahārarjusūtraśabdasamabhirūḍhaivaṃbhūtā nayāḥ*
+
+### Graph (final state)
+`graph/graph.dot` updated: **89 written nodes, 0 unwritten stubs — 89 total**, **~210 edges**.
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+
+### Notable findings this batch
+
+1. **Siddha completes the Jain arc**: jīva → āsrava → bandha → saṃvara → nirjarā → mokṣa → siddha (residing at Siddhāśilā). All seven tattvas and their endpoint are now written. TS 10.9's 13 differentiation criteria are the strongest textual proof that individual identity persists in siddhahood — the key anti-Advaita, anti-Buddhist point.
+
+2. **Cāritra provides the "missing link"**: TS 1.1 is the opening verse of the entire Tattvārtha Sūtra and was not yet written as a concept. Charitra.md fills this and links all five mahāvrata files through the expressed-by relation.
+
+3. **Naigama-naya completes the seven-naya system**: dravyārthika-naya (Batch 7) and paryāyārthika-naya (Batch 7) are the two types; naigama is the first dravyārthika naya. TS 1.33 provides the complete seven-naya list in a single verse.
+
+4. **Arthāpatti is the corpus's sharpest "inference-boundary" case**: it shows exactly where Mīmāṃsā and Buddhist/Nyāya epistemologies diverge on what counts as valid cognition vs. inference. Together with mimamsa-pramana.md and hetu-vidya.md, the Indian epistemological debate is now comprehensively mapped.
+
+5. **Greek thread is now open**: democritus-atom (Batch 5), aristotle-substance, and plato-forms form a Greek triangle. The three Greek positions — atoms (Democritus), immanent form (Aristotle), transcendent Forms (Plato) — now link bidirectionally with Jain (dravya, paramāṇu), Vedānta (brahman, māyā), and Buddhist (śūnyatā, apoha) concepts.
+
+6. **Brahman/Forms conflation explicitly defused**: plato-forms.md marks the Forms-Brahman analogy as `often-conflated-with-NOT-equivalent` — Brahman is ONE, Forms are MANY. This is one of the most common cross-cultural over-identifications; the file documents precisely what the analogy captures and where it breaks.
+
+### Corpus milestone: 89 concepts across 12 batches
+
+### Suggested Batch 13
+Completing the Greek thread:
+- `aristotle-logic` — Aristotle's syllogism; comparison with Indian anumāna structures
+- `stoic-logos` — the Stoic rational principle; cross-link to brahman/dharma
+
+Remaining Jain nayas:
+- `sangraha-naya` — generic standpoint (second naya; universal grouping)
+- `vyavahara-naya` — systematic standpoint (third naya; practical classification)
+
+Cross-tradition ethics depth:
+- `dukha` — Buddhist dukkha (suffering); cross-link to karma/samsara across traditions
+- `samsara` — the rebirth cycle; present across all traditions with different metaphysical groundings
+- `citta` — Buddhist mind/consciousness; contrast with Jain upayoga and Samkhya citta
