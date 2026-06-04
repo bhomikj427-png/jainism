@@ -6,6 +6,7 @@
 | 01 Jain Ontology | [01-jain-ontology.md](01-jain-ontology.md) | sat · dravya · paryāya · pudgala · paramāṇu · skandha | drafted |
 | 02 Jain Epistemology | [02-jain-epistemology.md](02-jain-epistemology.md) | naya · anekāntavāda · syādvāda · saptabhaṅgī · dravyārthika-naya · paryāyārthika-naya | drafted |
 | 03 Jain Soteriology | [03-jain-soteriology.md](03-jain-soteriology.md) | tattva-jain · jīva · karma · kaṣāya · āsrava · bandha · saṃvara · nirjarā · mokṣa · guṇasthāna · loka-jain | drafted |
+| 04 Cross-Tradition | [04-cross-tradition.md](04-cross-tradition.md) | brahman · ātman-vedānta · karma-vedic · mokṣa-advaita · pratītyasamutpāda · nirvāṇa-buddhist · ahiṃsā · ahiṃsā-buddhist | drafted |
 
 ---
 
@@ -36,3 +37,11 @@
 | mokṣa | Ch 03 | — |
 | guṇasthāna | Ch 03 | — |
 | loka-jain | Ch 03 | — |
+| brahman | Ch 04 | — |
+| ātman-vedānta | Ch 04 | Ch 03 (§2 jīva conflation) |
+| karma-vedic | Ch 04 | Ch 03 (§3 karma conflation) |
+| mokṣa-advaita | Ch 04 | Ch 03 (§10 liberation table) |
+| pratītyasamutpāda | Ch 04 | — |
+| nirvāṇa-buddhist | Ch 04 | Ch 03 (§10 liberation table) |
+| ahiṃsā | Ch 04 | — |
+| ahiṃsā-buddhist | Ch 04 | — |
