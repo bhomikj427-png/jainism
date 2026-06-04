@@ -13,6 +13,8 @@ Read sections 1–6 in order — each one builds on the last. Where you get stuc
 
 ## 1. What does it mean to exist? — *sat* {#sat}
 
+*→ concept file: [sat.md](../concepts/sat.md)*
+
 ### 1.1 The claim {#sat-claim}
 
 In ordinary English, "exists" is a yes/no predicate: a thing either exists or it doesn't. Jain philosophy rejects this. The Tattvārtha Sūtra (a systematic philosophical treatise composed by Umāsvāti, ca. 2nd–5th century CE) gives a precise definition in verse 5.30:
@@ -57,6 +59,8 @@ The deliberate philosophical middle: **Jainism is neither pure permanence nor pu
 
 ## 2. Substance: the six things that exist — *dravya* {#dravya}
 
+*→ concept file: [dravya.md](../concepts/dravya.md)*
+
 ### 2.1 The definition {#dravya-def}
 
 *Sat* tells us what existence requires. *Dravya* (substance) names the kind of thing that exists in this way. The Tattvārtha Sūtra gives two definitions that work together:
@@ -99,6 +103,8 @@ This is a sectarian touchpoint: Digambara Jains (who use the Sarvārthasiddhi) a
 
 ## 3. Mode: how substances change — *paryāya* {#paryaya}
 
+*→ concept file: [paryaya.md](../concepts/paryaya.md)*
+
 ### 3.1 Guṇa vs paryāya {#guna-paryaya}
 
 Every dravya has both guṇas and paryāyas. The distinction is critical:
@@ -134,6 +140,8 @@ This distinction is not just metaphysics for its own sake. It directly grounds t
 
 ## 4. Matter: the one substance with sensory form — *pudgala* {#pudgala}
 
+*→ concept file: [pudgala.md](../concepts/pudgala.md)*
+
 ### 4.1 Definition and the four qualities {#pudgala-def}
 
 Of the six dravyas, five are *amūrta* — formless, without sensory qualities. Pudgala (matter) is the one exception: it is *mūrta*, having sensory form. The Tattvārtha Sūtra defines it in five words:
@@ -166,6 +174,8 @@ There is nothing in between. A piece of wood is a skandha. Karma particles are a
 ---
 
 ## 5. The atom: matter's ultimate unit — *paramāṇu* {#paramanu}
+
+*→ concept file: [paramanu.md](../concepts/paramanu.md)*
 
 ### 5.1 The definition {#paramanu-def}
 
@@ -200,6 +210,8 @@ No paramāṇu is quality-free. The qualities are not added later — they are c
 ---
 
 ## 6. Aggregates: how atoms build the world — *skandha* {#skandha}
+
+*→ concept file: [skandha.md](../concepts/skandha.md)*
 
 ### 6.1 The bonding rule {#skandha-bonding}
 

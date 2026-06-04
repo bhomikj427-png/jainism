@@ -96,7 +96,8 @@
 
 | chapter | file | concepts | status |
 |---|---|---|---|
-| 01 Jain Ontology | chapters/01-jain-ontology.md | sat, dravya, paryāya, pudgala, paramāṇu, skandha | drafted — unread |
+| 01 Jain Ontology | chapters/01-jain-ontology.md | sat, dravya, paryāya, pudgala, paramāṇu, skandha | drafted (backlinks added v2) |
+| 02 Jain Epistemology | chapters/02-jain-epistemology.md | naya, anekāntavāda, syādvāda, saptabhaṅgī, dravyārthika-naya, paryāyārthika-naya | drafted |
 
 ---
 
@@ -196,6 +197,8 @@
 ### Session 1 — 2026-06-04
 - Teaching files created: TEACHING.md, teaching-log.md, chapters/INDEX.md.
 - TEACHING.md updated with §7 Chapter rules and §8 Stuck-marker protocol.
-- **Chapter 01 written**: `chapters/01-jain-ontology.md` — covers sat, dravya, paryāya, pudgala, paramāṇu, skandha. Open and read; leave `?? ` markers where you are stuck.
-- No concepts marked taught yet (chapter unread).
-- **Next chapter queued:** Chapter 02 — Jain Epistemology (anekāntavāda, syādvāda, saptabhaṅgī, naya, dravyārthika-naya, paryāyārthika-naya).
+- TEACHING.md updated to v2 (§7–§9 replaced; sub-chapter split rule, INDEX.md ownership, traceability, non-destructive rule, never-emit-marker rule, marker-retirement step all added).
+- Chapter 01 retrofit: concept-file backlinks added to all 6 main sections; no markers to retire (tree was clean).
+- **Chapter 02 written**: `chapters/02-jain-epistemology.md` — covers naya, anekāntavāda (contested, shown as full divergence table), syādvāda, saptabhaṅgī, dravyārthika-naya, paryāyārthika-naya. Includes prime-directive conflict (anekāntavāda ≠ quantum complementarity) as §7.
+- chapters/INDEX.md updated to full concept→chapter map.
+- **Next chapter queued:** Chapter 03 — Jain Soteriology (tattva-jain, jīva, asrava, bandha, samvara, nirjarā, mokṣa).
