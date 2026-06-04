@@ -5,6 +5,7 @@
 |---|---|---|---|
 | 01 Jain Ontology | [01-jain-ontology.md](01-jain-ontology.md) | sat · dravya · paryāya · pudgala · paramāṇu · skandha | drafted |
 | 02 Jain Epistemology | [02-jain-epistemology.md](02-jain-epistemology.md) | naya · anekāntavāda · syādvāda · saptabhaṅgī · dravyārthika-naya · paryāyārthika-naya | drafted |
+| 03 Jain Soteriology | [03-jain-soteriology.md](03-jain-soteriology.md) | tattva-jain · jīva · karma · kaṣāya · āsrava · bandha · saṃvara · nirjarā · mokṣa · guṇasthāna · loka-jain | drafted |
 
 ---
 
@@ -19,8 +20,19 @@
 | paramāṇu | Ch 01 | — |
 | skandha | Ch 01 | — |
 | naya | Ch 02 | — |
-| anekāntavāda | Ch 02 | — |
+| anekāntavāda | Ch 02 | Ch 03 (§2 jīva conflation note) |
 | syādvāda | Ch 02 | — |
 | saptabhaṅgī | Ch 02 | — |
 | dravyārthika-naya | Ch 02 | — |
 | paryāyārthika-naya | Ch 02 | — |
+| tattva-jain | Ch 03 | — |
+| jīva | Ch 03 | Ch 01 (as one of six dravyas) |
+| karma | Ch 03 | — |
+| kaṣāya | Ch 03 | — |
+| āsrava | Ch 03 | — |
+| bandha | Ch 03 | — |
+| saṃvara | Ch 03 | — |
+| nirjarā | Ch 03 | — |
+| mokṣa | Ch 03 | — |
+| guṇasthāna | Ch 03 | — |
+| loka-jain | Ch 03 | — |
