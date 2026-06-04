@@ -632,3 +632,17 @@ Remaining Jain-specific:
 Greek philosophy thread:
 - `aristotle-substance` — Aristotle's hylomorphic substance; cross-link to Jain dravya
 - `plato-forms` — Platonic forms; contrast with Jain universal/particular treatment
+
+---
+
+## Batch 12 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `siddha.md` | pending | |
+| 2 | `charitra.md` | pending | |
+| 3 | `naigama-naya.md` | pending | |
+| 4 | `arthapatti.md` | pending | |
+| 5 | `dharmottara.md` | pending | |
+| 6 | `aristotle-substance.md` | pending | |
+| 7 | `plato-forms.md` | pending | |
