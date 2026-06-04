@@ -92,6 +92,23 @@
 
 ---
 
+## §A2 Chapters coverage
+
+| chapter | file | concepts | status |
+|---|---|---|---|
+| 01 Jain Ontology | chapters/01-jain-ontology.md | sat, dravya, paryāya, pudgala, paramāṇu, skandha | drafted — unread |
+
+---
+
+## §A3 Stuck-point log
+
+*(empty — no markers resolved yet)*
+
+| date | chapter | concept | question summary | resolution angle used |
+|---|---|---|---|---|
+
+---
+
 ## §B Coverage ledger
 
 **Taught 0 of 75 concepts.**
@@ -177,6 +194,8 @@
 ## §C Session log
 
 ### Session 1 — 2026-06-04
-- Teaching files created (TEACHING.md, teaching-log.md).
-- Teaching: **sat** (in progress — see session notes below).
-- Next concept pointer: **anekantavada** (the direct downstream payoff of sat; contested concept with a rich divergence table).
+- Teaching files created: TEACHING.md, teaching-log.md, chapters/INDEX.md.
+- TEACHING.md updated with §7 Chapter rules and §8 Stuck-marker protocol.
+- **Chapter 01 written**: `chapters/01-jain-ontology.md` — covers sat, dravya, paryāya, pudgala, paramāṇu, skandha. Open and read; leave `?? ` markers where you are stuck.
+- No concepts marked taught yet (chapter unread).
+- **Next chapter queued:** Chapter 02 — Jain Epistemology (anekāntavāda, syādvāda, saptabhaṅgī, naya, dravyārthika-naya, paryāyārthika-naya).

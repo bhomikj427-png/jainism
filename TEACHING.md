@@ -31,3 +31,18 @@ When a physics comparandum exists (e.g., quantum-complementarity / anekantavada,
 - No trailing summaries of what was just covered — the concept file already is the record.
 - No multi-item menus or roadmaps — one next pointer only, at the very end.
 - Never claim high confidence where the corpus has medium — always flag the source ceiling.
+
+## §7 Chapter rules
+- A chapter is a **reading layer generated from the concept files — never a second source of truth.** If a concept updates, regenerate the chapter; don't duplicate or let it drift.
+- **One chapter per coherent cluster**, using the dense regions of the graph (e.g. a "Jain ontology" chapter over `sat, dravya, paryaya`; a "Jain epistemology" chapter over `anekantavada, syadvada, saptabhangi, naya`).
+- Written for **zero prior knowledge**, concise, visual-first — a **contested** concept is shown as its comparison table (reading / who holds it / what it commits you to), not buried in prose.
+- **Preserve citations**: every claim references its TS verse number and edition. Flag anything with confidence: low inline; `needs-opus-review` as "⚠️ verify before trusting."
+- Turn every `often-conflated-with-NOT-equivalent` link into an explicit **"Conflation alert"** callout (`> ⚠️`), explaining: (1) the surface similarity that drives the conflation, (2) the precise difference that breaks it.
+- **Number the sections** (`1`, `1.1`, `2`…) so exact spots can be referenced. Give each section a stable markdown anchor.
+- End every chapter with a short **"Check yourself"** section — 2–3 explain-it-back prompts. The success metric is that the reader can reconstruct the cluster without the chapter.
+
+## §8 Stuck-marker protocol
+- The reader marks the exact spot they are stuck by writing a line beginning `?? ` (optionally with their question) directly in the chapter file, then saving.
+- To resolve: for **each** marker, read the surrounding chapter text **plus the underlying concept file(s)**, then write a fresh explanation **directly beneath the marker** in a `> 💡` blockquote that starts with the reader's question and adds the explanation from a **different angle** — a new analogy, a worked example, a small visual. Never just repeat the chapter's phrasing.
+- Log each stuck-point in `teaching-log.md` (concept, question, resolution). Recurring stuck-points flag a weak chapter explanation to improve.
+- After resolving all markers, tell the reader which chapters still have open markers (if any).
