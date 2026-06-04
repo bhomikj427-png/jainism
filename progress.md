@@ -569,10 +569,66 @@ Cross-tradition ethics:
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `avadhi-jnana.md` | pending | |
-| 2 | `manah-paryaya-jnana.md` | pending | |
-| 3 | `vyapti.md` | pending | |
-| 4 | `hetu-vidya.md` | pending | |
-| 5 | `ahimsa-vedic.md` | pending | |
-| 6 | `dana.md` | pending | |
-| 7 | `tapas.md` | pending | |
+| 1 | `avadhi-jnana.md` | done | converged, medium; TS 1.21+1.12 FETCHED; bhava-pratyaya/guna-pratyaya; 6-variety table; 3 scope levels |
+| 2 | `manah-paryaya-jnana.md` | done | converged, medium; TS 1.23 FETCHED; rjumati/vipulamati; human-ascetic-only constraint |
+| 3 | `vyapti.md` | done | converged, medium; cross-tradition; anvaya/vyatireka; Nyaya-universals vs Dignaga-trairūpya vs Dharmakirti-causal |
+| 4 | `hetu-vidya.md` | done | converged, medium; Dignaga-Dharmakīrti line; trairūpya+apoha; 2-vs-4-pramana Nyaya contrast |
+| 5 | `ahimsa-vedic.md` | done | converged, medium; Rigveda→Chandogya→Mahabharata→Yoga Sutra arc; alpadroha; dharmic-exceptions table |
+| 6 | `dana.md` | done | converged, medium; TS 7.38 FETCHED; anugraha definition; 4-element+4-category table; 3-tradition comparison |
+| 7 | `tapas.md` | done | converged, medium; TS 9.19+9.20 FETCHED; 6+6 austerity tables; 3-tradition comparison; Middle Way rejection noted |
+
+## Run log — Batch 11 (2026-06-04)
+
+### Concepts completed: 7 / 7 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| avadhi-jnana | converged | medium | TS 1.21+1.12 FETCHED; bhava-pratyaya/guna-pratyaya; 6-variety table; 3 scope levels; pudgala-only |
+| manah-paryaya-jnana | converged | medium | TS 1.23 FETCHED; rjumati/vipulamati; human-ascetic-only; avadhi vs manah-paryaya contrast |
+| vyapti | converged | medium | cross-tradition; anvaya/vyatireka; Nyaya-universals vs Dignaga-trairūpya vs Dharmakirti-causal table; Carvaka rejection |
+| hetu-vidya | converged | medium | Dignaga-Dharmakīrti line; historical arc; trairūpya+apoha+causal; 2-vs-4-pramana Nyaya contrast |
+| ahimsa-vedic | converged | medium | Rigveda→Chandogya→Mahabharata→Yoga Sutra arc; alpadroha framing; dharmic-exceptions table; 3-tradition comparison |
+| dana | converged | medium | TS 7.38 FETCHED; anugraha definition; 4-element+4-category Jain table; 3-tradition metaphysical-grounding comparison |
+| tapas | converged | medium | TS 9.19+9.20 FETCHED; 6-external+6-internal tables with Pujyapada; 3-tradition comparison; Middle Way rejection |
+
+### TS verses directly fetched this session
+- TS 1.21 (avadhi bhava-pratyaya): *bhavapratyayo'vadhirdevanārakāṇām*
+- TS 1.12 (pratyaksha classification): *pratyakṣamanyat*
+- TS 1.23 (manah-paryaya types): *ṛjuvipulamatī manaḥparyayaḥ*
+- TS 7.38 (dana definition): *anugrahārthaṃ svasyātisargo dānam*
+- TS 9.19 (external austerities): *anaśanāvamaudarya vṛttiparisaṃkhyāna rasaparityāga viviktaśayyāsana kāyakleśā bāhyaṃ tapaḥ*
+- TS 9.20 (internal austerities): *prāyaścittavinayavaiyāvṛttya svādhyāya vyutsargadhyānānyuttaram*
+
+### Graph (final state)
+`graph/graph.dot` updated: **82 written nodes, 0 unwritten stubs — 82 total**, **~175 edges**.
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+
+### Notable findings this batch
+
+1. **Five-knowledge ladder now complete**: mati-jñāna (Batch 10) + śruta-jñāna (Batch 10) + avadhi-jñāna + manaḥparyāya-jñāna + kevala-jñāna — all five types have dedicated files. The pratyakṣa/parokṣa classification (and Jain's inversion of Nyāya usage) is now fully documented.
+
+2. **Vyāpti as the logical spine**: vyapti.md reveals that all three major epistemological schools (Nyāya, Buddhist/Dignāga, Jain) use vyāpti but ground it differently. This is the deepest technical cross-tradition finding in epistemology — universals vs. causal necessity vs. induction.
+
+3. **Hetu-vidyā completes the Buddhist epistemology arc**: dignāga-pramāṇa.md (Batch 9) + hetu-vidyā (Batch 11) together document the full Dignāga–Dharmakīrti tradition. The apoha theory (meaning-as-exclusion) is the most technically distinctive feature — it eliminates universals without losing semantic content.
+
+4. **Ethics cross-tradition now fully mapped**: ahiṃsā (Jain), ahiṃsā-buddhist, ahiṃsā-vedic are all written. The Vedic "alpadroha" framing (minimum violence, not zero) is the key distinguishing concept against Jain absolute prohibition.
+
+5. **Dana as the economic/social face of soteriology**: TS 7.38's anugraha framing is distinctive — giving is defined as mutual benefit, not charity. This integrates dana into the karma-moksha arc: giving reduces karma-bondage in the giver and enables monastic practice in the recipient.
+
+6. **Tapas as the most heavily fetched concept**: TS 9.19 + 9.20 together cover all twelve austerity types with Pūjyapāda's glosses. The 6+6 structure (external/internal) is the most complete single-concept verse-fetch of the project.
+
+### Corpus milestone: 82 concepts across 11 batches
+
+### Suggested Batch 12
+Remaining epistemological threads:
+- `dharmottara` — Dharmakīrti's commentator; the hetu-vidyā inheritance chain
+- `arthapatti` — Mīmāṃsā's distinctive postulation pramāṇa (fills Mīmāṃsā depth)
+
+Remaining Jain-specific:
+- `siddha` — the liberated soul (already forward-linked from moksha, jina, arihant)
+- `naigama-naya` — first of the seven nayas (already linked from dravyarthika-naya)
+- `charitra` — right conduct (third of tri-ratna; forward-linked from multiple files)
+
+Greek philosophy thread:
+- `aristotle-substance` — Aristotle's hylomorphic substance; cross-link to Jain dravya
+- `plato-forms` — Platonic forms; contrast with Jain universal/particular treatment

@@ -575,4 +575,78 @@ digraph ancient_texts {
   "jina" -> "gunasthana"     [label="expressed-by"     style=solid  color="#555555"];
   "jina" -> "tirthankara"    [label="is-a-type-of"     style=solid  color="#333333"];
   "jina" -> "nirvana-buddhist" [label="shares-vocabulary-with" style=dashed color="#0066cc"];
+
+  /* ================================================================
+     BATCH 11 ADDITIONS
+     ================================================================ */
+
+  /* New written nodes */
+  "avadhi-jnana"       [label="avadhijñāna"          style=filled fillcolor="#f5c518" shape=ellipse];
+  "manah-paryaya-jnana"[label="manaḥparyāyajñāna"   style=filled fillcolor="#f5c518" shape=ellipse];
+  "vyapti"             [label="vyāpti"                style=filled fillcolor="#e0e0e0" shape=ellipse];
+  "hetu-vidya"         [label="hetuviḍyā"             style=filled fillcolor="#ffa07a" shape=ellipse];
+  "ahimsa-vedic"       [label="ahiṃsā (Vedic)"        style=filled fillcolor="#b0e0b0" shape=ellipse];
+  "dana"               [label="dāna"                  style=filled fillcolor="#f5c518" shape=ellipse];
+  "tapas"              [label="tapas"                  style=filled fillcolor="#f5c518" shape=ellipse];
+
+  /* avadhi-jnana.md */
+  "avadhi-jnana" -> "pramana"            [label="is-a-type-of"                    style=solid  color="#333333"];
+  "avadhi-jnana" -> "upayoga"            [label="is-a-type-of"                    style=solid  color="#333333"];
+  "avadhi-jnana" -> "kevala-jnana"       [label="part-of"                         style=solid  color="#333333"];
+  "avadhi-jnana" -> "paroksha-jnana"     [label="aggregates-into"                 style=solid  color="#555555"];
+  "avadhi-jnana" -> "manah-paryaya-jnana"[label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "avadhi-jnana" -> "dignaga-pramana"    [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "avadhi-jnana" -> "kevala-jnana"       [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* manah-paryaya-jnana.md */
+  "manah-paryaya-jnana" -> "pramana"         [label="is-a-type-of"                    style=solid  color="#333333"];
+  "manah-paryaya-jnana" -> "upayoga"         [label="is-a-type-of"                    style=solid  color="#333333"];
+  "manah-paryaya-jnana" -> "kevala-jnana"    [label="part-of"                         style=solid  color="#333333"];
+  "manah-paryaya-jnana" -> "paroksha-jnana"  [label="aggregates-into"                 style=solid  color="#555555"];
+  "manah-paryaya-jnana" -> "avadhi-jnana"    [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "manah-paryaya-jnana" -> "dignaga-pramana" [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "manah-paryaya-jnana" -> "avadhi-jnana"    [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* vyapti.md */
+  "vyapti" -> "pramana"          [label="part-of"                         style=solid  color="#333333"];
+  "vyapti" -> "pramana-nyaya"    [label="part-of"                         style=solid  color="#333333"];
+  "vyapti" -> "hetu-vidya"       [label="part-of"                         style=solid  color="#333333"];
+  "vyapti" -> "saptabhangi"      [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "vyapti" -> "naya"             [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "vyapti" -> "dignaga-pramana"  [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "vyapti" -> "many-valued-logic"[label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* hetu-vidya.md */
+  "hetu-vidya" -> "dignaga-pramana"    [label="part-of"                         style=solid  color="#333333"];
+  "hetu-vidya" -> "pramana"            [label="part-of"                         style=solid  color="#333333"];
+  "hetu-vidya" -> "vyapti"             [label="formalizes"                      style=solid  color="#555555"];
+  "hetu-vidya" -> "pramana-nyaya"      [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "hetu-vidya" -> "mimamsa-pramana"    [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "hetu-vidya" -> "pratityasamutpada"  [label="historically-influenced-by"      style=dashed color="#666666"];
+  "hetu-vidya" -> "pramana-nyaya"      [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+
+  /* ahimsa-vedic.md */
+  "ahimsa-vedic" -> "ahimsa"        [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "ahimsa-vedic" -> "ahimsa-buddhist"[label="shares-vocabulary-with"         style=dashed color="#0066cc"];
+  "ahimsa-vedic" -> "ahimsa"        [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "ahimsa-vedic" -> "atman-vedanta" [label="part-of"                         style=solid  color="#333333"];
+  "ahimsa-vedic" -> "brahmacarya"   [label="part-of"                         style=solid  color="#333333"];
+  "ahimsa-vedic" -> "aparigraha"    [label="structurally-parallel-to"        style=dashed color="#009933"];
+
+  /* dana.md */
+  "dana" -> "ahimsa"         [label="part-of"                  style=solid  color="#333333"];
+  "dana" -> "aparigraha"     [label="part-of"                  style=solid  color="#333333"];
+  "dana" -> "karma"          [label="part-of"                  style=solid  color="#333333"];
+  "dana" -> "ahimsa-buddhist"[label="structurally-parallel-to" style=dashed color="#009933"];
+  "dana" -> "ahimsa-vedic"   [label="structurally-parallel-to" style=dashed color="#009933"];
+  "dana" -> "nirvana-buddhist"[label="shares-vocabulary-with"  style=dashed color="#0066cc"];
+
+  /* tapas.md */
+  "tapas" -> "nirjara"       [label="part-of"                         style=solid  color="#333333"];
+  "tapas" -> "samvara"       [label="part-of"                         style=solid  color="#333333"];
+  "tapas" -> "dhyana-jain"   [label="part-of"                         style=solid  color="#333333"];
+  "tapas" -> "ahimsa-vedic"  [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "tapas" -> "brahmacarya"   [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "tapas" -> "guna-samkhya"  [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "tapas" -> "karma"         [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
 }
