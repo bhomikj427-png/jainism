@@ -562,3 +562,17 @@ Cross-tradition ethics:
 - `ahimsa-vedic` — Vedic/Hindu non-violence; how it differs from Jain and Buddhist
 - `dana` — giving/charity; present across traditions with different metaphysical groundings
 - `tapas` — austerity; shared vocabulary across Jain/Hindu/Buddhist with different ontologies
+
+---
+
+## Batch 11 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `avadhi-jnana.md` | pending | |
+| 2 | `manah-paryaya-jnana.md` | pending | |
+| 3 | `vyapti.md` | pending | |
+| 4 | `hetu-vidya.md` | pending | |
+| 5 | `ahimsa-vedic.md` | pending | |
+| 6 | `dana.md` | pending | |
+| 7 | `tapas.md` | pending | |
