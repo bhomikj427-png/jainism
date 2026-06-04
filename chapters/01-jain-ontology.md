@@ -6,7 +6,7 @@
 
 ---
 
-## How to use this chapter
+ ## How to use this chapter
 Read sections 1–6 in order — each one builds on the last. Where you get stuck, write `?? ` followed by your question **on its own line** right at that spot in this file, save it, and paste the teaching prompt again. Your marker will be found and answered in place, from a different angle than the text used.
 
 ---
@@ -54,6 +54,20 @@ The deliberate philosophical middle: **Jainism is neither pure permanence nor pu
 > ⚠️ **Conflation alert — Jain *sat* ≠ Advaita Brahman**
 >
 > Both traditions use the Sanskrit word *sat*. Advaita's *Brahman* is *sat-cit-ānanda* (being-consciousness-bliss) and is explicitly changeless — no origination, no destruction. Jain *sat* **requires** all three components. A Brahman that has only dhrauvya (no real utpāda/vyaya) fails the Jain definition — it would not count as genuinely existing in the Jain sense. The surface similarity (same word, positive ontological meaning) is precisely what drives the conflation. The difference is structural and deliberate: Jain *sat* is a critique of Advaita's account as half a theory.
+
+> ✅ asked: knowing that moksha is the ultimate goal, isn't moksha just dhrauvya?
+
+> 💡 Sharp instinct — but no, and here's why.
+>
+> Think of it this way. Imagine a tuning fork buried under a thick layer of wax. Its natural frequency is in there, but the wax muffles it completely. Mokṣa is not turning the tuning fork into a *static lump of metal*. It's scraping off all the wax so the fork can finally ring at its true pitch. The fork still vibrates — that's paryāya. What's gone is the *muffling*, not the vibration.
+>
+> The liberated soul (siddha) still **exists as a dravya** — which means, by the very sat definition in §1.1, it must still have all three: utpāda, vyaya, and dhrauvya. You cannot exist in the Jain sense while having only dhrauvya. A thing with no utpāda/vyaya at all would not be a dravya; it would be nothing.
+>
+> What the siddha no longer has is *karma-imposed* paryāyas — the modes that were being forced onto it from outside (obscured knowledge, delusion, pain from vedanīya karma, etc.). What it still has is its own *intrinsic* paryāyas: each moment of omniscient awareness cognizing the infinite universe is a fresh act, a paryāya of the soul's knowing-capacity (guṇa). The capacity to know is the permanent guṇa (dhrauvya side). Each act of knowing something is a mode (paryāya side, utpāda/vyaya side).
+>
+> So mokṣa is better described as: **all paryāyas are now purely intrinsic expressions of the soul's own nature** — none are externally imposed by karma. The soul is not frozen; it is finally free to change on its own terms. That is very different from having only dhrauvya.
+>
+> The confusion is understandable: liberation *feels* like the soul "settling into permanence." But in Jain terms, that settlement is still a dravya existing fully — changing, persisting, and instantiating new modes — just without the karmic overlay.
 
 ---
 
