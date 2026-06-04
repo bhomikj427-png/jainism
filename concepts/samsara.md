@@ -52,7 +52,7 @@ Encyclopedia of Buddhism (encyclopediaofbuddhism.org) confirms the Buddhist posi
 
 ## Links
 
-- part-of: dukkha | samsāra is the realm of conditioned existence; dukkha is its characteristic quality — they are co-extensive
+- expressed-by: dukkha | samsāra is expressed-by and characterized through dukkha — dukkha is the defining quality of conditioned samsāric existence
 - structurally-parallel-to: pratityasamutpada | the 12-link chain of dependent arising explains *how* samsāra perpetuates itself — ignorance → formations → consciousness → ... → dukkha → rebirth
 - expressed-by: karma | samsāra is maintained by karma in all traditions; but what karma *is* differs radically (physical matter in Jain; intentional action in Buddhist; moral force in Hindu)
 - often-conflated-with-NOT-equivalent: jiva | the Jain jīva cycles through samsāra as a real substance; Buddhist "rebirth" involves no permanent jīva — conflating the two reads Buddhist rebirth as requiring a jīva-equivalent, which violates anattā

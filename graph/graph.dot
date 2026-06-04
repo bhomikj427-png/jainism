@@ -75,6 +75,7 @@ digraph ancient_texts {
   "omniscience-vedanta" [label="omniscience (Vedānta)"   style=filled fillcolor="#b0e0b0" shape=ellipse];
   "pramana-nyaya"       [label="pramāṇa (Nyāya)"        style=filled fillcolor="#82b4ff" shape=ellipse];
   "ahimsa-buddhist"     [label="ahiṃsā (Buddhist)"      style=filled fillcolor="#ffa07a" shape=ellipse];
+  "alaya-vijnana"       [label="ālaya-vijñāna (stub)"   style=filled fillcolor="#dddddd" shape=ellipse];
 
   /* ================================================================
      EDGES
@@ -662,6 +663,13 @@ digraph ancient_texts {
   "dharmottara"        [label="Dharmottara"            style=filled fillcolor="#ffa07a" shape=ellipse];
   "aristotle-substance"[label="ousia (Aristotle)"      style=filled fillcolor="#c0c0c0" shape=ellipse];
   "plato-forms"        [label="eidos (Plato)"          style=filled fillcolor="#c0c0c0" shape=ellipse];
+  "aristotle-logic"    [label="syllogism (Aristotle)"  style=filled fillcolor="#c0c0c0" shape=ellipse];
+  "stoic-logos"        [label="logos (Stoic)"          style=filled fillcolor="#c0c0c0" shape=ellipse];
+  "sangraha-naya"      [label="saṃgraha naya"          style=filled fillcolor="#f5c518" shape=ellipse];
+  "vyavahara-naya"     [label="vyavahāra naya"         style=filled fillcolor="#f5c518" shape=ellipse];
+  "dukkha"             [label="dukkha"                 style=filled fillcolor="#ffa07a" shape=ellipse];
+  "samsara"            [label="saṃsāra"                style=filled fillcolor="#ffcc80" shape=ellipse];
+  "citta"              [label="citta"                  style=filled fillcolor="#ffa07a" shape=ellipse];
 
   /* siddha.md */
   "siddha" -> "jiva"          [label="is-a-type-of"                    style=solid  color="#333333"];
@@ -721,4 +729,67 @@ digraph ancient_texts {
   "plato-forms" -> "dravya"              [label="structurally-parallel-to"        style=dashed color="#009933"];
   "plato-forms" -> "dravya"              [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
   "plato-forms" -> "democritus-atom"     [label="structurally-parallel-to"        style=dashed color="#009933"];
+
+  /* aristotle-logic.md */
+  "aristotle-logic" -> "vyapti"              [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "aristotle-logic" -> "hetu-vidya"          [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "aristotle-logic" -> "vyapti"              [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "aristotle-logic" -> "pramana-nyaya"       [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "aristotle-logic" -> "aristotle-substance" [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "aristotle-logic" -> "plato-forms"         [label="historically-influenced-by"      style=dashed color="#666666"];
+
+  /* stoic-logos.md */
+  "stoic-logos" -> "brahman"              [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "stoic-logos" -> "dharma-dravya"        [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "stoic-logos" -> "aristotle-substance"  [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "stoic-logos" -> "pratityasamutpada"    [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "stoic-logos" -> "aristotle-logic"      [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+
+  /* sangraha-naya.md */
+  "sangraha-naya" -> "naya"              [label="is-a-type-of"                    style=solid  color="#333333"];
+  "sangraha-naya" -> "dravyarthika-naya" [label="part-of"                         style=solid  color="#333333"];
+  "sangraha-naya" -> "anekantavada"      [label="part-of"                         style=solid  color="#333333"];
+  "sangraha-naya" -> "sat"               [label="expressed-by"                    style=solid  color="#555555"];
+  "sangraha-naya" -> "brahman"           [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "sangraha-naya" -> "sunyata"           [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "sangraha-naya" -> "brahman"           [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "sangraha-naya" -> "naigama-naya"      [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "sangraha-naya" -> "vyavahara-naya"    [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+
+  /* vyavahara-naya.md */
+  "vyavahara-naya" -> "naya"              [label="is-a-type-of"                    style=solid  color="#333333"];
+  "vyavahara-naya" -> "dravyarthika-naya" [label="part-of"                         style=solid  color="#333333"];
+  "vyavahara-naya" -> "anekantavada"      [label="part-of"                         style=solid  color="#333333"];
+  "vyavahara-naya" -> "sangraha-naya"     [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "vyavahara-naya" -> "maya-advaita"      [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "vyavahara-naya" -> "paryayarthika-naya"[label="structurally-parallel-to"        style=dashed color="#009933"];
+
+  /* dukkha.md */
+  "dukkha" -> "pratityasamutpada"    [label="part-of"                         style=solid  color="#333333"];
+  "dukkha" -> "samsara"              [label="part-of"                         style=solid  color="#333333"];
+  "dukkha" -> "anatta-buddhist"      [label="expressed-by"                    style=solid  color="#555555"];
+  "dukkha" -> "anicca"               [label="expressed-by"                    style=solid  color="#555555"];
+  "dukkha" -> "bandha"               [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "dukkha" -> "bandha"               [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "dukkha" -> "nirvana-buddhist"     [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "dukkha" -> "karma"                [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+
+  /* samsara.md */
+  "samsara" -> "dukkha"              [label="expressed-by"                    style=solid  color="#555555"];
+  "samsara" -> "pratityasamutpada"   [label="structurally-parallel-to"        style=dashed color="#009933"];
+  "samsara" -> "karma"               [label="expressed-by"                    style=solid  color="#555555"];
+  "samsara" -> "jiva"                [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "samsara" -> "moksha"              [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "samsara" -> "nirvana-buddhist"    [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "samsara" -> "loka-jain"           [label="shares-vocabulary-with"          style=dashed color="#0066cc"];
+  "samsara" -> "bandha"              [label="expressed-by"                    style=solid  color="#555555"];
+
+  /* citta.md */
+  "citta" -> "abhidharma"            [label="part-of"                         style=solid  color="#333333"];
+  "citta" -> "samsara"               [label="part-of"                         style=solid  color="#333333"];
+  "citta" -> "anatta-buddhist"       [label="expressed-by"                    style=solid  color="#555555"];
+  "citta" -> "pratityasamutpada"     [label="expressed-by"                    style=solid  color="#555555"];
+  "citta" -> "upayoga"               [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "citta" -> "prakriti-samkhya"      [label="often-conflated-with-NOT-equivalent" style=dotted color="#cc0000"];
+  "citta" -> "alaya-vijnana"         [label="structurally-parallel-to"        style=dashed color="#009933"];
 }

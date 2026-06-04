@@ -701,3 +701,70 @@ Cross-tradition ethics depth:
 - `dukha` — Buddhist dukkha (suffering); cross-link to karma/samsara across traditions
 - `samsara` — the rebirth cycle; present across all traditions with different metaphysical groundings
 - `citta` — Buddhist mind/consciousness; contrast with Jain upayoga and Samkhya citta
+
+---
+
+## Batch 13 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `aristotle-logic.md` | done | converged, medium; Prior Analytics 24b18-20; 3-figure syllogism; vyapti NOT-equivalent to major premise |
+| 2 | `stoic-logos.md` | done | converged, medium; logos=God=pneuma; material/corporeal; brahman+dharma-dravya conflations defused |
+| 3 | `sangraha-naya.md` | done | converged, medium; TS 1.33; sat-example; clay-example; parasangraha/aparasangraha |
+| 4 | `vyavahara-naya.md` | done | converged, medium; TS 1.33; pot-cup example; vyavahara-name-trap vs Advaita defused |
+| 5 | `dukkha.md` | done | converged, medium; SN 56.11 FETCHED; three types (SN 45.165); bandha NOT-equivalent |
+| 6 | `samsara.md` | done | converged, medium; SN 15.3 Assu Sutta; 3-tradition what-cycles table; Buddhist no-self paradox |
+| 7 | `citta.md` | done | converged, medium; 89/121 Abhidhamma types; Samkhya citta is MATERIAL (NOT-equivalent); upayoga NOT-equivalent |
+
+## Run log — Batch 13 (2026-06-04)
+
+### Concepts completed: 7 / 7 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| aristotle-logic | converged | medium | Prior Analytics I.2, 24b18-20; 3 figures; formal-deductive vs Nyaya empirico-deductive; vyapti NOT a major premise |
+| stoic-logos | converged | medium | logos=God=Zeus=pneuma; material/corporeal (NOT immaterial); brahman conflation defused; dharma-dravya NOT-equivalent |
+| sangraha-naya | converged | medium | TS 1.33 (via naigama-naya corpus); sat-example; clay-example; parasangraha/aparasangraha; Advaita+sunyata as sangraha-level truths |
+| vyavahara-naya | converged | medium | TS 1.33 (via corpus); pot-cup example; vyavahara-name-trap vs Advaita vyavaharika explicitly defused |
+| dukkha | converged | medium | SN 56.11 FETCHED (*jātipi dukkhā*...); SN 45.165 three types; bandha NOT-equivalent (no-self vs real-jiva) |
+| samsara | converged | medium | SN 15.3 (Assu Sutta); 3-tradition what-cycles table (stream/jiva/atman); Buddhist no-self paradox; Jain 4-gatis |
+| citta | converged | medium | 89/121 Abhidhamma types; 3 mind-terms (citta/manas/vijnana); Samkhya citta is MATERIAL (NOT-equivalent); Jain upayoga NOT-equivalent |
+
+### TS verses directly fetched this session
+- SN 56.11 (dukkha): *jātipi dukkhā, jarāpi dukkhā...pañcupādānakkhandhā dukkhā* — First Noble Truth definition
+
+### Graph (final state)
+`graph/graph.dot` updated: **96 written nodes, 1 unwritten stub (alaya-vijnana) = 97 total**, **~250 edges**.
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+
+### Notable findings this batch
+
+1. **Naya system now exhaustive at the genus level**: naigama (Batch 12) + sangraha + vyavahara complete the three dravyārthika nayas. Combined with dravyārthika-naya.md (Batch 7) and paryāyārthika-naya.md (Batch 7), the entire seven-naya framework has dedicated files.
+
+2. **The sangraha/brahman/śūnyatā structural parallel**: saṃgraha-naya.md establishes that "all is sat" (Jain), "all is Brahman" (Advaita), and "all is empty" (Buddhist) are all *saṃgraha-level* truths from the Jain perspective — valid partial standpoints. This is one of the sharpest analytical tools the naya system provides against absolutist metaphysics.
+
+3. **Stoic logos is the most materially grounded of all cosmic-principle concepts**: logos is *corporeal* (fiery pneuma), unlike brahman (immaterial consciousness) and dharma-dravya (passive medium). This breaks what is the most tempting surface conflation in cross-cultural philosophy — "all traditions have a cosmic rational principle, therefore they're the same."
+
+4. **The samsara what-cycles question is the deepest cross-tradition diagnostic**: Buddhist (no-self stream), Jain (real jīva), Hindu (ātman) all use the word samsāra and agree on its structure (cycling through realms due to karma). But the metaphysical accounts are mutually inconsistent. The question "what cycles?" exposes the deepest disagreement.
+
+5. **Citta and Sāṃkhya citta are false cognates**: same Sanskrit word, opposite meanings. Buddhist citta IS consciousness (processual). Sāṃkhya citta is material (part of prakṛti), illuminated by the separate consciousness puruṣa. This is now the sharpest NOT-equivalent edge in the epistemology domain.
+
+6. **Greek thread enriched**: aristotle-logic + stoic-logos join aristotle-substance + plato-forms + democritus-atom. The Greek coverage now spans logic (syllogistic), ontology (hylomorphism + Forms), physics (atomism), and cosmology/theology (logos).
+
+### Corpus milestone: 96 concepts across 13 batches
+
+### Suggested Batch 14
+Deepening the Indian logic thread:
+- `anumana-nyaya` — Nyāya inference specifically (the 5-member avayava system; vyāpti grounding); companion to aristotle-logic
+- `sabda-pramana` — testimonial knowledge (Mīmāṃsā + Nyāya; apauruṣeyatā; contrast Buddhist apoha)
+
+Remaining Buddhist epistemology:
+- `alaya-vijnana` — Yogācāra storehouse consciousness (fills unwritten stub; rebirth-without-self solution)
+- `vijnaptimatrata` — "consciousness-only" (Yogācāra idealism); contrast with Jain dravya-realism
+
+Greek depth:
+- `aristotle-categories` — the 10 categories; substance-accident structure underlying the syllogism
+- `plato-soul` — the tripartite soul (reason/spirit/appetite); contrast with Jain jīva and Buddhist khandhas
+
+Cross-tradition psychology:
+- `manas` — mind-faculty (Jain, Buddhist, Sāṃkhya usages compared; overlaps with citta but distinct)
