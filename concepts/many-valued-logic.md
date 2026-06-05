@@ -55,3 +55,4 @@ This is the `often-conflated-with-NOT-equivalent` claim from saptabhangi.md. The
 ## Links
 
 - often-conflated-with-NOT-equivalent: saptabhangi | many-valued logics use defined truth-values with connectives; saptabhaṅgī is a syāt-qualified predication scheme — surface similarity (seven forms vs. multiple values) masks deep structural difference
+- often-conflated-with-NOT-equivalent: quantum-complementarity | quantum probabilities are physical amplitudes, not Łukasiewicz truth-values; the non-bivalence of quantum measurement is about physical exclusivity of outcomes, not semantics

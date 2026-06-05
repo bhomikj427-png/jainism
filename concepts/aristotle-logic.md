@@ -45,3 +45,4 @@ Stanford Encyclopedia of Philosophy (Striker/Smith) gives the authoritative defi
 - shares-vocabulary-with: pramana-nyaya | both traditions have a concept of valid inference; Nyāya's anumāna is one of four pramāṇas; Aristotle's syllogism is the instrument of apodeictic science
 - structurally-parallel-to: aristotle-substance | same Aristotelian corpus; substance-theory and syllogistic are mutually dependent (predication in logic maps onto substance-accident in ontology)
 - historically-influenced-by: plato-forms | Aristotle's logic grew from Platonic dialectic; he rejected Forms but kept the method of division as a heuristic
+- shares-vocabulary-with: stoic-logos | Stoic and Aristotelian thought both invoke reason (*logos* / *ratio*) as constitutive of valid inference and the order of reality; Aristotle's syllogistic is formal/linguistic; Stoic logos is cosmological/physical — shared vocabulary, different projects

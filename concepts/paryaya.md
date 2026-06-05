@@ -60,3 +60,4 @@ Anekāntavāda's claim that a substance is both permanent and impermanent is gro
 - expressed-by: anekantavada | the dravyārthika/paryāyārthika naya split within anekāntavāda is directly grounded in the guṇa/paryāya distinction
 - expressed-by: naya | the seven nayas are divided into dravyārthika (guṇa-focused) and paryāyārthika (paryāya-focused) precisely on this basis
 - often-conflated-with-NOT-equivalent: pratityasamutpada | Buddhist dependent arising foregrounds process-change with no underlying substance; Jain paryāya-change always requires a dravya-guṇa substrate — the debate between Buddhist process-ontology and Jain substance-realism
+- expressed-by: kala-dravya | kāla-dravya's vartana function is the enabling condition of paryāya: without the temporal medium, modal change in other dravyas would have no vehicle
