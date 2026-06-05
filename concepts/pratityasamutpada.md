@@ -65,3 +65,4 @@ The Jain and Buddhist accounts of bondage are structurally parallel in describin
 - often-conflated-with-NOT-equivalent: karma | Buddhist pratītyasamutpāda places saṃskāra (volitional formations) within a process-chain with no underlying substance; Jain karma is fine physical matter binding a real individual soul — process vs. substance, no-self vs. self
 - part-of: nirvana-buddhist | nirvāṇa is defined as the cessation of the pratītyasamutpāda chain: "avidyā ceasing, saṃskāra ceases..." to "jarāmaraṇa ceases"
 - shares-vocabulary-with: karma | both traditions use "karma/saṃskāra" language; Buddhist saṃskāra (link 2) is volitional formation, not physical matter
+- expressed-by: namarupa | nāmarūpa (name-form) is the 4th nidāna link in the 12-fold chain; it is the formative stage where the five aggregates take shape through dependent origination — the most concretely "person-constituting" link in the chain

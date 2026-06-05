@@ -62,3 +62,4 @@ This is in **direct structural opposition** to the Jain *jīva* doctrine. Jainis
 
 - often-conflated-with-NOT-equivalent: skandha | same Sanskrit word used in Jainism for physical matter aggregates only; Buddhist khandha includes consciousness and mental formations — fundamentally different scope and doctrine
 - shares-vocabulary-with: jiva | Buddhist vijñāna (consciousness-skandha) is sometimes compared to Jain jīva; but Buddhist vijñāna is impermanent and non-self; Jain jīva is permanent and is the self — the anātman doctrine directly contradicts Jain soul-doctrine
+- shares-vocabulary-with: namarupa | nāmarūpa = the five khandhas (nāma = four mental khandhas; rūpa = form khandha) re-expressed as the 4th link in the 12-nidāna chain; same constituents of personhood, analyzed in the causal-chain framework rather than the aggregate-analysis framework
