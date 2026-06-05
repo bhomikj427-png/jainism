@@ -753,6 +753,72 @@ Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
 
 ### Corpus milestone: 96 concepts across 13 batches
 
+---
+
+## Linker Pass 1 (2026-06-05)
+
+### Scope
+First linker pass over all 96 written concepts (0 stubs at start; 1 unwritten forward-link `alaya-vijnana` added during batch 13). Working from commit 416cf83 (batch-13 complete) to 2f5d613.
+
+### Method
+1. Computed node degrees from grep over all link sections.
+2. Identified in=0 orphans (no inbound links) and low-degree nodes.
+3. For each orphan: read the concept + 1–3 candidate neighbors; judged and typed each link; committed per concept.
+4. Added non-obvious cross-tradition links found by vocabulary/source overlap.
+5. Ran final connection audit; wrote `link-candidates.md` for next pass.
+
+### Edges added: 45 new links across 30 concept files
+
+**Orphans resolved (all 12 in=0 nodes fixed):**
+| concept | edges added | via |
+|---|---|---|
+| leshya | +3 | karma(expressed-by+aggregates-from karma-vargana), gunasthana(expressed-by), karma-vargana(expressed-by) |
+| purusha-samkhya | +1 | prakriti-samkhya(structurally-parallel-to) |
+| namarupa | +2 | pratityasamutpada(expressed-by), skandha-buddhist(shares-vocabulary-with) |
+| acarya | +2 | jina(expressed-by), charitra(expressed-by) |
+| catuskoti | +4 | sunyata(expressed-by), saptabhangi(structurally-parallel-to+NOT-equiv), pratityasamutpada(expressed-by) |
+| karma-vargana | +3 | karma(aggregates-from), pudgala(expressed-by), leshya(expressed-by) |
+| kala-dravya | +2 | ajiva(expressed-by), paryaya(expressed-by) |
+| stoic-logos | +3 | aristotle-substance(structurally-parallel-to), aristotle-logic(shares-vocabulary-with), brahman(NOT-equiv) |
+| dharmottara | +1 | hetu-vidya(expressed-by) |
+| siddha | +3 | moksha(expressed-by), arihant(expressed-by), tattva-jain(expressed-by) |
+| charitra | +2 | moksha(expressed-by), acarya(expressed-by) [acarya now written into jina+charitra] |
+| citta | +2 | abhidharma(expressed-by), anatta-buddhist(expressed-by) |
+| tapas | +2 | nirjara(expressed-by), dhyana-jain(part-of) |
+| arthapatti | +1 | mimamsa-pramana(expressed-by) |
+| dana | +2 | aparigraha(expressed-by), karma(expressed-by) |
+
+**Non-obvious cross-links added:**
+- naya → dravyarthika-naya, paryayarthika-naya (expressed-by: the two type-groups)
+- modern-atom → democritus-atom (historically-influenced-by + NOT-equiv)
+- hetu-vidya → aristotle-logic (structurally-parallel-to)
+- brahman → sangraha-naya (shares-vocabulary-with)
+- brahman → omniscience-vedanta, avatara-vedanta (expressed-by)
+- sat → aristotle-substance (structurally-parallel-to)
+- paramanu-vaisheshika → democritus-atom (structurally-parallel-to)
+- saptabhangi → catuskoti (structurally-parallel-to + NOT-equiv)
+- many-valued-logic → quantum-complementarity (NOT-equiv)
+- aparigraha → asteya (shares-vocabulary-with)
+- atman-vedanta → omniscience-vedanta (expressed-by)
+- nirvana-buddhist → dukkha (shares-vocabulary-with)
+- jiva → purusha-samkhya (shares-vocabulary-with)
+- loka-jain → samsara (shares-vocabulary-with)
+- maya-advaita → plato-forms (NOT-equiv)
+
+### Graph (final state)
+`graph/graph.dot` regenerated: **96 written nodes + 1 unwritten stub (alaya-vijnana) = 97 total, 485 edges**.
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+
+### Hub nodes (degree ≥ 25): karma (30), dravya (25)
+### Remaining low-degree (total ≤ 5): purusha-samkhya (4), satya (4)
+### No isolated clusters detected
+
+### Candidates for Linker Pass 2
+See `link-candidates.md` for 10 proposed pairs across 3 priority levels.
+Key items: vyapti→aristotle-logic, samvara→charitra, ahimsa→satya, tapas→charitra, anicca→kala-dravya, purusha-samkhya→atman-vedanta(NOT-equiv), brahman→plato-forms(NOT-equiv).
+
+---
+
 ### Suggested Batch 14
 Deepening the Indian logic thread:
 - `anumana-nyaya` — Nyāya inference specifically (the 5-member avayava system; vyāpti grounding); companion to aristotle-logic
