@@ -58,4 +58,5 @@ Every pudgala — from the ultimate paramāṇu to the largest aggregate — has
 - is-a-type-of: dravya | pudgala is one of the six substances
 - expressed-by: paramanu | paramāṇu is the ultimate (partless) form of pudgala
 - expressed-by: skandha | skandha is the aggregate form of pudgala
+- expressed-by: karma-vargana | kārmaṇa-varganā is the finest subclass of pudgala skandha; it is pudgala matter at the resolution where it can adhere to and affect jīva
 - structurally-parallel-to: prakriti-samkhya | Sāṃkhya's *prakṛti* is also the material pole opposite the conscious principle; but Sāṃkhya's material is one continuous substance, Jain pudgala is discrete atoms — different ontology
