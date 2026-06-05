@@ -82,3 +82,4 @@ All signals converge. Confidence medium: TS 1.1 directly fetched; secondary work
 - formalizes: gunasthana | gunasthāna stages map the progressive refinement of cāritra from stage 4 to 14
 - shares-vocabulary-with: nirvana-buddhist | Buddhist "right action/conduct" (sammā-kammanta in the Noble Eightfold Path) is structurally analogous — third path-factor in both traditions; different metaphysical grounding
 - often-conflated-with-NOT-equivalent: karma-vedic | Hindu dharma-based conduct has overlapping vocabulary (dharma, vrata) but is grounded in social duty (varṇāśrama), not the Jain soul-karma mechanism
+- expressed-by: acarya | the ācārya is the institutional exemplar of sakala-cāritra — the title designates those who have fully mastered all five mahāvratas and lead the monastic community

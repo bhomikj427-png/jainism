@@ -61,3 +61,4 @@ The term *jina* appears in Buddhist texts occasionally as an epithet for the Bud
 - expressed-by: gunasthana | jina = stage 13 (arihant) → stage 14 (siddha)
 - is-a-type-of: tirthankara | all tīrthaṅkaras are jinas; jina is the broader category
 - shares-vocabulary-with: nirvana-buddhist | "jina" used as Buddhist Buddha-epithet; no ontological equivalence
+- expressed-by: acarya | the ācārya is the living institutional embodiment of the jina-ideal — the head of the monastic sangha who transmits the jina's teaching; the four-fold community (sādhu/sādhvī/śrāvaka/śrāvikā) established by the tīrthaṅkara persists through the ācārya role
