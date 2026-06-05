@@ -57,3 +57,4 @@ prakṛti → *mahat/buddhi* (cosmic intelligence) → *ahaṃkāra* (ego-princi
 - structurally-parallel-to: pudgala | both are the "matter" principle of their respective systems; Sāṃkhya prakṛti is one continuous substrate including mind, Jain pudgala is discrete atoms of physical matter only
 - often-conflated-with-NOT-equivalent: pudgala | Sāṃkhya prakṛti includes mind/intellect/ego; Jain pudgala is strictly physical; the scope and structure differ fundamentally
 - is-a-type-of: guna-samkhya | the three guṇas constitute all of prakṛti (forward link to guna-samkhya.md, batch 5)
+- structurally-parallel-to: purusha-samkhya | prakṛti and puruṣa are the two co-equal, co-eternal, irreducible poles of Sāṃkhya ontology — matter/evolution vs. consciousness/witness — each defined in mutual opposition to the other; the Sāṃkhyakārikā treats them as inseparable yet categorically distinct
