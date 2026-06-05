@@ -66,3 +66,5 @@ In Advaita Vedānta, mokṣa = recognition that individual ātman is identical t
 - part-of: jiva | mokṣa is the telos of jīva; the liberated siddha is the jīva in its natural, karma-free state
 - part-of: karma | mokṣa = total annihilation of all karma; completes the saṃvara→nirjarā→mokṣa arc
 - shares-vocabulary-with: moksha-advaita | same Sanskrit term (mokṣa) used in Advaita Vedānta for liberation; but Advaita's mokṣa = ātman merging into Brahman; Jain's mokṣa = distinct individual soul at lokāgra — pluralism vs. monism, different structure
+- expressed-by: siddha | siddha (the liberated soul at Siddhāśilā) is the state mokṣa produces; mokṣa is the event of final karma-annihilation, siddha is the resultant being
+- expressed-by: charitra | cāritra (right conduct; TS 1.1 third jewel) is the ethical-behavioral path that produces mokṣa; without cāritra, samyag-darśana and samyag-jñāna cannot achieve liberation alone

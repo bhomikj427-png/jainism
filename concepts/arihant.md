@@ -70,3 +70,4 @@ Like all jinas, the arihant does not respond to prayer, grant wishes, or interve
 - expressed-by: kashaya | arihant = all kaśāyas destroyed (mohanīya = 0)
 - expressed-by: upayoga | arihant has fully unobstructed sākāra + nirākāra upayoga
 - part-of: moksha | arihant → siddha at death = mokṣa
+- expressed-by: siddha | the siddha is what the arihant becomes upon shedding the body; siddha is the arihant's fully realized, bodiless state

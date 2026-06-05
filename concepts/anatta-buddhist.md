@@ -64,3 +64,4 @@ A precise formulation from search-result scholarship: "Jainism incorporates an e
 - part-of: nirvana-buddhist | nirvāṇa is the goal realised when anattā is fully understood and the arising of khandhas ceases
 - part-of: skandha-buddhist | anattā is the doctrinal claim about the five khandhas: none is self, their combination is not self
 - often-conflated-with-NOT-equivalent: atman-vedanta | Hindu ātman is eternal, positive individual consciousness = Brahman; Buddhist anattā denies any such entity — the sharpest possible opposition
+- expressed-by: citta | Buddhist citta (mind-stream) directly implements anattā — processual continuity without a permanent subject; citta IS the "no-self" in operation

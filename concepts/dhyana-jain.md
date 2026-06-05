@@ -56,3 +56,4 @@ In Jain soteriology, dhyāna ("meditation/concentration") is classified into **f
 - part-of: nirjara | dharmya and śukla actively erode existing karma; the most powerful nirjarā mechanism
 - formalizes: gunasthana | the four dhyānas map exactly onto the guṇasthāna arc: ārta/raudra (1–6), dharmya (7–12), śukla (13–14)
 - part-of: kevala-jnana | śukla dhyāna is the immediate precondition for and then activity of the kevalin; kevala-jñāna arises within it
+- part-of: tapas | dhyāna (meditation) is classified as the sixth of the six internal tapas (TS 9.20: *vyutsarga-dhyānāny-uttaram*); dhyāna and tapas are co-extensive at the highest purification stages

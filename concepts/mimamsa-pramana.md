@@ -60,3 +60,4 @@ Kumārila Bhaṭṭa's elaborate epistemological system (~7th c. CE) was specifi
 - often-conflated-with-NOT-equivalent: shruta-jnana | Mīmāṃsā śabda = eternal authorless Vedic word; Jain śruta = mediated by mati, not eternally authorless
 - structurally-parallel-to: dignaga-pramana | the Kumārila vs. Dignāga debate was the central epistemological confrontation of medieval Indian philosophy
 - part-of: brahman | Mīmāṃsā's Vedic authority claim presupposes Brahman-as-cosmic-order (rita/dharma encoded in the Vedas)
+- expressed-by: arthapatti | arthāpatti (postulation) is the sixth Bhāṭṭa-Mīmāṃsā pramāṇa and the most distinctively Mīmāṃsā addition; it is what Mīmāṃsā epistemology claims that no other school can reduce to inference
