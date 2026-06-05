@@ -66,3 +66,4 @@ The Jain and Buddhist accounts of bondage are structurally parallel in describin
 - part-of: nirvana-buddhist | nirvāṇa is defined as the cessation of the pratītyasamutpāda chain: "avidyā ceasing, saṃskāra ceases..." to "jarāmaraṇa ceases"
 - shares-vocabulary-with: karma | both traditions use "karma/saṃskāra" language; Buddhist saṃskāra (link 2) is volitional formation, not physical matter
 - expressed-by: namarupa | nāmarūpa (name-form) is the 4th nidāna link in the 12-fold chain; it is the formative stage where the five aggregates take shape through dependent origination — the most concretely "person-constituting" link in the chain
+- expressed-by: catuskoti | Nāgārjuna applies catuṣkoṭi to causal concepts in the MMK to demonstrate that causation is dependently arisen: by refuting all four corners of causal origination (from self, from other, from both, from neither), he shows pratītyasamutpāda itself is śūnya

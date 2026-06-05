@@ -60,3 +60,4 @@ Jain anekāntavāda posits that dravyas have BOTH permanent substance-natures AN
 - often-conflated-with-NOT-equivalent: brahman | Advaita Brahman is a positive absolute (Sat-Cit-Ānanda); śūnyatā is the absence of inherent existence — structurally opposite
 - often-conflated-with-NOT-equivalent: dravya | Jain dravyas have genuine svabhāva (inherent natures: upayoga, rūpitva, etc.); Madhyamaka śūnyatā denies all svabhāva — direct opposition between Jain realism and Buddhist anti-essentialism
 - part-of: pratityasamutpada | śūnyatā = pratītyasamutpāda (Nāgārjuna's equation: both describe the same reality from absence-of-svabhāva and dependence-on-conditions perspectives)
+- expressed-by: catuskoti | catuṣkoṭi (the four-corner refutation) is Nāgārjuna's primary logical method for establishing śūnyatā — by showing all four positions on causation/existence fail, he demonstrates the absence of svabhāva

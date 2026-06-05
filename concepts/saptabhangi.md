@@ -56,3 +56,5 @@ The saptabhaṅgī is the **sevenfold predication scheme**: the formal logical c
 - formalizes: syadvada | saptabhaṅgī provides the complete formal logical structure for syādvāda's conditional predications
 - part-of: anekantavada | via syādvāda, saptabhaṅgī is the logical formalism of the anekāntavāda doctrine-cluster
 - often-conflated-with-NOT-equivalent: many-valued-logic | Łukasiewicz three-valued logic and other modern many-valued logics have a different structure and purpose; saptabhaṅgī is a qualified-assertion scheme, not a truth-value algebra
+- structurally-parallel-to: catuskoti | both enumerate multiple predication modes for any proposition; both arise in Indian philosophy's analysis of the limits of predication — but saptabhaṅgī affirms 7 conditional assertions while catuṣkoṭi refutes all 4 positions
+- often-conflated-with-NOT-equivalent: catuskoti | saptabhaṅgī = 7 conditional affirmations (each valid from its standpoint); catuṣkoṭi = 4-corner demolition (none holds → śūnyatā); same logical territory, opposite outcomes
