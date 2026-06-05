@@ -46,3 +46,5 @@ Equating them misreads the Jain tradition (which would need to be revised in the
 
 - often-conflated-with-NOT-equivalent: paramanu | Jain paramāṇu is partless and argued a priori; modern atom has parts and is empirical — different ontological category, different epistemic basis
 - often-conflated-with-NOT-equivalent: paramanu-vaisheshika | same structural argument: Vaiśeṣika paramāṇu is also partless and a priori; modern atom is neither
+- historically-influenced-by: democritus-atom | Dalton (1803) explicitly revived Democritus's name "atomos" for his chemical theory; the naming is historically inherited, not conceptually continuous — modern atoms are empirical and divisible, Greek atoms were a priori and indivisible
+- often-conflated-with-NOT-equivalent: democritus-atom | shared name conceals a deep methodological break: Greek atomos = indivisible philosophical posit; modern atom = empirically discovered, structurally rich (electrons, protons, quarks)

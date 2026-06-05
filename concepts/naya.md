@@ -62,3 +62,5 @@ The seven nayas move from most general/abstract (saṃgraha: "everything is *sat
 - part-of: anekantavada | nayavāda (doctrine of standpoints) is the structural foundation of anekāntavāda; the seven nayas are the practical tools the doctrine rests on
 - expressed-by: syadvada | syādvāda translates naya-based perspectives into conditional (syāt-prefixed) linguistic assertions
 - shares-vocabulary-with: pramana | naya is contrasted with pramāṇa in TS 1.6: pramāṇa = complete knowledge, naya = valid partial-aspect knowledge; two complementary modes of valid cognition
+- expressed-by: dravyarthika-naya | naigama/saṃgraha/vyavahāra are the substance-standpoint group of the seven nayas — they take the dravya as their primary object
+- expressed-by: paryayarthika-naya | ṛjusūtra/śabda/samabhirūḍha/evaṃbhūta are the mode-standpoint group — they restrict to momentary or usage-defined modes

@@ -60,3 +60,4 @@ In Advaita Vedānta, Brahman is **the sole ultimate reality** — the one, non-d
 - is-a-type-of: atman-vedanta | the Advaita claim: ātman IS Brahman — ātman is not a separate substance but the individual-seeming face of the one Brahman
 - often-conflated-with-NOT-equivalent: sunyata | Advaita Brahman is a positive eternal conscious absolute; Buddhist śūnyatā is the absence of inherent existence — structurally opposite
 - often-conflated-with-NOT-equivalent: dravya | Jain dravyas are real, plural, co-equal substances; Brahman is the ONE ultimate substance behind which all apparent plurality is māyā — different ontological count and status
+- shares-vocabulary-with: sangraha-naya | from the Jain naya perspective, "all is Brahman" is a saṃgraha-naya assertion — the most universal standpoint; valid as a partial perspective, erroneous only if treated as the complete description of reality

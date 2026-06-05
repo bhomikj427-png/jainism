@@ -63,3 +63,4 @@ The Jain three-fold sat is the deliberate philosophical middle: neither pure per
 - expressed-by: paryaya | paryāya is the face of existence that shows utpāda/vyaya — the changing aspect of sat
 - expressed-by: anekantavada | the triadic sat is the ontological grounding for anekāntavāda's claim that substances are both permanent and impermanent — not a contradiction but the full truth of existence
 - often-conflated-with-NOT-equivalent: brahman | Advaita Brahman is sat without vyaya/utpāda (changeless pure being); Jain sat requires all three simultaneously — the two uses of "sat" are structurally different
+- structurally-parallel-to: aristotle-substance | Jain sat (TS 5.30: utpāda+vyaya+dhrauvya) resembles Aristotle's substance persisting through change: both posit a permanent substrate with changing modes; both reject pure impermanence (Buddhist anicca) and pure permanence (Advaita brahman)
