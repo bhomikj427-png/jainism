@@ -85,3 +85,4 @@ At *kevala-jñāna* (omniscience), the four ghātīya karmas dissolve. At physic
 - often-conflated-with-NOT-equivalent: karma-vedic | Jain karma is explicit fine physical matter; Hindu/Vedic karma is typically intentional action and moral residue — different ontology, same Sanskrit word
 - expressed-by: leshya | leśyā (karmic coloring) is the psycho-physical manifestation of karma-matter bonded to the jīva; the soul's leśyā directly reflects its karma-state
 - aggregates-from: karma-vargana | Jain karma is constituted of kārmaṇa-varganā (the finest pudgala aggregate class); karma-vargana.md specifies what karma-matter physically is at the particle level
+- expressed-by: dana | dāna is one of ten means to puṇya (auspicious karma) in Jain ethics; it illustrates the positive-karma side of the karma mechanism — the same physical process that generates bandha through āsrava also generates puṇya through virtuous action

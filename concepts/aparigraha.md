@@ -62,3 +62,4 @@ Aparigraha is **non-possessiveness / non-attachment** — the fifth of the five 
 - part-of: samvara | practicing aparigraha is one of the six categories of saṃvara practices (under dharma/virtues)
 - part-of: moksha | the five mahāvratas together constitute the ethical path to liberation; aparigraha is the fifth, addressing the root possessiveness that generates karma
 - shares-vocabulary-with: asteya | asteya (not taking what isn't given) and aparigraha (not possessing what is unnecessary) target different moments of the same acquisitive impulse: asteya = act-level restraint; aparigraha = attitude-level non-attachment; complementary rather than redundant
+- expressed-by: dana | dāna (giving) is the positive active enactment of aparigraha: giving away what one possesses materializes non-attachment; the highest form (abhaya-dāna = giving fearlessness) is ahiṃsā and aparigraha in one act
