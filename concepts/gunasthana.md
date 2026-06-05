@@ -66,3 +66,4 @@ A guṇasthāna ("stage of virtue-quality") is one of **fourteen progressive sta
 - formalizes: kevala-jnana | stage 13 (sayoga-kevalī) = the moment kevala-jñāna arises
 - formalizes: moksha | stage 14 (ayoga-kevalī) = mokṣa at death
 - part-of: karma | the entire arc is the story of karma being blocked, shed, and finally eliminated
+- expressed-by: leshya | leśyā provides a perceptible psycho-physical indicator of each guṇasthāna stage; the six colors (kṛṣṇa → śukla) map across the 14-stage arc

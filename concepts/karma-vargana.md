@@ -56,3 +56,4 @@ A *varganā* is a **class of pudgala (matter) aggregates** defined by fineness o
 - is-a-type-of: pudgala | varganās are classifications of pudgala by fineness
 - expressed-by: karma | karma IS kārmaṇa-varganā bonded to jīva; the karma-body is constituted by kārmaṇa-varganā particles adhering via the bandha mechanism
 - part-of: bandha | the bandha mechanism (yoga + kaṣāya) operates specifically on kārmaṇa-varganā particles, drawing them into the soul-space
+- expressed-by: leshya | leśyā (the soul's karmic coloring) directly reflects the quality of the kārmaṇa-varganā particles presently bonded to it; leśyā is the soul-facing expression of karma-vargana content

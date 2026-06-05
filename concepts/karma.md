@@ -83,3 +83,5 @@ At *kevala-jñāna* (omniscience), the four ghātīya karmas dissolve. At physic
 - part-of: pudgala | karma is a sub-class of pudgala (matter); the fine-matter subset that interacts with souls
 - part-of: jiva | karma bondage is the defining condition of the saṃsārin (worldly) jīva; liberation = karma-freedom
 - often-conflated-with-NOT-equivalent: karma-vedic | Jain karma is explicit fine physical matter; Hindu/Vedic karma is typically intentional action and moral residue — different ontology, same Sanskrit word
+- expressed-by: leshya | leśyā (karmic coloring) is the psycho-physical manifestation of karma-matter bonded to the jīva; the soul's leśyā directly reflects its karma-state
+- aggregates-from: karma-vargana | Jain karma is constituted of kārmaṇa-varganā (the finest pudgala aggregate class); karma-vargana.md specifies what karma-matter physically is at the particle level
