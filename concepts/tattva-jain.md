@@ -56,3 +56,4 @@ In Jainism, *tattva* ("reality/truth/that-which-is") refers to the **seven funda
 - formalizes: samvara | tattva 5
 - formalizes: nirjara | tattva 6
 - formalizes: moksha | tattva 7 — the telos of the entire framework
+- expressed-by: siddha | the siddha-state is the empirical terminus of the seven-tattva framework: mokṣa (tattva 7) produces the siddha as its reified result

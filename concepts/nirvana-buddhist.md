@@ -59,3 +59,4 @@ Nirvāṇa (Pali: *nibbāna*) is **liberation from conditioned existence** in Bu
 - often-conflated-with-NOT-equivalent: moksha | Jain mokṣa preserves the individual siddha; Buddhist nirvāṇa involves no persisting self — same soteriological goal-word, different metaphysics
 - shares-vocabulary-with: moksha | both traditions use "liberation" terminology; Jain/Buddhist/Hindu uses diverge on whether a self persists
 - part-of: anatta-buddhist | nirvāṇa is the goal of the anattā doctrine; if no self was ever real, nirvāṇa is not the destruction of a self but the cessation of the illusion of one (forward link to anatta-buddhist.md, batch 5)
+- shares-vocabulary-with: dukkha | nirvāṇa and dukkha are defined relationally — nirvāṇa IS the unconditioned cessation of conditioned dukkha; neither concept is intelligible without the other

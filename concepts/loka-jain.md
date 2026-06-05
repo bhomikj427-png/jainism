@@ -55,3 +55,4 @@ In Jain cosmology, *loka* is the **bounded world-space** — the finite region i
 - part-of: dravya | loka is the bounded region constituted by the interaction of all six dravyas; aloka has only ākāśa
 - part-of: moksha | the siddha at lokāgra (loka's summit) is the spatial expression of mokṣa in Jain cosmology
 - part-of: ajiva | dharma/adharma/ākāśa/kāla all function only within loka; aloka has only ākāśa
+- shares-vocabulary-with: samsara | the Jain loka is the spatial extent within which saṃsāric cycling occurs; siddhas reside within loka (at Siddhāśilā) but no longer cycle — liberation is spatial as well as ontological
