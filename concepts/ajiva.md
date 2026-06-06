@@ -54,6 +54,5 @@ The negative definition — "the characteristic mark (lakṣaṇa) of jīva is a
 ## Links
 
 - part-of: dravya | ajīva is the class of five non-soul dravyas (not itself a dravya but the negative of jīva)
-- is-a-type-of: pudgala | pudgala is the ajīva dravya with paramāṇus and sensory qualities; the only one with matter
 - part-of: jiva | jīva and ajīva together constitute the complete ontology — every dravya is one or the other
 - expressed-by: kala-dravya | kāla is one of the five ajīva dravyas; as the temporal substance its vartana function enables modal change (paryāya) in all other dravyas
