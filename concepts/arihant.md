@@ -64,7 +64,6 @@ Like all jinas, the arihant does not respond to prayer, grant wishes, or interve
 ## Links
 
 - is-a-type-of: jina | arihant = a living jina (with body)
-- is-a-type-of: tirthankara | all tīrthaṅkaras are arihants; arihant is the broader category
 - part-of: kevala-jnana | arihant = the being who possesses kevala-jñāna
 - expressed-by: gunasthana | arihant occupies stages 13–14
 - expressed-by: kashaya | arihant = all kaśāyas destroyed (mohanīya = 0)

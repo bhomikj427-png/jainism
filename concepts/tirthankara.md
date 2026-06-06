@@ -49,6 +49,7 @@ A tīrthaṅkara ("ford-maker") is a **human being who attains omniscience (*kev
 
 ## Links
 
+- is-a-type-of: jina | a tīrthaṅkara is a specific sub-type of jina — one who founds the teaching-ford (tirtha) and establishes the fourfold community; all tīrthaṅkaras are jinas, not all jinas are tīrthaṅkaras
 - part-of: kevala-jnana | a tīrthaṅkara attains kevala-jñāna (omniscience) at guṇasthāna 13 — the cognitive event that makes one a kevalin/jina
 - part-of: moksha | a tīrthaṅkara achieves mokṣa at physical death (guṇasthāna 14) and resides at lokāgra as a siddha
 - part-of: loka-jain | liberated tīrthaṅkaras as siddhas dwell at Siddhashilā (the top of loka); their cosmological location is fixed
