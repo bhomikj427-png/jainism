@@ -50,7 +50,4 @@ Five of the six (all except kāla) are **astikāyas** — they have multiple spa
 
 ## Links
 
-- is-a-type-of: jiva | jīva (soul) is one of the six dravyas
-- is-a-type-of: ajiva | the five non-soul dravyas (pudgala, dharma, adharma, ākāśa, kāla) collectively constitute ajīva
-- is-a-type-of: pudgala | pudgala (matter) is the dravya that has paramāṇus as its ultimate units
 - shares-vocabulary-with: dravya-vaisheshika | Vaiśeṣika uses "dravya" for its 9 ontological categories (earth, water, fire, air, ether, time, space, soul, mind) — parallel term but different system; Vaiśeṣika includes mind (manas) and lacks dharma/adharma as motion media
