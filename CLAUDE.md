@@ -62,6 +62,10 @@ Controlled vocabulary:
 - False equivalences: `often-conflated-with-NOT-equivalent` — **draw these and flag them; never silently omit them.** The map must teach the distinction.
 A **physics** link is almost always `structurally-parallel-to` or `often-conflated-with-NOT-equivalent` — essentially never `is-a` or equivalence. Cross-tradition links are encouraged. Only **forward** links are stored; backlinks are computed with grep, never hand-maintained.
 
+**Direction rule for `is-a-type-of`:** always points **specific → general** (child → parent). A concept file never declares `is-a-type-of` something broader than itself — that would mean the parent claiming to be a sub-type of its own child. Before writing any `is-a-type-of` edge, check it against the file's own prose: if the prose says "X is the broader category," the edge `is-a-type-of: X` belongs in the *child's* file, not in X's file. Researcher and linker both check direction before committing.
+
+**Edge-type pairing rule:** a concept pair may carry two edge types only when they are compatible. The one sanctioned two-type pattern is: `structurally-parallel-to` (or `shares-vocabulary-with`) **paired with** `often-conflated-with-NOT-equivalent` — expressing "real structural similarity, but not identity." All other combinations are forbidden on the same ordered pair: `is-a-type-of` and `part-of` must never be combined with `often-conflated-with-NOT-equivalent` or any parallel/similarity type on the same ordered pair; and `is-a-type-of` must never appear in both directions between the same two nodes (no bidirectional `is-a-type-of`).
+
 ## §6 Repository layout (create in the current directory)
 - `CLAUDE.md` — this charter (§0–§9).
 - `concepts/` — one file per concept (template §3).
