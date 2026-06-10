@@ -834,3 +834,9 @@ Greek depth:
 
 Cross-tradition psychology:
 - `manas` — mind-faculty (Jain, Buddhist, Sāṃkhya usages compared; overlaps with citta but distinct)
+
+---
+
+## Gate-policy mechanical fix (2026-06-10)
+- **Cycle cleared**: deleted inverted `is-a-type-of: paramanu-vaisheshika` from `dravya-vaisheshika.md` (note described composition, not subtyping); added `aggregates-into: dravya-vaisheshika` to `paramanu-vaisheshika.md` (dvyanuka/tryanuka aggregation, prose-supported).
+- **Audit re-run (awk per-edge reachability over all 30 is-a-type-of edges): cycle count = 0.** No bidirectional is-a-type-of pairs remain.

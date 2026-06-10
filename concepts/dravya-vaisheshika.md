@@ -61,5 +61,4 @@ Both use the same Sanskrit term; both require a substance to have *guṇa*; but 
 ## Links
 
 - shares-vocabulary-with: dravya | Jain and Vaiśeṣika both use "dravya" for substance; Jain has 6 (incl. dharma/adharma), Vaiśeṣika has 9 (incl. manas/dik); definitions have guṇa in common but diverge on the rest
-- is-a-type-of: paramanu-vaisheshika | the four physical element-dravyas (earth/water/fire/air) consist of paramāṇus at the atomic level
 - shares-vocabulary-with: atman-vedanta | Vaiśeṣika ātman (one of nine dravyas, theistic context with God combining atoms) differs from Advaita ātman (identical with Brahman); both use the same term for "soul"
