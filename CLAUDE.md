@@ -106,3 +106,8 @@ If all pass → commit. If a concept can't pass (e.g. sources unavailable) → s
 
 ## §9 End-of-batch behaviour
 When the batch is complete (or you hit the token wall): regenerate the graph, append a run-summary to `progress.md` — concepts completed (count + list with status), anything `blocked`/`needs-opus-review`, and a suggested next batch (names only, unwritten) — final commit, then **halt**.
+
+## §10 Gate policy (when to act autonomously vs. stop and ask)
+- **Mechanical/structural defects** that `build_graph.py` (or a grep audit) can verify deterministically — cycles, orphans, mistyped edges with one §3-correct form: fix per §3 vocab, re-run the audit to **prove** it's resolved, atomic commit + push, log in `progress.md`, and **continue**. Do not stop to ask.
+- **STOP and ask ONLY for:** (a) genuine forks — more than one defensible choice (direction, slicing, what-to-build-next); (b) destructive/irreversible actions — history rewrites, deletions beyond a single mistyped edge, anything not recoverable via `git revert`.
+- Everything done autonomously goes in the end-of-batch report — auditable after the fact, not before.
