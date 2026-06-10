@@ -840,3 +840,11 @@ Cross-tradition psychology:
 ## Gate-policy mechanical fix (2026-06-10)
 - **Cycle cleared**: deleted inverted `is-a-type-of: paramanu-vaisheshika` from `dravya-vaisheshika.md` (note described composition, not subtyping); added `aggregates-into: dravya-vaisheshika` to `paramanu-vaisheshika.md` (dvyanuka/tryanuka aggregation, prose-supported).
 - **Audit re-run (awk per-edge reachability over all 30 is-a-type-of edges): cycle count = 0.** No bidirectional is-a-type-of pairs remain.
+
+---
+
+## Source-hardening pass (2026-06-10) — batch: anekantavada, anatta-buddhist, maya-advaita, karma, dravya, jiva, moksha, pramana
+
+| # | concept | state | result |
+|---|---|---|---|
+| 1 | anekantavada | done | CONTESTED kept, medium kept; Tatia 1994 Ch.5 finally accessed (Archive.org full-text search, pp. 56/184/187-188) — genuine independence vs Vijay K. Jain 2018 achieved for TS-foundation layer (5.31 Svet. / 5.32 Dig. arpitanarpitasiddheh); MW "scepticism" gloss documented as 19th-c. artifact; saptabhanga 7-bhanga formal-analog table added with per-bhanga breaks (Ganeri 2002/Priest 2008 vs Balcerowicz via Rahlwes 2023); formalizes edge direction fixed (saptabhangi->anekantavada); paired parallel+NOT-equiv edges added to many-valued/paraconsistent/fuzzy logic |

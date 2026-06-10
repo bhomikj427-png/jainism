@@ -54,7 +54,12 @@ The saptabhaṅgī is the **sevenfold predication scheme**: the formal logical c
 ## Links
 
 - formalizes: syadvada | saptabhaṅgī provides the complete formal logical structure for syādvāda's conditional predications
-- part-of: anekantavada | via syādvāda, saptabhaṅgī is the logical formalism of the anekāntavāda doctrine-cluster
-- often-conflated-with-NOT-equivalent: many-valued-logic | Łukasiewicz three-valued logic and other modern many-valued logics have a different structure and purpose; saptabhaṅgī is a qualified-assertion scheme, not a truth-value algebra
+- formalizes: anekantavada | the sevenfold predication scheme is the formal structure of anekāntavāda's standpoint-qualified assertion (via syādvāda); per-bhaṅga formal-analog table in anekantavada.md
+- structurally-parallel-to: many-valued-logic | both enumerate more than two assertion-outcomes for a proposition; Priest 2008 (Hist. & Phil. of Logic 29) builds a seven-valued reconstruction using many-valued/modal techniques
+- often-conflated-with-NOT-equivalent: many-valued-logic | Łukasiewicz three-valued logic and other modern many-valued logics have a different structure and purpose; saptabhaṅgī is a qualified-assertion scheme, not a truth-value algebra; the non-classical reading (Ganeri 2002, Priest 2008) is itself contested by Balcerowicz (via Rahlwes 2023)
+- structurally-parallel-to: paraconsistent-logic | bhaṅga 3 (syād asti nāsti) co-asserts is/is-not without explosion, the behavior paraconsistent logics are built for; Priest 2008 reads the Jains as proto-paraconsistentists
+- often-conflated-with-NOT-equivalent: paraconsistent-logic | the bhaṅga-3 conjuncts carry different standpoint indices — disambiguation that avoids contradiction, not dialetheic acceptance of p∧¬p; Jains are consistency-preservers via parameterization, dialetheists are contradiction-embracers
+- structurally-parallel-to: fuzzy-logic | both reject the claim that every well-formed assertion is simply true or simply false
+- often-conflated-with-NOT-equivalent: fuzzy-logic | fuzzy truth is a matter of degree; each bhaṅga is asserted as fully and certainly true (eva) from its standpoint — Matilal: syādvāda is "not a theory of uncertainty, doubt or relative probabilities"
 - structurally-parallel-to: catuskoti | both enumerate multiple predication modes for any proposition; both arise in Indian philosophy's analysis of the limits of predication — but saptabhaṅgī affirms 7 conditional assertions while catuṣkoṭi refutes all 4 positions
 - often-conflated-with-NOT-equivalent: catuskoti | saptabhaṅgī = 7 conditional affirmations (each valid from its standpoint); catuṣkoṭi = 4-corner demolition (none holds → śūnyatā); same logical territory, opposite outcomes
