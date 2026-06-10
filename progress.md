@@ -849,3 +849,12 @@ Cross-tradition psychology:
 |---|---|---|---|
 | 1 | anekantavada | done | CONTESTED kept, medium kept; Tatia 1994 Ch.5 finally accessed (Archive.org full-text search, pp. 56/184/187-188) — genuine independence vs Vijay K. Jain 2018 achieved for TS-foundation layer (5.31 Svet. / 5.32 Dig. arpitanarpitasiddheh); MW "scepticism" gloss documented as 19th-c. artifact; saptabhanga 7-bhanga formal-analog table added with per-bhanga breaks (Ganeri 2002/Priest 2008 vs Balcerowicz via Rahlwes 2023); formalizes edge direction fixed (saptabhangi->anekantavada); paired parallel+NOT-equiv edges added to many-valued/paraconsistent/fuzzy logic |
 | 2 | anatta-buddhist | done | CONTESTED kept, medium kept; SN 22.59 mula triangulated — two independent translations fetched directly (Thanissaro + Nanamoli, Access to Insight); methodological "not-self" reading now primary-sourced (Thanissaro essay fetched); Pali lexicon dual adj/noun signal added; internal-consistency finding: 5 linked files use ontological "no-self" shorthand; high refused — ontological (Bodhi 2000) + Madhyamaka (MMK 18) rows still aggregator-mediated |
+
+### Run summary — halted early by user (2026-06-10)
+- **Gate policy installed** as CLAUDE.md S10 (commit 1c10478).
+- **is-a cycle cleared**: dravya-vaisheshika <-> paramanu-vaisheshika bidirectional is-a-type-of resolved — inverted edge deleted, retyped as aggregates-into in paramanu-vaisheshika.md; awk reachability audit over all 30 is-a edges proves **cycle count = 0** (commit bc82d54).
+- **Source-hardening pass: 2 of 8 concepts done** (anekantavada 347a13a, anatta-buddhist afa99cf — see table rows above). Both remain CONTESTED/medium with refusal-of-high reasons recorded in-file.
+- **Key access breakthrough**: Tatia 1994 chapter text is reachable via Archive.org inside-book full-text search (fulltext/inside.php endpoint) even though the djvu stream truncates at Ch. 1 — this unblocks the recurring "Tatia not fetchable" confidence ceiling for the remaining 6 concepts.
+- **Remaining queue (pending)**: maya-advaita, karma, dravya, jiva, moksha, pramana.
+- **New typed links this run**: saptabhangi->anekantavada (formalizes, direction-corrected); saptabhangi->many-valued-logic (structurally-parallel-to, pairing existing NOT-equiv); saptabhangi->paraconsistent-logic + saptabhangi->fuzzy-logic (both parallel + NOT-equiv pairs; 2 new unwritten nodes); paramanu-vaisheshika->dravya-vaisheshika (aggregates-into).
+- Graph not regenerated (no Python on system; node/edge deltas small: +2 unwritten nodes, +7 edges, -2 edges).
