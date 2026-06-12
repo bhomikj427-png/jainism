@@ -858,3 +858,87 @@ Cross-tradition psychology:
 - **Remaining queue (pending)**: maya-advaita, karma, dravya, jiva, moksha, pramana.
 - **New typed links this run**: saptabhangi->anekantavada (formalizes, direction-corrected); saptabhangi->many-valued-logic (structurally-parallel-to, pairing existing NOT-equiv); saptabhangi->paraconsistent-logic + saptabhangi->fuzzy-logic (both parallel + NOT-equiv pairs; 2 new unwritten nodes); paramanu-vaisheshika->dravya-vaisheshika (aggregates-into).
 - Graph not regenerated (no Python on system; node/edge deltas small: +2 unwritten nodes, +7 edges, -2 edges).
+
+---
+
+## Source-hardening pass — completion (2026-06-12)
+
+Remaining 6 concepts from the pending queue (maya-advaita, karma, dravya, jiva, moksha, pramana) hardened.
+
+| concept | state | result |
+|---|---|---|
+| karma | done | FIVE causes (not four) — TS 8.1 Sanskrit directly fetched (Vijay K. Jain 2018, WisdomLib doc1084866); TS 8.3 Sanskrit fetched (doc1084868); previous "four causes" error corrected; anubhava/anubhaga variant noted; Wikipedia demoted to cross-check |
+| jiva | done | JainSquare unattributed source replaced — TS 2.8 *upayogo lakṣaṇam* directly fetched (doc1084625); Pujyapada caitanya gloss + gold/silver analogy added; medium confidence retained |
+| moksha | done | TS 10.1 (*mohakṣayāj kevalam*) + TS 10.2 (*bandhahetvabhāva-nirjarābhyāṃ... mokṣaḥ*) both directly fetched (docs 1084941/1084942); Pujyapada two-mechanism account added; Wikipedia replaced as primary source |
+| dravya | done | Already well-sourced from Vijay K. Jain 2018; updated placeholder note to reflect Archive.org djvu truncation at Ch.1 as the permanent blocker for Tatia independence |
+| pramana | done | TS 1.9 Sanskrit (*matiśrutāvadhimanaḥparyayakevalāni jñānam*) added from WisdomLib doc1084592; two-division verse still pending but TS 1.6 + 1.9 now both directly fetched |
+| maya-advaita | done | CONTESTED kept, medium kept; Shankara Brahmasutra Bhashya adhyasa section fetched (Gambhirananda tr., WisdomLib doc62758); anirvachaniya formulation documented; avarana/vikshepa NOT in this passage — attributed to post-Shankara commentators; Rambachan 1994 still needed |
+
+**Archive.org fulltext/inside.php** endpoint returned 404 for Tatia 1994 this session — the breakthrough reported in the previous run summary could not be replicated. Confidence ceiling remains medium across all 6 concepts; Tatia 1994 chapter text inaccessible via programmatic fetch.
+
+**Commits**: 227f472 (karma), eea2e16 (jiva), f37cd8c (moksha), 4708605 (dravya+pramana), a0ec8d6 (maya-advaita).
+
+---
+
+## Batch 14 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `alaya-vijnana.md` | done | converged, medium; fills last graph stub; IEP+Enc.Buddhism signals; Sandhinirmocana Ch.5-6; rebirth-without-self solution documented |
+| 2 | `vijnaptimatrata.md` | done | contested, medium; Vimshatikarika 3 arguments; idealism vs phenomenology debate (Kellner+Taber 2014); vs Jain dravya-realism mutually exclusive |
+| 3 | `anumana-nyaya.md` | done | converged, medium; WisdomLib + IEP; five-member pancha-avayava; vyapti as ground; vs Aristotle 3-term; vs Dignaga trairupa |
+| 4 | `sabda-pramana.md` | done | converged, medium; Nyayasutra 1.1.7 aptopadesha; Mimamsa apauruseyata; Dignaga apoha reduction; Jain shruta paroksha; 4-tradition table |
+| 5 | `aristotle-categories.md` | done | converged, medium; SEP directly fetched; 10 categories 1b25-2a4; primary/secondary ousia; Categories-Metaphysics tension; vs Jain dravya/guna/paryaya |
+| 6 | `plato-soul.md` | done | converged, medium; Republic 435c-441c; Phaedrus chariot; 4-tradition comparison (Plato/Jain/Buddhist/Samkhya); metempsychosis |
+| 7 | `manas.md` | done | converged, medium; 5-tradition false-cognate table; Samkhya manas is material; Yogacara manas is 7th (self-clinging); Jain mano-yoga is anindriya |
+
+## Run log — Source-hardening completion + Batch 14 (2026-06-12)
+
+### Concepts completed: 7 / 7 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| alaya-vijnana | converged | medium | Sandhinirmocana Sūtra (Ch.5-6; Sanskrit lost); IEP + Enc.Buddhism independent; rebirth-without-self via causal stream |
+| vijnaptimatrata | contested | medium | idealism vs phenomenological reading; Kellner+Taber 2014 found; Vimshatikarika not directly fetched |
+| anumana-nyaya | converged | medium | five-member avayava; vyapti as ground; Nyayasutra text not directly fetched |
+| sabda-pramana | converged | medium | Nyayasutra 1.1.7 definition confirmed; Dignaga apoha reduction; 4-tradition table |
+| aristotle-categories | converged | medium | SEP fetched directly; 10 categories with Greek names and Citations |
+| plato-soul | converged | medium | Republic citations; Phaedrus chariot; 4-tradition comparison |
+| manas | converged | medium | 5-tradition false-cognate table; false-cognate cases explicitly flagged |
+
+### TS verses directly fetched this session (source-hardening)
+- TS 2.8 (jiva): *upayogo lakṣaṇam* + Pūjyapāda gold/silver analogy
+- TS 8.1 (karma): *mithyādarśanāviratipramādakaṣāyayogā bandhahetavaḥ* — FIVE causes
+- TS 8.3 (karma): *prakṛtisthityanubhavapradeśāstadvidhayaḥ*
+- TS 10.1 (moksha): *mohakṣayājjñānadarśanāvaraṇāntarāyakṣayācca kevalam*
+- TS 10.2 (moksha): *bandhahetvabhāvanirjarābhyāṃ kṛtsnakarmavipramokṣo mokṣaḥ*
+- TS 1.9 (pramana): *matiśrutāvadhimanaḥparyayakevalāni jñānam*
+
+### Key finding: karma.md four-cause error corrected
+karma.md previously listed "four causes" (omitting yoga from the verse) while bandha.md had already noted the TS 8.1 five-cause count in Batch 4. Now corrected and both files are consistent.
+
+### Key finding: maya-advaita primary source
+Shankara's own *anirvachanīya* formulation ("neither real nor unreal nor both") from the Brahmasūtra Bhāṣya supports the "realistic Advaita" reading over the popular "illusion" reading. The āvaraṇa/vikṣepa two-function scheme is NOT in Shankara's primary text — this is a post-Shankara elaboration.
+
+### Graph (final state)
+`graph/graph.dot` not regenerated (Python unavailable). Manual stats:
+- **103 written nodes, 0 unwritten stubs** (alaya-vijnana filled the last stub)
+- **~520 edges** (grep count across all ## Links sections)
+- New unwritten forward-link targets from Batch 14: paraconsistent-logic, fuzzy-logic (from earlier hardening pass, carried forward)
+
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+
+### Corpus milestone: 103 concepts across 14 batches + hardening pass. 0 unwritten stubs.
+
+### Suggested Batch 15
+Filling the Yogācāra depth opened by Batch 14:
+- `trisvabhava` — three natures (parikalpita/paratantra/pariniṣpanna); Yogācāra ontology beneath vijñaptimātratā
+- `madhyamaka` — Nāgārjuna's middle-way school; śūnyatā + pratītyasamutpāda without positing consciousness-only
+
+Greek/Western depth:
+- `aristotle-ethics` — the *Nicomachean Ethics* eudaimonia / virtue ethics; compare with Jain tri-ratna and Buddhist Noble Eightfold Path
+- `plotinus-one` — Neoplatonic The One; the most tempting Brahman-conflation target after Plato's Forms
+
+Indian logic depth:
+- `jati` — Nyāya theory of universals (the metaphysical ground of vyāpti)
+- `apoha` — Dignāga's meaning-as-exclusion theory; the full account, deeper than the signalling in hetu-vidya.md
