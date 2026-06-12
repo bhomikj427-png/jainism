@@ -11,7 +11,11 @@ confidence: medium
 
 Mokṣa is **liberation** — the complete annihilation of all karma from the soul (jīva), ending the cycle of rebirth (saṃsāra). The *Tattvārthasūtra*'s final chapter defines it directly:
 
-**TS 10.2**: "Owing to the absence of the cause of bondage and with the functioning of the dissociation of karmas, the annihilation of all karmas is liberation." (Cited in Wikipedia "Mokṣa (Jainism)," sourcing the TS.)
+**TS 10.1:** मोहक्षयाज्ज्ञानदर्शनावरणान्तरायक्षयाच्च केवलम् — *mohakṣayājjñānadarśanāvaraṇāntarāyakṣayācca kevalam* — "Omniscience or perfect knowledge–kevalajñāna–is attained on destruction of delusion (moha), and on destruction of knowledge-covering, perception-covering and obstructive karmas." (Vijay K. Jain 2018, directly fetched)
+
+**TS 10.2:** बन्धहेत्वभावनिर्जराभ्यां कृत्स्नकर्मविप्रमोक्षो मोक्षः — *bandhahetvabhāvanirjarābhyāṃ kṛtsnakarmavipramokṣo mokṣaḥ* — "Owing to the absence of the cause of bondage and with the functioning of dissociation of karmas, the annihilation of all karmas is liberation." (Vijay K. Jain 2018, directly fetched)
+
+Pūjyapāda explains liberation through two concurrent mechanisms: (1) preventing new karmic influx by eliminating its causes (perverted faith, passion); (2) dissociating previously accumulated karmas through spiritual effort — progressing through the fourteen guṇasthāna stages until complete annihilation at the final stage, when "the soul gets liberated."
 
 The TS is itself sometimes called the *Mokṣaśāstra* (Scripture on Liberation) — mokṣa is the entire text's telos.
 
@@ -41,25 +45,21 @@ In Advaita Vedānta, mokṣa = recognition that individual ātman is identical t
 
 ## Reasoning across signals
 
-**Signal 1 — Wikipedia "Mokṣa (Jainism)":** TS 10.2 cited with English translation; siddha's qualities (four infinites) from *Puruṣārthasiddhyupāya*; lokāgra location. Fetched directly. Wikipedia-level provenance with TS verse reference.
+**Signal 1 — Vijay K. Jain 2018 (WisdomLib, directly fetched):** TS 10.1 Sanskrit + translation (kevalajñāna attainment via moha/jñānāvaraṇa/darśanāvaraṇa/antarāya-kṣaya) + Pūjyapāda commentary. TS 10.2 Sanskrit + translation (liberation = absence of bondage-cause + nirjarā) + Pūjyapāda two-mechanism account. Strong critical-edition provenance. https://www.wisdomlib.org/jainism/book/tattvartha-sutra-with-commentary/d/doc1084941.html (10.1), doc1084942.html (10.2).
 
-**Signal 2 — Search result aggregation (encyclopediaofjainism, jainworld, encyclopedia.pub):** Confirms Chapter 10 covers mokṣa and siddha; three jewels as path; karma annihilation definition. Consistent with Signal 1. Derivative.
+**Signal 2 — Wikipedia "Mokṣa (Jainism)":** Confirms TS 10.2 definition; siddha's four-infinite qualities from *Puruṣārthasiddhyupāya*; lokāgra location. Medium provenance; cross-check only.
 
-**Signal 3 — Karma file cross-check (concepts/karma.md):** The soteriology arc (āsrava→bandha→saṃvara→nirjarā→mokṣa) is internally consistent; mokṣa is the completion of that arc.
+**Signal 3 — Karma file cross-check (concepts/karma.md):** Soteriology arc (āsrava→bandha→saṃvara→nirjarā→mokṣa) is internally consistent; mokṣa is the arc's completion.
 
-**Independence assessment:** Signal 1 provides the TS 10.2 verse citation. Signal 2 is derivative but consistent. TS 10.2 not fetched from the critical edition directly (Wikipedia citation only). The four-infinite formula is from *Puruṣārthasiddhyupāya* (a different Jain text, not the TS itself) — correctly noted as secondary text. Confidence medium.
-
-**TS 1.1 note:** The tri-ratna formula is TS 1.1 (*samyag-darśana-jñāna-cāritrāṇi mokṣamārgaḥ*) — the first verse of the TS, which opens the text with its stated purpose. This verse number is standard and universally cited; not independently fetched from critical edition this run.
+**Independence assessment:** Signal 1 is a direct critical-edition fetch of both TS 10.1 and 10.2. Signal 2 confirms. The four-infinite formula (*ananta-catuṣṭaya*) is from *Puruṣārthasiddhyupāya* (a separate Jain text, correctly not sourced to the TS itself). TS 1.1 (*samyag-darśana-jñāna-cāritrāṇi mokṣamārgaḥ*) — standard, universally cited; directly fetched in charitra.md Batch 12. Confidence medium: Nathmal Tatia 1994 Chapter 10 not independently fetched; needed for confidence upgrade to high.
 
 ## Sources
 
-1. Wikipedia, "Mokṣa (Jainism)," accessed June 2026. https://en.wikipedia.org/wiki/Moksha_(Jainism) — TS 10.2 citation; siddha qualities; lokāgra location. Medium provenance.
+1. Vijay K. Jain (tr. & ed.), *Tattvartha Sutra* (with Pūjyapāda's Sarvārthasiddhi), Motilal Banarsidass, 2018. ISBN 9788193272626. — TS 10.1 and 10.2 directly fetched: https://www.wisdomlib.org/jainism/book/tattvartha-sutra-with-commentary/d/doc1084941.html (10.1), doc1084942.html (10.2). Strong provenance.
 
-2. Nathmal Tatia (tr.), *That Which Is: Tattvārthasūtra*, HarperCollins/International Sacred Literature Trust, 1994. ISBN 0060689854. — anchor text; Chapter 10 not fetched.
+2. Wikipedia, "Mokṣa (Jainism)," accessed June 2026. https://en.wikipedia.org/wiki/Moksha_(Jainism) — siddha's four-infinite qualities (from *Puruṣārthasiddhyupāya*); lokāgra location. Medium provenance; cross-check.
 
-3. Vijay K. Jain (tr. & ed.), *Tattvartha Sutra* (with Pūjyapāda's Sarvārthasiddhi), Motilal Banarsidass, 2018. ISBN 9788193272626. — Chapter 10 not fetched.
-
-4. **Not yet fetched (needed for confidence upgrade):** TS 10.1–10.2 text from either critical edition directly; Puruṣārthasiddhyupāya for four-infinite formula.
+3. Nathmal Tatia (tr.), *That Which Is: Tattvārthasūtra*, HarperCollins/International Sacred Literature Trust, 1994. ISBN 0060689854. — anchor text; Chapter 10 not fetched; needed for confidence upgrade to high.
 
 ## Links
 
