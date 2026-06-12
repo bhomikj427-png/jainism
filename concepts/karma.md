@@ -11,21 +11,26 @@ confidence: medium
 
 In Jain ontology, karma is **fine physical matter** (sūkṣma pudgala) — the "fine" skandha type — that flows into the soul (jīva), adheres to it, and conditions all of the soul's future states: its embodiment, cognition, lifespan, and experienced pleasure/pain. Karma is not an abstract moral law or residual intention; it is literally a class of infinitesimally fine particles.
 
-**The bondage process — four causes (TS 8.1, Tattvārthasūtra via Wikipedia/Bandha article):**
-1. *mithyā-darśana* — wrong belief/view
-2. *avirati* — non-abstinence (failure to observe ethical restraints)
-3. *pramāda* — negligence/carelessness
-4. *kaṣāya* — passions (attachment, aversion, pride, deceit)
+**The bondage process — five causes (TS 8.1):**
 
-These four causes, combined with *yoga* (vibration/activity of mind, speech, and body), open the soul to *āsrava* (influx of karma particles) which then bind (*bandha*).
+Sanskrit: *mithyādarśanāviratipramādakaṣāyayogā bandhahetavaḥ* (Vijay K. Jain 2018, directly fetched)
+
+1. *mithyā-darśana* — wrong belief/view
+2. *avirati* — non-abstinence
+3. *pramāda* — negligence/carelessness
+4. *kaṣāya* — passions (anger, pride, deceit, greed)
+5. *yoga* — activity of mind, speech, and body
+
+Pūjyapāda notes these operate differently by guṇasthāna stage: all five in wrong-believers; only yoga remains in advanced ascetics. These five causes open the soul to *āsrava* (influx of karma particles) which then bind (*bandha*).
 
 **The four aspects of karma bondage (TS 8.3):**
-1. *prakṛti* — nature/species: which of the eight karma types is bonded
-2. *sthiti* — duration: how long the karma persists before ripening
-3. *anubhāga* — intensity/fruition: how strongly it will be experienced when it ripens
-4. *pradeśa* — quantity: how many karma particles are bonded
 
-(Source: Wikipedia "Bandha (Jainism)," citing TS 8.3.)
+Sanskrit: *prakṛtisthityanubhavapradeśāstadvidhayaḥ* (Vijay K. Jain 2018, directly fetched; note: *anubhava* = *anubhāga*, variant spellings in use across editions)
+
+1. *prakṛti* — nature/species: which karma type is bonded; yoga causes nature-bondage
+2. *sthiti* — duration: how long the karma persists; kaṣāya causes duration-bondage
+3. *anubhava/anubhāga* — fruition/intensity: how strongly experienced when it ripens; kaṣāya also causes fruition-bondage
+4. *pradeśa* — quantity: how many karma particles; yoga causes quantity-bondage
 
 **Eight main karma types** (from Bhagavatī Sūtra classification tradition; this is the standard Jain scheme, not from TS itself):
 
@@ -59,23 +64,23 @@ At *kevala-jñāna* (omniscience), the four ghātīya karmas dissolve. At physic
 
 ## Reasoning across signals
 
-**Signal 1 — Wikipedia "Bandha (Jainism)":** TS 8.1 (four causes of bondage) and TS 8.3 (four aspects of bondage) cited directly. Fetched directly. Wikipedia-level provenance with TS verse references.
+**Signal 1 — Vijay K. Jain 2018 (WisdomLib, directly fetched):** TS 8.1 Sanskrit (*mithyādarśanāviratipramādakaṣāyayogā bandhahetavaḥ*) + Pūjyapāda commentary (five causes, guṇasthāna dependency); TS 8.3 Sanskrit (*prakṛtisthityanubhavapradeśāstadvidhayaḥ*) + yoga/kaṣāya cause-assignment commentary. Strong critical-edition provenance; directly fetched.
 
 **Signal 2 — Deepak Bagadia 2016 (WisdomLib, comparative Jainism/Yoga essay):** Eight karma types with Sanskrit names and functions; the āsrava/yoga/kaṣāya mechanism; TS Chapter 6 verse numbers (6.21, 6.22, 6.24, 6.27). Independently authored essay; medium provenance.
 
-**Signal 3 — Search result aggregation (grokipedia, encyclopediaofjainism):** Confirms karma-as-fine-matter, the four bondage types, and the soteriology sequence. Derivative.
+**Signal 3 — Wikipedia "Bandha (Jainism)":** TS 8.1 and 8.3 cited; previously used as primary source before direct fetch. Now demoted to cross-check only; note it described four causes (omitting *mithyā-darśana* or listing four + yoga separately) — the direct fetch confirms five.
 
-**Independence assessment:** Signals 1 and 2 are independent (different sources, different primary texts cited). The TS verse numbers 8.1 and 8.3 are from Signal 1; the eight karma types from Signal 2 are from the Bhagavatī Sūtra, not TS — noted. Confidence medium: TS 8.1/8.3 not fetched from the critical edition directly (Wikipedia only).
+**Independence assessment:** Signals 1 and 2 are independent (different sources, different primary texts). TS 8.1 and 8.3 now fetched directly from critical edition. The eight karma types (Signal 2) are from the Bhagavatī Sūtra, not TS — noted. Confidence medium: Nathmal Tatia 1994 (second independent critical edition) not yet fetched for Chapters 6 and 8.
 
 ## Sources
 
-1. Wikipedia, "Bandha (Jainism)," accessed June 2026. https://en.wikipedia.org/wiki/Bandha_(Jainism) — TS 8.1 (four causes) and TS 8.3 (four aspects) cited. Medium provenance.
+1. Vijay K. Jain (tr. & ed.), *Tattvartha Sutra* (with Pūjyapāda's Sarvārthasiddhi), Motilal Banarsidass/Vikalp Printers, 2018. ISBN 9788193272626. — TS 8.1 and TS 8.3 directly fetched: https://www.wisdomlib.org/jainism/book/tattvartha-sutra-with-commentary/d/doc1084866.html (8.1), doc1084868.html (8.3). Strong provenance.
 
 2. Deepak Bagadia, comparative essay in *Jainism and Patañjali Yoga*, WisdomLib, 2016. https://www.wisdomlib.org/hinduism/essay/jainism-and-patanjali-yoga/d/doc1208475.html — eight karma types (from Bhagavatī Sūtra); āsrava/kaṣāya/yoga mechanism. Medium provenance.
 
-3. Nathmal Tatia (tr.), *That Which Is: Tattvārthasūtra*, HarperCollins/International Sacred Literature Trust, 1994. ISBN 0060689854. — anchor text; Chapters 6 and 8 not fetched this run.
+3. Wikipedia, "Bandha (Jainism)," accessed June 2026. https://en.wikipedia.org/wiki/Bandha_(Jainism) — cross-check only; note its four-cause listing differs from the verified five causes in TS 8.1.
 
-4. **Not yet fetched (needed for confidence upgrade):** TS Chapter 8 text (Vijay K. Jain 2018 critical edition) for TS 8.1 and 8.3 directly; Paul Dundas *The Jains* on karma doctrine.
+4. Nathmal Tatia (tr.), *That Which Is: Tattvārthasūtra*, HarperCollins/International Sacred Literature Trust, 1994. ISBN 0060689854. — anchor text; Chapters 6 and 8 not fetched; needed for confidence upgrade to high.
 
 ## Links
 
