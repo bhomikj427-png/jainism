@@ -34,7 +34,7 @@ Five of the six (all except kāla) are **astikāyas** — they have multiple spa
 
 **Signal 2 — Wikipedia "Dravya" article:** Confirms the six-dravya list and the astikāya/kāla distinction ("Time has only one [space-point]; therefore it is not a conglomerate"). Does not cite specific TS verses. Derivative — used for list confirmation only.
 
-**Signal 3 — Nathmal Tatia 1994:** The same six dravyas and the utpāda/vyaya/dhrauvya formula are standard Jain doctrine; Tatia's edition confirmed (Cambridge Core) but Chapter 5 text not directly fetched. Would raise confidence to high if TS 5.30 and 5.38 wording confirmed from Tatia independently.
+**Signal 3 — Nathmal Tatia 1994:** The same six dravyas and the utpāda/vyaya/dhrauvya formula are standard Jain doctrine; Tatia's edition confirmed (Cambridge Core) but Chapter 5 text not directly fetchable (Archive.org djvu stream truncates at Chapter 1). Confidence capped at medium until Tatia Chapter 5 can be independently accessed.
 
 **Independence assessment:** Only Signal 1 is independently fetched with verse numbers. Signals converge on the list and definitions. Confidence capped at medium pending Tatia Chapter 5 verification.
 

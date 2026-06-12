@@ -17,7 +17,9 @@ Pramāṇa is **valid cognition** — complete, comprehensive knowledge of a sub
 
 **The sakalādeśa / vikalādeśa distinction** is the sharpest Jain formulation of the pramāṇa/naya difference: pramāṇa takes the whole substance with all its attributes at once (*sakala* = complete/all); naya takes one attribute or mode (*vikala* = partial/one). Both are valid; neither alone is sufficient for finite knowers.
 
-**Two divisions of pramāṇa** (from Jain epistemological tradition):
+**TS 1.9** (directly fetched, Vijay K. Jain 2018, WisdomLib doc1084592): मतिश्रुतावधिमनःपर्ययकेवलानि ज्ञानम् — *matiśrutāvadhimanaḥparyayakevalāni jñānam* — "Knowledge is of five kinds: sensory-knowledge (matijñāna), scriptural-knowledge (śrutajñāna), clairvoyance (avadhijñāna), telepathy (manaḥparyāya-jñāna), and omniscience (kevalajñāna)."
+
+**Two divisions of pramāṇa** (from Jain epistemological tradition; mapping onto TS 1.9's five types):
 
 | division | Sanskrit | what it covers |
 |---|---|---|
@@ -30,19 +32,19 @@ Pramāṇa is **valid cognition** — complete, comprehensive knowledge of a sub
 
 ## Reasoning across signals
 
-**Signal 1 — Vijay K. Jain 2018 (Motilal Banarsidass):** TS 1.6 Sanskrit + translation + Pūjyapāda's sakalādeśa/vikalādeśa distinction fetched directly. Strong critical-edition provenance.
+**Signal 1 — Vijay K. Jain 2018 (WisdomLib, directly fetched):** TS 1.6 Sanskrit + translation + Pūjyapāda's sakalādeśa/vikalādeśa distinction (doc1084589). TS 1.9 Sanskrit + translation — five knowledge types, establishing what pramāṇa encompasses (doc1084592). Strong critical-edition provenance for both verses.
 
 **Signal 2 — Search result aggregation (wisdomlib, ResearchGate):** Two-kind division (pratyakṣa/parokṣa); TS 1.6 as the key verse; pramāṇa as complete vs. naya as partial. Consistent with Signal 1; derivative.
 
-**Independence:** Signal 1 is a direct critical-edition fetch. Signal 2 confirms the two-kind division which was not detailed in Signal 1. Confidence medium: the pratyakṣa/parokṣa division not fetched from a critical-edition commentary this run. The Nyāya terminology divergence is flagged but not independently sourced.
+**Independence:** Signal 1 is a direct critical-edition fetch of TS 1.6 and TS 1.9. Signal 2 confirms. Confidence medium: the pratyakṣa/parokṣa two-division verse (likely TS 1.11 or 1.12) not fetched from critical edition this run; the Nyāya terminology divergence (Jain pratyakṣa = unmediated vs. Nyāya pratyakṣa = ordinary sense perception) is flagged but not independently sourced from a comparative epistemology text.
 
 ## Sources
 
-1. Vijay K. Jain (tr. & ed.), *Tattvartha Sutra* (with Pūjyapāda's Sarvārthasiddhi), Motilal Banarsidass, 2018. ISBN 9788193272626. TS 1.6 directly: https://www.wisdomlib.org/jainism/book/tattvartha-sutra-with-commentary/d/doc1084589.html
+1. Vijay K. Jain (tr. & ed.), *Tattvartha Sutra* (with Pūjyapāda's Sarvārthasiddhi), Motilal Banarsidass, 2018. ISBN 9788193272626. — TS 1.6 (pramāṇa-naya): https://www.wisdomlib.org/jainism/book/tattvartha-sutra-with-commentary/d/doc1084589.html; TS 1.9 (five knowledge types): doc1084592.html. Both directly fetched. Strong provenance.
 
-2. Nathmal Tatia (tr.), *That Which Is*, HarperCollins, 1994. ISBN 0060689854. — Chapter 1 not fetched.
+2. Nathmal Tatia (tr.), *That Which Is*, HarperCollins, 1994. ISBN 0060689854. — anchor text; Chapter 1 not directly fetched; needed for confidence upgrade to high.
 
-3. **Not yet fetched (confidence upgrade):** TS 1.9–1.20 range (the full pramāṇa-naya analysis in TS Chapter 1); comparison with Nyāya pratyakṣa from a comparative epistemology source.
+3. Comparative source for Nyāya pratyakṣa terminology divergence: not yet fetched; see pramana-nyaya.md for the Nyāya side of this comparison.
 
 ## Links
 
