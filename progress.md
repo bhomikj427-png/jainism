@@ -1039,9 +1039,20 @@ Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
 
 ### Corpus milestone: 115 concepts across 16 batches + 2 linker passes. 1 unwritten stub (fuzzy-logic).
 
+---
+
+## fuzzy-logic — standalone stub fix (post-Batch 16)
+
+| concept | status | confidence | notes |
+|---|---|---|---|
+| `fuzzy-logic.md` | done | medium | fills last stub; Zadeh 1965; [0,1] degree-of-membership; vagueness ≠ probability; NOT-equiv saptabhaṅgī + anekāntavāda; is-a-type-of many-valued-logic |
+
+**Corpus milestone: 116 written nodes, 0 unwritten stubs.**
+
+---
+
 ### Suggested Batch 17
-Completing the Western logic thread:
-- `fuzzy-logic` — fills the last remaining stub; many-valued + degree-of-truth; vs anekāntavāda NOT-equivalent
+Completing the Western logic thread (stub now filled; batch focuses on next priorities):
 
 Yogācāra-Madhyamaka depth:
 - `santaraksita` — Śāntarakṣita's Yogācāra-Madhyamaka synthesis (Tattvasaṅgraha); the school that tried to merge both
