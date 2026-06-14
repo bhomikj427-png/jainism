@@ -942,3 +942,115 @@ Greek/Western depth:
 Indian logic depth:
 - `jati` — Nyāya theory of universals (the metaphysical ground of vyāpti)
 - `apoha` — Dignāga's meaning-as-exclusion theory; the full account, deeper than the signalling in hetu-vidya.md
+
+---
+
+## Batch 15 concepts (context batch)
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `trisvabhava.md` | done | converged, medium; Garfield tr. from Tibetan (Sandhinirmocana Ch.6 + Madhyantavibhaga); elephant simile stanzas 27-28; formalizes vijnaptimatrata |
+| 2 | `madhyamaka.md` | done | converged, medium; MMK 24.19-20; two truths; prasanga method; Candrakirti; Yogacara dispute |
+| 3 | `aristotle-ethics.md` | done | converged, medium; EN I.1 + I.7 + II.6 (Bekker); eudaimonia; function argument; vs Jain charitra (NOT-equiv) |
+| 4 | `plotinus-one.md` | done | converged, medium; Enneads V 3+4; three hypostases; Brahman + sunyata + nirvana conflations defused |
+| 5 | `jati.md` | done | converged, medium; Annambhatta definition; Udayana criteria; grounds vyapti; vs apoha rival |
+| 6 | `apoha.md` | done | converged, medium; Pramanasamuccaya; double-negation; Dharmakirti bottom-up; eliminates jati-realism |
+
+## Linker Pass 2
+
+### Scope
+Priority 1-3 from `link-candidates.md` (generated linker pass 1) + reciprocals for Batch 15 new concepts. 13 new typed edges across 13 files.
+
+### Edges added
+
+| file edited | edge added |
+|---|---|
+| vyapti.md | structurally-parallel-to: aristotle-logic |
+| samvara.md | shares-vocabulary-with: charitra |
+| ahimsa.md | shares-vocabulary-with: satya |
+| tapas.md | part-of: charitra |
+| pramana-nyaya.md | structurally-parallel-to: aristotle-logic |
+| anicca.md | structurally-parallel-to: kala-dravya |
+| charitra.md | shares-vocabulary-with: pramana |
+| dharmottara.md | structurally-parallel-to: pramana-nyaya |
+| democritus-atom.md | often-conflated-with-NOT-equivalent: sunyata |
+| brahman.md | often-conflated-with-NOT-equivalent: plato-forms |
+| pratityasamutpada.md | structurally-parallel-to: stoic-logos |
+| vijnaptimatrata.md | often-conflated-with-NOT-equivalent: madhyamaka |
+| sunyata.md | expressed-by: madhyamaka |
+
+Priority 1 items already resolved: plato-forms → maya-advaita NOT-equiv (confirmed already present); purusha-samkhya → atman-vedanta NOT-equiv (already present). No action needed.
+
+## Batch 16 concepts (chapter batch: epistemology-and-mind chapter)
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `dvisatya.md` | done | converged, medium; MMK 24.8 cited; samvrti/paramartha; Candrakirti; vs Advaita vyavaharika; vs anekantavada |
+| 2 | `citta-vritti.md` | done | converged, medium; YS 1.2 directly quoted; 5-vritti table (pramana/viparyaya/vikalpa/nidra/smriti); material citta vs Buddhist citta NOT-equiv |
+| 3 | `hetvabhasa.md` | done | converged, medium; NS I.2.4 Sanskrit directly cited; 5 fallacy types; Buddhist trairūpya parallel |
+| 4 | `tarka.md` | done | converged, medium; 8th of 16 Nyaya padarthas; doubt-remover for vyapti; NOT-equiv to Madhyamaka prasanga |
+| 5 | `tathagata-garbha.md` | done | converged, medium; Tathagatagarbha Sutra + Ratnagotravibhaga; Lankavatarasutra=alaya equation; Madhyamaka metaphor reading; vs atman NOT-equiv |
+| 6 | `paraconsistent-logic.md` | done | converged, medium; fills stub; ECQ rejection; Priest LP; NOT-equiv to saptabhangi (standpoint-relativization ≠ ECQ-rejection) |
+
+## Run log — Batches 15-16 + Linker Pass 2 (2026-06-14)
+
+### Concepts completed: 12 / 12 (0 blocked, 0 needs-opus-review)
+
+**Batch 15 (6 concepts):**
+| concept | status | confidence | note |
+|---|---|---|---|
+| trisvabhava | converged | medium | Garfield tr.; elephant simile stanzas 27-28; paratantra ≠ pariniṣpanna distinction |
+| madhyamaka | converged | medium | MMK 24.19-20; prasaṅga; Prāsaṅgika-Svātantrika debate; Candrakīrti Yogācāra critique |
+| aristotle-ethics | converged | medium | EN I.1/I.7/II.6 Bekker; function argument; this-worldly vs Indian liberation-ethics |
+| plotinus-one | converged | medium | Enneads V; one above thought (Nous); Brahman/śūnyatā/nirvāṇa all NOT-equivalent |
+| jati | converged | medium | Annambhaṭṭa "eternal, one, exists in many"; Udayana exclusion criteria; grounds vyāpti |
+| apoha | converged | medium | double-negation "not-non-cow"; Dharmakīrti bottom-up causal elaboration; not simple nominalism |
+
+**Batch 16 (6 concepts):**
+| concept | status | confidence | note |
+|---|---|---|---|
+| dvisatya | converged | medium | MMK 24.8; both epistemological AND ontological; Candrakīrti's non-foundationalism |
+| citta-vritti | converged | medium | YS 1.2; 5 vṛttis; material citta/puruṣa structure; vikalpa→apoha cross-link |
+| hetvabhasa | converged | medium | NS I.2.4 Sanskrit; 5 fallacy types map onto vyāpti-failure modes |
+| tarka | converged | medium | 8th Nyāya padārtha; doubt-remover; reductio for positive claim (≠ prasaṅga) |
+| tathagata-garbha | converged | medium | Laṅkāvatāra identifies with ālaya; Madhyamaka: metaphor/potential; NOT ātman |
+| paraconsistent-logic | converged | medium | fills last remaining stub; ECQ rejection ≠ syāt-relativization (saptabhaṅgī) |
+
+### Graph (final state)
+`graph/graph.dot` not regenerated (Python unavailable). Manual stats:
+- **115 written nodes, 1 unwritten stub (fuzzy-logic) = 116 total**
+- **~620 edges** (estimate: 520 baseline + 13 linker-pass-2 + ~42 batch-15 links + ~40 batch-16 links)
+- New unwritten forward-link stubs this session: 0 (paraconsistent-logic fills last stub; fuzzy-logic remains from prior session)
+Convert to SVG: `dot -Tsvg graph/graph.dot -o graph/graph.svg`
+
+### Key findings this run
+
+1. **Yogācāra triangle now closed**: trisvabhāva + vijñaptimātratā + ālayavijñāna form a closed triangle of mutual explanation. Madhyamaka is explicitly distinguished from Yogācāra through the trisvabhāva-śūnyatā NOT-equivalent edge.
+
+2. **Plotinus sharpens the Brahman comparison**: The One is ABOVE consciousness (Nous); Brahman IS consciousness. This inverts the standard conflation — the Neoplatonist hierarchy places awareness at the SECOND level, not the highest.
+
+3. **Two-truths fills a structural gap**: dvisatya.md was missing despite madhyamaka.md and sunyata.md both referencing it. It is now the hub linking Madhyamaka method (madhyamaka.md) to its ontological content (sunyata.md) and cross-tradition parallels (maya-advaita).
+
+4. **YS 1.2 vikalpa links to apoha**: the Yoga vṛtti-schema independently identifies "conceptual construction without referent" (vikalpa) as the level at which language operates. Dignāga's apoha operates at exactly this level — independent convergence from opposite soteriological frameworks.
+
+5. **Paraconsistent logic closes the logic chain**: saptabhaṅgī → paraconsistent-logic (NOT-equivalent) is now the clearest formulation of why Jain logic is NOT modern paraconsistent logic. The mechanism difference (standpoint-relativization vs ECQ-rejection) is now explicit.
+
+6. **Tarka-prasaṅga distinction is the sharpest new analytic finding**: same logical form (reductio), opposite methodological intent. Tarka confirms a positive conclusion; prasaṅga refutes all positions without endorsing any. This is the deepest difference between Nyāya and Madhyamaka methodology.
+
+### Corpus milestone: 115 concepts across 16 batches + 2 linker passes. 1 unwritten stub (fuzzy-logic).
+
+### Suggested Batch 17
+Completing the Western logic thread:
+- `fuzzy-logic` — fills the last remaining stub; many-valued + degree-of-truth; vs anekāntavāda NOT-equivalent
+
+Yogācāra-Madhyamaka depth:
+- `santaraksita` — Śāntarakṣita's Yogācāra-Madhyamaka synthesis (Tattvasaṅgraha); the school that tried to merge both
+- `prasanga-nagarjuna` — Nāgārjuna's prasaṅga method in detail; distinct from tarka
+
+Jain soteriology depth:
+- `nishcaya-vyavahara` — absolute vs conventional standpoints in Jain naya theory (different from the 7-naya schema; Kundakunda's usage in Samayasāra)
+- `samyak-darshana` — right faith (first jewel of tri-ratna; companion to charitra and jñāna)
+
+Indian philosophy remaining:
+- `vaiseshika-sutra` — the Vaiśeṣika Sūtra (Kaṇāda) as primary text; fills the primary-text gap in dravya-vaisheshika
+- `carvaka` — materialist/sceptical school; completes the six-darśana map; denied vyāpti and karma
