@@ -60,3 +60,4 @@ Signals converge on definition and structure; the grounding dispute (universals 
 - shares-vocabulary-with: naya | Jain standpoint epistemology treats any inferential claim (and its vyapti) as naya-relative — valid within a standpoint, not absolutely
 - structurally-parallel-to: dignaga-pramana | Dignāga's trairūpya is his formal reconstruction of vyapti without appealing to universals
 - often-conflated-with-NOT-equivalent: many-valued-logic | vyapti is a two-valued relation (either pervasion holds or it does not); it is not a many-valued or modal operator
+- structurally-parallel-to: aristotle-logic | both establish necessary connection in valid inference — vyāpti as universal pervasion (anumāna's major-term ground); Aristotelian syllogism's necessary major premise; different traditions, comparable formal aim

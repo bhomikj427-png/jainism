@@ -50,3 +50,4 @@ Note: Dhp 279 says *sabbe **dhammā** anattā* — "all *phenomena* are non-self
 - part-of: anatta-buddhist | anicca is the first of three marks; anattā follows from it
 - part-of: pratityasamutpada | all conditioned anicca arises through dependent origination
 - structurally-parallel-to: maya-advaita | both Buddhism and Advaita deny ultimate reality of the changing phenomenal world — but for opposite reasons (anattā vs ātman-identity)
+- structurally-parallel-to: kala-dravya | both theorise temporal change; Buddhist momentariness (nothing endures between moments) contrasts with Jain kāla (time-medium enabling paryāya-change in a permanent dravya) — anicca denies the substrate that kāla presupposes

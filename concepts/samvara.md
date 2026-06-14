@@ -64,3 +64,4 @@ Saṃvara does not undo existing bondage (nirjarā does that) — it only stops 
 - expressed-by: nirjara | saṃvara and nirjarā operate together — saṃvara stops new karma, nirjarā sheds old
 - part-of: moksha | saṃvara is tattva 5 of 7; necessary step on the path
 - part-of: tattva-jain | saṃvara is the fifth of the seven fundamental categories
+- shares-vocabulary-with: charitra | cāritra IS the practitioner-side enactment of saṃvara — restraining yoga and kaṣāya (the conduct of right discipline) IS what produces material karmic stoppage

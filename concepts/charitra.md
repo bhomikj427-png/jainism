@@ -83,3 +83,4 @@ All signals converge. Confidence medium: TS 1.1 directly fetched; secondary work
 - shares-vocabulary-with: nirvana-buddhist | Buddhist "right action/conduct" (sammā-kammanta in the Noble Eightfold Path) is structurally analogous — third path-factor in both traditions; different metaphysical grounding
 - often-conflated-with-NOT-equivalent: karma-vedic | Hindu dharma-based conduct has overlapping vocabulary (dharma, vrata) but is grounded in social duty (varṇāśrama), not the Jain soul-karma mechanism
 - expressed-by: acarya | the ācārya is the institutional exemplar of sakala-cāritra — the title designates those who have fully mastered all five mahāvratas and lead the monastic community
+- shares-vocabulary-with: pramana | TS 1.1 (samyag-darśana/jñāna/cāritra = mokṣa-mārga) and TS 1.6 (pramāṇa = perception + inference) are the foundational verse-pair; cāritra is the practical arm, pramāṇa is the epistemic arm of the same liberation-path

@@ -85,3 +85,4 @@ All signals converge. Confidence medium: TS 9.19 and 9.20 directly fetched; Mu�
 - structurally-parallel-to: brahmacarya | both brahmacarya and tapas appear in the Jain mahāvrata system and Patañjali's niyamas; shared vocabulary marks historical cross-influence
 - shares-vocabulary-with: guna-samkhya | Sāṃkhya-Yoga tradition grounds tapas in guṇa-theory: tapas diminishes tamas (inertia) by activating rajas and purifying to sattva
 - often-conflated-with-NOT-equivalent: karma | Jain tapa burns karma (physical particles); Buddhist practice reinterprets tapas as mental discipline and explicitly rejects the physical-destruction model; same vocabulary, incompatible metaphysics
+- part-of: charitra | tapas is systematically organised under cāritra (right conduct) — TS 1.1's tri-ratna path encompasses both external restraint and internal austerity; tapa is the central mechanism within the conduct-jewel

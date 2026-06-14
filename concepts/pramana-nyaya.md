@@ -62,3 +62,4 @@ Dignāga (~5th c. CE) argued perception should be purely non-conceptual (no word
 - often-conflated-with-NOT-equivalent: pramana | Nyāya 4-pramāṇa vs Jain 2-pramāṇa; superficially same project, structurally incompatible
 - is-a-type-of: dravya-vaisheshika | Nyāya-Vaiśeṣika is the combined school; this file covers the Nyāya (epistemological) wing
 - structurally-parallel-to: atman-vedanta | both Nyāya and Vedānta defend permanent self against Buddhist anattā; shared realist commitment
+- structurally-parallel-to: aristotle-logic | both formulate the valid syllogism-analog (5-member avayava vs 3-term syllogism); both ground inference in necessary universal connection; historically distinct traditions, formally comparable structures

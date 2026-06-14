@@ -67,4 +67,5 @@ Converged. Confidence medium: primary Sanskrit texts (Nyāyabinduṭīkā) not i
 - historically-influenced-by: dignaga-pramana | Dharmottara comments on Dharmakīrti's comments on Dignāga — three-generation inheritance chain
 - formalizes: vyapti | Dharmottara's niścaya-pratyaya elaborates how vyāpti-knowledge is ascertained in the inferential process
 - shares-vocabulary-with: mimamsa-pramana | both traditions grapple with valid cognition definition ("non-deceptive" in Dharmakīrti; "self-validating" in Mīmāṃsā) — historically adversarial
+- structurally-parallel-to: pramana-nyaya | Dharmottara and Nyāya epistemologists were historical adversaries; both theorise what makes cognition valid (niścaya-pratyaya vs Nyāya's causal/object-contact conditions) — documented rivalry in Kashmiri philosophical circles
 - structurally-parallel-to: pramana-nyaya | Nyāya and Dharmottara's Kashmiri school were live adversaries; both refined formal epistemology in response to each other

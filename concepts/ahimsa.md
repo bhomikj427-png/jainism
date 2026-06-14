@@ -60,3 +60,4 @@ Laypeople take the smaller *aṇuvratas* (minor vows) — the same five principl
 - part-of: jiva | ahiṃsā's scope is grounded in the jīva doctrine; every jīva deserves non-harm because it is a conscious soul
 - part-of: karma | violence — physical, verbal, or mental — generates āsrava and bandha; ahiṃsā is thus the practical application of the karma theory
 - shares-vocabulary-with: ahimsa-buddhist | Buddhism also upholds non-violence (*ahiṃsā*) as a core ethical principle, but the grounding differs: Buddhist non-harm is grounded in interdependence (pratītyasamutpāda) and compassion; Jain non-harm is grounded in the jīva's irreducible individuality and the karma-mechanism
+- shares-vocabulary-with: satya | satya is hierarchically subordinate to ahiṃsā — truth that causes harm is not Jain satya (TS 7.5 carefulness conditions include not harming); ahiṃsā is the meta-constraint on all other mahāvratas
