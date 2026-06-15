@@ -1076,4 +1076,40 @@ Read all six chapters (01–06) + INDEX end-to-end and re-verified the highest-r
 1. **Ch 01 §6.1 (paramāṇu bonding rule)** — was: "bind iff degrees differ by ≥2," with a 3+3 example wrongly explained as "same polarity." Now cites **TS 5.33–5.37** and adds the two missing conditions: the lowest-degree (one-point, *jaghanya*) atom never bonds (TS 5.34), and equal-degree-same-quality atoms don't bond (TS 5.35). The old "iff ≥2" rule was actually wrong — a 1-and-3 pair differs by 2 yet does not bond.
 2. **Ch 04 §2.4 + `moksha-advaita.md`** — *Vivekacūḍāmaṇi* was attributed flatly to Śaṅkara; added the modern-scholarship caveat (Comans: attribution "most probably erroneous"). Doctrine stands; authorship flagged as disputed.
 
-**Known limitation (not fixable here):** Python + Graphviz are not installed on this machine, so `graph/graph.svg`/`graph.html` cannot be regenerated; `graph/graph.dot` is current. Run `dot -Tsvg graph/graph.dot -o graph/graph.svg` where Graphviz is available.
+**Known limitation (not fixable here):** Python + Graphviz are not installed on this machine, so `graph/graph.svg`/`graph.html` cannot be regenerated. (Correction logged in pass 3 below: `graph/graph.dot` is itself stale, not current.) Run `python graph/build_graph.py` where Python is available.
+
+---
+
+## Linker pass 3 (2026-06-16) — orphan sweep + reciprocity policy
+
+Baseline: HEAD 311c29f. Python unavailable, so the `build_graph.py` edge parser was
+re-implemented in awk to audit deterministically (extraction command preserved in the
+git history of this commit). Edges parsed: 612 → 621 after fixes.
+
+**Full audit results (before fixes):** 0 duplicate edges, 0 self-loops, 0 invalid edge
+types, 0 bidirectional `is-a-type-of`, **0 edge-pairing violations** (all 41 multi-type
+ordered pairs are the sanctioned `parallel`/`shares-vocab` + `NOT-equivalent` combo).
+The only real defect class: **7 orphan nodes (in-degree 0)** — unreachable on forward
+traversal.
+
+**Orphans fixed (7):** one inbound forward edge each, reciprocating a relationship the
+orphan's own file already asserts, sourced from a hub node:
+`aristotle-logic→aristotle-categories` (shares-vocab), `aristotle-substance→aristotle-ethics`
+(shares-vocab), `citta→citta-vritti` (NOT-equiv), `anekantavada→dvisatya` (parallel +
+NOT-equiv), `plato-forms→plato-soul` (shares-vocab), `brahman→plotinus-one` (parallel +
+NOT-equiv), `alaya-vijnana→tathagata-garbha` (shares-vocab). Post-fix audit: **0 orphans,
+0 sinks, 0 stubs, 0 duplicates, 0 pairing violations.** Proven clean.
+
+**Policy decision (recorded in link-candidates.md):** the audit also found ~210 symmetric
+edges that exist in only one direction. Under CLAUDE.md §5 ("only forward links are
+stored; backlinks are computed with grep") these are **by design, not a backlog** — they
+were deliberately NOT mass-reciprocated. The next linker pass should fix only real
+connectivity/pairing/direction defects and integrate new concepts, never blanket-add
+reciprocals.
+
+**Stale artifact flagged:** `graph/graph.dot` is from ~batch 12 (97 nodes / 485 edges) and
+does not reflect the current 116 nodes / 621 edges. It cannot be faithfully regenerated
+without Python (hand-writing it would violate §6's "deterministic output, never
+hand-drawn"). Left as-is with this flag; regenerate via `python graph/build_graph.py`.
+
+`.linker-state` updated to baseline 311c29f.
