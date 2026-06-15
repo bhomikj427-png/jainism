@@ -7,6 +7,7 @@
 | 02 Jain Epistemology | [02-jain-epistemology.md](02-jain-epistemology.md) | naya · anekāntavāda · syādvāda · saptabhaṅgī · dravyārthika-naya · paryāyārthika-naya | drafted |
 | 03 Jain Soteriology | [03-jain-soteriology.md](03-jain-soteriology.md) | tattva-jain · jīva · karma · kaṣāya · āsrava · bandha · saṃvara · nirjarā · mokṣa · guṇasthāna · loka-jain | drafted |
 | 04 Cross-Tradition | [04-cross-tradition.md](04-cross-tradition.md) | brahman · ātman-vedānta · karma-vedic · mokṣa-advaita · pratītyasamutpāda · nirvāṇa-buddhist · ahiṃsā · ahiṃsā-buddhist | drafted |
+| 05 Cross-Tradition Epistemology | [05-cross-tradition-epistemology.md](05-cross-tradition-epistemology.md) | pramāṇa · pramāṇa-nyāya · dignāga-pramāṇa · mīmāṃsā-pramāṇa · anumāna-nyāya · vyāpti · hetvābhāsa · tarka · jāti · apoha · śabda-pramāṇa · arthāpatti · hetu-vidyā · dharmottara | drafted |
 
 ---
 
@@ -45,3 +46,17 @@
 | nirvāṇa-buddhist | Ch 04 | Ch 03 (§10 liberation table) |
 | ahiṃsā | Ch 04 | — |
 | ahiṃsā-buddhist | Ch 04 | — |
+| pramāṇa | Ch 05 | Ch 02 (naya/pramāṇa pair, §2.2) |
+| pramāṇa-nyāya | Ch 05 | — |
+| dignāga-pramāṇa | Ch 05 | — |
+| mīmāṃsā-pramāṇa | Ch 05 | — |
+| anumāna-nyāya | Ch 05 | — |
+| vyāpti | Ch 05 | — |
+| hetvābhāsa | Ch 05 | — |
+| tarka | Ch 05 | — |
+| jāti | Ch 05 | — |
+| apoha | Ch 05 | — |
+| śabda-pramāṇa | Ch 05 | — |
+| arthāpatti | Ch 05 | — |
+| hetu-vidyā | Ch 05 | — |
+| dharmottara | Ch 05 | — |
