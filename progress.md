@@ -1065,3 +1065,15 @@ Jain soteriology depth:
 Indian philosophy remaining:
 - `vaiseshika-sutra` — the Vaiśeṣika Sūtra (Kaṇāda) as primary text; fills the primary-text gap in dravya-vaisheshika
 - `carvaka` — materialist/sceptical school; completes the six-darśana map; denied vyāpti and karma
+
+---
+
+## Chapter accuracy check-up (2026-06-15)
+
+Read all six chapters (01–06) + INDEX end-to-end and re-verified the highest-risk factual claims against live sources (Wikipedia, WisdomLib, JainSquare). Verified accurate (no change needed): TS 5.30 *sat* definition; saptabhaṅgī first systematised by Mallavadin 5th–6th c. (matches Wikipedia exactly); the six skandha types (Niyamasāra); the four mahāvākyas and their Upaniṣad loci; the Nyāya five-fallacy list (NS 1.2.4: savyabhicāra/viruddha/prakaraṇasama/sādhyasama/kālātīta=bādhita); Dignāga/Dharmakīrti/Dharmottara dates; Łukasiewicz 1920 / Zadeh 1965 / Priest LP. All 50 chapter→concept links resolve; no open `??` stuck-markers.
+
+**Corrections made:**
+1. **Ch 01 §6.1 (paramāṇu bonding rule)** — was: "bind iff degrees differ by ≥2," with a 3+3 example wrongly explained as "same polarity." Now cites **TS 5.33–5.37** and adds the two missing conditions: the lowest-degree (one-point, *jaghanya*) atom never bonds (TS 5.34), and equal-degree-same-quality atoms don't bond (TS 5.35). The old "iff ≥2" rule was actually wrong — a 1-and-3 pair differs by 2 yet does not bond.
+2. **Ch 04 §2.4 + `moksha-advaita.md`** — *Vivekacūḍāmaṇi* was attributed flatly to Śaṅkara; added the modern-scholarship caveat (Comans: attribution "most probably erroneous"). Doctrine stands; authorship flagged as disputed.
+
+**Known limitation (not fixable here):** Python + Graphviz are not installed on this machine, so `graph/graph.svg`/`graph.html` cannot be regenerated; `graph/graph.dot` is current. Run `dot -Tsvg graph/graph.dot -o graph/graph.svg` where Graphviz is available.
