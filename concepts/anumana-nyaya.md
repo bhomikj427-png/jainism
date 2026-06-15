@@ -66,4 +66,3 @@ Valid inferential marks satisfy three conditions (the *trairūpya*, though Nyāy
 - shares-vocabulary-with: vyapti | vyāpti is the logical ground of anumāna; anumāna without verified vyāpti is fallacious — the two concepts form an inseparable pair in Nyāya
 - structurally-parallel-to: aristotle-logic | both are formalized theories of deductive/inferential argument; Nyāya five-member vs. Aristotle three-term; Nyāya is empirically grounded (udāharaṇa step), Aristotle is formal-axiomatic; different purposes (vāda vs. proof)
 - often-conflated-with-NOT-equivalent: hetu-vidya | Dignāga's hetu-vidyā and Nyāya anumāna both formalize inference, but Dignāga rejects universals and grounds vyāpti in causal necessity (apoha); Nyāya grounds vyāpti in real universals — incompatible metaphysical foundations
-- shares-vocabulary-with: vyapti | every anumāna presupposes a verified vyāpti; the two are logically linked — anumāna is the formal deployment, vyāpti is the license
