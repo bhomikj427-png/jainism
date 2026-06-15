@@ -64,7 +64,6 @@ Avadhi apprehends only pudgala (physical matter). Non-material dravyas — jīva
 
 - is-a-type-of: pramana | third of five samyag-jñāna types
 - is-a-type-of: upayoga | avadhi is a form of sākāra-upayoga (determinate consciousness-activity)
-- part-of: kevala-jnana | avadhi is below kevala in the five-knowledge hierarchy; kevala alone is unlimited
 - shares-vocabulary-with: manah-paryaya-jnana | both are pratyakṣa and extra-sensory; avadhi reads matter, manah-paryaya reads minds
 - aggregates-into: paroksha-jnana | contrast: mati and shruta are parokṣa; avadhi marks the threshold where knowledge becomes direct
 - structurally-parallel-to: dignaga-pramana | both traditions distinguish sensory/direct vs. inferential; but Dignāga's pratyakṣa is non-conceptual perception, not extra-sensory clairvoyance

@@ -53,8 +53,7 @@ Chapters 5 and 6 introduce and discuss ālaya-vijñāna. The original Sanskrit h
 
 ## Links
 
-- is-a-type-of: vijnaptimatrata | ālaya-vijñāna is the foundational consciousness in the vijñaptimātratā eight-consciousness model — the store-ground underlying all experience
-- expressed-by: vijnaptimatrata | the vijñaptimātratā doctrine requires ālaya-vijñāna to explain continuity and karmic transmission without a self
+- part-of: vijnaptimatrata | ālaya-vijñāna is the eighth and foundational consciousness within the vijñaptimātratā eight-consciousness model — the store-ground the doctrine requires to explain continuity and karmic transmission without a self
 - structurally-parallel-to: jiva | both serve as the substrate of karmic continuity across lives; jīva is permanent pluralist; ālaya-vijñāna is impermanent processual — structurally analogous problem, opposite ontological solutions
 - often-conflated-with-NOT-equivalent: atman-vedanta | ālaya-vijñāna is impermanent and causally conditioned; Advaita ātman is eternal and non-causal — the surface "substrate-of-experience" parallel conceals opposite metaphysics
 - shares-vocabulary-with: karma | both ālaya-vijñāna and Jain karma theory address cross-life causal continuity; but Jain karma is explicit fine matter; ālaya-vijñāna is a consciousness stream with no material substrate

@@ -9,7 +9,7 @@ confidence: high
 
 ## Gloss / Divergence map
 
-The modern atom is the **smallest unit of a chemical element** — but crucially, it is **not** the smallest unit of matter and it is **not** indivisible. Despite the name (Greek *atomos* = indivisible), the modern atom has known substructure and was discovered empirically.
+The modern atom is the **smallest unit of a chemical element** — but crucially, it is **not** the smallest unit of matter and it is **not** indivisible. Despite the name (Greek *atomos* = indivisible), the modern atom has known substructure and was discovered empirically. Dalton (1803) explicitly revived Democritus's term *atomos* for his chemical atom, but the borrowing is nominal only — the modern atom is empirical and divisible where the Greek *atomos* was an a priori, indivisible posit.
 
 **Structure:**
 - **Nucleus:** protons (charge +1, made of 2 up quarks + 1 down quark) + neutrons (neutral, made of 1 up quark + 2 down quarks)
@@ -36,6 +36,10 @@ The modern atom is the **smallest unit of a chemical element** — but crucially
 
 Equating them misreads the Jain tradition (which would need to be revised in the light of quarks — but that's not what the tradition claims to be about) and misreads modern physics (which makes no metaphysical claims about infinite-regress arguments).
 
+## Reasoning across signals
+
+This is a Modern Physics **comparandum**, not an ancient term, so the trust method (§4) applies asymmetrically. The physics facts — subatomic structure, empirical discovery, divisibility — are settled textbook science, which is why confidence is **high**: the only thing asserted on the physics side is standard chemistry/physics. **Signal 1** (Wikipedia "Atom") and **Signal 2** (Wikipedia "Subatomic particle") converge on the proton/neutron/electron/quark structure and the Dalton→Rutherford→Bohr→quantum-mechanics discovery sequence. All the interpretive work is in the *comparison*: this file exists to block the paramāṇu/atom conflation, not to establish novel physics. The high confidence attaches to the physics, **not** to any claim that the comparison is the "correct" reading of the ancient atomists.
+
 ## Sources
 
 1. Wikipedia, "Atom," accessed June 2026. https://en.wikipedia.org/wiki/Atom — subatomic structure; protons/neutrons/electrons; empirical discovery history.
@@ -46,5 +50,4 @@ Equating them misreads the Jain tradition (which would need to be revised in the
 
 - often-conflated-with-NOT-equivalent: paramanu | Jain paramāṇu is partless and argued a priori; modern atom has parts and is empirical — different ontological category, different epistemic basis
 - often-conflated-with-NOT-equivalent: paramanu-vaisheshika | same structural argument: Vaiśeṣika paramāṇu is also partless and a priori; modern atom is neither
-- historically-influenced-by: democritus-atom | Dalton (1803) explicitly revived Democritus's name "atomos" for his chemical theory; the naming is historically inherited, not conceptually continuous — modern atoms are empirical and divisible, Greek atoms were a priori and indivisible
 - often-conflated-with-NOT-equivalent: democritus-atom | shared name conceals a deep methodological break: Greek atomos = indivisible philosophical posit; modern atom = empirically discovered, structurally rich (electrons, protons, quarks)

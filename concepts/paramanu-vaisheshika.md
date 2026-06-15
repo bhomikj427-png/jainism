@@ -65,6 +65,5 @@ Two atoms of the same type combine into a *dvyaṇuka* (dyad), which is still im
 ## Links
 
 - structurally-parallel-to: paramanu | both Vaiśeṣika and Jain posit partless atoms via infinite-regress argument; contrast: Vaiśeṣika = four kinds (tiered qualities, God combines), Jain = one kind (all four qualities, no God, snigdha/rūkṣa affinity)
-- is-a-type-of: dravya-vaisheshika | Vaiśeṣika paramāṇu is one of the nine dravya categories in Vaiśeṣika ontology
-- aggregates-into: dravya-vaisheshika | the four physical element-dravyas (earth/water/fire/air) are built from paramāṇus via dvyaṇuka (dyad) → tryaṇuka (triad) aggregation
+- is-a-type-of: dravya-vaisheshika | Vaiśeṣika paramāṇu is one of the nine dravya categories in Vaiśeṣika ontology (the atom→dvyaṇuka→tryaṇuka aggregation into gross element-dravyas is detailed in the prose above)
 - structurally-parallel-to: democritus-atom | both Vaiśeṣika paramāṇu and Greek atomos are partless, eternal, a priori posited atoms; difference: Vaiśeṣika atoms are four kinds with tiered qualities and combined by God; Greek atoms are qualitatively neutral (shape-only) and combine mechanically
