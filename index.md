@@ -1,7 +1,8 @@
 # Index — Source-Grounded Comparative Philosophy & Physics Repository
 
-Grouped by tradition-family. Lists only concepts actually written or actively linked (with status).
-Family headers may exist without entries; do NOT fill with unread stubs.
+Grouped by tradition-family. Lists every written concept with its status/confidence.
+Regenerated from concept front-matter; family headers may exist without entries.
+Counts: 116 concept files total.
 
 ---
 
@@ -13,11 +14,18 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 
 *(none yet)*
 
-## Dharma / Śāstra
+## Dharma / Śāstra & Cross-tradition
 
 | concept | status | confidence |
 |---|---|---|
-| ahimsa | converged | medium |
+| ahimsa-vedic | converged | medium |
+| dana | converged | medium |
+| hetvabhasa | converged | medium |
+| manas | converged | medium |
+| sabda-pramana | converged | medium |
+| samsara | converged | medium |
+| tapas | converged | medium |
+| vyapti | converged | medium |
 
 ## Six Darśanas
 
@@ -25,94 +33,148 @@ Family headers may exist without entries; do NOT fill with unread stubs.
 
 | concept | status | confidence |
 |---|---|---|
-| paramanu-vaisheshika | converged | medium |
+| anumana-nyaya | converged | medium |
 | dravya-vaisheshika | converged | medium |
+| jati | converged | medium |
+| paramanu-vaisheshika | converged | medium |
+| pramana-nyaya | converged | medium |
+| tarka | converged | medium |
 
-### Sāṃkhya
+### Sāṃkhya–Yoga
 
 | concept | status | confidence |
 |---|---|---|
+| citta-vritti | converged | medium |
+| guna-samkhya | converged | medium |
 | prakriti-samkhya | converged | medium |
 | purusha-samkhya | converged | medium |
-| guna-samkhya | converged | medium |
 
-### Vedānta (Advaita)
+### Mīmāṃsā
+
+| concept | status | confidence |
+|---|---|---|
+| arthapatti | converged | medium |
+
+### Vedānta
 
 | concept | status | confidence |
 |---|---|---|
 | atman-vedanta | converged | medium |
+| avatara-vedanta | converged | medium |
 | brahman | converged | medium |
-| maya-advaita | contested | medium |
 | karma-vedic | converged | medium |
+| maya-advaita | contested | medium |
+| mimamsa-pramana | converged | medium |
+| moksha-advaita | converged | medium |
+| omniscience-vedanta | converged | medium |
 
 ## Jain Āgamas & Darśana
 
-**Anchor text:** Tattvārtha Sūtra (Umāsvāti / Umāsvāmī)
-— Edition in use: Vijay K. Jain (tr.), Motilal Banarsidass, 2018 (ISBN 9788193272626; multiple chapters fetched directly) and Nathmal Tatia (tr.), HarperCollins, 1994 (ISBN 0060689854; confirmed, chapter text not directly fetched)
+**Anchor text:** Tattvārtha Sūtra (Umāsvāti / Umāsvāmī) — Vijay K. Jain (tr.), Motilal Banarsidass, 2018; Nathmal Tatia (tr.), HarperCollins, 1994.
 
-| concept | status | confidence | TS verse(s) fetched |
-|---|---|---|---|
-| sat | converged | medium | TS 5.30 ✓ |
-| tattva-jain | converged | medium (near-high) | TS 1.4 ✓ |
-| pramana | converged | medium | TS 1.6 ✓ |
-| naya | converged | medium | TS 1.33 ✓ |
-| jiva | converged | medium | TS 2.8/2.9/2.10 |
-| ajiva | converged | medium | TS 5.1 ✓ |
-| dravya | converged | medium | TS 5.30/5.38/5.39 ✓ |
-| paramanu | converged | medium | TS 5.11 |
-| pudgala | converged | medium | TS 5.5 ✓ |
-| skandha | converged | medium | TS 5.14 |
-| asrava | converged | medium | TS 6.2 ✓ |
-| karma | converged | medium | TS 8.1/8.3 (via Wikipedia) |
-| bandha | converged | medium | TS 8.1 ✓ |
-| nirjara | converged | medium | TS 8.23 ✓ |
-| samvara | converged | medium | TS 9.1 ✓ (upgraded) |
-| moksha | converged | medium | TS 10.2 (via Wikipedia) |
-| anekantavada | contested | medium | — |
-| syadvada | converged | medium | — |
-| saptabhangi | converged | medium | — |
-| kevala-jnana | converged | medium | — |
-| loka-jain | converged | medium | — |
-| ahimsa | converged | medium | — |
-| aparigraha | converged | medium | TS 7.8 ✓ |
-| gunasthana | converged | medium | — |
-| paryaya | converged | medium | TS 5.38 ✓ |
-| tirthankara | converged | medium | — |
+| concept | status | confidence |
+|---|---|---|
+| acarya | converged | medium |
+| adharma-dravya | converged | medium |
+| ahimsa | converged | medium |
+| ajiva | converged | medium |
+| akasha-dravya | converged | medium |
+| anekantavada | contested | medium |
+| aparigraha | converged | medium |
+| arihant | converged | medium |
+| asrava | converged | medium |
+| asteya | converged | medium |
+| avadhi-jnana | converged | medium |
+| bandha | converged | medium |
+| brahmacarya | converged | medium |
+| charitra | converged | medium |
+| dharma-dravya | converged | medium |
+| dhyana-jain | converged | medium |
+| dravya | converged | medium |
+| dravyarthika-naya | converged | medium |
+| gunasthana | converged | medium |
+| jina | converged | medium |
+| jiva | converged | medium |
+| kala-dravya | converged | medium |
+| karma | converged | medium |
+| karma-vargana | converged | low |
+| kashaya | converged | medium |
+| kevala-jnana | converged | medium |
+| leshya | converged | medium |
+| loka-jain | converged | medium |
+| manah-paryaya-jnana | converged | medium |
+| mati-jnana | converged | medium |
+| moksha | converged | medium |
+| naigama-naya | converged | medium |
+| naya | converged | medium |
+| nirjara | converged | medium |
+| paramanu | converged | medium |
+| paroksha-jnana | converged | medium |
+| paryaya | converged | medium |
+| paryayarthika-naya | converged | medium |
+| pramana | converged | medium |
+| pudgala | converged | medium |
+| samvara | converged | medium |
+| sangraha-naya | converged | medium |
+| saptabhangi | converged | medium |
+| sat | converged | medium |
+| satya | converged | medium |
+| shruta-jnana | converged | medium |
+| siddha | converged | medium |
+| skandha | converged | medium |
+| syadvada | converged | medium |
+| tattva-jain | converged | medium |
+| tirthankara | converged | medium |
+| upayoga | converged | medium |
+| vyavahara-naya | converged | medium |
 
 ## Buddhist Canon
 
 | concept | status | confidence |
 |---|---|---|
-| skandha-buddhist | converged | medium |
+| abhidharma | converged | medium |
+| ahimsa-buddhist | converged | medium |
+| alaya-vijnana | converged | medium |
 | anatta-buddhist | contested | medium |
+| anicca | converged | medium |
+| apoha | converged | medium |
+| catuskoti | converged | medium |
+| citta | converged | medium |
+| dharmottara | converged | medium |
+| dignaga-pramana | converged | medium |
+| dukkha | converged | medium |
+| dvisatya | converged | medium |
+| hetu-vidya | converged | medium |
+| madhyamaka | converged | medium |
+| namarupa | converged | medium |
 | nirvana-buddhist | converged | medium |
 | pratityasamutpada | converged | medium |
-| catuskoti | converged | medium |
-| namarupa | converged | medium |
-| abhidharma | converged | medium |
+| skandha-buddhist | converged | medium |
+| sunyata | converged | medium |
+| tathagata-garbha | converged | medium |
+| trisvabhava | converged | medium |
+| vijnaptimatrata | contested | medium |
 
-## Greek / Western Philosophy
+## Greek / Western Philosophy & Logic
 
 | concept | status | confidence |
 |---|---|---|
+| aristotle-categories | converged | medium |
+| aristotle-ethics | converged | medium |
+| aristotle-logic | converged | medium |
+| aristotle-substance | converged | medium |
 | democritus-atom | converged | medium |
-| many-valued-logic | converged | medium |
+| fuzzy-logic | converged | medium |
+| paraconsistent-logic | converged | medium |
+| plato-forms | converged | medium |
+| plato-soul | converged | medium |
+| plotinus-one | converged | medium |
+| stoic-logos | converged | medium |
 
-## Modern Physics Comparanda
+## Modern Physics & Logic Comparanda
 
 | concept | status | confidence |
 |---|---|---|
+| many-valued-logic | converged | medium |
 | modern-atom | converged | high |
-
-## Unwritten Forward-Link Targets
-
-*(Referenced by written concepts; no files yet)*
-
-| concept | status | forward-link from |
-|---|---|---|
-| quantum-complementarity | unwritten | anekantavada |
-| sunyata | converged | brahman, maya-advaita |
-| moksha-advaita | unwritten | atman-vedanta, moksha |
-| omniscience-vedanta | unwritten | kevala-jnana |
-| pramana-nyaya | unwritten | pramana |
-| ahimsa-buddhist | unwritten | ahimsa |
+| quantum-complementarity | converged | medium |
