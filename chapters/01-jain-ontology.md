@@ -229,15 +229,19 @@ No paramāṇu is quality-free. The qualities are not added later — they are c
 
 ### 6.1 The bonding rule {#skandha-bonding}
 
-Paramāṇus do not combine arbitrarily. Each paramāṇu has an intensity of its snigdha/rūkṣa quality measured in degrees. The binding rule (from the commentarial tradition via Wikipedia citing Jain sources; the specific TS verse is not confirmed in this run):
+Paramāṇus do not combine arbitrarily. Each paramāṇu has an intensity — a number of "degrees" (*guṇa*) — of its snigdha (oily/cohesive) or rūkṣa (dry) quality. The binding rule is given in **TS 5.33–5.37** (Digambara numbering; confirmed via the JainSquare Chapter 5 translation and Wikipedia citing the Pravacanasāra/Niyamasāra; Pūjyapāda's *Sarvārthasiddhi* supplies the two-degree reading of 5.36):
 
-**Two paramāṇus bind into a skandha if and only if their intensity values differ by at least two degrees.**
+- Bonding occurs through the snigdha and rūkṣa qualities (TS 5.33).
+- An atom at the **lowest degree (one point)** of these qualities **never bonds at all** (TS 5.34, *na jaghanyaguṇānām*).
+- Two atoms of **equal degree of the same quality** do not bond (TS 5.35).
+- Otherwise atoms bond when their degrees **differ by two or more** (TS 5.36); in bonding, the higher degree transforms the lower (TS 5.37).
 
 Examples:
 - A 2-degree-snigdha paramāṇu + a 4-degree-rūkṣa paramāṇu → they bond (difference = 2)
-- A 3-degree-snigdha + a 3-degree-snigdha → they do not bond (same polarity, difference = 0)
+- A 3-degree-snigdha + a 3-degree-snigdha → they do **not** bond (equal degree of the same quality — TS 5.35)
+- A 1-degree atom → bonds with nothing, whatever its partner's degree (lowest-degree exception — TS 5.34)
 
-This gives matter its structural rules. It is not magic or divine will; it is a determinate physical law built into the qualities paramāṇus already have.
+Note the lowest-degree exception is why "differ by two or more" is necessary but not sufficient: a 1-degree and a 3-degree atom differ by two yet still do not bond. This gives matter its structural rules. It is not magic or divine will; it is a determinate physical law built into the qualities paramāṇus already have.
 
 Two processes operate:
 - **Saṃghāta** (fusion): paramāṇus or smaller aggregates combine into a larger skandha
