@@ -118,7 +118,7 @@ Karma in Hindu/Vedic tradition evolved across three periods:
 
 Advaita's liberation is conceptually unlike anything in Jainism or Buddhism. It is not an event that happens in time; it is the direct recognition of what was always the case.
 
-*Vivekacūḍāmaṇi* (Śaṅkara, ~8th c., cited via Wikipedia): "By reflection, reasoning and instructions of teachers, the truth is known — not by ablutions, not by donations, nor by breath control exercises." Jñāna is the sole proximate cause.
+*Vivekacūḍāmaṇi* (traditionally ascribed to Śaṅkara, ~8th c., cited via Wikipedia — but modern scholarship, e.g. Michael Comans, judges the attribution "most probably erroneous" on stylistic grounds; treat it as a representative Advaita text, not securely Śaṅkara's own): "By reflection, reasoning and instructions of teachers, the truth is known — not by ablutions, not by donations, nor by breath control exercises." Jñāna is the sole proximate cause.
 
 **Two forms:**
 

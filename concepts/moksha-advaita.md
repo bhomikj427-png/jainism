@@ -13,7 +13,7 @@ In Advaita Vedānta, *mokṣa* (liberation) is the direct recognition that the i
 
 ## Reasoning across signals
 
-**Signal 1 — Vivekacūḍāmaṇi (Śaṅkara, ~8th c. CE; cited via Wikipedia):** "By reflection, reasoning and instructions of teachers, the truth is known — not by ablutions, not by donations, nor by breath control exercises." Confirms that jñāna (knowledge/discrimination) is the *sole* proximate cause of liberation in Advaita; ritual and austerity only prepare the mind.
+**Signal 1 — Vivekacūḍāmaṇi (traditionally ascribed to Śaṅkara, ~8th c. CE; cited via Wikipedia):** "By reflection, reasoning and instructions of teachers, the truth is known — not by ablutions, not by donations, nor by breath control exercises." Confirms that jñāna (knowledge/discrimination) is the *sole* proximate cause of liberation in Advaita; ritual and austerity only prepare the mind. (Attribution caveat: modern scholarship — e.g. Michael Comans — judges Śaṅkara's authorship of this text "most probably erroneous" on stylistic grounds. The verse still represents standard Advaita doctrine, so the *claim* stands even if the author does not.)
 
 **Signal 2 — Wikipedia "Moksha" (broad coverage, cites scholarly sources):** Confirms jivanmukti/videhamukti distinction, the role of avidyā removal, and the intra-Vedanta disagreement (Advaita dissolves individuality; Viśiṣṭādvaita retains it; Dvaita keeps soul-God distinction). Source covers academic positions (Eliade, Deutsch cited elsewhere in the article).
 
