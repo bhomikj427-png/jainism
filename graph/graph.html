@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>Ancient Texts — Graph</title>
-<script src="https://unpkg.com/force-graph"></script>
-<script src="https://cdn.jsdelivr.net/npm/d3-force@3/dist/d3-force.min.js"></script>
+<script src="./vendor/force-graph.min.js"></script>
 <style>
   html,body{margin:0;height:100%;background:#1a1a1a;font-family:Helvetica,Arial,sans-serif;}
   #graph{width:100vw;height:100vh;}
@@ -20,12 +19,25 @@ const DATA = {"nodes": [{"id": "abhidharma", "name": "abhidharma", "val": 9, "co
 const PRESENT = ["Jain", "Buddhist", "Nyaya-Vaisheshika", "Vedanta", "Samkhya-Yoga", "Mimamsa", "Carvaka", "Greek", "Modern/Western", "cross-tradition"];
 const NREL = 5;
 
+if (typeof ForceGraph === 'undefined') {
+  document.body.innerHTML = '<div style="color:#ccc;padding:24px;font-family:sans-serif">'
+    + 'Could not load the force-graph library (graph/vendor/force-graph.min.js). '
+    + 'Re-run <code>python graph/build_graph.py</code> from a machine with internet to re-vendor it.</div>';
+  throw new Error('force-graph not loaded');
+}
+
 // Per-tradition foci arranged on a ring -> each tradition forms its own neat cluster
 const RING = 230 + 52 * PRESENT.length;
 const FOCUS = {};
 PRESENT.forEach((f, i) => {
   const a = (2 * Math.PI * i) / PRESENT.length - Math.PI / 2;
   FOCUS[f] = { x: RING * Math.cos(a), y: RING * Math.sin(a) };
+});
+// seed each node near its focus so clusters converge quickly and neatly
+DATA.nodes.forEach(n => {
+  const c = FOCUS[n.fam] || { x: 0, y: 0 };
+  n.x = c.x + (Math.random() - 0.5) * 80;
+  n.y = c.y + (Math.random() - 0.5) * 80;
 });
 
 const neighbors = new Map();
@@ -67,19 +79,25 @@ const Graph = ForceGraph()(el)
   .onNodeHover(n => { hover = n || null; el.style.cursor = n ? 'pointer' : null; })
   .onNodeDragEnd(n => { n.fx = n.x; n.fy = n.y; });
 
-// Clustered force layout (needs global d3 from d3-force). Falls back to plain
-// force-directed if the d3 CDN is unavailable.
-if (window.d3 && d3.forceX) {
-  Graph.d3Force('charge', d3.forceManyBody().strength(-55));
-  Graph.d3Force('x', d3.forceX(n => FOCUS[n.fam].x).strength(0.32));
-  Graph.d3Force('y', d3.forceY(n => FOCUS[n.fam].y).strength(0.32));
-  Graph.d3Force('collide', d3.forceCollide(n => radius(n) + 9).strength(1).iterations(2));
-  Graph.d3Force('link').distance(22).strength(0.06);
-} else {
-  Graph.d3Force('charge').strength(-130);
-  Graph.d3Force('link').distance(38).strength(0.9);
+// Clustering via a plain-JS custom force (pulls each node toward its tradition's
+// focus). No external d3 needed -> the page is fully self-contained / offline-safe.
+// force-graph's own bundled charge + link forces handle spacing and structure.
+function clusterForce(strength) {
+  let ns;
+  function f(alpha) {
+    for (const n of ns) {
+      const c = FOCUS[n.fam]; if (!c) continue;
+      n.vx += (c.x - n.x) * strength * alpha;
+      n.vy += (c.y - n.y) * strength * alpha;
+    }
+  }
+  f.initialize = a => { ns = a; };
+  return f;
 }
-Graph.d3VelocityDecay(0.32);
+Graph.d3Force('cluster', clusterForce(0.55));
+Graph.d3Force('charge').strength(-75);
+Graph.d3Force('link').distance(20).strength(0.05);
+Graph.d3VelocityDecay(0.30);
 
 let fitted = false;
 Graph.onEngineStop(() => { if (!fitted) { fitted = true; Graph.zoomToFit(500, 70); } });

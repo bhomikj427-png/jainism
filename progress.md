@@ -1226,4 +1226,12 @@ clustered-force layout (forceX/forceY toward each family's focus + forceManyBody
 so same-tradition dots gather into their own neat circular cluster while edges still cross between
 them — Obsidian look, now spatially grouped. Labels are always-on with a dark halo (strokeText)
 for readability. SVG mirrors this via **fdp + invisible per-tradition clusters** (grouped regions,
-no visible boxes); graph.dot uses `layout=fdp`. d3-force loaded from CDN with a plain-force fallback.
+no visible boxes); graph.dot uses `layout=fdp`.
+
+**Blank-screen fix (self-contained HTML):** the CDN `d3-force@3/dist/d3-force.min.js` is NOT a
+self-contained bundle — it `require`s d3-quadtree/d3-dispatch/d3-timer, so `forceManyBody`/
+`forceCollide` threw in-browser → blank page. Fixed by (a) **vendoring force-graph locally** at
+`graph/vendor/force-graph.min.js` (referenced relatively, no CDN), and (b) replacing the d3 foci
+forces with a **plain-JS custom cluster force** that uses only force-graph's bundled charge/link
+forces. The HTML is now fully offline-safe; an on-page error message shows if the vendored lib is
+ever missing. `graph/vendor/` is committed so the repo renders anywhere.
