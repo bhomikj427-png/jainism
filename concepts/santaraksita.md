@@ -30,7 +30,6 @@ confidence: medium
 
 - is-a-type-of: madhyamaka | Yogācāra-Svātantrika-Madhyamaka is a sub-school of Madhyamaka — emptiness is the ultimate view; the Yogācāra/Svātantrika additions are method, not a rival final ontology
 - historically-influenced-by: hetu-vidya | incorporates the Dignāga–Dharmakīrti pramāṇa tradition as the logical engine for its independent (svatantra) inferences — the first major Madhyamaka commentator to do so
-- historically-influenced-by: vijnaptimatrata | adopts Yogācāra mind-only, but demotes it to conventional truth rather than treating it as the ultimate
 - expressed-by: sunyata | the ultimate truth Śāntarakṣita argues to is the emptiness of intrinsic nature in all phenomena, including consciousness
 - expressed-by: dvisatya | the whole synthesis is engineered on the two-truths distinction: Yogācāra conventionally, Madhyamaka ultimately
 - formalizes: apoha | defends Dignāga's exclusion theory against Kumārila by distinguishing three negation-types (one non-implicative, two implicative)
