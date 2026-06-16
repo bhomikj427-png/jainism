@@ -84,3 +84,4 @@ All signals converge. Confidence medium: TS 1.1 directly fetched; secondary work
 - often-conflated-with-NOT-equivalent: karma-vedic | Hindu dharma-based conduct has overlapping vocabulary (dharma, vrata) but is grounded in social duty (varṇāśrama), not the Jain soul-karma mechanism
 - expressed-by: acarya | the ācārya is the institutional exemplar of sakala-cāritra — the title designates those who have fully mastered all five mahāvratas and lead the monastic community
 - shares-vocabulary-with: pramana | TS 1.1 (samyag-darśana/jñāna/cāritra = mokṣa-mārga) and TS 1.6 (pramāṇa = perception + inference) are the foundational verse-pair; cāritra is the practical arm, pramāṇa is the epistemic arm of the same liberation-path
+- shares-vocabulary-with: samyak-darshana | samyak-darśana (right faith, first jewel) and cāritra (right conduct, third jewel) are co-members of the same ratnatraya — right faith makes conduct "samyak"
