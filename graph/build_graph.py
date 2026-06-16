@@ -187,9 +187,18 @@ def collect_nodes_and_edges():
     return nodes, edges, link_counts
 
 
+def _group_by_family(nodes):
+    """Deterministic {family: [(nid, node), ...]}."""
+    fam_nodes = defaultdict(list)
+    for nid in sorted(nodes):
+        fam_nodes[tradition_family(nodes[nid]["tradition"])].append((nid, nodes[nid]))
+    return fam_nodes
+
+
 def render_graphviz(nodes, edges, link_counts, out_path: Path):
-    """Static SVG: force-directed (sfdp), dark background, vivid dots, thin grey
-    links, no boxes — the static cousin of the Obsidian HTML view."""
+    """Static SVG: force-directed (fdp) with one *invisible* cluster per tradition,
+    so same-tradition dots pack into their own neat region (grouped, but no boxes).
+    Dark background, vivid dots, thin grey links — the static cousin of the HTML."""
     try:
         import graphviz  # type: ignore
     except ImportError:
@@ -201,27 +210,32 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
 
     g = graphviz.Digraph(
         name="ancient_texts",
-        engine="sfdp",
+        engine="fdp",
         graph_attr={
-            "overlap": "prism", "overlap_scaling": "4", "splines": "false",
-            "bgcolor": "#1a1a1a", "outputorder": "edgesfirst", "K": "0.7",
+            "overlap": "prism", "splines": "false", "bgcolor": "#1a1a1a",
+            "outputorder": "edgesfirst", "K": "0.65", "sep": "+8",
             "fontname": "Helvetica",
         },
         node_attr={"fontname": "Helvetica", "fontcolor": "#e6e6e6",
                    "color": "#1a1a1a", "penwidth": "0.5", "shape": "ellipse"},
-        edge_attr={"penwidth": "0.4", "arrowsize": "0.35", "color": "#cccccc26"},
+        edge_attr={"penwidth": "0.4", "arrowsize": "0.35", "color": "#cccccc22"},
     )
-    for nid, node in nodes.items():
-        colour = tradition_colour_dark(node["tradition"])
-        deg = link_counts.get(nid, 0)
-        size = max(0.18, min(1.5, 0.18 + 0.10 * deg))   # diameter in inches
-        fs = str(max(7, min(16, 7 + deg)))               # bigger label for hubs
-        shape = "ellipse" if node.get("written") else "box"
-        g.node(nid, label=node["term_iast"], style="filled", fillcolor=colour,
-               width=str(size), height=str(size), fixedsize="true" if size < 0.5 else "false",
-               fontsize=fs, shape=shape)
+    fam_nodes = _group_by_family(nodes)
+    for fam in [f for f in FAMILY_ORDER if f in fam_nodes]:
+        with g.subgraph(name=f"cluster_{fam}") as c:
+            c.attr(style="invis", label="", peripheries="0")  # group, but no visible box
+            for nid, node in fam_nodes[fam]:
+                colour = tradition_colour_dark(node["tradition"])
+                deg = link_counts.get(nid, 0)
+                size = max(0.18, min(1.5, 0.18 + 0.10 * deg))
+                fs = str(max(7, min(16, 7 + deg)))
+                shape = "ellipse" if node.get("written") else "box"
+                c.node(nid, label=node["term_iast"], style="filled", fillcolor=colour,
+                       width=str(size), height=str(size),
+                       fixedsize="true" if size < 0.5 else "false",
+                       fontsize=fs, shape=shape)
     for e in edges:
-        g.edge(e["source"], e["target"], color="#cccccc26")
+        g.edge(e["source"], e["target"], color="#cccccc22")
     try:
         g.render(str(out_path.with_suffix("")), format="svg", cleanup=True)
         print(f"Wrote {out_path}")
@@ -232,15 +246,20 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
 
 
 def _write_dot(nodes, edges, link_counts, dot_path: Path):
-    """Deterministic flat .dot intermediate (fallback / inspection)."""
-    lines = ["digraph ancient_texts {", "  layout=sfdp;", '  overlap="prism";',
-             '  bgcolor="#1a1a1a";', '  node [fontname=Helvetica fontcolor="#e6e6e6" style=filled];']
-    for nid, node in nodes.items():
-        colour = tradition_colour_dark(node["tradition"])
-        shape = "ellipse" if node.get("written") else "box"
-        lines.append(f'  "{nid}" [label="{node["term_iast"]}" fillcolor="{colour}" shape={shape}];')
+    """Deterministic .dot intermediate: fdp + invisible per-tradition clusters."""
+    lines = ["digraph ancient_texts {", "  layout=fdp;", '  overlap="prism";',
+             '  bgcolor="#1a1a1a";', '  sep="+8";',
+             '  node [fontname=Helvetica fontcolor="#e6e6e6" style=filled];']
+    fam_nodes = _group_by_family(nodes)
+    for fam in [f for f in FAMILY_ORDER if f in fam_nodes]:
+        lines.append(f'  subgraph "cluster_{fam}" {{ style=invis; peripheries=0;')
+        for nid, node in fam_nodes[fam]:
+            colour = tradition_colour_dark(node["tradition"])
+            shape = "ellipse" if node.get("written") else "box"
+            lines.append(f'    "{nid}" [label="{node["term_iast"]}" fillcolor="{colour}" shape={shape}];')
+        lines.append("  }")
     for e in edges:
-        lines.append(f'  "{e["source"]}" -> "{e["target"]}" [color="#cccccc26"];')
+        lines.append(f'  "{e["source"]}" -> "{e["target"]}" [color="#cccccc22"];')
     lines.append("}")
     dot_path.write_text("\n".join(lines), encoding="utf-8")
 
@@ -271,9 +290,9 @@ def render_force_graph(nodes, edges, out_path: Path):
         ],
         "links": [{"source": e["source"], "target": e["target"]} for e in edges],
     }
-    data_json = json.dumps(data)
-
     present = [f for f in FAMILY_ORDER if any(n["fam"] == f for n in data["nodes"])]
+    data_json = json.dumps(data)
+    present_json = json.dumps(present)
     legend = "".join(
         f'<div><span class="sw" style="background:{FAMILY_COLOURS_DARK.get(f, DEFAULT_COLOUR_DARK)}"></span>{f}</div>'
         for f in present)
@@ -281,22 +300,33 @@ def render_force_graph(nodes, edges, out_path: Path):
     html = f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>Ancient Texts — Graph</title>
 <script src="https://unpkg.com/force-graph"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-force@3/dist/d3-force.min.js"></script>
 <style>
   html,body{{margin:0;height:100%;background:#1a1a1a;font-family:Helvetica,Arial,sans-serif;}}
   #graph{{width:100vw;height:100vh;}}
   #legend{{position:fixed;top:12px;left:12px;z-index:10;background:rgba(30,30,30,.82);
     border:1px solid #333;border-radius:8px;padding:9px 11px;color:#ccc;font-size:12px;}}
   #legend .t{{font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:#888;margin-bottom:5px;}}
-  #legend div{{display:flex;align-items:center;gap:7px;margin:3px 0;}}
+  #legend div{{display:flex;align-items:center;gap:7px;margin:3px 0;cursor:default;}}
   .sw{{width:11px;height:11px;border-radius:50%;display:inline-block;}}
   #hint{{position:fixed;bottom:10px;left:12px;z-index:10;color:#666;font-size:11px;}}
 </style></head><body>
 <div id="legend"><div class="t">Tradition</div>{legend}</div>
-<div id="hint">scroll = zoom · drag background = pan · drag node = move · hover = highlight links</div>
+<div id="hint">scroll = zoom · drag background = pan · drag node = move · hover = highlight · same-colour dots cluster by tradition</div>
 <div id="graph"></div>
 <script>
 const DATA = {data_json};
+const PRESENT = {present_json};
 const NREL = 5;
+
+// Per-tradition foci arranged on a ring -> each tradition forms its own neat cluster
+const RING = 230 + 52 * PRESENT.length;
+const FOCUS = {{}};
+PRESENT.forEach((f, i) => {{
+  const a = (2 * Math.PI * i) / PRESENT.length - Math.PI / 2;
+  FOCUS[f] = {{ x: RING * Math.cos(a), y: RING * Math.sin(a) }};
+}});
+
 const neighbors = new Map();
 DATA.nodes.forEach(n => neighbors.set(n.id, new Set()));
 DATA.links.forEach(l => {{ neighbors.get(l.source).add(l.target); neighbors.get(l.target).add(l.source); }});
@@ -310,10 +340,10 @@ const Graph = ForceGraph()(el)
   .graphData(DATA)
   .nodeRelSize(NREL)
   .nodeVal('val')
-  .nodeColor(n => (!hover || isNear(hover, n)) ? n.color : 'rgba(120,120,120,0.15)')
+  .nodeColor(n => (!hover || isNear(hover, n)) ? n.color : 'rgba(120,120,120,0.13)')
   .nodeLabel(() => '')
   .linkColor(l => (hover && (l.source.id === hover.id || l.target.id === hover.id))
-      ? 'rgba(255,255,255,0.55)' : 'rgba(200,200,200,0.10)')
+      ? 'rgba(255,255,255,0.55)' : 'rgba(200,200,200,0.09)')
   .linkWidth(l => (hover && (l.source.id === hover.id || l.target.id === hover.id)) ? 1.4 : 0.5)
   .nodeCanvasObjectMode(() => 'after')
   .nodeCanvasObject((n, ctx, scale) => {{
@@ -323,23 +353,35 @@ const Graph = ForceGraph()(el)
       ctx.beginPath(); ctx.arc(n.x, n.y, r + 2 / scale, 0, 2 * Math.PI);
       ctx.strokeStyle = '#ffffff'; ctx.lineWidth = 1.5 / scale; ctx.stroke();
     }}
-    if (scale > 1.4 || (hover && near)) {{
-      const fs = Math.max(3, 11 / scale);
-      ctx.font = fs + 'px Helvetica, Arial, sans-serif';
-      ctx.textAlign = 'center'; ctx.textBaseline = 'top';
-      ctx.fillStyle = near ? 'rgba(235,235,235,0.95)' : 'rgba(150,150,150,0.35)';
-      ctx.fillText(n.name, n.x, n.y + r + 1.5 / scale);
-    }}
+    // labels always on, with a dark halo so they stay readable over dots/links
+    const fs = Math.max(3.5, 10 / scale);
+    ctx.font = fs + 'px Helvetica, Arial, sans-serif';
+    ctx.textAlign = 'center'; ctx.textBaseline = 'top';
+    const ly = n.y + r + 1.5 / scale;
+    ctx.lineWidth = 2.6 / scale; ctx.strokeStyle = 'rgba(20,20,20,0.92)';
+    ctx.strokeText(n.name, n.x, ly);
+    ctx.fillStyle = near ? 'rgba(240,240,240,0.97)' : 'rgba(150,150,150,0.28)';
+    ctx.fillText(n.name, n.x, ly);
   }})
   .onNodeHover(n => {{ hover = n || null; el.style.cursor = n ? 'pointer' : null; }})
   .onNodeDragEnd(n => {{ n.fx = n.x; n.fy = n.y; }});
 
-Graph.d3Force('charge').strength(-130);
-Graph.d3Force('link').distance(38).strength(0.9);
-Graph.d3VelocityDecay(0.28);
+// Clustered force layout (needs global d3 from d3-force). Falls back to plain
+// force-directed if the d3 CDN is unavailable.
+if (window.d3 && d3.forceX) {{
+  Graph.d3Force('charge', d3.forceManyBody().strength(-55));
+  Graph.d3Force('x', d3.forceX(n => FOCUS[n.fam].x).strength(0.32));
+  Graph.d3Force('y', d3.forceY(n => FOCUS[n.fam].y).strength(0.32));
+  Graph.d3Force('collide', d3.forceCollide(n => radius(n) + 9).strength(1).iterations(2));
+  Graph.d3Force('link').distance(22).strength(0.06);
+}} else {{
+  Graph.d3Force('charge').strength(-130);
+  Graph.d3Force('link').distance(38).strength(0.9);
+}}
+Graph.d3VelocityDecay(0.32);
 
 let fitted = false;
-Graph.onEngineStop(() => {{ if (!fitted) {{ fitted = true; Graph.zoomToFit(500, 60); }} }});
+Graph.onEngineStop(() => {{ if (!fitted) {{ fitted = true; Graph.zoomToFit(500, 70); }} }});
 function resize() {{ Graph.width(window.innerWidth).height(window.innerHeight); }}
 window.addEventListener('resize', resize); resize();
 </script></body></html>"""

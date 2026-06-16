@@ -1219,5 +1219,11 @@ The boxed-cluster Cytoscape view was rejected. `graph.html` now uses **vasturian
 (d3-force on canvas): dark background, small dots that cluster organically by link density,
 colour = tradition (vivid dark-bg palette), size = degree, labels under nodes that fade with
 zoom, thin grey links, hover highlights a node's neighbourhood. `graph.svg` switched to a
-matching **sfdp** force-directed dark render (no boxes). graph.dot regenerated via `layout=sfdp`.
-`render_cytoscape` replaced by `render_force_graph`.
+matching force-directed dark render (no boxes). `render_cytoscape` replaced by `render_force_graph`.
+
+**Tradition grouping added (2026-06-17):** per-tradition foci on a ring drive a d3
+clustered-force layout (forceX/forceY toward each family's focus + forceManyBody + forceCollide),
+so same-tradition dots gather into their own neat circular cluster while edges still cross between
+them — Obsidian look, now spatially grouped. Labels are always-on with a dark halo (strokeText)
+for readability. SVG mirrors this via **fdp + invisible per-tradition clusters** (grouped regions,
+no visible boxes); graph.dot uses `layout=fdp`. d3-force loaded from CDN with a plain-force fallback.
