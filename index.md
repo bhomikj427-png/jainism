@@ -2,7 +2,7 @@
 
 Grouped by tradition-family. Lists every written concept with its status/confidence.
 Regenerated from concept front-matter; family headers may exist without entries.
-Counts: 116 concept files total.
+Counts: 122 concept files total.
 
 ---
 
@@ -19,6 +19,7 @@ Counts: 116 concept files total.
 | concept | status | confidence |
 |---|---|---|
 | ahimsa-vedic | converged | medium |
+| carvaka | converged | medium |
 | dana | converged | medium |
 | hetvabhasa | converged | medium |
 | manas | converged | medium |
@@ -39,6 +40,7 @@ Counts: 116 concept files total.
 | paramanu-vaisheshika | converged | medium |
 | pramana-nyaya | converged | medium |
 | tarka | converged | medium |
+| vaiseshika-sutra | converged | medium |
 
 ### Sāṃkhya–Yoga
 
@@ -108,6 +110,7 @@ Counts: 116 concept files total.
 | naigama-naya | converged | medium |
 | naya | converged | medium |
 | nirjara | converged | medium |
+| nishcaya-vyavahara | converged | medium |
 | paramanu | converged | medium |
 | paroksha-jnana | converged | medium |
 | paryaya | converged | medium |
@@ -115,6 +118,7 @@ Counts: 116 concept files total.
 | pramana | converged | medium |
 | pudgala | converged | medium |
 | samvara | converged | medium |
+| samyak-darshana | converged | medium |
 | sangraha-naya | converged | medium |
 | saptabhangi | converged | medium |
 | sat | converged | medium |
@@ -148,7 +152,9 @@ Counts: 116 concept files total.
 | madhyamaka | converged | medium |
 | namarupa | converged | medium |
 | nirvana-buddhist | converged | medium |
+| prasanga-nagarjuna | converged | medium |
 | pratityasamutpada | converged | medium |
+| santaraksita | converged | medium |
 | skandha-buddhist | converged | medium |
 | sunyata | converged | medium |
 | tathagata-garbha | converged | medium |

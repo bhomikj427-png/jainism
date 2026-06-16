@@ -1126,3 +1126,59 @@ hand-drawn"). Left as-is with this flag; regenerate via `python graph/build_grap
 | 4 | `samyak-darshana.md` | done | converged, medium; TS 1.2 + 1.3 Sanskrit FETCHED; tattvārtha-śraddhāna; nisarga/adhigama; gunasthāna 4; +1 inbound from charitra |
 | 5 | `vaiseshika-sutra.md` | done | converged, medium; VS 1.1.4 (six padārthas) FETCHED verbatim (Nandalal Sinha); VS 1.1.1-1.1.2 dharma framing; fills primary-text gap; +1 inbound from dravya-vaisheshika |
 | 6 | `carvaka.md` | done | converged, medium; IEP+Philosophy Institute; four elements + consciousness-from-matter; vyāpti-rejection + upādhi objection; perception-only; +1 inbound from atman-vedanta |
+
+## Run log — Batch 17 (2026-06-16)
+
+### Startup reconcile
+- Working tree clean at start (HEAD fbac9fb, after linker pass 3). No interrupted drafts to reset. progress.md reconciled to git: Batch 16 + fuzzy-logic + linker pass 3 all committed; next queued = suggested Batch 17 (no table existed yet → created it).
+
+### Concepts completed: 6 / 6 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | key source / fetch |
+|---|---|---|---|
+| santaraksita | converged | medium | SEP + Enc.Buddhism; MA 1/61-62/91/92; ladder (Sautrāntika→Yogācāra→Madhyamaka); neither-one-nor-many; conventional cittamātra / ultimate emptiness |
+| prasanga-nagarjuna | converged | medium | Wikipedia (Svātantrika–Prāsaṅgika) + IEP Nāgārjuna; VV 29 "no thesis"; Buddhapālita/Bhāvaviveka/Candrakīrti split |
+| nishcaya-vyavahara | converged | medium | Arihanta + JainGPT + gāthā 11/12 translation + Springer 2025 (title/abstract); bhūtārtha/abhūtārtha; ladder soteriology; anekāntavāda-tension noted |
+| samyak-darshana | converged | medium | TS 1.2 (*tattvārthaśraddhānaṃ samyagdarśanam*) + TS 1.3 (*tan nisargād adhigamād vā*) FETCHED verbatim (Vijay K. Jain 2018) |
+| vaiseshika-sutra | converged | medium | VS 1.1.4 (six padārthas) FETCHED verbatim (Nandalal Sinha 1923) + Wikipedia; dharma = abhyudaya + niḥśreyasa (VS 1.1.1-1.1.2); fills primary-text gap behind dravya-vaisheshika |
+| carvaka | converged | medium | IEP + Philosophy Institute; four bhūtas, consciousness-from-matter; vyāpti-impossibility + upādhi objection; perception-only; soul/karma/afterlife denied |
+
+### Verses / primary text directly fetched this batch
+- TS 1.2: *तत्त्वार्थश्रद्धानं सम्यग्दर्शनम्* (samyak-darshana)
+- TS 1.3: *तन्निसर्गादधिगमाद्वा* (samyak-darshana)
+- VS 1.1.4: *dharmaviśeṣaprasūtāt dravyaguṇakarmasāmānyaviśeṣasamavāyānāṃ padārthānāṃ sādharmyavaidharmyābhyāṃ tattvajñānānniḥśreyasam* (vaiseshika-sutra — Nandalal Sinha tr.)
+- Samayasāra gāthā 11/12: vyavahāra-naya = abhūtārtha, śuddha/niścaya-naya = bhūtārtha (via translation/commentary, not critical Prakrit edition)
+
+### Integration (no orphans introduced)
+Each new node received ≥1 inbound forward edge from an existing hub, reciprocating a relation its own file asserts:
+`madhyamaka → santaraksita` (expressed-by); `madhyamaka → prasanga-nagarjuna` (expressed-by);
+`naya → nishcaya-vyavahara` (expressed-by); `charitra → samyak-darshana` (shares-vocabulary-with);
+`dravya-vaisheshika → vaiseshika-sutra` (part-of); `atman-vedanta → carvaka` (shares-vocabulary-with).
+
+### Mechanical audit (§10)
+Awk audit over the 6 new files: **0 edge-pairing violations** — all 12 multi-type ordered pairs are the sanctioned (`structurally-parallel-to`|`shares-vocabulary-with`) + `often-conflated-with-NOT-equivalent` combo. One violation was found and fixed mid-batch: `santaraksita → vijnaptimatrata` carried `historically-influenced-by` + `often-conflated-with-NOT-equivalent` (not sanctioned) → dropped the influence edge (the NOT-equivalent edge already records conventional adoption). No new is-a-type-of cycles, no bidirectional is-a, no new unwritten-stub targets (every edge target is a written file).
+
+### Graph
+`graph/graph.dot` NOT regenerated — Python + Graphviz remain unavailable on this machine (flagged since the 2026-06-15 check-up; graph.dot is stale at ~batch 12). Manual stats: **122 written nodes, 0 unwritten stubs**; **668 edges** (grep count over all `## Links`). Regenerate with `python graph/build_graph.py` where Python is available.
+
+### Corpus milestone: 122 concepts across 17 batches + 3 linker passes. 0 unwritten stubs.
+
+### Notable findings
+1. **Madhyamaka method-and-school layer now complete**: prasanga-nagarjuna (the Prāsaṅgika method) + santaraksita (the Yogācāra-Svātantrika synthesis) sit on opposite sides of the Prāsaṅgika/Svātantrika divide — both now linked to `madhyamaka`, `tarka`, and each other (parallel + NOT-equivalent). The tarka↔prasaṅga "same form, opposite aim" finding (Batch 16) is now anchored by a dedicated prasaṅga node.
+2. **Two-truths structures triangulated across traditions**: nishcaya-vyavahara (Jain/Kundakunda) is now explicitly mapped against dvisatya (Madhyamaka) and maya-advaita (Advaita vyāvahārika/pāramārthika) — parallel two-level *form*, three incompatible ontologies underneath (real pure soul / emptiness / sublatable māyā).
+3. **Primary-text gaps closed**: vaiseshika-sutra gives Vaiśeṣika its own Kaṇāda-text anchor (VS 1.1.4 verbatim) behind the previously secondary dravya-vaisheshika/paramanu-vaisheshika files; samyak-darshana completes the ratnatraya (right faith / knowledge-via-jñāna-files / right conduct=charitra) with TS 1.2-1.3 fetched.
+4. **Cārvāka is the corpus's epistemic floor**: the only school admitting perception alone and denying vyāpti outright — the negative limit against which Nyāya, Buddhist, Jain, and Mīmāṃsā inference-theories are all defined. Structural-parallel-but-NOT-equivalent to Democritus (materialism that *reasons to* atoms vs materialism that *rejects* inference) is the sharpest new cross-tradition contrast.
+
+### Suggested Batch 18 (names only — no files written)
+Western/Greek depth:
+- `epicurus-atom` — Epicurean atomism + swerve (clinamen); the materialist-ethics counterpart to Cārvāka and Democritus
+- `pyrrhonism` — Greek scepticism; structural parallel to Cārvāka's anti-inference and to Madhyamaka no-thesis (Sextus Empiricus)
+
+Indian remaining:
+- `kamalasila` — Śāntarakṣita's student; the *Madhyamakāloka* + Bhāvanākrama; completes the Yogācāra-Svātantrika lineage
+- `yoga-darshana` — Patañjali's Yoga as a darśana (aṣṭāṅga); pairs with citta-vritti to complete the Sāṃkhya–Yoga family
+- `samkhya-karika` — Īśvarakṛṣṇa's primary text; the Sāṃkhya counterpart to the vaiseshika-sutra primary-text anchor
+- `praman-samuccaya` / `pramanavarttika` — primary-text anchors for Dignāga / Dharmakīrti behind dignaga-pramana + hetu-vidya
+
+Linker pass 4:
+- Re-run the full awk audit over all 122 files (orphans / pairing / duplicates / is-a direction); integrate Batch 17 nodes' reciprocity only where a real connectivity defect exists; update `.linker-state` to the new baseline HEAD.
