@@ -1235,3 +1235,11 @@ self-contained bundle — it `require`s d3-quadtree/d3-dispatch/d3-timer, so `fo
 forces with a **plain-JS custom cluster force** that uses only force-graph's bundled charge/link
 forces. The HTML is now fully offline-safe; an on-page error message shows if the vendored lib is
 ever missing. `graph/vendor/` is committed so the repo renders anywhere.
+
+**Label readability (2026-06-17):** added a plain-JS **collision force** with a label-aware
+spacing radius (`SPACE(n) = max(dotRadius+6, 7 + name.length*3.4)`) so dots never sit closer than
+their labels are wide; eased the cluster pull (0.32) and widened the focus ring so collision can
+spread them. Because constant-size labels can never *all* fit non-overlapping at a full zoom-to-fit
+of 122 nodes (the fit-zoom cancels any extra graph-space spacing), labels now behave like Obsidian:
+hub labels (degree > 11) always show; the rest appear once you **zoom in** past ~1.15× or on hover.
+SVG `sep` bumped to `+18` for matching static spacing.

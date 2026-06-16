@@ -2,7 +2,7 @@ digraph ancient_texts {
   layout=fdp;
   overlap="prism";
   bgcolor="#1a1a1a";
-  sep="+8";
+  sep="+18";
   node [fontname=Helvetica fontcolor="#e6e6e6" style=filled];
   subgraph "cluster_Jain" { style=invis; peripheries=0;
     "acarya" [label="ācārya" fillcolor="#ffd23f" shape=ellipse];

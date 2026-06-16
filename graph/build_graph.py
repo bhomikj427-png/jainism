@@ -213,7 +213,7 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
         engine="fdp",
         graph_attr={
             "overlap": "prism", "splines": "false", "bgcolor": "#1a1a1a",
-            "outputorder": "edgesfirst", "K": "0.65", "sep": "+8",
+            "outputorder": "edgesfirst", "K": "0.65", "sep": "+18",
             "fontname": "Helvetica",
         },
         node_attr={"fontname": "Helvetica", "fontcolor": "#e6e6e6",
@@ -248,7 +248,7 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
 def _write_dot(nodes, edges, link_counts, dot_path: Path):
     """Deterministic .dot intermediate: fdp + invisible per-tradition clusters."""
     lines = ["digraph ancient_texts {", "  layout=fdp;", '  overlap="prism";',
-             '  bgcolor="#1a1a1a";', '  sep="+8";',
+             '  bgcolor="#1a1a1a";', '  sep="+18";',
              '  node [fontname=Helvetica fontcolor="#e6e6e6" style=filled];']
     fam_nodes = _group_by_family(nodes)
     for fam in [f for f in FAMILY_ORDER if f in fam_nodes]:
@@ -311,7 +311,7 @@ def render_force_graph(nodes, edges, out_path: Path):
   #hint{{position:fixed;bottom:10px;left:12px;z-index:10;color:#666;font-size:11px;}}
 </style></head><body>
 <div id="legend"><div class="t">Tradition</div>{legend}</div>
-<div id="hint">scroll = zoom · drag background = pan · drag node = move · hover = highlight · same-colour dots cluster by tradition</div>
+<div id="hint">scroll to <b>zoom in</b> and read labels · drag = pan · hover = highlight · same-colour dots cluster by tradition</div>
 <div id="graph"></div>
 <script>
 const DATA = {data_json};
@@ -326,7 +326,7 @@ if (typeof ForceGraph === 'undefined') {{
 }}
 
 // Per-tradition foci arranged on a ring -> each tradition forms its own neat cluster
-const RING = 230 + 52 * PRESENT.length;
+const RING = 320 + 78 * PRESENT.length;
 const FOCUS = {{}};
 PRESENT.forEach((f, i) => {{
   const a = (2 * Math.PI * i) / PRESENT.length - Math.PI / 2;
@@ -365,22 +365,29 @@ const Graph = ForceGraph()(el)
       ctx.beginPath(); ctx.arc(n.x, n.y, r + 2 / scale, 0, 2 * Math.PI);
       ctx.strokeStyle = '#ffffff'; ctx.lineWidth = 1.5 / scale; ctx.stroke();
     }}
-    // labels always on, with a dark halo so they stay readable over dots/links
-    const fs = Math.max(3.5, 10 / scale);
-    ctx.font = fs + 'px Helvetica, Arial, sans-serif';
-    ctx.textAlign = 'center'; ctx.textBaseline = 'top';
-    const ly = n.y + r + 1.5 / scale;
-    ctx.lineWidth = 2.6 / scale; ctx.strokeStyle = 'rgba(20,20,20,0.92)';
-    ctx.strokeText(n.name, n.x, ly);
-    ctx.fillStyle = near ? 'rgba(240,240,240,0.97)' : 'rgba(150,150,150,0.28)';
-    ctx.fillText(n.name, n.x, ly);
+    // Obsidian-style labels: hubs always; everything else once you zoom in (or on
+    // hover). Keeps the zoomed-out overview clean instead of an unreadable pile.
+    const show = scale > 1.15 || n.val > 12 || (hover && near);
+    if (show) {{
+      const fs = Math.max(3.5, 10 / scale);
+      ctx.font = fs + 'px Helvetica, Arial, sans-serif';
+      ctx.textAlign = 'center'; ctx.textBaseline = 'top';
+      const ly = n.y + r + 1.5 / scale;
+      ctx.lineWidth = 2.8 / scale; ctx.strokeStyle = 'rgba(20,20,20,0.95)';  // halo
+      ctx.strokeText(n.name, n.x, ly);
+      ctx.fillStyle = near ? 'rgba(242,242,242,0.98)' : 'rgba(150,150,150,0.30)';
+      ctx.fillText(n.name, n.x, ly);
+    }}
   }})
   .onNodeHover(n => {{ hover = n || null; el.style.cursor = n ? 'pointer' : null; }})
   .onNodeDragEnd(n => {{ n.fx = n.x; n.fy = n.y; }});
 
-// Clustering via a plain-JS custom force (pulls each node toward its tradition's
-// focus). No external d3 needed -> the page is fully self-contained / offline-safe.
-// force-graph's own bundled charge + link forces handle spacing and structure.
+// Spacing radius for each node = its dot radius OR (roughly) half its label width,
+// whichever is larger — so dots never sit closer than their labels are wide.
+const SPACE = n => Math.max(radius(n) + 6, 7 + n.name.length * 3.4);
+
+// Clustering + collision via plain-JS custom forces (no external d3 -> fully
+// self-contained / offline-safe). force-graph's bundled link force still runs.
 function clusterForce(strength) {{
   let ns;
   function f(alpha) {{
@@ -393,10 +400,37 @@ function clusterForce(strength) {{
   f.initialize = a => {{ ns = a; }};
   return f;
 }}
-Graph.d3Force('cluster', clusterForce(0.55));
-Graph.d3Force('charge').strength(-75);
-Graph.d3Force('link').distance(20).strength(0.05);
-Graph.d3VelocityDecay(0.30);
+// O(n^2) collision (trivial at this size): push apart any two nodes closer than
+// the sum of their label-aware spacing radii. Runs a couple of iterations/tick.
+function collideForce(strength, iters) {{
+  let ns;
+  function f() {{
+    for (let it = 0; it < iters; it++) {{
+      for (let i = 0; i < ns.length; i++) {{
+        const a = ns[i], ra = SPACE(a);
+        for (let j = i + 1; j < ns.length; j++) {{
+          const b = ns[j];
+          let dx = b.x - a.x, dy = b.y - a.y;
+          const min = ra + SPACE(b);
+          let d2 = dx * dx + dy * dy;
+          if (d2 > 0 && d2 < min * min) {{
+            const d = Math.sqrt(d2);
+            const l = ((min - d) / d) * strength * 0.5;
+            dx *= l; dy *= l;
+            a.vx -= dx; a.vy -= dy; b.vx += dx; b.vy += dy;
+          }}
+        }}
+      }}
+    }}
+  }}
+  f.initialize = a => {{ ns = a; }};
+  return f;
+}}
+Graph.d3Force('cluster', clusterForce(0.32));
+Graph.d3Force('collide', collideForce(0.85, 2));
+Graph.d3Force('charge').strength(-18);
+Graph.d3Force('link').distance(16).strength(0.03);
+Graph.d3VelocityDecay(0.35);
 
 let fitted = false;
 Graph.onEngineStop(() => {{ if (!fitted) {{ fitted = true; Graph.zoomToFit(500, 70); }} }});
