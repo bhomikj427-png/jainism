@@ -64,3 +64,4 @@ The seven nayas move from most general/abstract (saṃgraha: "everything is *sat
 - shares-vocabulary-with: pramana | naya is contrasted with pramāṇa in TS 1.6: pramāṇa = complete knowledge, naya = valid partial-aspect knowledge; two complementary modes of valid cognition
 - expressed-by: dravyarthika-naya | naigama/saṃgraha/vyavahāra are the substance-standpoint group of the seven nayas — they take the dravya as their primary object
 - expressed-by: paryayarthika-naya | ṛjusūtra/śabda/samabhirūḍha/evaṃbhūta are the mode-standpoint group — they restrict to momentary or usage-defined modes
+- expressed-by: nishcaya-vyavahara | Kundakunda's niścaya/vyavahāra is the most influential two-fold *soteriological* application of naya theory (Samayasāra), distinct from and orthogonal to the seven-naya classification above
