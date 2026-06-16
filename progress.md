@@ -1113,3 +1113,16 @@ without Python (hand-writing it would violate §6's "deterministic output, never
 hand-drawn"). Left as-is with this flag; regenerate via `python graph/build_graph.py`.
 
 `.linker-state` updated to baseline 311c29f.
+
+---
+
+## Batch 17 concepts (active — started 2026-06-16)
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `santaraksita.md` | done | converged, medium; SEP+Enc.Buddhism; MA 1/61-62/91/92; ladder + neither-one-nor-many; conventional Yogācāra/ultimate emptiness |
+| 2 | `prasanga-nagarjuna.md` | pending | Nāgārjuna's prasaṅga method in detail; distinct from tarka |
+| 3 | `nishcaya-vyavahara.md` | pending | absolute vs conventional standpoints (Kundakunda, Samayasāra); ≠ 7-naya schema |
+| 4 | `samyak-darshana.md` | pending | right faith (first jewel of tri-ratna); companion to charitra + jñāna |
+| 5 | `vaiseshika-sutra.md` | pending | Vaiśeṣika Sūtra (Kaṇāda) as primary text; fills primary-text gap in dravya-vaisheshika |
+| 6 | `carvaka.md` | pending | materialist/sceptical school; completes six-darśana map; denied vyāpti + karma |

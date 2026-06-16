@@ -38,3 +38,4 @@ The "Middle Way" school of Mahāyāna Buddhism, founded by Nāgārjuna (~150–2
 - structurally-parallel-to: anekantavada | both use multi-perspectival analysis; but Madhyamaka ends in emptiness of all views (no partial-perspective joint truth); Jain anekāntavāda holds partial nayas as simultaneously valid
 - often-conflated-with-NOT-equivalent: anekantavada | Madhyamaka śūnyatā is not a synthesis of perspectives; it denies intrinsic existence including any naya's target — fundamentally different endpoint
 - historically-influenced-by: abhidharma | Madhyamaka is a critique of Abhidharma dharma-realism; the target of MMK's arguments is the Abhidharma posit that dharmas are ultimately real
+- expressed-by: santaraksita | the Yogācāra-Svātantrika-Madhyamaka synthesis (Śāntarakṣita, 8th c.) is the late, systematized form of Madhyamaka that fuses it with Yogācāra method and Dharmakīrtian logic
