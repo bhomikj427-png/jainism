@@ -39,3 +39,4 @@ The "Middle Way" school of Mahāyāna Buddhism, founded by Nāgārjuna (~150–2
 - often-conflated-with-NOT-equivalent: anekantavada | Madhyamaka śūnyatā is not a synthesis of perspectives; it denies intrinsic existence including any naya's target — fundamentally different endpoint
 - historically-influenced-by: abhidharma | Madhyamaka is a critique of Abhidharma dharma-realism; the target of MMK's arguments is the Abhidharma posit that dharmas are ultimately real
 - expressed-by: santaraksita | the Yogācāra-Svātantrika-Madhyamaka synthesis (Śāntarakṣita, 8th c.) is the late, systematized form of Madhyamaka that fuses it with Yogācāra method and Dharmakīrtian logic
+- expressed-by: prasanga-nagarjuna | prasaṅga (consequence-reductio with no thesis of one's own) is the Prāsaṅgika reading of how Madhyamaka actually argues

@@ -1121,7 +1121,7 @@ hand-drawn"). Left as-is with this flag; regenerate via `python graph/build_grap
 | # | concept (filename) | status | notes |
 |---|---|---|---|
 | 1 | `santaraksita.md` | done | converged, medium; SEP+Enc.Buddhism; MA 1/61-62/91/92; ladder + neither-one-nor-many; conventional Yogācāra/ultimate emptiness |
-| 2 | `prasanga-nagarjuna.md` | pending | Nāgārjuna's prasaṅga method in detail; distinct from tarka |
+| 2 | `prasanga-nagarjuna.md` | done | converged, medium; Wikipedia+IEP; VV 29 no-thesis; Prāsaṅgika/Svātantrika split; NOT-equiv tarka |
 | 3 | `nishcaya-vyavahara.md` | pending | absolute vs conventional standpoints (Kundakunda, Samayasāra); ≠ 7-naya schema |
 | 4 | `samyak-darshana.md` | pending | right faith (first jewel of tri-ratna); companion to charitra + jñāna |
 | 5 | `vaiseshika-sutra.md` | pending | Vaiśeṣika Sūtra (Kaṇāda) as primary text; fills primary-text gap in dravya-vaisheshika |
