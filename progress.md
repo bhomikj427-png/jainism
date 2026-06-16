@@ -1125,4 +1125,4 @@ hand-drawn"). Left as-is with this flag; regenerate via `python graph/build_grap
 | 3 | `nishcaya-vyavahara.md` | done | converged, medium; Kundakunda Samayasāra gāthā 11 (bhūtārtha/abhūtārtha); ladder soteriology; anekāntavāda-tension noted; ≠ 7-naya vyavahāra; +1 inbound from naya |
 | 4 | `samyak-darshana.md` | done | converged, medium; TS 1.2 + 1.3 Sanskrit FETCHED; tattvārtha-śraddhāna; nisarga/adhigama; gunasthāna 4; +1 inbound from charitra |
 | 5 | `vaiseshika-sutra.md` | done | converged, medium; VS 1.1.4 (six padārthas) FETCHED verbatim (Nandalal Sinha); VS 1.1.1-1.1.2 dharma framing; fills primary-text gap; +1 inbound from dravya-vaisheshika |
-| 6 | `carvaka.md` | pending | materialist/sceptical school; completes six-darśana map; denied vyāpti + karma |
+| 6 | `carvaka.md` | done | converged, medium; IEP+Philosophy Institute; four elements + consciousness-from-matter; vyāpti-rejection + upādhi objection; perception-only; +1 inbound from atman-vedanta |

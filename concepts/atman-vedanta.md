@@ -69,3 +69,4 @@ The Jain tradition was explicitly aware of and rejected the monist reading. Anek
 - is-a-type-of: brahman | the Advaita claim: ātman ultimately IS Brahman (forward link to brahman.md, unwritten)
 - part-of: moksha-advaita | ātman-Brahman identity, when realised, IS mokṣa in Advaita (forward link)
 - expressed-by: omniscience-vedanta | sarvajñatva (omniscience) is an attribute of ātman-as-Brahman/Īśvara; omniscience-vedanta.md documents how this attribute is understood across the saguna/nirguna split
+- shares-vocabulary-with: carvaka | both turn on the ātman question — Advaita affirms the self as ultimately Brahman, Cārvāka denies any soul at all (consciousness is a perishable product of matter); the materialist is the direct antithesis of the Vedāntin
