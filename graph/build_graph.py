@@ -34,23 +34,73 @@ EDGE_STYLES = {
     "often-conflated-with-NOT-equivalent": ("dotted", "#cc0000"),
 }
 
-# Tradition -> node colour
-TRADITION_COLOURS = {
-    "Jain":                  "#f5c518",
-    "Nyaya-Vaisheshika":     "#82b4ff",
-    "Buddhist":              "#ffa07a",
-    "Vedanta":               "#b0e0b0",
-    "Samkhya":               "#d8b4fe",
-    "Greek":                 "#c0c0c0",
-    "Modern Physics":        "#e0e0e0",
-    "unwritten":             "#dddddd",
+import unicodedata
+
+# Canonical tradition-family -> node colour
+FAMILY_COLOURS = {
+    "Jain":               "#f5c518",  # gold
+    "Buddhist":           "#ffa07a",  # salmon
+    "Nyaya-Vaisheshika":  "#82b4ff",  # blue
+    "Vedanta":            "#b0e0b0",  # green
+    "Samkhya-Yoga":       "#d8b4fe",  # purple
+    "Mimamsa":            "#7fd4c0",  # teal
+    "Carvaka":            "#c8a06a",  # tan/brown
+    "Greek":              "#c0c0c0",  # grey
+    "Modern/Western":     "#e0e0e0",  # light grey
+    "cross-tradition":    "#f4a6c6",  # pink
+    "unwritten":          "#dddddd",
 }
 DEFAULT_COLOUR = "#ffffff"
+
+
+def _ascii_fold(s: str) -> str:
+    """Lowercase + strip diacritics so 'Nyāya-Vaiśeṣika' matches 'nyaya-vaisesika'."""
+    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii").lower()
+
+
+def tradition_family(raw: str) -> str:
+    """Map a free-form front-matter `tradition:` value to a canonical family.
+    Deterministic keyword matching, checked in priority order to disambiguate
+    overlaps (e.g. 'Hindu (Vedic-...-Yoga)' is Vedanta, not Samkhya-Yoga)."""
+    t = _ascii_fold(raw)
+    if "unwritten" in t:
+        return "unwritten"
+    if "cross-tradition" in t:
+        return "cross-tradition"
+    if "jain" in t:
+        return "Jain"
+    if "carvaka" in t or "lokayata" in t:
+        return "Carvaka"
+    if "mimamsa" in t:
+        return "Mimamsa"
+    if "nyaya" in t or "vaisesika" in t or "vaiseshika" in t:
+        return "Nyaya-Vaisheshika"
+    if "buddhist" in t or "madhyamaka" in t or "yogacara" in t or "abhidharma" in t:
+        return "Buddhist"
+    if "vedanta" in t or "advaita" in t or "vedic" in t:
+        return "Vedanta"
+    if "samkhya" in t or "sankhya" in t:
+        return "Samkhya-Yoga"
+    if "yoga" in t:
+        return "Samkhya-Yoga"
+    if "hindu" in t:
+        return "Vedanta"
+    if "greek" in t or "stoic" in t or "platon" in t or "aristotel" in t or "neoplaton" in t:
+        return "Greek"
+    if "western" in t or "modern" in t or "physics" in t or "logic" in t or "mathematical" in t:
+        return "Modern/Western"
+    return "unknown"
+
+
+def tradition_colour(raw: str) -> str:
+    return FAMILY_COLOURS.get(tradition_family(raw), DEFAULT_COLOUR)
 
 FRONT_MATTER_RE = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
 LINKS_SECTION_RE = re.compile(r"## Links\s*\n(.*?)(?:\n## |\Z)", re.DOTALL)
 LINK_LINE_RE = re.compile(r"^\s*-\s+([\w-]+):\s+([\w./-]+)\s*\|", re.MULTILINE)
-YAML_FIELD_RE = re.compile(r"^(\w[\w_]*):\s*(.+)$", re.MULTILINE)
+# NB: use [ \t]* not \s* — \s matches newlines, so an empty field (e.g. a blank
+# `term_devanagari:`) would otherwise swallow the next line's value (e.g. tradition).
+YAML_FIELD_RE = re.compile(r"^(\w[\w_]*):[ \t]*(.+)$", re.MULTILINE)
 
 
 def parse_concept(path: Path) -> dict:
@@ -129,7 +179,7 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
         edge_attr={"fontname": "Helvetica", "fontsize": "9"},
     )
     for nid, node in nodes.items():
-        colour = TRADITION_COLOURS.get(node["tradition"], DEFAULT_COLOUR)
+        colour = tradition_colour(node["tradition"])
         size = max(0.5, min(2.0, 0.4 + 0.2 * link_counts.get(nid, 0)))
         label = node["term_iast"]
         shape = "ellipse" if node.get("written") else "box"
@@ -165,7 +215,7 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
 def _write_dot(nodes, edges, link_counts, dot_path: Path):
     lines = ["digraph ancient_texts {", '  rankdir=LR;', '  node [fontname=Helvetica fontsize=11];']
     for nid, node in nodes.items():
-        colour = TRADITION_COLOURS.get(node["tradition"], DEFAULT_COLOUR)
+        colour = tradition_colour(node["tradition"])
         shape = "ellipse" if node.get("written") else "box"
         lines.append(f'  "{nid}" [label="{node["term_iast"]}" style=filled fillcolor="{colour}" shape={shape}];')
     for e in edges:
@@ -180,7 +230,7 @@ def render_cytoscape(nodes, edges, out_path: Path):
     import json
     cy_nodes = []
     for nid, node in nodes.items():
-        colour = TRADITION_COLOURS.get(node["tradition"], DEFAULT_COLOUR)
+        colour = tradition_colour(node["tradition"])
         cy_nodes.append({
             "data": {
                 "id": nid,

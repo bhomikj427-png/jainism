@@ -1,0 +1,6 @@
+# Python bytecode cache (from graph/build_graph.py)
+__pycache__/
+*.pyc
+
+# Oversized raster exports — render on demand from graph.dot / build_graph.py
+graph/*.png

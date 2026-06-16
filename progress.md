@@ -1182,3 +1182,34 @@ Indian remaining:
 
 Linker pass 4:
 - Re-run the full awk audit over all 122 files (orphans / pairing / duplicates / is-a direction); integrate Batch 17 nodes' reciprocity only where a real connectivity defect exists; update `.linker-state` to the new baseline HEAD.
+
+---
+
+## Graph toolchain installed + rendered (2026-06-16)
+
+The long-standing "Python + Graphviz not on this machine" blocker is **resolved**. Installed
+via winget: **Python 3.12.10** (user scope) + **Graphviz 15.0.0** + the `graphviz` pip package.
+`graph/build_graph.py` now renders successfully:
+- `graph/graph.svg` — static Graphviz render (rankdir=LR; node colour = tradition family, size = degree; edge style = link type: solid structural / dashed cross-tradition / dotted NOT-equivalent).
+- `graph/graph.html` — **interactive Cytoscape** view (force-directed cose layout; the recommended way to explore 122 nodes). Self-contained; opens in any browser.
+- `graph/graph.dot` — refreshed deterministic intermediate (was stale at ~batch 12 / 97 nodes; now current at **122 nodes, 670 edges**). Supersedes the "graph.dot is stale" flag from linker pass 3.
+
+**Authoritative counts: 122 nodes, 670 edges** (build_graph.py's own parser; the earlier 668
+figure was a grep alternation under-count).
+
+### Two real defects fixed in build_graph.py (deterministic, idempotent preserved)
+1. **Front-matter parser bug (`YAML_FIELD_RE`)**: used `\s*`, and `\s` matches newlines, so any
+   concept with an empty field (e.g. a blank `term_devanagari:`) immediately above a populated
+   one would *swallow the next line's value*. This silently blanked `tradition` on
+   aristotle-logic / aristotle-categories / plato-soul / stoic-logos. Fixed to `[ \t]*`.
+2. **Tradition→colour mapping (§6 "colour = tradition")**: the old exact-match dict keyed on
+   `"Jain"`, `"Greek"` etc. matched almost nothing, because front-matter values carry diacritics
+   and parentheticals (`"Nyāya-Vaiśeṣika"`, `"Buddhist (Madhyamaka / Prāsaṅgika)"`,
+   `"cross-tradition (...)"`). Replaced with a diacritic-folding keyword classifier
+   (`tradition_family`) covering 10 families + cross-tradition. **Post-fix: 0 nodes fall through
+   to default white** (verified). Family counts: Jain 55, Buddhist 24, Vedānta 9, Greek 9,
+   Nyāya-Vaiśeṣika 7, cross-tradition 7, Modern/Western 5, Sāṃkhya-Yoga 4, Mīmāṃsā 1, Cārvāka 1.
+
+To regenerate anywhere: `python graph/build_graph.py` (needs the `graphviz` pip pkg for SVG; the
+HTML render needs only Python). High-res PNG on demand: `dot -Tpng graph/graph.dot -o out.png`
+(PNGs are gitignored — they run to tens of MB at full resolution for this LR layout).
