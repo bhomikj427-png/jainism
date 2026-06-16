@@ -2,14 +2,15 @@
 """
 build_graph.py — Deterministic graph builder for the ancient-texts repo.
 Scans concepts/*.md, parses front-matter + ## Links blocks.
-Renders graph/graph.svg via Graphviz (always).
-Emits graph/graph.html (Cytoscape self-contained) once node count > 30.
+Renders graph/graph.svg via Graphviz (force-directed, Obsidian-like).
+Emits graph/graph.html — an Obsidian-style force-graph (d3-force) view.
 Idempotent: safe to re-run at any time.
 """
 
 import os
 import re
 import sys
+import unicodedata
 from pathlib import Path
 from collections import defaultdict
 
@@ -17,7 +18,7 @@ REPO_ROOT = Path(__file__).parent.parent
 CONCEPTS_DIR = REPO_ROOT / "concepts"
 GRAPH_DIR = REPO_ROOT / "graph"
 
-# Edge style by link type (for Graphviz and Cytoscape)
+# Edge style by link type (style used by SVG; HTML draws uniform Obsidian-grey links)
 EDGE_STYLES = {
     # Structural / within-system  -> solid
     "is-a-type-of":                     ("solid",  "#333333"),
@@ -34,23 +35,43 @@ EDGE_STYLES = {
     "often-conflated-with-NOT-equivalent": ("dotted", "#cc0000"),
 }
 
-import unicodedata
-
-# Canonical tradition-family -> node colour
+# Canonical tradition-family -> node colour.
+# Two palettes: pastel for the (white) SVG legend math, vivid for the dark graph.
 FAMILY_COLOURS = {
-    "Jain":               "#f5c518",  # gold
-    "Buddhist":           "#ffa07a",  # salmon
-    "Nyaya-Vaisheshika":  "#82b4ff",  # blue
-    "Vedanta":            "#b0e0b0",  # green
-    "Samkhya-Yoga":       "#d8b4fe",  # purple
-    "Mimamsa":            "#7fd4c0",  # teal
-    "Carvaka":            "#c8a06a",  # tan/brown
-    "Greek":              "#c0c0c0",  # grey
-    "Modern/Western":     "#e0e0e0",  # light grey
-    "cross-tradition":    "#f4a6c6",  # pink
-    "unwritten":          "#dddddd",
+    "Jain":               "#f5c518",
+    "Buddhist":           "#ffa07a",
+    "Nyaya-Vaisheshika":  "#82b4ff",
+    "Vedanta":            "#b0e0b0",
+    "Samkhya-Yoga":       "#d8b4fe",
+    "Mimamsa":            "#7fd4c0",
+    "Carvaka":            "#c8a06a",
+    "Greek":              "#c0c0c0",
+    "Modern/Western":     "#e0e0e0",
+    "cross-tradition":    "#f4a6c6",
+    "unwritten":          "#888888",
+}
+# vivid, saturated colours that pop on a dark background (Obsidian group colours)
+FAMILY_COLOURS_DARK = {
+    "Jain":               "#ffd23f",
+    "Buddhist":           "#ff8c5a",
+    "Nyaya-Vaisheshika":  "#5b9bff",
+    "Vedanta":            "#4fd16b",
+    "Samkhya-Yoga":       "#c77dff",
+    "Mimamsa":            "#2dd4bf",
+    "Carvaka":            "#d9a066",
+    "Greek":              "#b8b8b8",
+    "Modern/Western":     "#dcdcdc",
+    "cross-tradition":    "#ff6fa5",
+    "unwritten":          "#777777",
 }
 DEFAULT_COLOUR = "#ffffff"
+DEFAULT_COLOUR_DARK = "#9aa0a6"
+
+FAMILY_ORDER = [
+    "Jain", "Buddhist", "Nyaya-Vaisheshika", "Vedanta", "Samkhya-Yoga",
+    "Mimamsa", "Carvaka", "Greek", "Modern/Western", "cross-tradition",
+    "unwritten", "unknown",
+]
 
 
 def _ascii_fold(s: str) -> str:
@@ -94,6 +115,11 @@ def tradition_family(raw: str) -> str:
 
 def tradition_colour(raw: str) -> str:
     return FAMILY_COLOURS.get(tradition_family(raw), DEFAULT_COLOUR)
+
+
+def tradition_colour_dark(raw: str) -> str:
+    return FAMILY_COLOURS_DARK.get(tradition_family(raw), DEFAULT_COLOUR_DARK)
+
 
 FRONT_MATTER_RE = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
 LINKS_SECTION_RE = re.compile(r"## Links\s*\n(.*?)(?:\n## |\Z)", re.DOTALL)
@@ -161,29 +187,9 @@ def collect_nodes_and_edges():
     return nodes, edges, link_counts
 
 
-# Deterministic family order + light cluster-background tints (paired with FAMILY_COLOURS)
-FAMILY_ORDER = [
-    "Jain", "Buddhist", "Nyaya-Vaisheshika", "Vedanta", "Samkhya-Yoga",
-    "Mimamsa", "Carvaka", "Greek", "Modern/Western", "cross-tradition",
-    "unwritten", "unknown",
-]
-FAMILY_BG = {
-    "Jain": "#fdf3cf", "Buddhist": "#ffe6da", "Nyaya-Vaisheshika": "#e0ecff",
-    "Vedanta": "#e3f4e3", "Samkhya-Yoga": "#f0e6ff", "Mimamsa": "#dcf2ec",
-    "Carvaka": "#f0e4d2", "Greek": "#eeeeee", "Modern/Western": "#f2f2f2",
-    "cross-tradition": "#fde4ee", "unwritten": "#f4f4f4", "unknown": "#ffffff",
-}
-
-
-def _group_by_family(nodes):
-    """Deterministic {family: [(nid, node), ...]} grouping for cluster rendering."""
-    fam_nodes = defaultdict(list)
-    for nid in sorted(nodes):
-        fam_nodes[tradition_family(nodes[nid]["tradition"])].append((nid, nodes[nid]))
-    return fam_nodes
-
-
 def render_graphviz(nodes, edges, link_counts, out_path: Path):
+    """Static SVG: force-directed (sfdp), dark background, vivid dots, thin grey
+    links, no boxes — the static cousin of the Obsidian HTML view."""
     try:
         import graphviz  # type: ignore
     except ImportError:
@@ -195,33 +201,27 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
 
     g = graphviz.Digraph(
         name="ancient_texts",
+        engine="sfdp",
         graph_attr={
-            "layout": "dot", "rankdir": "LR", "compound": "true", "newrank": "true",
-            "fontname": "Helvetica", "splines": "true", "overlap": "false",
-            "ranksep": "1.1", "nodesep": "0.35", "pack": "true", "packmode": "cluster",
-            "bgcolor": "#ffffff",
+            "overlap": "prism", "overlap_scaling": "4", "splines": "false",
+            "bgcolor": "#1a1a1a", "outputorder": "edgesfirst", "K": "0.7",
+            "fontname": "Helvetica",
         },
-        node_attr={"fontname": "Helvetica", "fontsize": "11", "penwidth": "0.6"},
-        edge_attr={"fontname": "Helvetica", "fontsize": "9", "penwidth": "0.55",
-                   "arrowsize": "0.55"},
+        node_attr={"fontname": "Helvetica", "fontcolor": "#e6e6e6",
+                   "color": "#1a1a1a", "penwidth": "0.5", "shape": "ellipse"},
+        edge_attr={"penwidth": "0.4", "arrowsize": "0.35", "color": "#cccccc26"},
     )
-    # One Graphviz cluster per tradition family -> visible grouped boxes
-    fam_nodes = _group_by_family(nodes)
-    for fam in [f for f in FAMILY_ORDER if f in fam_nodes]:
-        with g.subgraph(name=f"cluster_{fam}") as c:
-            c.attr(label=fam, labelloc="t", labeljust="l", style="filled,rounded",
-                   color="#bbbbbb", fillcolor=FAMILY_BG.get(fam, "#f4f4f4"),
-                   fontsize="20", fontname="Helvetica-Bold", margin="14")
-            for nid, node in fam_nodes[fam]:
-                colour = tradition_colour(node["tradition"])
-                size = max(0.5, min(2.0, 0.4 + 0.2 * link_counts.get(nid, 0)))
-                shape = "ellipse" if node.get("written") else "box"
-                c.node(nid, label=node["term_iast"], style="filled", fillcolor=colour,
-                       width=str(size), height=str(size * 0.6), shape=shape)
-    # Edges: style + colour encode the link type (§6); no text labels = far cleaner
+    for nid, node in nodes.items():
+        colour = tradition_colour_dark(node["tradition"])
+        deg = link_counts.get(nid, 0)
+        size = max(0.18, min(1.5, 0.18 + 0.10 * deg))   # diameter in inches
+        fs = str(max(7, min(16, 7 + deg)))               # bigger label for hubs
+        shape = "ellipse" if node.get("written") else "box"
+        g.node(nid, label=node["term_iast"], style="filled", fillcolor=colour,
+               width=str(size), height=str(size), fixedsize="true" if size < 0.5 else "false",
+               fontsize=fs, shape=shape)
     for e in edges:
-        style, colour = EDGE_STYLES.get(e["type"], ("solid", "#999999"))
-        g.edge(e["source"], e["target"], style=style, color=colour + "aa")
+        g.edge(e["source"], e["target"], color="#cccccc26")
     try:
         g.render(str(out_path.with_suffix("")), format="svg", cleanup=True)
         print(f"Wrote {out_path}")
@@ -232,141 +232,116 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
 
 
 def _write_dot(nodes, edges, link_counts, dot_path: Path):
-    lines = ["digraph ancient_texts {", "  layout=dot;", "  rankdir=LR;",
-             "  compound=true;", "  node [fontname=Helvetica fontsize=11];"]
-    fam_nodes = _group_by_family(nodes)
-    for fam in [f for f in FAMILY_ORDER if f in fam_nodes]:
-        lines.append(f'  subgraph "cluster_{fam}" {{')
-        lines.append(f'    label="{fam}"; style="filled,rounded"; color="#bbbbbb"; '
-                     f'fillcolor="{FAMILY_BG.get(fam, "#f4f4f4")}"; fontsize=20;')
-        for nid, node in fam_nodes[fam]:
-            colour = tradition_colour(node["tradition"])
-            shape = "ellipse" if node.get("written") else "box"
-            lines.append(f'    "{nid}" [label="{node["term_iast"]}" style=filled '
-                         f'fillcolor="{colour}" shape={shape}];')
-        lines.append("  }")
+    """Deterministic flat .dot intermediate (fallback / inspection)."""
+    lines = ["digraph ancient_texts {", "  layout=sfdp;", '  overlap="prism";',
+             '  bgcolor="#1a1a1a";', '  node [fontname=Helvetica fontcolor="#e6e6e6" style=filled];']
+    for nid, node in nodes.items():
+        colour = tradition_colour_dark(node["tradition"])
+        shape = "ellipse" if node.get("written") else "box"
+        lines.append(f'  "{nid}" [label="{node["term_iast"]}" fillcolor="{colour}" shape={shape}];')
     for e in edges:
-        style, colour = EDGE_STYLES.get(e["type"], ("solid", "#999999"))
-        lines.append(f'  "{e["source"]}" -> "{e["target"]}" [style={style} color="{colour}"];')
+        lines.append(f'  "{e["source"]}" -> "{e["target"]}" [color="#cccccc26"];')
     lines.append("}")
     dot_path.write_text("\n".join(lines), encoding="utf-8")
 
 
-def render_cytoscape(nodes, edges, out_path: Path):
-    """Interactive Cytoscape view: nodes grouped into tradition compound boxes,
-    fcose force-directed layout, colour=tradition, edge style=link type, legend,
-    tap-to-highlight neighbourhood."""
+def render_force_graph(nodes, edges, out_path: Path):
+    """Obsidian-style interactive view (vasturiano/force-graph, d3-force on canvas):
+    small dots that cluster organically by link density, colour = tradition,
+    size = degree, labels under nodes that fade with zoom, thin grey links,
+    dark background, hover to highlight a node's neighbourhood."""
     import json
-    fam_nodes = _group_by_family(nodes)
-    present = [f for f in FAMILY_ORDER if f in fam_nodes]
 
-    cy_nodes = []
-    # parent compound node per family
-    for fam in present:
-        cy_nodes.append({"data": {"id": f"fam:{fam}", "label": fam, "isParent": True,
-                                  "color": tradition_colour(fam) if fam in FAMILY_COLOURS else "#cccccc"}})
-    for fam in present:
-        for nid, node in fam_nodes[fam]:
-            deg = 0  # filled below
-            cy_nodes.append({"data": {
-                "id": nid, "label": node["term_iast"], "parent": f"fam:{fam}",
-                "tradition": node["tradition"], "status": node["status"],
-                "written": node.get("written", False),
-                "color": tradition_colour(node["tradition"]),
-            }})
-    # degree -> node size
     deg = defaultdict(int)
     for e in edges:
         deg[e["source"]] += 1
         deg[e["target"]] += 1
-    for n in cy_nodes:
-        if not n["data"].get("isParent"):
-            n["data"]["size"] = 18 + min(46, 4 * deg.get(n["data"]["id"], 0))
 
-    cy_edges = []
-    for i, e in enumerate(edges):
-        style, colour = EDGE_STYLES.get(e["type"], ("solid", "#999999"))
-        cy_edges.append({"data": {"id": f"e{i}", "source": e["source"], "target": e["target"],
-                                  "type": e["type"], "color": colour, "lstyle": style}})
-    elements_json = json.dumps(cy_nodes + cy_edges)
+    data = {
+        "nodes": [
+            {
+                "id": nid,
+                "name": node["term_iast"],
+                "val": 1 + deg.get(nid, 0),
+                "color": tradition_colour_dark(node["tradition"]),
+                "fam": tradition_family(node["tradition"]),
+                "written": node.get("written", True),
+            }
+            for nid, node in nodes.items()
+        ],
+        "links": [{"source": e["source"], "target": e["target"]} for e in edges],
+    }
+    data_json = json.dumps(data)
 
-    # legend rows
-    fam_legend = "".join(
-        f'<div><span class="sw" style="background:{FAMILY_COLOURS.get(f, "#fff")}"></span>{f}</div>'
-        for f in present if f in FAMILY_COLOURS)
-    edge_legend = (
-        '<div><span class="ln solid"></span>structural</div>'
-        '<div><span class="ln dashed"></span>cross-tradition / parallel</div>'
-        '<div><span class="ln dotted"></span>conflated — NOT equivalent</div>')
+    present = [f for f in FAMILY_ORDER if any(n["fam"] == f for n in data["nodes"])]
+    legend = "".join(
+        f'<div><span class="sw" style="background:{FAMILY_COLOURS_DARK.get(f, DEFAULT_COLOUR_DARK)}"></span>{f}</div>'
+        for f in present)
 
     html = f"""<!DOCTYPE html>
-<html><head><meta charset="utf-8"><title>Ancient Texts — Concept Graph</title>
-<script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
-<script src="https://unpkg.com/layout-base@2.0.1/layout-base.js"></script>
-<script src="https://unpkg.com/cose-base@2.2.0/cose-base.js"></script>
-<script src="https://unpkg.com/cytoscape-fcose@2.2.0/cytoscape-fcose.js"></script>
+<html><head><meta charset="utf-8"><title>Ancient Texts — Graph</title>
+<script src="https://unpkg.com/force-graph"></script>
 <style>
-  body{{margin:0;font-family:Helvetica,Arial,sans-serif;background:#fafafa;}}
-  #cy{{width:100vw;height:100vh;position:absolute;top:0;left:0;}}
-  #legend{{position:absolute;top:12px;left:12px;z-index:10;background:rgba(255,255,255,.94);
-    border:1px solid #ddd;border-radius:8px;padding:10px 12px;font-size:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);max-height:92vh;overflow:auto;}}
-  #legend h4{{margin:6px 0 4px;font-size:11px;text-transform:uppercase;color:#666;letter-spacing:.04em;}}
-  #legend div{{display:flex;align-items:center;gap:7px;margin:2px 0;}}
-  .sw{{width:13px;height:13px;border-radius:3px;border:1px solid #999;display:inline-block;}}
-  .ln{{width:22px;height:0;display:inline-block;}}
-  .ln.solid{{border-top:2px solid #555;}}
-  .ln.dashed{{border-top:2px dashed #0066cc;}}
-  .ln.dotted{{border-top:2px dotted #cc0000;}}
-  #hint{{position:absolute;bottom:10px;left:12px;z-index:10;font-size:11px;color:#888;
-    background:rgba(255,255,255,.85);padding:4px 8px;border-radius:6px;}}
+  html,body{{margin:0;height:100%;background:#1a1a1a;font-family:Helvetica,Arial,sans-serif;}}
+  #graph{{width:100vw;height:100vh;}}
+  #legend{{position:fixed;top:12px;left:12px;z-index:10;background:rgba(30,30,30,.82);
+    border:1px solid #333;border-radius:8px;padding:9px 11px;color:#ccc;font-size:12px;}}
+  #legend .t{{font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:#888;margin-bottom:5px;}}
+  #legend div{{display:flex;align-items:center;gap:7px;margin:3px 0;}}
+  .sw{{width:11px;height:11px;border-radius:50%;display:inline-block;}}
+  #hint{{position:fixed;bottom:10px;left:12px;z-index:10;color:#666;font-size:11px;}}
 </style></head><body>
-<div id="legend">
-  <h4>Tradition</h4>{fam_legend}
-  <h4>Link type</h4>{edge_legend}
-</div>
-<div id="hint">scroll = zoom · drag = pan · click a node to isolate its links · click empty space to reset</div>
-<div id="cy"></div>
+<div id="legend"><div class="t">Tradition</div>{legend}</div>
+<div id="hint">scroll = zoom · drag background = pan · drag node = move · hover = highlight links</div>
+<div id="graph"></div>
 <script>
-try {{ if (window.cytoscapeFcose) cytoscape.use(window.cytoscapeFcose); }} catch(e) {{}}
-var elements = {elements_json};
-var cy = cytoscape({{
-  container: document.getElementById('cy'),
-  elements: elements,
-  wheelSensitivity: 0.25,
-  style: [
-    {{ selector: 'node[?isParent]', style: {{
-      'label':'data(label)','background-color':'data(color)','background-opacity':0.10,
-      'border-width':1.5,'border-color':'data(color)','shape':'round-rectangle',
-      'text-valign':'top','text-halign':'center','font-size':'17px','font-weight':'bold',
-      'color':'#444','padding':'14px' }} }},
-    {{ selector: 'node[!isParent]', style: {{
-      'label':'data(label)','background-color':'data(color)',
-      'width':'data(size)','height':'data(size)','font-size':'9px',
-      'text-valign':'center','text-halign':'center','text-wrap':'wrap','text-max-width':'70px',
-      'border-width':0.5,'border-color':'#888','shape':'ellipse','color':'#222' }} }},
-    {{ selector: 'node[written = false][!isParent]', style: {{ 'shape':'round-rectangle','border-style':'dashed' }} }},
-    {{ selector: 'edge', style: {{
-      'width':1,'line-color':'data(color)','line-style':'data(lstyle)','opacity':0.45,
-      'target-arrow-color':'data(color)','target-arrow-shape':'triangle','arrow-scale':0.7,
-      'curve-style':'bezier' }} }},
-    {{ selector: '.faded', style: {{ 'opacity':0.06 }} }},
-    {{ selector: '.hi', style: {{ 'opacity':1,'width':2.2,'z-index':99 }} }},
-    {{ selector: 'node.hi', style: {{ 'border-width':2,'border-color':'#222' }} }}
-  ],
-  layout: {{
-    name: (window.cytoscapeFcose ? 'fcose' : 'cose'),
-    quality:'default', animate:false, randomize:true, packComponents:true,
-    nodeSeparation:75, idealEdgeLength: 70, nodeRepulsion: 6000, gravity:0.25,
-    nestingFactor:0.1, numIter:2500
-  }}
-}});
-cy.on('tap','node[!isParent]', function(evt){{
-  var n = evt.target; var nb = n.closedNeighborhood();
-  cy.elements().addClass('faded');
-  nb.removeClass('faded').addClass('hi');
-}});
-cy.on('tap', function(evt){{ if(evt.target===cy){{ cy.elements().removeClass('faded hi'); }} }});
+const DATA = {data_json};
+const NREL = 5;
+const neighbors = new Map();
+DATA.nodes.forEach(n => neighbors.set(n.id, new Set()));
+DATA.links.forEach(l => {{ neighbors.get(l.source).add(l.target); neighbors.get(l.target).add(l.source); }});
+let hover = null;
+const el = document.getElementById('graph');
+const radius = n => Math.sqrt(n.val) * NREL;
+const isNear = (a, b) => a === b || (neighbors.get(a.id) && neighbors.get(a.id).has(b.id));
+
+const Graph = ForceGraph()(el)
+  .backgroundColor('#1a1a1a')
+  .graphData(DATA)
+  .nodeRelSize(NREL)
+  .nodeVal('val')
+  .nodeColor(n => (!hover || isNear(hover, n)) ? n.color : 'rgba(120,120,120,0.15)')
+  .nodeLabel(() => '')
+  .linkColor(l => (hover && (l.source.id === hover.id || l.target.id === hover.id))
+      ? 'rgba(255,255,255,0.55)' : 'rgba(200,200,200,0.10)')
+  .linkWidth(l => (hover && (l.source.id === hover.id || l.target.id === hover.id)) ? 1.4 : 0.5)
+  .nodeCanvasObjectMode(() => 'after')
+  .nodeCanvasObject((n, ctx, scale) => {{
+    const near = !hover || isNear(hover, n);
+    const r = radius(n);
+    if (n === hover) {{
+      ctx.beginPath(); ctx.arc(n.x, n.y, r + 2 / scale, 0, 2 * Math.PI);
+      ctx.strokeStyle = '#ffffff'; ctx.lineWidth = 1.5 / scale; ctx.stroke();
+    }}
+    if (scale > 1.4 || (hover && near)) {{
+      const fs = Math.max(3, 11 / scale);
+      ctx.font = fs + 'px Helvetica, Arial, sans-serif';
+      ctx.textAlign = 'center'; ctx.textBaseline = 'top';
+      ctx.fillStyle = near ? 'rgba(235,235,235,0.95)' : 'rgba(150,150,150,0.35)';
+      ctx.fillText(n.name, n.x, n.y + r + 1.5 / scale);
+    }}
+  }})
+  .onNodeHover(n => {{ hover = n || null; el.style.cursor = n ? 'pointer' : null; }})
+  .onNodeDragEnd(n => {{ n.fx = n.x; n.fy = n.y; }});
+
+Graph.d3Force('charge').strength(-130);
+Graph.d3Force('link').distance(38).strength(0.9);
+Graph.d3VelocityDecay(0.28);
+
+let fitted = false;
+Graph.onEngineStop(() => {{ if (!fitted) {{ fitted = true; Graph.zoomToFit(500, 60); }} }});
+function resize() {{ Graph.width(window.innerWidth).height(window.innerHeight); }}
+window.addEventListener('resize', resize); resize();
 </script></body></html>"""
     out_path.write_text(html, encoding="utf-8")
     print(f"Wrote {out_path}")
@@ -377,10 +352,7 @@ def main():
     nodes, edges, link_counts = collect_nodes_and_edges()
     print(f"Nodes: {len(nodes)}  Edges: {len(edges)}")
     render_graphviz(nodes, edges, link_counts, GRAPH_DIR / "graph.svg")
-    if len(nodes) > 30:
-        render_cytoscape(nodes, edges, GRAPH_DIR / "graph.html")
-    else:
-        print(f"Node count {len(nodes)} <= 30; skipping Cytoscape HTML.")
+    render_force_graph(nodes, edges, GRAPH_DIR / "graph.html")
 
 
 if __name__ == "__main__":

@@ -1212,4 +1212,12 @@ figure was a grep alternation under-count).
 
 To regenerate anywhere: `python graph/build_graph.py` (needs the `graphviz` pip pkg for SVG; the
 HTML render needs only Python). High-res PNG on demand: `dot -Tpng graph/graph.dot -o out.png`
-(PNGs are gitignored — they run to tens of MB at full resolution for this LR layout).
+(PNGs are gitignored — they run to tens of MB at full resolution).
+
+### Render style switched to Obsidian-like force-graph (2026-06-16, per user request)
+The boxed-cluster Cytoscape view was rejected. `graph.html` now uses **vasturiano/force-graph**
+(d3-force on canvas): dark background, small dots that cluster organically by link density,
+colour = tradition (vivid dark-bg palette), size = degree, labels under nodes that fade with
+zoom, thin grey links, hover highlights a node's neighbourhood. `graph.svg` switched to a
+matching **sfdp** force-directed dark render (no boxes). graph.dot regenerated via `layout=sfdp`.
+`render_cytoscape` replaced by `render_force_graph`.
