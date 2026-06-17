@@ -38,3 +38,4 @@ The two are independent (an encyclopedia and a peer-reviewed philosophy encyclop
 - expressed-by: tarka | tarka, the eighth padārtha (hypothetical/suppositional reasoning), is worked out in tarka.md
 - structurally-parallel-to: vaiseshika-sutra | both are root-texts of the (later merged) Nyāya-Vaiśeṣika tradition, each grounding liberation (niḥśreyasa) in correct knowledge of an enumerated set of categories — 16 padārthas of debate-and-knowledge vs 6 padārthas of being
 - often-conflated-with-NOT-equivalent: vaiseshika-sutra | despite the merger they are distinct works with different remits: the Nyāyasūtra is primarily epistemology-and-logic (pramāṇa, inference, debate), the Vaiśeṣikasūtra primarily ontology (the category-scheme of being and atomism); Nyāya supplied the method, Vaiśeṣika the metaphysics
+- expressed-by: asatkaryavada | the Nyāya causal theory requires asatkāryavāda — the effect is genuinely new, brought into being by the conjunction of its causes
