@@ -54,3 +54,5 @@ The Vaiśeṣika ākāśa's role as sound-bearer is rejected in Jain ontology: J
 - expressed-by: loka-jain | lokākāśa = the "loka" (universe) pervaded by all six dravyas
 - structurally-parallel-to: adharma-dravya | both are singular, formless, space-pervading — but adharma enables rest; ākāśa provides room
 - often-conflated-with-NOT-equivalent: dravya-vaisheshika | Vaiśeṣika ākāśa bears sound (śabda-guṇa); Jain ākāśa has no sensory quality
+- shares-vocabulary-with: pancha-mahabhuta | Hindu ākāśa (ether) is the subtlest of the five mahābhūtas with sound as its quality; Jain ākāśa is a featureless spatial container with no sensory quality — same Sanskrit name, different categories
+- often-conflated-with-NOT-equivalent: pancha-mahabhuta | Jain ākāśa is not "ether" in the mahābhūta sense; it is unbounded space providing avagāha (room for other substances) without being itself a typed material element

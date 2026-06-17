@@ -36,3 +36,4 @@ confidence: medium
 - often-conflated-with-NOT-equivalent: anumana-nyaya | prasaṅga is not a five-member Nyāya syllogism; it asserts no thesis (pakṣa) of its own and grants premises only ad hominem, whereas anumāna commits the arguer to its conclusion
 - structurally-parallel-to: pyrrhonism | the "no thesis" stance (VV 29) mirrors the Pyrrhonist's aphasia / non-assertion — refuting all positions without affirming a counter-position
 - often-conflated-with-NOT-equivalent: pyrrhonism | prasaṅga serves a determinate end (demonstrating śūnyatā within a soteriology); Pyrrhonist suspension is a content-free therapy aimed only at ataraxia
+- part-of: mulamadhyamakakarika | prasaṅga is the method that pervades the MMK's 27 chapters; the text is defined by deploying consequence-reductio throughout every metaphysical domain

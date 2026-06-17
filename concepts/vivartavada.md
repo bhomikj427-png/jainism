@@ -41,3 +41,4 @@ Signals converge on the doctrine content (appearance-only, rope-snake analogy, r
 - part-of: brahma-sutra | Brahmasūtra interpretation generates the vivartavāda/pariṇāmavāda split
 - structurally-parallel-to: parinamavada | both are satkāryavāda variants (effect pre-exists in cause)
 - often-conflated-with-NOT-equivalent: parinamavada | appearance-only (vivarta) ≠ real transformation (pariṇāma) — same framework, opposite ontological commitment
+- is-a-type-of: satkaryavada | vivartavāda is the "apparent transformation" subtype of satkāryavāda — it accepts pre-existence of the effect in the cause but holds the manifest effect is merely phenomenal (māyā), not genuinely real

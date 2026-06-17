@@ -47,3 +47,4 @@ Signals converge on doctrine and school attribution. Confidence medium; high ref
 - shares-vocabulary-with: sat | satkāryavāda ("the effect pre-exists in the cause as sat") is the causal axiom shared with TS 5.30's sat-definition
 - structurally-parallel-to: vivartavada | both are satkāryavāda variants
 - often-conflated-with-NOT-equivalent: vivartavada | real transformation ≠ apparent transformation — ontologically incompatible despite shared causal framework
+- is-a-type-of: satkaryavada | pariṇāmavāda is the "real transformation" subtype of satkāryavāda — it accepts pre-existence of the effect in the cause and specifies the manifest effect is genuinely real

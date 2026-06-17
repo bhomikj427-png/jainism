@@ -238,6 +238,8 @@ digraph ancient_texts {
   "akasha-dravya" -> "loka-jain" [color="#cccccc22"];
   "akasha-dravya" -> "adharma-dravya" [color="#cccccc22"];
   "akasha-dravya" -> "dravya-vaisheshika" [color="#cccccc22"];
+  "akasha-dravya" -> "pancha-mahabhuta" [color="#cccccc22"];
+  "akasha-dravya" -> "pancha-mahabhuta" [color="#cccccc22"];
   "alaya-vijnana" -> "vijnaptimatrata" [color="#cccccc22"];
   "alaya-vijnana" -> "jiva" [color="#cccccc22"];
   "alaya-vijnana" -> "atman-vedanta" [color="#cccccc22"];
@@ -250,6 +252,7 @@ digraph ancient_texts {
   "anatta-buddhist" -> "skandha-buddhist" [color="#cccccc22"];
   "anatta-buddhist" -> "atman-vedanta" [color="#cccccc22"];
   "anatta-buddhist" -> "citta" [color="#cccccc22"];
+  "anatta-buddhist" -> "theravada" [color="#cccccc22"];
   "anekantavada" -> "syadvada" [color="#cccccc22"];
   "anekantavada" -> "dravya" [color="#cccccc22"];
   "anekantavada" -> "quantum-complementarity" [color="#cccccc22"];
@@ -297,6 +300,7 @@ digraph ancient_texts {
   "aristotle-ethics" -> "aristotle-substance" [color="#cccccc22"];
   "aristotle-ethics" -> "plato-forms" [color="#cccccc22"];
   "aristotle-ethics" -> "aristotle-logic" [color="#cccccc22"];
+  "aristotle-ethics" -> "four-causes" [color="#cccccc22"];
   "aristotle-logic" -> "vyapti" [color="#cccccc22"];
   "aristotle-logic" -> "hetu-vidya" [color="#cccccc22"];
   "aristotle-logic" -> "vyapti" [color="#cccccc22"];
@@ -305,6 +309,7 @@ digraph ancient_texts {
   "aristotle-logic" -> "plato-forms" [color="#cccccc22"];
   "aristotle-logic" -> "stoic-logos" [color="#cccccc22"];
   "aristotle-logic" -> "aristotle-categories" [color="#cccccc22"];
+  "aristotle-logic" -> "four-causes" [color="#cccccc22"];
   "aristotle-substance" -> "dravya" [color="#cccccc22"];
   "aristotle-substance" -> "dravya-vaisheshika" [color="#cccccc22"];
   "aristotle-substance" -> "dravya" [color="#cccccc22"];
@@ -327,6 +332,7 @@ digraph ancient_texts {
   "asrava" -> "karma" [color="#cccccc22"];
   "asrava" -> "bandha" [color="#cccccc22"];
   "asrava" -> "jiva" [color="#cccccc22"];
+  "asrava" -> "tattvartha-sutra" [color="#cccccc22"];
   "asteya" -> "ahimsa" [color="#cccccc22"];
   "asteya" -> "aparigraha" [color="#cccccc22"];
   "asteya" -> "karma" [color="#cccccc22"];
@@ -351,6 +357,7 @@ digraph ancient_texts {
   "bandha" -> "asrava" [color="#cccccc22"];
   "bandha" -> "samvara" [color="#cccccc22"];
   "bandha" -> "tattva-jain" [color="#cccccc22"];
+  "bandha" -> "tattvartha-sutra" [color="#cccccc22"];
   "bhakti" -> "vishishtadvaita" [color="#cccccc22"];
   "bhakti" -> "dvaita-vedanta" [color="#cccccc22"];
   "bhakti" -> "avatara-vedanta" [color="#cccccc22"];
@@ -385,6 +392,8 @@ digraph ancient_texts {
   "brahman" -> "plotinus-one" [color="#cccccc22"];
   "brahman" -> "plotinus-one" [color="#cccccc22"];
   "brahman" -> "brahma-sutra" [color="#cccccc22"];
+  "brahman" -> "parmenides-being" [color="#cccccc22"];
+  "brahman" -> "parmenides-being" [color="#cccccc22"];
   "carvaka" -> "vyapti" [color="#cccccc22"];
   "carvaka" -> "vyapti" [color="#cccccc22"];
   "carvaka" -> "pramana-nyaya" [color="#cccccc22"];
@@ -429,6 +438,8 @@ digraph ancient_texts {
   "cynicism" -> "stoicism" [color="#cccccc22"];
   "cynicism" -> "aparigraha" [color="#cccccc22"];
   "cynicism" -> "aparigraha" [color="#cccccc22"];
+  "cynicism" -> "tapas" [color="#cccccc22"];
+  "cynicism" -> "tapas" [color="#cccccc22"];
   "dana" -> "ahimsa" [color="#cccccc22"];
   "dana" -> "aparigraha" [color="#cccccc22"];
   "dana" -> "ahimsa-buddhist" [color="#cccccc22"];
@@ -625,6 +636,7 @@ digraph ancient_texts {
   "madhyamaka" -> "abhidharma" [color="#cccccc22"];
   "madhyamaka" -> "santaraksita" [color="#cccccc22"];
   "madhyamaka" -> "prasanga-nagarjuna" [color="#cccccc22"];
+  "madhyamaka" -> "mulamadhyamakakarika" [color="#cccccc22"];
   "manah-paryaya-jnana" -> "pramana" [color="#cccccc22"];
   "manah-paryaya-jnana" -> "upayoga" [color="#cccccc22"];
   "manah-paryaya-jnana" -> "kevala-jnana" [color="#cccccc22"];
@@ -711,6 +723,7 @@ digraph ancient_texts {
   "nirvana-buddhist" -> "moksha" [color="#cccccc22"];
   "nirvana-buddhist" -> "anatta-buddhist" [color="#cccccc22"];
   "nirvana-buddhist" -> "dukkha" [color="#cccccc22"];
+  "nirvana-buddhist" -> "theravada" [color="#cccccc22"];
   "nishcaya-vyavahara" -> "naya" [color="#cccccc22"];
   "nishcaya-vyavahara" -> "vyavahara-naya" [color="#cccccc22"];
   "nishcaya-vyavahara" -> "vyavahara-naya" [color="#cccccc22"];
@@ -756,6 +769,7 @@ digraph ancient_texts {
   "parinamavada" -> "sat" [color="#cccccc22"];
   "parinamavada" -> "vivartavada" [color="#cccccc22"];
   "parinamavada" -> "vivartavada" [color="#cccccc22"];
+  "parinamavada" -> "satkaryavada" [color="#cccccc22"];
   "parmenides-being" -> "brahman" [color="#cccccc22"];
   "parmenides-being" -> "brahman" [color="#cccccc22"];
   "parmenides-being" -> "sat" [color="#cccccc22"];
@@ -795,6 +809,7 @@ digraph ancient_texts {
   "plotinus-one" -> "brahman" [color="#cccccc22"];
   "plotinus-one" -> "plato-forms" [color="#cccccc22"];
   "plotinus-one" -> "atman-vedanta" [color="#cccccc22"];
+  "plotinus-one" -> "neoplatonism" [color="#cccccc22"];
   "prakriti-samkhya" -> "pudgala" [color="#cccccc22"];
   "prakriti-samkhya" -> "pudgala" [color="#cccccc22"];
   "prakriti-samkhya" -> "guna-samkhya" [color="#cccccc22"];
@@ -830,6 +845,7 @@ digraph ancient_texts {
   "prasanga-nagarjuna" -> "anumana-nyaya" [color="#cccccc22"];
   "prasanga-nagarjuna" -> "pyrrhonism" [color="#cccccc22"];
   "prasanga-nagarjuna" -> "pyrrhonism" [color="#cccccc22"];
+  "prasanga-nagarjuna" -> "mulamadhyamakakarika" [color="#cccccc22"];
   "pratityasamutpada" -> "karma" [color="#cccccc22"];
   "pratityasamutpada" -> "nirvana-buddhist" [color="#cccccc22"];
   "pratityasamutpada" -> "karma" [color="#cccccc22"];
@@ -842,6 +858,8 @@ digraph ancient_texts {
   "pudgala" -> "skandha" [color="#cccccc22"];
   "pudgala" -> "karma-vargana" [color="#cccccc22"];
   "pudgala" -> "prakriti-samkhya" [color="#cccccc22"];
+  "pudgala" -> "pancha-mahabhuta" [color="#cccccc22"];
+  "pudgala" -> "pancha-mahabhuta" [color="#cccccc22"];
   "purusha-samkhya" -> "jiva" [color="#cccccc22"];
   "purusha-samkhya" -> "atman-vedanta" [color="#cccccc22"];
   "purusha-samkhya" -> "prakriti-samkhya" [color="#cccccc22"];
@@ -862,6 +880,7 @@ digraph ancient_texts {
   "sabda-pramana" -> "shruta-jnana" [color="#cccccc22"];
   "sabda-pramana" -> "hetu-vidya" [color="#cccccc22"];
   "sabda-pramana" -> "pramana" [color="#cccccc22"];
+  "sabda-pramana" -> "shruta-jnana" [color="#cccccc22"];
   "samkhya-karika" -> "prakriti-samkhya" [color="#cccccc22"];
   "samkhya-karika" -> "purusha-samkhya" [color="#cccccc22"];
   "samkhya-karika" -> "guna-samkhya" [color="#cccccc22"];
@@ -922,6 +941,8 @@ digraph ancient_texts {
   "sat" -> "anekantavada" [color="#cccccc22"];
   "sat" -> "brahman" [color="#cccccc22"];
   "sat" -> "aristotle-substance" [color="#cccccc22"];
+  "sat" -> "parmenides-being" [color="#cccccc22"];
+  "sat" -> "parmenides-being" [color="#cccccc22"];
   "satkaryavada" -> "samkhya-karika" [color="#cccccc22"];
   "satkaryavada" -> "prakriti-samkhya" [color="#cccccc22"];
   "satkaryavada" -> "parinamavada" [color="#cccccc22"];
@@ -964,6 +985,8 @@ digraph ancient_texts {
   "stoicism" -> "aristotle-ethics" [color="#cccccc22"];
   "stoicism" -> "brahman" [color="#cccccc22"];
   "stoicism" -> "brahman" [color="#cccccc22"];
+  "stoicism" -> "yoga-darshana" [color="#cccccc22"];
+  "stoicism" -> "yoga-darshana" [color="#cccccc22"];
   "sunyata" -> "brahman" [color="#cccccc22"];
   "sunyata" -> "dravya" [color="#cccccc22"];
   "sunyata" -> "pratityasamutpada" [color="#cccccc22"];
@@ -1049,6 +1072,7 @@ digraph ancient_texts {
   "vijnaptimatrata" -> "citta" [color="#cccccc22"];
   "vijnaptimatrata" -> "dignaga-pramana" [color="#cccccc22"];
   "vijnaptimatrata" -> "madhyamaka" [color="#cccccc22"];
+  "vijnaptimatrata" -> "trisvabhava" [color="#cccccc22"];
   "vishishtadvaita" -> "brahma-sutra" [color="#cccccc22"];
   "vishishtadvaita" -> "dvaita-vedanta" [color="#cccccc22"];
   "vishishtadvaita" -> "dvaita-vedanta" [color="#cccccc22"];
@@ -1059,6 +1083,7 @@ digraph ancient_texts {
   "vivartavada" -> "brahma-sutra" [color="#cccccc22"];
   "vivartavada" -> "parinamavada" [color="#cccccc22"];
   "vivartavada" -> "parinamavada" [color="#cccccc22"];
+  "vivartavada" -> "satkaryavada" [color="#cccccc22"];
   "vyapti" -> "pramana" [color="#cccccc22"];
   "vyapti" -> "pramana-nyaya" [color="#cccccc22"];
   "vyapti" -> "hetu-vidya" [color="#cccccc22"];
@@ -1089,4 +1114,5 @@ digraph ancient_texts {
   "yogacara" -> "madhyamaka" [color="#cccccc22"];
   "yogacara" -> "madhyamaka" [color="#cccccc22"];
   "yogacara" -> "bodhisattva" [color="#cccccc22"];
+  "yogacara" -> "trisvabhava" [color="#cccccc22"];
 }

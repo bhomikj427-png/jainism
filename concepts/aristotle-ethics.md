@@ -34,3 +34,4 @@ Eudaimonia is **this-worldly and political**: it is achieved through virtuous ac
 - shares-vocabulary-with: aristotle-substance | same author-tradition; the function argument depends on hylomorphic substance — what a thing IS determines what it does well
 - historically-influenced-by: plato-forms | Aristotle's virtue ethics partly critiques Platonic separation of the Good (Form of the Good is not actionable in a particular life; Aristotle grounds the good in human function)
 - shares-vocabulary-with: aristotle-logic | same corpus; the syllogistic structure of practical reasoning in EN mirrors theoretical syllogism in Prior Analytics
+- expressed-by: four-causes | the function argument for eudaimonia invokes the final cause (telos of human nature); Aristotle's ethics is formally grounded in the four-causes framework — virtue actualises the proper form of the human soul

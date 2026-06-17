@@ -60,3 +60,5 @@ Every pudgala — from the ultimate paramāṇu to the largest aggregate — has
 - expressed-by: skandha | skandha is the aggregate form of pudgala
 - expressed-by: karma-vargana | kārmaṇa-varganā is the finest subclass of pudgala skandha; it is pudgala matter at the resolution where it can adhere to and affect jīva
 - structurally-parallel-to: prakriti-samkhya | Sāṃkhya's *prakṛti* is also the material pole opposite the conscious principle; but Sāṃkhya's material is one continuous substance, Jain pudgala is discrete atoms — different ontology
+- shares-vocabulary-with: pancha-mahabhuta | both are frameworks for physical/material reality; the mahābhūtas are five typed elements, pudgala is a single category of atomic matter composable from paramāṇu to large skandha — different analytical schemas for what matter is
+- often-conflated-with-NOT-equivalent: pancha-mahabhuta | pudgala is the genus of all physical matter (atom → aggregate); mahābhūtas are element-*types* — pudgala is the category of matter, mahābhūtas are a typology within it

@@ -60,3 +60,4 @@ Nirvāṇa (Pali: *nibbāna*) is **liberation from conditioned existence** in Bu
 - shares-vocabulary-with: moksha | both traditions use "liberation" terminology; Jain/Buddhist/Hindu uses diverge on whether a self persists
 - part-of: anatta-buddhist | nirvāṇa is the goal of the anattā doctrine; if no self was ever real, nirvāṇa is not the destruction of a self but the cessation of the illusion of one (forward link to anatta-buddhist.md, batch 5)
 - shares-vocabulary-with: dukkha | nirvāṇa and dukkha are defined relationally — nirvāṇa IS the unconditioned cessation of conditioned dukkha; neither concept is intelligible without the other
+- part-of: theravada | nibbāna (Pali) is the Theravāda liberation goal; the Udāna passages and Pali Canon sources cited here are Theravāda texts
