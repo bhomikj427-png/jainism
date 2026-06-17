@@ -92,6 +92,7 @@ digraph ancient_texts {
     "tathagata-garbha" [label="tathāgatagarbha" fillcolor="#ff8c5a" shape=ellipse];
     "trisvabhava" [label="trisvabhāva" fillcolor="#ff8c5a" shape=ellipse];
     "vijnaptimatrata" [label="vijñaptimātratā" fillcolor="#ff8c5a" shape=ellipse];
+    "yogacara" [label="Yogācāra" fillcolor="#ff8c5a" shape=ellipse];
   }
   subgraph "cluster_Nyaya-Vaisheshika" { style=invis; peripheries=0;
     "anumana-nyaya" [label="anumāna (Nyāya)" fillcolor="#5b9bff" shape=ellipse];
@@ -104,15 +105,18 @@ digraph ancient_texts {
     "vaiseshika-sutra" [label="Vaiśeṣikasūtra" fillcolor="#5b9bff" shape=ellipse];
   }
   subgraph "cluster_Vedanta" { style=invis; peripheries=0;
+    "advaita-vedanta" [label="Advaita Vedānta" fillcolor="#4fd16b" shape=ellipse];
     "ahimsa-vedic" [label="ahiṃsā (Vedic/Hindu)" fillcolor="#4fd16b" shape=ellipse];
     "atman-vedanta" [label="ātman (Vedānta)" fillcolor="#4fd16b" shape=ellipse];
     "avatara-vedanta" [label="avatāra" fillcolor="#4fd16b" shape=ellipse];
     "brahman" [label="brahman" fillcolor="#4fd16b" shape=ellipse];
+    "dvaita-vedanta" [label="Dvaita Vedānta" fillcolor="#4fd16b" shape=ellipse];
     "karma-vedic" [label="karma (Vedic/Hindu)" fillcolor="#4fd16b" shape=ellipse];
     "maya-advaita" [label="māyā (Advaita)" fillcolor="#4fd16b" shape=ellipse];
     "mimamsa-pramana" [label="pramāṇa (Mīmāṃsā)" fillcolor="#4fd16b" shape=ellipse];
     "moksha-advaita" [label="mokṣa (Advaita)" fillcolor="#4fd16b" shape=ellipse];
     "omniscience-vedanta" [label="sarvajñatva (Vedānta)" fillcolor="#4fd16b" shape=ellipse];
+    "vishishtadvaita" [label="Viśiṣṭādvaita" fillcolor="#4fd16b" shape=ellipse];
   }
   subgraph "cluster_Samkhya-Yoga" { style=invis; peripheries=0;
     "citta-vritti" [label="citta-vṛtti" fillcolor="#c77dff" shape=ellipse];
@@ -135,9 +139,11 @@ digraph ancient_texts {
     "aristotle-ethics" [label="aristotle-ethics" fillcolor="#b8b8b8" shape=ellipse];
     "aristotle-logic" [label="aristotle-logic" fillcolor="#b8b8b8" shape=ellipse];
     "aristotle-substance" [label="ousia (Aristotle)" fillcolor="#b8b8b8" shape=ellipse];
+    "cynicism" [label="Cynicism (Kynismos)" fillcolor="#b8b8b8" shape=ellipse];
     "democritus-atom" [label="atomos (Greek)" fillcolor="#b8b8b8" shape=ellipse];
     "epicurus-atom" [label="atomos / clinamen (Epicurean)" fillcolor="#b8b8b8" shape=ellipse];
     "epicurus-ethics" [label="ataraxia / hēdonē (Epicurean)" fillcolor="#b8b8b8" shape=ellipse];
+    "neoplatonism" [label="Neoplatonism" fillcolor="#b8b8b8" shape=ellipse];
     "parmenides-being" [label="to eon (Parmenidean Being, Greek)" fillcolor="#b8b8b8" shape=ellipse];
     "plato-forms" [label="eidos (Plato)" fillcolor="#b8b8b8" shape=ellipse];
     "plato-soul" [label="Plato's soul (tripartite)" fillcolor="#b8b8b8" shape=ellipse];
@@ -180,6 +186,15 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain" [color="#cccccc22"];
   "adharma-dravya" -> "dharma-dravya" [color="#cccccc22"];
   "adharma-dravya" -> "karma-vedic" [color="#cccccc22"];
+  "advaita-vedanta" -> "brahma-sutra" [color="#cccccc22"];
+  "advaita-vedanta" -> "maya-advaita" [color="#cccccc22"];
+  "advaita-vedanta" -> "moksha-advaita" [color="#cccccc22"];
+  "advaita-vedanta" -> "atman-vedanta" [color="#cccccc22"];
+  "advaita-vedanta" -> "vishishtadvaita" [color="#cccccc22"];
+  "advaita-vedanta" -> "vishishtadvaita" [color="#cccccc22"];
+  "advaita-vedanta" -> "dvaita-vedanta" [color="#cccccc22"];
+  "advaita-vedanta" -> "dvaita-vedanta" [color="#cccccc22"];
+  "advaita-vedanta" -> "sunyata" [color="#cccccc22"];
   "ahimsa-buddhist" -> "ahimsa" [color="#cccccc22"];
   "ahimsa-buddhist" -> "ahimsa" [color="#cccccc22"];
   "ahimsa-buddhist" -> "pratityasamutpada" [color="#cccccc22"];
@@ -371,6 +386,10 @@ digraph ancient_texts {
   "citta" -> "prakriti-samkhya" [color="#cccccc22"];
   "citta" -> "alaya-vijnana" [color="#cccccc22"];
   "citta" -> "citta-vritti" [color="#cccccc22"];
+  "cynicism" -> "stoicism" [color="#cccccc22"];
+  "cynicism" -> "stoicism" [color="#cccccc22"];
+  "cynicism" -> "aparigraha" [color="#cccccc22"];
+  "cynicism" -> "aparigraha" [color="#cccccc22"];
   "dana" -> "ahimsa" [color="#cccccc22"];
   "dana" -> "aparigraha" [color="#cccccc22"];
   "dana" -> "ahimsa-buddhist" [color="#cccccc22"];
@@ -420,6 +439,9 @@ digraph ancient_texts {
   "dukkha" -> "bandha" [color="#cccccc22"];
   "dukkha" -> "nirvana-buddhist" [color="#cccccc22"];
   "dukkha" -> "karma" [color="#cccccc22"];
+  "dvaita-vedanta" -> "brahma-sutra" [color="#cccccc22"];
+  "dvaita-vedanta" -> "jiva" [color="#cccccc22"];
+  "dvaita-vedanta" -> "jiva" [color="#cccccc22"];
   "dvisatya" -> "madhyamaka" [color="#cccccc22"];
   "dvisatya" -> "sunyata" [color="#cccccc22"];
   "dvisatya" -> "maya-advaita" [color="#cccccc22"];
@@ -620,6 +642,10 @@ digraph ancient_texts {
   "naya" -> "dravyarthika-naya" [color="#cccccc22"];
   "naya" -> "paryayarthika-naya" [color="#cccccc22"];
   "naya" -> "nishcaya-vyavahara" [color="#cccccc22"];
+  "neoplatonism" -> "plotinus-one" [color="#cccccc22"];
+  "neoplatonism" -> "plato-forms" [color="#cccccc22"];
+  "neoplatonism" -> "advaita-vedanta" [color="#cccccc22"];
+  "neoplatonism" -> "advaita-vedanta" [color="#cccccc22"];
   "nirjara" -> "karma" [color="#cccccc22"];
   "nirjara" -> "samvara" [color="#cccccc22"];
   "nirjara" -> "moksha" [color="#cccccc22"];
@@ -851,6 +877,7 @@ digraph ancient_texts {
   "stoic-logos" -> "aristotle-logic" [color="#cccccc22"];
   "stoic-logos" -> "stoicism" [color="#cccccc22"];
   "stoicism" -> "stoic-logos" [color="#cccccc22"];
+  "stoicism" -> "cynicism" [color="#cccccc22"];
   "stoicism" -> "epicurus-ethics" [color="#cccccc22"];
   "stoicism" -> "epicurus-ethics" [color="#cccccc22"];
   "stoicism" -> "aristotle-ethics" [color="#cccccc22"];
@@ -934,6 +961,9 @@ digraph ancient_texts {
   "vijnaptimatrata" -> "citta" [color="#cccccc22"];
   "vijnaptimatrata" -> "dignaga-pramana" [color="#cccccc22"];
   "vijnaptimatrata" -> "madhyamaka" [color="#cccccc22"];
+  "vishishtadvaita" -> "brahma-sutra" [color="#cccccc22"];
+  "vishishtadvaita" -> "dvaita-vedanta" [color="#cccccc22"];
+  "vishishtadvaita" -> "dvaita-vedanta" [color="#cccccc22"];
   "vyapti" -> "pramana" [color="#cccccc22"];
   "vyapti" -> "pramana-nyaya" [color="#cccccc22"];
   "vyapti" -> "hetu-vidya" [color="#cccccc22"];
@@ -958,4 +988,9 @@ digraph ancient_texts {
   "yoga-darshana" -> "tapas" [color="#cccccc22"];
   "yoga-darshana" -> "gunasthana" [color="#cccccc22"];
   "yoga-darshana" -> "gunasthana" [color="#cccccc22"];
+  "yogacara" -> "vijnaptimatrata" [color="#cccccc22"];
+  "yogacara" -> "alaya-vijnana" [color="#cccccc22"];
+  "yogacara" -> "abhidharmakosa" [color="#cccccc22"];
+  "yogacara" -> "madhyamaka" [color="#cccccc22"];
+  "yogacara" -> "madhyamaka" [color="#cccccc22"];
 }

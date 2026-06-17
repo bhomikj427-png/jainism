@@ -1323,12 +1323,65 @@ School-anchor completion: the three Vedānta sub-schools behind `brahma-sutra`, 
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `advaita-vedanta.md` | pending | Śaṅkara's non-dualism as a school node; anchors brahman/maya-advaita/atman-vedanta/moksha-advaita; part-of brahma-sutra |
-| 2 | `vishishtadvaita.md` | pending | Rāmānuja's qualified non-dualism; part-of brahma-sutra; vs Advaita |
-| 3 | `dvaita-vedanta.md` | pending | Madhva's dualism; part-of brahma-sutra; the realist Vedānta closest to Jain pluralism |
-| 4 | `yogacara.md` | pending | Cittamātra/Vijñānavāda (Asaṅga/Vasubandhu); school behind alaya-vijnana + tathagata-garbha; vs Madhyamaka |
-| 5 | `cynicism.md` | pending | Diogenes; Greek ascetic-freedom school behind Stoicism |
-| 6 | `neoplatonism.md` | pending | Plotinus school behind plotinus-one; the One/emanation |
+| 1 | `advaita-vedanta.md` | done | converged, medium; SEP(Śaṅkara)+Wiki; Śaṅkara c.700-750 systematiser; Brahman alone real/maya-avidya; atman=Brahman; 3 truths; nirguna/saguna; moksha=epistemic shift via mahavakyas; jivanmukti; crypto-Buddhist charge; historically-influenced-by brahma-sutra |
+| 2 | `vishishtadvaita.md` | done | converged, medium; Wiki(Vishishtadvaita)+Wiki(Ramanuja); Rāmānuja c.1017-1137; qualified non-dualism; 3 reals Isvara/cit/acit; sarira-saririn; rejects maya; moksha=participation via bhakti+prapatti; weak independence (2 Wiki) noted |
+| 3 | `dvaita-vedanta.md` | done | converged, medium; Wiki+NewWorldEnc; Madhva 1238-1317; Tattvavada dualism; svatantra/paratantra; panca-bheda; bimba/pratibimba; 3 soul-classes incl. eternal damnation; structurally-parallel-to+NOT-equiv jiva |
+| 4 | `yogacara.md` | done | converged, medium; Wiki+EoB; Maitreya/Asanga/Vasubandhu; school-overview distinct from vijnaptimatrata doctrine node; 8 consciousnesses/trisvabhava/asraya-paravrtti; historically-influenced-by abhidharmakosa; vs madhyamaka |
+| 5 | `cynicism.md` | done | converged, medium; IEP+Wiki; Antisthenes/Diogenes(c.412-323)/Crates; virtue-only/kata physin/autarkeia; Crates taught Zeno; parallel+NOT-equiv stoicism + aparigraha; +1 inbound added to stoicism |
+| 6 | `neoplatonism.md` | done | converged, medium; Wiki+SEP(Plotinus); Plotinus 204-270; Enneads/Porphyry/Iamblichus/Proclus; 3 hypostases One/Nous/Soul; emanation+return+henosis; expressed-by plotinus-one; vs advaita-vedanta |
+
+## Run log — Batch 21 (2026-06-17, continuous with Batch 20)
+
+### Startup reconcile
+- Working tree clean at start (HEAD 2af2456, after the Batch-20 anchor commits). No interrupted drafts. progress.md reconciled to git: Batch 20 had `abhidharmakosa` still **pending** → completed as the first action of this session (commit f1e1de7), closing Batch 20. Then opened Batch 21.
+- Discovery: `vijnaptimatrata`, `alaya-vijnana`, `tathagata-garbha`, `plotinus-one` already existed as **doctrine** nodes; their parent **school-overview** nodes (`yogacara`, `neoplatonism`) did not — confirming the school-vs-doctrine split as the Batch-21 theme.
+
+### Concepts completed: 6 / 6 (0 blocked, 0 needs-opus-review) — plus Batch-20 closeout (abhidharmakosa)
+
+| concept | status | confidence | key source / fetch |
+|---|---|---|---|
+| advaita-vedanta | converged | medium | SEP "Śaṅkara" + Wikipedia "Advaita Vedanta"; 8th-c. systematiser; māyā/avidyā; ātman=Brahman; 3 truths; nirguṇa/saguṇa; mokṣa=epistemic; jīvanmukti; māyāvāda/crypto-Buddhist charge |
+| vishishtadvaita | converged | medium | Wikipedia "Vishishtadvaita" + "Ramanuja" (weakly independent — same platform; corroborated by brahma-sutra.md); Śrī Bhāṣya; cit/acit as body of Brahman; bhakti/prapatti |
+| dvaita-vedanta | converged | medium | Wikipedia "Dvaita Vedanta" + New World Enc. "Madhva"; svatantra/paratantra; pañca-bheda; bimba/pratibimba; eternal damnation; vs Jain jīva pluralism |
+| yogacara | converged | medium | Wikipedia "Yogachara" + Encyclopedia of Buddhism "Yogachara"; Maitreya/Asaṅga/Vasubandhu; 8 consciousnesses; trisvabhāva; āśraya-parāvṛtti; vs Madhyamaka |
+| cynicism | converged | medium | IEP "Cynics" + Wikipedia "Cynicism"; Diogenes c.412-323; autarkeia/askēsis/anaideia/parrhēsia; Crates→Zeno; vs Stoicism + aparigraha |
+| neoplatonism | converged | medium | Wikipedia "Neoplatonism" + SEP "Plotinus"; Enneads/Porphyry; One/Nous/Soul; proodos/epistrophē/henosis; vs Advaita emanation/return |
+
+### Integration (no orphans; reciprocal inbounds added)
+- Three Vedānta sub-schools each `historically-influenced-by: brahma-sutra`; interlinked by the sanctioned `structurally-parallel-to` + `often-conflated-with-NOT-equivalent` pair (advaita↔vishishtadvaita↔dvaita); dvaita cross-links to Jain `jiva` (pluralism, theistic-dependent vs non-theistic-independent).
+- `yogacara` `expressed-by: vijnaptimatrata` + `alaya-vijnana`; `historically-influenced-by: abhidharmakosa` (same author Vasubandhu — reciprocates the Batch-20 anchor); parallel+NOT-equiv `madhyamaka`.
+- `cynicism`: parallel+NOT-equiv `stoicism` + `aparigraha`; reciprocal inbound `stoicism → cynicism` (historically-influenced-by) added to stoicism.md.
+- `neoplatonism` `expressed-by: plotinus-one`; `historically-influenced-by: plato-forms`; parallel+NOT-equiv `advaita-vedanta` (links the two batch clusters).
+
+### Mechanical audit (§10)
+- Only valid §5 edge types in all new files (expressed-by, historically-influenced-by, part-of, structurally-parallel-to, often-conflated-with-NOT-equivalent). No `is-a-type-of` used → no direction/cycle risk. All multi-type ordered pairs are the sanctioned (parallel|shares-vocab)+NOT-equivalent combo.
+- One stub introduced mid-draft (`sarvastivada-time` in abhidharmakosa) was caught and removed before commit to preserve the **0-stub** invariant.
+- **0 unwritten stubs**: build_graph.py reports **144 nodes = 144 concept files**; every edge target resolves.
+
+### Graph (regenerated)
+`python graph/build_graph.py` clean: **144 nodes, 825 edges**. graph.dot + graph.html refreshed; graph.svg rendered via dot.exe (411 KB).
+
+### Corpus milestone: 144 concepts across 21 batches + 3 linker passes. 0 unwritten stubs.
+
+### Notable findings
+1. **The three Vedānta sub-schools are now a complete, mapped triad** behind `brahma-sutra`: one root text → Advaita (only nirguṇa Brahman real; world = māyā; mokṣa = identity) → Viśiṣṭādvaita (souls/matter real *modes* of Brahman; mokṣa = participation) → Dvaita (five eternal differences; souls eternally *distinct & dependent*; mokṣa = service). The corpus's clearest case of one authority generating mutually exclusive readings — now drawn as parallel+NOT-equivalent edges rather than asserted in prose.
+2. **Dvaita is the closest Vedānta analogue to Jain pluralism** (real, eternal, graded plurality of distinct souls) — but the NOT-equivalent guard is sharp: Madhva's souls are eternally God-dependent (svatantra/paratantra), Jain jīvas independent in a creator-less cosmos. A new, defensible Vedānta↔Jain cross-edge.
+3. **The two great Mahāyāna schools are now both anchored**: madhyamaka (root text mulamadhyamakakarika, B20) and yogacara (this batch), with the "real exists/conventional doesn't" vs "real doesn't/conventional does" contrast and the Śāntarakṣita synthesis. `yogacara` was kept strictly to the *school* layer (lineage, eight consciousnesses, trisvabhāva) to avoid duplicating the existing `vijnaptimatrata` doctrine node.
+4. **The Greek school layer deepened**: `cynicism` supplies Stoicism's missing ancestor (Crates→Zeno) and a genuine — but carefully bounded — parallel to Jain aparigraha; `neoplatonism` supplies the school behind the existing `plotinus-one` and links the Greek and Advaita clusters via the emanation/return ≈ Brahman/māyā parallel.
+
+### Suggested Batch 22 (names only — no files written)
+Vedānta depth (now that the three schools exist):
+- `vivarta` vs `parinama` — the appearance-transformation vs real-transformation theories of causation dividing Advaita from Viśiṣṭādvaita/Sāṃkhya
+- `nimbarka` / `vallabha` — the remaining bhedābheda Vedānta sub-schools (Dvaitādvaita / Śuddhādvaita), if warranted
+- `bhakti` — devotion as a soteriological path (central to Viśiṣṭādvaita + Dvaita; contrast jñāna-mārga and karma-mārga)
+Buddhist depth:
+- `trisvabhava` — the three-natures doctrine as its own node (forward-referenced in yogacara prose)
+- `santaraksita` is written; consider `madhyamakalankara` (his text) or the `bodhisattva` ideal
+Greek/Hellenistic remainder:
+- `aristotle-substance` companions: `actuality-potentiality` or `four-causes`; or `pyrrhonism` is done — consider `academic-skepticism`
+- Linker pass 4: full audit over all 144 files (orphans / pairing / duplicates / is-a direction); update `.linker-state`.
+
+---
 
 ## Graph toolchain installed + rendered (2026-06-16)
 
