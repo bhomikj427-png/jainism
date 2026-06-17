@@ -1262,6 +1262,48 @@ Linker pass 4:
 | 5 | `parmenides-being.md` | done | converged, medium; SEP+Wikipedia; c.515-450 BCE; On Nature, Truth/Opinion; "it is and cannot not be"; sēmata of to eon; change/plurality illusory; Eleatics; vs brahman + vs sat (permanence vs permanence-in-change); +1 inbound from plato-forms |
 | 6 | `mimamsa-sutra.md` | done | converged, medium; Wikipedia+darśana-site aggregation; Jaimini ~300-200 BCE; 12 adhyāyas/60 pādas; MS 1.1.2 codanā-lakṣaṇo dharmaḥ; apauruṣeyatva; śabda-nityatva; apūrva; Śābara-bhāṣya; +1 inbound from mimamsa-pramana |
 
+## Run log — Batch 19 (2026-06-17, continuous with Batch 18)
+
+### Concepts completed: 6 / 6 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | key source / fetch |
+|---|---|---|---|
+| nyaya-sutra | converged | medium | Wikipedia "Nyaya Sutras" + IEP "Nyāya"; Gautama/Akṣapāda ~200 CE; 16 padārthas; 4 pramāṇas; 5-member syllogism; apavarga |
+| pramana-samuccaya | converged | medium | EoB "Pramāṇasamuccaya" + Tibetan Buddhist Enc. + EoB "Dignāga"; Dignāga c.480-540; 6 chapters; 2 pramāṇas/2 objects; trairūpya; apoha; Sanskrit reconstructed from Tibetan |
+| pramanavarttika | converged | medium | Wikipedia "Pramanavarttika" + SEP "Dharmakīrti"; c.600-660; commentary on Pramāṇasamuccaya; arthakriyā; momentariness; causal apoha; Sautrāntika→Yogācāra |
+| stoicism | converged | medium | SEP + IEP "Stoicism"; Zeno/Chrysippus; logic-physics-ethics; pneuma/logos + fate + ekpyrosis; virtue-only; apatheia(engagement) vs ataraxia(withdrawal) |
+| parmenides-being | converged | medium | SEP "Parmenides" + Wikipedia; c.515-450 BCE; Truth/Opinion; "it is and cannot not be"; sēmata; change/plurality illusory; Eleatics |
+| mimamsa-sutra | converged | medium | Wikipedia "Purva Mimamsa Sutras" + darśana-site aggregation; Jaimini ~300-200 BCE; 12 adhyāyas; MS 1.1.2; apauruṣeyatva; apūrva; Śābara-bhāṣya |
+
+### Primary-text anchor programme (the spine of Batches 17–19)
+With this batch, every major Indian darśana in the corpus now has its own primary-text node behind the doctrine files:
+**Nyāya → nyaya-sutra**, **Vaiśeṣika → vaiseshika-sutra** (B17), **Sāṃkhya → samkhya-karika** (B18), **Yoga → yoga-darshana** (B18), **Mīmāṃsā → mimamsa-sutra**, **Buddhist pramāṇavāda → pramana-samuccaya (Dignāga) + pramanavarttika (Dharmakīrti)**. Each anchor uses `expressed-by:` toward its worked-out doctrine files and receives one reciprocal inbound (`part-of:` or `historically-influenced-by:`) so no orphan is introduced.
+
+### Integration (no orphans introduced)
+`pramana-nyaya → nyaya-sutra` (part-of); `dignaga-pramana → pramana-samuccaya` (part-of); `dharmottara → pramanavarttika` (historically-influenced-by); `stoic-logos → stoicism` (part-of); `plato-forms → parmenides-being` (historically-influenced-by); `mimamsa-pramana → mimamsa-sutra` (part-of).
+
+### Mechanical audit (§10)
+- Only valid §5 edge types in the 6 new files (expressed-by, historically-influenced-by, part-of, shares-vocabulary-with, structurally-parallel-to, often-conflated-with-NOT-equivalent).
+- Multi-type ordered pairs all the sanctioned (parallel|shares-vocab) + NOT-equivalent combo; no is-a-type-of used in the new files; `part-of` and `expressed-by` between an anchor and its doctrine file run in *opposite* ordered directions (different ordered pairs), so no pairing violation.
+- **0 unwritten stubs**: build_graph.py reports **134 nodes = 134 concept files**; every edge target resolves.
+
+### Graph (regenerated)
+`python graph/build_graph.py` clean: **134 nodes, 768 edges**. graph.dot + graph.html refreshed; graph.svg rendered via dot.exe (381 KB).
+
+### Corpus milestone: 134 concepts across 19 batches + 3 linker passes. 0 unwritten stubs.
+
+### Notable findings
+1. **The pramāṇa-tradition rivalry is now anchored at the root-text level**: nyaya-sutra (4 pramāṇas, realist about universals) vs pramana-samuccaya/pramanavarttika (2 pramāṇas, apoha-nominalist) vs mimamsa-sutra (apauruṣeya śabda, svataḥ-prāmāṇya). The Buddhist two-text lineage (Dignāga → Dharmakīrti, historically-influenced-by) and the Dharmakīrti → Dharmottara commentary chain are now explicit edges.
+2. **Greek "being/tranquillity" comparanda sharpened against India**: parmenides-being is the strongest Brahman-analogue in the Greek corpus, but split from both Brahman (Being is deduced, not realised consciousness/ātman) and Jain sat (Being excludes change vs sat = permanence-in-change). stoicism completes the Hellenistic ethics pair — apatheia (engagement/virtue) vs Epicurean ataraxia (withdrawal/pleasure) — both now distinct nodes.
+3. **mimamsa-sutra's apauruṣeyatva is the unique scripture-ontology in the corpus**: an authorless, eternal, self-validating Veda needing no divine author — contrasted at the root-text level with Nyāya's reliable-speaker/God-grounded śabda.
+
+### Suggested Batch 20 (names only — no files written)
+- `samkhya-karika` is done; consider `ishvarakrishna` only if a person-node is warranted (probably not — fold into samkhya-karika).
+- `epicurus-atom`/`epicurus-ethics` done; Hellenistic remainder: `cynicism` (Diogenes; the ascetic-freedom school behind Stoicism) or `neoplatonism` (Proclus/Iamblichus behind plotinus-one).
+- Indian primary-text anchors remaining: `brahma-sutra` (Bādarāyaṇa, behind brahman / atman-vedanta / the Vedānta sub-schools); `yogasutra-text` only if distinct from yoga-darshana (likely fold in).
+- Buddhist: `mulamadhyamakakarika` (Nāgārjuna's root text behind madhyamaka / sunyata / catuskoti / dvisatya) — a major missing primary-text anchor.
+- Linker pass 4: full audit over all 134 files; update `.linker-state`.
+
 ## Graph toolchain installed + rendered (2026-06-16)
 
 The long-standing "Python + Graphviz not on this machine" blocker is **resolved**. Installed

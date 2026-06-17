@@ -37,6 +37,7 @@ Counts: 122 concept files total.
 | anumana-nyaya | converged | medium |
 | dravya-vaisheshika | converged | medium |
 | jati | converged | medium |
+| nyaya-sutra | converged | medium |
 | paramanu-vaisheshika | converged | medium |
 | pramana-nyaya | converged | medium |
 | tarka | converged | medium |
@@ -58,6 +59,7 @@ Counts: 122 concept files total.
 | concept | status | confidence |
 |---|---|---|
 | arthapatti | converged | medium |
+| mimamsa-sutra | converged | medium |
 
 ### Vedānta
 
@@ -155,6 +157,8 @@ Counts: 122 concept files total.
 | madhyamaka | converged | medium |
 | namarupa | converged | medium |
 | nirvana-buddhist | converged | medium |
+| pramana-samuccaya | converged | medium |
+| pramanavarttika | converged | medium |
 | prasanga-nagarjuna | converged | medium |
 | pratityasamutpada | converged | medium |
 | santaraksita | converged | medium |
@@ -179,9 +183,11 @@ Counts: 122 concept files total.
 | paraconsistent-logic | converged | medium |
 | plato-forms | converged | medium |
 | plato-soul | converged | medium |
+| parmenides-being | converged | medium |
 | plotinus-one | converged | medium |
 | pyrrhonism | converged | medium |
 | stoic-logos | converged | medium |
+| stoicism | converged | medium |
 
 ## Modern Physics & Logic Comparanda
 

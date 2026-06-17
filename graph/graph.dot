@@ -79,6 +79,8 @@ digraph ancient_texts {
     "madhyamaka" [label="madhyamaka" fillcolor="#ff8c5a" shape=ellipse];
     "namarupa" [label="nāmarūpa" fillcolor="#ff8c5a" shape=ellipse];
     "nirvana-buddhist" [label="nirvāṇa (Buddhist)" fillcolor="#ff8c5a" shape=ellipse];
+    "pramana-samuccaya" [label="Pramāṇasamuccaya" fillcolor="#ff8c5a" shape=ellipse];
+    "pramanavarttika" [label="Pramāṇavārttika" fillcolor="#ff8c5a" shape=ellipse];
     "prasanga-nagarjuna" [label="prasaṅga" fillcolor="#ff8c5a" shape=ellipse];
     "pratityasamutpada" [label="pratītyasamutpāda" fillcolor="#ff8c5a" shape=ellipse];
     "santaraksita" [label="Śāntarakṣita" fillcolor="#ff8c5a" shape=ellipse];
@@ -92,6 +94,7 @@ digraph ancient_texts {
     "anumana-nyaya" [label="anumāna (Nyāya)" fillcolor="#5b9bff" shape=ellipse];
     "dravya-vaisheshika" [label="dravya (Vaiśeṣika)" fillcolor="#5b9bff" shape=ellipse];
     "jati" [label="jāti" fillcolor="#5b9bff" shape=ellipse];
+    "nyaya-sutra" [label="Nyāyasūtra" fillcolor="#5b9bff" shape=ellipse];
     "paramanu-vaisheshika" [label="paramāṇu (Vaiśeṣika)" fillcolor="#5b9bff" shape=ellipse];
     "pramana-nyaya" [label="pramāṇa (Nyāya)" fillcolor="#5b9bff" shape=ellipse];
     "tarka" [label="tarka" fillcolor="#5b9bff" shape=ellipse];
@@ -118,6 +121,7 @@ digraph ancient_texts {
   }
   subgraph "cluster_Mimamsa" { style=invis; peripheries=0;
     "arthapatti" [label="arthāpatti" fillcolor="#2dd4bf" shape=ellipse];
+    "mimamsa-sutra" [label="Mīmāṃsāsūtra" fillcolor="#2dd4bf" shape=ellipse];
   }
   subgraph "cluster_Carvaka" { style=invis; peripheries=0;
     "carvaka" [label="Cārvāka" fillcolor="#d9a066" shape=ellipse];
@@ -130,11 +134,13 @@ digraph ancient_texts {
     "democritus-atom" [label="atomos (Greek)" fillcolor="#b8b8b8" shape=ellipse];
     "epicurus-atom" [label="atomos / clinamen (Epicurean)" fillcolor="#b8b8b8" shape=ellipse];
     "epicurus-ethics" [label="ataraxia / hēdonē (Epicurean)" fillcolor="#b8b8b8" shape=ellipse];
+    "parmenides-being" [label="to eon (Parmenidean Being, Greek)" fillcolor="#b8b8b8" shape=ellipse];
     "plato-forms" [label="eidos (Plato)" fillcolor="#b8b8b8" shape=ellipse];
     "plato-soul" [label="Plato's soul (tripartite)" fillcolor="#b8b8b8" shape=ellipse];
     "plotinus-one" [label="plotinus-one" fillcolor="#b8b8b8" shape=ellipse];
     "pyrrhonism" [label="epochē / Pyrrhonism (Greek)" fillcolor="#b8b8b8" shape=ellipse];
     "stoic-logos" [label="stoic-logos" fillcolor="#b8b8b8" shape=ellipse];
+    "stoicism" [label="Stōïkismos (Greek)" fillcolor="#b8b8b8" shape=ellipse];
   }
   subgraph "cluster_Modern/Western" { style=invis; peripheries=0;
     "fuzzy-logic" [label="fuzzy-logic" fillcolor="#dcdcdc" shape=ellipse];
@@ -366,6 +372,7 @@ digraph ancient_texts {
   "dharma-dravya" -> "karma-vedic" [color="#cccccc22"];
   "dharmottara" -> "hetu-vidya" [color="#cccccc22"];
   "dharmottara" -> "dignaga-pramana" [color="#cccccc22"];
+  "dharmottara" -> "pramanavarttika" [color="#cccccc22"];
   "dharmottara" -> "vyapti" [color="#cccccc22"];
   "dharmottara" -> "mimamsa-pramana" [color="#cccccc22"];
   "dharmottara" -> "pramana-nyaya" [color="#cccccc22"];
@@ -380,6 +387,7 @@ digraph ancient_texts {
   "dignaga-pramana" -> "pramana" [color="#cccccc22"];
   "dignaga-pramana" -> "anatta-buddhist" [color="#cccccc22"];
   "dignaga-pramana" -> "pratityasamutpada" [color="#cccccc22"];
+  "dignaga-pramana" -> "pramana-samuccaya" [color="#cccccc22"];
   "dravya-vaisheshika" -> "dravya" [color="#cccccc22"];
   "dravya-vaisheshika" -> "atman-vedanta" [color="#cccccc22"];
   "dravya-vaisheshika" -> "vaiseshika-sutra" [color="#cccccc22"];
@@ -552,6 +560,12 @@ digraph ancient_texts {
   "mimamsa-pramana" -> "dignaga-pramana" [color="#cccccc22"];
   "mimamsa-pramana" -> "brahman" [color="#cccccc22"];
   "mimamsa-pramana" -> "arthapatti" [color="#cccccc22"];
+  "mimamsa-pramana" -> "mimamsa-sutra" [color="#cccccc22"];
+  "mimamsa-sutra" -> "mimamsa-pramana" [color="#cccccc22"];
+  "mimamsa-sutra" -> "nyaya-sutra" [color="#cccccc22"];
+  "mimamsa-sutra" -> "nyaya-sutra" [color="#cccccc22"];
+  "mimamsa-sutra" -> "dharma-dravya" [color="#cccccc22"];
+  "mimamsa-sutra" -> "dharma-dravya" [color="#cccccc22"];
   "modern-atom" -> "paramanu" [color="#cccccc22"];
   "modern-atom" -> "paramanu-vaisheshika" [color="#cccccc22"];
   "modern-atom" -> "democritus-atom" [color="#cccccc22"];
@@ -598,6 +612,12 @@ digraph ancient_texts {
   "nishcaya-vyavahara" -> "dvisatya" [color="#cccccc22"];
   "nishcaya-vyavahara" -> "maya-advaita" [color="#cccccc22"];
   "nishcaya-vyavahara" -> "maya-advaita" [color="#cccccc22"];
+  "nyaya-sutra" -> "pramana-nyaya" [color="#cccccc22"];
+  "nyaya-sutra" -> "anumana-nyaya" [color="#cccccc22"];
+  "nyaya-sutra" -> "hetvabhasa" [color="#cccccc22"];
+  "nyaya-sutra" -> "tarka" [color="#cccccc22"];
+  "nyaya-sutra" -> "vaiseshika-sutra" [color="#cccccc22"];
+  "nyaya-sutra" -> "vaiseshika-sutra" [color="#cccccc22"];
   "omniscience-vedanta" -> "kevala-jnana" [color="#cccccc22"];
   "omniscience-vedanta" -> "atman-vedanta" [color="#cccccc22"];
   "omniscience-vedanta" -> "brahman" [color="#cccccc22"];
@@ -615,6 +635,12 @@ digraph ancient_texts {
   "paramanu" -> "skandha" [color="#cccccc22"];
   "paramanu" -> "paramanu-vaisheshika" [color="#cccccc22"];
   "paramanu" -> "modern-atom" [color="#cccccc22"];
+  "parmenides-being" -> "brahman" [color="#cccccc22"];
+  "parmenides-being" -> "brahman" [color="#cccccc22"];
+  "parmenides-being" -> "sat" [color="#cccccc22"];
+  "parmenides-being" -> "sat" [color="#cccccc22"];
+  "parmenides-being" -> "plato-forms" [color="#cccccc22"];
+  "parmenides-being" -> "democritus-atom" [color="#cccccc22"];
   "paroksha-jnana" -> "pramana" [color="#cccccc22"];
   "paroksha-jnana" -> "mati-jnana" [color="#cccccc22"];
   "paroksha-jnana" -> "shruta-jnana" [color="#cccccc22"];
@@ -636,6 +662,7 @@ digraph ancient_texts {
   "plato-forms" -> "dravya" [color="#cccccc22"];
   "plato-forms" -> "democritus-atom" [color="#cccccc22"];
   "plato-forms" -> "plato-soul" [color="#cccccc22"];
+  "plato-forms" -> "parmenides-being" [color="#cccccc22"];
   "plato-soul" -> "atman-vedanta" [color="#cccccc22"];
   "plato-soul" -> "jiva" [color="#cccccc22"];
   "plato-soul" -> "purusha-samkhya" [color="#cccccc22"];
@@ -656,9 +683,21 @@ digraph ancient_texts {
   "pramana-nyaya" -> "dravya-vaisheshika" [color="#cccccc22"];
   "pramana-nyaya" -> "atman-vedanta" [color="#cccccc22"];
   "pramana-nyaya" -> "aristotle-logic" [color="#cccccc22"];
+  "pramana-nyaya" -> "nyaya-sutra" [color="#cccccc22"];
+  "pramana-samuccaya" -> "dignaga-pramana" [color="#cccccc22"];
+  "pramana-samuccaya" -> "apoha" [color="#cccccc22"];
+  "pramana-samuccaya" -> "hetu-vidya" [color="#cccccc22"];
+  "pramana-samuccaya" -> "vijnaptimatrata" [color="#cccccc22"];
+  "pramana-samuccaya" -> "nyaya-sutra" [color="#cccccc22"];
+  "pramana-samuccaya" -> "nyaya-sutra" [color="#cccccc22"];
   "pramana" -> "naya" [color="#cccccc22"];
   "pramana" -> "kevala-jnana" [color="#cccccc22"];
   "pramana" -> "pramana-nyaya" [color="#cccccc22"];
+  "pramanavarttika" -> "pramana-samuccaya" [color="#cccccc22"];
+  "pramanavarttika" -> "hetu-vidya" [color="#cccccc22"];
+  "pramanavarttika" -> "apoha" [color="#cccccc22"];
+  "pramanavarttika" -> "nyaya-sutra" [color="#cccccc22"];
+  "pramanavarttika" -> "nyaya-sutra" [color="#cccccc22"];
   "prasanga-nagarjuna" -> "madhyamaka" [color="#cccccc22"];
   "prasanga-nagarjuna" -> "sunyata" [color="#cccccc22"];
   "prasanga-nagarjuna" -> "catuskoti" [color="#cccccc22"];
@@ -785,6 +824,14 @@ digraph ancient_texts {
   "stoic-logos" -> "aristotle-substance" [color="#cccccc22"];
   "stoic-logos" -> "pratityasamutpada" [color="#cccccc22"];
   "stoic-logos" -> "aristotle-logic" [color="#cccccc22"];
+  "stoic-logos" -> "stoicism" [color="#cccccc22"];
+  "stoicism" -> "stoic-logos" [color="#cccccc22"];
+  "stoicism" -> "epicurus-ethics" [color="#cccccc22"];
+  "stoicism" -> "epicurus-ethics" [color="#cccccc22"];
+  "stoicism" -> "aristotle-ethics" [color="#cccccc22"];
+  "stoicism" -> "aristotle-ethics" [color="#cccccc22"];
+  "stoicism" -> "brahman" [color="#cccccc22"];
+  "stoicism" -> "brahman" [color="#cccccc22"];
   "sunyata" -> "brahman" [color="#cccccc22"];
   "sunyata" -> "dravya" [color="#cccccc22"];
   "sunyata" -> "pratityasamutpada" [color="#cccccc22"];
