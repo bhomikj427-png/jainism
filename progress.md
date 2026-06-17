@@ -1259,7 +1259,7 @@ Linker pass 4:
 | 2 | `pramana-samuccaya.md` | done | converged, medium; EoB+Tibetan Buddhist Enc.+EoB(Dignāga); Dignāga c.480-540; 6 chapters; 2 pramāṇas/2 objects; kalpanāpoḍha; trairūpya; apoha; Tibetan reconstruction; +1 inbound from dignaga-pramana |
 | 3 | `pramanavarttika.md` | done | converged, medium; Wikipedia+SEP(Dharmakīrti); c.600-660; commentary on Pramāṇasamuccaya; 4 chapters; arthakriyā/causal-efficacy criterion; momentariness; trairūpya; causal apoha; Sautrāntika→Yogācāra; +1 inbound from dharmottara |
 | 4 | `stoicism.md` | done | converged, medium; SEP+IEP; Zeno/Chrysippus; logic-physics-ethics; pneuma/logos + fate + ekpyrosis; virtue-only good, indifferents, apatheia; apatheia(engagement) vs ataraxia(withdrawal); +1 inbound from stoic-logos |
-| 5 | `parmenides-being.md` | pending | eternal One/Being; tempting Brahman/sat conflation target |
+| 5 | `parmenides-being.md` | done | converged, medium; SEP+Wikipedia; c.515-450 BCE; On Nature, Truth/Opinion; "it is and cannot not be"; sēmata of to eon; change/plurality illusory; Eleatics; vs brahman + vs sat (permanence vs permanence-in-change); +1 inbound from plato-forms |
 | 6 | `mimamsa-sutra.md` | pending | Jaimini primary text behind mimamsa-pramana; apauruṣeyatva of the Veda |
 
 ## Graph toolchain installed + rendered (2026-06-16)
