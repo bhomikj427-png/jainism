@@ -65,6 +65,7 @@ Converged. Confidence medium: primary Sanskrit texts (Nyāyabinduṭīkā) not i
 
 - part-of: hetu-vidya | Dharmottara is the primary commentator transmitting hetu-vidyā after Dharmakīrti; his work defines the tradition's Kashmiri form
 - historically-influenced-by: dignaga-pramana | Dharmottara comments on Dharmakīrti's comments on Dignāga — three-generation inheritance chain
+- historically-influenced-by: pramanavarttika | Dharmottara is a direct commentator on Dharmakīrti, whose Pramāṇavārttika is the root-work of the tradition Dharmottara transmits and refines (niścaya-pratyaya, the verification criterion)
 - formalizes: vyapti | Dharmottara's niścaya-pratyaya elaborates how vyāpti-knowledge is ascertained in the inferential process
 - shares-vocabulary-with: mimamsa-pramana | both traditions grapple with valid cognition definition ("non-deceptive" in Dharmakīrti; "self-validating" in Mīmāṃsā) — historically adversarial
 - structurally-parallel-to: pramana-nyaya | Dharmottara and Nyāya epistemologists were historical adversaries; both theorise what makes cognition valid (niścaya-pratyaya vs Nyāya's causal/object-contact conditions) — documented rivalry in Kashmiri philosophical circles
