@@ -70,6 +70,7 @@ digraph ancient_texts {
     "anatta-buddhist" [label="anattā (Buddhist)" fillcolor="#ff8c5a" shape=ellipse];
     "anicca" [label="anicca" fillcolor="#ff8c5a" shape=ellipse];
     "apoha" [label="apoha" fillcolor="#ff8c5a" shape=ellipse];
+    "bodhisattva" [label="bodhisattva" fillcolor="#ff8c5a" shape=ellipse];
     "catuskoti" [label="catuṣkoṭi" fillcolor="#ff8c5a" shape=ellipse];
     "citta" [label="citta" fillcolor="#ff8c5a" shape=ellipse];
     "dharmottara" [label="dharmottara" fillcolor="#ff8c5a" shape=ellipse];
@@ -117,6 +118,7 @@ digraph ancient_texts {
     "moksha-advaita" [label="mokṣa (Advaita)" fillcolor="#4fd16b" shape=ellipse];
     "omniscience-vedanta" [label="sarvajñatva (Vedānta)" fillcolor="#4fd16b" shape=ellipse];
     "vishishtadvaita" [label="Viśiṣṭādvaita" fillcolor="#4fd16b" shape=ellipse];
+    "vivartavada" [label="vivartavāda" fillcolor="#4fd16b" shape=ellipse];
   }
   subgraph "cluster_Samkhya-Yoga" { style=invis; peripheries=0;
     "citta-vritti" [label="citta-vṛtti" fillcolor="#c77dff" shape=ellipse];
@@ -135,6 +137,7 @@ digraph ancient_texts {
     "carvaka" [label="Cārvāka" fillcolor="#d9a066" shape=ellipse];
   }
   subgraph "cluster_Greek" { style=invis; peripheries=0;
+    "academic-skepticism" [label="Skeptikē Akadēmia" fillcolor="#b8b8b8" shape=ellipse];
     "aristotle-categories" [label="Aristotle's Categories" fillcolor="#b8b8b8" shape=ellipse];
     "aristotle-ethics" [label="aristotle-ethics" fillcolor="#b8b8b8" shape=ellipse];
     "aristotle-logic" [label="aristotle-logic" fillcolor="#b8b8b8" shape=ellipse];
@@ -143,6 +146,7 @@ digraph ancient_texts {
     "democritus-atom" [label="atomos (Greek)" fillcolor="#b8b8b8" shape=ellipse];
     "epicurus-atom" [label="atomos / clinamen (Epicurean)" fillcolor="#b8b8b8" shape=ellipse];
     "epicurus-ethics" [label="ataraxia / hēdonē (Epicurean)" fillcolor="#b8b8b8" shape=ellipse];
+    "four-causes" [label="aitia" fillcolor="#b8b8b8" shape=ellipse];
     "neoplatonism" [label="Neoplatonism" fillcolor="#b8b8b8" shape=ellipse];
     "parmenides-being" [label="to eon (Parmenidean Being, Greek)" fillcolor="#b8b8b8" shape=ellipse];
     "plato-forms" [label="eidos (Plato)" fillcolor="#b8b8b8" shape=ellipse];
@@ -160,9 +164,11 @@ digraph ancient_texts {
     "quantum-complementarity" [label="(modern physics)" fillcolor="#dcdcdc" shape=ellipse];
   }
   subgraph "cluster_cross-tradition" { style=invis; peripheries=0;
+    "bhakti" [label="bhakti" fillcolor="#ff6fa5" shape=ellipse];
     "dana" [label="dāna" fillcolor="#ff6fa5" shape=ellipse];
     "hetvabhasa" [label="hetvābhāsa" fillcolor="#ff6fa5" shape=ellipse];
     "manas" [label="manas" fillcolor="#ff6fa5" shape=ellipse];
+    "parinamavada" [label="pariṇāmavāda" fillcolor="#ff6fa5" shape=ellipse];
     "sabda-pramana" [label="śabda-pramāṇa" fillcolor="#ff6fa5" shape=ellipse];
     "samsara" [label="saṃsāra" fillcolor="#ff6fa5" shape=ellipse];
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
@@ -177,6 +183,12 @@ digraph ancient_texts {
   "abhidharmakosa" -> "abhidharma" [color="#cccccc22"];
   "abhidharmakosa" -> "anatta-buddhist" [color="#cccccc22"];
   "abhidharmakosa" -> "tattvartha-sutra" [color="#cccccc22"];
+  "academic-skepticism" -> "plato-forms" [color="#cccccc22"];
+  "academic-skepticism" -> "pyrrhonism" [color="#cccccc22"];
+  "academic-skepticism" -> "pyrrhonism" [color="#cccccc22"];
+  "academic-skepticism" -> "madhyamaka" [color="#cccccc22"];
+  "academic-skepticism" -> "madhyamaka" [color="#cccccc22"];
+  "academic-skepticism" -> "carvaka" [color="#cccccc22"];
   "acarya" -> "jina" [color="#cccccc22"];
   "acarya" -> "gunasthana" [color="#cccccc22"];
   "acarya" -> "ahimsa" [color="#cccccc22"];
@@ -195,6 +207,7 @@ digraph ancient_texts {
   "advaita-vedanta" -> "dvaita-vedanta" [color="#cccccc22"];
   "advaita-vedanta" -> "dvaita-vedanta" [color="#cccccc22"];
   "advaita-vedanta" -> "sunyata" [color="#cccccc22"];
+  "advaita-vedanta" -> "vivartavada" [color="#cccccc22"];
   "ahimsa-buddhist" -> "ahimsa" [color="#cccccc22"];
   "ahimsa-buddhist" -> "ahimsa" [color="#cccccc22"];
   "ahimsa-buddhist" -> "pratityasamutpada" [color="#cccccc22"];
@@ -292,6 +305,7 @@ digraph ancient_texts {
   "aristotle-substance" -> "paramanu" [color="#cccccc22"];
   "aristotle-substance" -> "stoic-logos" [color="#cccccc22"];
   "aristotle-substance" -> "aristotle-ethics" [color="#cccccc22"];
+  "aristotle-substance" -> "four-causes" [color="#cccccc22"];
   "arthapatti" -> "mimamsa-pramana" [color="#cccccc22"];
   "arthapatti" -> "pramana" [color="#cccccc22"];
   "arthapatti" -> "vyapti" [color="#cccccc22"];
@@ -324,6 +338,18 @@ digraph ancient_texts {
   "bandha" -> "asrava" [color="#cccccc22"];
   "bandha" -> "samvara" [color="#cccccc22"];
   "bandha" -> "tattva-jain" [color="#cccccc22"];
+  "bhakti" -> "vishishtadvaita" [color="#cccccc22"];
+  "bhakti" -> "dvaita-vedanta" [color="#cccccc22"];
+  "bhakti" -> "avatara-vedanta" [color="#cccccc22"];
+  "bhakti" -> "tapas" [color="#cccccc22"];
+  "bhakti" -> "dana" [color="#cccccc22"];
+  "bhakti" -> "tirthankara" [color="#cccccc22"];
+  "bodhisattva" -> "yogacara" [color="#cccccc22"];
+  "bodhisattva" -> "tathagata-garbha" [color="#cccccc22"];
+  "bodhisattva" -> "nirvana-buddhist" [color="#cccccc22"];
+  "bodhisattva" -> "samsara" [color="#cccccc22"];
+  "bodhisattva" -> "dana" [color="#cccccc22"];
+  "bodhisattva" -> "arihant" [color="#cccccc22"];
   "brahma-sutra" -> "brahman" [color="#cccccc22"];
   "brahma-sutra" -> "atman-vedanta" [color="#cccccc22"];
   "brahma-sutra" -> "moksha-advaita" [color="#cccccc22"];
@@ -442,6 +468,7 @@ digraph ancient_texts {
   "dvaita-vedanta" -> "brahma-sutra" [color="#cccccc22"];
   "dvaita-vedanta" -> "jiva" [color="#cccccc22"];
   "dvaita-vedanta" -> "jiva" [color="#cccccc22"];
+  "dvaita-vedanta" -> "bhakti" [color="#cccccc22"];
   "dvisatya" -> "madhyamaka" [color="#cccccc22"];
   "dvisatya" -> "sunyata" [color="#cccccc22"];
   "dvisatya" -> "maya-advaita" [color="#cccccc22"];
@@ -467,6 +494,11 @@ digraph ancient_texts {
   "epicurus-ethics" -> "pyrrhonism" [color="#cccccc22"];
   "epicurus-ethics" -> "aparigraha" [color="#cccccc22"];
   "epicurus-ethics" -> "aparigraha" [color="#cccccc22"];
+  "four-causes" -> "aristotle-substance" [color="#cccccc22"];
+  "four-causes" -> "aristotle-categories" [color="#cccccc22"];
+  "four-causes" -> "pratityasamutpada" [color="#cccccc22"];
+  "four-causes" -> "pratityasamutpada" [color="#cccccc22"];
+  "four-causes" -> "parinamavada" [color="#cccccc22"];
   "fuzzy-logic" -> "many-valued-logic" [color="#cccccc22"];
   "fuzzy-logic" -> "saptabhangi" [color="#cccccc22"];
   "fuzzy-logic" -> "saptabhangi" [color="#cccccc22"];
@@ -686,6 +718,12 @@ digraph ancient_texts {
   "paramanu" -> "skandha" [color="#cccccc22"];
   "paramanu" -> "paramanu-vaisheshika" [color="#cccccc22"];
   "paramanu" -> "modern-atom" [color="#cccccc22"];
+  "parinamavada" -> "prakriti-samkhya" [color="#cccccc22"];
+  "parinamavada" -> "vishishtadvaita" [color="#cccccc22"];
+  "parinamavada" -> "samkhya-karika" [color="#cccccc22"];
+  "parinamavada" -> "sat" [color="#cccccc22"];
+  "parinamavada" -> "vivartavada" [color="#cccccc22"];
+  "parinamavada" -> "vivartavada" [color="#cccccc22"];
   "parmenides-being" -> "brahman" [color="#cccccc22"];
   "parmenides-being" -> "brahman" [color="#cccccc22"];
   "parmenides-being" -> "sat" [color="#cccccc22"];
@@ -780,6 +818,8 @@ digraph ancient_texts {
   "pyrrhonism" -> "catuskoti" [color="#cccccc22"];
   "pyrrhonism" -> "carvaka" [color="#cccccc22"];
   "pyrrhonism" -> "carvaka" [color="#cccccc22"];
+  "pyrrhonism" -> "academic-skepticism" [color="#cccccc22"];
+  "pyrrhonism" -> "academic-skepticism" [color="#cccccc22"];
   "quantum-complementarity" -> "anekantavada" [color="#cccccc22"];
   "quantum-complementarity" -> "anekantavada" [color="#cccccc22"];
   "quantum-complementarity" -> "many-valued-logic" [color="#cccccc22"];
@@ -964,6 +1004,13 @@ digraph ancient_texts {
   "vishishtadvaita" -> "brahma-sutra" [color="#cccccc22"];
   "vishishtadvaita" -> "dvaita-vedanta" [color="#cccccc22"];
   "vishishtadvaita" -> "dvaita-vedanta" [color="#cccccc22"];
+  "vishishtadvaita" -> "parinamavada" [color="#cccccc22"];
+  "vishishtadvaita" -> "bhakti" [color="#cccccc22"];
+  "vivartavada" -> "advaita-vedanta" [color="#cccccc22"];
+  "vivartavada" -> "maya-advaita" [color="#cccccc22"];
+  "vivartavada" -> "brahma-sutra" [color="#cccccc22"];
+  "vivartavada" -> "parinamavada" [color="#cccccc22"];
+  "vivartavada" -> "parinamavada" [color="#cccccc22"];
   "vyapti" -> "pramana" [color="#cccccc22"];
   "vyapti" -> "pramana-nyaya" [color="#cccccc22"];
   "vyapti" -> "hetu-vidya" [color="#cccccc22"];
@@ -993,4 +1040,5 @@ digraph ancient_texts {
   "yogacara" -> "abhidharmakosa" [color="#cccccc22"];
   "yogacara" -> "madhyamaka" [color="#cccccc22"];
   "yogacara" -> "madhyamaka" [color="#cccccc22"];
+  "yogacara" -> "bodhisattva" [color="#cccccc22"];
 }
