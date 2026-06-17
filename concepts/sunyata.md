@@ -62,3 +62,4 @@ Jain anekāntavāda posits that dravyas have BOTH permanent substance-natures AN
 - part-of: pratityasamutpada | śūnyatā = pratītyasamutpāda (Nāgārjuna's equation: both describe the same reality from absence-of-svabhāva and dependence-on-conditions perspectives)
 - expressed-by: catuskoti | catuṣkoṭi (the four-corner refutation) is Nāgārjuna's primary logical method for establishing śūnyatā — by showing all four positions on causation/existence fail, he demonstrates the absence of svabhāva
 - expressed-by: madhyamaka | the Madhyamaka school is the primary systematic developer of śūnyatā; Nāgārjuna's MMK is the canonical formulation of the doctrine as a rigorous philosophical position
+- part-of: mulamadhyamakakarika | the śūnyatā doctrine is set out in Nāgārjuna's root-text, the MMK (esp. 24.18 equating emptiness, dependent origination, and the middle way)
