@@ -1451,6 +1451,53 @@ Context resumed mid-batch: satkaryavada.md and asatkaryavada.md were written but
 
 ### Corpus milestone: 156 concepts across 23 batches + 3 linker passes. 0 unwritten stubs.
 
+---
+
+## Linker Pass 4 (2026-06-18)
+
+### Baseline
+HEAD ab68a53 (Batch 23 close). Edges parsed via awk: **909**.
+
+### Audit (before fixes)
+- 0 duplicate edges, 0 self-loops, 0 invalid edge types, 0 bidirectional is-a-type-of, 0 edge-pairing violations
+- **1 orphan** (in-degree 0): `neoplatonism` — Batch 21 added it with only out-edges
+- **8 low-in-degree nodes (in-degree 1)**: mulamadhyamakakarika, theravada, trisvabhava, four-causes, pancha-mahabhuta, parmenides-being, adharma-dravya (not fixed — single is a legitimate hub minimum), naigama-naya (ditto)
+- 2 sanctioned-pair completions needed: sabda-pramana had `often-conflated-NOT-equiv: shruta-jnana` without the partner `structurally-parallel-to`
+
+### Edges added: 26 new edges across 20 files
+
+**Orphan fixed:**
+| file | edge added |
+|---|---|
+| plotinus-one | part-of: neoplatonism |
+
+**Low-in-degree nodes raised:**
+| node | before | after | via |
+|---|---|---|---|
+| mulamadhyamakakarika | 1 | 3 | madhyamaka + prasanga-nagarjuna both part-of MMK |
+| theravada | 1 | 3 | anatta-buddhist + nirvana-buddhist both part-of theravada |
+| trisvabhava | 1 | 3 | vijnaptimatrata part-of + yogacara expressed-by trisvabhava |
+| four-causes | 1 | 3 | aristotle-ethics expressed-by + aristotle-logic shares-vocab |
+| pancha-mahabhuta | 1 | 5 | akasha-dravya + pudgala each: shares-vocab + NOT-equiv |
+| parmenides-being | 1 | 5 | brahman + sat each: structurally-parallel + NOT-equiv |
+| tattvartha-sutra | 2 | 4 | bandha + asrava both part-of tattvartha-sutra |
+| satkaryavada | 2 | 4 | parinamavada + vivartavada both is-a-type-of satkaryavada |
+
+**Cross-tradition additions:**
+- sabda-pramana: structurally-parallel-to shruta-jnana (completes the NOT-equiv pair)
+- cynicism: structurally-parallel-to + NOT-equiv tapas (Greek askēsis ≈ Jain austerity, but one-lifetime-secular vs multi-life-soteriological)
+- stoicism: structurally-parallel-to + NOT-equiv yoga-darshana (both disciplined practice for freedom-from-passion, different metaphysics and scope)
+
+### Post-fix audit
+0 orphans, 0 duplicates, 0 bidir is-a, 0 pairing violations. Proven clean.
+
+### Graph (regenerated)
+`python graph/build_graph.py` + `dot.exe` clean: **156 nodes, 935 edges**. graph.dot/html/svg refreshed.
+
+`.linker-state` updated to baseline ab68a53.
+
+---
+
 ### Suggested Batch 24 (names only — no files written)
 Filling doctrinal and tradition gaps revealed by Batch 23:
 - `upanishad` — school-overview for the Upaniṣads as a textual tradition (presently cited but not written as a node)
