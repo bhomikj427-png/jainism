@@ -31,6 +31,7 @@ The two are independent (a scholarly encyclopedia and a peer-reviewed philosophy
 ## Links
 
 - expressed-by: stoic-logos | the Stoic active principle — the immanent rational pneuma/logos ordering the cosmos — is worked out in stoic-logos.md
+- historically-influenced-by: cynicism | Zeno of Citium founded the Stoa after studying under the Cynic Crates; Stoic ethics (virtue the only good, life according to nature) inherits and tempers the Cynic programme — "the short path to virtue"
 - structurally-parallel-to: epicurus-ethics | both are Hellenistic ethics that make tranquillity/the well-ordered life the practical goal, reached by correcting one's judgments about what matters
 - often-conflated-with-NOT-equivalent: epicurus-ethics | the routes are opposite: Stoic apatheia comes through *virtue and social engagement* with virtue as the only good (pleasure is not the goal); Epicurean ataraxia comes through *withdrawal* (lathe biōsas) with pleasure as the telos — engagement-and-virtue vs withdrawal-and-pleasure
 - structurally-parallel-to: aristotle-ethics | both are Greek eudaimonist virtue-ethics organised around aretē and a single telos
