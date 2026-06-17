@@ -58,3 +58,5 @@ The Greek *atomos* ("uncuttable," from *a-* [not] + *tomos* [cut]) is the **smal
 - structurally-parallel-to: paramanu-vaisheshika | same parallel argument; Greek atoms qualitatively uniform, Vaiśeṣika atoms qualitatively tiered
 - often-conflated-with-NOT-equivalent: modern-atom | the ancient naming "atomos" was adopted by modern chemistry (Dalton 1803) but modern atoms are empirical and divisible; Greek atomism is a-priori and philosophical
 - often-conflated-with-NOT-equivalent: sunyata | "atoms and void" (Democritus) and "emptiness" (Nāgārjuna) are occasionally paired as "nothing is ultimately as it appears"; but Democritean void is a positive spatial container; śūnyatā is the absence of svabhāva — opposite ontological directions
+- structurally-parallel-to: epicurus-atom | Epicurus inherits Democritus's atoms-and-void and qualitative neutrality wholesale; same atomist framework
+- often-conflated-with-NOT-equivalent: epicurus-atom | Epicurus departs on two points Democritus lacked — atomic *weight* and the *swerve* (clinamen) — turning Democritus's determinism into indeterminism

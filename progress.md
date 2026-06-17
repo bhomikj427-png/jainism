@@ -1185,6 +1185,17 @@ Linker pass 4:
 
 ---
 
+## Batch 18 concepts (active — started 2026-06-17)
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `epicurus-atom.md` | done | converged, medium; SEP+IEP+Wiki(Clinamen); weight + swerve(clinamen) as additions beyond Democritus; swerve not in Epicurus's own surviving texts; +1 inbound from democritus-atom |
+| 2 | `pyrrhonism.md` | pending | Greek scepticism (Sextus Empiricus); epochē/ataraxia; parallel to Cārvāka anti-inference + Madhyamaka no-thesis |
+| 3 | `samkhya-karika.md` | pending | Īśvarakṛṣṇa primary text; Sāṃkhya counterpart to vaiseshika-sutra anchor |
+| 4 | `yoga-darshana.md` | pending | Patañjali Yoga as darśana (aṣṭāṅga); pairs with citta-vritti |
+| 5 | `epicurus-ethics.md` | pending | ataraxia/hedonism; this-worldly ethic; vs Aristotle eudaimonia, vs Indian liberation-ethics |
+| 6 | `kamalasila.md` | pending | Śāntarakṣita's student; Madhyamakāloka + Bhāvanākrama; completes Yogācāra-Svātantrika lineage |
+
 ## Graph toolchain installed + rendered (2026-06-16)
 
 The long-standing "Python + Graphviz not on this machine" blocker is **resolved**. Installed
