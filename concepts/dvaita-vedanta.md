@@ -33,3 +33,4 @@ The two are independent (a reference article and a separate encyclopedia) and ag
 - historically-influenced-by: brahma-sutra | Dvaita is founded on Madhva's bhāṣya (and Anuvyākhyāna) on the Brahmasūtra
 - structurally-parallel-to: jiva | both Dvaita and Jainism affirm a real, eternal *plurality* of individually distinct souls — graded, never merging, against any monism that dissolves the self
 - often-conflated-with-NOT-equivalent: jiva | but Madhva's souls are eternally *dependent* on the one independent God Viṣṇu (svatantra/paratantra; bimba/pratibimba reflections); Jain jīvas are ontologically *independent*, in a universe with no creator God — theistic-dependent pluralism vs non-theistic-independent pluralism
+- expressed-by: bhakti | bhakti (grounded in God's grace/anugraha, not mere practice) is the soteriological means in Dvaita; liberation = eternal individuality-retaining service to Viṣṇu
