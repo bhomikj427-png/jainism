@@ -62,6 +62,7 @@ The Abhidharma project is to *dissolve* apparently unified substances into strea
 
 ## Links
 
+- part-of: abhidharmakosa | the abhidharma dharma-theory in its mature systematised form is expounded in Vasubandhu's Abhidharmakośa, the genre's most influential single compendium (primary-text anchor)
 - often-conflated-with-NOT-equivalent: dravya | Abhidharma dharmas are momentary events; Jain dravyas are eternal substances — dharma-stream analysis vs. substance ontology; same Sanskrit vocabulary (*dharma*), opposite metaphysical moves
 - part-of: pratityasamutpada | Abhidharma provides the systematic catalogue of the dharmas that arise and cease within pratītyasamutpāda
 - part-of: sunyata | Madhyamaka (Nāgārjuna) critiques Sarvāstivāda's claim that dharmas have svabhāva — śūnyatā applies to Abhidharma dharmas too
