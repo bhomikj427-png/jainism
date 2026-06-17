@@ -68,3 +68,4 @@ The Abhidharma project is to *dissolve* apparently unified substances into strea
 - part-of: sunyata | Madhyamaka (Nāgārjuna) critiques Sarvāstivāda's claim that dharmas have svabhāva — śūnyatā applies to Abhidharma dharmas too
 - part-of: anatta-buddhist | Abhidharma's dharma-analysis is the systematic implementation of anattā: the "person" is dissolved into a stream of impersonal dharma-events
 - expressed-by: citta | the 89/121-type classification of citta is the central empirical project of Theravāda Abhidhamma (Dhammasaṅgaṇī); Abhidharma's method IS detailed citta-analysis
+- expressed-by: theravada | the Theravāda Abhidhamma Piṭaka is the primary institutional locus of Abhidharma analysis in the Pali tradition (82 dharmas, Dhammasaṅgaṇī onwards)
