@@ -49,3 +49,4 @@ SEP (Stoicism) is the primary scholarly source: defines logos, identifies it wit
 - structurally-parallel-to: aristotle-substance | Stoic logos grounds the rational order of substance-predication; both are in the Greek corpus; Aristotle's form ≈ active logos operating on passive matter (hylomorphism shares the active/passive pair)
 - structurally-parallel-to: pratityasamutpada | both describe a rational/lawlike structuring of events — but pratītyasamutpāda is impersonal conditioning with no logos-agent; Stoic cosmos has a providential rational agent
 - shares-vocabulary-with: aristotle-logic | Aristotle's logical necessity and Stoic logos both invoke reason as constitutive of reality — but syllogistic is formal/linguistic; logos is cosmological/physical
+- part-of: stoicism | the logos/pneuma is the active principle of Stoic physics, one part of the school's logic–physics–ethics system
