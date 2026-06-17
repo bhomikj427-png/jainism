@@ -64,3 +64,4 @@ Dignāga's framework inaugurated the Buddhist logic tradition (*pramāṇa-vāda
 - often-conflated-with-NOT-equivalent: pramana | Jain pratyakṣa includes omniscience; Buddhist pratyakṣa excludes all super-sensory knowledge
 - part-of: anatta-buddhist | Dignāga's nominalism (no real universals) and 2-pramāṇa scheme presuppose Buddhist rejection of enduring selves
 - part-of: pratityasamutpada | perception of momentary particulars fits the Buddhist doctrine of momentariness (anicca)
+- part-of: pramana-samuccaya | this two-pramāṇa epistemology is the doctrine of Dignāga's root-text, the Pramāṇasamuccaya

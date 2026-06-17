@@ -1256,7 +1256,7 @@ Linker pass 4:
 | # | concept (filename) | status | notes |
 |---|---|---|---|
 | 1 | `nyaya-sutra.md` | done | converged, medium; Wikipedia+IEP; Gautama/Akṣapāda ~200 CE; 5 adhyāyas; 16 padārthas; 4 pramāṇas; 5-member syllogism; vāda/jalpa/vitaṇḍā; apavarga; +1 inbound from pramana-nyaya |
-| 2 | `pramana-samuccaya.md` | pending | Dignāga primary text behind dignaga-pramana + apoha |
+| 2 | `pramana-samuccaya.md` | done | converged, medium; EoB+Tibetan Buddhist Enc.+EoB(Dignāga); Dignāga c.480-540; 6 chapters; 2 pramāṇas/2 objects; kalpanāpoḍha; trairūpya; apoha; Tibetan reconstruction; +1 inbound from dignaga-pramana |
 | 3 | `pramanavarttika.md` | pending | Dharmakīrti primary text behind hetu-vidya + dharmottara |
 | 4 | `stoicism.md` | pending | the Stoa as a school (physics/logic/ethics); behind stoic-logos; apatheia vs Epicurean ataraxia |
 | 5 | `parmenides-being.md` | pending | eternal One/Being; tempting Brahman/sat conflation target |
