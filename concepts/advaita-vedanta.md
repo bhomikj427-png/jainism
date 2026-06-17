@@ -41,3 +41,4 @@ The two are independent (a peer-reviewed philosophy encyclopedia and a reference
 - structurally-parallel-to: dvaita-vedanta | both read the Brahmasūtra as the authority on Brahman and liberation
 - often-conflated-with-NOT-equivalent: dvaita-vedanta | but Dvaita affirms an eternal, real distinction between God, selves, and matter — the exact opposite of Advaita's "one without a second"
 - often-conflated-with-NOT-equivalent: sunyata | Advaita's māyāvāda and apophatic nirguṇa Brahman drew the "crypto-Buddhist" charge, but Brahman is a positive permanent reality (sat-cit-ānanda) while śūnyatā denies any self-existent substrate — appearance-of-an-absolute vs emptiness-of-all-svabhāva
+- expressed-by: vivartavada | vivartavāda ("appearance-only" causation) is the Advaita causal theory — Brahman appears to transform without really doing so

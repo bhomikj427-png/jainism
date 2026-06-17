@@ -34,3 +34,4 @@ Signals 1 and 2 are both Wikipedia articles (same platform → **only weakly ind
 - historically-influenced-by: brahma-sutra | Viśiṣṭādvaita is founded on Rāmānuja's Śrī Bhāṣya, his commentary on the Brahmasūtra
 - structurally-parallel-to: dvaita-vedanta | both are theistic, soul-and-matter-realist Vedāntas that affirm the reality of individual souls and matter against Advaita's illusionism
 - often-conflated-with-NOT-equivalent: dvaita-vedanta | but Viśiṣṭādvaita holds souls/matter to be real *modes / the body* of one Brahman (inseparable, qualified non-dualism); Dvaita holds them *eternally separate substances* from God (full dualism) — modes-of-one vs distinct-many
+- expressed-by: parinamavada | Brahma-pariṇāmavāda is Rāmānuja's variant of real-transformation causation (Brahman really transforms; the world is its genuine body-mode)
