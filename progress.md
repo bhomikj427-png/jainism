@@ -1249,6 +1249,19 @@ Greek/Hellenistic depth:
 Linker pass 4:
 - Full awk/parser audit over all 128 files (orphans / pairing / duplicates / is-a direction); integrate Batch 18 reciprocity only where a real connectivity defect exists; update `.linker-state`.
 
+---
+
+## Batch 19 concepts (active — started 2026-06-17)
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `nyaya-sutra.md` | done | converged, medium; Wikipedia+IEP; Gautama/Akṣapāda ~200 CE; 5 adhyāyas; 16 padārthas; 4 pramāṇas; 5-member syllogism; vāda/jalpa/vitaṇḍā; apavarga; +1 inbound from pramana-nyaya |
+| 2 | `pramana-samuccaya.md` | pending | Dignāga primary text behind dignaga-pramana + apoha |
+| 3 | `pramanavarttika.md` | pending | Dharmakīrti primary text behind hetu-vidya + dharmottara |
+| 4 | `stoicism.md` | pending | the Stoa as a school (physics/logic/ethics); behind stoic-logos; apatheia vs Epicurean ataraxia |
+| 5 | `parmenides-being.md` | pending | eternal One/Being; tempting Brahman/sat conflation target |
+| 6 | `mimamsa-sutra.md` | pending | Jaimini primary text behind mimamsa-pramana; apauruṣeyatva of the Veda |
+
 ## Graph toolchain installed + rendered (2026-06-16)
 
 The long-standing "Python + Graphviz not on this machine" blocker is **resolved**. Installed
