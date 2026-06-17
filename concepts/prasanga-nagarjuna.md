@@ -34,3 +34,5 @@ confidence: medium
 - structurally-parallel-to: santaraksita | both are Madhyamaka demonstration-methods aimed at emptiness
 - often-conflated-with-NOT-equivalent: santaraksita | Śāntarakṣita's Svātantrika uses *autonomous* inference (svatantra-anumāna); Prāsaṅgika (Candrakīrti) rejects exactly this — the defining intra-Madhyamaka split
 - often-conflated-with-NOT-equivalent: anumana-nyaya | prasaṅga is not a five-member Nyāya syllogism; it asserts no thesis (pakṣa) of its own and grants premises only ad hominem, whereas anumāna commits the arguer to its conclusion
+- structurally-parallel-to: pyrrhonism | the "no thesis" stance (VV 29) mirrors the Pyrrhonist's aphasia / non-assertion — refuting all positions without affirming a counter-position
+- often-conflated-with-NOT-equivalent: pyrrhonism | prasaṅga serves a determinate end (demonstrating śūnyatā within a soteriology); Pyrrhonist suspension is a content-free therapy aimed only at ataraxia

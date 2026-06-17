@@ -1190,7 +1190,7 @@ Linker pass 4:
 | # | concept (filename) | status | notes |
 |---|---|---|---|
 | 1 | `epicurus-atom.md` | done | converged, medium; SEP+IEP+Wiki(Clinamen); weight + swerve(clinamen) as additions beyond Democritus; swerve not in Epicurus's own surviving texts; +1 inbound from democritus-atom |
-| 2 | `pyrrhonism.md` | pending | Greek scepticism (Sextus Empiricus); epochē/ataraxia; parallel to Cārvāka anti-inference + Madhyamaka no-thesis |
+| 2 | `pyrrhonism.md` | done | converged, medium; SEP(Sextus)+SEP(Pyrrho); epochē/isostheneia/ataraxia; Ten+Five Modes; Aristocles "no more" tetralemma-formula; vs Academic scepticism; +1 inbound from prasanga-nagarjuna; India-influence claim deliberately not used |
 | 3 | `samkhya-karika.md` | pending | Īśvarakṛṣṇa primary text; Sāṃkhya counterpart to vaiseshika-sutra anchor |
 | 4 | `yoga-darshana.md` | pending | Patañjali Yoga as darśana (aṣṭāṅga); pairs with citta-vritti |
 | 5 | `epicurus-ethics.md` | pending | ataraxia/hedonism; this-worldly ethic; vs Aristotle eudaimonia, vs Indian liberation-ethics |
