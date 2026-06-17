@@ -1315,7 +1315,20 @@ Primary-text anchors for the remaining keystone texts (the entire Jain corpus re
 | 1 | `tattvartha-sutra.md` | done | converged, medium; Wikipedia+Jainpedia/aggregation+corpus TS verses; Umāsvāti 2nd-5th c.; first Sanskrit Jain text; both sects; 10 chapters; TS 1.1 ratnatraya; TS 1.4 tattvas; Sarvārthasiddhi/Tattvārthabhāṣya; +1 inbound from tattva-jain |
 | 2 | `mulamadhyamakakarika.md` | done | converged, medium; Wikipedia+SEP(Nāgārjuna); c.150-250 CE; ~450 vv/27 chapters; svabhāva-refutation via prasaṅga+catuṣkoṭi; 8 negations; MMK 24.18; two truths; +1 inbound from sunyata |
 | 3 | `brahma-sutra.md` | done | converged, medium; Wikipedia+Vedānta-site aggregation; Bādarāyaṇa; 555 sūtras/4 adhyāyas; BS 1.1.1/1.1.2; prasthānatrayī; one text → Advaita/Viśiṣṭādvaita/Dvaita; parallel-but-opposite to mimamsa-sutra (uttara vs purva); +1 inbound from brahman |
-| 4 | `abhidharmakosa.md` | pending | Vasubandhu; behind abhidharma; the dharma-theory primary text |
+| 4 | `abhidharmakosa.md` | done | converged, medium; Wikipedia+EoB; Vasubandhu 4th-5th c.; karika(8ch/~600vv Vaibhasika)+bhasya(Sautrantika critique; 9th ch refutes pudgala); 75 dharmas; Paramartha/Xuanzang+Tibetan; +1 inbound (part-of) from abhidharma |
+
+## Batch 21 concepts (active — started 2026-06-17, continuous)
+
+School-anchor completion: the three Vedānta sub-schools behind `brahma-sutra`, plus school-overview nodes behind already-written doctrine files (Yogācāra behind alaya-vijnana/tathagata-garbha; the two Greek schools behind stoicism/plotinus-one).
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `advaita-vedanta.md` | pending | Śaṅkara's non-dualism as a school node; anchors brahman/maya-advaita/atman-vedanta/moksha-advaita; part-of brahma-sutra |
+| 2 | `vishishtadvaita.md` | pending | Rāmānuja's qualified non-dualism; part-of brahma-sutra; vs Advaita |
+| 3 | `dvaita-vedanta.md` | pending | Madhva's dualism; part-of brahma-sutra; the realist Vedānta closest to Jain pluralism |
+| 4 | `yogacara.md` | pending | Cittamātra/Vijñānavāda (Asaṅga/Vasubandhu); school behind alaya-vijnana + tathagata-garbha; vs Madhyamaka |
+| 5 | `cynicism.md` | pending | Diogenes; Greek ascetic-freedom school behind Stoicism |
+| 6 | `neoplatonism.md` | pending | Plotinus school behind plotinus-one; the One/emanation |
 
 ## Graph toolchain installed + rendered (2026-06-16)
 
