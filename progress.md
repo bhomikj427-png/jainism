@@ -1383,6 +1383,85 @@ Greek/Hellenistic remainder:
 
 ---
 
+## Batch 22 concepts (active — started 2026-06-17, continuous)
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `vivartavada.md` | done | contested, medium; rope-snake analogy; Nakamura/Hacker/Nicholson attribution debate; inbound from advaita-vedanta |
+| 2 | `parinamavada.md` | done | converged, medium; BS 2.2.26; 3-variant table; satkāryavāda base; inbound from vishishtadvaita |
+| 3 | `bhakti.md` | done | converged, medium; ŚvetUp 6.23; three mārgas; Rāmānuja vs Madhva; Jain pūjā NOT-equiv; inbound from vishishtadvaita+dvaita-vedanta |
+| 4 | `bodhisattva.md` | done | converged, medium; bodhicitta; 6 pāramitās; arhat contrast; inbound from yogacara |
+| 5 | `four-causes.md` | done | converged, medium; Physics II.3 / Metaphysics V.2; telos NOT in pratītyasamutpāda; inbound from aristotle-substance |
+| 6 | `academic-skepticism.md` | done | converged, medium; Arcesilaus epochē + Carneades pithanon; 266-90 BCE; vs pyrrhonism NOT-equiv; inbound from pyrrhonism |
+
+## Run log — Batch 22 (2026-06-17, continuous)
+
+### Concepts completed: 6 / 6 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | key source / note |
+|---|---|---|---|
+| vivartavada | contested | medium | Nakamura/Hacker/Nicholson: post-Śaṅkara; rope-snake analogy; paired with parinamavada |
+| parinamavada | converged | medium | BS 2.2.26; 3-variant table (Sāṃkhya/Viśiṣṭādvaita/Śaiva Siddhānta); satkāryavāda base |
+| bhakti | converged | medium | ŚvetUp 6.23; three mārgas; Rāmānuja bhakti+prapatti vs Madhva grace; Jain pūjā NOT-equiv |
+| bodhisattva | converged | medium | bodhicitta; 6 pāramitās; Theravāda/Mahāyāna scope difference; arhat contrast |
+| four-causes | converged | medium | Physics II.3 / Metaphysics V.2; hyle/morphe/efficient/telos; telos absent from pratītyasamutpāda |
+| academic-skepticism | converged | medium | Arcesilaus epochē + Carneades pithanon; 266-90 BCE; Academics vs Pyrrhonists NOT-equiv |
+
+### Graph: 150 nodes, 867 edges (regenerated)
+
+---
+
+## Batch 23 concepts (complete — 2026-06-17, continuous session)
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `satkaryavada.md` | done | converged, medium; SK 9 Sanskrit directly fetched; 5-argument table; pariṇāma+vivarta sub-variants; inbound from samkhya-karika |
+| 2 | `asatkaryavada.md` | done | converged, medium; ārambhavāda; 3 causal conditions; pot/clay contrast; Buddhist NOT-in-either; inbound from nyaya-sutra |
+| 3 | `jnana-marga.md` | done | converged, medium; BG 4.38; śravaṇa/manana/nididhyāsana (BṛU 4); three-path table; Advaita priority; inbound from advaita-vedanta |
+| 4 | `karma-marga.md` | done | converged, medium; BG 2.47-49 + 3.19; nishkama karma; karma-in-path ≠ karma-as-binding; inbound from avatara-vedanta |
+| 5 | `pancha-mahabhuta.md` | done | converged, medium; TU 2.1-2.5 emergence sequence; 5/4/4-element cross-tradition table; mahābhūta≠paramāṇu; inbound from prakriti-samkhya |
+| 6 | `theravada.md` | done | converged, medium; Tipitaka 3-basket structure; arhat ideal; Vibhajjavāda; 5-column Mahāyāna contrast table; inbound from abhidharma |
+
+## Run log — Batch 23 (2026-06-17, continuous)
+
+### Startup reconcile
+Context resumed mid-batch: satkaryavada.md and asatkaryavada.md were written but uncommitted. Hub files (samkhya-karika.md, nyaya-sutra.md) were read at end of prior context. Committed all 4 files first, then continued with #3-6.
+
+### Concepts completed: 6 / 6 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | key source / note |
+|---|---|---|---|
+| satkaryavada | converged | medium | SK 9 Sanskrit (*asadakaraṇāt...satkāryam*) fetched directly; 5-argument pañca-kāraṇa; pariṇāma/vivarta sub-variants; ChU 6.2.1 precursor |
+| asatkaryavada | converged | medium | ārambhavāda; Nyāya 3 conditions (antecedence/invariability/unconditionality); Buddhist neither-satkāryavāda-nor-asatkāryavāda noted |
+| jnana-marga | converged | medium | BG 4.38; śravaṇa/manana/nididhyāsana rooted in BṛU 4; Śaṅkara's priority; "most difficult" characterisation |
+| karma-marga | converged | medium | BG 2.47-49 + 3.19; nishkama karma; karma-mārga vs karma-as-binding-force distinction flagged explicitly |
+| pancha-mahabhuta | converged | medium | TU 2.1-2.5 emergence sequence (ākāśa→vāyu→agni→ap→pṛthvī); Buddhist four-element divergence (MN 140 Dhātuvibhaṅga); mahābhūta≠paramāṇu distinction |
+| theravada | converged | medium | Tipitaka (Vinaya/Sutta/Abhidhamma); arhat vs bodhisattva divide; Vibhajjavāda origin (3rd c. BCE Sri Lanka); 5-column Mahāyāna contrast table |
+
+### Orphan prevention: all 6 concepts received ≥1 inbound forward edge from an existing hub before commit.
+
+### Graph (regenerated after Batch 23)
+`python graph/build_graph.py` → **156 nodes, 909 edges** (SVG rendered via dot.exe). +6 new nodes, +42 new edges vs Batch 22 (150/867).
+
+### Notable findings
+1. **Causal-theory cluster complete**: satkāryavāda (effect pre-exists) + asatkāryavāda (effect is new) + pratītyasamutpāda (neither) now form a three-way cross-tradition comparison on the single deepest question of Indian causal theory. The Buddhist "neither" position is the clearest example of a philosophical middle-path that is neither simple pre-existentism nor simple novelty.
+2. **The three Hindu soteriological paths are complete**: bhakti (Batch 22) + jñāna-mārga + karma-mārga together form the classical triad. All three are now cross-linked and contrasted in each file's table.
+3. **pancha-mahabhuta exposes a genuine 5-vs-4 divergence**: the Hindu/Buddhist element-count difference is not terminological but substantive — ākāśa's status (primary vs derived) reflects a deep difference in cosmological ontology. This is the kind of structural difference the corpus exists to document.
+4. **theravada completes the Buddhist school layer**: yogācāra (Mahāyāna; Batch 21) + madhyamaka + theravada now form the Buddhist triad. The arhat/bodhisattva divide is the deepest structural difference and is now documented with a five-column contrast table.
+
+### Corpus milestone: 156 concepts across 23 batches + 3 linker passes. 0 unwritten stubs.
+
+### Suggested Batch 24 (names only — no files written)
+Filling doctrinal and tradition gaps revealed by Batch 23:
+- `upanishad` — school-overview for the Upaniṣads as a textual tradition (presently cited but not written as a node)
+- `vaishnavism` — Vaiṣṇava bhakti tradition (connects Viśiṣṭādvaita, Dvaita, avatāra, bhakti into one umbrella)
+- `shaivism` — Śaiva tradition (Śaiva Siddhānta; pariṇāmavāda variant; connects to advaita-vedanta)
+- `dhamma` — the Pali *dhamma* (Theravāda usage) vs Sanskrit *dharma* (Hindu/Jain) — same word, very different semantic fields
+- `arhat` — the Theravāda arhat ideal as its own node (forward-referenced in bodhisattva.md and theravada.md)
+- `tanha` — Pali craving/thirst; the second Noble Truth's mechanism; links dukkha → samsara → nibbana
+
+---
+
 ## Graph toolchain installed + rendered (2026-06-16)
 
 The long-standing "Python + Graphviz not on this machine" blocker is **resolved**. Installed

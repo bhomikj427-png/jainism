@@ -2,7 +2,7 @@
 
 Grouped by tradition-family. Lists every written concept with its status/confidence.
 Regenerated from concept front-matter; family headers may exist without entries.
-Counts: 122 concept files total.
+Counts: 156 concept files total.
 
 ---
 
@@ -19,10 +19,13 @@ Counts: 122 concept files total.
 | concept | status | confidence |
 |---|---|---|
 | ahimsa-vedic | converged | medium |
+| bhakti | converged | medium |
 | carvaka | converged | medium |
 | dana | converged | medium |
 | hetvabhasa | converged | medium |
+| karma-marga | converged | medium |
 | manas | converged | medium |
+| pancha-mahabhuta | converged | medium |
 | sabda-pramana | converged | medium |
 | samsara | converged | medium |
 | tapas | converged | medium |
@@ -35,6 +38,7 @@ Counts: 122 concept files total.
 | concept | status | confidence |
 |---|---|---|
 | anumana-nyaya | converged | medium |
+| asatkaryavada | converged | medium |
 | dravya-vaisheshika | converged | medium |
 | jati | converged | medium |
 | nyaya-sutra | converged | medium |
@@ -49,9 +53,11 @@ Counts: 122 concept files total.
 |---|---|---|
 | citta-vritti | converged | medium |
 | guna-samkhya | converged | medium |
+| parinamavada | converged | medium |
 | prakriti-samkhya | converged | medium |
 | purusha-samkhya | converged | medium |
 | samkhya-karika | converged | medium |
+| satkaryavada | converged | medium |
 | yoga-darshana | converged | medium |
 
 ### Mīmāṃsā
@@ -71,12 +77,14 @@ Counts: 122 concept files total.
 | brahma-sutra | converged | medium |
 | brahman | converged | medium |
 | dvaita-vedanta | converged | medium |
+| jnana-marga | converged | medium |
 | karma-vedic | converged | medium |
 | maya-advaita | contested | medium |
 | mimamsa-pramana | converged | medium |
 | moksha-advaita | converged | medium |
 | omniscience-vedanta | converged | medium |
 | vishishtadvaita | converged | medium |
+| vivartavada | contested | medium |
 
 ## Jain Āgamas & Darśana
 
@@ -148,6 +156,7 @@ Counts: 122 concept files total.
 | abhidharma | converged | medium |
 | abhidharmakosa | converged | medium |
 | ahimsa-buddhist | converged | medium |
+| bodhisattva | converged | medium |
 | alaya-vijnana | converged | medium |
 | anatta-buddhist | contested | medium |
 | anicca | converged | medium |
@@ -172,6 +181,7 @@ Counts: 122 concept files total.
 | skandha-buddhist | converged | medium |
 | sunyata | converged | medium |
 | tathagata-garbha | converged | medium |
+| theravada | converged | medium |
 | trisvabhava | converged | medium |
 | vijnaptimatrata | contested | medium |
 | yogacara | converged | medium |
@@ -180,6 +190,7 @@ Counts: 122 concept files total.
 
 | concept | status | confidence |
 |---|---|---|
+| academic-skepticism | converged | medium |
 | aristotle-categories | converged | medium |
 | aristotle-ethics | converged | medium |
 | aristotle-logic | converged | medium |
@@ -188,6 +199,7 @@ Counts: 122 concept files total.
 | democritus-atom | converged | medium |
 | epicurus-atom | converged | medium |
 | epicurus-ethics | converged | medium |
+| four-causes | converged | medium |
 | fuzzy-logic | converged | medium |
 | neoplatonism | converged | medium |
 | paraconsistent-logic | converged | medium |
