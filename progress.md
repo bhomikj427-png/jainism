@@ -1314,7 +1314,7 @@ Primary-text anchors for the remaining keystone texts (the entire Jain corpus re
 |---|---|---|---|
 | 1 | `tattvartha-sutra.md` | done | converged, medium; Wikipedia+Jainpedia/aggregation+corpus TS verses; Umāsvāti 2nd-5th c.; first Sanskrit Jain text; both sects; 10 chapters; TS 1.1 ratnatraya; TS 1.4 tattvas; Sarvārthasiddhi/Tattvārthabhāṣya; +1 inbound from tattva-jain |
 | 2 | `mulamadhyamakakarika.md` | done | converged, medium; Wikipedia+SEP(Nāgārjuna); c.150-250 CE; ~450 vv/27 chapters; svabhāva-refutation via prasaṅga+catuṣkoṭi; 8 negations; MMK 24.18; two truths; +1 inbound from sunyata |
-| 3 | `brahma-sutra.md` | pending | Bādarāyaṇa; behind brahman/atman-vedanta/moksha-advaita/maya-advaita; the three Vedānta sub-schools |
+| 3 | `brahma-sutra.md` | done | converged, medium; Wikipedia+Vedānta-site aggregation; Bādarāyaṇa; 555 sūtras/4 adhyāyas; BS 1.1.1/1.1.2; prasthānatrayī; one text → Advaita/Viśiṣṭādvaita/Dvaita; parallel-but-opposite to mimamsa-sutra (uttara vs purva); +1 inbound from brahman |
 | 4 | `abhidharmakosa.md` | pending | Vasubandhu; behind abhidharma; the dharma-theory primary text |
 
 ## Graph toolchain installed + rendered (2026-06-16)
