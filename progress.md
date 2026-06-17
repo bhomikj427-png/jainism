@@ -1304,6 +1304,19 @@ With this batch, every major Indian darśana in the corpus now has its own prima
 - Buddhist: `mulamadhyamakakarika` (Nāgārjuna's root text behind madhyamaka / sunyata / catuskoti / dvisatya) — a major missing primary-text anchor.
 - Linker pass 4: full audit over all 134 files; update `.linker-state`.
 
+---
+
+## Batch 20 concepts (active — started 2026-06-17, continuous)
+
+Primary-text anchors for the remaining keystone texts (the entire Jain corpus rests on the Tattvārtha Sūtra yet had no node; MMK/Brahmasūtra/Abhidharmakośa anchor large existing clusters).
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `tattvartha-sutra.md` | done | converged, medium; Wikipedia+Jainpedia/aggregation+corpus TS verses; Umāsvāti 2nd-5th c.; first Sanskrit Jain text; both sects; 10 chapters; TS 1.1 ratnatraya; TS 1.4 tattvas; Sarvārthasiddhi/Tattvārthabhāṣya; +1 inbound from tattva-jain |
+| 2 | `mulamadhyamakakarika.md` | pending | Nāgārjuna root-text behind madhyamaka/sunyata/catuskoti/dvisatya/prasanga-nagarjuna |
+| 3 | `brahma-sutra.md` | pending | Bādarāyaṇa; behind brahman/atman-vedanta/moksha-advaita/maya-advaita; the three Vedānta sub-schools |
+| 4 | `abhidharmakosa.md` | pending | Vasubandhu; behind abhidharma; the dharma-theory primary text |
+
 ## Graph toolchain installed + rendered (2026-06-16)
 
 The long-standing "Python + Graphviz not on this machine" blocker is **resolved**. Installed
