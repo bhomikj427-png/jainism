@@ -50,6 +50,8 @@ Counts: 122 concept files total.
 | guna-samkhya | converged | medium |
 | prakriti-samkhya | converged | medium |
 | purusha-samkhya | converged | medium |
+| samkhya-karika | converged | medium |
+| yoga-darshana | converged | medium |
 
 ### Mīmāṃsā
 
@@ -149,6 +151,7 @@ Counts: 122 concept files total.
 | dukkha | converged | medium |
 | dvisatya | converged | medium |
 | hetu-vidya | converged | medium |
+| kamalasila | converged | medium |
 | madhyamaka | converged | medium |
 | namarupa | converged | medium |
 | nirvana-buddhist | converged | medium |
@@ -170,11 +173,14 @@ Counts: 122 concept files total.
 | aristotle-logic | converged | medium |
 | aristotle-substance | converged | medium |
 | democritus-atom | converged | medium |
+| epicurus-atom | converged | medium |
+| epicurus-ethics | converged | medium |
 | fuzzy-logic | converged | medium |
 | paraconsistent-logic | converged | medium |
 | plato-forms | converged | medium |
 | plato-soul | converged | medium |
 | plotinus-one | converged | medium |
+| pyrrhonism | converged | medium |
 | stoic-logos | converged | medium |
 
 ## Modern Physics & Logic Comparanda

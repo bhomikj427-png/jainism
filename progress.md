@@ -1196,6 +1196,59 @@ Linker pass 4:
 | 5 | `epicurus-ethics.md` | done | converged, medium; SEP+IEP; refined hedonism = ataraxia/aponia (katastematic>kinetic); 3-way desire classification; tetrapharmakos; "death is nothing to us"; vs Aristotle eudaimonia, vs nirvāṇa, vs Pyrrhonist ataraxia; +1 inbound from epicurus-atom |
 | 6 | `kamalasila.md` | done | converged, medium; Wiki(Kamalaśīla)+Wiki(Bhāvanākrama); c.740-795; Śāntarakṣita's student; 3 Bhāvanākrama + Madhyamakāloka + Tattvasaṃgrahapañjikā; Samye Debate gradual-vs-sudden (vs Moheyan); +1 inbound from santaraksita |
 
+## Run log — Batch 18 (2026-06-17)
+
+### Startup reconcile
+- Working tree clean at start (HEAD b1d52b6, after the graph-rendering commits). No interrupted drafts. progress.md reconciled to git: Batch 17 + 3 linker passes + graph-toolchain work all committed; next queued = suggested Batch 18 (table created at session start).
+- **Python relocated:** the winget user-scope interpreter is at `C:\Users\bhomi\AppData\Local\Programs\Python\Python312\python.exe` (the bare `python`/`py` commands are shadowed by the Windows Store app-execution alias and fail). Graphviz `dot` is at `C:\Program Files\Graphviz\bin\dot.exe` (not on PATH). Use the full paths to regenerate.
+
+### Concepts completed: 6 / 6 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | key source / fetch |
+|---|---|---|---|
+| epicurus-atom | converged | medium | SEP "Epicurus" + IEP "Epicurus" + Wikipedia "Clinamen"; weight + swerve as additions beyond Democritus; swerve only in Lucretius/Cicero |
+| pyrrhonism | converged | medium | SEP "Sextus Empiricus" + SEP "Pyrrho"; epochē/isostheneia/ataraxia; Ten+Five Modes; Aristocles "no more" formula; vs Academic scepticism |
+| samkhya-karika | converged | medium | Wikipedia "Sāṃkhyakārikā" + IEP "Sāṃkhya"; Īśvarakṛṣṇa ~350 CE; 72 vv; Paramārtha 569 CE terminus; 3 pramāṇas; satkāryavāda; 25 tattvas; nirīśvara; kaivalya |
+| yoga-darshana | converged | medium | Wikipedia "Yoga Sūtras of Patañjali" + "Ashtanga"; 196 sūtras/4 pādas; seśvara-Sāṃkhya + Īśvara; aṣṭāṅga (YS 2.29); 5 yamas = 5 mahāvratas |
+| epicurus-ethics | converged | medium | SEP + IEP "Epicurus"; ataraxia/aponia, katastematic>kinetic; 3-way desire classification; tetrapharmakos; death-is-nothing |
+| kamalasila | converged | medium | Wikipedia "Kamalaśīla" + "Bhāvanākrama"; Śāntarakṣita's student; Bhāvanākrama/Madhyamakāloka/Tattvasaṃgrahapañjikā; Samye Debate gradual-vs-sudden |
+
+### Integration (no orphans introduced)
+Each new node received ≥1 inbound forward edge from an existing hub, reciprocating a relation its own file asserts:
+`democritus-atom → epicurus-atom` (parallel + NOT-equiv); `prasanga-nagarjuna → pyrrhonism` (parallel + NOT-equiv);
+`vaiseshika-sutra → samkhya-karika` (parallel + NOT-equiv, satkārya vs asatkārya); `samkhya-karika → yoga-darshana` (shares-vocab + NOT-equiv);
+`epicurus-atom → epicurus-ethics` (shares-vocab); `santaraksita → kamalasila` (structurally-parallel-to).
+
+### Mechanical audit (§10)
+- Edge-type tally over the 6 new files: only valid §5 types (expressed-by, historically-influenced-by, part-of, shares-vocabulary-with, structurally-parallel-to, often-conflated-with-NOT-equivalent).
+- All multi-type ordered pairs are the sanctioned (`structurally-parallel-to`|`shares-vocabulary-with`) + `often-conflated-with-NOT-equivalent` combo; no is-a-type-of used in the new files (so no direction/cycle risk); `part-of: madhyamaka` (kamalasila) stands alone.
+- **0 unwritten stubs**: build_graph.py reports 128 nodes = 128 concept files, so every edge target resolves to a written file.
+
+### Graph (regenerated — toolchain now working)
+`python graph/build_graph.py` ran clean: **128 nodes, 727 edges**. Wrote `graph/graph.dot`, `graph/graph.html` (interactive force-graph). `graph/graph.svg` rendered via `dot.exe` (361 KB). All three artifacts now current at the Batch-18 state.
+
+### Corpus milestone: 128 concepts across 18 batches + 3 linker passes. 0 unwritten stubs.
+
+### Notable findings
+1. **Greek Hellenistic ethics triangulated against Indian liberation**: epicurus-ethics's *ataraxia* (tranquillity within one mortal life, soul dispersing at death) is now mapped as structurally-parallel-but-NOT-equivalent to both nirvāṇa (cessation of *rebirth* under anattā) and Pyrrhonist ataraxia (same goal, opposite method — correct-doctrine vs suspend-all-doctrine). The tetrapharmakos ↔ Four Noble Truths "diagnose-and-cure" parallel is drawn and explicitly bounded.
+2. **The two Greek atomisms are now distinct nodes**: epicurus-atom vs democritus-atom split exactly on *weight* and the *swerve* (clinamen) — the swerve converting Democritean determinism to indeterminism, and routinely (wrongly) read as anticipating quantum randomness (flagged in prose, not as an edge, to keep the graph stub-free).
+3. **Sāṃkhya and Yoga now have their primary-text anchors**: samkhya-karika (Īśvarakṛṣṇa) behind prakriti/purusha/guna-samkhya, and yoga-darshana (Patañjali) behind citta-vritti — paralleling the vaiseshika-sutra anchor from Batch 17. The satkāryavāda (Sāṃkhya) vs asatkāryavāda/ārambhavāda (Vaiśeṣika) causal split is the sharpest new intra-āstika contrast; the 5-yama = 5-mahāvrata terminological identity (NOT doctrinal) is the sharpest new cross-tradition false-cognate guard.
+4. **Yogācāra-Svātantrika-Madhyamaka lineage completed**: kamalasila joins santaraksita; the Samye Debate (gradual vs sudden) is documented with its contested historiography (Tibetan vs Chinese sources disagree on the victor) rather than asserting an outcome.
+
+### Suggested Batch 19 (names only — no files written)
+Indian primary-text anchors (continuing the Batch 17–18 anchor programme):
+- `nyaya-sutra` — Gautama's Nyāya Sūtra as primary text behind pramana-nyaya / anumana-nyaya / hetvabhasa / tarka
+- `pramana-samuccaya` — Dignāga's primary text behind dignaga-pramana + apoha
+- `pramanavarttika` — Dharmakīrti's primary text behind hetu-vidya + dharmottara
+- `yogasutra` — Patañjali's text as a *primary-text* node distinct from the yoga-darshana school overview (if warranted), or `mimamsa-sutra` (Jaimini) behind mimamsa-pramana
+
+Greek/Hellenistic depth:
+- `stoicism` — the Stoa as a school (physics/logic/ethics) behind the existing stoic-logos node; oikeiōsis, apatheia (vs Epicurean ataraxia)
+- `plato-forms` is written; consider `aristotle-substance` companions already done — `parmenides-being` (the eternal One/Being; tempting Brahman/sat conflation target)
+
+Linker pass 4:
+- Full awk/parser audit over all 128 files (orphans / pairing / duplicates / is-a direction); integrate Batch 18 reciprocity only where a real connectivity defect exists; update `.linker-state`.
+
 ## Graph toolchain installed + rendered (2026-06-16)
 
 The long-standing "Python + Graphviz not on this machine" blocker is **resolved**. Installed
