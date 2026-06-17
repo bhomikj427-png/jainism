@@ -65,14 +65,18 @@ Counts: 122 concept files total.
 
 | concept | status | confidence |
 |---|---|---|
+| advaita-vedanta | converged | medium |
 | atman-vedanta | converged | medium |
 | avatara-vedanta | converged | medium |
+| brahma-sutra | converged | medium |
 | brahman | converged | medium |
+| dvaita-vedanta | converged | medium |
 | karma-vedic | converged | medium |
 | maya-advaita | contested | medium |
 | mimamsa-pramana | converged | medium |
 | moksha-advaita | converged | medium |
 | omniscience-vedanta | converged | medium |
+| vishishtadvaita | converged | medium |
 
 ## Jain Āgamas & Darśana
 
@@ -132,6 +136,7 @@ Counts: 122 concept files total.
 | skandha | converged | medium |
 | syadvada | converged | medium |
 | tattva-jain | converged | medium |
+| tattvartha-sutra | converged | medium |
 | tirthankara | converged | medium |
 | upayoga | converged | medium |
 | vyavahara-naya | converged | medium |
@@ -141,6 +146,7 @@ Counts: 122 concept files total.
 | concept | status | confidence |
 |---|---|---|
 | abhidharma | converged | medium |
+| abhidharmakosa | converged | medium |
 | ahimsa-buddhist | converged | medium |
 | alaya-vijnana | converged | medium |
 | anatta-buddhist | contested | medium |
@@ -155,6 +161,7 @@ Counts: 122 concept files total.
 | hetu-vidya | converged | medium |
 | kamalasila | converged | medium |
 | madhyamaka | converged | medium |
+| mulamadhyamakakarika | converged | medium |
 | namarupa | converged | medium |
 | nirvana-buddhist | converged | medium |
 | pramana-samuccaya | converged | medium |
@@ -167,6 +174,7 @@ Counts: 122 concept files total.
 | tathagata-garbha | converged | medium |
 | trisvabhava | converged | medium |
 | vijnaptimatrata | contested | medium |
+| yogacara | converged | medium |
 
 ## Greek / Western Philosophy & Logic
 
@@ -176,10 +184,12 @@ Counts: 122 concept files total.
 | aristotle-ethics | converged | medium |
 | aristotle-logic | converged | medium |
 | aristotle-substance | converged | medium |
+| cynicism | converged | medium |
 | democritus-atom | converged | medium |
 | epicurus-atom | converged | medium |
 | epicurus-ethics | converged | medium |
 | fuzzy-logic | converged | medium |
+| neoplatonism | converged | medium |
 | paraconsistent-logic | converged | medium |
 | plato-forms | converged | medium |
 | plato-soul | converged | medium |
