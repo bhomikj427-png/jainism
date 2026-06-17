@@ -36,3 +36,4 @@ confidence: medium
 - often-conflated-with-NOT-equivalent: vijnaptimatrata | Śāntarakṣita is read as a Yogācārin, but he accepts mind-only ONLY conventionally; pure Yogācāra holds the vijñapti-stream as ultimately real — they split at the ultimate level
 - shares-vocabulary-with: anekantavada | both deploy the eka/aneka ("one"/"many") pair, but to opposite ends: ekānekasvabhāva is a destructive argument concluding NO intrinsic nature; anekāntavāda is a constructive claim that many partial standpoints are jointly true
 - often-conflated-with-NOT-equivalent: anekantavada | "neither one nor many" (emptiness) is not "non-one-sidedness" (multi-standpoint realism); the shared aneka-vocabulary masks opposite conclusions about whether anything has determinate nature
+- structurally-parallel-to: kamalasila | his direct student and continuator of the same Yogācāra-Svātantrika-Madhyamaka synthesis; Kamalaśīla's Tattvasaṃgrahapañjikā comments on Śāntarakṣita's own Tattvasaṃgraha

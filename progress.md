@@ -1194,7 +1194,7 @@ Linker pass 4:
 | 3 | `samkhya-karika.md` | done | converged, medium; Wikipedia+IEP; Īśvarakṛṣṇa ~350 CE, 72 vv, Paramārtha 569 CE terminus; 3 pramāṇas; satkāryavāda; 25 tattvas; nirīśvara; kaivalya; +1 inbound from vaiseshika-sutra (satkārya vs asatkārya contrast) |
 | 4 | `yoga-darshana.md` | done | converged, medium; Wiki(Yoga Sūtras)+Wiki(Ashtanga); 196 sūtras/4 pādas; YS 1.2; seśvara-Sāṃkhya + Īśvara; aṣṭāṅga (YS 2.29); 5 yamas = 5 Jain mahāvratas (shares-vocab NOT-equiv); +1 inbound from samkhya-karika |
 | 5 | `epicurus-ethics.md` | done | converged, medium; SEP+IEP; refined hedonism = ataraxia/aponia (katastematic>kinetic); 3-way desire classification; tetrapharmakos; "death is nothing to us"; vs Aristotle eudaimonia, vs nirvāṇa, vs Pyrrhonist ataraxia; +1 inbound from epicurus-atom |
-| 6 | `kamalasila.md` | pending | Śāntarakṣita's student; Madhyamakāloka + Bhāvanākrama; completes Yogācāra-Svātantrika lineage |
+| 6 | `kamalasila.md` | done | converged, medium; Wiki(Kamalaśīla)+Wiki(Bhāvanākrama); c.740-795; Śāntarakṣita's student; 3 Bhāvanākrama + Madhyamakāloka + Tattvasaṃgrahapañjikā; Samye Debate gradual-vs-sudden (vs Moheyan); +1 inbound from santaraksita |
 
 ## Graph toolchain installed + rendered (2026-06-16)
 
