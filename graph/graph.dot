@@ -11,6 +11,7 @@ digraph ancient_texts {
     "ajiva" [label="ajīva" fillcolor="#ffd23f" shape=ellipse];
     "akasha-dravya" [label="ākāśāstikāya" fillcolor="#ffd23f" shape=ellipse];
     "anekantavada" [label="anekāntavāda" fillcolor="#ffd23f" shape=ellipse];
+    "anuvrata" [label="aṇuvrata" fillcolor="#ffd23f" shape=ellipse];
     "aparigraha" [label="aparigraha" fillcolor="#ffd23f" shape=ellipse];
     "arihant" [label="arihant" fillcolor="#ffd23f" shape=ellipse];
     "asrava" [label="āsrava" fillcolor="#ffd23f" shape=ellipse];
@@ -200,6 +201,10 @@ digraph ancient_texts {
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
+  subgraph "cluster_unwritten" { style=invis; peripheries=0;
+    "sallekhana" [label="sallekhana" fillcolor="#777777" shape=box];
+    "shad-avashyaka" [label="shad-avashyaka" fillcolor="#777777" shape=box];
+  }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
   "abhidharma" -> "pratityasamutpada" [color="#cccccc22"];
@@ -292,6 +297,15 @@ digraph ancient_texts {
   "anumana-nyaya" -> "vyapti" [color="#cccccc22"];
   "anumana-nyaya" -> "aristotle-logic" [color="#cccccc22"];
   "anumana-nyaya" -> "hetu-vidya" [color="#cccccc22"];
+  "anuvrata" -> "charitra" [color="#cccccc22"];
+  "anuvrata" -> "ahimsa" [color="#cccccc22"];
+  "anuvrata" -> "satya" [color="#cccccc22"];
+  "anuvrata" -> "asteya" [color="#cccccc22"];
+  "anuvrata" -> "brahmacarya" [color="#cccccc22"];
+  "anuvrata" -> "aparigraha" [color="#cccccc22"];
+  "anuvrata" -> "shad-avashyaka" [color="#cccccc22"];
+  "anuvrata" -> "samvara" [color="#cccccc22"];
+  "anuvrata" -> "sallekhana" [color="#cccccc22"];
   "aparigraha" -> "ahimsa" [color="#cccccc22"];
   "aparigraha" -> "karma" [color="#cccccc22"];
   "aparigraha" -> "samvara" [color="#cccccc22"];
