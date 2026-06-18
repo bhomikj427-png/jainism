@@ -54,3 +54,4 @@ This pairing has no clear parallel in Vaiśeṣika (where motion is a quality of
 - expressed-by: loka-jain | the loka is co-extensive with both dharmāstikāya and adharmāstikāya
 - structurally-parallel-to: dharma-dravya | exact counterpart — motion vs rest; share all structural properties except function
 - often-conflated-with-NOT-equivalent: karma-vedic | "adharma" in Hindu ethics = unethical conduct — unrelated to this ontological medium
+- is-a-type-of: astikaya | the medium of rest is an astikāya (*adharmāstikāya*) — it pervades the whole occupied cosmos across innumerable space-points; specific → general

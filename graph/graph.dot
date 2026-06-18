@@ -66,6 +66,7 @@ digraph ancient_texts {
     "tattvartha-sutra" [label="Tattvārthasūtra" fillcolor="#ffd23f" shape=ellipse];
     "tirthankara" [label="tīrthaṅkara" fillcolor="#ffd23f" shape=ellipse];
     "upayoga" [label="upayoga" fillcolor="#ffd23f" shape=ellipse];
+    "utsarpini-avasarpini" [label="utsarpiṇī-avasarpiṇī" fillcolor="#ffd23f" shape=ellipse];
     "vyavahara-naya" [label="vyavahāra-naya" fillcolor="#ffd23f" shape=ellipse];
   }
   subgraph "cluster_Buddhist" { style=invis; peripheries=0;
@@ -232,6 +233,7 @@ digraph ancient_texts {
   "adharma-dravya" -> "loka-jain" [color="#cccccc22"];
   "adharma-dravya" -> "dharma-dravya" [color="#cccccc22"];
   "adharma-dravya" -> "karma-vedic" [color="#cccccc22"];
+  "adharma-dravya" -> "astikaya" [color="#cccccc22"];
   "advaita-vedanta" -> "brahma-sutra" [color="#cccccc22"];
   "advaita-vedanta" -> "maya-advaita" [color="#cccccc22"];
   "advaita-vedanta" -> "moksha-advaita" [color="#cccccc22"];
@@ -271,6 +273,7 @@ digraph ancient_texts {
   "akasha-dravya" -> "dravya-vaisheshika" [color="#cccccc22"];
   "akasha-dravya" -> "pancha-mahabhuta" [color="#cccccc22"];
   "akasha-dravya" -> "pancha-mahabhuta" [color="#cccccc22"];
+  "akasha-dravya" -> "astikaya" [color="#cccccc22"];
   "alaya-vijnana" -> "vijnaptimatrata" [color="#cccccc22"];
   "alaya-vijnana" -> "jiva" [color="#cccccc22"];
   "alaya-vijnana" -> "atman-vedanta" [color="#cccccc22"];
@@ -516,6 +519,7 @@ digraph ancient_texts {
   "dharma-dravya" -> "dravya" [color="#cccccc22"];
   "dharma-dravya" -> "loka-jain" [color="#cccccc22"];
   "dharma-dravya" -> "karma-vedic" [color="#cccccc22"];
+  "dharma-dravya" -> "astikaya" [color="#cccccc22"];
   "dharmottara-nyayabindu" -> "pratyaksha-buddhist" [color="#cccccc22"];
   "dharmottara-nyayabindu" -> "hetu-vidya" [color="#cccccc22"];
   "dharmottara-nyayabindu" -> "dharmottara" [color="#cccccc22"];
@@ -644,6 +648,7 @@ digraph ancient_texts {
   "jiva" -> "atman-vedanta" [color="#cccccc22"];
   "jiva" -> "atman-vedanta" [color="#cccccc22"];
   "jiva" -> "purusha-samkhya" [color="#cccccc22"];
+  "jiva" -> "astikaya" [color="#cccccc22"];
   "jnana-marga" -> "advaita-vedanta" [color="#cccccc22"];
   "jnana-marga" -> "moksha-advaita" [color="#cccccc22"];
   "jnana-marga" -> "atman-vedanta" [color="#cccccc22"];
@@ -969,6 +974,7 @@ digraph ancient_texts {
   "pudgala" -> "prakriti-samkhya" [color="#cccccc22"];
   "pudgala" -> "pancha-mahabhuta" [color="#cccccc22"];
   "pudgala" -> "pancha-mahabhuta" [color="#cccccc22"];
+  "pudgala" -> "astikaya" [color="#cccccc22"];
   "purusha-samkhya" -> "jiva" [color="#cccccc22"];
   "purusha-samkhya" -> "atman-vedanta" [color="#cccccc22"];
   "purusha-samkhya" -> "prakriti-samkhya" [color="#cccccc22"];
@@ -1214,6 +1220,11 @@ digraph ancient_texts {
   "upayoga" -> "kevala-jnana" [color="#cccccc22"];
   "upayoga" -> "gunasthana" [color="#cccccc22"];
   "upayoga" -> "kashaya" [color="#cccccc22"];
+  "utsarpini-avasarpini" -> "kala-dravya" [color="#cccccc22"];
+  "utsarpini-avasarpini" -> "loka" [color="#cccccc22"];
+  "utsarpini-avasarpini" -> "tirthankara" [color="#cccccc22"];
+  "utsarpini-avasarpini" -> "samsara" [color="#cccccc22"];
+  "utsarpini-avasarpini" -> "avatara-vedanta" [color="#cccccc22"];
   "vaiseshika-sutra" -> "dravya-vaisheshika" [color="#cccccc22"];
   "vaiseshika-sutra" -> "paramanu-vaisheshika" [color="#cccccc22"];
   "vaiseshika-sutra" -> "pramana-nyaya" [color="#cccccc22"];

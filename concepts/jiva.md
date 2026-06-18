@@ -50,3 +50,4 @@ Importantly: jīva is **not** identified with a universal Ātman. Jainism is plu
 - often-conflated-with-NOT-equivalent: atman-vedanta | Jain jīva is one of infinitely many distinct souls; it never merges with a universal Ātman or Brahman; Advaita's single non-dual Ātman is structurally incompatible with Jain pluralism
 - shares-vocabulary-with: atman-vedanta | both traditions use "soul/ātman" language for the conscious self; surface resemblance masks deep ontological difference
 - shares-vocabulary-with: purusha-samkhya | Sāṃkhya puruṣa and Jain jīva are both eternal individual consciousness-principles; but puruṣa is a passive witness (no agency in liberation), jīva is an active agent (doership drives bondage and liberation)
+- is-a-type-of: astikaya | jīva is an astikāya (*jīvāstikāya*) — it occupies multiple space-points (it pervades the body it animates), so it has spatial body; specific → general

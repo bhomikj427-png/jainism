@@ -51,3 +51,4 @@ The word *dharma* here shares its Sanskrit form with the Hindu/Buddhist concept 
 - part-of: dravya | one of the six dravyas
 - expressed-by: loka-jain | the loka is exactly the region pervaded by dharmāstikāya (motion-possible space)
 - often-conflated-with-NOT-equivalent: karma-vedic | "dharma" in Hindu ethics is moral order/duty — unrelated to this ontological medium
+- is-a-type-of: astikaya | the medium of motion is an astikāya (*dharmāstikāya*) — it pervades the whole occupied cosmos (lokākāśa) across innumerable space-points; specific → general
