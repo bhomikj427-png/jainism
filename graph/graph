@@ -10,7 +10,7 @@ digraph ancient_texts {
 		ajiva [label="ajīva" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.18 shape=ellipse style=filled width=1.18]
 		"akasha-dravya" [label="ākāśāstikāya" fillcolor="#ffd23f" fixedsize=false fontsize=15 height=0.98 shape=ellipse style=filled width=0.98]
 		anekantavada [label="anekāntavāda" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
-		anuvrata [label="aṇuvrata" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.18 shape=ellipse style=filled width=1.18]
+		anuvrata [label="aṇuvrata" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.28 shape=ellipse style=filled width=1.28]
 		aparigraha [label=aparigraha fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		arihant [label=arihant fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.18 shape=ellipse style=filled width=1.18]
 		asrava [label="āsrava" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.08 shape=ellipse style=filled width=1.08]
@@ -20,7 +20,7 @@ digraph ancient_texts {
 		brahmacarya [label=brahmacarya fillcolor="#ffd23f" fixedsize=false fontsize=15 height=0.98 shape=ellipse style=filled width=0.98]
 		charitra [label="cāritra" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		"dharma-dravya" [label="dharmāstikāya" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.48 shape=ellipse style=filled width=1.48]
-		"dhyana-jain" [label="dhyāna (Jain)" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.08 shape=ellipse style=filled width=1.08]
+		"dhyana-jain" [label="dhyāna (Jain)" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.18 shape=ellipse style=filled width=1.18]
 		dravya [label=dravya fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		"dravyarthika-naya" [label="dravyārthika naya" fillcolor="#ffd23f" fixedsize=false fontsize=14 height=0.8800000000000001 shape=ellipse style=filled width=0.8800000000000001]
 		gunasthana [label="guṇasthāna" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
@@ -39,7 +39,7 @@ digraph ancient_texts {
 		"naigama-naya" [label="naigama-naya" fillcolor="#ffd23f" fixedsize=false fontsize=14 height=0.8800000000000001 shape=ellipse style=filled width=0.8800000000000001]
 		naya [label=naya fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		nikshepa [label="nikṣepa" fillcolor="#ffd23f" fixedsize=false fontsize=12 height=0.6799999999999999 shape=ellipse style=filled width=0.6799999999999999]
-		nirjara [label="nirjarā" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.28 shape=ellipse style=filled width=1.28]
+		nirjara [label="nirjarā" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.3800000000000001 shape=ellipse style=filled width=1.3800000000000001]
 		"nishcaya-vyavahara" [label="niścaya-vyavahāra" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.18 shape=ellipse style=filled width=1.18]
 		paramanu [label="paramāṇu" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.3800000000000001 shape=ellipse style=filled width=1.3800000000000001]
 		"paroksha-jnana" [label="parokṣajñāna" fillcolor="#ffd23f" fixedsize=false fontsize=15 height=0.98 shape=ellipse style=filled width=0.98]
@@ -55,6 +55,7 @@ digraph ancient_texts {
 		saptabhangi [label="saptabhaṅgī" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		sat [label=sat fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		satya [label=satya fillcolor="#ffd23f" fixedsize=false fontsize=13 height=0.78 shape=ellipse style=filled width=0.78]
+		"shad-avashyaka" [label="ṣaḍāvaśyaka" fillcolor="#ffd23f" fixedsize=false fontsize=15 height=0.98 shape=ellipse style=filled width=0.98]
 		"shruta-jnana" [label="śrutajñāna" fillcolor="#ffd23f" fixedsize=false fontsize=15 height=0.98 shape=ellipse style=filled width=0.98]
 		siddha [label=siddha fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.48 shape=ellipse style=filled width=1.48]
 		skandha [label=skandha fillcolor="#ffd23f" fixedsize=false fontsize=15 height=0.98 shape=ellipse style=filled width=0.98]
@@ -199,7 +200,7 @@ digraph ancient_texts {
 	subgraph "cluster_cross-tradition" {
 		label="" peripheries=0 style=invis
 		bhakti [label=bhakti fillcolor="#ff6fa5" fixedsize=false fontsize=16 height=1.28 shape=ellipse style=filled width=1.28]
-		dana [label="dāna" fillcolor="#ff6fa5" fixedsize=false fontsize=16 height=1.18 shape=ellipse style=filled width=1.18]
+		dana [label="dāna" fillcolor="#ff6fa5" fixedsize=false fontsize=16 height=1.28 shape=ellipse style=filled width=1.28]
 		dhamma [label=dhamma fillcolor="#ff6fa5" fixedsize=false fontsize=14 height=0.8800000000000001 shape=ellipse style=filled width=0.8800000000000001]
 		hetvabhasa [label="hetvābhāsa" fillcolor="#ff6fa5" fixedsize=false fontsize=14 height=0.8800000000000001 shape=ellipse style=filled width=0.8800000000000001]
 		manas [label=manas fillcolor="#ff6fa5" fixedsize=false fontsize=15 height=0.98 shape=ellipse style=filled width=0.98]
@@ -209,10 +210,6 @@ digraph ancient_texts {
 		samsara [label="saṃsāra" fillcolor="#ff6fa5" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		tapas [label=tapas fillcolor="#ff6fa5" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		vyapti [label="vyāpti" fillcolor="#ff6fa5" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
-	}
-	subgraph cluster_unwritten {
-		label="" peripheries=0 style=invis
-		"shad-avashyaka" [label="shad-avashyaka" fillcolor="#777777" fixedsize=true fontsize=8 height=0.28 shape=box style=filled width=0.28]
 	}
 	abhidharma -> abhidharmakosa [color="#cccccc22"]
 	abhidharma -> dravya [color="#cccccc22"]
@@ -1083,6 +1080,13 @@ digraph ancient_texts {
 	satya -> ahimsa [color="#cccccc22"]
 	satya -> aparigraha [color="#cccccc22"]
 	satya -> karma [color="#cccccc22"]
+	"shad-avashyaka" -> charitra [color="#cccccc22"]
+	"shad-avashyaka" -> samvara [color="#cccccc22"]
+	"shad-avashyaka" -> nirjara [color="#cccccc22"]
+	"shad-avashyaka" -> anuvrata [color="#cccccc22"]
+	"shad-avashyaka" -> tapas [color="#cccccc22"]
+	"shad-avashyaka" -> "dhyana-jain" [color="#cccccc22"]
+	"shad-avashyaka" -> dana [color="#cccccc22"]
 	shaivism -> vaishnavism [color="#cccccc22"]
 	shaivism -> parinamavada [color="#cccccc22"]
 	shaivism -> "advaita-vedanta" [color="#cccccc22"]

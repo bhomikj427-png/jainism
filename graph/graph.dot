@@ -56,6 +56,7 @@ digraph ancient_texts {
     "saptabhangi" [label="saptabhaṅgī" fillcolor="#ffd23f" shape=ellipse];
     "sat" [label="sat" fillcolor="#ffd23f" shape=ellipse];
     "satya" [label="satya" fillcolor="#ffd23f" shape=ellipse];
+    "shad-avashyaka" [label="ṣaḍāvaśyaka" fillcolor="#ffd23f" shape=ellipse];
     "shruta-jnana" [label="śrutajñāna" fillcolor="#ffd23f" shape=ellipse];
     "siddha" [label="siddha" fillcolor="#ffd23f" shape=ellipse];
     "skandha" [label="skandha" fillcolor="#ffd23f" shape=ellipse];
@@ -201,9 +202,6 @@ digraph ancient_texts {
     "samsara" [label="saṃsāra" fillcolor="#ff6fa5" shape=ellipse];
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
-  }
-  subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "shad-avashyaka" [label="shad-avashyaka" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -1074,6 +1072,13 @@ digraph ancient_texts {
   "satya" -> "ahimsa" [color="#cccccc22"];
   "satya" -> "aparigraha" [color="#cccccc22"];
   "satya" -> "karma" [color="#cccccc22"];
+  "shad-avashyaka" -> "charitra" [color="#cccccc22"];
+  "shad-avashyaka" -> "samvara" [color="#cccccc22"];
+  "shad-avashyaka" -> "nirjara" [color="#cccccc22"];
+  "shad-avashyaka" -> "anuvrata" [color="#cccccc22"];
+  "shad-avashyaka" -> "tapas" [color="#cccccc22"];
+  "shad-avashyaka" -> "dhyana-jain" [color="#cccccc22"];
+  "shad-avashyaka" -> "dana" [color="#cccccc22"];
   "shaivism" -> "vaishnavism" [color="#cccccc22"];
   "shaivism" -> "parinamavada" [color="#cccccc22"];
   "shaivism" -> "advaita-vedanta" [color="#cccccc22"];
