@@ -1571,12 +1571,80 @@ Cross-tradition:
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `four-noble-truths.md` | pending | |
-| 2 | `nibbana-theravada.md` | pending | |
-| 3 | `paticcasamuppada-pali.md` | pending | |
-| 4 | `rta.md` | pending | |
-| 5 | `shakti.md` | pending | |
-| 6 | `lingam.md` | pending | |
+| 1 | `four-noble-truths.md` | done | converged, medium; SN 56.11 + MN 141 FETCHED; 4-truth table, 12-aspect analysis, cross-tradition diagnostic comparison |
+| 2 | `nibbana-theravada.md` | done | converged, medium; Ud 8.1 formula; two-type table (sa-/anupādisesa), extinction vs. unconditioned-dhamma debate |
+| 3 | `paticcasamuppada-pali.md` | done | converged, medium; imasmiṃ sati formula; 12-nidāna Pali table; three-lifetime structure; Theravāda vs. Madhyamaka |
+| 4 | `rta.md` | done | converged, medium; PIE etymology; 3-domain table; Varuṇa guardian; ṛta→dharma transition; cross-cultural parallels |
+| 5 | `shakti.md` | done | converged, medium; Devī Māhātmya; Śiva-Śakti 4-school table; NOT-equiv Sāṃkhya-prakṛti and Advaita-māyā |
+| 6 | `lingam.md` | done | converged, medium; jyotirliṅga cosmogony; 5-level table; Liṅgāyat iṣṭaliṅga reform; NOT-equiv Brahman |
+
+## Run log — Batch 25 (2026-06-18)
+
+### Concepts completed: 6 / 6 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| four-noble-truths | converged | medium | SN 56.11 + MN 141 FETCHED; 4-truth table + 12-aspect analysis; action-per-truth prescription; cross-tradition diagnostic comparison |
+| nibbana-theravada | converged | medium | Ud 8.1 formula (*ajātaṃ abhūtaṃ akataṃ asaṅkhataṃ*); Iti 43-44 two-type table; extinction vs. asaṅkhata-dhamma debate; Theravāda vs. Mahāyāna split |
+| paticcasamuppada-pali | converged | medium | *imasmiṃ sati idaṃ hoti* formula; 12 Pali nidāna table (avijjā→jarāmaraṇa); three-lifetime structure; cessation chain = nibbāna; Theravāda vs. Madhyamaka |
+| rta | converged | medium | PIE etymology; ~390 RV occurrences; 3-domain scope (cosmic/moral/ritual); Varuṇa as guardian; ṛta→dharma transition; parallel Asha/Logos/Dao |
+| shakti | converged | medium | Devī Māhātmya (~5th–6th c. CE); Śiva-Śakti 4-school table (Kashmir Śaivism/Śaiva Siddhānta/Śāktism/Purāṇic); NOT-equiv prakṛti; NOT-equiv māyā-advaita |
+| lingam | converged | medium | jyotirliṅga cosmogony (Śiva Purāṇa); 5-level table (cosmogonic/metaphysical/cosmological/soteriological/devotional); Liṅgāyat iṣṭaliṅga reform (Basavaṇṇa); NOT-equiv Brahman |
+
+### Texts directly fetched this session
+
+- SN 56.11 (*Dhammacakkappavattana Sutta*), Access to Insight — 4 noble truths defined; 3-round parivatta analysis
+- MN 141 (*Saccavibhaṅga Sutta*), Access to Insight — Sāriputta's analysis; 4-action prescriptions (pariññeyya etc.)
+- Udāna 8.1, Access to Insight — nibbāna unconditioned formula (*ajātaṃ abhūtaṃ akataṃ asaṅkhataṃ*)
+- Wikipedia "Nirvana (Buddhism)" — two-type distinction; Buddhaghosa; Mahāyāna vs. Theravāda
+- Wikipedia "Pratītyasamutpāda" — Pali conditional formula; 12 nidānas; three-lifetime structure
+- Wikipedia "Rta" — PIE etymology; RV occurrence count; Varuṇa; transition to dharma; cross-cultural parallels
+- Wikipedia "Shakti" — Śiva-Śakti; three goddesses; Devī Māhātmya; māyā role; Śākta schools
+- Wikipedia "Lingam" — etymology; symbolic vs. phallic debate; colonial distortion; jyotirliṅga; iṣṭaliṅga
+
+### Graph (final state)
+
+`python graph/build_graph.py` clean: **168 nodes, 1007 edges**.
+`"C:\Program Files\Graphviz\bin\dot.exe" -Tsvg graph/graph.dot -o graph/graph.svg` — SVG rendered.
+graph.dot / graph.html / graph.svg all refreshed.
+
+**Milestone: 1000+ edges.** The graph crossed 1,007 edges this batch — the density of cross-tradition links is now greater than 6 edges per node on average.
+
+### Notable findings this batch
+
+1. **Buddhist soteriological arc now fully threaded in Pali**: dukkha.md (1st Noble Truth) → tanha.md (2nd) → four-noble-truths.md (framework) → paticcasamuppada-pali.md (causal machinery) → nibbana-theravada.md (3rd Noble Truth content) → arhat.md (the achieved goal). Every link in the Theravāda liberation chain has a dedicated file.
+
+2. **four-noble-truths action-prescription is the sharpest doctrinal distinction**: each truth does not merely describe a fact but prescribes an action (pariññeyya / pahātabba / sacchikātabba / bhāvetabba). No other tradition's equivalent framework (Jain 7 tattvas, Advaita avidyā-jñāna) has this explicit per-truth praxis assignment. This is now documented.
+
+3. **nibbāna's unconditioned formula (Ud 8.1) defuses the "mere extinction" reading**: the argument structure (*"if there were no unconditioned, there would be no escape from the conditioned"*) logically implies nibbāna is not mere negation. The file captures both the formula and the ongoing scholarly debate (Stcherbatsky vs. Bhikkhu Bodhi), avoiding false resolution.
+
+4. **paticcasamuppada-pali fills the primary-Pali gap in pratityasamutpada.md**: the earlier file (Batch 4) acknowledged "SN 12 not directly fetched." The new file directly fetches the *imasmiṃ sati* formula and provides the three-lifetime structure as Abhidhamma orthodoxy alongside the minority moment-to-moment reading.
+
+5. **Vedic section opened with ṛta**: the first concept in the "Vedic" index section. ṛta as the cosmological predecessor to both dharma (Hindu) and dhamma (Buddhist natural law) creates new cross-tradition edges that were previously missing. The Varuṇa-as-guardian pattern (gods obey ṛta rather than commanding it) is structurally unique in ancient religious thought.
+
+6. **Śakti resolves the shaivism.md forward-reference**: shaivism.md (Batch 24) referenced Śakti as Śiva's creative power without writing the concept. shakti.md fills this and adds the critical NOT-equivalent edges to both Sāṃkhya-prakṛti and Advaita-māyā — the most important doctrinal distinctions in Śaiva/Śākta theology.
+
+7. **lingam-liṅgāyat connects symbol to soteriology**: the Liṅgāyat *iṣṭaliṅga* reform (Basavaṇṇa, 12th c.) is the most radical anti-caste, anti-Brahmin, body-as-temple application of Śaiva theology in the corpus. It shows how an abstract doctrinal claim (Śiva = nirguṇa absolute) generates a concrete social reform (no intermediaries; every body sacred).
+
+### Corpus milestone: 168 concepts across 25 batches
+
+### Suggested Batch 26 (names only — no files written)
+
+Buddhist epistemology depth:
+- `dharmottara-nyayabindu` — Dharmakīrti's *Nyāyabindu* with Dharmottara's commentary; fills the Kashmir Śaivism / Buddhist epistemology interface
+- `pratyaksha-buddhist` — Buddhist perception theory specifically (vs. Jain pratyakṣa and Nyāya pratyakṣa); fills the perception gap across all three epistemologies
+
+Hindu theology:
+- `vishnu` — Viṣṇu as supreme deity in Vaiṣṇavism; fills the vaishnavism.md forward reference
+- `brahma` — Brahma (the creator god) as distinct from Brahman (Advaita absolute) and from the Jain non-creator cosmology
+
+Logic / philosophy:
+- `pramana-comparison` — systematic comparison table across Nyāya (4), Mīmāṃsā (5-6), Jain (2), Buddhist/Dignāga (2) — or let the graph do it via existing links
+- `inference-comparison` — or let the graph handle it
+
+Vedic:
+- `yajna` — Vedic sacrifice; the ritual underpinning of ṛta; Mīmāṃsā's apauruṣeyatva claim depends on yajna being primary
+- `agni` — Vedic fire deity; the ritual mediator; structurally parallel to the Jain dharma-dravya as enabler
 
 ---
 

@@ -2,13 +2,15 @@
 
 Grouped by tradition-family. Lists every written concept with its status/confidence.
 Regenerated from concept front-matter; family headers may exist without entries.
-Counts: 162 concept files total.
+Counts: 168 concept files total.
 
 ---
 
 ## Vedic
 
-*(none yet)*
+| concept | status | confidence |
+|---|---|---|
+| rta | converged | medium |
 
 ## Epics / Itihāsa
 
@@ -85,6 +87,8 @@ Counts: 162 concept files total.
 | moksha-advaita | converged | medium |
 | omniscience-vedanta | converged | medium |
 | shaivism | converged | medium |
+| shakti | converged | medium |
+| lingam | converged | medium |
 | upanishad | converged | medium |
 | vaishnavism | converged | medium |
 | vishishtadvaita | converged | medium |
@@ -172,12 +176,15 @@ Counts: 162 concept files total.
 | dignaga-pramana | converged | medium |
 | dukkha | converged | medium |
 | dvisatya | converged | medium |
+| four-noble-truths | converged | medium |
 | hetu-vidya | converged | medium |
 | kamalasila | converged | medium |
 | madhyamaka | converged | medium |
 | mulamadhyamakakarika | converged | medium |
 | namarupa | converged | medium |
+| nibbana-theravada | converged | medium |
 | nirvana-buddhist | converged | medium |
+| paticcasamuppada-pali | converged | medium |
 | pramana-samuccaya | converged | medium |
 | pramanavarttika | converged | medium |
 | prasanga-nagarjuna | converged | medium |
