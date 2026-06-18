@@ -9,6 +9,7 @@
 | 04 Cross-Tradition | [04-cross-tradition.md](04-cross-tradition.md) | brahman · ātman-vedānta · karma-vedic · mokṣa-advaita · pratītyasamutpāda · nirvāṇa-buddhist · ahiṃsā · ahiṃsā-buddhist | drafted |
 | 05 Cross-Tradition Epistemology | [05-cross-tradition-epistemology.md](05-cross-tradition-epistemology.md) | pramāṇa · pramāṇa-nyāya · dignāga-pramāṇa · mīmāṃsā-pramāṇa · anumāna-nyāya · vyāpti · hetvābhāsa · tarka · jāti · apoha · śabda-pramāṇa · arthāpatti · hetu-vidyā · dharmottara | drafted |
 | 06 Formal-Logic Comparanda | [06-formal-logic-comparanda.md](06-formal-logic-comparanda.md) | catuṣkoṭi · many-valued-logic · paraconsistent-logic · fuzzy-logic | drafted |
+| 07 Jain Knowledge: The Five Jñānas | [07-jain-knowledge.md](07-jain-knowledge.md) | ratnatraya · upayoga · nikṣepa · mati-jñāna · śruta-jñāna · parokṣa-jñāna · avadhi-jñāna · manaḥparyāya-jñāna · kevala-jñāna | drafted |
 
 ---
 
@@ -65,3 +66,13 @@
 | many-valued-logic | Ch 06 | — |
 | paraconsistent-logic | Ch 06 | — |
 | fuzzy-logic | Ch 06 | — |
+| ratnatraya | Ch 07 | Ch 03 (right faith/conduct jewels) |
+| upayoga | Ch 07 | Ch 03 (§2.1 jīva's mark) |
+| nikṣepa | Ch 07 | Ch 02 (naya disambiguation) |
+| mati-jñāna | Ch 07 | — |
+| śruta-jñāna | Ch 07 | — |
+| parokṣa-jñāna | Ch 07 | Ch 05 (pratyakṣa/parokṣa inversion vs Nyāya/Buddhist/Mīmāṃsā) |
+| avadhi-jñāna | Ch 07 | — |
+| manaḥparyāya-jñāna | Ch 07 | — |
+| kevala-jñāna | Ch 07 | Ch 03 (§9 guṇasthāna 13 · §10 mokṣa) |
+| pramāṇa | Ch 05 | Ch 02 (naya/pramāṇa pair) · Ch 07 (§2.2 the complete-cognition instrument) |
