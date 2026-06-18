@@ -1657,7 +1657,7 @@ Vedic:
 | 3 | `yajna.md` | done | converged, medium; BG 3.11 Sanskrit quoted; 3-layer table (Brāhmaṇa/Upaniṣadic/BG); Mīmāṃsā apauruṣeya; ahiṃsā conflict |
 | 4 | `agni.md` | done | converged, medium; RV 1.1 + 1.164.46; 3-function table (Havyavāhana/hotṛ/ṛtasya-gopā); 3 cosmic forms; dharma-dravya parallel noted weak |
 | 5 | `pratyaksha-buddhist.md` | done | converged, medium; PS 3 + NB 1.4 Sanskrit quoted; 4-type table; 3-tradition comparison; NOT-equiv Jain+Nyāya |
-| 6 | `dharmottara-nyayabindu.md` | pending | |
+| 6 | `dharmottara-nyayabindu.md` | done | converged, medium; 3-chapter table; NB/ṭīkā Sanskrit survival; Kashmir Śaivism Pratyabhijñā interface table; svalakṣaṇa vs self-recognition debate |
 
 ---
 
