@@ -16,6 +16,7 @@ digraph ancient_texts {
     "arihant" [label="arihant" fillcolor="#ffd23f" shape=ellipse];
     "asrava" [label="āsrava" fillcolor="#ffd23f" shape=ellipse];
     "asteya" [label="asteya" fillcolor="#ffd23f" shape=ellipse];
+    "astikaya" [label="astikāya" fillcolor="#ffd23f" shape=ellipse];
     "avadhi-jnana" [label="avadhijñāna" fillcolor="#ffd23f" shape=ellipse];
     "bandha" [label="bandha" fillcolor="#ffd23f" shape=ellipse];
     "brahmacarya" [label="brahmacarya" fillcolor="#ffd23f" shape=ellipse];
@@ -203,6 +204,9 @@ digraph ancient_texts {
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
+  subgraph "cluster_unwritten" { style=invis; peripheries=0;
+    "loka" [label="loka" fillcolor="#777777" shape=box];
+  }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
   "abhidharma" -> "pratityasamutpada" [color="#cccccc22"];
@@ -378,6 +382,10 @@ digraph ancient_texts {
   "asteya" -> "ahimsa" [color="#cccccc22"];
   "asteya" -> "aparigraha" [color="#cccccc22"];
   "asteya" -> "karma" [color="#cccccc22"];
+  "astikaya" -> "dravya" [color="#cccccc22"];
+  "astikaya" -> "loka" [color="#cccccc22"];
+  "astikaya" -> "akasha-dravya" [color="#cccccc22"];
+  "astikaya" -> "kala-dravya" [color="#cccccc22"];
   "atman-vedanta" -> "jiva" [color="#cccccc22"];
   "atman-vedanta" -> "jiva" [color="#cccccc22"];
   "atman-vedanta" -> "brahman" [color="#cccccc22"];
