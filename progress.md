@@ -1794,3 +1794,36 @@ Graph: **174 → 176 nodes** (1050 → 1061 edges). `build_graph.py` ran clean (
 - **Ch 08 — Jain Ethics & Ascetic Practice:** recap mahāvratas; new files `anuvrata`, `sallekhana` (flag contested), and `samayika`/`pratikramana`/`shad-avashyaka` (write only if ≥2 independent sources, else `blocked`).
 - **Ch 09 — The Jain Cosmos & Six Substances in Full:** new files `astikaya`, `utsarpini-avasarpini`; give the four table-row dravyas (dharma/adharma/ākāśa/kāla) real sections.
 - **Ch 10 — Jain Holy Beings, Sects, Texts & History:** new files `namokara` (+`upadhyaya`,`sadhu`), `mahavira`, `parshvanatha`, `digambara`, `svetambara`, `samayasara`+`kundakunda`, `nishchaya-vyavahara`, `punya`+`papa`, 8 karma-prakṛtis detail node, `ajivika`.
+
+---
+
+## Teaching-layer run — Chapters 08 & 09 (2026-06-19)
+
+**Task:** "make the next two chapters and make sure they land on the right sub folders." Both Ch 08 and Ch 09 are Jain-tradition → authored in **`chapters/jain/`** (the correct origin subfolder), matching the Ch 01/02/03/07 placement. Executed the repo's own Ch 08–10 plan for the first two chapters, end-to-end, each concept committed separately + graph regenerated (Ch 07 precedent).
+
+### New atomic concept files written (each: own commit + graph regen)
+| concept | status | confidence | key source |
+|---|---|---|---|
+| `anuvrata` | converged | medium | TS 7.1 Sanskrit FETCHED + TS 7.2 (partial/total) English; 12-vow śrāvaka scheme (5 aṇuvrata+3 guṇavrata+4 śikṣāvrata); Wikipedia/Britannica 2nd signal |
+| `sallekhana` | **contested** | medium | TS 7.22 Sanskrit+English FETCHED (*māraṇāntikī sallekhanāṃ joṣitā*); sallekhanā≠suicide divergence table (Jain doctrine / Rajasthan HC 2015 ban / SC stay) |
+| `shad-avashyaka` | converged | medium | Āvaśyaka Sūtra six (sāmāyika/caturviṃśati-stava/vandana/pratikramaṇa/kāyotsarga/pratyākhyāna); Śvetāmbara rite-list vs Digambara lay ṣaṭ-karma |
+| `astikaya` | converged | medium | TS 5.1 Sanskrit + Pūjyapāda on *kāya*=manifoldness-of-pradeśa FETCHED; pañcāstikāya; kāla=anastikāya; Dravyasaṃgraha+Pañcāstikāyasāra signals |
+| `utsarpini-avasarpini` | converged | medium | kālacakra: 2 half-cycles × 6 aras; 24 Tīrthaṅkaras/half (Ṛṣabha ara3, Mahāvīra ara4); present 5th ara; karma-bhūmi scope |
+
+Decision: the daily-practice trio (sāmāyika/pratikramaṇa/shad-avashyaka) was written as **one** umbrella file `shad-avashyaka` (sāmāyika + pratikramaṇa covered as members) rather than three thin files — atomic per the six-fold scheme, and avoids stubby duplication.
+
+### Linkage pass (post-astikaya)
+Added correct child→parent `is-a-type-of: astikaya` edges to the five extended substances (jīva/pudgala/dharma-dravya/adharma-dravya/ākāśa) — direction rule respected (edge lives in the child's file). Fixed two mistyped `loka`→`loka-jain` link targets (removed a phantom stub node; 182→181).
+
+### Chapters authored (both in chapters/jain/)
+- `chapters/jain/08-jain-ethics.md` — "Living the Vows." Spine: **ethics is physics** (every vow is a move in the karma economy). §§: cāritra frame → five vows (TS 7.1) → mahāvrata/aṇuvrata two-intensities + 12 lay vows (TS 7.2) → kaṣāya→saṃvara/nirjarā mechanism (TS 6.5) → tapas (TS 9.19) + dhyāna (TS 9.28) → ṣaḍāvaśyaka daily loop → sallekhanā (TS 7.22). Conflation alerts: ahiṃsā cross-tradition; **Jain tapas ≠ Hindu tapas** (empties vs fills); **sallekhanā ≠ suicide**.
+- `chapters/jain/09-jain-cosmos.md` — "The Architecture of the Real." §§: dravya (TS 5.38) → sat as being=change-in-permanence (TS 5.30) → **forces anekāntavāda** → astikāya property-cut (TS 5.1; 6≠5 count) → six substances one-by-one (TS 5.17/5.18/5.22/5.39) → loka-puruṣa + siddha-śilā as mokṣa's literal address → kālacakra (6 aras / 24 Tīrthaṅkaras). Conflation alerts: 6 dravya ≠ 5 astikāya; **dharma-dravya ≠ physics field/ether/spacetime** (prime-directive payoff); ākāśa ≠ Vaiśeṣika ether; kālacakra ≠ yuga/avatāra.
+- `chapters/INDEX.md` updated: Ch 08 + Ch 09 rows; new primary-concept mappings + cross-refs.
+
+### Graph
+`build_graph.py` clean: **176 → 181 nodes** (1061 → 1097 edges). SVG re-rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`. graph.dot/html/svg refreshed each concept.
+
+### Nothing blocked or needs-opus-review. All cited; TS verses fetched where available; no from-scratch translations.
+
+### Plan for Ch 10 (unchanged — NOT started this run)
+- **Ch 10 — Jain Holy Beings, Sects, Texts & History:** `namokara` (+`upadhyaya`,`sadhu`), `mahavira`, `parshvanatha`, `digambara`, `svetambara`, `samayasara`+`kundakunda`, `nishchaya-vyavahara`, `punya`+`papa`, 8 karma-prakṛtis detail, `ajivika`.
