@@ -35,7 +35,7 @@ Read the "refuses" column and the temptation is obvious: they all reject "just t
 
 ## 2. The Buddhist four corners — *catuṣkoṭi* {#catuskoti}
 
-*→ concept file: [catuskoti.md](../concepts/catuskoti.md)*
+*→ concept file: [catuskoti.md](../../concepts/catuskoti.md)*
 
 The catuṣkoṭi ("four corners," tetralemma) enumerates every way a proposition could stand:
 
@@ -71,7 +71,7 @@ Same logical territory, opposite outcomes: catuṣkoṭi dismantles, saptabhaṅ
 
 ## 3. The modern toolkit, in plain terms {#modern}
 
-*→ concept files: [many-valued-logic.md](../concepts/many-valued-logic.md) · [paraconsistent-logic.md](../concepts/paraconsistent-logic.md) · [fuzzy-logic.md](../concepts/fuzzy-logic.md)*
+*→ concept files: [many-valued-logic.md](../../concepts/many-valued-logic.md) · [paraconsistent-logic.md](../../concepts/paraconsistent-logic.md) · [fuzzy-logic.md](../../concepts/fuzzy-logic.md)*
 
 Three twentieth-century systems, each refusing bivalence for its *own* reason. The reasons matter more than the refusals.
 
@@ -104,7 +104,7 @@ Each ancient scheme gets paired with the modern system it is most often confused
 
 ### 5.1 saptabhaṅgī is not many-valued logic {#test-mvl}
 
-*→ [many-valued-logic.md](../concepts/many-valued-logic.md) · [saptabhangi.md](../concepts/saptabhangi.md)*
+*→ [many-valued-logic.md](../../concepts/many-valued-logic.md) · [saptabhangi.md](../../concepts/saptabhangi.md)*
 
 The lure: saptabhaṅgī has seven forms, many-valued logic has several values — so the seven forms must be "seven truth-values."
 
@@ -120,7 +120,7 @@ As Fabien Schang notes, the apparent "irrationality" of saptabhaṅgī is an art
 
 ### 5.2 saptabhaṅgī is not paraconsistent logic {#test-para}
 
-*→ [paraconsistent-logic.md](../concepts/paraconsistent-logic.md) · [saptabhangi.md](../concepts/saptabhangi.md)*
+*→ [paraconsistent-logic.md](../../concepts/paraconsistent-logic.md) · [saptabhangi.md](../../concepts/saptabhangi.md)*
 
 The lure: both seem to let "A and not-A" stand together without disaster.
 
@@ -130,7 +130,7 @@ A sharp way to hold it: a paraconsistent logician says "A and ¬A can both be tr
 
 ### 5.3 anekāntavāda / saptabhaṅgī is not fuzzy logic {#test-fuzzy}
 
-*→ [fuzzy-logic.md](../concepts/fuzzy-logic.md) · [anekantavada.md](../concepts/anekantavada.md)*
+*→ [fuzzy-logic.md](../../concepts/fuzzy-logic.md) · [anekantavada.md](../../concepts/anekantavada.md)*
 
 The lure: both deny that "is X permanent?" gets a flat yes/no.
 
@@ -140,7 +140,7 @@ This also separates it cleanly from probability and from vagueness: the Jain is 
 
 ### 5.4 catuṣkoṭi is not paraconsistent logic {#test-catuskoti-para}
 
-*→ [catuskoti.md](../concepts/catuskoti.md) · [paraconsistent-logic.md](../concepts/paraconsistent-logic.md)*
+*→ [catuskoti.md](../../concepts/catuskoti.md) · [paraconsistent-logic.md](../../concepts/paraconsistent-logic.md)*
 
 The lure (the most sophisticated one, and Graham Priest's actual proposal): catuṣkoṭi's third corner — "both is and is not" — looks exactly like LP's designated value **B (both-true-and-false)**. So model the tetralemma in paraconsistent logic.
 

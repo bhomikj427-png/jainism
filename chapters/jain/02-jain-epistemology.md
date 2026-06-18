@@ -15,7 +15,7 @@ Leave `?? ` on its own line where you are stuck; paste the teaching prompt; it w
 
 ## 1. The problem: why Jainism needs its own theory of knowledge {#problem}
 
-*→ concept files: [naya.md](../concepts/naya.md) · [anekantavada.md](../concepts/anekantavada.md)*
+*→ concept files: [naya.md](../../concepts/naya.md) · [anekantavada.md](../../concepts/anekantavada.md)*
 
 Chapter 01 established that every substance (dravya) simultaneously has permanent qualities (guṇa) and changing modes (paryāya). This creates an immediate problem for knowledge: **any single description of a substance is going to capture only one of its aspects.**
 
@@ -35,7 +35,7 @@ These three are a single system. Naya is the ontological structure; anekāntavā
 
 ## 2. Standpoints — *naya* {#naya}
 
-*→ concept file: [naya.md](../concepts/naya.md)*
+*→ concept file: [naya.md](../../concepts/naya.md)*
 
 ### 2.1 Two independent definitions {#naya-defs}
 
@@ -68,7 +68,7 @@ Finite knowers — everyone except a liberated Jina — cannot use pramāṇa di
 
 ## 3. The seven nayas (TS 1.33) {#seven-nayas}
 
-*→ concept files: [dravyarthika-naya.md](../concepts/dravyarthika-naya.md) · [paryayarthika-naya.md](../concepts/paryayarthika-naya.md)*
+*→ concept files: [dravyarthika-naya.md](../../concepts/dravyarthika-naya.md) · [paryayarthika-naya.md](../../concepts/paryayarthika-naya.md)*
 
 TS 1.33 (Vijay K. Jain 2018, directly fetched) names the seven nayas:
 
@@ -116,7 +116,7 @@ These four nayas attend to specific, momentary, fine-grained aspects:
 
 ## 4. Many-sidedness — *anekāntavāda* {#anekantavada}
 
-*→ concept file: [anekantavada.md](../concepts/anekantavada.md)*
+*→ concept file: [anekantavada.md](../../concepts/anekantavada.md)*
 
 ### 4.1 Status: CONTESTED {#anekantavada-status}
 
@@ -146,7 +146,7 @@ The skeptical reading would make Jainism unable to assert anything — including
 
 ## 5. Conditional predication — *syādvāda* {#syadvada}
 
-*→ concept file: [syadvada.md](../concepts/syadvada.md)*
+*→ concept file: [syadvada.md](../../concepts/syadvada.md)*
 
 ### 5.1 What it is {#syadvada-def}
 
@@ -170,7 +170,7 @@ Jain response (via New World Encyclopedia): Each syāt-qualified assertion is **
 
 ## 6. Sevenfold predication — *saptabhaṅgī* {#saptabhangi}
 
-*→ concept file: [saptabhangi.md](../concepts/saptabhangi.md)*
+*→ concept file: [saptabhangi.md](../../concepts/saptabhangi.md)*
 
 ### 6.1 The seven predications {#seven-predications}
 
@@ -210,13 +210,13 @@ Jain response (via Wikipedia, citing Matilal): *asti* and *nāsti* in predicatio
 >
 > **Why the parallel fails:** Saptabhaṅgī is a *qualified-assertion scheme*, not a *truth-value algebra*. The seven predications are not seven truth-values; they are seven **modes of standpoint-qualified assertion**. Łukasiewicz's indeterminate value addresses temporal contingency (a future event is neither true nor false yet). Avaktavya addresses the structural limit of linear language when expressing simultaneous attributes — that is a different problem entirely. The mathematical apparatus of many-valued logic does not transfer. Wikipedia's own source note: "some researchers caution against reinterpreting it" as many-valued logic.
 >
-> Primary: [many-valued-logic.md](../concepts/many-valued-logic.md) (cross-reference; not primary-covered here).
+> Primary: [many-valued-logic.md](../../concepts/many-valued-logic.md) (cross-reference; not primary-covered here).
 
 ---
 
 ## 7. The prime conflation: *anekāntavāda* ≠ quantum complementarity {#quantum}
 
-*→ concept file: [quantum-complementarity.md](../concepts/quantum-complementarity.md) · [anekantavada.md](../concepts/anekantavada.md)*
+*→ concept file: [quantum-complementarity.md](../../concepts/quantum-complementarity.md) · [anekantavada.md](../../concepts/anekantavada.md)*
 
 This is the prime-directive conflict this corpus was built to address. It deserves its own section.
 

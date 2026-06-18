@@ -13,7 +13,7 @@ Read sections 1–6 in order — each one builds on the last. Where you get stuc
 
 ## 1. What does it mean to exist? — *sat* {#sat}
 
-*→ concept file: [sat.md](../concepts/sat.md)*
+*→ concept file: [sat.md](../../concepts/sat.md)*
 
 ### 1.1 The claim {#sat-claim}
 
@@ -73,7 +73,7 @@ The deliberate philosophical middle: **Jainism is neither pure permanence nor pu
 
 ## 2. Substance: the six things that exist — *dravya* {#dravya}
 
-*→ concept file: [dravya.md](../concepts/dravya.md)*
+*→ concept file: [dravya.md](../../concepts/dravya.md)*
 
 ### 2.1 The definition {#dravya-def}
 
@@ -117,7 +117,7 @@ This is a sectarian touchpoint: Digambara Jains (who use the Sarvārthasiddhi) a
 
 ## 3. Mode: how substances change — *paryāya* {#paryaya}
 
-*→ concept file: [paryaya.md](../concepts/paryaya.md)*
+*→ concept file: [paryaya.md](../../concepts/paryaya.md)*
 
 ### 3.1 Guṇa vs paryāya {#guna-paryaya}
 
@@ -154,7 +154,7 @@ This distinction is not just metaphysics for its own sake. It directly grounds t
 
 ## 4. Matter: the one substance with sensory form — *pudgala* {#pudgala}
 
-*→ concept file: [pudgala.md](../concepts/pudgala.md)*
+*→ concept file: [pudgala.md](../../concepts/pudgala.md)*
 
 ### 4.1 Definition and the four qualities {#pudgala-def}
 
@@ -189,7 +189,7 @@ There is nothing in between. A piece of wood is a skandha. Karma particles are a
 
 ## 5. The atom: matter's ultimate unit — *paramāṇu* {#paramanu}
 
-*→ concept file: [paramanu.md](../concepts/paramanu.md)*
+*→ concept file: [paramanu.md](../../concepts/paramanu.md)*
 
 ### 5.1 The definition {#paramanu-def}
 
@@ -225,7 +225,7 @@ No paramāṇu is quality-free. The qualities are not added later — they are c
 
 ## 6. Aggregates: how atoms build the world — *skandha* {#skandha}
 
-*→ concept file: [skandha.md](../concepts/skandha.md)*
+*→ concept file: [skandha.md](../../concepts/skandha.md)*
 
 ### 6.1 The bonding rule {#skandha-bonding}
 

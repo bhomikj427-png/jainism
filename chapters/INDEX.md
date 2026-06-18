@@ -1,15 +1,17 @@
 # chapters/INDEX.md — concept → chapter map
 # Each concept is primary-covered in exactly one chapter. Cross-references elsewhere link back here.
+# Chapters are grouped by origin into subfolders: jain/ (Jain-tradition chapters), cross-tradition/
+# (comparative chapters spanning multiple traditions), comparanda/ (non-Indian / formal-logic parallels).
 
 | chapter | file | primary concepts | status |
 |---|---|---|---|
-| 01 Jain Ontology | [01-jain-ontology.md](01-jain-ontology.md) | sat · dravya · paryāya · pudgala · paramāṇu · skandha | drafted |
-| 02 Jain Epistemology | [02-jain-epistemology.md](02-jain-epistemology.md) | naya · anekāntavāda · syādvāda · saptabhaṅgī · dravyārthika-naya · paryāyārthika-naya | drafted |
-| 03 Jain Soteriology | [03-jain-soteriology.md](03-jain-soteriology.md) | tattva-jain · jīva · karma · kaṣāya · āsrava · bandha · saṃvara · nirjarā · mokṣa · guṇasthāna · loka-jain | drafted |
-| 04 Cross-Tradition | [04-cross-tradition.md](04-cross-tradition.md) | brahman · ātman-vedānta · karma-vedic · mokṣa-advaita · pratītyasamutpāda · nirvāṇa-buddhist · ahiṃsā · ahiṃsā-buddhist | drafted |
-| 05 Cross-Tradition Epistemology | [05-cross-tradition-epistemology.md](05-cross-tradition-epistemology.md) | pramāṇa · pramāṇa-nyāya · dignāga-pramāṇa · mīmāṃsā-pramāṇa · anumāna-nyāya · vyāpti · hetvābhāsa · tarka · jāti · apoha · śabda-pramāṇa · arthāpatti · hetu-vidyā · dharmottara | drafted |
-| 06 Formal-Logic Comparanda | [06-formal-logic-comparanda.md](06-formal-logic-comparanda.md) | catuṣkoṭi · many-valued-logic · paraconsistent-logic · fuzzy-logic | drafted |
-| 07 Jain Knowledge: The Five Jñānas | [07-jain-knowledge.md](07-jain-knowledge.md) | ratnatraya · upayoga · nikṣepa · mati-jñāna · śruta-jñāna · parokṣa-jñāna · avadhi-jñāna · manaḥparyāya-jñāna · kevala-jñāna | drafted |
+| 01 Jain Ontology | [jain/01-jain-ontology.md](jain/01-jain-ontology.md) | sat · dravya · paryāya · pudgala · paramāṇu · skandha | drafted |
+| 02 Jain Epistemology | [jain/02-jain-epistemology.md](jain/02-jain-epistemology.md) | naya · anekāntavāda · syādvāda · saptabhaṅgī · dravyārthika-naya · paryāyārthika-naya | drafted |
+| 03 Jain Soteriology | [jain/03-jain-soteriology.md](jain/03-jain-soteriology.md) | tattva-jain · jīva · karma · kaṣāya · āsrava · bandha · saṃvara · nirjarā · mokṣa · guṇasthāna · loka-jain | drafted |
+| 04 Cross-Tradition | [cross-tradition/04-cross-tradition.md](cross-tradition/04-cross-tradition.md) | brahman · ātman-vedānta · karma-vedic · mokṣa-advaita · pratītyasamutpāda · nirvāṇa-buddhist · ahiṃsā · ahiṃsā-buddhist | drafted |
+| 05 Cross-Tradition Epistemology | [cross-tradition/05-cross-tradition-epistemology.md](cross-tradition/05-cross-tradition-epistemology.md) | pramāṇa · pramāṇa-nyāya · dignāga-pramāṇa · mīmāṃsā-pramāṇa · anumāna-nyāya · vyāpti · hetvābhāsa · tarka · jāti · apoha · śabda-pramāṇa · arthāpatti · hetu-vidyā · dharmottara | drafted |
+| 06 Formal-Logic Comparanda | [comparanda/06-formal-logic-comparanda.md](comparanda/06-formal-logic-comparanda.md) | catuṣkoṭi · many-valued-logic · paraconsistent-logic · fuzzy-logic | drafted |
+| 07 Jain Knowledge: The Five Jñānas | [jain/07-jain-knowledge.md](jain/07-jain-knowledge.md) | ratnatraya · upayoga · nikṣepa · mati-jñāna · śruta-jñāna · parokṣa-jñāna · avadhi-jñāna · manaḥparyāya-jñāna · kevala-jñāna | drafted |
 
 ---
 

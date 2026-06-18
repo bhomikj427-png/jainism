@@ -96,8 +96,8 @@
 
 | chapter | file | concepts | status |
 |---|---|---|---|
-| 01 Jain Ontology | chapters/01-jain-ontology.md | sat, dravya, paryāya, pudgala, paramāṇu, skandha | drafted (backlinks added v2) |
-| 02 Jain Epistemology | chapters/02-jain-epistemology.md | naya, anekāntavāda, syādvāda, saptabhaṅgī, dravyārthika-naya, paryāyārthika-naya | drafted |
+| 01 Jain Ontology | chapters/jain/01-jain-ontology.md | sat, dravya, paryāya, pudgala, paramāṇu, skandha | drafted (backlinks added v2) |
+| 02 Jain Epistemology | chapters/jain/02-jain-epistemology.md | naya, anekāntavāda, syādvāda, saptabhaṅgī, dravyārthika-naya, paryāyārthika-naya | drafted |
 
 ---
 

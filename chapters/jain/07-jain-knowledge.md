@@ -18,7 +18,7 @@ Write `?? ` on its own line where you are stuck — it will be answered in place
 
 ## 1. Which jewel is this? — *ratnatraya* {#ratnatraya}
 
-*→ concept file: [ratnatraya.md](../concepts/ratnatraya.md)*
+*→ concept file: [ratnatraya.md](../../concepts/ratnatraya.md)*
 
 ### 1.1 TS 1.1 — knowledge is one of three {#ratnatraya-verse}
 
@@ -33,7 +33,7 @@ Three jewels (*ratnatraya*), one path. Two grammatical facts in the commentary f
 - **"Path" is singular.** Pūjyapāda stresses that *mārga* is one word, not three. This "refutes the view that each of these singly constitutes the path to liberation." You do not get to liberation on knowledge alone, or conduct alone. The three are one integrated cause.
 - **They are not a staircase.** Right faith and right knowledge "are attained by the soul simultaneously," like the heat and light of the sun appearing together the instant the clouds part. The dependence between the jewels is *logical*, not chronological: right faith is what makes knowledge and conduct *samyak* — "right" — in the first place.
 
-This chapter is about the **second jewel**: *samyak-jñāna*, right knowledge. Ch 03 already mapped the third jewel (right conduct → [charitra.md](../concepts/charitra.md), the mahāvratas) and named the first ([samyak-darshana.md](../concepts/samyak-darshana.md), conviction in the seven tattvas). Here we open up what "knowledge" actually means in the Jain system — and it turns out to have a precise five-part architecture.
+This chapter is about the **second jewel**: *samyak-jñāna*, right knowledge. Ch 03 already mapped the third jewel (right conduct → [charitra.md](../../concepts/charitra.md), the mahāvratas) and named the first ([samyak-darshana.md](../../concepts/samyak-darshana.md), conviction in the seven tattvas). Here we open up what "knowledge" actually means in the Jain system — and it turns out to have a precise five-part architecture.
 
 > ⚠️ **Conflation alert — Jain *ratnatraya* ≠ Buddhist *triratna***
 >
@@ -44,13 +44,13 @@ This chapter is about the **second jewel**: *samyak-jñāna*, right knowledge. C
 > | **Jain *ratnatraya*** | right faith · right knowledge · right conduct | three **components of one path** the practitioner enacts |
 > | **Buddhist *triratna*** | Buddha · Dharma · Saṅgha | three **objects of refuge** the practitioner takes shelter in |
 >
-> The Jain jewels are *things you do and have*; the Buddhist jewels are *a teacher, his teaching, and his community you commit to*. Mapping one onto the other because both are "three jewels" imports a refuge-structure into Jainism that is not there. (The genuine Jain counterpart of "objects of reverence" is the *pañca-parameṣṭhin* of the Ṇamokāra mantra — a different list, treated in a later chapter.) The honest structural parallel to the *ratnatraya* on the Buddhist side is the **Noble Eightfold Path**, which likewise bundles faith/wisdom/conduct into one path — see [nirvana-buddhist.md](../concepts/nirvana-buddhist.md).
+> The Jain jewels are *things you do and have*; the Buddhist jewels are *a teacher, his teaching, and his community you commit to*. Mapping one onto the other because both are "three jewels" imports a refuge-structure into Jainism that is not there. (The genuine Jain counterpart of "objects of reverence" is the *pañca-parameṣṭhin* of the Ṇamokāra mantra — a different list, treated in a later chapter.) The honest structural parallel to the *ratnatraya* on the Buddhist side is the **Noble Eightfold Path**, which likewise bundles faith/wisdom/conduct into one path — see [nirvana-buddhist.md](../../concepts/nirvana-buddhist.md).
 
 ---
 
 ## 2. The two instruments of knowing — *pramāṇa* and *upayoga* {#pramana-upayoga}
 
-*→ concept files: [pramana.md](../concepts/pramana.md) · [upayoga.md](../concepts/upayoga.md)*
+*→ concept files: [pramana.md](../../concepts/pramana.md) · [upayoga.md](../../concepts/upayoga.md)*
 
 Before the five jñānas, two framing concepts. Right knowledge is not free-floating: it is an *activity of the soul*, and it comes in a complete form and a partial form.
 
@@ -108,7 +108,7 @@ Two things to notice immediately, both developed below. First, the **dividing li
 
 ## 4. The signature: sensory knowledge is *indirect* — *parokṣa / pratyakṣa* {#paroksha-pratyaksha}
 
-*→ concept file: [paroksha-jnana.md](../concepts/paroksha-jnana.md)*
+*→ concept file: [paroksha-jnana.md](../../concepts/paroksha-jnana.md)*
 
 This is the single most distinctive claim in Jain epistemology, and the reason this chapter must be read against Chapter 05.
 
@@ -142,7 +142,7 @@ Every other Indian school treats the words the opposite way. To them, *pratyak�
 > | **Nyāya** | sense–object contact (*indriyārtha-sannikarṣa*) | *pratyakṣa* — the paradigm case of directness |
 > | **Buddhist (Dignāga)** | non-conceptual, pre-verbal bare sensation | *pratyakṣa* — the only perception there is |
 >
-> For Nyāya and Dignāga, "direct" means *the object is right there at the sense*. For Jainism, "direct" means *the soul touches the object with nothing in between* — and a sense organ is precisely a something-in-between. So the very faculty that is the **gold standard** of directness for Nyāya and the Buddhists is, for Jainism, the **lowest, most mediated** rung. Same word, inverted ontology: what is at stake is *who the knower is*. If the knower is the embodied perceiver, the senses are direct. If the knower is the soul, the senses are a screen. (See Ch 05 for the Nyāya, Buddhist, and Mīmāṃsā accounts this inverts: [pramana-nyaya.md](../concepts/pramana-nyaya.md), [dignaga-pramana.md](../concepts/dignaga-pramana.md), [mimamsa-pramana.md](../concepts/mimamsa-pramana.md).)
+> For Nyāya and Dignāga, "direct" means *the object is right there at the sense*. For Jainism, "direct" means *the soul touches the object with nothing in between* — and a sense organ is precisely a something-in-between. So the very faculty that is the **gold standard** of directness for Nyāya and the Buddhists is, for Jainism, the **lowest, most mediated** rung. Same word, inverted ontology: what is at stake is *who the knower is*. If the knower is the embodied perceiver, the senses are direct. If the knower is the soul, the senses are a screen. (See Ch 05 for the Nyāya, Buddhist, and Mīmāṃsā accounts this inverts: [pramana-nyaya.md](../../concepts/pramana-nyaya.md), [dignaga-pramana.md](../../concepts/dignaga-pramana.md), [mimamsa-pramana.md](../../concepts/mimamsa-pramana.md).)
 
 The deeper point: this is not a vocabulary accident the Jains could fix by relabelling. It is a *substantive metaphysical commitment*. To call sense perception "indirect" is to assert that the real subject of knowing is the soul, not the body — exactly the claim Buddhism denies (no soul) and Nyāya structures differently (self knows *through* the senses as its instruments). The terminology carries the whole soul-ontology with it.
 
@@ -150,7 +150,7 @@ The deeper point: this is not a vocabulary accident the Jains could fix by relab
 
 ## 5. The first rung — sensory knowledge — *mati-jñāna* {#mati}
 
-*→ concept file: [mati-jnana.md](../concepts/mati-jnana.md)*
+*→ concept file: [mati-jnana.md](../../concepts/mati-jnana.md)*
 
 ### 5.1 TS 1.15 — the four stages {#mati-stages}
 
@@ -181,13 +181,13 @@ So mati can, in principle, get at *every kind of substance* — but never at the
 
 > ⚠️ **Conflation alert — Jain *mati-jñāna* ≠ Dignāga's *pratyakṣa***
 >
-> It is tempting to line up "mati-jñāna = perception" with "Dignāga's pratyakṣa = perception" and call them the same faculty under two names. They are not. Dignāga's *pratyakṣa* is **non-conceptual** — bare sensation *only*, stripped of all naming and judging; the instant you say "that is a crane," you have left perception for inference/construction (*kalpanā*). Jain mati-jñāna is the **opposite shape**: it *includes* the naming and judging stages (*īhā, avāya, dhāraṇā*) as integral parts of one cognition — and the whole thing is still *parokṣa*, indirect. So the two terms disagree twice over: on whether perception is conceptual (Jain yes, Dignāga no) and on whether it is direct (Jain no, Dignāga yes). See [dignaga-pramana.md](../concepts/dignaga-pramana.md).
+> It is tempting to line up "mati-jñāna = perception" with "Dignāga's pratyakṣa = perception" and call them the same faculty under two names. They are not. Dignāga's *pratyakṣa* is **non-conceptual** — bare sensation *only*, stripped of all naming and judging; the instant you say "that is a crane," you have left perception for inference/construction (*kalpanā*). Jain mati-jñāna is the **opposite shape**: it *includes* the naming and judging stages (*īhā, avāya, dhāraṇā*) as integral parts of one cognition — and the whole thing is still *parokṣa*, indirect. So the two terms disagree twice over: on whether perception is conceptual (Jain yes, Dignāga no) and on whether it is direct (Jain no, Dignāga yes). See [dignaga-pramana.md](../../concepts/dignaga-pramana.md).
 
 ---
 
 ## 6. The second rung — scriptural knowledge — *śruta-jñāna* {#shruta}
 
-*→ concept file: [shruta-jnana.md](../concepts/shruta-jnana.md)*
+*→ concept file: [shruta-jnana.md](../../concepts/shruta-jnana.md)*
 
 ### 6.1 Knowledge through language {#shruta-def}
 
@@ -211,7 +211,7 @@ A sharp and important Jain move (Kundakunda's *Samayasāra*, via the Wikipedia "
 
 ## 7. The third rung — clairvoyance — *avadhi-jñāna* {#avadhi}
 
-*→ concept file: [avadhi-jnana.md](../concepts/avadhi-jnana.md)*
+*→ concept file: [avadhi-jnana.md](../../concepts/avadhi-jnana.md)*
 
 With avadhi we cross the line from §4: this is the **first direct (pratyakṣa)** type — the soul apprehending without any sense organ. "Avadhi" means *bounded*, and the name is the whole point: this direct knowledge is real but **limited** — by substance, place, time, and mode — and it reaches **only physical matter** (*pudgala*). Souls, the media of motion and rest, space, and time are all outside its grasp.
 
@@ -241,7 +241,7 @@ The earned (guṇa-pratyaya) form is itself graded — TS 1.23 lists six varieti
 
 ## 8. The fourth rung — telepathy — *manaḥparyāya-jñāna* {#manah-paryaya}
 
-*→ concept file: [manah-paryaya-jnana.md](../concepts/manah-paryaya-jnana.md)*
+*→ concept file: [manah-paryaya-jnana.md](../../concepts/manah-paryaya-jnana.md)*
 
 Manaḥparyāya is the second direct type, ranked **above** avadhi. The name means "modes of mind": the knower directly cognizes the **thought-objects present in another person's mind** — strictly, the physical modes (*pudgala-paryāya*) that the other mind is engaged with, not the mind-substance itself.
 
@@ -267,7 +267,7 @@ Vipulamati is the higher form precisely because it is *infallible and non-regres
 
 ## 9. The fifth rung — omniscience — *kevala-jñāna* {#kevala}
 
-*→ concept file: [kevala-jnana.md](../concepts/kevala-jnana.md)*
+*→ concept file: [kevala-jnana.md](../../concepts/kevala-jnana.md)*
 
 Kevala-jñāna is the top of the ladder and the goal of the whole epistemology: **omniscience** — complete, unmediated, unobstructed cognition of *all substances in all their modes across all three times*, simultaneously. It is pramāṇa (§2.2) in its perfected form: the *sakalādeśa*, the total grasp, made fully actual in a single soul.
 
@@ -290,13 +290,13 @@ This dispute (*kevalī-bhukti* — "does the omniscient one eat?") is one of the
 
 > ⚠️ **Conflation alert — Jain *kevala-jñāna* ≠ Vedāntic omniscience (*sarvajñatva*)**
 >
-> Both describe a knower of all things, and both use *sarvajña*. The structures are opposite. Jain kevala-jñāna is **achieved by an individual soul** through the removal of its own karma — it is a *result*, attained one liberated jīva at a time, and there are infinitely many omniscient siddhas, each distinct. Vedāntic omniscience is an **inherent attribute of the one absolute Being** (Brahman / Īśvara) — not earned, not multiplied, and on the Advaita reading not even ultimately an "individual's" knowing at all. Calling both "omniscience" hides the gulf between *a soul that became omniscient* and *Being that always was*. See [omniscience-vedanta.md](../concepts/omniscience-vedanta.md).
+> Both describe a knower of all things, and both use *sarvajña*. The structures are opposite. Jain kevala-jñāna is **achieved by an individual soul** through the removal of its own karma — it is a *result*, attained one liberated jīva at a time, and there are infinitely many omniscient siddhas, each distinct. Vedāntic omniscience is an **inherent attribute of the one absolute Being** (Brahman / Īśvara) — not earned, not multiplied, and on the Advaita reading not even ultimately an "individual's" knowing at all. Calling both "omniscience" hides the gulf between *a soul that became omniscient* and *Being that always was*. See [omniscience-vedanta.md](../../concepts/omniscience-vedanta.md).
 
 ---
 
 ## 10. The hidden discipline: which sense of the word? — *nikṣepa* {#nikshepa}
 
-*→ concept file: [nikshepa.md](../concepts/nikshepa.md)*
+*→ concept file: [nikshepa.md](../../concepts/nikshepa.md)*
 
 There is one more piece of the knowledge apparatus, and the TS puts it right at the front — *before* the five jñānas, immediately after listing the seven tattvas. It is the rule that you must fix *which sense of a term you are using* before you reason with it. TS 1.5, directly fetched (Vijay K. Jain 2018):
 
@@ -314,7 +314,7 @@ Any word, the Jains hold, can point in four different registers; arguments go wr
 
 So "is *that* a soul?" has four legitimate yes-answers depending on the register — and an argument that equivocates across them is confused, not deep. Nikṣepa is the **disambiguation layer beneath the rest of Jain method**: it tunes the *term*, naya (Ch 02) then tunes the *standpoint on the object*, and syādvāda assembles the standpoints. It is why the TS teaches it on the threshold, before anything else.
 
-> Keep nikṣepa and naya distinct — a common slip. Naya asks *"from which valid angle is this real object being asserted?"* (substance-view vs mode-view). Nikṣepa asks the prior question *"which of the four things does this word even denote?"* (label / image / potential / actual). The *dravya/bhāva* pair in nikṣepa rhymes with the *dravyārthika/paryāyārthika* pair in naya — same substance/mode vocabulary — but they answer different questions. They are complementary tools, not two names for one tool. See [naya.md](../concepts/naya.md).
+> Keep nikṣepa and naya distinct — a common slip. Naya asks *"from which valid angle is this real object being asserted?"* (substance-view vs mode-view). Nikṣepa asks the prior question *"which of the four things does this word even denote?"* (label / image / potential / actual). The *dravya/bhāva* pair in nikṣepa rhymes with the *dravyārthika/paryāyārthika* pair in naya — same substance/mode vocabulary — but they answer different questions. They are complementary tools, not two names for one tool. See [naya.md](../../concepts/naya.md).
 
 ---
 

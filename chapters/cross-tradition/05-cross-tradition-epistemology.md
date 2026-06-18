@@ -18,7 +18,7 @@ Leave `> stuck` on its own line where you get lost; paste the teaching prompt; i
 
 ## 1. The shared question and the four answers {#question}
 
-*→ concept files: [pramana.md](../concepts/pramana.md) · [pramana-nyaya.md](../concepts/pramana-nyaya.md) · [dignaga-pramana.md](../concepts/dignaga-pramana.md) · [mimamsa-pramana.md](../concepts/mimamsa-pramana.md)*
+*→ concept files: [pramana.md](../../concepts/pramana.md) · [pramana-nyaya.md](../../concepts/pramana-nyaya.md) · [dignaga-pramana.md](../../concepts/dignaga-pramana.md) · [mimamsa-pramana.md](../../concepts/mimamsa-pramana.md)*
 
 A **pramāṇa** is a *means of valid knowing* — a pathway by which a cognition earns the status of knowledge rather than mere opinion. Every school agrees there is such a thing as valid cognition; they disagree on how many irreducible pathways there are. "Irreducible" is the key word: nobody denies that we learn from testimony, but a school that thinks testimony is *really just a kind of inference* will not list it separately.
 
@@ -40,7 +40,7 @@ Two schools land on "2" (Buddhist and Jain) but for opposite reasons — and the
 
 ## 2. The Jain answer and its quiet inversion {#jain}
 
-*→ concept file: [pramana.md](../concepts/pramana.md)*
+*→ concept file: [pramana.md](../../concepts/pramana.md)*
 
 The Tattvārtha Sūtra gives the Jain epistemic toolkit in one verse:
 
@@ -69,7 +69,7 @@ So far this looks like Nyāya's "valid cognition." But Jainism then does somethi
 
 ## 3. Nyāya: four pathways, perception first {#nyaya}
 
-*→ concept files: [pramana-nyaya.md](../concepts/pramana-nyaya.md) · [anumana-nyaya.md](../concepts/anumana-nyaya.md)*
+*→ concept files: [pramana-nyaya.md](../../concepts/pramana-nyaya.md) · [anumana-nyaya.md](../../concepts/anumana-nyaya.md)*
 
 Nyāya (the "logic" school, founded on Gautama's *Nyāyasūtra*, ~200 CE) is the mainstream against which the others define themselves. It admits four pramāṇas and treats perception as foundational — Vātsyāyana's argument is that inference, comparison, and testimony all *presuppose* perception, so perception is first not just in the list but in dependence-order.
 
@@ -86,7 +86,7 @@ Inference is where Nyāya built its machinery, so it gets its own section (§5).
 
 ## 4. Buddhist (Dignāga): only two, and perception says nothing {#dignaga}
 
-*→ concept files: [dignaga-pramana.md](../concepts/dignaga-pramana.md) · [hetu-vidya.md](../concepts/hetu-vidya.md)*
+*→ concept files: [dignaga-pramana.md](../../concepts/dignaga-pramana.md) · [hetu-vidya.md](../../concepts/hetu-vidya.md)*
 
 Dignāga (~480–540 CE) founded the Buddhist epistemological tradition (the *pramāṇavāda*) and cut the list to **two**. His argument is elegant: there are only two kinds of *object* — the unique particular (*svalakṣaṇa*) and the general character (*sāmānya-lakṣaṇa*) — so there can be only two means of knowing them.
 
@@ -103,7 +103,7 @@ Because everything conceptual is funnelled into inference, Dignāga can dissolve
 
 ## 5. Mīmāṃsā: more pathways, and the authorless word {#mimamsa}
 
-*→ concept files: [mimamsa-pramana.md](../concepts/mimamsa-pramana.md) · [arthapatti.md](../concepts/arthapatti.md) · [sabda-pramana.md](../concepts/sabda-pramana.md)*
+*→ concept files: [mimamsa-pramana.md](../../concepts/mimamsa-pramana.md) · [arthapatti.md](../../concepts/arthapatti.md) · [sabda-pramana.md](../../concepts/sabda-pramana.md)*
 
 Pūrva-Mīmāṃsā is at the opposite pole from Dignāga: it *adds* pathways. It is primarily a school of Vedic interpretation, and its whole epistemology is engineered to protect the authority of the Veda. It keeps Nyāya's four and adds one or two more:
 
@@ -123,7 +123,7 @@ This is the most extreme position on testimony in the table: Vedic *śabda* is v
 
 ## 6. The engine under every inference: *vyāpti* {#vyapti}
 
-*→ concept files: [vyapti.md](../concepts/vyapti.md) · [jati.md](../concepts/jati.md) · [apoha.md](../concepts/apoha.md)*
+*→ concept files: [vyapti.md](../../concepts/vyapti.md) · [jati.md](../../concepts/jati.md) · [apoha.md](../../concepts/apoha.md)*
 
 ### 6.1 What vyāpti is {#vyapti-def}
 
@@ -167,7 +167,7 @@ This is the metaphysical bedrock of the whole quarrel. When you call two animals
 
 ## 7. The Nyāya syllogism, its fallacies, and its doubt-remover {#anumana}
 
-*→ concept files: [anumana-nyaya.md](../concepts/anumana-nyaya.md) · [hetvabhasa.md](../concepts/hetvabhasa.md) · [tarka.md](../concepts/tarka.md)*
+*→ concept files: [anumana-nyaya.md](../../concepts/anumana-nyaya.md) · [hetvabhasa.md](../../concepts/hetvabhasa.md) · [tarka.md](../../concepts/tarka.md)*
 
 ### 7.1 The five-member proof {#five-member}
 
@@ -219,7 +219,7 @@ Tarka is **not a pramāṇa** — it generates no new knowledge, it only clears 
 
 ## 8. Testimony, and the Buddhist who dissolved it {#sabda}
 
-*→ concept files: [sabda-pramana.md](../concepts/sabda-pramana.md) · [hetu-vidya.md](../concepts/hetu-vidya.md) · [dharmottara.md](../concepts/dharmottara.md)*
+*→ concept files: [sabda-pramana.md](../../concepts/sabda-pramana.md) · [hetu-vidya.md](../../concepts/hetu-vidya.md) · [dharmottara.md](../../concepts/dharmottara.md)*
 
 ### 8.1 Four positions on whether words can be a separate pramāṇa {#sabda-four}
 
@@ -238,7 +238,7 @@ This single disagreement organised centuries of Indian philosophy. Dignāga (~5t
 
 ## 9. The Buddhist logic tradition and its transmission {#hetu-vidya}
 
-*→ concept files: [hetu-vidya.md](../concepts/hetu-vidya.md) · [dharmottara.md](../concepts/dharmottara.md)*
+*→ concept files: [hetu-vidya.md](../../concepts/hetu-vidya.md) · [dharmottara.md](../../concepts/dharmottara.md)*
 
 Dignāga's two-pramāṇa system was not a one-off; it founded a school — *hetu-vidyā*, "the science of reasons," one of the Five Major Sciences in later Tibetan learning. Its through-line:
 

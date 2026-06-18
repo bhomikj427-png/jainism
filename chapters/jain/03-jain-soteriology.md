@@ -15,7 +15,7 @@ Write `?? ` on its own line where you are stuck — it will be answered in place
 
 ## 1. The map: seven categories of reality — *tattva-jain* {#tattvas}
 
-*→ concept file: [tattva-jain.md](../concepts/tattva-jain.md)*
+*→ concept file: [tattva-jain.md](../../concepts/tattva-jain.md)*
 
 ### 1.1 TS 1.4 — the foundational verse {#tattvas-verse}
 
@@ -49,7 +49,7 @@ Tattvas 1–2 establish the players. Tattvas 3–4 are the diagnosis. Tattvas 5�
 
 ## 2. The soul that needs liberating — *jīva* {#jiva}
 
-*→ concept file: [jiva.md](../concepts/jiva.md)*
+*→ concept file: [jiva.md](../../concepts/jiva.md)*
 
 ### 2.1 Defining characteristic: consciousness (*upayoga*) {#jiva-upayoga}
 
@@ -88,7 +88,7 @@ TS 2.10: souls divide into two classes:
 
 ## 3. The binding agent — karma as physical matter {#karma}
 
-*→ concept file: [karma.md](../concepts/karma.md)*
+*→ concept file: [karma.md](../../concepts/karma.md)*
 
 ### 3.1 The uniquely Jain claim {#karma-physical}
 
@@ -134,7 +134,7 @@ The standard Jain eight-fold karma taxonomy (from the Bhagavatī Sūtra traditio
 
 ## 4. The adhesive — *kaṣāya* (passions) {#kashaya}
 
-*→ concept file: [kashaya.md](../concepts/kashaya.md)*
+*→ concept file: [kashaya.md](../../concepts/kashaya.md)*
 
 ### 4.1 Four passions, sixteen intensities {#kashaya-matrix}
 
@@ -164,7 +164,7 @@ Without passions, karma particles touch the soul but do not bind — like water 
 
 ## 5. Influx — *āsrava* {#asrava}
 
-*→ concept file: [asrava.md](../concepts/asrava.md)*
+*→ concept file: [asrava.md](../../concepts/asrava.md)*
 
 ### 5.1 TS 6.2 — the water-gate analogy {#asrava-def}
 
@@ -190,7 +190,7 @@ Pūjyapāda's commentary (*Sarvārthasiddhi*, via Vijay K. Jain 2018): "Just as 
 
 ## 6. Bondage — *bandha* {#bandha}
 
-*→ concept file: [bandha.md](../concepts/bandha.md)*
+*→ concept file: [bandha.md](../../concepts/bandha.md)*
 
 ### 6.1 Five causes of bondage — TS 8.1 {#bandha-causes}
 
@@ -225,7 +225,7 @@ This table explains why the passions (kaṣāya) matter more than the activities
 
 ## 7. Stopping new karma — *saṃvara* {#samvara}
 
-*→ concept file: [samvara.md](../concepts/samvara.md)*
+*→ concept file: [samvara.md](../../concepts/samvara.md)*
 
 ### 7.1 Definition — TS 9.1 {#samvara-def}
 
@@ -266,7 +266,7 @@ TS 9.2–9.5 (confirmed via JainSquare Chapter 9 and search-result aggregation) 
 
 ## 8. Shedding accumulated karma — *nirjarā* {#nirjara}
 
-*→ concept file: [nirjara.md](../concepts/nirjara.md)*
+*→ concept file: [nirjara.md](../../concepts/nirjara.md)*
 
 ### 8.1 TS 8.23 — the fruition-and-fall mechanism {#nirjara-def}
 
@@ -292,7 +292,7 @@ Avipāka nirjarā through tapas is what actually moves the balance — it burns 
 
 ## 9. The fourteen stages — *guṇasthāna* {#gunasthana}
 
-*→ concept file: [gunasthana.md](../concepts/gunasthana.md)*
+*→ concept file: [gunasthana.md](../../concepts/gunasthana.md)*
 
 ### 9.1 The full progression {#gunasthana-table}
 
@@ -333,7 +333,7 @@ At stage 14 (*ayoga-kevalī*): even subtle yoga ceases. The four aghātīya karm
 
 ## 10. Liberation — *mokṣa* {#moksha}
 
-*→ concept files: [moksha.md](../concepts/moksha.md) · [loka-jain.md](../concepts/loka-jain.md)*
+*→ concept files: [moksha.md](../../concepts/moksha.md) · [loka-jain.md](../../concepts/loka-jain.md)*
 
 ### 10.1 TS 10.2 — the definition {#moksha-def}
 

@@ -37,7 +37,7 @@ The three traditions have different answers to every question in this table. The
 
 ## 2. The Advaita Vedānta system {#advaita}
 
-*→ concept files: [brahman.md](../concepts/brahman.md) · [atman-vedanta.md](../concepts/atman-vedanta.md) · [karma-vedic.md](../concepts/karma-vedic.md) · [moksha-advaita.md](../concepts/moksha-advaita.md)*
+*→ concept files: [brahman.md](../../concepts/brahman.md) · [atman-vedanta.md](../../concepts/atman-vedanta.md) · [karma-vedic.md](../../concepts/karma-vedic.md) · [moksha-advaita.md](../../concepts/moksha-advaita.md)*
 
 ### 2.1 Brahman — the one reality {#brahman}
 
@@ -145,7 +145,7 @@ Advaita is the most radical position in all of Indian philosophy on the self-que
 
 ## 3. The Buddhist system {#buddhist}
 
-*→ concept files: [pratityasamutpada.md](../concepts/pratityasamutpada.md) · [nirvana-buddhist.md](../concepts/nirvana-buddhist.md)*
+*→ concept files: [pratityasamutpada.md](../../concepts/pratityasamutpada.md) · [nirvana-buddhist.md](../../concepts/nirvana-buddhist.md)*
 
 ### 3.1 Pratītyasamutpāda — why things arise {#paticca}
 
@@ -227,7 +227,7 @@ Positive language is avoided because positive language can only describe conditi
 
 ## 4. Ethics: non-violence across the three traditions {#ahimsa}
 
-*→ concept files: [ahimsa.md](../concepts/ahimsa.md) · [ahimsa-buddhist.md](../concepts/ahimsa-buddhist.md)*
+*→ concept files: [ahimsa.md](../../concepts/ahimsa.md) · [ahimsa-buddhist.md](../../concepts/ahimsa-buddhist.md)*
 
 ### 4.1 Jain ahiṃsā — ontological, absolute {#jain-ahimsa}
 
