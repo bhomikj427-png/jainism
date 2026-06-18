@@ -1653,7 +1653,7 @@ Vedic:
 | # | concept (filename) | status | notes |
 |---|---|---|---|
 | 1 | `vishnu.md` | done | converged, medium; BhP 1.2.11 triple-designation; ṣaḍ-bhaga; 3-school Brahman-relation table; avatāra doctrine |
-| 2 | `brahma.md` | pending | |
+| 2 | `brahma.md` | done | converged, medium; Muṇḍaka Up 1.1.1; Hiraṇyagarbha myth; Brahmā≠Brahman 3-row table; 2 temples; Prajāpati succession |
 | 3 | `yajna.md` | pending | |
 | 4 | `agni.md` | pending | |
 | 5 | `pratyaksha-buddhist.md` | pending | |
