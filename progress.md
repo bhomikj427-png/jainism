@@ -1509,6 +1509,66 @@ Filling doctrinal and tradition gaps revealed by Batch 23:
 
 ---
 
+## Batch 24 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `upanishad.md` | done | converged, medium; Olivelle 1998 + Radhakrishnan 1953; 12 mukhya, 4 mahāvākyas, 4 Vedānta sub-schools |
+| 2 | `vaishnavism.md` | done | converged, medium; 4+1 sampradāyas; avatāra doctrine; bhakti; NOT-equiv Advaita |
+| 3 | `shaivism.md` | done | converged, medium; 4 schools; pariṇāmavāda; Śakti; NOT-equiv Advaita māyāvāda |
+| 4 | `dhamma.md` | done | converged, medium; 4-sense table; NOT-equiv dharma-dravya; anattā grounding |
+| 5 | `arhat.md` | done | converged, medium; SN 22.110 FETCHED; 4-stage ladder, 10-fetter table; NOT-equiv bodhisattva |
+| 6 | `tanha.md` | done | converged, medium; SN 56.11 (corpus-prior fetch); 3-type table; 12-nidāna position; parallel kaṣāya/āsrava |
+
+## Run log — Batch 24 (2026-06-18)
+
+### Concepts completed: 6 / 6 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| upanishad | converged | medium | Olivelle 1998 OUP + Radhakrishnan 1953; 12 mukhya by Veda; 4 mahāvākyas with texts; 4 Vedānta sub-schools table |
+| vaishnavism | converged | medium | Wikipedia "Vaishnavism" + "Gaudiya Vaishnavism" + "Pancharatra"; 4+1 sampradāyas; avatāra; NOT-equiv Advaita |
+| shaivism | converged | medium | Wikipedia + IEP "Kashmiri Shaiva Philosophy"; 4 schools; pariṇāmavāda (Śaiva Siddhānta); NOT-equiv Advaita māyāvāda |
+| dhamma | converged | medium | Wisdom Library + Wikipedia + JustBuddha; 4-sense table; NOT-equiv dharma-dravya; vibhava-taṇhā as aversion |
+| arhat | converged | medium | SN 22.110 FETCHED (Access to Insight); 4-stage ladder; 10-fetter table; NOT-equiv bodhisattva; parallel siddha |
+| tanha | converged | medium | SN 56.11 (corpus-prior fetch; dukkha.md); Wikipedia "Taṇhā"; 3-type table; 12-nidāna 8th link; parallel kaṣāya/āsrava |
+
+### Notable findings this batch
+
+1. **Hindu tradition layer now structurally complete**: upanishad.md (scriptural foundation) + brahma-sutra.md (systematization) + advaita-vedanta / vishishtadvaita / dvaita-vedanta + vaishnavism + shaivism — the entire āstika doctrinal pyramid is now covered. The Upaniṣad → Brahmasūtra → three Vedānta schools → two major devotional traditions is a legible chain across concept files.
+
+2. **The Advaita NOT-equivalent cluster is now fully mapped**: advaita-vedanta.md + maya-advaita.md + vivartavada.md on one side; vaishnavism.md + shaivism.md + parinamavada.md on the other. Three separate traditions (Jain, Vaiṣṇava, Śaiva) each explicitly reject Advaita māyāvāda for overlapping but distinct reasons — now all documented.
+
+3. **Dhamma 4-sense disambiguation is the sharpest polysemy case in the corpus**: the single word "dhamma / dharma" covers (a) Buddhist teaching, (b) natural law, (c) mental phenomena (Abhidhamma), (d) medium of motion (Jain) — four completely different semantic fields under one root. The NOT-equivalent edge to dharma-dravya is now the most striking "same word, utterly different thing" edge in the graph.
+
+4. **Buddhist path now fully threaded**: dukkha (1st Noble Truth) → tanha (2nd Noble Truth / 8th nidāna) → pratityasamutpada (12-link chain) → arhat (goal of Eightfold Path) → nirvana-buddhist / theravada. Every node in this chain has a dedicated file.
+
+5. **SN 22.110 fetch**: canonical arahant definition directly retrieved from Access to Insight (Pali text + Walshe translation). This is the most authoritative source in the corpus for the arhat concept.
+
+### Graph (final state of this run)
+`python graph/build_graph.py` clean: **162 nodes, 969 edges**.
+`"C:\Program Files\Graphviz\bin\dot.exe" -Tsvg graph/graph.dot -o graph/graph.svg` — SVG rendered.
+graph.dot / graph.html / graph.svg all refreshed.
+
+### Suggested Batch 25 (names only — no files written)
+Filling remaining tradition and doctrinal gaps:
+
+Buddhist depth:
+- `four-noble-truths` — explicit file for the core Buddhist doctrinal structure (presently distributed across dukkha.md, tanha.md, arhat.md)
+- `nibbana-theravada` — Theravāda's specific Pali account of nibbāna (vs the Sanskrit nirvāṇa in nirvana-buddhist.md, which covers all schools)
+- `paticcasamuppada-pali` — Pali-specific treatment of dependent origination with Pali nidāna names and SN 12 citations
+
+Hindu / Vedic:
+- `rta` — Vedic cosmic order/truth; precursor to dharma in both Hindu and Buddhist senses
+- `shakti` — Śaiva/Śākta divine power; fills the Śakti concept that shaivism.md references but does not write
+- `lingam` — the Śiva symbol; Liṅgāyat theology; connects shaivism to soteriology
+
+Cross-tradition:
+- `ahimsa-jain-buddhist` — systematic comparison now that all three ahiṃsā files (Jain, Buddhist, Vedic) are written
+- `liberation-comparison` — or let the graph do the work via existing links (prefer the latter)
+
+---
+
 ## Graph toolchain installed + rendered (2026-06-16)
 
 The long-standing "Python + Graphviz not on this machine" blocker is **resolved**. Installed

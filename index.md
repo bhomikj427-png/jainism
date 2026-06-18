@@ -2,7 +2,7 @@
 
 Grouped by tradition-family. Lists every written concept with its status/confidence.
 Regenerated from concept front-matter; family headers may exist without entries.
-Counts: 156 concept files total.
+Counts: 162 concept files total.
 
 ---
 
@@ -22,6 +22,7 @@ Counts: 156 concept files total.
 | bhakti | converged | medium |
 | carvaka | converged | medium |
 | dana | converged | medium |
+| dhamma | converged | medium |
 | hetvabhasa | converged | medium |
 | karma-marga | converged | medium |
 | manas | converged | medium |
@@ -83,6 +84,9 @@ Counts: 156 concept files total.
 | mimamsa-pramana | converged | medium |
 | moksha-advaita | converged | medium |
 | omniscience-vedanta | converged | medium |
+| shaivism | converged | medium |
+| upanishad | converged | medium |
+| vaishnavism | converged | medium |
 | vishishtadvaita | converged | medium |
 | vivartavada | contested | medium |
 
@@ -156,6 +160,7 @@ Counts: 156 concept files total.
 | abhidharma | converged | medium |
 | abhidharmakosa | converged | medium |
 | ahimsa-buddhist | converged | medium |
+| arhat | converged | medium |
 | bodhisattva | converged | medium |
 | alaya-vijnana | converged | medium |
 | anatta-buddhist | contested | medium |
@@ -181,6 +186,7 @@ Counts: 156 concept files total.
 | skandha-buddhist | converged | medium |
 | sunyata | converged | medium |
 | tathagata-garbha | converged | medium |
+| tanha | converged | medium |
 | theravada | converged | medium |
 | trisvabhava | converged | medium |
 | vijnaptimatrata | contested | medium |
