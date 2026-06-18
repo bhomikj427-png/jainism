@@ -33,7 +33,7 @@ digraph ancient_texts {
 		kashaya [label="kaṣāya" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.3800000000000001 shape=ellipse style=filled width=1.3800000000000001]
 		"kevala-jnana" [label="kevala-jñāna" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		leshya [label="leśyā" fillcolor="#ffd23f" fixedsize=false fontsize=14 height=0.8800000000000001 shape=ellipse style=filled width=0.8800000000000001]
-		"loka-jain" [label="loka (Jain)" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.18 shape=ellipse style=filled width=1.18]
+		"loka-jain" [label="loka (Jain)" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.3800000000000001 shape=ellipse style=filled width=1.3800000000000001]
 		"manah-paryaya-jnana" [label="manaḥparyāyajñāna" fillcolor="#ffd23f" fixedsize=false fontsize=15 height=0.98 shape=ellipse style=filled width=0.98]
 		"mati-jnana" [label="matijñāna" fillcolor="#ffd23f" fixedsize=false fontsize=14 height=0.8800000000000001 shape=ellipse style=filled width=0.8800000000000001]
 		moksha [label="mokṣa" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
@@ -213,10 +213,6 @@ digraph ancient_texts {
 		tapas [label=tapas fillcolor="#ff6fa5" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		vyapti [label="vyāpti" fillcolor="#ff6fa5" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 	}
-	subgraph cluster_unwritten {
-		label="" peripheries=0 style=invis
-		loka [label=loka fillcolor="#777777" fixedsize=true fontsize=9 height=0.38 shape=box style=filled width=0.38]
-	}
 	abhidharma -> abhidharmakosa [color="#cccccc22"]
 	abhidharma -> dravya [color="#cccccc22"]
 	abhidharma -> pratityasamutpada [color="#cccccc22"]
@@ -395,7 +391,7 @@ digraph ancient_texts {
 	asteya -> aparigraha [color="#cccccc22"]
 	asteya -> karma [color="#cccccc22"]
 	astikaya -> dravya [color="#cccccc22"]
-	astikaya -> loka [color="#cccccc22"]
+	astikaya -> "loka-jain" [color="#cccccc22"]
 	astikaya -> "akasha-dravya" [color="#cccccc22"]
 	astikaya -> "kala-dravya" [color="#cccccc22"]
 	"atman-vedanta" -> jiva [color="#cccccc22"]
@@ -1230,7 +1226,7 @@ digraph ancient_texts {
 	upayoga -> gunasthana [color="#cccccc22"]
 	upayoga -> kashaya [color="#cccccc22"]
 	"utsarpini-avasarpini" -> "kala-dravya" [color="#cccccc22"]
-	"utsarpini-avasarpini" -> loka [color="#cccccc22"]
+	"utsarpini-avasarpini" -> "loka-jain" [color="#cccccc22"]
 	"utsarpini-avasarpini" -> tirthankara [color="#cccccc22"]
 	"utsarpini-avasarpini" -> samsara [color="#cccccc22"]
 	"utsarpini-avasarpini" -> "avatara-vedanta" [color="#cccccc22"]

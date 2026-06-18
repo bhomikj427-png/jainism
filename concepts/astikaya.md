@@ -59,6 +59,6 @@ So "the universe is made of five extended substances plus time" and "the univers
 ## Links
 
 - is-a-type-of: dravya | an astikāya is a dravya possessing spatial body (extension across multiple pradeśa); the astikāya scheme is a property-cut across the six substances — specific (extended substance) → general (substance)
-- part-of: loka | the five astikāyas are exactly the contents of the occupied universe (lokākāśa); the loka is the region the extended substances pervade — they constitute it
+- part-of: loka-jain | the five astikāyas are exactly the contents of the occupied universe (lokākāśa); the loka is the region the extended substances pervade — they constitute it
 - expressed-by: akasha-dravya | the *pradeśa* (indivisible space-point) by which all extension is measured is defined by ākāśa; a substance counts as astikāya iff it occupies more than one of ākāśa's points
 - often-conflated-with-NOT-equivalent: kala-dravya | kāla is the one dravya that is NOT an astikāya — it has a single space-point (no second pradeśa), hence no *kāya*; conflating "the six substances" with "the five extended bodies" erases exactly this exclusion

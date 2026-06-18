@@ -205,9 +205,6 @@ digraph ancient_texts {
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
-  subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "loka" [label="loka" fillcolor="#777777" shape=box];
-  }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
   "abhidharma" -> "pratityasamutpada" [color="#cccccc22"];
@@ -386,7 +383,7 @@ digraph ancient_texts {
   "asteya" -> "aparigraha" [color="#cccccc22"];
   "asteya" -> "karma" [color="#cccccc22"];
   "astikaya" -> "dravya" [color="#cccccc22"];
-  "astikaya" -> "loka" [color="#cccccc22"];
+  "astikaya" -> "loka-jain" [color="#cccccc22"];
   "astikaya" -> "akasha-dravya" [color="#cccccc22"];
   "astikaya" -> "kala-dravya" [color="#cccccc22"];
   "atman-vedanta" -> "jiva" [color="#cccccc22"];
@@ -1221,7 +1218,7 @@ digraph ancient_texts {
   "upayoga" -> "gunasthana" [color="#cccccc22"];
   "upayoga" -> "kashaya" [color="#cccccc22"];
   "utsarpini-avasarpini" -> "kala-dravya" [color="#cccccc22"];
-  "utsarpini-avasarpini" -> "loka" [color="#cccccc22"];
+  "utsarpini-avasarpini" -> "loka-jain" [color="#cccccc22"];
   "utsarpini-avasarpini" -> "tirthankara" [color="#cccccc22"];
   "utsarpini-avasarpini" -> "samsara" [color="#cccccc22"];
   "utsarpini-avasarpini" -> "avatara-vedanta" [color="#cccccc22"];

@@ -43,7 +43,7 @@ At the bottom (end of avasarpiṇī ara 6) the wheel reverses: utsarpiṇī begi
 ## Links
 
 - part-of: kala-dravya | the utsarpiṇī/avasarpiṇī cycle is the *measured fluctuation* of worldly conditions through time; it presupposes kāla as the substance enabling change (vartanā) but is a cosmological pattern, not the substance itself
-- part-of: loka | the kālacakra operates within the inhabited universe (loka), specifically its karma-bhūmi regions — it is a feature of the cosmos's structure
+- part-of: loka-jain | the kālacakra operates within the inhabited universe (loka), specifically its karma-bhūmi regions — it is a feature of the cosmos's structure
 - structurally-parallel-to: tirthankara | the 24 Tīrthaṅkaras are distributed across the cycle (Ṛṣabhanātha opening this avasarpiṇī's religious era, Mahāvīra closing it); the ford-makers are *how* the dharma re-enters a declining age
 - shares-vocabulary-with: samsara | both name cyclic time, but at different scales: saṃsāra is the *individual soul's* rebirth-loop; the kālacakra is the *cosmic-epoch* loop — the soul transmigrates within the turning ages
 - often-conflated-with-NOT-equivalent: avatara-vedanta | the periodic descent of Tīrthaṅkaras to renew dharma across the cycle resembles Viṣṇu's yuga-by-yuga avatāras, but a Tīrthaṅkara is a liberated human teacher who *ascends out*, not a deity who *descends in* — see avatara-vedanta.md
