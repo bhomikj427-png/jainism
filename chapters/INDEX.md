@@ -13,6 +13,7 @@
 | 06 Formal-Logic Comparanda | [comparanda/06-formal-logic-comparanda.md](comparanda/06-formal-logic-comparanda.md) | catuṣkoṭi · many-valued-logic · paraconsistent-logic · fuzzy-logic | drafted |
 | 07 Jain Knowledge: The Five Jñānas | [jain/07-jain-knowledge.md](jain/07-jain-knowledge.md) | ratnatraya · upayoga · nikṣepa · mati-jñāna · śruta-jñāna · parokṣa-jñāna · avadhi-jñāna · manaḥparyāya-jñāna · kevala-jñāna | drafted |
 | 08 Jain Ethics & Ascetic Practice | [jain/08-jain-ethics.md](jain/08-jain-ethics.md) | cāritra · satya · asteya · brahmacarya · aparigraha · aṇuvrata · tapas · dhyāna-jain · ṣaḍāvaśyaka · sallekhanā | drafted |
+| 09 The Jain Cosmos & Six Substances | [jain/09-jain-cosmos.md](jain/09-jain-cosmos.md) | dravya · sat · astikāya · jīva · pudgala · dharma-dravya · adharma-dravya · ākāśa · kāla · loka · utsarpiṇī-avasarpiṇī | drafted |
 
 ---
 
@@ -90,3 +91,12 @@
 | ṣaḍāvaśyaka | Ch 08 | — (sāmāyika · pratikramaṇa covered as members) |
 | sallekhanā | Ch 08 | — (contested; presented as divergence table) |
 | ahiṃsā | Ch 04 | Ch 08 (§2 root of the five vows) |
+| astikāya | Ch 09 | Ch 01 (the extended substances) |
+| dharma-dravya | Ch 09 | Ch 01 (one of six dravyas) |
+| adharma-dravya | Ch 09 | Ch 01 (one of six dravyas) |
+| ākāśa | Ch 09 | Ch 01 (one of six dravyas) |
+| kāla | Ch 09 | Ch 01 (one of six dravyas) |
+| loka | Ch 09 | Ch 03 (§ siddha-śilā summit / mokṣa address) |
+| utsarpiṇī-avasarpiṇī | Ch 09 | — (Tīrthaṅkara distribution across the cycle) |
+| dravya | Ch 01 | Ch 09 (§1 the six substances in full) |
+| sat | Ch 01 | Ch 02 (anekāntavāda grounding) · Ch 09 (§2 being as change-in-permanence) |
