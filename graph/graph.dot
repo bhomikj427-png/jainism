@@ -46,6 +46,7 @@ digraph ancient_texts {
     "paryayarthika-naya" [label="paryāyārthika naya" fillcolor="#ffd23f" shape=ellipse];
     "pramana" [label="pramāṇa" fillcolor="#ffd23f" shape=ellipse];
     "pudgala" [label="pudgala" fillcolor="#ffd23f" shape=ellipse];
+    "ratnatraya" [label="ratnatraya" fillcolor="#ffd23f" shape=ellipse];
     "samvara" [label="saṃvara" fillcolor="#ffd23f" shape=ellipse];
     "samyak-darshana" [label="samyagdarśana" fillcolor="#ffd23f" shape=ellipse];
     "sangraha-naya" [label="saṃgraha-naya" fillcolor="#ffd23f" shape=ellipse];
@@ -957,6 +958,12 @@ digraph ancient_texts {
   "quantum-complementarity" -> "anekantavada" [color="#cccccc22"];
   "quantum-complementarity" -> "many-valued-logic" [color="#cccccc22"];
   "quantum-complementarity" -> "many-valued-logic" [color="#cccccc22"];
+  "ratnatraya" -> "moksha" [color="#cccccc22"];
+  "ratnatraya" -> "samyak-darshana" [color="#cccccc22"];
+  "ratnatraya" -> "pramana" [color="#cccccc22"];
+  "ratnatraya" -> "charitra" [color="#cccccc22"];
+  "ratnatraya" -> "gunasthana" [color="#cccccc22"];
+  "ratnatraya" -> "nirvana-buddhist" [color="#cccccc22"];
   "rta" -> "upanishad" [color="#cccccc22"];
   "rta" -> "stoic-logos" [color="#cccccc22"];
   "rta" -> "dhamma" [color="#cccccc22"];
