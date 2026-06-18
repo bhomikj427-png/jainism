@@ -1659,6 +1659,55 @@ Vedic:
 | 5 | `pratyaksha-buddhist.md` | done | converged, medium; PS 3 + NB 1.4 Sanskrit quoted; 4-type table; 3-tradition comparison; NOT-equiv Jain+Nyāya |
 | 6 | `dharmottara-nyayabindu.md` | done | converged, medium; 3-chapter table; NB/ṭīkā Sanskrit survival; Kashmir Śaivism Pratyabhijñā interface table; svalakṣaṇa vs self-recognition debate |
 
+## Run log — Batch 26 (2026-06-19)
+
+### Concepts completed: 6 / 6 (0 blocked, 0 needs-opus-review)
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| vishnu | converged | medium | BhP 1.2.11 triple-designation; ṣaḍ-bhaga; 3-school Brahman-relation table (Advaita/Viśiṣṭādvaita/Dvaita); NOT-equiv Brahman |
+| brahma | converged | medium | Muṇḍaka Up 1.1.1; Hiraṇyagarbha myth; Brahmā≠Brahman/Brāhmaṇa 3-term table; Bhṛgu + Śiva curse; 2 temples; Prajāpati succession |
+| yajna | converged | medium | BG 3.11 Sanskrit; 3-layer table (Brāhmaṇa/Upaniṣadic/BG); Mīmāṃsā apauruṣeya; ṛta connection; ahiṃsā conflict |
+| agni | converged | medium | RV 1.1 + 1.164.46; 3-function table (Havyavāhana/hotṛ/ṛtasya-gopā); 3 cosmic forms; dharma-dravya parallel noted weak |
+| pratyaksha-buddhist | converged | medium | PS 3 + NB 1.4 Sanskrit; 4-type table; 3-tradition comparison table; NOT-equiv Nyāya savikalpaka + Jain unmediated scope |
+| dharmottara-nyayabindu | converged | medium | 3-chapter table; NB/ṭīkā Sanskrit survival; Kashmir Śaivism Pratyabhijñā interface table (4 issues); Yogācāra reading |
+
+### Linkage pass (post-batch)
+- Fixed incorrect `is-a-type-of: vaishnavism` → `part-of: vaishnavism` in vishnu.md (direction rule)
+- Added forward links to Batch 26 concepts in 8 existing files: vaishnavism, rta, mimamsa-pramana, dharmottara, dignaga-pramana, pramanavarttika, vishishtadvaita, dvaita-vedanta
+
+### Graph (final state)
+`python graph/build_graph.py` clean: **174 nodes, 1050 edges**.
+SVG rendered with `"C:\Program Files\Graphviz\bin\dot.exe" -Tsvg graph/graph.dot -o graph/graph.svg`.
+graph.dot / graph.html / graph.svg all refreshed.
+
+### Notable findings this batch
+
+1. **Hindu Trinity now fully mapped**: Brahmā (creator, brahma.md), Viṣṇu (preserver, vishnu.md), Śiva (lingam.md, shaivism.md) each have dedicated files. The Trimurti concept connects them; but only Viṣṇu and Śiva sustain major devotional worship — Brahmā's marginality is documented with its textual explanation.
+
+2. **Brahmā≠Brahman is the corpus's most common confusion target**: the same Sanskrit root *bṛh* produces three distinct terms (Brahmā/Brahman/Brāhmaṇa); brahma.md documents all three levels explicitly with a 3-row disambiguation table.
+
+3. **Yajña is the operational spine of the Vedic/Mīmāṃsā/ṛta cluster**: yajna.md connects rta.md (cosmic order), agni.md (ritual mediator), mimamsa-pramana.md (apauruṣeya grounding), and karma-marga.md (BG reinterpretation) in a single concept. Four existing files now link to it.
+
+4. **Buddhist pratyakṣa definitions now primary-text grounded**: PS 3 and NB 1.4 quoted with Sanskrit. This is the first time perception theory in the corpus has verse-level textual grounding comparable to the Jain TS fetches.
+
+5. **Kashmir Śaivism / Buddhist epistemology interface documented**: dharmottara-nyayabindu.md maps the Pratyabhijñā–Buddhist debate on four philosophical issues (self, perception, universals, consciousness). This is the only place in the corpus where the two traditions' direct historical confrontation is systematically documented.
+
+### Suggested Batch 27 (names only — no files written)
+
+Hindu theology completing the Trimurti/Vedic cluster:
+- `sarasvati` — goddess of knowledge, arts, wisdom; paired with Brahmā; one of the Tridevi
+- `lakshmi` — goddess of prosperity; Viṣṇu's śakti/consort; named in vaishnavism.md but not yet written
+- `trimurti` — the Brahmā/Viṣṇu/Śiva triad as a cosmological schema; is it original or a later synthesis?
+
+Kashmir Śaivism depth:
+- `pratyabhijna` — the Recognition (Pratyabhijñā) school of Utpaladeva/Abhinavagupta; fills the interface dharmottara-nyayabindu.md opens
+- `spanda` — the "vibration" doctrine (another key Kashmir Śaiva concept, alongside Pratyabhijñā)
+
+Remaining Buddhist concepts:
+- `bodhicitta` — the awakening mind; central to Mahāyāna ethics (referenced in bodhisattva.md)
+- `madhyamaka-logic` — the Prāsaṅga method as a distinct logical technique (distinguished from standard anumāna)
+
 ---
 
 ## Graph toolchain installed + rendered (2026-06-16)

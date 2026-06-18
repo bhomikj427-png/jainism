@@ -2,7 +2,7 @@
 
 Grouped by tradition-family. Lists every written concept with its status/confidence.
 Regenerated from concept front-matter; family headers may exist without entries.
-Counts: 168 concept files total.
+Counts: 174 concept files total.
 
 ---
 
@@ -10,7 +10,9 @@ Counts: 168 concept files total.
 
 | concept | status | confidence |
 |---|---|---|
+| agni | converged | medium |
 | rta | converged | medium |
+| yajna | converged | medium |
 
 ## Epics / Itihāsa
 
@@ -92,7 +94,9 @@ Counts: 168 concept files total.
 | upanishad | converged | medium |
 | vaishnavism | converged | medium |
 | vishishtadvaita | converged | medium |
+| vishnu | converged | medium |
 | vivartavada | contested | medium |
+| brahma | converged | medium |
 
 ## Jain Āgamas & Darśana
 
@@ -173,6 +177,7 @@ Counts: 168 concept files total.
 | catuskoti | converged | medium |
 | citta | converged | medium |
 | dharmottara | converged | medium |
+| dharmottara-nyayabindu | converged | medium |
 | dignaga-pramana | converged | medium |
 | dukkha | converged | medium |
 | dvisatya | converged | medium |
@@ -187,6 +192,7 @@ Counts: 168 concept files total.
 | paticcasamuppada-pali | converged | medium |
 | pramana-samuccaya | converged | medium |
 | pramanavarttika | converged | medium |
+| pratyaksha-buddhist | converged | medium |
 | prasanga-nagarjuna | converged | medium |
 | pratityasamutpada | converged | medium |
 | santaraksita | converged | medium |
