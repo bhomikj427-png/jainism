@@ -1648,6 +1648,19 @@ Vedic:
 
 ---
 
+## Batch 26 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `vishnu.md` | done | converged, medium; BhP 1.2.11 triple-designation; ṣaḍ-bhaga; 3-school Brahman-relation table; avatāra doctrine |
+| 2 | `brahma.md` | pending | |
+| 3 | `yajna.md` | pending | |
+| 4 | `agni.md` | pending | |
+| 5 | `pratyaksha-buddhist.md` | pending | |
+| 6 | `dharmottara-nyayabindu.md` | pending | |
+
+---
+
 ## Graph toolchain installed + rendered (2026-06-16)
 
 The long-standing "Python + Graphviz not on this machine" blocker is **resolved**. Installed
