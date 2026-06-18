@@ -1654,7 +1654,7 @@ Vedic:
 |---|---|---|---|
 | 1 | `vishnu.md` | done | converged, medium; BhP 1.2.11 triple-designation; ṣaḍ-bhaga; 3-school Brahman-relation table; avatāra doctrine |
 | 2 | `brahma.md` | done | converged, medium; Muṇḍaka Up 1.1.1; Hiraṇyagarbha myth; Brahmā≠Brahman 3-row table; 2 temples; Prajāpati succession |
-| 3 | `yajna.md` | pending | |
+| 3 | `yajna.md` | done | converged, medium; BG 3.11 Sanskrit quoted; 3-layer table (Brāhmaṇa/Upaniṣadic/BG); Mīmāṃsā apauruṣeya; ahiṃsā conflict |
 | 4 | `agni.md` | pending | |
 | 5 | `pratyaksha-buddhist.md` | pending | |
 | 6 | `dharmottara-nyayabindu.md` | pending | |
