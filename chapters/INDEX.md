@@ -12,6 +12,7 @@
 | 05 Cross-Tradition Epistemology | [cross-tradition/05-cross-tradition-epistemology.md](cross-tradition/05-cross-tradition-epistemology.md) | pramāṇa · pramāṇa-nyāya · dignāga-pramāṇa · mīmāṃsā-pramāṇa · anumāna-nyāya · vyāpti · hetvābhāsa · tarka · jāti · apoha · śabda-pramāṇa · arthāpatti · hetu-vidyā · dharmottara | drafted |
 | 06 Formal-Logic Comparanda | [comparanda/06-formal-logic-comparanda.md](comparanda/06-formal-logic-comparanda.md) | catuṣkoṭi · many-valued-logic · paraconsistent-logic · fuzzy-logic | drafted |
 | 07 Jain Knowledge: The Five Jñānas | [jain/07-jain-knowledge.md](jain/07-jain-knowledge.md) | ratnatraya · upayoga · nikṣepa · mati-jñāna · śruta-jñāna · parokṣa-jñāna · avadhi-jñāna · manaḥparyāya-jñāna · kevala-jñāna | drafted |
+| 08 Jain Ethics & Ascetic Practice | [jain/08-jain-ethics.md](jain/08-jain-ethics.md) | cāritra · satya · asteya · brahmacarya · aparigraha · aṇuvrata · tapas · dhyāna-jain · ṣaḍāvaśyaka · sallekhanā | drafted |
 
 ---
 
@@ -78,3 +79,14 @@
 | manaḥparyāya-jñāna | Ch 07 | — |
 | kevala-jñāna | Ch 07 | Ch 03 (§9 guṇasthāna 13 · §10 mokṣa) |
 | pramāṇa | Ch 05 | Ch 02 (naya/pramāṇa pair) · Ch 07 (§2.2 the complete-cognition instrument) |
+| cāritra | Ch 08 | Ch 01 · Ch 07 (§1 third jewel of the ratnatraya) |
+| satya | Ch 08 | Ch 04 (ahiṃsā-rooted vow cluster) |
+| asteya | Ch 08 | Ch 04 (ahiṃsā-rooted vow cluster) |
+| brahmacarya | Ch 08 | Ch 04 (ahiṃsā-rooted vow cluster) |
+| aparigraha | Ch 08 | Ch 03 (§ kaṣāya-root of bandha) |
+| aṇuvrata | Ch 08 | — |
+| tapas | Ch 08 | Ch 03 (nirjarā mechanism) |
+| dhyāna-jain | Ch 08 | Ch 03 (§ karma-binding vs karma-shedding meditation) |
+| ṣaḍāvaśyaka | Ch 08 | — (sāmāyika · pratikramaṇa covered as members) |
+| sallekhanā | Ch 08 | — (contested; presented as divergence table) |
+| ahiṃsā | Ch 04 | Ch 08 (§2 root of the five vows) |
