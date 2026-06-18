@@ -1768,3 +1768,29 @@ spread them. Because constant-size labels can never *all* fit non-overlapping at
 of 122 nodes (the fit-zoom cancels any extra graph-space spacing), labels now behave like Obsidian:
 hub labels (degree > 11) always show; the rest appear once you **zoom in** past ~1.15× or on hover.
 SVG `sep` bumped to `+18` for matching static spacing.
+
+---
+
+## Teaching-layer run — Chapter 07 (2026-06-19)
+
+**Task:** Complete Jain coverage in the human-readable `chapters/` teaching layer. This run did **Ch 07 only**, end-to-end (per scope-lock in the task brief). Chapters are reading views, NOT graph nodes — `build_graph.py` does not scan `chapters/`.
+
+### New atomic concept files written (each: own commit + graph regen)
+| concept | status | confidence | key source |
+|---|---|---|---|
+| `ratnatraya` | converged | medium | TS 1.1 FETCHED (Vijay K. Jain 2018 + Pūjyapāda); singular-mārga + simultaneity; Wikipedia + Jainpedia independent confirm; Buddhist triratna flagged as false-friend |
+| `nikshepa` | converged | medium | TS 1.5 FETCHED (*nāmasthāpanādravyabhāvatastannyāsaḥ*); Pūjyapāda jīva/tīrthaṅkara examples; WisdomLib defs page 2nd signal; distinguished from naya |
+
+Graph: **174 → 176 nodes** (1050 → 1061 edges). `build_graph.py` ran clean (Graphviz `dot` not on PATH, so `graph.dot`/`graph.html` regenerated, `graph.svg` unchanged — same as prior batches).
+
+### Chapter authored
+- `chapters/07-jain-knowledge.md` — "How the Soul Knows: The Five Jñānas." Sections: ratnatraya frame (which jewel) → pramāṇa/upayoga instruments → TS 1.9 five-fold ladder → **the parokṣa/pratyakṣa inversion (§4, the chapter spine)** → mati / śruta / avadhi / manaḥparyāya / kevala, each with its fetched verse → nikṣepa disambiguation layer → summary visual → Check yourself. Matches Ch 03 format (per-concept `→ concept file` links, fetched-verse quotes w/ citations, ⚠️ Conflation alerts, `{#anchor}` tags, How-to-use intro, Check-yourself close, medium-ceiling source note).
+- Conflation alerts drawn: ratnatraya ≠ Buddhist triratna; Jain pratyakṣa ≠ Nyāya ≠ Dignāga; mati-jñāna ≠ Dignāga pratyakṣa; avadhi ≠ kevala; manaḥparyāya ≠ avadhi; kevala-jñāna ≠ Vedānta sarvajñatva.
+- `chapters/INDEX.md` updated: Ch 07 row + 9 new primary concept mappings (+ pramāṇa cross-ref to Ch 07).
+
+### Nothing blocked or needs-opus-review. All cited; no from-scratch translations.
+
+### Plan for Ch 08–10 (one line each; NOT started this run)
+- **Ch 08 — Jain Ethics & Ascetic Practice:** recap mahāvratas; new files `anuvrata`, `sallekhana` (flag contested), and `samayika`/`pratikramana`/`shad-avashyaka` (write only if ≥2 independent sources, else `blocked`).
+- **Ch 09 — The Jain Cosmos & Six Substances in Full:** new files `astikaya`, `utsarpini-avasarpini`; give the four table-row dravyas (dharma/adharma/ākāśa/kāla) real sections.
+- **Ch 10 — Jain Holy Beings, Sects, Texts & History:** new files `namokara` (+`upadhyaya`,`sadhu`), `mahavira`, `parshvanatha`, `digambara`, `svetambara`, `samayasara`+`kundakunda`, `nishchaya-vyavahara`, `punya`+`papa`, 8 karma-prakṛtis detail node, `ajivika`.
