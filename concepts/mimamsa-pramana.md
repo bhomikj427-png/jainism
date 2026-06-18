@@ -62,3 +62,4 @@ Kumārila Bhaṭṭa's elaborate epistemological system (~7th c. CE) was specifi
 - part-of: brahman | Mīmāṃsā's Vedic authority claim presupposes Brahman-as-cosmic-order (rita/dharma encoded in the Vedas)
 - expressed-by: arthapatti | arthāpatti (postulation) is the sixth Bhāṭṭa-Mīmāṃsā pramāṇa and the most distinctively Mīmāṃsā addition; it is what Mīmāṃsā epistemology claims that no other school can reduce to inference
 - part-of: mimamsa-sutra | this pramāṇa-theory is the epistemological wing of the school founded by Jaimini's Mīmāṃsāsūtra, grounding śabda in the apauruṣeya Veda
+- historically-influenced-by: yajna | Mīmāṃsā epistemology was historically constructed in order to systematise and justify Vedic yajña (sacrifice); the entire apauruṣeya / svataḥ-prāmāṇya framework is the theoretical grounding for why yajña-injunctions are binding

@@ -57,3 +57,4 @@ Confidence medium: Wikipedia multi-sourced and internally consistent; four-sampr
 - shares-vocabulary-with: advaita-vedanta | Viśiṣṭādvaita and Dvaita interpret the same Upaniṣads and Brahmasūtra that Advaita does; all use brahman, ātman, mokṣa terminology
 - often-conflated-with-NOT-equivalent: advaita-vedanta | Rāmānuja and Madhva explicitly reject Śaṃkara's māyāvāda (world-as-illusion) and attribute-less brahman; Vaiṣṇava liberation is eternal personal relation or proximity, not identity-merger
 - structurally-parallel-to: shaivism | parallel devotional tradition with the same theological structure (supreme God + bhakti + sampradāya lineages + Āgamas) but centred on Śiva not Viṣṇu
+- expressed-by: vishnu | Viṣṇu (six divine qualities, avatāra doctrine, personal Bhagavān) is the theological substance that Vaiṣṇavism is centred on; the tradition's sampradāya splits all concern which aspect of Viṣṇu to emphasise

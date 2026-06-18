@@ -60,3 +60,5 @@ Independence: Wikipedia + WisdomLib are independent sources; the Ṛgveda occurr
 - structurally-parallel-to: dhamma | the natural-law sense of Buddhist dhamma (cosmic regularities + ethical conditionality) parallels ṛta's dual cosmic/moral function; but dhamma has no Vedic sacrificial/ritualistic dimension
 - often-conflated-with-NOT-equivalent: brahman | ṛta is a functional ordering principle (how things move rightly), not a metaphysical substance (what everything ultimately is); Advaita brahman is pure consciousness/being, not cosmic law
 - shares-vocabulary-with: dhamma | dhamma/dharma and ṛta share the Vedic concern with cosmic and moral order; historically, dharma emerged as ṛta's particularized ethical successor in the classical period
+- expressed-by: yajna | yajña is the primary human ritual mechanism for maintaining ṛta; the Puruṣa Sūkta depicts the cosmos itself as arising from primordial sacrifice, making yajña the enactment of ṛta's originary structure
+- expressed-by: agni | Agni (*ṛtasya gopā*, "guardian of ṛta") embodies ṛta in the ritual sphere; fire transforms human offerings into divine reciprocity, sustaining cosmic order

@@ -35,3 +35,4 @@ The two are independent (an encyclopedia and a peer-reviewed philosophy encyclop
 - expressed-by: apoha | the causally-grounded version of the exclusion theory of meaning is worked out in apoha.md
 - structurally-parallel-to: nyaya-sutra | both are root/anchor texts of a rival pramāṇa tradition, each systematising perception, inference, and the conditions of valid reasoning
 - often-conflated-with-NOT-equivalent: nyaya-sutra | Dharmakīrti admits only *two* pramāṇas and is a nominalist (apoha replaces real universals/jāti, grounding vyāpti in causation/identity); the Nyāyasūtra admits *four* and is a realist about universals — Dharmakīrti's text is in large part a sustained attack on the Nyāya position
+- shares-vocabulary-with: dharmottara-nyayabindu | the Nyāyabindu is Dharmakīrti's compact teaching-text counterpart to the PV; Dharmottara's ṭīkā on NB is the primary Sanskrit commentary transmitting the PV's doctrines to Kashmir and Tibet

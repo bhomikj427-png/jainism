@@ -36,3 +36,4 @@ Signals 1 and 2 are both Wikipedia articles (same platform → **only weakly ind
 - often-conflated-with-NOT-equivalent: dvaita-vedanta | but Viśiṣṭādvaita holds souls/matter to be real *modes / the body* of one Brahman (inseparable, qualified non-dualism); Dvaita holds them *eternally separate substances* from God (full dualism) — modes-of-one vs distinct-many
 - expressed-by: parinamavada | Brahma-pariṇāmavāda is Rāmānuja's variant of real-transformation causation (Brahman really transforms; the world is its genuine body-mode)
 - expressed-by: bhakti | bhakti (devotion) paired with prapatti (surrender) is the soteriological path in Viśiṣṭādvaita — liberation via participation, not abstract jñāna
+- expressed-by: vishnu | Viśiṣṭādvaita identifies Brahman with the personal God Viṣṇu (Nārāyaṇa); Rāmānuja's "qualified non-dualism" is specifically a claim about Viṣṇu as the one brahman-with-qualities

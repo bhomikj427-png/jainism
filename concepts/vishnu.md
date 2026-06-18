@@ -43,7 +43,7 @@ Three signals with genuine topic overlap and independent sourcing (Wikipedia art
 
 ## Links
 
-- is-a-type-of: vaishnavism | Viṣṇu is the supreme deity whose worship defines the Vaiṣṇava tradition; the sampradāya takes its name from him
+- part-of: vaishnavism | Viṣṇu-theology and Viṣṇu-worship is the central constitutive element of the Vaiṣṇava tradition; the sampradāya takes its name from him
 - shares-vocabulary-with: brahman | Bhāgavata Purāṇa 1.2.11 uses Brahman, Paramātman, and Bhagavān as three facets of the same non-dual entity (Vaiṣṇava reading)
 - often-conflated-with-NOT-equivalent: brahman | Viṣṇu is personal (*sa-guṇa*), historical agent (avatāra), object of devotion; Brahman is impersonal, nirguṇa, beyond relation — Advaita subordinates Viṣṇu to Brahman; Vaiṣṇava schools resist this subordination
 - expressed-by: avatara-vedanta | the avatāra doctrine is Viṣṇu's primary mode of world-engagement; avatāra presupposes a personal God who can descend

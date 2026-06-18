@@ -65,3 +65,4 @@ Dignāga's framework inaugurated the Buddhist logic tradition (*pramāṇa-vāda
 - part-of: anatta-buddhist | Dignāga's nominalism (no real universals) and 2-pramāṇa scheme presuppose Buddhist rejection of enduring selves
 - part-of: pratityasamutpada | perception of momentary particulars fits the Buddhist doctrine of momentariness (anicca)
 - part-of: pramana-samuccaya | this two-pramāṇa epistemology is the doctrine of Dignāga's root-text, the Pramāṇasamuccaya
+- expressed-by: pratyaksha-buddhist | Buddhist pratyakṣa (kalpanāpoḍha; four types) is the perceptual pramāṇa of the Dignāga–Dharmakīrti system; pratyaksha-buddhist.md deepens the perception side

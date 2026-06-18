@@ -69,3 +69,4 @@ Converged. Confidence medium: primary Sanskrit texts (Nyāyabinduṭīkā) not i
 - formalizes: vyapti | Dharmottara's niścaya-pratyaya elaborates how vyāpti-knowledge is ascertained in the inferential process
 - shares-vocabulary-with: mimamsa-pramana | both traditions grapple with valid cognition definition ("non-deceptive" in Dharmakīrti; "self-validating" in Mīmāṃsā) — historically adversarial
 - structurally-parallel-to: pramana-nyaya | Dharmottara and Nyāya epistemologists were historical adversaries; both theorise what makes cognition valid (niścaya-pratyaya vs Nyāya's causal/object-contact conditions) — documented rivalry in Kashmiri philosophical circles
+- expressed-by: dharmottara-nyayabindu | the Nyāyabinduṭīkā is Dharmottara's principal surviving Sanskrit work; that text+commentary pairing is the primary vehicle for his Kashmiri reading of the Dignāga–Dharmakīrti tradition
