@@ -1567,6 +1567,17 @@ Cross-tradition:
 - `ahimsa-jain-buddhist` — systematic comparison now that all three ahiṃsā files (Jain, Buddhist, Vedic) are written
 - `liberation-comparison` — or let the graph do the work via existing links (prefer the latter)
 
+## Batch 25 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `four-noble-truths.md` | pending | |
+| 2 | `nibbana-theravada.md` | pending | |
+| 3 | `paticcasamuppada-pali.md` | pending | |
+| 4 | `rta.md` | pending | |
+| 5 | `shakti.md` | pending | |
+| 6 | `lingam.md` | pending | |
+
 ---
 
 ## Graph toolchain installed + rendered (2026-06-16)
