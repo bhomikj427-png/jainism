@@ -38,6 +38,7 @@ digraph ancient_texts {
     "moksha" [label="mokṣa" fillcolor="#ffd23f" shape=ellipse];
     "naigama-naya" [label="naigama-naya" fillcolor="#ffd23f" shape=ellipse];
     "naya" [label="naya" fillcolor="#ffd23f" shape=ellipse];
+    "nikshepa" [label="nikṣepa" fillcolor="#ffd23f" shape=ellipse];
     "nirjara" [label="nirjarā" fillcolor="#ffd23f" shape=ellipse];
     "nishcaya-vyavahara" [label="niścaya-vyavahāra" fillcolor="#ffd23f" shape=ellipse];
     "paramanu" [label="paramāṇu" fillcolor="#ffd23f" shape=ellipse];
@@ -784,6 +785,11 @@ digraph ancient_texts {
   "nibbana-theravada" -> "nirvana-buddhist" [color="#cccccc22"];
   "nibbana-theravada" -> "moksha" [color="#cccccc22"];
   "nibbana-theravada" -> "moksha-advaita" [color="#cccccc22"];
+  "nikshepa" -> "naya" [color="#cccccc22"];
+  "nikshepa" -> "anekantavada" [color="#cccccc22"];
+  "nikshepa" -> "dravya" [color="#cccccc22"];
+  "nikshepa" -> "paryaya" [color="#cccccc22"];
+  "nikshepa" -> "tattva-jain" [color="#cccccc22"];
   "nirjara" -> "karma" [color="#cccccc22"];
   "nirjara" -> "samvara" [color="#cccccc22"];
   "nirjara" -> "moksha" [color="#cccccc22"];
