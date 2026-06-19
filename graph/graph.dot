@@ -66,6 +66,7 @@ digraph ancient_texts {
     "tattva-jain" [label="tattva (Jain)" fillcolor="#ffd23f" shape=ellipse];
     "tattvartha-sutra" [label="Tattvārthasūtra" fillcolor="#ffd23f" shape=ellipse];
     "tirthankara" [label="tīrthaṅkara" fillcolor="#ffd23f" shape=ellipse];
+    "upadhyaya" [label="upādhyāya" fillcolor="#ffd23f" shape=ellipse];
     "upayoga" [label="upayoga" fillcolor="#ffd23f" shape=ellipse];
     "utsarpini-avasarpini" [label="utsarpiṇī-avasarpiṇī" fillcolor="#ffd23f" shape=ellipse];
     "vyavahara-naya" [label="vyavahāra-naya" fillcolor="#ffd23f" shape=ellipse];
@@ -208,7 +209,6 @@ digraph ancient_texts {
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
     "sadhu" [label="sadhu" fillcolor="#777777" shape=box];
-    "upadhyaya" [label="upadhyaya" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -1217,6 +1217,12 @@ digraph ancient_texts {
   "trisvabhava" -> "maya-advaita" [color="#cccccc22"];
   "trisvabhava" -> "maya-advaita" [color="#cccccc22"];
   "trisvabhava" -> "pratityasamutpada" [color="#cccccc22"];
+  "upadhyaya" -> "namokara" [color="#cccccc22"];
+  "upadhyaya" -> "jina" [color="#cccccc22"];
+  "upadhyaya" -> "shruta-jnana" [color="#cccccc22"];
+  "upadhyaya" -> "gunasthana" [color="#cccccc22"];
+  "upadhyaya" -> "tirthankara" [color="#cccccc22"];
+  "upadhyaya" -> "acarya" [color="#cccccc22"];
   "upanishad" -> "brahman" [color="#cccccc22"];
   "upanishad" -> "atman-vedanta" [color="#cccccc22"];
   "upanishad" -> "maya-advaita" [color="#cccccc22"];
