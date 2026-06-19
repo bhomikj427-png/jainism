@@ -35,6 +35,7 @@ digraph ancient_texts {
     "kevala-jnana" [label="kevala-jñāna" fillcolor="#ffd23f" shape=ellipse];
     "leshya" [label="leśyā" fillcolor="#ffd23f" shape=ellipse];
     "loka-jain" [label="loka (Jain)" fillcolor="#ffd23f" shape=ellipse];
+    "mahavira" [label="mahāvīra" fillcolor="#ffd23f" shape=ellipse];
     "manah-paryaya-jnana" [label="manaḥparyāyajñāna" fillcolor="#ffd23f" shape=ellipse];
     "mati-jnana" [label="matijñāna" fillcolor="#ffd23f" shape=ellipse];
     "moksha" [label="mokṣa" fillcolor="#ffd23f" shape=ellipse];
@@ -210,7 +211,7 @@ digraph ancient_texts {
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "mahavira" [label="mahavira" fillcolor="#777777" shape=box];
+    "ajivika" [label="ajivika" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -727,6 +728,13 @@ digraph ancient_texts {
   "madhyamaka" -> "santaraksita" [color="#cccccc22"];
   "madhyamaka" -> "prasanga-nagarjuna" [color="#cccccc22"];
   "madhyamaka" -> "mulamadhyamakakarika" [color="#cccccc22"];
+  "mahavira" -> "tirthankara" [color="#cccccc22"];
+  "mahavira" -> "jina" [color="#cccccc22"];
+  "mahavira" -> "parshvanatha" [color="#cccccc22"];
+  "mahavira" -> "kevala-jnana" [color="#cccccc22"];
+  "mahavira" -> "anekantavada" [color="#cccccc22"];
+  "mahavira" -> "moksha" [color="#cccccc22"];
+  "mahavira" -> "ajivika" [color="#cccccc22"];
   "manah-paryaya-jnana" -> "pramana" [color="#cccccc22"];
   "manah-paryaya-jnana" -> "upayoga" [color="#cccccc22"];
   "manah-paryaya-jnana" -> "kevala-jnana" [color="#cccccc22"];
