@@ -66,6 +66,7 @@ digraph ancient_texts {
     "shruta-jnana" [label="śrutajñāna" fillcolor="#ffd23f" shape=ellipse];
     "siddha" [label="siddha" fillcolor="#ffd23f" shape=ellipse];
     "skandha" [label="skandha" fillcolor="#ffd23f" shape=ellipse];
+    "svetambara" [label="śvetāmbara" fillcolor="#ffd23f" shape=ellipse];
     "syadvada" [label="syādvāda" fillcolor="#ffd23f" shape=ellipse];
     "tattva-jain" [label="tattva (Jain)" fillcolor="#ffd23f" shape=ellipse];
     "tattvartha-sutra" [label="Tattvārthasūtra" fillcolor="#ffd23f" shape=ellipse];
@@ -214,7 +215,6 @@ digraph ancient_texts {
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
     "ajivika" [label="ajivika" fillcolor="#777777" shape=box];
     "kundakunda" [label="kundakunda" fillcolor="#777777" shape=box];
-    "svetambara" [label="svetambara" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -1185,6 +1185,12 @@ digraph ancient_texts {
   "sunyata" -> "catuskoti" [color="#cccccc22"];
   "sunyata" -> "madhyamaka" [color="#cccccc22"];
   "sunyata" -> "mulamadhyamakakarika" [color="#cccccc22"];
+  "svetambara" -> "tirthankara" [color="#cccccc22"];
+  "svetambara" -> "aparigraha" [color="#cccccc22"];
+  "svetambara" -> "shruta-jnana" [color="#cccccc22"];
+  "svetambara" -> "mahavira" [color="#cccccc22"];
+  "svetambara" -> "digambara" [color="#cccccc22"];
+  "svetambara" -> "digambara" [color="#cccccc22"];
   "syadvada" -> "anekantavada" [color="#cccccc22"];
   "syadvada" -> "saptabhangi" [color="#cccccc22"];
   "syadvada" -> "naya" [color="#cccccc22"];
