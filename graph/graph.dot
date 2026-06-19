@@ -51,6 +51,7 @@ digraph ancient_texts {
     "pramana" [label="pramāṇa" fillcolor="#ffd23f" shape=ellipse];
     "pudgala" [label="pudgala" fillcolor="#ffd23f" shape=ellipse];
     "ratnatraya" [label="ratnatraya" fillcolor="#ffd23f" shape=ellipse];
+    "sadhu" [label="sādhu" fillcolor="#ffd23f" shape=ellipse];
     "sallekhana" [label="sallekhanā" fillcolor="#ffd23f" shape=ellipse];
     "samvara" [label="saṃvara" fillcolor="#ffd23f" shape=ellipse];
     "samyak-darshana" [label="samyagdarśana" fillcolor="#ffd23f" shape=ellipse];
@@ -206,9 +207,6 @@ digraph ancient_texts {
     "samsara" [label="saṃsāra" fillcolor="#ff6fa5" shape=ellipse];
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
-  }
-  subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "sadhu" [label="sadhu" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -1018,6 +1016,13 @@ digraph ancient_texts {
   "sabda-pramana" -> "hetu-vidya" [color="#cccccc22"];
   "sabda-pramana" -> "pramana" [color="#cccccc22"];
   "sabda-pramana" -> "shruta-jnana" [color="#cccccc22"];
+  "sadhu" -> "namokara" [color="#cccccc22"];
+  "sadhu" -> "jina" [color="#cccccc22"];
+  "sadhu" -> "ahimsa" [color="#cccccc22"];
+  "sadhu" -> "gunasthana" [color="#cccccc22"];
+  "sadhu" -> "tirthankara" [color="#cccccc22"];
+  "sadhu" -> "acarya" [color="#cccccc22"];
+  "sadhu" -> "anuvrata" [color="#cccccc22"];
   "sallekhana" -> "charitra" [color="#cccccc22"];
   "sallekhana" -> "tapas" [color="#cccccc22"];
   "sallekhana" -> "nirjara" [color="#cccccc22"];
