@@ -34,6 +34,7 @@ digraph ancient_texts {
     "karma-vargana" [label="kārmaṇa-varganā" fillcolor="#ffd23f" shape=ellipse];
     "kashaya" [label="kaṣāya" fillcolor="#ffd23f" shape=ellipse];
     "kevala-jnana" [label="kevala-jñāna" fillcolor="#ffd23f" shape=ellipse];
+    "kundakunda" [label="kundakunda" fillcolor="#ffd23f" shape=ellipse];
     "leshya" [label="leśyā" fillcolor="#ffd23f" shape=ellipse];
     "loka-jain" [label="loka (Jain)" fillcolor="#ffd23f" shape=ellipse];
     "mahavira" [label="mahāvīra" fillcolor="#ffd23f" shape=ellipse];
@@ -214,7 +215,8 @@ digraph ancient_texts {
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
     "ajivika" [label="ajivika" fillcolor="#777777" shape=box];
-    "kundakunda" [label="kundakunda" fillcolor="#777777" shape=box];
+    "nishchaya-vyavahara" [label="nishchaya-vyavahara" fillcolor="#777777" shape=box];
+    "samayasara" [label="samayasara" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -713,6 +715,12 @@ digraph ancient_texts {
   "kevala-jnana" -> "karma" [color="#cccccc22"];
   "kevala-jnana" -> "pramana" [color="#cccccc22"];
   "kevala-jnana" -> "omniscience-vedanta" [color="#cccccc22"];
+  "kundakunda" -> "digambara" [color="#cccccc22"];
+  "kundakunda" -> "samayasara" [color="#cccccc22"];
+  "kundakunda" -> "nishchaya-vyavahara" [color="#cccccc22"];
+  "kundakunda" -> "acarya" [color="#cccccc22"];
+  "kundakunda" -> "naya" [color="#cccccc22"];
+  "kundakunda" -> "jiva" [color="#cccccc22"];
   "leshya" -> "karma" [color="#cccccc22"];
   "leshya" -> "karma-vargana" [color="#cccccc22"];
   "leshya" -> "gunasthana" [color="#cccccc22"];
