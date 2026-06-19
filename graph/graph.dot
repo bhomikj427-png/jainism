@@ -31,6 +31,7 @@ digraph ancient_texts {
     "jiva" [label="jīva" fillcolor="#ffd23f" shape=ellipse];
     "kala-dravya" [label="kāla" fillcolor="#ffd23f" shape=ellipse];
     "karma" [label="karma" fillcolor="#ffd23f" shape=ellipse];
+    "karma-prakriti" [label="karma-prakṛti" fillcolor="#ffd23f" shape=ellipse];
     "karma-vargana" [label="kārmaṇa-varganā" fillcolor="#ffd23f" shape=ellipse];
     "kashaya" [label="kaṣāya" fillcolor="#ffd23f" shape=ellipse];
     "kevala-jnana" [label="kevala-jñāna" fillcolor="#ffd23f" shape=ellipse];
@@ -219,6 +220,7 @@ digraph ancient_texts {
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
     "ajivika" [label="ajivika" fillcolor="#777777" shape=box];
+    "mohaniya" [label="mohaniya" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -692,6 +694,13 @@ digraph ancient_texts {
   "karma-marga" -> "jnana-marga" [color="#cccccc22"];
   "karma-marga" -> "ahimsa" [color="#cccccc22"];
   "karma-marga" -> "karma" [color="#cccccc22"];
+  "karma-prakriti" -> "bandha" [color="#cccccc22"];
+  "karma-prakriti" -> "karma" [color="#cccccc22"];
+  "karma-prakriti" -> "mohaniya" [color="#cccccc22"];
+  "karma-prakriti" -> "kashaya" [color="#cccccc22"];
+  "karma-prakriti" -> "gunasthana" [color="#cccccc22"];
+  "karma-prakriti" -> "arihant" [color="#cccccc22"];
+  "karma-prakriti" -> "karma-vargana" [color="#cccccc22"];
   "karma-vargana" -> "skandha" [color="#cccccc22"];
   "karma-vargana" -> "pudgala" [color="#cccccc22"];
   "karma-vargana" -> "karma" [color="#cccccc22"];
