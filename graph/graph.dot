@@ -46,6 +46,7 @@ digraph ancient_texts {
     "nishcaya-vyavahara" [label="niścaya-vyavahāra" fillcolor="#ffd23f" shape=ellipse];
     "paramanu" [label="paramāṇu" fillcolor="#ffd23f" shape=ellipse];
     "paroksha-jnana" [label="parokṣajñāna" fillcolor="#ffd23f" shape=ellipse];
+    "parshvanatha" [label="pārśvanātha" fillcolor="#ffd23f" shape=ellipse];
     "paryaya" [label="paryāya" fillcolor="#ffd23f" shape=ellipse];
     "paryayarthika-naya" [label="paryāyārthika naya" fillcolor="#ffd23f" shape=ellipse];
     "pramana" [label="pramāṇa" fillcolor="#ffd23f" shape=ellipse];
@@ -207,6 +208,9 @@ digraph ancient_texts {
     "samsara" [label="saṃsāra" fillcolor="#ff6fa5" shape=ellipse];
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
+  }
+  subgraph "cluster_unwritten" { style=invis; peripheries=0;
+    "mahavira" [label="mahavira" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -888,6 +892,11 @@ digraph ancient_texts {
   "paroksha-jnana" -> "shruta-jnana" [color="#cccccc22"];
   "paroksha-jnana" -> "pramana-nyaya" [color="#cccccc22"];
   "paroksha-jnana" -> "dignaga-pramana" [color="#cccccc22"];
+  "parshvanatha" -> "tirthankara" [color="#cccccc22"];
+  "parshvanatha" -> "utsarpini-avasarpini" [color="#cccccc22"];
+  "parshvanatha" -> "aparigraha" [color="#cccccc22"];
+  "parshvanatha" -> "mahavira" [color="#cccccc22"];
+  "parshvanatha" -> "mahavira" [color="#cccccc22"];
   "paryaya" -> "dravya" [color="#cccccc22"];
   "paryaya" -> "anekantavada" [color="#cccccc22"];
   "paryaya" -> "naya" [color="#cccccc22"];

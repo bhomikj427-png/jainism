@@ -45,6 +45,7 @@ digraph ancient_texts {
 		"nishcaya-vyavahara" [label="niścaya-vyavahāra" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.18 shape=ellipse style=filled width=1.18]
 		paramanu [label="paramāṇu" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.3800000000000001 shape=ellipse style=filled width=1.3800000000000001]
 		"paroksha-jnana" [label="parokṣajñāna" fillcolor="#ffd23f" fixedsize=false fontsize=15 height=0.98 shape=ellipse style=filled width=0.98]
+		parshvanatha [label="pārśvanātha" fillcolor="#ffd23f" fixedsize=false fontsize=12 height=0.6799999999999999 shape=ellipse style=filled width=0.6799999999999999]
 		paryaya [label="paryāya" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.18 shape=ellipse style=filled width=1.18]
 		"paryayarthika-naya" [label="paryāyārthika naya" fillcolor="#ffd23f" fixedsize=false fontsize=15 height=0.98 shape=ellipse style=filled width=0.98]
 		pramana [label="pramāṇa" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
@@ -68,7 +69,7 @@ digraph ancient_texts {
 		tirthankara [label="tīrthaṅkara" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		upadhyaya [label="upādhyāya" fillcolor="#ffd23f" fixedsize=false fontsize=14 height=0.8800000000000001 shape=ellipse style=filled width=0.8800000000000001]
 		upayoga [label=upayoga fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
-		"utsarpini-avasarpini" [label="utsarpiṇī-avasarpiṇī" fillcolor="#ffd23f" fixedsize=false fontsize=12 height=0.6799999999999999 shape=ellipse style=filled width=0.6799999999999999]
+		"utsarpini-avasarpini" [label="utsarpiṇī-avasarpiṇī" fillcolor="#ffd23f" fixedsize=false fontsize=13 height=0.78 shape=ellipse style=filled width=0.78]
 		"vyavahara-naya" [label="vyavahāra-naya" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.08 shape=ellipse style=filled width=1.08]
 	}
 	subgraph cluster_Buddhist {
@@ -215,6 +216,10 @@ digraph ancient_texts {
 		samsara [label="saṃsāra" fillcolor="#ff6fa5" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		tapas [label=tapas fillcolor="#ff6fa5" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		vyapti [label="vyāpti" fillcolor="#ff6fa5" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
+	}
+	subgraph cluster_unwritten {
+		label="" peripheries=0 style=invis
+		mahavira [label=mahavira fillcolor="#777777" fixedsize=true fontsize=9 height=0.38 shape=box style=filled width=0.38]
 	}
 	abhidharma -> abhidharmakosa [color="#cccccc22"]
 	abhidharma -> dravya [color="#cccccc22"]
@@ -896,6 +901,11 @@ digraph ancient_texts {
 	"paroksha-jnana" -> "shruta-jnana" [color="#cccccc22"]
 	"paroksha-jnana" -> "pramana-nyaya" [color="#cccccc22"]
 	"paroksha-jnana" -> "dignaga-pramana" [color="#cccccc22"]
+	parshvanatha -> tirthankara [color="#cccccc22"]
+	parshvanatha -> "utsarpini-avasarpini" [color="#cccccc22"]
+	parshvanatha -> aparigraha [color="#cccccc22"]
+	parshvanatha -> mahavira [color="#cccccc22"]
+	parshvanatha -> mahavira [color="#cccccc22"]
 	paryaya -> dravya [color="#cccccc22"]
 	paryaya -> anekantavada [color="#cccccc22"]
 	paryaya -> naya [color="#cccccc22"]
