@@ -47,6 +47,7 @@ digraph ancient_texts {
     "nikshepa" [label="nikṣepa" fillcolor="#ffd23f" shape=ellipse];
     "nirjara" [label="nirjarā" fillcolor="#ffd23f" shape=ellipse];
     "nishcaya-vyavahara" [label="niścaya-vyavahāra" fillcolor="#ffd23f" shape=ellipse];
+    "nishchaya-vyavahara" [label="niścaya-vyavahāra" fillcolor="#ffd23f" shape=ellipse];
     "paramanu" [label="paramāṇu" fillcolor="#ffd23f" shape=ellipse];
     "paroksha-jnana" [label="parokṣajñāna" fillcolor="#ffd23f" shape=ellipse];
     "parshvanatha" [label="pārśvanātha" fillcolor="#ffd23f" shape=ellipse];
@@ -216,7 +217,6 @@ digraph ancient_texts {
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
     "ajivika" [label="ajivika" fillcolor="#777777" shape=box];
-    "nishchaya-vyavahara" [label="nishchaya-vyavahara" fillcolor="#777777" shape=box];
     "punya" [label="punya" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
@@ -870,6 +870,14 @@ digraph ancient_texts {
   "nishcaya-vyavahara" -> "dvisatya" [color="#cccccc22"];
   "nishcaya-vyavahara" -> "maya-advaita" [color="#cccccc22"];
   "nishcaya-vyavahara" -> "maya-advaita" [color="#cccccc22"];
+  "nishchaya-vyavahara" -> "naya" [color="#cccccc22"];
+  "nishchaya-vyavahara" -> "anekantavada" [color="#cccccc22"];
+  "nishchaya-vyavahara" -> "kundakunda" [color="#cccccc22"];
+  "nishchaya-vyavahara" -> "samayasara" [color="#cccccc22"];
+  "nishchaya-vyavahara" -> "sunyata" [color="#cccccc22"];
+  "nishchaya-vyavahara" -> "sunyata" [color="#cccccc22"];
+  "nishchaya-vyavahara" -> "maya-advaita" [color="#cccccc22"];
+  "nishchaya-vyavahara" -> "maya-advaita" [color="#cccccc22"];
   "nyaya-sutra" -> "pramana-nyaya" [color="#cccccc22"];
   "nyaya-sutra" -> "anumana-nyaya" [color="#cccccc22"];
   "nyaya-sutra" -> "hetvabhasa" [color="#cccccc22"];
