@@ -22,6 +22,7 @@ digraph ancient_texts {
 		charitra [label="cāritra" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		"dharma-dravya" [label="dharmāstikāya" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		"dhyana-jain" [label="dhyāna (Jain)" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.18 shape=ellipse style=filled width=1.18]
+		digambara [label=digambara fillcolor="#ffd23f" fixedsize=false fontsize=13 height=0.78 shape=ellipse style=filled width=0.78]
 		dravya [label=dravya fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		"dravyarthika-naya" [label="dravyārthika naya" fillcolor="#ffd23f" fixedsize=false fontsize=14 height=0.8800000000000001 shape=ellipse style=filled width=0.8800000000000001]
 		gunasthana [label="guṇasthāna" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
@@ -34,7 +35,7 @@ digraph ancient_texts {
 		"kevala-jnana" [label="kevala-jñāna" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
 		leshya [label="leśyā" fillcolor="#ffd23f" fixedsize=false fontsize=14 height=0.8800000000000001 shape=ellipse style=filled width=0.8800000000000001]
 		"loka-jain" [label="loka (Jain)" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.3800000000000001 shape=ellipse style=filled width=1.3800000000000001]
-		mahavira [label="mahāvīra" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.08 shape=ellipse style=filled width=1.08]
+		mahavira [label="mahāvīra" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.18 shape=ellipse style=filled width=1.18]
 		"manah-paryaya-jnana" [label="manaḥparyāyajñāna" fillcolor="#ffd23f" fixedsize=false fontsize=15 height=0.98 shape=ellipse style=filled width=0.98]
 		"mati-jnana" [label="matijñāna" fillcolor="#ffd23f" fixedsize=false fontsize=14 height=0.8800000000000001 shape=ellipse style=filled width=0.8800000000000001]
 		moksha [label="mokṣa" fillcolor="#ffd23f" fixedsize=false fontsize=16 height=1.5 shape=ellipse style=filled width=1.5]
@@ -221,6 +222,8 @@ digraph ancient_texts {
 	subgraph cluster_unwritten {
 		label="" peripheries=0 style=invis
 		ajivika [label=ajivika fillcolor="#777777" fixedsize=true fontsize=8 height=0.28 shape=box style=filled width=0.28]
+		kundakunda [label=kundakunda fillcolor="#777777" fixedsize=true fontsize=8 height=0.28 shape=box style=filled width=0.28]
+		svetambara [label=svetambara fillcolor="#777777" fixedsize=true fontsize=9 height=0.38 shape=box style=filled width=0.38]
 	}
 	abhidharma -> abhidharmakosa [color="#cccccc22"]
 	abhidharma -> dravya [color="#cccccc22"]
@@ -552,6 +555,12 @@ digraph ancient_texts {
 	"dhyana-jain" -> gunasthana [color="#cccccc22"]
 	"dhyana-jain" -> "kevala-jnana" [color="#cccccc22"]
 	"dhyana-jain" -> tapas [color="#cccccc22"]
+	digambara -> tirthankara [color="#cccccc22"]
+	digambara -> aparigraha [color="#cccccc22"]
+	digambara -> mahavira [color="#cccccc22"]
+	digambara -> svetambara [color="#cccccc22"]
+	digambara -> svetambara [color="#cccccc22"]
+	digambara -> kundakunda [color="#cccccc22"]
 	"dignaga-pramana" -> "pramana-nyaya" [color="#cccccc22"]
 	"dignaga-pramana" -> "pramana-nyaya" [color="#cccccc22"]
 	"dignaga-pramana" -> pramana [color="#cccccc22"]

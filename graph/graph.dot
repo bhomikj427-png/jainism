@@ -23,6 +23,7 @@ digraph ancient_texts {
     "charitra" [label="cāritra" fillcolor="#ffd23f" shape=ellipse];
     "dharma-dravya" [label="dharmāstikāya" fillcolor="#ffd23f" shape=ellipse];
     "dhyana-jain" [label="dhyāna (Jain)" fillcolor="#ffd23f" shape=ellipse];
+    "digambara" [label="digambara" fillcolor="#ffd23f" shape=ellipse];
     "dravya" [label="dravya" fillcolor="#ffd23f" shape=ellipse];
     "dravyarthika-naya" [label="dravyārthika naya" fillcolor="#ffd23f" shape=ellipse];
     "gunasthana" [label="guṇasthāna" fillcolor="#ffd23f" shape=ellipse];
@@ -212,6 +213,8 @@ digraph ancient_texts {
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
     "ajivika" [label="ajivika" fillcolor="#777777" shape=box];
+    "kundakunda" [label="kundakunda" fillcolor="#777777" shape=box];
+    "svetambara" [label="svetambara" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -543,6 +546,12 @@ digraph ancient_texts {
   "dhyana-jain" -> "gunasthana" [color="#cccccc22"];
   "dhyana-jain" -> "kevala-jnana" [color="#cccccc22"];
   "dhyana-jain" -> "tapas" [color="#cccccc22"];
+  "digambara" -> "tirthankara" [color="#cccccc22"];
+  "digambara" -> "aparigraha" [color="#cccccc22"];
+  "digambara" -> "mahavira" [color="#cccccc22"];
+  "digambara" -> "svetambara" [color="#cccccc22"];
+  "digambara" -> "svetambara" [color="#cccccc22"];
+  "digambara" -> "kundakunda" [color="#cccccc22"];
   "dignaga-pramana" -> "pramana-nyaya" [color="#cccccc22"];
   "dignaga-pramana" -> "pramana-nyaya" [color="#cccccc22"];
   "dignaga-pramana" -> "pramana" [color="#cccccc22"];
