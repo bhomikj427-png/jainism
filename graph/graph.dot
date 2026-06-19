@@ -48,6 +48,7 @@ digraph ancient_texts {
     "nirjara" [label="nirjarā" fillcolor="#ffd23f" shape=ellipse];
     "nishcaya-vyavahara" [label="niścaya-vyavahāra" fillcolor="#ffd23f" shape=ellipse];
     "nishchaya-vyavahara" [label="niścaya-vyavahāra" fillcolor="#ffd23f" shape=ellipse];
+    "papa" [label="pāpa" fillcolor="#ffd23f" shape=ellipse];
     "paramanu" [label="paramāṇu" fillcolor="#ffd23f" shape=ellipse];
     "paroksha-jnana" [label="parokṣajñāna" fillcolor="#ffd23f" shape=ellipse];
     "parshvanatha" [label="pārśvanātha" fillcolor="#ffd23f" shape=ellipse];
@@ -218,7 +219,6 @@ digraph ancient_texts {
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
     "ajivika" [label="ajivika" fillcolor="#777777" shape=box];
-    "papa" [label="papa" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -896,6 +896,13 @@ digraph ancient_texts {
   "pancha-mahabhuta" -> "pudgala" [color="#cccccc22"];
   "pancha-mahabhuta" -> "skandha-buddhist" [color="#cccccc22"];
   "pancha-mahabhuta" -> "paramanu" [color="#cccccc22"];
+  "papa" -> "asrava" [color="#cccccc22"];
+  "papa" -> "bandha" [color="#cccccc22"];
+  "papa" -> "tattva-jain" [color="#cccccc22"];
+  "papa" -> "punya" [color="#cccccc22"];
+  "papa" -> "kashaya" [color="#cccccc22"];
+  "papa" -> "ahimsa" [color="#cccccc22"];
+  "papa" -> "punya" [color="#cccccc22"];
   "paraconsistent-logic" -> "saptabhangi" [color="#cccccc22"];
   "paraconsistent-logic" -> "saptabhangi" [color="#cccccc22"];
   "paraconsistent-logic" -> "many-valued-logic" [color="#cccccc22"];
