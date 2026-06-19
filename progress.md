@@ -1827,3 +1827,53 @@ Added correct child→parent `is-a-type-of: astikaya` edges to the five extended
 
 ### Plan for Ch 10 (unchanged — NOT started this run)
 - **Ch 10 — Jain Holy Beings, Sects, Texts & History:** `namokara` (+`upadhyaya`,`sadhu`), `mahavira`, `parshvanatha`, `digambara`, `svetambara`, `samayasara`+`kundakunda`, `nishchaya-vyavahara`, `punya`+`papa`, 8 karma-prakṛtis detail, `ajivika`.
+
+---
+
+## Teaching-layer run — Chapter 10 (2026-06-19)
+
+**Task:** "go ahead with the next chapter." Executed the repo's own Ch 10 plan end-to-end: 14 new atomic concept files (each its own commit + graph regen), then the chapter authored in **`chapters/jain/`** (Jain-tradition → correct origin subfolder, matching Ch 01/02/03/07/08/09), then INDEX + graph + this log. This **completes the Jain chapter arc (Ch 01–10)**.
+
+### New atomic concept files written (each: own commit + graph regen)
+| concept | status | confidence | key source |
+|---|---|---|---|
+| `namokara` | converged | medium | Ṇamokāra/pañca-namaskāra mantra; 5 lines + cūlikā; names no individual/god (aspirational); Hāthīgumphā + 200–100 BCE inscriptions (Wiki + Jainworld/CulturalSamvaad) |
+| `upadhyaya` | converged | medium | 4th parameṣṭhī; āgama-teacher; 25 qualities; 108-attribute mālā sum (Wiki + Jainsite + JCGB) |
+| `sadhu` | converged | medium | 5th/broadest parameṣṭhī; mahāvrata threshold; 27/28 mūla-guṇa (sect diff) (Wiki + Jainsite + Digambara-monk) |
+| `parshvanatha` | converged | medium | 23rd tīrthaṅkara; earliest historically-accepted; cāturyāma 4-vow (Wiki + Britannica) |
+| `mahavira` | converged | medium | 24th/last; reformer NOT founder; contested-dating table; Nigaṇṭha Nātaputta attestation (Wiki + Britannica) |
+| `digambara` | converged | medium | sky-clad; aparigraha-root → 5 differences; Bhadrabāhu famine-migration; contested origin (Wiki + Britannica + MDPI) |
+| `svetambara` | converged | medium | white-clad; softer aparigraha → 5 mirror-positions; Pāṭaliputra+Valabhī canon; Mallinātha female (Wiki + history + Jainpedia) |
+| `kundakunda` | converged | medium | foundational Digambara philosopher-monk; contested dating; niścaya/vyavāhara device; 4 -sāra works (Wiki + Jainpedia + Vijay K. Jain ed.) |
+| `samayasara` | converged | medium | Kundakunda's chief text; 439 gāthās, 10 chapters; gold/iron-chain puṇya-pāpa; same-soul-two-standpoints (Wiki + Vijay K. Jain ed.) |
+| `nishchaya-vyavahara` | **contested** | medium | two-standpoints; co-equal-realism vs niścaya-privileging table; NOT-equiv Buddhist/Advaita two-truths — prime-directive (Wiki + JainGPT + SEP) |
+| `punya` | converged | medium | merit/śubha karma; āsrava+bandha subtype; gold-chain; 7-vs-9 tattva (Wiki + Jainsite + hinduwebsite) |
+| `papa` | converged | medium | demerit/aśubha karma; iron-chain; mahāvrata-violation sources + kaṣāya root (Wiki + Jainsite + hinduwebsite) |
+| `karma-prakriti` | converged | medium | 8 mūla-prakṛti; **TS 8.4 Sanskrit FETCHED** (Vijay K. Jain 2018); 4 ghāti/4 aghāti; mohanīya linchpin; 148-subtype flagged traditional |
+| `ajivika` | converged | medium | Gosāla's niyati fatalism; precise inverse of Jain agency (niyati-alone vs 1-of-5-samavāya); hostile-source caveat (Wiki + Britannica/UPSC) |
+
+### TS verse directly fetched this batch
+- **TS 8.4** (karma-prakṛti): *ādyo jñānadarśanāvaraṇavedanīyamohanīyāyurnāma gotrāntarāyāḥ* — the eight nature-bondages (Vijay K. Jain 2018 / WisdomLib)
+
+### Chapter authored (in chapters/jain/)
+- `chapters/jain/10-jain-holy-beings.md` — "Holy Beings, Sects, Texts & History." Thread: **Jainism is non-theistic and its history is human effort, not divine intervention.** §§: pañca-parameṣṭhī via the Ṇamokāra mantra → Pārśva/Mahāvīra (reformer-not-founder) → Digambara/Śvetāmbara schism (one root: does aparigraha require nudity? → 5 consequences) → Kundakunda/Samayasāra/niścaya-vyavāhara → puṇya/pāpa + 8 karma-prakṛti (TS 8.4) → Ājīvika (niyati vs puruṣārtha). Conflation alerts: parameṣṭhī ≠ gods/petition; Mahāvīra ≠ founder; sect-breakaway direction; **niścaya/vyavāhara ≠ Buddhist/Advaita two-truths (prime-directive)**; karma ≠ scoreboard/ledger; Jain ≠ fatalist + Ājīvika-as-enemies'-caricature.
+- `chapters/INDEX.md` updated: Ch 10 row + 18 primary/cross-ref concept mappings.
+
+### Graph
+`build_graph.py` clean: **181 → 196 nodes** (1097 → 1187 edges). +15 nodes = 14 new concepts + 1 new unwritten stub (`mohaniya`, forward-linked from karma-prakriti). SVG re-rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`; graph.dot/html/svg refreshed each concept.
+
+### Edge-typing self-corrections made during the run (per §5)
+- mahavira→parshvanatha: dropped a non-sanctioned `historically-influenced-by` + `often-conflated-with-NOT-equivalent` double-edge; kept `historically-influenced-by` (conflation already carried from parshvanatha's side).
+- digambara→samayasara: removed wrong-direction `part-of` (a sect is not part of a text) → `shares-vocabulary-with: kundakunda`.
+- samayasara→punya: re-typed mis-applied `often-conflated-with-NOT-equivalent` → `shares-vocabulary-with`.
+- karma-prakriti→karma-vargana: re-typed awkward `aggregates-into` → `shares-vocabulary-with`.
+
+### Nothing blocked or needs-opus-review. All cited; one TS verse fetched; no from-scratch translations.
+
+### Jain arc complete (Ch 01–10)
+Ontology (01) · epistemology (02) · soteriology (03) · cross-tradition (04–06, comparative) · knowledge/five jñānas (07) · ethics (08) · cosmos (09) · holy beings/sects/texts/history (10). The Jain teaching layer is now end-to-end.
+
+### Suggested next (NOT started)
+- **Ch 11 — The Vedānta family** (cross-tradition deep-dive): brahman · ātman-vedānta · māyā-advaita · mokṣa-advaita · the Advaita/Viśiṣṭādvaita/Dvaita split · avatāra-vedānta. Most files already exist; this is a chapter-authoring run, not a concept run.
+- **Ch 12 — The Buddhist family**: pratītyasamutpāda · anattā · anicca · śūnyatā · nirvāṇa · abhidharma · the two-truths (saṃvṛti/paramārtha). Again mostly authoring.
+- Optional concept gap-fill: `mohaniya` (only new unwritten stub), `siddha` cross-check, the Karma-grantha 148-subtype enumeration if a primary source becomes fetchable (would lift karma-prakriti toward high).

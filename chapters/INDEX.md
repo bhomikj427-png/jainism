@@ -14,6 +14,7 @@
 | 07 Jain Knowledge: The Five Jñānas | [jain/07-jain-knowledge.md](jain/07-jain-knowledge.md) | ratnatraya · upayoga · nikṣepa · mati-jñāna · śruta-jñāna · parokṣa-jñāna · avadhi-jñāna · manaḥparyāya-jñāna · kevala-jñāna | drafted |
 | 08 Jain Ethics & Ascetic Practice | [jain/08-jain-ethics.md](jain/08-jain-ethics.md) | cāritra · satya · asteya · brahmacarya · aparigraha · aṇuvrata · tapas · dhyāna-jain · ṣaḍāvaśyaka · sallekhanā | drafted |
 | 09 The Jain Cosmos & Six Substances | [jain/09-jain-cosmos.md](jain/09-jain-cosmos.md) | dravya · sat · astikāya · jīva · pudgala · dharma-dravya · adharma-dravya · ākāśa · kāla · loka · utsarpiṇī-avasarpiṇī | drafted |
+| 10 Holy Beings, Sects, Texts & History | [jain/10-jain-holy-beings.md](jain/10-jain-holy-beings.md) | ṇamokāra-mantra · ācārya · upādhyāya · sādhu · pārśvanātha · mahāvīra · digambara · śvetāmbara · kundakunda · samayasāra · niścaya-vyavāhara · puṇya · pāpa · karma-prakṛti · ājīvika | drafted |
 
 ---
 
@@ -100,3 +101,20 @@
 | utsarpiṇī-avasarpiṇī | Ch 09 | — (Tīrthaṅkara distribution across the cycle) |
 | dravya | Ch 01 | Ch 09 (§1 the six substances in full) |
 | sat | Ch 01 | Ch 02 (anekāntavāda grounding) · Ch 09 (§2 being as change-in-permanence) |
+| ṇamokāra-mantra | Ch 10 | — (five-line pañca-parameṣṭhī salutation) |
+| arihant | Ch 07 | Ch 10 (§1 first parameṣṭhī · §5 four ghāti destroyed) |
+| siddha | Ch 03 | Ch 10 (§1 second parameṣṭhī · §5 all eight karmas gone) |
+| ācārya | Ch 10 | — (third parameṣṭhī; order-head) |
+| upādhyāya | Ch 10 | — (fourth parameṣṭhī; āgama-teacher) |
+| sādhu | Ch 10 | — (fifth/broadest parameṣṭhī; mahāvrata-keeper) |
+| pārśvanātha | Ch 10 | Ch 09 (23rd tīrthaṅkara in the kālacakra list) |
+| mahāvīra | Ch 10 | Ch 09 (24th tīrthaṅkara; reformer not founder) |
+| digambara | Ch 10 | Ch 08 (sky-clad reading of aparigraha) |
+| śvetāmbara | Ch 10 | — (white-clad sect; Āgama canon) |
+| kundakunda | Ch 10 | — (foundational Digambara philosopher-monk) |
+| samayasāra | Ch 10 | — (Kundakunda's chief text; pure-soul) |
+| niścaya-vyavāhara | Ch 10 | Ch 02 (two nayas; grounds in anekāntavāda) |
+| puṇya | Ch 10 | Ch 03 (subtype of āsrava/bandha) |
+| pāpa | Ch 10 | Ch 03 (subtype of āsrava/bandha) · Ch 08 (mahāvrata violations) |
+| karma-prakṛti | Ch 10 | Ch 03 (the eight karma-types behind bandha) · Ch 07 (ghāti/aghāti behind arihant) |
+| ājīvika | Ch 10 | — (Gosāla's fatalist śramaṇa rival; niyati vs effort) |
