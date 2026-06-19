@@ -57,6 +57,7 @@ digraph ancient_texts {
     "ratnatraya" [label="ratnatraya" fillcolor="#ffd23f" shape=ellipse];
     "sadhu" [label="sādhu" fillcolor="#ffd23f" shape=ellipse];
     "sallekhana" [label="sallekhanā" fillcolor="#ffd23f" shape=ellipse];
+    "samayasara" [label="samayasāra" fillcolor="#ffd23f" shape=ellipse];
     "samvara" [label="saṃvara" fillcolor="#ffd23f" shape=ellipse];
     "samyak-darshana" [label="samyagdarśana" fillcolor="#ffd23f" shape=ellipse];
     "sangraha-naya" [label="saṃgraha-naya" fillcolor="#ffd23f" shape=ellipse];
@@ -216,7 +217,7 @@ digraph ancient_texts {
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
     "ajivika" [label="ajivika" fillcolor="#777777" shape=box];
     "nishchaya-vyavahara" [label="nishchaya-vyavahara" fillcolor="#777777" shape=box];
-    "samayasara" [label="samayasara" fillcolor="#777777" shape=box];
+    "punya" [label="punya" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -1063,6 +1064,13 @@ digraph ancient_texts {
   "sallekhana" -> "kashaya" [color="#cccccc22"];
   "sallekhana" -> "anuvrata" [color="#cccccc22"];
   "sallekhana" -> "ahimsa" [color="#cccccc22"];
+  "samayasara" -> "kundakunda" [color="#cccccc22"];
+  "samayasara" -> "digambara" [color="#cccccc22"];
+  "samayasara" -> "nishchaya-vyavahara" [color="#cccccc22"];
+  "samayasara" -> "jiva" [color="#cccccc22"];
+  "samayasara" -> "tattva-jain" [color="#cccccc22"];
+  "samayasara" -> "ratnatraya" [color="#cccccc22"];
+  "samayasara" -> "punya" [color="#cccccc22"];
   "samkhya-karika" -> "prakriti-samkhya" [color="#cccccc22"];
   "samkhya-karika" -> "purusha-samkhya" [color="#cccccc22"];
   "samkhya-karika" -> "guna-samkhya" [color="#cccccc22"];
