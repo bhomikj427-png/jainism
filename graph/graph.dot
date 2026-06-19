@@ -39,6 +39,7 @@ digraph ancient_texts {
     "mati-jnana" [label="matijñāna" fillcolor="#ffd23f" shape=ellipse];
     "moksha" [label="mokṣa" fillcolor="#ffd23f" shape=ellipse];
     "naigama-naya" [label="naigama-naya" fillcolor="#ffd23f" shape=ellipse];
+    "namokara" [label="ṇamokāra-mantra" fillcolor="#ffd23f" shape=ellipse];
     "naya" [label="naya" fillcolor="#ffd23f" shape=ellipse];
     "nikshepa" [label="nikṣepa" fillcolor="#ffd23f" shape=ellipse];
     "nirjara" [label="nirjarā" fillcolor="#ffd23f" shape=ellipse];
@@ -204,6 +205,10 @@ digraph ancient_texts {
     "samsara" [label="saṃsāra" fillcolor="#ff6fa5" shape=ellipse];
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
+  }
+  subgraph "cluster_unwritten" { style=invis; peripheries=0;
+    "sadhu" [label="sadhu" fillcolor="#777777" shape=box];
+    "upadhyaya" [label="upadhyaya" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -789,6 +794,13 @@ digraph ancient_texts {
   "namarupa" -> "pratityasamutpada" [color="#cccccc22"];
   "namarupa" -> "skandha-buddhist" [color="#cccccc22"];
   "namarupa" -> "jiva" [color="#cccccc22"];
+  "namokara" -> "arihant" [color="#cccccc22"];
+  "namokara" -> "siddha" [color="#cccccc22"];
+  "namokara" -> "acarya" [color="#cccccc22"];
+  "namokara" -> "upadhyaya" [color="#cccccc22"];
+  "namokara" -> "sadhu" [color="#cccccc22"];
+  "namokara" -> "moksha" [color="#cccccc22"];
+  "namokara" -> "tirthankara" [color="#cccccc22"];
   "naya" -> "anekantavada" [color="#cccccc22"];
   "naya" -> "syadvada" [color="#cccccc22"];
   "naya" -> "pramana" [color="#cccccc22"];
