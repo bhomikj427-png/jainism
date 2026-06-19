@@ -55,6 +55,7 @@ digraph ancient_texts {
     "paryayarthika-naya" [label="paryāyārthika naya" fillcolor="#ffd23f" shape=ellipse];
     "pramana" [label="pramāṇa" fillcolor="#ffd23f" shape=ellipse];
     "pudgala" [label="pudgala" fillcolor="#ffd23f" shape=ellipse];
+    "punya" [label="puṇya" fillcolor="#ffd23f" shape=ellipse];
     "ratnatraya" [label="ratnatraya" fillcolor="#ffd23f" shape=ellipse];
     "sadhu" [label="sādhu" fillcolor="#ffd23f" shape=ellipse];
     "sallekhana" [label="sallekhanā" fillcolor="#ffd23f" shape=ellipse];
@@ -217,7 +218,7 @@ digraph ancient_texts {
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
     "ajivika" [label="ajivika" fillcolor="#777777" shape=box];
-    "punya" [label="punya" fillcolor="#777777" shape=box];
+    "papa" [label="papa" fillcolor="#777777" shape=box];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -1025,6 +1026,12 @@ digraph ancient_texts {
   "pudgala" -> "pancha-mahabhuta" [color="#cccccc22"];
   "pudgala" -> "pancha-mahabhuta" [color="#cccccc22"];
   "pudgala" -> "astikaya" [color="#cccccc22"];
+  "punya" -> "asrava" [color="#cccccc22"];
+  "punya" -> "bandha" [color="#cccccc22"];
+  "punya" -> "tattva-jain" [color="#cccccc22"];
+  "punya" -> "papa" [color="#cccccc22"];
+  "punya" -> "karma" [color="#cccccc22"];
+  "punya" -> "moksha" [color="#cccccc22"];
   "purusha-samkhya" -> "jiva" [color="#cccccc22"];
   "purusha-samkhya" -> "atman-vedanta" [color="#cccccc22"];
   "purusha-samkhya" -> "prakriti-samkhya" [color="#cccccc22"];
