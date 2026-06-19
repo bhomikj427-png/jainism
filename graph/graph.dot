@@ -219,8 +219,10 @@ digraph ancient_texts {
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "ajivika" [label="ajivika" fillcolor="#777777" shape=box];
     "mohaniya" [label="mohaniya" fillcolor="#777777" shape=box];
+  }
+  subgraph "cluster_unknown" { style=invis; peripheries=0;
+    "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
   "abhidharma" -> "dravya" [color="#cccccc22"];
@@ -280,6 +282,11 @@ digraph ancient_texts {
   "ajiva" -> "dravya" [color="#cccccc22"];
   "ajiva" -> "jiva" [color="#cccccc22"];
   "ajiva" -> "kala-dravya" [color="#cccccc22"];
+  "ajivika" -> "mahavira" [color="#cccccc22"];
+  "ajivika" -> "jiva" [color="#cccccc22"];
+  "ajivika" -> "karma" [color="#cccccc22"];
+  "ajivika" -> "moksha" [color="#cccccc22"];
+  "ajivika" -> "nirvana-buddhist" [color="#cccccc22"];
   "akasha-dravya" -> "ajiva" [color="#cccccc22"];
   "akasha-dravya" -> "dravya" [color="#cccccc22"];
   "akasha-dravya" -> "loka-jain" [color="#cccccc22"];
