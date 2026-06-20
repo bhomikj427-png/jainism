@@ -144,6 +144,7 @@ digraph ancient_texts {
     "brahma" [label="Brahmā" fillcolor="#4fd16b" shape=ellipse];
     "brahman" [label="brahman" fillcolor="#4fd16b" shape=ellipse];
     "dvaita-vedanta" [label="Dvaita Vedānta" fillcolor="#4fd16b" shape=ellipse];
+    "gita" [label="Bhagavadgītā" fillcolor="#4fd16b" shape=ellipse];
     "jnana-marga" [label="jñāna-mārga" fillcolor="#4fd16b" shape=ellipse];
     "karma-vedic" [label="karma (Vedic/Hindu)" fillcolor="#4fd16b" shape=ellipse];
     "lakshmi" [label="lakṣmī" fillcolor="#4fd16b" shape=ellipse];
@@ -648,6 +649,16 @@ digraph ancient_texts {
   "fuzzy-logic" -> "saptabhangi" [color="#cccccc22"];
   "fuzzy-logic" -> "anekantavada" [color="#cccccc22"];
   "fuzzy-logic" -> "paraconsistent-logic" [color="#cccccc22"];
+  "gita" -> "brahma-sutra" [color="#cccccc22"];
+  "gita" -> "upanishad" [color="#cccccc22"];
+  "gita" -> "karma-marga" [color="#cccccc22"];
+  "gita" -> "jnana-marga" [color="#cccccc22"];
+  "gita" -> "bhakti" [color="#cccccc22"];
+  "gita" -> "avatara-vedanta" [color="#cccccc22"];
+  "gita" -> "atman-vedanta" [color="#cccccc22"];
+  "gita" -> "advaita-vedanta" [color="#cccccc22"];
+  "gita" -> "vishishtadvaita" [color="#cccccc22"];
+  "gita" -> "dvaita-vedanta" [color="#cccccc22"];
   "guna-samkhya" -> "prakriti-samkhya" [color="#cccccc22"];
   "guna-samkhya" -> "dravya" [color="#cccccc22"];
   "guna-samkhya" -> "pudgala" [color="#cccccc22"];
