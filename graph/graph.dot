@@ -105,6 +105,7 @@ digraph ancient_texts {
     "kamalasila" [label="Kamalaśīla" fillcolor="#ff8c5a" shape=ellipse];
     "madhyamaka" [label="madhyamaka" fillcolor="#ff8c5a" shape=ellipse];
     "mulamadhyamakakarika" [label="Mūlamadhyamakakārikā" fillcolor="#ff8c5a" shape=ellipse];
+    "nagarjuna" [label="Nāgārjuna" fillcolor="#ff8c5a" shape=ellipse];
     "namarupa" [label="nāmarūpa" fillcolor="#ff8c5a" shape=ellipse];
     "nibbana-theravada" [label="nibbāna (Theravāda)" fillcolor="#ff8c5a" shape=ellipse];
     "nirvana-buddhist" [label="nirvāṇa (Buddhist)" fillcolor="#ff8c5a" shape=ellipse];
@@ -224,6 +225,9 @@ digraph ancient_texts {
     "samsara" [label="saṃsāra" fillcolor="#ff6fa5" shape=ellipse];
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
+  }
+  subgraph "cluster_unwritten" { style=invis; peripheries=0;
+    "santideva" [label="santideva" fillcolor="#777777" shape=box];
   }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
@@ -868,6 +872,13 @@ digraph ancient_texts {
   "mulamadhyamakakarika" -> "pratityasamutpada" [color="#cccccc22"];
   "mulamadhyamakakarika" -> "abhidharma" [color="#cccccc22"];
   "mulamadhyamakakarika" -> "abhidharma" [color="#cccccc22"];
+  "nagarjuna" -> "madhyamaka" [color="#cccccc22"];
+  "nagarjuna" -> "mulamadhyamakakarika" [color="#cccccc22"];
+  "nagarjuna" -> "sunyata" [color="#cccccc22"];
+  "nagarjuna" -> "prasanga-nagarjuna" [color="#cccccc22"];
+  "nagarjuna" -> "catuskoti" [color="#cccccc22"];
+  "nagarjuna" -> "dvisatya" [color="#cccccc22"];
+  "nagarjuna" -> "santideva" [color="#cccccc22"];
   "naigama-naya" -> "naya" [color="#cccccc22"];
   "naigama-naya" -> "anekantavada" [color="#cccccc22"];
   "naigama-naya" -> "dravyarthika-naya" [color="#cccccc22"];
