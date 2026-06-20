@@ -1877,3 +1877,77 @@ Ontology (01) · epistemology (02) · soteriology (03) · cross-tradition (04–
 - **Ch 11 — The Vedānta family** (cross-tradition deep-dive): brahman · ātman-vedānta · māyā-advaita · mokṣa-advaita · the Advaita/Viśiṣṭādvaita/Dvaita split · avatāra-vedānta. Most files already exist; this is a chapter-authoring run, not a concept run.
 - **Ch 12 — The Buddhist family**: pratītyasamutpāda · anattā · anicca · śūnyatā · nirvāṇa · abhidharma · the two-truths (saṃvṛti/paramārtha). Again mostly authoring.
 - Optional concept gap-fill: `mohaniya` (only new unwritten stub), `siddha` cross-check, the Karma-grantha 148-subtype enumeration if a primary source becomes fetchable (would lift karma-prakriti toward high).
+
+---
+
+## Batch 27 — stub fill + Hindu/Buddhist concept layer + Chapters 11 & 12 (2026-06-20)
+
+### Scope of this run
+1. **Stub fill** — `mohaniya.md` (the only unwritten stub from Ch 10 run; forward-linked from karma-prakriti)
+2. **Batch 27 concepts** (6 new files): `sarasvati`, `lakshmi`, `trimurti`, `pratyabhijna`, `spanda`, `bodhicitta`
+3. **Chapter 11** — The Vedānta Family (`chapters/hindu/11-vedanta.md`)
+4. **Chapter 12** — The Buddhist Family (`chapters/buddhist/12-buddhist.md`)
+5. **Graph regeneration**, **INDEX update**, **progress.md update**, **push to GitHub**
+
+### Stub fill
+
+| concept | status | confidence | note |
+|---|---|---|---|
+| mohaniya | converged | medium | TS 8.9 Sanskrit FETCHED (Vijay K. Jain 2018 / WisdomLib doc1084874); 28 sub-types (3 darśana-mohanīya + 16 kaṣāya-vedanīya + 9 no-kaṣāya-vedanīya); gunasthāna arc documented; Wikipedia "Types of Karma (Jainism)" 2nd signal. 0 unwritten stubs after this commit. |
+
+### Batch 27 concepts
+
+| # | concept (filename) | status | confidence | key source |
+|---|---|---|---|---|
+| 1 | `sarasvati.md` | converged | medium | EBSCO Research Starters + Wikipedia "Saraswati"; RV 6.61 + 7.95-96 + 2.41.16 (best of mothers/rivers/goddesses); Tridevi Sattva-guṇa; Śāradā/Bhāratī epithets |
+| 2 | `lakshmi.md` | converged | medium | Wikipedia "Lakshmi" + ExoticIndiaArt; VS 31.22 Śrī-Lakṣmī pairing; Śrī Sūkta (15 vv.; RV appendix); Samudramanthana; 4-arm = 4-puruṣārthas; Tridevi Rajas; VP prose; NOT-equiv prakṛti-sāṃkhya (Lakṣmī is cit; Prakṛti is acit) |
+| 3 | `trimurti.md` | converged | medium | Wikipedia "Trimurti" + Basham *The Wonder That Was India*; VP 1.2.66 + Maitri Up. 4.5; NOT ancient Vedic (Purāṇic synthesis); Vaiṣṇava/Śaiva rejection; Śākta feminisation; Smārta pañcāyatana; Christian Trinity NOT-equivalent |
+| 4 | `pratyabhijna.md` | converged | medium | IEP "Kashmiri Shaiva Philosophy" + Wikipedia "Utpaladeva" + WisdomLib; IPK c.950 CE; prati+abhi+√jñā etymology; liberation = recovery of Śiva-identity not new knowledge; IPK anti-kṣaṇavāda argument; Advaita comparison table (world REAL/world māyā; Śiva has Śakti/Brahman nirguṇa) |
+| 5 | `spanda.md` | converged | medium | Wikipedia "Kashmir Shaivism" + IEP + Sanskrit-TrikaShaivism; Vasugupta Śiva Sūtras (~9th c.) + Kallata Spandakārikā; non-illusionist ābhāsa (world REAL, NOT māyā); svātantrya; Kṣemarāja quote; NOT-equiv prakṛti-sāṃkhya (Spanda IS consciousness; Sāṃkhya Prakṛti is NOT) |
+| 6 | `bodhicitta.md` | converged | medium | Wikipedia "Bodhicitta" + Tricycle; Śāntideva Bodhicaryāvatāra (8th c.) + Asaṅga Bodhisattvabhūmi; bodhipraṇidhicitta/bodhiprasthānacitta two-type; relative (compassion) / absolute (śūnyatā) bodhicitta; 6 pāramitās; NOT-equiv cāritra (bodhicitta delays liberation for others; Jain cāritra is self-directed) |
+
+### Hub-file edits (orphan prevention — inbound forward edges added)
+- `brahma.md`: `part-of: trimurti` + `shares-vocabulary-with: sarasvati`
+- `vaishnavism.md`: `expressed-by: lakshmi`
+- `shaivism.md`: `expressed-by: pratyabhijna` + `expressed-by: spanda`
+- `bodhisattva.md`: `expressed-by: bodhicitta`
+
+### TS verse fetched this batch
+- **TS 8.9** (mohanīya sub-types): *anantānubandhyapratyākhyānapratyākhyānasaṃjvalana vikalpāścaikaśaḥ krodhamānamāyālobhāḥ* (Vijay K. Jain 2018)
+
+### Chapters authored
+
+| chapter | file | primary concepts | status |
+|---|---|---|---|
+| Ch 11 — The Vedānta Family | `chapters/hindu/11-vedanta.md` | prasthānatrayī · brahman · ātman-vedānta · māyā-advaita · mokṣa-advaita · advaita-vedanta · vishishtadvaita · dvaita-vedanta · vivartavāda · pariṇāmavāda · bhakti · jñāna-mārga · karma-mārga · trimurti · avatāra-vedānta · sarasvatī · lakṣmī | drafted |
+| Ch 12 — The Buddhist Family | `chapters/buddhist/12-buddhist.md` | four-noble-truths · dukkha · tanha · paticcasamuppada-pali · nibbana-theravada · anatta-buddhist · anicca · theravada · arhat · skandha-buddhist · abhidharma · sunyata · bodhicitta · bodhisattva · madhyamaka · dvisatya · yogacara · vijnaptimatrata · alaya-vijnana · tathagata-garbha | drafted |
+
+### Primary texts fetched for Ch 11/12
+- SN 56.11 (*Dhammacakkappavattana Sutta*), MN 141 (*Saccavibhaṅga Sutta*) — Four Noble Truths (corpus-prior)
+- Ud 8.1 — nibbāna unconditioned formula (corpus-prior)
+- SN 12.21 (*Cetanā Sutta*) — *imasmiṃ sati* formula (corpus-prior)
+- SN 22.59 (*Anattalakkhaṇa Sutta*) — anattā argument (corpus-prior)
+- MMK 24.18 — emptiness = dependent arising (corpus-prior)
+
+### Graph (final state)
+`build_graph.py` clean: **202 nodes, 1237 edges** (post Batch-27 + mohaniya; chapters are not graph nodes).
+`"C:\Program Files\Graphviz\bin\dot.exe" -Tsvg graph/graph.dot -o graph/graph.svg` — SVG rendered.
+graph.dot / graph.html / graph.svg all refreshed.
+
+### Nothing blocked or needs-opus-review. All cited; TS 8.9 directly fetched; chapters cite corpus-prior fetches with file references.
+
+### Corpus milestone: 202 concepts across 27 batches + 4 linker passes. 0 unwritten stubs.
+
+### Suggested Batch 28 (names only — no files written)
+
+**Hindu theology depth:**
+- `vishnu-sahasranama` — the 1000 names of Viṣṇu as a theological text; connects vishnu.md to devotional practice
+- `gita` — the Bhagavad Gītā as a primary text node (presently cited but no dedicated file); the most cross-tradition Indian text
+
+**Buddhist philosophy remaining:**
+- `nagarjuna` — person-node for Nāgārjuna; anchor behind madhyamaka/mulamadhyamakakarika/sunyata/prasanga-nagarjuna
+- `santideva` — person-node for Śāntideva; anchor behind bodhicitta/bodhisattva (Bodhicaryāvatāra)
+- `nirvana-mahayana` — Mahāyāna nirvāṇa (deliberately not entered parinirvāṇa; different from Theravāda account)
+
+**Linker pass 5:**
+- Full audit over all 202 files; integrate Batch 27 reciprocity only where a real connectivity defect exists; check mohaniya + 6 new Batch-27 nodes for any remaining orphans; update `.linker-state`.

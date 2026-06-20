@@ -15,6 +15,8 @@
 | 08 Jain Ethics & Ascetic Practice | [jain/08-jain-ethics.md](jain/08-jain-ethics.md) | cāritra · satya · asteya · brahmacarya · aparigraha · aṇuvrata · tapas · dhyāna-jain · ṣaḍāvaśyaka · sallekhanā | drafted |
 | 09 The Jain Cosmos & Six Substances | [jain/09-jain-cosmos.md](jain/09-jain-cosmos.md) | dravya · sat · astikāya · jīva · pudgala · dharma-dravya · adharma-dravya · ākāśa · kāla · loka · utsarpiṇī-avasarpiṇī | drafted |
 | 10 Holy Beings, Sects, Texts & History | [jain/10-jain-holy-beings.md](jain/10-jain-holy-beings.md) | ṇamokāra-mantra · ācārya · upādhyāya · sādhu · pārśvanātha · mahāvīra · digambara · śvetāmbara · kundakunda · samayasāra · niścaya-vyavāhara · puṇya · pāpa · karma-prakṛti · ājīvika | drafted |
+| 11 The Vedānta Family | [hindu/11-vedanta.md](hindu/11-vedanta.md) | prasthānatrayī · brahman · ātman-vedānta · māyā-advaita · mokṣa-advaita · advaita-vedanta · vivartavāda · pariṇāmavāda · vishishtadvaita · dvaita-vedanta · bhakti · jñāna-mārga · karma-mārga · trimurti · avatāra-vedānta · sarasvatī · lakṣmī | drafted |
+| 12 The Buddhist Family | [buddhist/12-buddhist.md](buddhist/12-buddhist.md) | four-noble-truths · dukkha · tanha · paticcasamuppada-pali · nibbana-theravada · anatta-buddhist · anicca · theravada · arhat · skandha-buddhist · abhidharma · śūnyatā · bodhicitta · bodhisattva · madhyamaka · dvisatya · catuṣkoṭi · yogacara · vijñaptimātratā · ālaya-vijñāna · tathāgatagarbha | drafted |
 
 ---
 
@@ -118,3 +120,31 @@
 | pāpa | Ch 10 | Ch 03 (subtype of āsrava/bandha) · Ch 08 (mahāvrata violations) |
 | karma-prakṛti | Ch 10 | Ch 03 (the eight karma-types behind bandha) · Ch 07 (ghāti/aghāti behind arihant) |
 | ājīvika | Ch 10 | — (Gosāla's fatalist śramaṇa rival; niyati vs effort) |
+| prasthānatrayī | Ch 11 | — (triple canonical foundation of Vedānta) |
+| advaita-vedanta | Ch 11 | Ch 04 (brahman/ātman) |
+| vivartavāda | Ch 11 | Ch 04 (māyā-advaita distinction) |
+| pariṇāmavāda | Ch 11 | — (real transformation; Viśiṣṭādvaita/Śaiva) |
+| vishishtadvaita | Ch 11 | — (Rāmānuja qualified non-dualism) |
+| dvaita-vedanta | Ch 11 | — (Madhva eternal dualism) |
+| bhakti | Ch 11 | Ch 04 (devotion as mokṣa path) |
+| jñāna-mārga | Ch 11 | Ch 04 (knowledge path) |
+| karma-mārga | Ch 11 | Ch 04 (action path; nishkama karma) |
+| trimurti | Ch 11 | — (Brahmā/Viṣṇu/Śiva cosmological triad) |
+| sarasvatī | Ch 11 | — (knowledge goddess; Tridevi Sattva) |
+| lakṣmī | Ch 11 | — (prosperity goddess; Tridevi Rajas; Viṣṇu śakti) |
+| four-noble-truths | Ch 12 | Ch 04 (Buddhist foundation) |
+| tanha | Ch 12 | — (craving; 2nd Noble Truth; 8th nidāna) |
+| paticcasamuppada-pali | Ch 12 | Ch 04 (Pali dependent-origination treatment) |
+| nibbana-theravada | Ch 12 | Ch 04 (Theravāda liberation account) |
+| anatta-buddhist | Ch 12 | Ch 03 (vs Jain jīva) · Ch 04 (§1 Buddhist basics) |
+| anicca | Ch 12 | Ch 04 (impermanence; tilakkhaṇa) |
+| theravada | Ch 12 | — (oldest surviving school; Pali Tipiṭaka) |
+| arhat | Ch 12 | Ch 04 (Theravāda liberation goal) |
+| skandha-buddhist | Ch 12 | Ch 01 (vs Jain skandha) |
+| abhidharma | Ch 12 | — (82-dharma analysis; Abhidharmakośa) |
+| bodhicitta | Ch 12 | — (awakening mind; Mahāyāna vow) |
+| madhyamaka | Ch 12 | Ch 06 (catuṣkoṭi grounding) |
+| dvisatya | Ch 12 | — (Madhyamaka two truths; saṃvṛti/paramārtha) |
+| vijñaptimātratā | Ch 12 | — (Yogācāra consciousness-only) |
+| ālaya-vijñāna | Ch 12 | — (storehouse consciousness; rebirth-without-self) |
+| tathāgatagarbha | Ch 12 | — (Buddha-nature; NOT-equiv ātman) |
