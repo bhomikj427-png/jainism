@@ -48,7 +48,6 @@ digraph ancient_texts {
     "naya" [label="naya" fillcolor="#ffd23f" shape=ellipse];
     "nikshepa" [label="nikṣepa" fillcolor="#ffd23f" shape=ellipse];
     "nirjara" [label="nirjarā" fillcolor="#ffd23f" shape=ellipse];
-    "nishcaya-vyavahara" [label="niścaya-vyavahāra" fillcolor="#ffd23f" shape=ellipse];
     "nishchaya-vyavahara" [label="niścaya-vyavahāra" fillcolor="#ffd23f" shape=ellipse];
     "papa" [label="pāpa" fillcolor="#ffd23f" shape=ellipse];
     "paramanu" [label="paramāṇu" fillcolor="#ffd23f" shape=ellipse];
@@ -879,7 +878,7 @@ digraph ancient_texts {
   "naya" -> "pramana" [color="#cccccc22"];
   "naya" -> "dravyarthika-naya" [color="#cccccc22"];
   "naya" -> "paryayarthika-naya" [color="#cccccc22"];
-  "naya" -> "nishcaya-vyavahara" [color="#cccccc22"];
+  "naya" -> "nishchaya-vyavahara" [color="#cccccc22"];
   "neoplatonism" -> "plotinus-one" [color="#cccccc22"];
   "neoplatonism" -> "plato-forms" [color="#cccccc22"];
   "neoplatonism" -> "advaita-vedanta" [color="#cccccc22"];
@@ -906,15 +905,6 @@ digraph ancient_texts {
   "nirvana-buddhist" -> "anatta-buddhist" [color="#cccccc22"];
   "nirvana-buddhist" -> "dukkha" [color="#cccccc22"];
   "nirvana-buddhist" -> "theravada" [color="#cccccc22"];
-  "nishcaya-vyavahara" -> "naya" [color="#cccccc22"];
-  "nishcaya-vyavahara" -> "vyavahara-naya" [color="#cccccc22"];
-  "nishcaya-vyavahara" -> "vyavahara-naya" [color="#cccccc22"];
-  "nishcaya-vyavahara" -> "anekantavada" [color="#cccccc22"];
-  "nishcaya-vyavahara" -> "anekantavada" [color="#cccccc22"];
-  "nishcaya-vyavahara" -> "dvisatya" [color="#cccccc22"];
-  "nishcaya-vyavahara" -> "dvisatya" [color="#cccccc22"];
-  "nishcaya-vyavahara" -> "maya-advaita" [color="#cccccc22"];
-  "nishcaya-vyavahara" -> "maya-advaita" [color="#cccccc22"];
   "nishchaya-vyavahara" -> "naya" [color="#cccccc22"];
   "nishchaya-vyavahara" -> "anekantavada" [color="#cccccc22"];
   "nishchaya-vyavahara" -> "kundakunda" [color="#cccccc22"];
