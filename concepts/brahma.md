@@ -53,3 +53,5 @@ Confidence medium: New World Encyclopedia is a secondary source; Muṇḍaka Upa
 - structurally-parallel-to: vishnu | both members of Trimurti; but Viṣṇu receives sustained devotional worship across India while Brahmā does not
 - historically-influenced-by: upanishad | Brahmā's role as primary creator consolidates in the Upaniṣadic period, supplanting Prajāpati; the Muṇḍaka Upaniṣad 1.1.1 is the earliest clear formulation
 - often-conflated-with-NOT-equivalent: tirthankara | Brahmā-as-creator-god is one of the clearest contrasts with Jain non-creator cosmology; in Jainism no god creates the universe; the cosmos is self-regulating and beginningless
+- part-of: trimurti | Brahmā's sole primary theological role is as the creator-member of the Trimūrti; outside this schema he receives virtually no devotional cult
+- shares-vocabulary-with: sarasvati | Sarasvatī is Brahmā's creative counterpart (knowledge-goddess) — the Bhṛgu curse explicitly links the two (he ignored Bhṛgu because absorbed in Sarasvatī's music)

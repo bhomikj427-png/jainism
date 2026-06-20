@@ -58,3 +58,4 @@ Confidence medium: Wikipedia multi-sourced and internally consistent; four-sampr
 - often-conflated-with-NOT-equivalent: advaita-vedanta | Rāmānuja and Madhva explicitly reject Śaṃkara's māyāvāda (world-as-illusion) and attribute-less brahman; Vaiṣṇava liberation is eternal personal relation or proximity, not identity-merger
 - structurally-parallel-to: shaivism | parallel devotional tradition with the same theological structure (supreme God + bhakti + sampradāya lineages + Āgamas) but centred on Śiva not Viṣṇu
 - expressed-by: vishnu | Viṣṇu (six divine qualities, avatāra doctrine, personal Bhagavān) is the theological substance that Vaiṣṇavism is centred on; the tradition's sampradāya splits all concern which aspect of Viṣṇu to emphasise
+- expressed-by: lakshmi | Lakṣmī is Viṣṇu's śakti and co-mediator in Śrī Vaiṣṇavism; devotion to her is the gateway to Viṣṇu in the Rāmānuja tradition

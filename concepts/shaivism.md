@@ -49,3 +49,5 @@ Confidence medium: Wikipedia multi-sourced and internally consistent; IEP is a p
 - shares-vocabulary-with: advaita-vedanta | all Śaiva schools engage Upaniṣadic brahman/ātman terminology and the Śaiva Siddhānta reads the same authoritative texts
 - often-conflated-with-NOT-equivalent: advaita-vedanta | Śaiva Siddhānta's dualism and Kashmir Śaivism's Śiva-Śakti non-dualism both reject Advaita's māyāvāda; Śiva is a REAL active personal God with real Śakti, not attribute-less impersonal brahman
 - historically-influenced-by: upanishad | Śaiva Vedānta schools (esp. Kashmir Śaivism) engage the Upaniṣads and Brahmasūtra as shared authoritative base alongside the Śaiva Āgamas
+- expressed-by: pratyabhijna | the Recognition (Pratyabhijñā) school of Utpaladeva/Abhinavagupta is the philosophical apex of monistic Kashmir Śaivism
+- expressed-by: spanda | the Spanda sub-system (Vasugupta/Kallata) — cosmic pulsation of consciousness — is the experiential-poetic layer of Kashmir Śaivism, preceding Pratyabhijñā

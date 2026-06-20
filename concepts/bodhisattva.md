@@ -53,3 +53,4 @@ Confidence medium; high refused because Yogācārabhūmiśāstra and Brahmajāla
 - shares-vocabulary-with: samsara | the bodhisattva remains in saṃsāra by vow; the cycle is the field of compassionate activity, not only a trap
 - shares-vocabulary-with: dana | dāna (generosity) is the first of the six pāramitās — the bodhisattva path begins with the ethics of giving
 - often-conflated-with-NOT-equivalent: arihant | both are figures of highest attainment near liberation — but arihant is a living omniscient Jain being with an individual karmic arc, while bodhisattva is a Mahāyāna practitioner delaying liberation for all beings
+- expressed-by: bodhicitta | bodhicitta (the awakening mind / vow for all beings) is the defining quality of a bodhisattva — possessing it is what makes someone a bodhisattva
