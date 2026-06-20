@@ -1951,3 +1951,60 @@ graph.dot / graph.html / graph.svg all refreshed.
 
 **Linker pass 5:**
 - Full audit over all 202 files; integrate Batch 27 reciprocity only where a real connectivity defect exists; check mohaniya + 6 new Batch-27 nodes for any remaining orphans; update `.linker-state`.
+
+---
+
+## Batch 28 — New concepts + Linker Pass 5 (2026-06-21)
+
+### Startup reconcile
+- Discovered and removed duplicate `nishcaya-vyavahara.md` (the canonical file is `nishchaya-vyavahara.md` with 'chaya'); fixed `naya.md` stale link; 201 nodes before batch.
+
+### Batch 28 concepts
+
+| # | concept (filename) | status | confidence | key source |
+|---|---|---|---|---|
+| 1 | `gita.md` | contested | medium | IEP "Bhagavad Gita" + prasthānatrayī student resource; 3-school reading table (Śaṅkara/Rāmānuja/Madhva); charama-śloka BG 18.66 |
+| 2 | `nagarjuna.md` | converged | medium | IEP "Nagarjuna" + Britannica; ~150-250 CE; MMK 27-ch; prasaṅga reductio; well-attested vs disputed works |
+| 3 | `santideva.md` | converged | medium | Ency. of Buddhism + Philopedia; ~685-763 CE Nalanda; BCA 10 ch/~1000 vv; ch6 patience + ch9 sunyata; 108 Indian commentaries |
+| 4 | `nirvana-mahayana.md` | converged | medium | Study Buddhism + Wikipedia (Buswell-Lopez); apratiṣṭhita-nirvāṇa; Theravāda vs Mahāyāna comparison table |
+| 5 | `vishnu-sahasranama.md` | converged | medium | Wikipedia + ExoticIndiaArt; Mbh. Anuśāsanaparva 13.149; 108 vv / 1000 names; Bhīṣma frame; 4-school commentary table |
+
+### Linker Pass 5
+- Full orphan audit of all 206 nodes after Batch 28
+- Pre-fix orphans found: `gita`, `nirvana-mahayana`, `vishnu-sahasranama` (new concepts), plus legacy orphans `lingam`, `nikshepa`, `paticcasamuppada-pali`
+- Also fixed: `gita.md` had wrong `part-of: brahma-sutra` / `part-of: upanishad` edges → corrected to `shares-vocabulary-with` (they are co-members of prasthānatrayī, not child nodes)
+- Post-fix: **0 orphans** across all 206 nodes
+- Hub files edited: brahma-sutra, karma-marga, bhakti, avatara-vedanta, vishnu, vaishnavism, bodhisattva, nirvana-buddhist, bodhicitta, shaivism, naya, pratityasamutpada
+
+### Graph (final state)
+`build_graph.py` clean: **206 nodes, 1275 edges**. 0 unwritten stubs. 0 orphans.
+`graph/graph.svg` rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`.
+
+### Notable findings this batch
+
+1. **Gita.md is now the prasthānatrayī hub**: The three co-equal canonical text files (upanishad.md, brahma-sutra.md, gita.md) are now all written and cross-linked via `shares-vocabulary-with`. The Advaita/Viśiṣṭādvaita/Dvaita interpretive split is documented in the contested-status comparison table.
+
+2. **Nāgārjuna and Śāntideva complete the Madhyamaka person-node layer**: Both are now person-nodes with links to their texts. The chain Nāgārjuna (MMK/prasaṅga/śūnyatā) → Śāntideva (BCA/bodhicitta/pāramitā) is now explicit.
+
+3. **Apratiṣṭhita-nirvāṇa fills the critical Mahāyāna gap**: The corpus had nibbāna-Theravāda and nirvāṇa-Buddhist (general), but the specifically Mahāyāna non-abiding Buddhahood was missing. Now written and connected.
+
+4. **Viṣṇusahasranāma documents the cross-school commentary pattern**: Four incompatible schools (Advaita/Viśiṣṭādvaita/Dvaita/Acintya-bhedābheda) all claim the same devotional text as their proof-text — a paradigmatic case of how divergent metaphysics inhabit a shared textual tradition.
+
+5. **Duplicate node removed**: `nishcaya-vyavahara.md` was a stale duplicate of `nishchaya-vyavahara.md`. The contested (better) version is canonical.
+
+### Corpus milestone: 206 concepts across 28 batches + 5 linker passes. 0 orphans. 0 unwritten stubs.
+
+### Suggested Batch 29 (names only — no files written)
+
+**Remaining Buddhist concepts:**
+- `madhyamaka-logic` — Prāsaṅga method as a distinct logical technique; companion to prasanga-nagarjuna.md and aristotle-logic.md
+- `yogacara-logic` — Dignāga-Dharmakīrti school's specific logical contribution (already partly in hetu-vidya.md; may need a dedicated file)
+- `two-truths-analysis` — cross-tradition comparison of two-truths schemes (Jain niścaya/vyavāhara vs Buddhist saṃvṛti/paramārtha vs Advaita vyāvahārika/pāramārthika) — could be a cross-tradition synthesis file
+
+**Hindu deity/text nodes:**
+- `mahabharata` — as a primary text node (the Viṣṇusahasranāma and Gītā both live inside it; adds context)
+- `ramayana` — primary text node; bhakti/avatāra literature
+
+**Cross-tradition ethics remaining:**
+- `metta` — loving-kindness (Pali); the foundational brahmavihāra; companion to ahimsa-buddhist.md
+- `karuna` — compassion (Pali); second brahmavihāra; grounds bodhicitta
