@@ -168,6 +168,7 @@ digraph ancient_texts {
     "vaishnavism" [label="Vaiṣṇavism" fillcolor="#4fd16b" shape=ellipse];
     "vishishtadvaita" [label="Viśiṣṭādvaita" fillcolor="#4fd16b" shape=ellipse];
     "vishnu" [label="Viṣṇu" fillcolor="#4fd16b" shape=ellipse];
+    "vishnu-sahasranama" [label="Viṣṇusahasranāma" fillcolor="#4fd16b" shape=ellipse];
     "vivartavada" [label="vivartavāda" fillcolor="#4fd16b" shape=ellipse];
   }
   subgraph "cluster_Samkhya-Yoga" { style=invis; peripheries=0;
@@ -1437,6 +1438,13 @@ digraph ancient_texts {
   "vishishtadvaita" -> "parinamavada" [color="#cccccc22"];
   "vishishtadvaita" -> "bhakti" [color="#cccccc22"];
   "vishishtadvaita" -> "vishnu" [color="#cccccc22"];
+  "vishnu-sahasranama" -> "vishnu" [color="#cccccc22"];
+  "vishnu-sahasranama" -> "vaishnavism" [color="#cccccc22"];
+  "vishnu-sahasranama" -> "bhakti" [color="#cccccc22"];
+  "vishnu-sahasranama" -> "brahman" [color="#cccccc22"];
+  "vishnu-sahasranama" -> "advaita-vedanta" [color="#cccccc22"];
+  "vishnu-sahasranama" -> "vishishtadvaita" [color="#cccccc22"];
+  "vishnu-sahasranama" -> "dvaita-vedanta" [color="#cccccc22"];
   "vishnu" -> "vaishnavism" [color="#cccccc22"];
   "vishnu" -> "brahman" [color="#cccccc22"];
   "vishnu" -> "brahman" [color="#cccccc22"];
