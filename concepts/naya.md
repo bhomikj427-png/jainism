@@ -65,3 +65,4 @@ The seven nayas move from most general/abstract (saṃgraha: "everything is *sat
 - expressed-by: dravyarthika-naya | naigama/saṃgraha/vyavahāra are the substance-standpoint group of the seven nayas — they take the dravya as their primary object
 - expressed-by: paryayarthika-naya | ṛjusūtra/śabda/samabhirūḍha/evaṃbhūta are the mode-standpoint group — they restrict to momentary or usage-defined modes
 - expressed-by: nishchaya-vyavahara | Kundakunda's niścaya/vyavahāra is the most influential two-fold *soteriological* application of naya theory (Samayasāra), distinct from and orthogonal to the seven-naya classification above
+- shares-vocabulary-with: nikshepa | nikṣepa (fourfold term-analysis: nāma/sthāpanā/dravya/bhāva) is the disambiguation companion tool — ensures naya standpoints address the right referent, not a homonym

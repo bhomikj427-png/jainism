@@ -907,6 +907,7 @@ digraph ancient_texts {
   "naya" -> "dravyarthika-naya" [color="#cccccc22"];
   "naya" -> "paryayarthika-naya" [color="#cccccc22"];
   "naya" -> "nishchaya-vyavahara" [color="#cccccc22"];
+  "naya" -> "nikshepa" [color="#cccccc22"];
   "neoplatonism" -> "plotinus-one" [color="#cccccc22"];
   "neoplatonism" -> "plato-forms" [color="#cccccc22"];
   "neoplatonism" -> "advaita-vedanta" [color="#cccccc22"];
@@ -1088,6 +1089,7 @@ digraph ancient_texts {
   "pratityasamutpada" -> "namarupa" [color="#cccccc22"];
   "pratityasamutpada" -> "catuskoti" [color="#cccccc22"];
   "pratityasamutpada" -> "stoic-logos" [color="#cccccc22"];
+  "pratityasamutpada" -> "paticcasamuppada-pali" [color="#cccccc22"];
   "pratyabhijna" -> "shaivism" [color="#cccccc22"];
   "pratyabhijna" -> "dharmottara-nyayabindu" [color="#cccccc22"];
   "pratyabhijna" -> "advaita-vedanta" [color="#cccccc22"];
@@ -1263,6 +1265,7 @@ digraph ancient_texts {
   "shaivism" -> "upanishad" [color="#cccccc22"];
   "shaivism" -> "pratyabhijna" [color="#cccccc22"];
   "shaivism" -> "spanda" [color="#cccccc22"];
+  "shaivism" -> "lingam" [color="#cccccc22"];
   "shakti" -> "shaivism" [color="#cccccc22"];
   "shakti" -> "prakriti-samkhya" [color="#cccccc22"];
   "shakti" -> "maya-advaita" [color="#cccccc22"];

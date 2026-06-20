@@ -51,3 +51,4 @@ Confidence medium: Wikipedia multi-sourced and internally consistent; IEP is a p
 - historically-influenced-by: upanishad | Śaiva Vedānta schools (esp. Kashmir Śaivism) engage the Upaniṣads and Brahmasūtra as shared authoritative base alongside the Śaiva Āgamas
 - expressed-by: pratyabhijna | the Recognition (Pratyabhijñā) school of Utpaladeva/Abhinavagupta is the philosophical apex of monistic Kashmir Śaivism
 - expressed-by: spanda | the Spanda sub-system (Vasugupta/Kallata) — cosmic pulsation of consciousness — is the experiential-poetic layer of Kashmir Śaivism, preceding Pratyabhijñā
+- expressed-by: lingam | the liṅga is the primary aniconic cultic image of Śiva across all Śaiva traditions; Śiva Purāṇa (jyotirliṅga cosmogony) and Liṅgāyat iṣṭaliṅga theology both centre on it
