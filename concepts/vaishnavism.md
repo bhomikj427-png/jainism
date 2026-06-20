@@ -59,3 +59,4 @@ Confidence medium: Wikipedia multi-sourced and internally consistent; four-sampr
 - structurally-parallel-to: shaivism | parallel devotional tradition with the same theological structure (supreme God + bhakti + sampradāya lineages + Āgamas) but centred on Śiva not Viṣṇu
 - expressed-by: vishnu | Viṣṇu (six divine qualities, avatāra doctrine, personal Bhagavān) is the theological substance that Vaiṣṇavism is centred on; the tradition's sampradāya splits all concern which aspect of Viṣṇu to emphasise
 - expressed-by: lakshmi | Lakṣmī is Viṣṇu's śakti and co-mediator in Śrī Vaiṣṇavism; devotion to her is the gateway to Viṣṇu in the Rāmānuja tradition
+- expressed-by: vishnu-sahasranama | the Viṣṇusahasranāma is the central recitation text of Vaiṣṇava devotion across all sub-schools; its multi-commentary tradition maps the Advaita/Viśiṣṭādvaita/Dvaita divide

@@ -54,3 +54,4 @@ Atisha's formulation: *"buddhō bhaveyaṁ jagato hitāya"* — "May I become a 
 - shares-vocabulary-with: dana | dāna (generosity) is the first pāramitā — an expression of bodhicitta in social action
 - structurally-parallel-to: charitra | both are the ethical-practical dimension of the liberation path — but bodhicitta's scope is all sentient beings (altruistic), cāritra's scope is the practitioner's own karma (self-purification)
 - often-conflated-with-NOT-equivalent: charitra | bodhicitta delays liberation for others' sake; Jain cāritra is self-directed karma-shedding aimed at the practitioner's own mokṣa — structurally opposite orientations
+- expressed-by: santideva | Śāntideva's *Bodhicaryāvatāra* (8th c., 10 chapters, ~1000 verses) is the canonical systematization of bodhicitta through the six pāramitās

@@ -65,3 +65,4 @@ Some Hindu Purāṇic lists include the Buddha as the 9th avatāra of Viṣṇu.
 - part-of: brahman | avatāra = Brahman/Viṣṇu's self-manifestation in the world
 - part-of: atman-vedanta | Viśiṣṭādvaita: the avatāra is the ultimate expression of the ātman-Brahman relationship in history
 - expressed-by: karma-marga | Krishna's BG teaching (BG 2.47-49) is the primary scriptural source for karma-mārga; the avatāra is the teacher of action without attachment
+- expressed-by: gita | BG 4.7-4.8 (*yadā yadā hi dharmasya glānir bhavati…*) is the canonical avatāra text; the Gītā is the direct scriptural expression of the doctrine

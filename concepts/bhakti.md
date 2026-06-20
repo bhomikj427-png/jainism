@@ -46,6 +46,7 @@ Three signals converge on doctrine. Confidence medium; high refused because BG v
 ## Links
 
 - expressed-by: vishishtadvaita | bhakti + prapatti are the soteriological means in Rāmānuja's qualified non-dualism
+- expressed-by: gita | BG chapters 7–12 and the charama-śloka (18.66) are the primary scriptural basis for bhakti as a complete path; the three-mārga classification (karma/jñāna/bhakti) originates in the Gītā
 - expressed-by: dvaita-vedanta | bhakti central to Madhva's grace-centred liberation account
 - expressed-by: avatara-vedanta | Krishna is the primary object of bhakti in the BG context; theophany motivates devotion
 - shares-vocabulary-with: tapas | both are practices within the broader Indian framework of sādhanā (spiritual practice); different soteriological groundings

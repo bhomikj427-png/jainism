@@ -36,3 +36,4 @@ The two are independent (an encyclopedia and a cluster of Vedānta-reference sit
 - often-conflated-with-NOT-equivalent: mimamsa-sutra | but the two inquiries point opposite ways: Pūrva Mīmāṃsā is the *karma-kāṇḍa* (ritual action / dharma), Uttara Mīmāṃsā the *jñāna-kāṇḍa* (knowledge of Brahman / liberation) — same "Mīmāṃsā," ritual-duty vs Brahman-knowledge
 - structurally-parallel-to: samkhya-karika | both are āstika root-texts giving an account of the ultimate cause of the world
 - often-conflated-with-NOT-equivalent: samkhya-karika | the Brahmasūtra explicitly *refutes* Sāṃkhya: the world's cause is the *conscious* Brahman, not Sāṃkhya's *unconscious* prakṛti evolving on its own — conscious-cause vs unconscious-cause
+- shares-vocabulary-with: gita | co-member of the prasthānatrayī; the Gītā provides the smṛti-dialogue strand that all three Vedānta schools use alongside the Brahmasūtra

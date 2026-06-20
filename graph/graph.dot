@@ -435,12 +435,14 @@ digraph ancient_texts {
   "avatara-vedanta" -> "brahman" [color="#cccccc22"];
   "avatara-vedanta" -> "atman-vedanta" [color="#cccccc22"];
   "avatara-vedanta" -> "karma-marga" [color="#cccccc22"];
+  "avatara-vedanta" -> "gita" [color="#cccccc22"];
   "bandha" -> "karma" [color="#cccccc22"];
   "bandha" -> "asrava" [color="#cccccc22"];
   "bandha" -> "samvara" [color="#cccccc22"];
   "bandha" -> "tattva-jain" [color="#cccccc22"];
   "bandha" -> "tattvartha-sutra" [color="#cccccc22"];
   "bhakti" -> "vishishtadvaita" [color="#cccccc22"];
+  "bhakti" -> "gita" [color="#cccccc22"];
   "bhakti" -> "dvaita-vedanta" [color="#cccccc22"];
   "bhakti" -> "avatara-vedanta" [color="#cccccc22"];
   "bhakti" -> "tapas" [color="#cccccc22"];
@@ -453,12 +455,14 @@ digraph ancient_texts {
   "bodhicitta" -> "dana" [color="#cccccc22"];
   "bodhicitta" -> "charitra" [color="#cccccc22"];
   "bodhicitta" -> "charitra" [color="#cccccc22"];
+  "bodhicitta" -> "santideva" [color="#cccccc22"];
   "bodhisattva" -> "yogacara" [color="#cccccc22"];
   "bodhisattva" -> "tathagata-garbha" [color="#cccccc22"];
   "bodhisattva" -> "nirvana-buddhist" [color="#cccccc22"];
   "bodhisattva" -> "samsara" [color="#cccccc22"];
   "bodhisattva" -> "dana" [color="#cccccc22"];
   "bodhisattva" -> "arihant" [color="#cccccc22"];
+  "bodhisattva" -> "nirvana-mahayana" [color="#cccccc22"];
   "bodhisattva" -> "bodhicitta" [color="#cccccc22"];
   "brahma-sutra" -> "brahman" [color="#cccccc22"];
   "brahma-sutra" -> "atman-vedanta" [color="#cccccc22"];
@@ -468,6 +472,7 @@ digraph ancient_texts {
   "brahma-sutra" -> "mimamsa-sutra" [color="#cccccc22"];
   "brahma-sutra" -> "samkhya-karika" [color="#cccccc22"];
   "brahma-sutra" -> "samkhya-karika" [color="#cccccc22"];
+  "brahma-sutra" -> "gita" [color="#cccccc22"];
   "brahma" -> "brahman" [color="#cccccc22"];
   "brahma" -> "vaishnavism" [color="#cccccc22"];
   "brahma" -> "vishnu" [color="#cccccc22"];
@@ -724,6 +729,7 @@ digraph ancient_texts {
   "kamalasila" -> "yoga-darshana" [color="#cccccc22"];
   "kamalasila" -> "yoga-darshana" [color="#cccccc22"];
   "karma-marga" -> "avatara-vedanta" [color="#cccccc22"];
+  "karma-marga" -> "gita" [color="#cccccc22"];
   "karma-marga" -> "karma-vedic" [color="#cccccc22"];
   "karma-marga" -> "bhakti" [color="#cccccc22"];
   "karma-marga" -> "jnana-marga" [color="#cccccc22"];
@@ -927,6 +933,7 @@ digraph ancient_texts {
   "nirvana-buddhist" -> "anatta-buddhist" [color="#cccccc22"];
   "nirvana-buddhist" -> "dukkha" [color="#cccccc22"];
   "nirvana-buddhist" -> "theravada" [color="#cccccc22"];
+  "nirvana-buddhist" -> "nirvana-mahayana" [color="#cccccc22"];
   "nirvana-mahayana" -> "nirvana-buddhist" [color="#cccccc22"];
   "nirvana-mahayana" -> "nibbana-theravada" [color="#cccccc22"];
   "nirvana-mahayana" -> "nibbana-theravada" [color="#cccccc22"];
@@ -1424,6 +1431,7 @@ digraph ancient_texts {
   "vaishnavism" -> "shaivism" [color="#cccccc22"];
   "vaishnavism" -> "vishnu" [color="#cccccc22"];
   "vaishnavism" -> "lakshmi" [color="#cccccc22"];
+  "vaishnavism" -> "vishnu-sahasranama" [color="#cccccc22"];
   "vijnaptimatrata" -> "alaya-vijnana" [color="#cccccc22"];
   "vijnaptimatrata" -> "maya-advaita" [color="#cccccc22"];
   "vijnaptimatrata" -> "dravya" [color="#cccccc22"];
@@ -1452,6 +1460,7 @@ digraph ancient_texts {
   "vishnu" -> "vaishnavism" [color="#cccccc22"];
   "vishnu" -> "shaivism" [color="#cccccc22"];
   "vishnu" -> "brahma" [color="#cccccc22"];
+  "vishnu" -> "vishnu-sahasranama" [color="#cccccc22"];
   "vivartavada" -> "advaita-vedanta" [color="#cccccc22"];
   "vivartavada" -> "maya-advaita" [color="#cccccc22"];
   "vivartavada" -> "brahma-sutra" [color="#cccccc22"];

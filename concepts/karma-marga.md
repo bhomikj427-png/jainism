@@ -51,6 +51,7 @@ Confidence medium; high refused because BG Sanskrit not independently fetched; "
 ## Links
 
 - expressed-by: avatara-vedanta | Krishna's BG teaching (especially BG 2.47-49) is the primary textual source for karma-mārga; the avatāra is the teacher of this path
+- expressed-by: gita | the Bhagavadgītā chapters 2–6 are the locus classicus of karma-yoga: selfless action without fruit-attachment (*naiskarmya*); BG 3.16 (duty-wheel) and 2.47-49 are the key verses
 - shares-vocabulary-with: karma-vedic | same Sanskrit term *karma* is used but with different meanings: karma-mārga = action as practice; karma-vedic = accumulated force of past actions — important not to conflate
 - shares-vocabulary-with: bhakti | the three mārgas (karma / bhakti / jñāna) are the classical Hindu framework for alternate routes to liberation
 - shares-vocabulary-with: jnana-marga | co-paths in the three-mārga framework; BG Chapters 2–4 present them as complementary, not exclusive

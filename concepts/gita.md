@@ -35,8 +35,8 @@ All three readings cite the same verses but interpret them through divergent ont
 
 ## Links
 
-- part-of: brahma-sutra | the Bhagavadgītā is one of the three prasthānatrayī canon texts (with brahma-sutra.md and the Upaniṣads)
-- part-of: upanishad | the prasthānatrayī frame groups gītā with the Upaniṣad-śruti stream, though the Gītā is technically smṛti
+- shares-vocabulary-with: brahma-sutra | co-member of the prasthānatrayī: Brahmasūtra (systematic aphorism strand) + Bhagavadgītā (smṛti-dialogue strand) + Upaniṣads (śruti strand)
+- shares-vocabulary-with: upanishad | co-member of the prasthānatrayī; the Upaniṣads supply the śruti authority that all three Vedānta schools read the Gītā through
 - expressed-by: karma-marga | BG 3–6 is the locus classicus of karma-yoga — selfless action without fruit-attachment
 - expressed-by: jnana-marga | BG 13–18 (Śaṅkara's emphasis) presents jñāna-yoga as the highest rung
 - expressed-by: bhakti | BG 7–12 and the charama-śloka (18.66) drive the bhakti-primacy reading
