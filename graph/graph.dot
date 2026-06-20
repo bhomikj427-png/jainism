@@ -116,6 +116,7 @@ digraph ancient_texts {
     "pratityasamutpada" [label="pratītyasamutpāda" fillcolor="#ff8c5a" shape=ellipse];
     "pratyaksha-buddhist" [label="pratyakṣa (Buddhist)" fillcolor="#ff8c5a" shape=ellipse];
     "santaraksita" [label="Śāntarakṣita" fillcolor="#ff8c5a" shape=ellipse];
+    "santideva" [label="Śāntideva" fillcolor="#ff8c5a" shape=ellipse];
     "skandha-buddhist" [label="skandha (Buddhist)" fillcolor="#ff8c5a" shape=ellipse];
     "sunyata" [label="śūnyatā" fillcolor="#ff8c5a" shape=ellipse];
     "tanha" [label="taṇhā" fillcolor="#ff8c5a" shape=ellipse];
@@ -225,9 +226,6 @@ digraph ancient_texts {
     "samsara" [label="saṃsāra" fillcolor="#ff6fa5" shape=ellipse];
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
-  }
-  subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "santideva" [label="santideva" fillcolor="#777777" shape=box];
   }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
@@ -1200,6 +1198,10 @@ digraph ancient_texts {
   "santaraksita" -> "anekantavada" [color="#cccccc22"];
   "santaraksita" -> "anekantavada" [color="#cccccc22"];
   "santaraksita" -> "kamalasila" [color="#cccccc22"];
+  "santideva" -> "madhyamaka" [color="#cccccc22"];
+  "santideva" -> "bodhicitta" [color="#cccccc22"];
+  "santideva" -> "bodhisattva" [color="#cccccc22"];
+  "santideva" -> "nagarjuna" [color="#cccccc22"];
   "saptabhangi" -> "syadvada" [color="#cccccc22"];
   "saptabhangi" -> "anekantavada" [color="#cccccc22"];
   "saptabhangi" -> "many-valued-logic" [color="#cccccc22"];
