@@ -109,6 +109,7 @@ digraph ancient_texts {
     "namarupa" [label="nāmarūpa" fillcolor="#ff8c5a" shape=ellipse];
     "nibbana-theravada" [label="nibbāna (Theravāda)" fillcolor="#ff8c5a" shape=ellipse];
     "nirvana-buddhist" [label="nirvāṇa (Buddhist)" fillcolor="#ff8c5a" shape=ellipse];
+    "nirvana-mahayana" [label="apratiṣṭhita-nirvāṇa" fillcolor="#ff8c5a" shape=ellipse];
     "paticcasamuppada-pali" [label="paṭicca-samuppāda" fillcolor="#ff8c5a" shape=ellipse];
     "pramana-samuccaya" [label="Pramāṇasamuccaya" fillcolor="#ff8c5a" shape=ellipse];
     "pramanavarttika" [label="Pramāṇavārttika" fillcolor="#ff8c5a" shape=ellipse];
@@ -925,6 +926,13 @@ digraph ancient_texts {
   "nirvana-buddhist" -> "anatta-buddhist" [color="#cccccc22"];
   "nirvana-buddhist" -> "dukkha" [color="#cccccc22"];
   "nirvana-buddhist" -> "theravada" [color="#cccccc22"];
+  "nirvana-mahayana" -> "nirvana-buddhist" [color="#cccccc22"];
+  "nirvana-mahayana" -> "nibbana-theravada" [color="#cccccc22"];
+  "nirvana-mahayana" -> "nibbana-theravada" [color="#cccccc22"];
+  "nirvana-mahayana" -> "bodhisattva" [color="#cccccc22"];
+  "nirvana-mahayana" -> "bodhicitta" [color="#cccccc22"];
+  "nirvana-mahayana" -> "sunyata" [color="#cccccc22"];
+  "nirvana-mahayana" -> "tathagata-garbha" [color="#cccccc22"];
   "nishchaya-vyavahara" -> "naya" [color="#cccccc22"];
   "nishchaya-vyavahara" -> "anekantavada" [color="#cccccc22"];
   "nishchaya-vyavahara" -> "kundakunda" [color="#cccccc22"];
