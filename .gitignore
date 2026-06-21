@@ -4,3 +4,6 @@ __pycache__/
 
 # Oversized raster exports — render on demand from graph.dot / build_graph.py
 graph/*.png
+
+# Graphviz cleanup intermediate (created+deleted on each render; never commit)
+graph/graph
