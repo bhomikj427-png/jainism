@@ -2114,3 +2114,33 @@ A "batch of everything" spanning all three threads of the suggested Batch 30 at 
 - `hanuman` — devotee-deity; the paradigm of Rāma-bhakti and dāsya-bhāva.
 - `ganesha` — the most-invoked Hindu deity, conspicuously absent; pañcāyatana completion.
 - `naṭarāja` — Śiva's cosmic dance as a distinct iconographic/cosmological node (creation–dissolution cycle).
+
+---
+
+## Linker Pass 6 — Edges batch (2026-06-21)
+
+### Scope
+No new concept files. A connectivity-enrichment pass over the existing 223 nodes: degree analysis to find under-linked nodes, then add **genuinely new, prose-grounded typed edges** (not hand-maintained backlinks — §5 forward-only respected; existing reverse edges like `vyasa→valmiki` were left as the single stored direction).
+
+### Edges added: 11 (across 8 source files)
+
+| edge | type | rationale |
+|---|---|---|
+| `valmiki → rama` | shares-vocabulary-with | Vālmīki is both source-poet of Rāma's life and a character in his own poem (shelters Sītā; teaches Lava/Kuśa) — valmiki was the lowest-degree node (deg 4) |
+| `dravyarthika-naya → paryayarthika-naya` | shares-vocabulary-with | the two complementary halves of the seven-naya system were not directly linked (only via member nayas) |
+| `dravyarthika-naya → dravya` | shares-vocabulary-with | mirrors the existing `paryayarthika-naya → paryaya`; the substance-side naya takes dravya as its object |
+| `krishna → bhakti` | shares-vocabulary-with | Kṛṣṇa is the supreme object of Vaiṣṇava bhakti (rāsa-līlā, BG 7–12, Gauḍīya) — missing from the new deity node |
+| `neoplatonism → plato-soul` | historically-influenced-by | the Neoplatonic Soul-hypostasis systematises Plato's soul; gives low-inbound plato-soul a defensible inbound edge |
+| `agni → stoic-logos` | structurally-parallel-to + often-conflated-NOT-equiv | both are cosmic **fire** principles bound to cosmic order (Agni = *ṛtasya gopā*; logos = *pyr technikon*) — but personal ritual deity ≠ impersonal corporeal world-reason (sanctioned two-type pair) |
+| `samatva → karma-marga` | shares-vocabulary-with | samatva (BG 2.48) is the defining inner condition of karma-yoga |
+| `samatva → yoga-darshana` | shares-vocabulary-with + often-conflated-NOT-equiv | both define "yoga" — Gītā as *samatva*, Patañjali as *citta-vṛtti-nirodha*; engaged equanimity ≠ meditative cessation (sanctioned pair) |
+| `sthitaprajna → jnana-marga` | shares-vocabulary-with | the sage of steady *prajñā* is the realized exemplar of the knowledge-path |
+
+### Audits (deterministic)
+- **0 dangling stubs**, **0 orphans** across all 223 nodes.
+- §5 checks: the two two-type pairs (`agni→stoic-logos`, `samatva→yoga-darshana`) are the sanctioned `parallel + NOT-equivalent` combination; `neoplatonism→plato-soul` is `historically-influenced-by` pointing to the influence source (correct direction); no `is-a-type-of` edges added, so no direction/bidirectional risk.
+- Graph regenerated: **1373 → 1384 edges** (node count unchanged at 223). `graph.svg` re-rendered; `graph.dot`/`graph.html`/`index.md` refreshed.
+
+### Notable
+- The biggest real gap closed was the **naya group-node link**: `dravyarthika-naya` and `paryayarthika-naya` were each linked to their member nayas and to `anekantavada`, but not to each other — now the two halves of the system are directly connected and symmetric (each points to its substance/mode object: dravya / paryāya).
+- The **Agni ↔ Stoic-logos fire-principle parallel** is a new honest cross-tradition edge in the prime-directive spirit: a striking structural similarity (cosmic fire + order) explicitly fenced by a NOT-equivalent edge (worshipped deity vs physical world-reason).
