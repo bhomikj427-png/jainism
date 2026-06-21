@@ -2144,3 +2144,34 @@ No new concept files. A connectivity-enrichment pass over the existing 223 nodes
 ### Notable
 - The biggest real gap closed was the **naya group-node link**: `dravyarthika-naya` and `paryayarthika-naya` were each linked to their member nayas and to `anekantavada`, but not to each other — now the two halves of the system are directly connected and symmetric (each points to its substance/mode object: dravya / paryāya).
 - The **Agni ↔ Stoic-logos fire-principle parallel** is a new honest cross-tradition edge in the prime-directive spirit: a striking structural similarity (cosmic fire + order) explicitly fenced by a NOT-equivalent edge (worshipped deity vs physical world-reason).
+
+---
+
+## Linker Pass 7 — Edges batch (2026-06-21)
+
+### Scope
+No new concept files. Connectivity-enrichment over the existing 223 nodes, driven by **two deterministic signals**: (1) degree analysis for under-linked nodes; (2) a **prose-reference audit** — a script that flags any concept whose own prose cites another existing concept (`(x.md)` / `[[x]]`) with no corresponding typed edge. §5 forward-only respected throughout: audit hits that were merely the *reverse* of an existing edge (computed backlinks) were left unstored.
+
+### Edges added: 8 (across 5 source files)
+
+| edge | type | rationale |
+|---|---|---|
+| `parshvanatha → ahimsa` | expressed-by | Pārśva's *cāturyāma* = ahiṃsā/satya/asteya/aparigraha; only aparigraha was linked. Completes the four-fold restraint. |
+| `parshvanatha → satya` | expressed-by | 2nd of the cāturyāma (raised low-inbound satya) |
+| `parshvanatha → asteya` | expressed-by | 3rd of the cāturyāma (raised low-inbound asteya) |
+| `mudita → karuna` | shares-vocabulary-with | the two middle *appamaññā* (joy-at-fortune ∥ compassion-at-suffering); the pair was the one brahmavihāra link missing in either direction |
+| `karuna → upekkha` | shares-vocabulary-with | equanimity completes/regulates compassion; the other missing brahmavihāra pair — the four immeasurables are now a fully-connected K4 (all 6 pairs) |
+| `mahavira → utsarpini-avasarpini` | historically-influenced-by | prose-audit hit: Mahāvīra = 24th/last tīrthaṅkara closing the present avasarpiṇī; mirrors Pārśva's existing kālacakra edge |
+| `papa → samayasara` | expressed-by | prose-audit hit: the "iron chain / golden chain, both bind" doctrine is expounded in Kundakunda's Samayasāra |
+| `papa → nishchaya-vyavahara` | shares-vocabulary-with | prose-audit hit: from the niścaya standpoint the whole puṇya/pāpa axis is pudgala, not the pure soul — "real" only at the vyavahāra level |
+
+### Audits (deterministic)
+- **0 orphans, 0 unwritten stubs, 0 edge-type violations** across all 223 nodes (verified by script: no bidirectional `is-a-type-of`; no `is-a-type-of`/`part-of` combined with a parallel/NOT-equivalent type on the same ordered pair).
+- Graph regenerated: **1384 → 1392 edges** (223 nodes unchanged). `graph.svg` re-rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`; `graph.dot`/`graph.html`/`index.md` refreshed.
+
+### Edge surface now exhausted
+The prose-reference audit's remaining hits are **all reverse-of-existing edges** (the Vedānta triangle advaita→dvaita/vishishtadvaita and vishishtadvaita→dvaita; pramanavarttika→pramana-samuccaya; dharmottara→pramanavarttika) — correctly *not* stored under §5 forward-only. The remaining lowest-degree nodes (`abhidharmakosa`, `valmiki`, `ajivika`, `neoplatonism`, `nikshepa`) can only be raised by either (a) un-cited new assertions (forbidden by §1/§4) or (b) new author/stub nodes such as `vasubandhu` (would break the 0-stub invariant — a Batch-31 decision, not a linker pass). **Further connectivity gains require new concept files, not more edges.** Per §0 ("when in doubt, assert less"), the pass halts here rather than pad.
+
+### Suggested next (Batch 31 — names only, unwritten)
+- Author/source nodes that would convert reverse-only low-degree nodes into hubs: `vasubandhu` (anchors abhidharmakosa), `makkhali-gosala` (anchors ajivika), `plotinus` / Proclus-Iamblichus (anchor neoplatonism).
+- Śākta goddess nodes (`parvati`/`durga`/`kali`), `jivanmukti`, `hanuman`, `ganesha`, `nataraja` (carried over from Batch-30 suggestion).
