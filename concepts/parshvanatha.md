@@ -44,6 +44,9 @@ The corpus treats the 24-tīrthaṅkara list as doctrine, not chronicle: the fir
 
 - is-a-type-of: tirthankara | Pārśva is the 23rd tīrthaṅkara of the present half-cycle
 - historically-influenced-by: utsarpini-avasarpini | his place in the 24-per-half-cycle list comes from the kālacakra cosmology
+- expressed-by: ahimsa | first of Pārśva's *cāturyāma* (four-fold restraint): ahiṃsā, satya, asteya, aparigraha — inherited unchanged into Mahāvīra's five mahāvratas
+- expressed-by: satya | second of the *cāturyāma*; truthfulness as one of the four restraints Pārśva taught
+- expressed-by: asteya | third of the *cāturyāma*; non-stealing as one of the four restraints Pārśva taught
 - expressed-by: aparigraha | Pārśva's *cāturyāma* folded celibacy into aparigraha; Mahāvīra split it out
 - shares-vocabulary-with: mahavira | Mahāvīra reformed Pārśva's order; cāturyāma → pañca-mahāvrata
 - often-conflated-with-NOT-equivalent: mahavira | Pārśva (23rd, ~250 yrs earlier) is not Mahāvīra (24th); Mahāvīra reformed, did not found

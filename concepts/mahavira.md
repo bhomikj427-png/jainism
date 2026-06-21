@@ -47,3 +47,4 @@ Outsider summaries routinely call Mahāvīra "the founder of Jainism." The tradi
 - expressed-by: anekantavada | the many-sided doctrine is transmitted as his teaching
 - part-of: moksha | attained final liberation (nirvāṇa) at Pāvāpurī
 - shares-vocabulary-with: ajivika | contemporary and rival of Makkhali Gosāla in the same śramaṇa milieu
+- historically-influenced-by: utsarpini-avasarpini | the 24th and last tīrthaṅkara, closing the present avasarpiṇī — his place in the list derives from the kālacakra cosmology (parallels Pārśva's edge)

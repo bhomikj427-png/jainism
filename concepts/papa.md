@@ -50,3 +50,5 @@ A common misreading treats Jain karma like a ledger where merit *offsets* demeri
 - expressed-by: kashaya | the four passions are the affective root that makes pāpa-karma bind hard
 - shares-vocabulary-with: ahimsa | violence (hiṃsā) is the foremost producer of pāpa; the vows shut off its influx
 - often-conflated-with-NOT-equivalent: punya | pāpa is not *offset* by puṇya — both bind; both are shed, not balanced
+- expressed-by: samayasara | the doctrine that pāpa (like puṇya) is binding foreign matter — the "iron chain" to puṇya's golden one, both to be shed not balanced — is expounded in Kundakunda's Samayasāra
+- shares-vocabulary-with: nishchaya-vyavahara | from the niścaya (absolute) standpoint the whole puṇya/pāpa axis belongs to pudgala (matter), not the pure soul; pāpa is "real" to the soul only at the vyavahāra (conventional) level

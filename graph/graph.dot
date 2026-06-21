@@ -795,6 +795,7 @@ digraph ancient_texts {
   "karuna" -> "ahimsa-buddhist" [color="#cccccc22"];
   "karuna" -> "ahimsa" [color="#cccccc22"];
   "karuna" -> "karunya" [color="#cccccc22"];
+  "karuna" -> "upekkha" [color="#cccccc22"];
   "karunya" -> "maitri-jain" [color="#cccccc22"];
   "karunya" -> "pramoda" [color="#cccccc22"];
   "karunya" -> "madhyasthya" [color="#cccccc22"];
@@ -873,6 +874,7 @@ digraph ancient_texts {
   "mahavira" -> "anekantavada" [color="#cccccc22"];
   "mahavira" -> "moksha" [color="#cccccc22"];
   "mahavira" -> "ajivika" [color="#cccccc22"];
+  "mahavira" -> "utsarpini-avasarpini" [color="#cccccc22"];
   "maitri-jain" -> "ahimsa" [color="#cccccc22"];
   "maitri-jain" -> "pramoda" [color="#cccccc22"];
   "maitri-jain" -> "karunya" [color="#cccccc22"];
@@ -944,6 +946,7 @@ digraph ancient_texts {
   "moksha" -> "charitra" [color="#cccccc22"];
   "mudita" -> "metta" [color="#cccccc22"];
   "mudita" -> "upekkha" [color="#cccccc22"];
+  "mudita" -> "karuna" [color="#cccccc22"];
   "mudita" -> "pramoda" [color="#cccccc22"];
   "mulamadhyamakakarika" -> "madhyamaka" [color="#cccccc22"];
   "mulamadhyamakakarika" -> "sunyata" [color="#cccccc22"];
@@ -1050,6 +1053,8 @@ digraph ancient_texts {
   "papa" -> "kashaya" [color="#cccccc22"];
   "papa" -> "ahimsa" [color="#cccccc22"];
   "papa" -> "punya" [color="#cccccc22"];
+  "papa" -> "samayasara" [color="#cccccc22"];
+  "papa" -> "nishchaya-vyavahara" [color="#cccccc22"];
   "paraconsistent-logic" -> "saptabhangi" [color="#cccccc22"];
   "paraconsistent-logic" -> "saptabhangi" [color="#cccccc22"];
   "paraconsistent-logic" -> "many-valued-logic" [color="#cccccc22"];
@@ -1083,6 +1088,9 @@ digraph ancient_texts {
   "paroksha-jnana" -> "dignaga-pramana" [color="#cccccc22"];
   "parshvanatha" -> "tirthankara" [color="#cccccc22"];
   "parshvanatha" -> "utsarpini-avasarpini" [color="#cccccc22"];
+  "parshvanatha" -> "ahimsa" [color="#cccccc22"];
+  "parshvanatha" -> "satya" [color="#cccccc22"];
+  "parshvanatha" -> "asteya" [color="#cccccc22"];
   "parshvanatha" -> "aparigraha" [color="#cccccc22"];
   "parshvanatha" -> "mahavira" [color="#cccccc22"];
   "parshvanatha" -> "mahavira" [color="#cccccc22"];

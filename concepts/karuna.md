@@ -39,3 +39,4 @@ confidence: medium
 - shares-vocabulary-with: ahimsa-buddhist | karuṇā (with mettā) is the positive formulation of Buddhist non-harm
 - structurally-parallel-to: ahimsa | karuṇā and Jain compassion both motivate non-injury — but karuṇā is intention/empathy-based, whereas Jain ahiṃsā is grounded in the ontology of harm to a jīva
 - shares-vocabulary-with: karunya | Jain kāruṇya (TS 7.11) is the same compassion term in a parallel four-fold set
+- shares-vocabulary-with: upekkha | the fourth immeasurable completes and regulates karuṇā — equanimity keeps compassion from collapsing into grief or sentimental over-identification with the sufferer

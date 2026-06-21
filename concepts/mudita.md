@@ -36,4 +36,5 @@ Muditā is the least-discussed brahmavihāra in popular practice yet structurall
 
 - shares-vocabulary-with: metta | muditā is the third immeasurable; where mettā meets another's good fortune it becomes joy rather than mere goodwill
 - shares-vocabulary-with: upekkha | muditā (joy) and upekkhā (equanimity) are the two "upper" immeasurables — exuberant gladness balanced by even-mindedness
+- shares-vocabulary-with: karuna | the two middle immeasurables responding to others' fortunes — muditā (joy at another's happiness) and karuṇā (compassion at another's suffering) are mirror sentiments in the four-fold appamaññā set
 - structurally-parallel-to: pramoda | Jain pramoda (TS 7.11, joy at the virtuous) is the parallel gladness-at-others'-good sentiment in a different soteriology
