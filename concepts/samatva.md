@@ -33,3 +33,6 @@ Two signals (a directly-quoted verse with multiple translation hosts + the corpu
 - shares-vocabulary-with: sthitaprajna | the sthitaprajña (BG 2.55–72) is the person in whom samatva is perfected; paired ideal and exemplar
 - structurally-parallel-to: upekkha | Buddhist equanimity fills a parallel slot — even-mindedness toward success and failure — but samatva grounds detached action whereas upekkhā grounds liberation-insight
 - structurally-parallel-to: madhyasthya | Jain mādhyasthya is a parallel equanimity-ideal in a different (karmic-physics) soteriology
+- shares-vocabulary-with: karma-marga | samatva (BG 2.48) is the defining inner condition of karma-mārga — duty performed with even-mindedness toward its fruits (BG 2.47–48)
+- shares-vocabulary-with: yoga-darshana | both define "yoga": the Gītā (BG 2.48) as *samatva* (equanimity in action), Patañjali as *citta-vṛtti-nirodha* (stilling the mind) — the same word, different definitions
+- often-conflated-with-NOT-equivalent: yoga-darshana | the Gītā's yoga-as-equanimity is a disposition held *within action* (karma-yoga); Yoga-darśana's yoga is the *cessation* of mental modifications via aṣṭāṅga toward kaivalya — engaged equanimity vs meditative cessation

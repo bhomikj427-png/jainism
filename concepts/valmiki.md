@@ -36,3 +36,4 @@ confidence: medium
 
 - shares-vocabulary-with: bhakti | the robber-redeemed-by-repeating-"Rāma" legend (Ratnākara → Vālmīki) is a paradigmatic *nāma-japa* devotional narrative
 - shares-vocabulary-with: vishnu | as the source-poet of Rāma's story, Vālmīki is the literary origin of the Rāma cult — Rāma being Viṣṇu's seventh *avatāra*
+- shares-vocabulary-with: rama | Vālmīki is both the source-poet of Rāma's life and a character within his own poem — he shelters the exiled Sītā and teaches Rāma's sons Lava and Kuśa

@@ -43,3 +43,4 @@ Two signals converge on the deity-profile; the avatāra-vs-svayaṃ-bhagavān sp
 - structurally-parallel-to: vishnu | as svayaṃ bhagavān Kṛṣṇa is the supreme being whom Vaiṣṇava theology otherwise names Viṣṇu
 - often-conflated-with-NOT-equivalent: vishnu | "Kṛṣṇa is an avatāra of Viṣṇu" ≠ "Kṛṣṇa is svayaṃ bhagavān, the source of Viṣṇu" (Gauḍīya) — the two reverse which deity is prior
 - structurally-parallel-to: rama | Rāma and Kṛṣṇa are the two most worshipped Viṣṇu-avatāras and great bhakti foci — Rāma the rule-bound ideal (*maryādā*), Kṛṣṇa the transgressive play (*līlā*)
+- shares-vocabulary-with: bhakti | Kṛṣṇa is the supreme object of Vaiṣṇava bhakti — the Bhāgavata's rāsa-līlā, BG 7–12 and the charama-śloka (18.66), and Gauḍīya devotional theology all centre on him

@@ -290,6 +290,8 @@ digraph ancient_texts {
   "agni" -> "rta" [color="#cccccc22"];
   "agni" -> "upanishad" [color="#cccccc22"];
   "agni" -> "dharma-dravya" [color="#cccccc22"];
+  "agni" -> "stoic-logos" [color="#cccccc22"];
+  "agni" -> "stoic-logos" [color="#cccccc22"];
   "ahimsa-buddhist" -> "ahimsa" [color="#cccccc22"];
   "ahimsa-buddhist" -> "ahimsa" [color="#cccccc22"];
   "ahimsa-buddhist" -> "pratityasamutpada" [color="#cccccc22"];
@@ -627,6 +629,8 @@ digraph ancient_texts {
   "dravyarthika-naya" -> "naya" [color="#cccccc22"];
   "dravyarthika-naya" -> "sat" [color="#cccccc22"];
   "dravyarthika-naya" -> "anekantavada" [color="#cccccc22"];
+  "dravyarthika-naya" -> "paryayarthika-naya" [color="#cccccc22"];
+  "dravyarthika-naya" -> "dravya" [color="#cccccc22"];
   "dukkha" -> "pratityasamutpada" [color="#cccccc22"];
   "dukkha" -> "samsara" [color="#cccccc22"];
   "dukkha" -> "anatta-buddhist" [color="#cccccc22"];
@@ -813,6 +817,7 @@ digraph ancient_texts {
   "krishna" -> "vishnu" [color="#cccccc22"];
   "krishna" -> "vishnu" [color="#cccccc22"];
   "krishna" -> "rama" [color="#cccccc22"];
+  "krishna" -> "bhakti" [color="#cccccc22"];
   "kundakunda" -> "digambara" [color="#cccccc22"];
   "kundakunda" -> "samayasara" [color="#cccccc22"];
   "kundakunda" -> "nishchaya-vyavahara" [color="#cccccc22"];
@@ -982,6 +987,7 @@ digraph ancient_texts {
   "neoplatonism" -> "plato-forms" [color="#cccccc22"];
   "neoplatonism" -> "advaita-vedanta" [color="#cccccc22"];
   "neoplatonism" -> "advaita-vedanta" [color="#cccccc22"];
+  "neoplatonism" -> "plato-soul" [color="#cccccc22"];
   "nibbana-theravada" -> "four-noble-truths" [color="#cccccc22"];
   "nibbana-theravada" -> "anatta-buddhist" [color="#cccccc22"];
   "nibbana-theravada" -> "anicca" [color="#cccccc22"];
@@ -1254,6 +1260,9 @@ digraph ancient_texts {
   "samatva" -> "sthitaprajna" [color="#cccccc22"];
   "samatva" -> "upekkha" [color="#cccccc22"];
   "samatva" -> "madhyasthya" [color="#cccccc22"];
+  "samatva" -> "karma-marga" [color="#cccccc22"];
+  "samatva" -> "yoga-darshana" [color="#cccccc22"];
+  "samatva" -> "yoga-darshana" [color="#cccccc22"];
   "samayasara" -> "kundakunda" [color="#cccccc22"];
   "samayasara" -> "digambara" [color="#cccccc22"];
   "samayasara" -> "nishchaya-vyavahara" [color="#cccccc22"];
@@ -1397,6 +1406,7 @@ digraph ancient_texts {
   "sthitaprajna" -> "samatva" [color="#cccccc22"];
   "sthitaprajna" -> "moksha-advaita" [color="#cccccc22"];
   "sthitaprajna" -> "upekkha" [color="#cccccc22"];
+  "sthitaprajna" -> "jnana-marga" [color="#cccccc22"];
   "stoic-logos" -> "brahman" [color="#cccccc22"];
   "stoic-logos" -> "dharma-dravya" [color="#cccccc22"];
   "stoic-logos" -> "aristotle-substance" [color="#cccccc22"];
@@ -1543,6 +1553,7 @@ digraph ancient_texts {
   "vaishnavism" -> "vishnu-sahasranama" [color="#cccccc22"];
   "valmiki" -> "bhakti" [color="#cccccc22"];
   "valmiki" -> "vishnu" [color="#cccccc22"];
+  "valmiki" -> "rama" [color="#cccccc22"];
   "vijnaptimatrata" -> "alaya-vijnana" [color="#cccccc22"];
   "vijnaptimatrata" -> "maya-advaita" [color="#cccccc22"];
   "vijnaptimatrata" -> "dravya" [color="#cccccc22"];

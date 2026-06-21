@@ -49,3 +49,5 @@ The *dravyārthika nayas* are the **substance-standpoint nayas** — the three o
 - part-of: naya | dravyārthika nayas are the first group of the seven nayas; they are the substance-side of the naya system
 - expressed-by: sat | the dravyārthika nayas attend to the *dhrauvya* (permanence) component of sat (*utpāda-vyaya-dhrauvya*)
 - expressed-by: anekantavada | anekāntavāda requires BOTH dravyārthika and paryāyārthika perspectives; neither alone captures reality
+- shares-vocabulary-with: paryayarthika-naya | the two complementary halves of the seven-naya system — substance-side (dravyārthika, nayas 1–3) and mode-side (paryāyārthika, nayas 4–7); anekāntavāda needs both
+- shares-vocabulary-with: dravya | the dravyārthika nayas take dravya (substance) as their primary object — mirroring the paryāyārthika nayas' focus on paryāya (mode)
