@@ -2008,3 +2008,56 @@ graph.dot / graph.html / graph.svg all refreshed.
 **Cross-tradition ethics remaining:**
 - `metta` — loving-kindness (Pali); the foundational brahmavihāra; companion to ahimsa-buddhist.md
 - `karuna` — compassion (Pali); second brahmavihāra; grounds bodhicitta
+
+---
+
+## Batch 29 — Epic text/author nodes + the four Brahmavihāras (2026-06-21)
+
+### Startup reconcile
+- Batch 28 fully committed (206 nodes, 1275 edges, 0 orphans, 0 stubs). Only uncommitted item was the generated `graph/graph` graphviz intermediate — not a concept draft, so no §8 reset required.
+
+### Scope decision (deviation from the literal suggested Batch 29 — documented per §10)
+The suggested Batch 29 list named `madhyamaka-logic`, `yogacara-logic`, and `two-truths-analysis`. On inspection these would **violate §2 (atomic / no duplicates / no synthesis essays)**:
+- `madhyamaka-logic` duplicates the existing **`prasanga-nagarjuna.md`** (which already covers prasaṅga as a logical technique, Prāsaṅgika/Svātantrika, vs Nyāya tarka).
+- `yogacara-logic` duplicates the existing **`hetu-vidya.md`** (Dignāga–Dharmakīrti logic: trairūpya, apoha, 2-pramāṇa). The suggestion itself flagged it as "already partly in hetu-vidya.md."
+- `two-truths-analysis` would be a cross-tradition **synthesis essay**; §2 forbids these, and the comparison already lives in typed `often-conflated-with-NOT-equivalent` edges between `nishchaya-vyavahara`, `dvisatya`, and the Advaita two-truths.
+
+Substituted a full 8-concept batch of genuinely-new, non-duplicative nodes: the two **itihāsa** epic text-nodes + their traditional author-sages (paralleling Batch 28's Nāgārjuna/Śāntideva person-nodes), and the complete set of **four brahmavihāras**.
+
+### Concepts completed: 8 / 8 (0 blocked, 0 needs-opus-review)
+
+| # | concept | status | confidence | key source |
+|---|---|---|---|---|
+| 1 | `mahabharata` | converged | medium | Wikipedia + World History Enc.; ~400 BCE–400 CE; *Jaya*/*Bhārata*/*Mahābhārata* 3-stage redaction; 18 parvas/~100k ślokas; container for gita + vishnu-sahasranama; *smṛti*≠*śruti* "fifth Veda" caution |
+| 2 | `ramayana` | converged | medium | Wikipedia + World History Enc.; *ādikāvya*; ~5th–4th c. BCE core (Bks 2–6) + Bāla/Uttara interpolations; 24k ślokas/7 kāṇḍas; Rāma=7th Viṣṇu-avatāra concentrated in later framing books |
+| 3 | `vyasa` | converged | medium | Wikipedia + WisdomLib; Veda-Vyāsa (divider of the one Veda into four); Mbh/18 Purāṇas; **identified-with Bādarāyaṇa as a conflation**; aṃśāvatāra + chiranjīvī; "Vyāsa as role-title" historicity caution |
+| 4 | `valmiki` | converged | medium | Wikipedia + WisdomLib; *ādikavi*; krauñca-bird grief→first śloka (*śoka*→*śloka*); *valmīka*/anthill etymology; robber-redemption (*nāma-japa* bhakti motif); shelters Sītā, teaches Lava/Kuśa |
+| 5 | `metta` | converged | medium | Wikipedia (Maitrī/Brahmavihara) + Nyanaponika; loving-kindness; 1st brahmavihāra/*appamaññā*/pāramī; Karaṇīya Mettā Sutta Sn 1.8; far enemy *vyāpāda/dosa*, near enemy *rāga*; ≠ romantic love |
+| 6 | `karuna` | converged | medium | Wikipedia + Nyanaponika; compassion; 2nd brahmavihāra; far enemy cruelty/indifference, near enemy sentimental pity; Mahāyāna *mahākaruṇā*→bodhicitta |
+| 7 | `mudita` | converged | medium | Wikipedia + Nyanaponika; sympathetic/altruistic joy; 3rd brahmavihāra; far enemy envy, near enemy conditional pleasure; Jain *pramoda* parallel noted |
+| 8 | `upekkha` | converged | medium | Wikipedia + Nyanaponika; equanimity; 4th/culminating brahmavihāra; balance "rooted in insight" (anattā); far enemy agitation, near enemy indifference; also *upekkhā-bojjhaṅga* |
+
+### Linker pass (integration into the established graph)
+Added inbound edges so the new cluster connects to the existing graph (not just to itself):
+- **`gita` part-of `mahabharata`** + `gita`→`vyasa` (correctness: the Gītā is a section of the Bhīṣma Parva)
+- **`vishnu-sahasranama` part-of `mahabharata`** (correctness: Anuśāsana Parva 13.149)
+- `ahimsa-buddhist`→`metta`/`karuna`; `bodhicitta`→`karuna`
+- `vishnu`→`ramayana`; `avatara-vedanta`→`ramayana`/`mahabharata`
+
+### Audits (deterministic)
+- **0 orphans** (every node has ≥1 inbound; audit regex corrected to allow uppercase in `often-conflated-with-NOT-equivalent`).
+- **0 edges to nonexistent nodes** (no new unwritten stubs created).
+- Graph regenerated: **206 → 214 nodes, 1275 → 1313 edges**. `graph.svg` rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`; `graph.dot`/`graph.html` refreshed. Dropped the graphviz cleanup intermediate `graph/graph` from tracking (the script deletes it on each render).
+
+### Notable findings this batch
+1. **The itihāsa layer is now anchored**: the corpus had `gita` and `vishnu-sahasranama` floating without their containing text; both are now correctly `part-of` `mahabharata`, and the two epics + their author-sages (Vyāsa, Vālmīki) form a coherent Hindu narrative-text family — previously an empty index family.
+2. **Two documented conflations added**: Vyāsa≡Bādarāyaṇa (probably distinct figures merged), and "Vyāsa"/"Vālmīki" as role-title vs historical individual — both flagged rather than asserted.
+3. **The four brahmavihāras are complete as a set**, each defined by its near/far enemy (the Visuddhimagga diagnostic), with the upekkhā≠indifference and mettā≠attachment near-enemy distinctions made explicit. Cross-tradition equanimity/joy parallels (Yoga-Sūtra 1.33; Jain *pramoda*/*mādhyasthya*; Gītā *samatva*) are noted as **parallels, not identities** (prime-directive discipline) without creating speculative stub nodes.
+
+### Corpus milestone: 214 concepts across 29 batches. 0 orphans. 0 unwritten stubs.
+
+### Suggested Batch 30 (names only — no files written)
+- `dukkha`-adjacent / already done; consider Hindu deity nodes: `shiva`, `krishna`, `rama` (currently referenced only in prose) — would let the epic/avatāra edges point at the deities directly.
+- `samatva` / `sthitaprajna` — the Gītā's equanimity ideal as its own node (would give upekkhā a real cross-tradition `structurally-parallel-to` target instead of a prose note).
+- Jain four-bhāvanā set (`maitri-jain`, `pramoda`, `karunya`, `madhyasthya`) — the structural counterpart to the brahmavihāras; would let the parallels become typed edges.
+- **Index reconciliation pass**: root `index.md`/`INDEX.md` lag well behind the corpus (~40 concepts missing before this batch); a dedicated pass should rebuild it from front-matter, or a generator added to `build_graph.py`.

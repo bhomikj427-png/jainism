@@ -2,7 +2,7 @@
 
 Grouped by tradition-family. Lists every written concept with its status/confidence.
 Regenerated from concept front-matter; family headers may exist without entries.
-Counts: 174 concept files total.
+Counts: 214 concept files total (note: this index lags earlier batches; Batch 29 additions listed in Epics/Itihāsa and Buddhist Canon).
 
 ---
 
@@ -16,7 +16,12 @@ Counts: 174 concept files total.
 
 ## Epics / Itihāsa
 
-*(none yet)*
+| concept | status | confidence |
+|---|---|---|
+| mahabharata | converged | medium |
+| ramayana | converged | medium |
+| valmiki | converged | medium |
+| vyasa | converged | medium |
 
 ## Dharma / Śāstra & Cross-tradition
 
@@ -204,6 +209,10 @@ Counts: 174 concept files total.
 | trisvabhava | converged | medium |
 | vijnaptimatrata | contested | medium |
 | yogacara | converged | medium |
+| metta | converged | medium |
+| karuna | converged | medium |
+| mudita | converged | medium |
+| upekkha | converged | medium |
 
 ## Greek / Western Philosophy & Logic
 
