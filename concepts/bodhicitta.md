@@ -51,6 +51,7 @@ Atisha's formulation: *"buddhō bhaveyaṁ jagato hitāya"* — "May I become a 
 - part-of: yogacara | the Yogācāra school grounds bodhicitta practice in the transformation of the ālaya-vijñāna
 - shares-vocabulary-with: madhyamaka | absolute bodhicitta = śūnyatā-realization; MMK's emptiness doctrine is the wisdom-dimension of bodhicitta
 - shares-vocabulary-with: ahimsa-buddhist | the brahmaviharas (karuṇā/maitrī) are the emotional basis of bodhicitta; bodhicitta is the institutional vow form of this compassion
+- shares-vocabulary-with: karuna | *mahākaruṇā* (great compassion) is the direct root that, paired with śūnyatā-wisdom, generates bodhicitta
 - shares-vocabulary-with: dana | dāna (generosity) is the first pāramitā — an expression of bodhicitta in social action
 - structurally-parallel-to: charitra | both are the ethical-practical dimension of the liberation path — but bodhicitta's scope is all sentient beings (altruistic), cāritra's scope is the practitioner's own karma (self-purification)
 - often-conflated-with-NOT-equivalent: charitra | bodhicitta delays liberation for others' sake; Jain cāritra is self-directed karma-shedding aimed at the practitioner's own mokṣa — structurally opposite orientations

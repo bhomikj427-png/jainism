@@ -64,3 +64,5 @@ This is a genuine ontological disagreement, not merely a difference of emphasis.
 - often-conflated-with-NOT-equivalent: ahimsa | Jain ahiṃsā = ontological/absolute (jīva-based, covers unintentional harm); Buddhist = intentional/relational (cetanā-based)
 - part-of: pratityasamutpada | Buddhist non-harm is grounded in interdependence (paṭicca-samuppāda): harm to another = harm to the web
 - part-of: nirvana-buddhist | reducing harm (ahiṃsā) is part of sīla (moral conduct), the first stage of the eightfold path toward nirvāṇa
+- shares-vocabulary-with: metta | mettā (loving-kindness) is the positive, cultivated ground from which Buddhist non-harm follows
+- shares-vocabulary-with: karuna | karuṇā (compassion) is the other half of the positive formulation of Buddhist non-harm

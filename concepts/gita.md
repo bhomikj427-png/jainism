@@ -35,6 +35,8 @@ All three readings cite the same verses but interpret them through divergent ont
 
 ## Links
 
+- part-of: mahabharata | the Bhagavad Gītā is a section of the Mahābhārata (Bhīṣma Parva, chs. 25–42) — embedded in the epic, not a free-standing text
+- shares-vocabulary-with: vyasa | Vyāsa is the traditional compiler/frame-narrator of the Mahābhārata within which the Gītā sits
 - shares-vocabulary-with: brahma-sutra | co-member of the prasthānatrayī: Brahmasūtra (systematic aphorism strand) + Bhagavadgītā (smṛti-dialogue strand) + Upaniṣads (śruti strand)
 - shares-vocabulary-with: upanishad | co-member of the prasthānatrayī; the Upaniṣads supply the śruti authority that all three Vedānta schools read the Gītā through
 - expressed-by: karma-marga | BG 3–6 is the locus classicus of karma-yoga — selfless action without fruit-attachment
