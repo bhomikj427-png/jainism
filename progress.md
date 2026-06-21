@@ -2175,3 +2175,23 @@ The prose-reference audit's remaining hits are **all reverse-of-existing edges**
 ### Suggested next (Batch 31 — names only, unwritten)
 - Author/source nodes that would convert reverse-only low-degree nodes into hubs: `vasubandhu` (anchors abhidharmakosa), `makkhali-gosala` (anchors ajivika), `plotinus` / Proclus-Iamblichus (anchor neoplatonism).
 - Śākta goddess nodes (`parvati`/`durga`/`kali`), `jivanmukti`, `hanuman`, `ganesha`, `nataraja` (carried over from Batch-30 suggestion).
+
+---
+
+## Batch 31 — Hindu deity layer completion + jīvanmukti + Vasubandhu (2026-06-21)
+
+### Startup reconcile
+- Batches 1–30 + linker passes 1–7 fully committed (223 nodes, 1392 edges, 0 orphans, 0 stubs). Working tree clean — no interrupted draft to reset.
+- Baseline graph run confirms 223 nodes / 1392 edges. Existing Śākta-layer files: `shakti`, `lakshmi`, `sarasvati`, `lingam`. The planned deity names are referenced only in prose (no existing edges) → writing them is non-breaking.
+
+### Batch 31 concepts
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `parvati.md` | pending | benign Śakti / Śiva's consort; lets shakti/shiva point at a real node |
+| 2 | `durga.md` | pending | warrior goddess; Devī Māhātmya Mahiṣāsura-slayer |
+| 3 | `kali.md` | pending | fierce goddess; power over kāla/death |
+| 4 | `ganesha.md` | pending | most-invoked deity, conspicuously absent; vighneśvara |
+| 5 | `hanuman.md` | pending | Rāma-bhakti paradigm / dāsya-bhāva |
+| 6 | `jivanmukti.md` | pending | liberation-while-living; gives sthitaprajna/moksha-advaita a target |
+| 7 | `vasubandhu.md` | pending | Buddhist author; anchors abhidharmakosa (low-degree reverse-only node) |
