@@ -2061,3 +2061,56 @@ Added inbound edges so the new cluster connects to the existing graph (not just 
 - `samatva` / `sthitaprajna` — the Gītā's equanimity ideal as its own node (would give upekkhā a real cross-tradition `structurally-parallel-to` target instead of a prose note).
 - Jain four-bhāvanā set (`maitri-jain`, `pramoda`, `karunya`, `madhyasthya`) — the structural counterpart to the brahmavihāras; would let the parallels become typed edges.
 - **Index reconciliation pass**: root `index.md`/`INDEX.md` lag well behind the corpus (~40 concepts missing before this batch); a dedicated pass should rebuild it from front-matter, or a generator added to `build_graph.py`.
+
+---
+
+## Batch 30 — Hindu deity nodes + Gītā equanimity + the four Jain bhāvanās (2026-06-21)
+
+### Startup reconcile
+- Batch 29 fully committed (214 nodes, 1313 edges, 0 orphans, 0 stubs). Working tree clean. No interrupted draft to reset.
+- Graph re-run before work (the "before" snapshot): **214 nodes, 1313 edges** — matches the committed state.
+
+### Scope
+A "batch of everything" spanning all three threads of the suggested Batch 30 at once: the Hindu **deity nodes** the epic/avatāra edges had only referenced in prose, the **Gītā equanimity ideal** as its own pair of nodes, and the **four Jain bhāvanās** (TS 7.11) — the structural counterpart to the Batch-29 brahmavihāras, which lets the prior prose parallels become typed edges.
+
+### Concepts completed: 9 / 9 (0 blocked, 0 needs-opus-review)
+
+| # | concept | status | confidence | key source |
+|---|---|---|---|---|
+| 1 | `shiva` | converged | medium | Wikipedia "Shiva" + corpus shaivism.md (IEP); Rudra→Śiva; Trimūrti destroyer; liṅga; Śakti; dualist/monist school table; Śiva≠nirguṇa-Brahman NOT-equiv |
+| 2 | `krishna` | **contested** | medium | Wikipedia "Krishna" + corpus gita/avatara-vedanta/vishnu; 3-reading table (8th avatāra / svayaṃ bhagavān BhP 1.3.28 / saguṇa Brahman); avatāra-vs-source-of-Viṣṇu NOT-equiv |
+| 3 | `rama` | converged | medium | Wikipedia "Rama" + corpus ramayana/valmiki/avatara-vedanta; 7th avatāra; maryādā puruṣottama; Rāmānandī/Tulsīdās; avatāra-identification concentrated in later kāṇḍas |
+| 4 | `samatva` | converged | medium | BG 2.48 *samatvaṁ yoga ucyate* (Mukundananda, cross-checked 3 hosts) + corpus upekkha.md; equanimity = the Gītā's definition of yoga |
+| 5 | `sthitaprajna` | converged | medium | BG 2.54–55 (*prajahāti yadā kāmān…*) + BG 2.54–72; the realized-sage portrait; perfected samatva; vs jīvanmukta |
+| 6 | `maitri-jain` | converged | medium | **TS 7.11 FETCHED** (Jainworld); benevolence toward all beings; Sarvārthasiddhi gloss; ground of ahiṃsā; ≠ Buddhist mettā (parallel) |
+| 7 | `pramoda` | converged | medium | TS 7.11; joy at the virtuous (*guṇādhika*); antidote to māna/envy; ∥ muditā, NOT-equiv |
+| 8 | `karunya` | converged | medium | TS 7.11; compassion for the afflicted (*kliśyamāna*); ∥ Buddhist karuṇā (same root), NOT-equiv (jīva-ontology vs intention) |
+| 9 | `madhyasthya` | converged | medium | TS 7.11; tolerance toward the ill-behaved (*avineya*); internal non-attachment vs rāga-dveṣa; ∥ upekkhā/samatva |
+
+### TS verse directly fetched this batch
+- **TS 7.11** (the four right sentiments): *maitrī-pramoda-kāruṇya-mādhyasthāni ca sattva-guṇādhika-kliśyamānāvineyeṣu* (Jainworld translation; Sarvārthasiddhi glosses via Wikipedia "Maitrī").
+
+### Linker integration (inbound edges added so the new cluster is not self-isolated)
+- **Deities:** `shaivism` expressed-by `shiva`; `trimurti` shares-vocab `shiva`; `ramayana` shares-vocab `rama`; `mahabharata` shares-vocab `krishna`; `avatara-vedanta` shares-vocab `krishna`/`rama`; `gita` shares-vocab `krishna`.
+- **Gītā ideals:** `gita` expressed-by `samatva` + expressed-by `sthitaprajna`.
+- **Jain bhāvanās ↔ brahmavihāras:** `metta` shares-vocab `maitri-jain`; `karuna` shares-vocab `karunya`; `mudita` ∥ `pramoda`; `upekkha` ∥ `madhyasthya`. The Batch-29 prose parallels are now typed edges.
+
+### Audits (deterministic)
+- **0 dangling stubs** (every edge target has a file) and **0 orphans** (every node has ≥1 inbound) across all 223 nodes.
+- §5 two-type pairs verified sanctioned: shiva→brahman (shares-vocab + NOT-equiv), krishna→vishnu (parallel + NOT-equiv), karunya→karuna (shares-vocab + NOT-equiv), pramoda→mudita (parallel + NOT-equiv). `is-a-type-of` directions (krishna/rama → avatara-vedanta) are specific→general; no bidirectional is-a-type-of.
+- Graph regenerated: **214 → 223 nodes, 1313 → 1373 edges**. `graph.svg` rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`; `graph.dot`/`graph.html`/`index.md` refreshed.
+
+### Notable findings this batch
+1. **The avatāra edges now point at real deities.** Before this batch `avatara-vedanta`/`ramayana`/`mahabharata` referred to Rāma and Kṛṣṇa only in prose; the deity nodes now exist, so "seventh/eighth avatāra" is a typed `is-a-type-of` edge rather than a sentence.
+2. **`krishna` is contested, not converged.** The deity-profile is agreed, but the avatāra-of-Viṣṇu vs svayaṃ-bhagavān (source-of-Viṣṇu, Gauḍīya) status is a genuine fork — recorded as the §3 divergence table, with the NOT-equivalent edge to `vishnu`.
+3. **The brahmavihāra ∥ bhāvanā parallel is now a typed bridge, not a footnote.** Each Jain bhāvanā links to its Buddhist counterpart with the prime-directive discipline intact: same vocabulary (maitrī/mettā, kāruṇya/karuṇā literally cognate) marked `shares-vocabulary-with`, but `often-conflated-with-NOT-equivalent` where the soteriology diverges (jīva-ontology / kaṣāya-restraint vs no-self / brahmavihāra path).
+4. **Rāma/Kṛṣṇa maryādā-vs-līlā contrast** captured as a `structurally-parallel-to` edge — the two great avatāra-bhakti foci, distinguished by rule-bound ideal vs transgressive play.
+
+### Corpus milestone: 223 concepts across 30 batches. 0 orphans. 0 unwritten stubs.
+
+### Suggested Batch 31 (names only — no files written)
+- `parvati` / `durga` / `kali` — the Śākta goddess nodes; would let Śiva–Śakti and the Tridevi edges point at real deity nodes (parallel to this batch's Viṣṇu-avatāra fix).
+- `jivanmukti` — liberation-while-living as its own node; currently only inside `moksha-advaita`; would give `sthitaprajna` a precise `is-a-type-of`/`structurally-parallel-to` target.
+- `hanuman` — devotee-deity; the paradigm of Rāma-bhakti and dāsya-bhāva.
+- `ganesha` — the most-invoked Hindu deity, conspicuously absent; pañcāyatana completion.
+- `naṭarāja` — Śiva's cosmic dance as a distinct iconographic/cosmological node (creation–dissolution cycle).
