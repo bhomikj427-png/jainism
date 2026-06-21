@@ -37,7 +37,7 @@ Two signals (deity article + corpus tradition file) converge on the deity-profil
 
 ## Links
 
-- structurally-parallel-to: shakti | Pārvatī is the benign personal form in which the abstract cosmic Śakti is most widely worshipped; the relation is form-to-principle, but framed as a parallel because Śāktism also treats them as one
+- shares-vocabulary-with: shakti | Pārvatī is the benign personal form in which the abstract cosmic Śakti is most widely worshipped; in Śākta theology one form of the Mahādevī
 - part-of: shaivism | as Śiva's consort and activating power, Pārvatī is integral to Śaiva theology and cult
 - shares-vocabulary-with: shiva | the Śiva–Pārvatī pair is the paradigmatic Hindu divine couple; Kashmir Śaivism makes them non-dual (prakāśa/vimarśa)
 - often-conflated-with-NOT-equivalent: prakriti-samkhya | as Śiva's feminine creative pole Pārvatī is read as "prakṛti to his puruṣa," but Sāṃkhya prakṛti is unconscious and non-theistic, whereas Pārvatī is a conscious personal goddess
