@@ -32,7 +32,6 @@ Two signals converge on the warrior-profile, the Mahiṣāsura narrative, and th
 ## Links
 
 - shares-vocabulary-with: shakti | Durgā is the warrior form of the cosmic Śakti; in Śāktism she IS the supreme Mahādevī
-- shares-vocabulary-with: parvati | Durgā is the fierce battle-aspect of the gentle Pārvatī (the Śaiva integration); the two are one Devī in different modes
 - shares-vocabulary-with: kali | Kālī springs from Durgā's brow in the Devī Māhātmya — Durgā's wrath made incarnate; the two fiercer aspects of the one Goddess
 - part-of: shaivism | within the integrated Śaiva-Śākta cult Durgā is the warrior form of Śiva's consort; though Śāktism treats her as supreme in her own right
 - structurally-parallel-to: avatara-vedanta | like a Viṣṇu-avatāra, Durgā descends/manifests to restore dharma by destroying a specific demon — but she is the Goddess's own self-manifestation from pooled divine power, not a periodic incarnation of one god

@@ -34,5 +34,6 @@ Two signals (the directly-quoted defining verses + the paired samatva teaching) 
 - part-of: gita | the sthitaprajña (BG 2.54–72) is the Gītā's own portrait of the realized sage, the close of its Chapter 2 teaching
 - shares-vocabulary-with: samatva | the sthitaprajña is the exemplar in whom samatva (BG 2.48 equanimity) is fully realized — paired ideal and exemplar
 - structurally-parallel-to: moksha-advaita | the sthitaprajña anticipates the Advaita jīvanmukta — liberation expressed as steady wisdom and equanimity in this life
+- structurally-parallel-to: jivanmukti | the sthitaprajña is the lived character-portrait of the jīvanmukta — equanimity, desirelessness, action that binds no further karma
 - structurally-parallel-to: upekkha | the sage's unshaken even-mindedness (2.56–57) is a parallel to Buddhist equanimity, in a different (eternal-ātman) metaphysics
 - shares-vocabulary-with: jnana-marga | the sage of steady *prajñā* (wisdom) is the realized exemplar of jñāna-mārga, the path of knowledge — though the Gītā's sthitaprajña remains fully active

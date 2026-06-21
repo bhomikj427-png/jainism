@@ -34,7 +34,6 @@ Two signals converge on the dark-destroyer-yet-liberator profile and the *kāla*
 ## Links
 
 - shares-vocabulary-with: shakti | Kālī is the fiercest/darkest form of the cosmic Śakti; in Śāktism/Tantra she is the supreme Mahādevī herself
-- shares-vocabulary-with: durga | Kālī springs from Durgā's brow in the Devī Māhātmya — Durgā's wrath incarnate; the two fiercer aspects of the one Goddess
 - shares-vocabulary-with: parvati | Kālī is the dark, terrible aspect of the gentle Pārvatī; one Devī in opposite modes
 - shares-vocabulary-with: shiva | the Śiva-beneath-Kālī motif and the Tantric Śiva-Śakti polarity make them an inseparable consciousness/energy pair
 - often-conflated-with-NOT-equivalent: prakriti-samkhya | Kālī is read as "prakṛti to Śiva's puruṣa," but unlike unconscious Sāṃkhya prakṛti she is a conscious, personal goddess who herself liberates (grants mokṣa), not a mere material substrate

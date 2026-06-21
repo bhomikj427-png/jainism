@@ -32,7 +32,6 @@ Two independent encyclopedia signals converge on parentage, Rāmāyaṇa role, a
 ## Links
 
 - shares-vocabulary-with: rama | Hanumān is Rāma's supreme devotee-servant; the Rāma–Hanumān bond is the paradigmatic devotee/deity relationship of the Rāma cult
-- shares-vocabulary-with: ramayana | Hanumān is the central agent of the Sundara Kāṇḍa (ocean-leap, finding Sītā, burning Laṅkā, the saṃjīvanī herb-mountain)
 - shares-vocabulary-with: bhakti | Hanumān is the canonical exemplar of *dāsya-bhāva* — love-as-servitude to a personal God
 - shares-vocabulary-with: shiva | a Purāṇic strand has Hanumān born through an aspect of Śiva (Rudra-avatāra), bridging the Śaiva and Rāma-Vaiṣṇava cults
 - shares-vocabulary-with: mahabharata | Hanumān appears in the Vana Parva (humbles his half-brother Bhīma, fellow son of Vāyu) and rides on Arjuna's banner

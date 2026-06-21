@@ -2188,10 +2188,52 @@ The prose-reference audit's remaining hits are **all reverse-of-existing edges**
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `parvati.md` | pending | benign Śakti / Śiva's consort; lets shakti/shiva point at a real node |
-| 2 | `durga.md` | pending | warrior goddess; Devī Māhātmya Mahiṣāsura-slayer |
-| 3 | `kali.md` | pending | fierce goddess; power over kāla/death |
-| 4 | `ganesha.md` | pending | most-invoked deity, conspicuously absent; vighneśvara |
-| 5 | `hanuman.md` | pending | Rāma-bhakti paradigm / dāsya-bhāva |
-| 6 | `jivanmukti.md` | pending | liberation-while-living; gives sthitaprajna/moksha-advaita a target |
-| 7 | `vasubandhu.md` | pending | Buddhist author; anchors abhidharmakosa (low-degree reverse-only node) |
+| 1 | `parvati.md` | done | converged, medium; benign Devī/Śakti; Himavān/Satī; mother of Gaṇeśa/Kārttikeya; Kena Up. Umā Haimavatī; Wikipedia + corpus shakti.md |
+| 2 | `durga.md` | done | converged, medium; Mahiṣāsura-mardinī; formed from gods' pooled tejas (Devī Māhātmya); Wikipedia + corpus shakti.md |
+| 3 | `kali.md` | done | converged, medium; *kāla*=time/black; Raktabīja; nirguṇa symbolism; Kālī-Mā bhakti; Wikipedia + corpus shakti.md |
+| 4 | `ganesha.md` | done | converged, medium; Vighneśvara/Pratham-pūjya; gaṇa+īśa; Mahābhārata scribe; Gāṇapatya supreme; Wikipedia + World History Enc. |
+| 5 | `hanuman.md` | done | converged, medium; Vāyu-putra; dāsya-bhakti paradigm; Sundara Kāṇḍa; Wikipedia + World History Enc. |
+| 6 | `jivanmukti.md` | done | converged, medium; liberation-while-embodied vs videhamukti; prārabdha-karma; Wikipedia + corpus moksha-advaita.md |
+| 7 | `vasubandhu.md` | done | converged, medium; Abhidharmakośa→Yogācāra; two-Vasubandhus flagged; Wikipedia + SEP (independent) |
+
+## Run log — Batch 31 (2026-06-21)
+
+### Concepts completed: 7 / 7 (0 blocked, 0 needs-opus-review)
+All converged, confidence medium. Three Hindu deity threads + one soteriology gap + one Buddhist author anchor.
+
+| concept | status | conf | key source(s) | signal independence |
+|---|---|---|---|---|
+| parvati | converged | medium | Wikipedia "Parvati" + corpus shakti.md | 2 (deity article + corpus tradition file) |
+| durga | converged | medium | Wikipedia "Durga" + corpus shakti.md | 2 |
+| kali | converged | medium | Wikipedia "Kali" + corpus shakti.md | 2 |
+| ganesha | converged | medium | Wikipedia "Ganesha" + World History Encyclopedia | 2 independent encyclopedias |
+| hanuman | converged | medium | Wikipedia "Hanuman" + World History Encyclopedia | 2 independent encyclopedias |
+| jivanmukti | converged | medium | Wikipedia "Jivanmukta" + corpus moksha-advaita.md | 2 |
+| vasubandhu | converged | medium | Wikipedia + **Stanford Enc. of Philosophy** + corpus Yogācāra cluster | 3 (2 independent refs) |
+
+### Linker integration (inbound edges so the new cluster is not self-isolated)
+New nodes' forward edges connect them outward to existing hubs (shakti, shaivism, shiva, brahman, mahabharata, vyasa, rama, bhakti, ramayana, moksha-advaita, arihant, nirvana-buddhist, karma-vedic, yogacara, abhidharmakosa, vijnaptimatrata, trisvabhava, alaya-vijnana, nagarjuna, avatara-vedanta, prakriti-samkhya, upanishad). To give the four "all-outbound" new nodes a stored inbound edge **without** double-storing a symmetric relation (§5 forward-only), one edge was *relocated* into the existing hub file in each case:
+- `shiva → ganesha` (relocated from ganesha→shiva)
+- `ramayana → hanuman` (relocated from hanuman→ramayana)
+- `sthitaprajna → jivanmukti` (relocated from jivanmukti→sthitaprajna; complements the pre-existing sthitaprajna→moksha-advaita "anticipates the jīvanmukta" edge)
+- `dignaga-pramana → vasubandhu` (**new**, correctly directed `historically-influenced-by`: Dignāga built on Vasubandhu's *Vāda-vidhi*)
+- `parvati → durga` (relocated from durga→parvati: the "gentle goddess manifests her fierce aspect" direction)
+- Removed the one intra-trio bidirectional pair (`kali→durga` dropped; kept `durga→kali` — Kālī springs from Durgā's brow).
+
+### Audits (deterministic, via build_graph parser)
+- **0 dangling stubs**, **0 orphans** (every node has ≥1 inbound), **0 bidirectional is-a-type-of**, **0 forbidden hier+similarity combos** across all 230 nodes.
+- §5 sanctioned two-type pair verified: `jivanmukti → arihant` (`structurally-parallel-to` + `often-conflated-with-NOT-equivalent`). `is-a-type-of` directions checked specific→general: `jivanmukti → moksha-advaita` (a mode of Advaita liberation).
+- A broader (stricter-than-project-standard) scan surfaced ~80 **pre-existing** bidirectional symmetric pairs corpus-wide (e.g. krishna↔rama, mahabharata↔ramayana from Batch 30) — **none involve the 7 new nodes**. Not introduced here; a corpus-wide forward-only refactor is a §10 fork decision, deferred.
+- Graph regenerated: **223 → 230 nodes, 1392 → 1430 edges**. `graph.svg` rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`; `graph.dot`/`graph.html`/`index.md` refreshed.
+
+### Notable findings this batch
+1. **The Hindu deity layer is now substantially complete.** The Śākta trio (Pārvatī/Durgā/Kālī) gives the long-standing `shakti.md` prose descriptions real target nodes; Gaṇeśa (the conspicuously-absent most-invoked deity) and Hanumān (the dāsya-bhakti paradigm) fill the two biggest remaining gaps. The avatāra/epic/Tridevi region of the graph now points at deities, not prose.
+2. **`jivanmukti` closes a soteriology gap with a tight cross-tradition cluster.** Liberation-while-embodied links Advaita (prārabdha-karma), the Gītā sthitaprajña, the Jain arihant (the prārabdha ∥ aghātiyā-karma parallel is striking — flagged NOT-equivalent on metaphysics), and the Buddhist saupādisesa/anupādisesa distinction — four traditions' "already-free-while-alive" accounts, honestly fenced.
+3. **`vasubandhu` is one of the best-sourced person nodes** (Wikipedia + SEP independently agree, including on the *unresolved* "two Vasubandhus" question and the non-nihilist reading of vijñaptimātra). It converts the low-degree, reverse-only `abhidharmakosa` into a properly-anchored text and ties the whole Yogācāra cluster (vijñaptimātra/trisvabhāva/ālaya-vijñāna) to its author, plus the Vasubandhu→Dignāga logic lineage.
+
+### Corpus milestone: 230 concepts across 31 batches. 0 orphans. 0 unwritten stubs.
+
+### Suggested Batch 32 (names only — no files written)
+- Remaining author/source anchors for low-degree reverse-only nodes: `asanga` (Vasubandhu's half-brother, co-founder of Yogācāra — would anchor the Yogācāra cluster from the other side), `makkhali-gosala` (anchors `ajivika`), `plotinus`/`proclus` (anchor `neoplatonism`), `dharmakirti` (anchors `pramanavarttika`).
+- Remaining Hindu deity/iconography nodes: `nataraja` (Śiva's cosmic dance — creation/dissolution cycle), `kartikeya`/`skanda` (Pārvatī's other son, completes the family), `surya`, `nandi`.
+- **Legacy forward-only refactor (a §10 fork to put to the user):** decide whether to collapse the ~80 pre-existing bidirectional symmetric pairs to single stored direction (strict §5) or formally accept bidirectional `shares-vocabulary-with`/`structurally-parallel-to` as the corpus convention and update CLAUDE.md §5 to say so.

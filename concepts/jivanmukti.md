@@ -32,7 +32,6 @@ Two signals converge on the definition, the prārabdha mechanism, and the cross-
 ## Links
 
 - is-a-type-of: moksha-advaita | jīvanmukti is the Advaita *mode* of liberation that occurs while embodied (its complement is videhamukti, liberation at death); both fall under Advaita mokṣa
-- structurally-parallel-to: sthitaprajna | the Gītā's steady-wisdom sage is the lived character-portrait of the jīvanmukta — equanimity, desirelessness, action without new bondage
 - structurally-parallel-to: arihant | both are *liberated while still embodied*, with residual karma (Advaita prārabdha / Jain aghātiyā) sustaining the body until it falls — a striking structural match
 - often-conflated-with-NOT-equivalent: arihant | the parallel breaks on metaphysics: the jīvanmukta has realised non-dual identity with Brahman (individuality is ultimately unreal), whereas the Jain arihant is an *eternally distinct* omniscient jīva — monism vs jīva-pluralism
 - structurally-parallel-to: nirvana-buddhist | jīvanmukti/videhamukti mirrors the Buddhist saupādisesa/anupādisesa (nibbāna with / without remainder) distinction — liberation realised while the aggregates persist, final cessation at death — but the Buddhist account is anattā (no self that is liberated)

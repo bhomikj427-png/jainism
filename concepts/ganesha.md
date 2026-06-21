@@ -36,7 +36,6 @@ Two independent encyclopedia signals converge on the deity-profile, origin myth,
 ## Links
 
 - part-of: shaivism | as "lord of the gaṇas" (Śiva's retinue) and son of Śiva, Gaṇeśa is integral to the Śaiva household/cult
-- shares-vocabulary-with: shiva | son of Śiva and lord of his gaṇas; the beheading-and-elephant-head myth binds the two
 - shares-vocabulary-with: parvati | created by Pārvatī as her doorkeeper; the origin myth turns on the mother-son bond
 - shares-vocabulary-with: mahabharata | by tradition Gaṇeśa is the scribe who writes the epic to Vyāsa's dictation
 - shares-vocabulary-with: vyasa | Gaṇeśa is Vyāsa's amanuensis for the Mahābhārata (writes only what he first understands)
