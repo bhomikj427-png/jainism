@@ -42,3 +42,4 @@ The received text has **~100,000 ślokas** in **18 parvas** (books) plus a *khil
 - shares-vocabulary-with: ramayana | the two *itihāsa* epics; sibling *smṛti* narratives that together transmit *dharma* through story rather than through *śruti*
 - shares-vocabulary-with: avatara-vedanta | the Mahābhārata is the principal narrative vehicle for the Kṛṣṇa-*avatāra*; the doctrine is declared inside it (Gītā 4.7–8)
 - shares-vocabulary-with: bhakti | the *Śānti*/*Anuśāsana* didactic books and the embedded Gītā are major early sources for devotional theology
+- shares-vocabulary-with: krishna | Kṛṣṇa is the central divine actor of the epic — Pāṇḍava ally and speaker of its embedded Gītā

@@ -37,3 +37,4 @@ Because it rests on wisdom rather than suppression, upekkhā is more than a subl
 - shares-vocabulary-with: metta | upekkhā is the fourth immeasurable; the equanimity that regulates and completes mettā, karuṇā, and muditā
 - structurally-parallel-to: anatta-buddhist | upekkhā is balance "rooted in insight" — equanimity grounded specifically in the *anattā* realization that dissolves the grasping/recoiling self
 - shares-vocabulary-with: nibbana-theravada | upekkhā is also an *upekkhā-bojjhaṅga* (factor of awakening), the mature non-reactive equanimity that develops on the path toward nibbāna
+- structurally-parallel-to: madhyasthya | Jain mādhyasthya (TS 7.11, equanimity toward the ill-behaved) is the parallel equanimity sentiment, grounded in kaṣāya-restraint rather than anattā-insight

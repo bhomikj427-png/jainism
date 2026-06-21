@@ -37,3 +37,4 @@ The **Rāmāyaṇa** ("Rāma's journey/course") is the shorter of the two Sanskr
 - shares-vocabulary-with: avatara-vedanta | Rāma is named the seventh *avatāra* of Viṣṇu — chiefly in the later Bāla/Uttara Kāṇḍas — a paradigm case of the divine-descent doctrine
 - shares-vocabulary-with: vishnu | Rāma is one of Viṣṇu's ten principal *avatāras*; the epic is a foundational Vaiṣṇava devotional text
 - shares-vocabulary-with: bhakti | the Rāmāyaṇa is a primary source of Rāma-*bhakti*, later amplified in vernacular retellings (e.g. Tulsīdās's *Rāmcaritmānas*)
+- shares-vocabulary-with: rama | the epic narrates the life of Rāma, its protagonist and the seventh Viṣṇu-avatāra

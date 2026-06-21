@@ -46,3 +46,4 @@ confidence: medium
 - shares-vocabulary-with: brahman | Smārta integration: Trimūrti = three names for one nirguṇa Brahman (Śaṅkara)
 - shares-vocabulary-with: sarasvati | Sarasvatī pairs with Brahmā in the Trimūrti + Tridevi scheme
 - shares-vocabulary-with: lakshmi | Lakṣmī pairs with Viṣṇu; the Tridevi mirrors the Trimūrti
+- shares-vocabulary-with: shiva | Śiva is the destroyer/dissolver — one of the three Trimūrti functions

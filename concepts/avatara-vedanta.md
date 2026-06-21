@@ -68,3 +68,5 @@ Some Hindu Purāṇic lists include the Buddha as the 9th avatāra of Viṣṇu.
 - expressed-by: gita | BG 4.7-4.8 (*yadā yadā hi dharmasya glānir bhavati…*) is the canonical avatāra text; the Gītā is the direct scriptural expression of the doctrine
 - shares-vocabulary-with: ramayana | the Rāmāyaṇa is the principal narrative of the Rāma-avatāra (Viṣṇu's seventh descent)
 - shares-vocabulary-with: mahabharata | the Mahābhārata is the principal narrative of the Kṛṣṇa-avatāra, inside which the doctrine is declared (Gītā 4.7–8)
+- shares-vocabulary-with: krishna | Kṛṣṇa is the eighth and theologically central avatāra, who declares the descent doctrine (BG 4.7–8)
+- shares-vocabulary-with: rama | Rāma is the seventh avatāra, hero of the Rāmāyaṇa

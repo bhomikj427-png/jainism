@@ -41,3 +41,4 @@ This near-enemy structure is the crucial point: mettā is explicitly **not** rom
 - shares-vocabulary-with: mudita | muditā (sympathetic joy) is mettā meeting another's good fortune — the third immeasurable
 - shares-vocabulary-with: upekkha | upekkhā (equanimity) regulates and completes the set — the fourth immeasurable
 - shares-vocabulary-with: ahimsa-buddhist | mettā is the positive, cultivated ground from which Buddhist non-harm (*avihiṃsā*) flows — the active goodwill behind the restraint
+- shares-vocabulary-with: maitri-jain | Jain maitrī (TS 7.11) is the same loving-kindness term in a parallel four-fold set, embedded in a different soteriology

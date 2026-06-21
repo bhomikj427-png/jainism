@@ -47,3 +47,6 @@ All three readings cite the same verses but interpret them through divergent ont
 - structurally-parallel-to: advaita-vedanta | Śaṅkara's Gītābhāṣya makes the BG the most cited smṛti proof-text for Advaita
 - structurally-parallel-to: vishishtadvaita | Rāmānuja's Gītābhāṣya makes BG the key text for soul-as-Brahman's-mode and prapatti
 - structurally-parallel-to: dvaita-vedanta | Madhva's Gītā-tātparya makes BG the key text for five-difference devotion
+- shares-vocabulary-with: krishna | the Gītā is Kṛṣṇa's discourse to Arjuna; he is its divine speaker
+- expressed-by: samatva | BG 2.48 (*samatvaṁ yoga ucyate*) makes equanimity the Gītā's own definition of yoga
+- expressed-by: sthitaprajna | BG 2.54–72 portrays the sthitaprajña, the sage of steady wisdom — the Gītā's realized-sage ideal
