@@ -3,7 +3,7 @@
 > **⚠️ ORIENTATION — read this before acting (this file is long and truncates; the head is always loaded).**
 > This project has **two parallel structures**, and they are NOT interchangeable:
 > 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 33 done, 251 concepts** (audit CLEAN).
-> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Ch 13 (next = Ch 14)**. NOTE: `hindu/` now has a **second level** (`darsana/`, `devotional/`, `scripture/`) — see `chapters/INDEX.md` header for what goes where.
+> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Ch 13 (next = Ch 14)**. **→ The planned chapters Ch 14–20 are listed in the `## Chapter roadmap` table in `chapters/INDEX.md`** — a fresh session picks the lowest-numbered `planned` row. NOTE: `hindu/` now has a **second level** (`darsana/`, `devotional/`, `scripture/`) — see `chapters/INDEX.md` header for what goes where.
 >
 > **"chapter" ≠ "batch."** If the user says "chapter," they mean a file in `chapters/` — open `chapters/INDEX.md` for the next number; do NOT answer with a "Suggested Batch" from this file. (This mistake has recurred across sessions — see `chapter-vs-batch` memory.)
 
@@ -2468,6 +2468,5 @@ All converged, confidence medium. Three chapters: 5 darśana author/source-ancho
 ### No graph impact
 Chapters are NOT graph nodes — `build_graph.py` ignores `chapters/`. Corpus unchanged at **251 nodes / 1491 edges**, audit still CLEAN. No graph regen needed. (progress.md run-logs referencing the old `hindu/11-vedanta.md` path are left as historical record; only the live INDEX was repathed.)
 
-### Suggested next chapter (Ch 14)
-- **Greek & Hellenistic foundation** (`comparanda/14-…`): the earlier Greek nodes this chapter keeps pointing back to — `parmenides-being` · `democritus-atom` · `plato-forms` · `plato-soul` · `aristotle-substance/categories/logic/ethics` · `four-causes` · `epicurus-atom/ethics` · `stoicism`/`stoic-logos` · `cynicism` · `pyrrhonism` · `academic-skepticism`.
-- OR begin filling `hindu/darsana/` toward the remaining āstika systems (Sāṃkhya · Yoga · Nyāya · Vaiśeṣika · Mīmāṃsā) now that the sub-folder exists.
+### Suggested next chapter (Ch 14) — now a full roadmap
+A standing **`## Chapter roadmap`** table (Ch 14–20) was added to **`chapters/INDEX.md`**; a fresh session should pick the lowest-numbered `planned` row there. Ch 14 = **Greek & Hellenistic Foundation** (`comparanda/`). Subsequent planned: 15 Sāṃkhya & Yoga, 16 Nyāya & Vaiśeṣika, 17 Mīmāṃsā & Cārvāka (all `hindu/darsana/`), 18 Hindu Deities (`hindu/devotional/`), 19 Hindu Epics & Scripture (`hindu/scripture/`), 20 Buddhist Scholastics & Logicians (`buddhist/`). All listed concepts already exist as nodes — chapters add no graph nodes.

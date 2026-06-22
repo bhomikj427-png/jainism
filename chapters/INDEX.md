@@ -26,6 +26,24 @@
 
 ---
 
+## Chapter roadmap (planned — NAMES ONLY, not yet written)
+
+> **For a fresh session: this is the to-do list for the teaching layer.** Pick the **lowest-numbered `planned` row** unless the user names a specific one. All the listed concepts are **already written as graph nodes** in `concepts/` — a chapter is a prose reading-view over them, so authoring one writes **no new nodes** and has **no graph impact** (`build_graph.py` ignores `chapters/`). Target sub-folder is given per row; `hindu/` rows use its second level (`darsana/`/`devotional/`/`scripture/`). This roadmap supersedes the per-chapter `*Next:*` footers and the "Suggested next chapter" line in `progress.md` if they ever disagree. ⚠️ Do **not** confuse this with `progress.md`'s "Suggested Batch NN" — that queues **concept nodes**, a different track (see `chapter-vs-batch` memory).
+
+| # | planned chapter | sub-folder | primary concepts (already written as nodes) | status |
+|---|---|---|---|---|
+| 14 | Greek & Hellenistic Foundation | `comparanda/` | parmenides-being · democritus-atom · plato-forms · plato-soul · aristotle-substance · aristotle-categories · aristotle-logic · aristotle-ethics · four-causes · epicurus-atom · epicurus-ethics · stoicism · stoic-logos · cynicism · pyrrhonism · academic-skepticism | planned |
+| 15 | Sāṃkhya & Yoga | `hindu/darsana/` | kapila · prakriti-samkhya · purusha-samkhya · guna-samkhya · satkaryavada · samkhya-karika · patanjali · yoga-darshana · citta-vritti · citta · manas | planned |
+| 16 | Nyāya & Vaiśeṣika | `hindu/darsana/` | gautama-aksapada · nyaya-sutra · vaiseshika-sutra · paramanu-vaisheshika · dravya-vaisheshika · pancha-mahabhuta · asatkaryavada (NB: the *epistemology* — anumāna, vyāpti, hetvābhāsa, tarka, jāti — is already primary-covered in Ch 05; this chapter is the realist **ontology/atomism** side, cross-ref Ch 05) | planned |
+| 17 | Mīmāṃsā & Cārvāka | `hindu/darsana/` | mimamsa-sutra · kumarila-bhatta · prabhakara · carvaka (NB: mīmāṃsā-pramāṇa / arthāpatti / śabda-pramāṇa are in Ch 05/10; this chapter is ritual-exegesis + the materialist nāstika challenge) | planned |
+| 18 | Hindu Deities: Trimūrti & the Devotional Families | `hindu/devotional/` | brahma · vishnu · shiva · trimurti · nataraja · lingam · nandi · kala-bhairava · krishna · rama · garuda · vaishnavism · durga · kali · parvati · shakti · ganesha · hanuman · surya · agni · kartikeya · kamadhenu · aruna · shaivism · spanda · pratyabhijna | planned |
+| 19 | Hindu Epics & Scripture | `hindu/scripture/` | upanishad · brahma-sutra · mahabharata · ramayana · gita · valmiki · vyasa · vishnu-sahasranama · yajna · rta · dana · samsara | planned |
+| 20 | Buddhist Scholastics: Madhyamaka, Yogācāra & the Logicians | `buddhist/` | nagarjuna · mulamadhyamakakarika · prasanga-nagarjuna · vasubandhu · asanga · trisvabhava · abhidharmakosa · santaraksita · kamalasila · santideva · dharmakirti · pramana-samuccaya · pramanavarttika · dharmottara · nirvana-mahayana (NB: madhyamaka/yogācāra **doctrine** is in Ch 12; this chapter is the **figures, texts & logicians** behind it) | planned |
+
+*Beyond Ch 20 the corpus still has ethics/practice nodes (karuṇā · mettā · maitrī-jain · upekkhā · dāna · the brahmavihāras) and any future Batch-34+ nodes that may warrant their own cross-tradition chapter. Re-derive the next row from `concepts/` vs. this table whenever the roadmap is exhausted.*
+
+---
+
 ## Full concept → chapter index
 
 | concept | primary chapter | cross-referenced in |
