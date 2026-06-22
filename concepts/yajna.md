@@ -51,7 +51,7 @@ Confidence medium: BG 3.11 quoted with Sanskrit from Hindupedia; Mīmāṃsā co
 
 - structurally-parallel-to: rta | yajña is the human ritual mechanism for maintaining ṛta (cosmic order); the Puruṣa Sūkta portrays the cosmos itself as arising from primordial sacrifice
 - expressed-by: agni | Agni (fire deity) is the indispensable mediator of yajña — carries oblations heavenward, returns divine favour; no yajña without Agni
-- historically-influenced-by: mimamsa-pramana | Mīmāṃsā takes yajña as the paradigm case for apauruṣeya Vedic injunctions; the entire Mīmāṃsā hermeneutical system is built on yajña-as-eternal-duty
+- shares-vocabulary-with: mimamsa-pramana | Mīmāṃsā takes yajña as the paradigm case for apauruṣeya Vedic injunctions; the entire Mīmāṃsā hermeneutical system is built on yajña-as-eternal-duty (the directional influence runs theory←practice and is stored as `mimamsa-pramana → historically-influenced-by: yajna`)
 - structurally-parallel-to: karma-marga | Bhagavad Gītā reinterprets all selfless action as yajña, expanding the concept beyond fire-ritual into a general ethics of non-attached action
 - historically-influenced-by: upanishad | Chāndogya Upaniṣad internalises yajña as student discipline — the Upaniṣadic move from karma-kāṇḍa to jñāna-kāṇḍa begins here
 - often-conflated-with-NOT-equivalent: ahimsa | Vedic animal sacrifice (*paśu-yajña*) requires killing; Brāhmaṇical tradition classifies this as dharmic not hiṃsā; Jain and Buddhist traditions reject the distinction and condemn Vedic sacrifice as violence

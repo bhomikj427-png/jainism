@@ -36,4 +36,3 @@ confidence: medium
 - expressed-by: prasanga-nagarjuna | the *prasaṅga* reductio method is his signature logical technique
 - expressed-by: catuskoti | Nāgārjuna revives and sharpens the Buddhist four-corner negation as a Madhyamaka tool
 - expressed-by: dvisatya | MMK 24.18 grounds the two-truths (saṃvṛti/paramārtha) in the emptiness doctrine
-- historically-influenced-by: santideva | Śāntideva (~8th c.) is the most important Madhyamaka systematizer after Nāgārjuna

@@ -992,7 +992,6 @@ digraph ancient_texts {
   "nagarjuna" -> "prasanga-nagarjuna" [color="#cccccc22"];
   "nagarjuna" -> "catuskoti" [color="#cccccc22"];
   "nagarjuna" -> "dvisatya" [color="#cccccc22"];
-  "nagarjuna" -> "santideva" [color="#cccccc22"];
   "naigama-naya" -> "naya" [color="#cccccc22"];
   "naigama-naya" -> "anekantavada" [color="#cccccc22"];
   "naigama-naya" -> "dravyarthika-naya" [color="#cccccc22"];

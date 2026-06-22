@@ -2237,3 +2237,30 @@ New nodes' forward edges connect them outward to existing hubs (shakti, shaivism
 - Remaining author/source anchors for low-degree reverse-only nodes: `asanga` (Vasubandhu's half-brother, co-founder of Yogācāra — would anchor the Yogācāra cluster from the other side), `makkhali-gosala` (anchors `ajivika`), `plotinus`/`proclus` (anchor `neoplatonism`), `dharmakirti` (anchors `pramanavarttika`).
 - Remaining Hindu deity/iconography nodes: `nataraja` (Śiva's cosmic dance — creation/dissolution cycle), `kartikeya`/`skanda` (Pārvatī's other son, completes the family), `surya`, `nandi`.
 - **Legacy forward-only refactor (a §10 fork to put to the user):** decide whether to collapse the ~80 pre-existing bidirectional symmetric pairs to single stored direction (strict §5) or formally accept bidirectional `shares-vocabulary-with`/`structurally-parallel-to` as the corpus convention and update CLAUDE.md §5 to say so.
+
+---
+
+## Edge-integrity decision + audit upgrade (2026-06-22)
+
+### Decision (user-directed): the ~80 bidirectional **symmetric** pairs are ACCEPTED, not collapsed.
+Evidence-based call after inspecting real pairs (krishna↔rama notes near-verbatim; ramayana/mahabharata and digambara/svetambara carry a small distinct per-vantage note). Rationale:
+- `shares-vocabulary-with` / `structurally-parallel-to` / `often-conflated-with-NOT-equivalent` are **semantically symmetric** — no natural "forward." §5's forward-only rule was written for *directional* edges; it never cleanly applied to these.
+- **Invisible to the rendered graph** (edge + both nodes' degree derive from a single stored direction), so collapsing 80 pairs is pure churn with zero visual payoff.
+- They **cannot misrepresent** (no directional claim), unlike bidirectional `is-a-type-of` (mutual subsumption — forbidden, absent).
+- Bidirectional storage keeps each concept file **self-contained/readable**; collapsing would need an arbitrary tie-break and silently drop visible links from ~half the files.
+- → Treated as the legitimate **weaker associative layer** (drawn dashed/dotted). CLAUDE.md §5 amended to permit symmetric bidirectional storage explicitly (permitted, not required; no mechanical mirroring; no bulk-collapse).
+
+### The deeper finding the audit surfaced: bidirectional **directional** edges (real defects)
+A stricter check (now built into `build_graph.py audit_graph`) flags directional types stored in **both** directions — these assert two contradictory structural claims. The old audit only checked bidirectional `is-a-type-of`, so these were never surfaced.
+- **Fixed now (2, unambiguous by chronology):**
+  - removed `nagarjuna → historically-influenced-by: santideva` (backwards: Śāntideva ~8th c. is *after* Nāgārjuna ~2nd c.; the correct `santideva → nagarjuna` already exists).
+  - retyped `yajna → historically-influenced-by: mimamsa-pramana` to `shares-vocabulary-with` (Vedic ritual predates Mīmāṃsā hermeneutics; the correct directional `mimamsa-pramana → yajna` already exists).
+- **Queued for Batch 32 — directional-edge integrity pass (30 pre-existing pairs, each needs a per-pair direction judgment, §10 fork):**
+  - `aggregates-into`: namokara↔sadhu, namokara↔upadhyaya
+  - `formalizes`: nishchaya-vyavahara↔samayasara
+  - `part-of`: anatta-buddhist↔nirvana-buddhist, anuvrata↔shad-avashyaka, atman-vedanta↔moksha-advaita, dhyana-jain↔tapas
+  - `expressed-by` (23): abhidharma↔theravada, advaita-vedanta↔jnana-marga, advaita-vedanta↔vivartavada, agni↔yajna, anatta-buddhist↔citta, aristotle-substance↔four-causes, asrava↔bandha, avatara-vedanta↔gita, avatara-vedanta↔karma-marga, bhakti↔dvaita-vedanta, bhakti↔gita, bhakti↔vishishtadvaita, bodhicitta↔bodhisattva, bodhicitta↔santideva, gita↔karma-marga, kala-dravya↔paryaya, karma-vargana↔leshya, kundakunda↔nishchaya-vyavahara, kundakunda↔samayasara, nirjara↔samvara, pancha-mahabhuta↔prakriti-samkhya, parinamavada↔vishishtadvaita, vishnu↔vishnu-sahasranama
+  - Resolution per pair: keep the one chronologically/structurally correct direction, OR retype to a symmetric edge if the relation is genuinely mutual/associative. Run `python graph/build_graph.py` → "structural audit" must read CLEAN when done.
+
+### Audit upgrade
+`build_graph.py` now ends every run with a deterministic **structural audit** (`audit_graph`): dangling stubs, orphans, bidirectional **directional** edges, forbidden hier+similarity combos → prints CLEAN / DEFECTS PRESENT. Current state: stubs NONE, orphans NONE, forbidden-combos NONE; 30 bidirectional-directional defects outstanding (the queue above). Batch-31's own 7 new nodes are clean.

@@ -552,6 +552,65 @@ def write_index(out_path: Path):
     print(f"Wrote {out_path} ({total} concepts)")
 
 
+# ---------------------------------------------------------------------------
+# Deterministic structural audit (CLAUDE.md §5/§8). Prints defects; does not fix.
+# ---------------------------------------------------------------------------
+# Directional types encode a real asymmetry -> storing both directions is a
+# DEFECT. Symmetric types have no natural "forward" -> bidirectional is allowed.
+DIRECTIONAL_TYPES = {
+    "is-a-type-of", "part-of", "formalizes", "expressed-by",
+    "aggregates-into", "aggregates-from", "historically-influenced-by",
+}
+SYMMETRIC_TYPES = {
+    "shares-vocabulary-with", "structurally-parallel-to",
+    "often-conflated-with-NOT-equivalent",
+}
+HIER_TYPES = {"is-a-type-of", "part-of"}
+SIMILARITY_TYPES = {
+    "shares-vocabulary-with", "structurally-parallel-to",
+    "often-conflated-with-NOT-equivalent",
+}
+
+
+def audit_graph(nodes, edges):
+    """Report (do not fix) structural defects. Returns True if clean."""
+    written = {nid for nid, n in nodes.items() if n.get("written")}
+    stubs = sorted(nid for nid, n in nodes.items() if not n.get("written"))
+    targets = {e["target"] for e in edges}
+    orphans = sorted(n for n in written if n not in targets)
+
+    by_type = defaultdict(set)
+    pair_types = defaultdict(set)
+    for e in edges:
+        by_type[e["type"]].add((e["source"], e["target"]))
+        pair_types[(e["source"], e["target"])].add(e["type"])
+
+    bidir_directional = []
+    for t in DIRECTIONAL_TYPES:
+        s = by_type.get(t, set())
+        for (a, b) in s:
+            if (b, a) in s and a < b:
+                bidir_directional.append((t, a, b))
+    bidir_directional.sort()
+
+    forbidden_combo = []
+    for pair, ts in pair_types.items():
+        if (ts & HIER_TYPES) and (ts & SIMILARITY_TYPES):
+            forbidden_combo.append((pair, sorted(ts)))
+    forbidden_combo.sort()
+
+    print("\n--- structural audit ---")
+    print(f"dangling stubs : {stubs or 'NONE'}")
+    print(f"orphans        : {orphans or 'NONE'}")
+    print(f"bidirectional directional edges (DEFECT): "
+          f"{bidir_directional or 'NONE'}")
+    print(f"forbidden hier+similarity combos (DEFECT): "
+          f"{forbidden_combo or 'NONE'}")
+    clean = not (stubs or orphans or bidir_directional or forbidden_combo)
+    print(f"=> {'CLEAN' if clean else 'DEFECTS PRESENT'}")
+    return clean
+
+
 def main():
     GRAPH_DIR.mkdir(exist_ok=True)
     nodes, edges, link_counts = collect_nodes_and_edges()
@@ -559,6 +618,7 @@ def main():
     render_graphviz(nodes, edges, link_counts, GRAPH_DIR / "graph.svg")
     render_force_graph(nodes, edges, GRAPH_DIR / "graph.html")
     write_index(REPO_ROOT / "index.md")
+    audit_graph(nodes, edges)
 
 
 if __name__ == "__main__":
