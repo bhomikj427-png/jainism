@@ -39,3 +39,4 @@ The two are independent (an encyclopedia article and a peer-reviewed philosophy 
 - shares-vocabulary-with: yoga-darshana | Yoga ("seśvara Sāṃkhya") takes over the Sāṃkhyakārikā's puruṣa/prakṛti dualism, three guṇas, and kaivalya goal wholesale
 - often-conflated-with-NOT-equivalent: yoga-darshana | classical Sāṃkhya is *nirīśvara* (atheistic) and knowledge-based via three pramāṇas; Yoga adds Īśvara and an eight-limbed meditative praxis — same metaphysics, a deity and a method added
 - expressed-by: satkaryavada | SK 9 provides the five-argument proof for satkāryavāda — the foundational causal axiom of the entire system (effect pre-exists in cause)
+- historically-influenced-by: kapila | the kārikā closes by tracing its teaching-lineage back to the legendary founder Kapila (Kapila → Āsuri → Pañcaśikha → … → Īśvarakṛṣṇa); the system is "Kāpila" Sāṃkhya even though no text of Kapila's survives
