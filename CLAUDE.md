@@ -75,6 +75,7 @@ A **physics** link is almost always `structurally-parallel-to` or `often-conflat
 - `concepts/` — one file per concept (template §3).
 - `index.md` — living index grouped by **family** (Vedic, epics, Dharma/Śāstra, six darśanas, Jain Āgamas, Buddhist canon, non-Indian parallels). Lists only concepts actually written or actively linked, each with status. Family headers may exist empty; do **not** fill them with unread stubs.
 - `progress.md` — the **work-queue**: the assigned batch and each concept's state (`pending | done | blocked`), updated as you go. This is how a relaunched session knows the plan.
+- `chapters/` — the **human-readable teaching layer**: long-form prose reading-views of the material, one file per **chapter** (numbered `01`, `02`, …), grouped by origin into subfolders (`jain/`, `cross-tradition/`, `comparanda/`, `hindu/`, `buddhist/`), and tracked in `chapters/INDEX.md` (the concept→chapter map). **Chapters are reading views, NOT graph nodes** — `build_graph.py` does **not** scan `chapters/`. ⚠️ A **"chapter" (a file here) is NOT the same as a "batch"** (a concept work-queue unit in `progress.md`); when the user says "chapter," they mean a file in `chapters/` — consult `chapters/INDEX.md` for the next chapter number, never `progress.md`'s "Suggested Batch."
 - `graph/build_graph.py` — deterministic script: scans `concepts/*.md`, parses front-matter + `## Links`, builds nodes (**size = link count, colour = tradition**) and edges (**style = link type**: solid = structural, dashed = honest cross-tradition, dotted = conflated-NOT-equivalent). Renders `graph/graph.svg` via Graphviz now; emits a self-contained `graph/graph.html` (Cytoscape) once node count > 30. Idempotent — always regenerated.
 - **git**: one commit per concept and per status/confidence change. The log is the research record.
 No graph database, no vector/embedding "semantic search" (fuzzy resemblance is how false equivalence sneaks in — every edge must be defensible), no dependency on Obsidian/Roam (those are just viewers).
@@ -90,7 +91,7 @@ No graph database, no vector/embedding "semantic search" (fuzzy resemblance is h
 
 ## §8 Unattended operation & FAIL-SAFE (the part that makes running out harmless)
 **Startup reconcile — do this first, every session, before any new work:**
-1. Read `CLAUDE.md` and `progress.md`.
+1. Read `CLAUDE.md`, `progress.md`, **and `chapters/INDEX.md`** (the latter so the teaching-layer chapters are always in view, not just the concept batches). Remember: **"chapter" ≠ "batch"** — a chapter is a prose file under `chapters/`; a batch is a concept work-queue unit in `progress.md`. If the user's request mentions a "chapter," resolve it against `chapters/INDEX.md` before acting.
 2. Run `git status` and `git log --oneline`; identify committed concepts (these are truth).
 3. If `git status` shows any uncommitted/modified concept file (an interrupted draft) → **delete/reset it.** Never trust or continue partial work; it will be redone from scratch.
 4. Reconcile `progress.md` to git (git wins on any mismatch).

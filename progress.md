@@ -1,4 +1,11 @@
-# progress.md — Batches 1–5 Work Queue
+# progress.md — Work Queue & Run Log
+
+> **⚠️ ORIENTATION — read this before acting (this file is long and truncates; the head is always loaded).**
+> This project has **two parallel structures**, and they are NOT interchangeable:
+> 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 33 done, 251 concepts** (audit CLEAN).
+> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Ch 12 (next = Ch 13)**.
+>
+> **"chapter" ≠ "batch."** If the user says "chapter," they mean a file in `chapters/` — open `chapters/INDEX.md` for the next number; do NOT answer with a "Suggested Batch" from this file. (This mistake has recurred across sessions — see `chapter-vs-batch` memory.)
 
 ## Anchor text
 **Tattvārtha Sūtra** (Umāsvāti / Umāsvāmī) — to be confirmed by fetch before writing concepts.
