@@ -48,6 +48,7 @@ Confidence medium: Wikipedia source comprehensive but secondary; RV 1.1 and RV 1
 ## Links
 
 - shares-vocabulary-with: rta | Agni is *ṛtasya gopā* (guardian of ṛta); fire ritual maintains cosmic order; the connection is explicit in Ṛgvedic hymns
+- shares-vocabulary-with: surya | Agni and Sūrya are the Vedic terrestrial-fire and celestial-fire/light deities — classically paired in the Agni–Vāyu–Sūrya cosmic triad (fire on earth, lightning in the mid-region, sun in heaven)
 - historically-influenced-by: upanishad | the Upaniṣads absorb Agni into the Brahman doctrine (RV 1.164.46 is the transition-verse); the external fire becomes the inner fire of consciousness (*prāṇa*, Brahman)
 - structurally-parallel-to: dharma-dravya | both are enabling media in their respective systems — Agni enables the human-divine exchange; dharma-dravya enables the movement of souls and matter; the parallel is weak (Agni is personal-divine, dharma-dravya is impersonal-ontological) and holds only at the abstract "enabler" level
 - structurally-parallel-to: stoic-logos | both are cosmic *fire* principles bound up with cosmic order — Agni as *ṛtasya gopā* (guardian of ṛta) maintaining order through ritual; the Stoic logos as the designing fire (*pyr technikon* / pneuma) ordering the cosmos

@@ -53,3 +53,4 @@ Confidence medium: Wikipedia multi-sourced and internally consistent; IEP is a p
 - expressed-by: spanda | the Spanda sub-system (Vasugupta/Kallata) — cosmic pulsation of consciousness — is the experiential-poetic layer of Kashmir Śaivism, preceding Pratyabhijñā
 - expressed-by: lingam | the liṅga is the primary aniconic cultic image of Śiva across all Śaiva traditions; Śiva Purāṇa (jyotirliṅga cosmogony) and Liṅgāyat iṣṭaliṅga theology both centre on it
 - expressed-by: shiva | Śiva (Paramaśiva) is the supreme deity the entire Śaiva tradition is centred on and named for
+- expressed-by: nataraja | the Chidambaram Naṭarāja icon is the canonical visual expression of Śaiva Siddhānta's pañcakṛtya (five cosmic acts) doctrine
