@@ -1,7 +1,12 @@
 # chapters/INDEX.md — concept → chapter map
 # Each concept is primary-covered in exactly one chapter. Cross-references elsewhere link back here.
 # Chapters are grouped by origin into subfolders: jain/ (Jain-tradition chapters), cross-tradition/
-# (comparative chapters spanning multiple traditions), comparanda/ (non-Indian / formal-logic parallels).
+# (comparative chapters spanning multiple traditions), comparanda/ (non-Indian / formal-logic /
+# Greek-Neoplatonic parallels), buddhist/ (Buddhist-tradition chapters), and hindu/ (Hindu chapters).
+# hindu/ has a SECOND level because "Hindu" spans genuinely different domains and would not scale flat:
+#   hindu/darsana/    — the philosophical systems (āstika darśanas: Vedānta, Sāṃkhya, Yoga, Nyāya, Vaiśeṣika, Mīmāṃsā)
+#   hindu/devotional/ — deities, vāhanas, iconography, bhakti, the Śaiva/Vaiṣṇava/Śākta families
+#   hindu/scripture/  — epics and canonical texts (Vedas, Upaniṣads, Mahābhārata, Rāmāyaṇa, Gītā, root sūtras)
 
 | chapter | file | primary concepts | status |
 |---|---|---|---|
@@ -15,8 +20,9 @@
 | 08 Jain Ethics & Ascetic Practice | [jain/08-jain-ethics.md](jain/08-jain-ethics.md) | cāritra · satya · asteya · brahmacarya · aparigraha · aṇuvrata · tapas · dhyāna-jain · ṣaḍāvaśyaka · sallekhanā | drafted |
 | 09 The Jain Cosmos & Six Substances | [jain/09-jain-cosmos.md](jain/09-jain-cosmos.md) | dravya · sat · astikāya · jīva · pudgala · dharma-dravya · adharma-dravya · ākāśa · kāla · loka · utsarpiṇī-avasarpiṇī | drafted |
 | 10 Holy Beings, Sects, Texts & History | [jain/10-jain-holy-beings.md](jain/10-jain-holy-beings.md) | ṇamokāra-mantra · ācārya · upādhyāya · sādhu · pārśvanātha · mahāvīra · digambara · śvetāmbara · kundakunda · samayasāra · niścaya-vyavāhara · puṇya · pāpa · karma-prakṛti · ājīvika | drafted |
-| 11 The Vedānta Family | [hindu/11-vedanta.md](hindu/11-vedanta.md) | prasthānatrayī · brahman · ātman-vedānta · māyā-advaita · mokṣa-advaita · advaita-vedanta · vivartavāda · pariṇāmavāda · vishishtadvaita · dvaita-vedanta · bhakti · jñāna-mārga · karma-mārga · trimurti · avatāra-vedānta · sarasvatī · lakṣmī | drafted |
+| 11 The Vedānta Family | [hindu/darsana/11-vedanta.md](hindu/darsana/11-vedanta.md) | prasthānatrayī · brahman · ātman-vedānta · māyā-advaita · mokṣa-advaita · advaita-vedanta · vivartavāda · pariṇāmavāda · vishishtadvaita · dvaita-vedanta · bhakti · jñāna-mārga · karma-mārga · trimurti · avatāra-vedānta · sarasvatī · lakṣmī | drafted |
 | 12 The Buddhist Family | [buddhist/12-buddhist.md](buddhist/12-buddhist.md) | four-noble-truths · dukkha · tanha · paticcasamuppada-pali · nibbana-theravada · anatta-buddhist · anicca · theravada · arhat · skandha-buddhist · abhidharma · śūnyatā · bodhicitta · bodhisattva · madhyamaka · dvisatya · catuṣkoṭi · yogacara · vijñaptimātratā · ālaya-vijñāna · tathāgatagarbha | drafted |
+| 13 Neoplatonism | [comparanda/13-neoplatonism.md](comparanda/13-neoplatonism.md) | neoplatonism · plotinus · plotinus-one · nous · henosis · porphyry · proclus | drafted |
 
 ---
 
@@ -148,3 +154,10 @@
 | vijñaptimātratā | Ch 12 | — (Yogācāra consciousness-only) |
 | ālaya-vijñāna | Ch 12 | — (storehouse consciousness; rebirth-without-self) |
 | tathāgatagarbha | Ch 12 | — (Buddha-nature; NOT-equiv ātman) |
+| neoplatonism | Ch 13 | — (the school; emanation-return; ∥ Advaita) |
+| plotinus | Ch 13 | Ch 11 (the One ∥ brahman; NOT-equiv) |
+| plotinus-one | Ch 13 | Ch 11 (One above thought) · Ch 12 (One NOT-equiv śūnyatā/nirvāṇa) |
+| nous | Ch 13 | Ch 11 (Brahman-as-cit maps to Nous, the 2nd hypostasis) |
+| henosis | Ch 13 | Ch 11 (henōsis ∥ mokṣa-advaita; NOT-equivalent) |
+| porphyry | Ch 13 | — (editor of the Enneads; Isagoge / problem of universals) |
+| proclus | Ch 13 | — (Elements of Theology; monē-proodos-epistrophē; henads) |

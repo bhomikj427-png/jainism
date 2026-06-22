@@ -3,7 +3,7 @@
 > **⚠️ ORIENTATION — read this before acting (this file is long and truncates; the head is always loaded).**
 > This project has **two parallel structures**, and they are NOT interchangeable:
 > 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 33 done, 251 concepts** (audit CLEAN).
-> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Ch 12 (next = Ch 13)**.
+> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Ch 13 (next = Ch 14)**. NOTE: `hindu/` now has a **second level** (`darsana/`, `devotional/`, `scripture/`) — see `chapters/INDEX.md` header for what goes where.
 >
 > **"chapter" ≠ "batch."** If the user says "chapter," they mean a file in `chapters/` — open `chapters/INDEX.md` for the next number; do NOT answer with a "Suggested Batch" from this file. (This mistake has recurred across sessions — see `chapter-vs-batch` memory.)
 
@@ -2445,3 +2445,29 @@ All converged, confidence medium. Three chapters: 5 darśana author/source-ancho
 - Remaining darśana author-anchors: `kanada` (anchor vaiseshika-sutra from the author side, pairing with gautama-aksapada), `jaimini` (anchor mimamsa-sutra from its author — currently reverse-only), `badarayana`/`vyasa` (anchor brahma-sutra), `vatsyayana` (Nyāyabhāṣya commentator), `vyasa-yogabhasya`.
 - Neoplatonic/Greek depth: `iamblichus` (theurgy; the contemplation-vs-ritual split with Plotinus/Porphyry), `psyche-neoplatonic` (the Soul, third hypostasis — completes One/Nous/Soul triad), `proclus-henad` (the henads as their own node), `ammonius-saccas`.
 - Hindu iconography: `sampati-jatayu` (Aruṇa's vulture sons; Rāmāyaṇa), `kadru` / `vinata` (the serpent/​bird co-wives), `kalpavriksha` (wish-tree, parallels Kāmadhenu), `shesha`/`ananta` (Viṣṇu's serpent-couch, pairs with Garuḍa).
+
+---
+
+## Chapter run — Ch 13 Neoplatonism + hindu/ sub-folder reorg (2026-06-23)
+
+**Task:** "make the next chapter and put it into the right sub-folder" + "isn't hindu subfolder too big to just be one head folder? … make sub folders in hindu itself." Chose the **closest-to-finishing** cluster (user's instruction): the 7 already-written, tightly-bound Neoplatonic concepts — a complete self-contained mini-arc that a single chapter closes with **no dangling concepts**.
+
+### Chapter authored (in chapters/comparanda/ — non-Indian parallel, matching Ch 06)
+- **Ch 13 — Neoplatonism: "The One Above Thought"** → `chapters/comparanda/13-neoplatonism.md`.
+- Primary concepts (7, all pre-written graph nodes; chapter is a reading-view, no new nodes): `neoplatonism` · `plotinus` · `plotinus-one` · `nous` · `henosis` · `porphyry` · `proclus`.
+- Cross-refs: `plato-forms`/`plato-soul` (Greek comparanda), `brahman`/`advaita-vedanta`/`moksha-advaita` (Ch 11), `sunyata`/`nirvana-buddhist` (Ch 12).
+- **Prime-directive payoff (§7):** draws the real `structurally-parallel-to` Advaita (emanation→return architecture) then the precise `NOT-equivalent`: the One is *beyond* consciousness, so Brahman-as-*cit* maps to **Nous (2nd hypostasis), not the One** — "the Advaita highest is the Neoplatonic second-highest"; plus real-emanation vs māyā-appearance, and henōsis (achieved merger) vs mokṣa (removal of ignorance). §8 adds One≠śūnyatā (plenum-source vs absence-of-essence) and One≠nirvāṇa (generative vs cessation). Source disagreements surfaced not smoothed (birth-year 204/5; *Elements* prop-count 211 vs 217).
+
+### hindu/ sub-folder reorganisation (user request — anticipating growth)
+- `hindu/` was a flat head-folder; Hindu material spans 3 genuinely different domains. Introduced a **second level**:
+  - `hindu/darsana/` — philosophical systems (āstika darśanas). **Moved `11-vedanta.md` → `hindu/darsana/11-vedanta.md`** via `git mv`.
+  - `hindu/devotional/` — deities/iconography/bhakti (README placement-note committed to hold the dir + document the convention).
+  - `hindu/scripture/` — epics/canonical texts (README placement-note).
+- `chapters/INDEX.md` updated: subfolder-scheme header rewritten (now documents hindu/'s 2nd level + buddhist/, which were missing); Ch 11 path fixed to `hindu/darsana/`; **Ch 13 row added**; 7 Ch-13 concept→chapter mappings added.
+
+### No graph impact
+Chapters are NOT graph nodes — `build_graph.py` ignores `chapters/`. Corpus unchanged at **251 nodes / 1491 edges**, audit still CLEAN. No graph regen needed. (progress.md run-logs referencing the old `hindu/11-vedanta.md` path are left as historical record; only the live INDEX was repathed.)
+
+### Suggested next chapter (Ch 14)
+- **Greek & Hellenistic foundation** (`comparanda/14-…`): the earlier Greek nodes this chapter keeps pointing back to — `parmenides-being` · `democritus-atom` · `plato-forms` · `plato-soul` · `aristotle-substance/categories/logic/ethics` · `four-causes` · `epicurus-atom/ethics` · `stoicism`/`stoic-logos` · `cynicism` · `pyrrhonism` · `academic-skepticism`.
+- OR begin filling `hindu/darsana/` toward the remaining āstika systems (Sāṃkhya · Yoga · Nyāya · Vaiśeṣika · Mīmāṃsā) now that the sub-folder exists.
