@@ -2364,27 +2364,77 @@ Each of the four person/source nodes converts a previously low-degree, "reverse-
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `kapila.md` | pending | legendary founder of Sāṃkhya; anchors samkhya-karika lineage |
-| 2 | `patanjali.md` | pending | author of Yoga Sūtra; anchors yoga-darshana |
-| 3 | `gautama-aksapada.md` | pending | author of Nyāyasūtra; anchors nyaya-sutra |
-| 4 | `kumarila-bhatta.md` | pending | Bhāṭṭa Mīmāṃsā founder; anchors mimamsa-pramana |
-| 5 | `prabhakara.md` | pending | Prābhākara Mīmāṃsā founder; rival sub-school |
+| 1 | `kapila.md` | done | legendary founder of Sāṃkhya; anchors samkhya-karika lineage |
+| 2 | `patanjali.md` | done | author of Yoga Sūtra; anchors yoga-darshana |
+| 3 | `gautama-aksapada.md` | done | author of Nyāyasūtra; anchors nyaya-sutra |
+| 4 | `kumarila-bhatta.md` | done | Bhāṭṭa Mīmāṃsā founder; anchors mimamsa-pramana |
+| 5 | `prabhakara.md` | done | Prābhākara Mīmāṃsā founder; rival sub-school |
 
 **Chapter B — Hindu iconography / vāhana + family completion (4):**
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 6 | `garuda.md` | pending | Viṣṇu's eagle vāhana; parallels Nandi attendant pattern |
-| 7 | `kamadhenu.md` | pending | wish-fulfilling cow; sacred-cow iconography |
-| 8 | `aruna.md` | pending | Sūrya's charioteer (dawn); inbound to surya |
-| 9 | `kala-bhairava.md` | pending | fierce form of Śiva; is-a-type-of shiva |
+| 6 | `garuda.md` | done | Viṣṇu's eagle vāhana; parallels Nandi attendant pattern |
+| 7 | `kamadhenu.md` | done | wish-fulfilling cow; sacred-cow iconography |
+| 8 | `aruna.md` | done | Sūrya's charioteer (dawn); inbound to surya |
+| 9 | `kala-bhairava.md` | done | fierce form of Śiva; is-a-type-of shiva |
 
 **Chapter C — Greek / Neoplatonic depth (4):**
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 10 | `porphyry.md` | pending | Plotinus's student/editor of the Enneads; Isagoge |
-| 11 | `proclus.md` | pending | late systematizer; henads; Elements of Theology |
-| 12 | `nous.md` | pending | the Intellect, second hypostasis |
-| 13 | `henosis.md` | pending | mystical union with the One; the goal of return |
+| 10 | `porphyry.md` | done | Plotinus's student/editor of the Enneads; Isagoge |
+| 11 | `proclus.md` | done | late systematizer; henads; Elements of Theology |
+| 12 | `nous.md` | done | the Intellect, second hypostasis |
+| 13 | `henosis.md` | done | mystical union with the One; the goal of return |
 
+## Run log — Batch 33 (2026-06-22)
+
+### Concepts completed: 13 / 13 (0 blocked, 0 needs-opus-review)
+All converged, confidence medium. Three chapters: 5 darśana author/source-anchors + 4 Hindu iconography nodes + 4 Neoplatonic-depth nodes. Same anchor payoff as Batch 32 — each author/founder node gives an existing reverse-only darśana/text node a correctly-directed inbound, converting it into an anchored hub.
+
+| # | concept | chapter | status | conf | key source(s) | signal independence |
+|---|---|---|---|---|---|---|
+| 1 | kapila | A | converged | medium | Wikipedia + World History Enc. + corpus | 2 independent refs + corpus |
+| 2 | patanjali | A | converged | medium | Wikipedia + **IEP** + corpus | 2 independent refs + corpus |
+| 3 | gautama-aksapada | A | converged | medium | Wikipedia + corpus (nyaya-sutra: Wiki+IEP) | 2 independent streams |
+| 4 | kumarila-bhatta | A | converged | medium | Wikipedia + **SEP** + corpus | 2 independent refs + corpus |
+| 5 | prabhakara | A | converged | medium | Wikipedia + IGNOU/Britannica/studyphilo cluster | 2 independent streams |
+| 6 | garuda | B | converged | medium | Wikipedia + World History Enc. | 2 independent refs |
+| 7 | kamadhenu | B | converged | medium | Wikipedia + devotional cluster (weak provenance) + corpus | 2 streams, provenance caveat |
+| 8 | aruna | B | converged | medium | Wikipedia + mythology cluster (weak provenance) | 2 streams, provenance caveat |
+| 9 | kala-bhairava | B | converged | medium | Wikipedia + temple/devotional cluster + corpus | 2 streams + corpus |
+| 10 | porphyry | C | converged | medium | **SEP** + Wikipedia | 2 authoritative refs (strong agreement) |
+| 11 | proclus | C | converged | medium | **SEP** + Wikipedia (disagree on prop-count 211/217 — surfaced) | 2 authoritative refs |
+| 12 | nous | C | converged | medium | Wikipedia + corpus (SEP-grounded) | ref + corpus |
+| 13 | henosis | C | converged | medium | Wikipedia + corpus (SEP-grounded) | ref + corpus |
+
+### Anchor payoff (Chapter A)
+- `kapila → expressed-by → prakriti-samkhya/purusha-samkhya`; inbound `samkhya-karika → historically-influenced-by → kapila` (the kārikā traces its lineage to the legendary founder).
+- `patanjali → formalizes → yoga-darshana`, `→ expressed-by → citta-vritti`, `→ historically-influenced-by → kapila` ("seśvara Sāṃkhya").
+- `gautama-aksapada → expressed-by → nyaya-sutra` (author→root-text, the dharmakīrti→pramanavarttika pattern).
+- `kumarila-bhatta → expressed-by → mimamsa-pramana`, `→ historically-influenced-by → mimamsa-sutra`; the Dignāga duel drawn (`shares-vocabulary` + `often-conflated`).
+- `prabhakara → expressed-by → mimamsa-pramana`, `→ historically-influenced-by → mimamsa-sutra`; rival of Kumārila (`structurally-parallel` + `often-conflated`).
+
+### Prime-directive / honest-divergence findings recorded (not smoothed over)
+- **Two Kapilas** flagged NOT-equivalent: the atheistic (*nirīśvara*) Sāṃkhya founder vs the Purāṇic Viṣṇu-avatāra preaching bhakti — same name, opposed doctrine.
+- **Patañjali grammarian-conflation** (Yoga-sūtra author ≠ Mahābhāṣya grammarian; first equated by Bhojadeva ~10th c.) and **Gautama name-collisions** (≠ Gautama Buddha's clan name; ≠ the Dharmasūtra Gautama) recorded in prose (no target nodes for typed edges).
+- **Kāla Bhairava ↔ kala-dravya** NOT-equivalent: personified Hindu time/death-deity vs impersonal Jain time-substance — shared word *kāla*, opposite ontology.
+- **Nous ↔ Brahman** NOT-equivalent: Advaita's Brahman-as-*cit* maps onto the Neoplatonic **second** hypostasis (Nous), not the supra-conscious One — "the Advaita highest is the Neoplatonic second-highest."
+- **henōsis ↔ mokṣa-advaita** NOT-equivalent: achieved merger with a supra-conscious source vs removal of ignorance about a pre-existing non-duality.
+- Genuine source disagreements surfaced per §4: Prabhākara/Kumārila **teacher-student chronology** (Jhā reverses it); Proclus **proposition count** (211 vs 217); Kapila/Gautama **historicity** (legendary anchors).
+
+### Inbound edges relocated into existing hubs (§5 forward-only / no mechanical mirroring; symmetric bidirectional where appropriate)
+`samkhya-karika→kapila`, `vishnu→garuda`, `kapila→patanjali`(sym), `prabhakara→kumarila-bhatta`(sym), `kapila→gautama-aksapada`(sym), `surya→aruna`(sym), `shiva→kala-bhairava`(sym), `lakshmi→kamadhenu`(sym), `proclus↔porphyry`(sym, both directions), `plotinus→nous`, `plotinus→henosis`.
+
+### Audits (deterministic, via build_graph audit_graph)
+- **CLEAN**: dangling stubs NONE, orphans NONE, bidirectional-directional edges NONE, forbidden hier+similarity combos NONE.
+- `is-a-type-of` direction checked specific→general: `kala-bhairava → shiva` (Bhairava is a form of the broader deity Śiva). New symmetric pairs stored once except `proclus↔porphyry` (stored both directions, each note from its own vantage, §5-permitted).
+- Graph regenerated: **238 → 251 nodes, 1439 → 1491 edges**. `graph.svg` re-rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`; `graph.dot`/`graph.html`/`index.md` refreshed.
+
+### Corpus milestone: 251 concepts across 33 batches. 0 orphans. 0 unwritten stubs. Audit CLEAN.
+
+### Suggested Batch 34 (names only — no files written)
+- Remaining darśana author-anchors: `kanada` (anchor vaiseshika-sutra from the author side, pairing with gautama-aksapada), `jaimini` (anchor mimamsa-sutra from its author — currently reverse-only), `badarayana`/`vyasa` (anchor brahma-sutra), `vatsyayana` (Nyāyabhāṣya commentator), `vyasa-yogabhasya`.
+- Neoplatonic/Greek depth: `iamblichus` (theurgy; the contemplation-vs-ritual split with Plotinus/Porphyry), `psyche-neoplatonic` (the Soul, third hypostasis — completes One/Nous/Soul triad), `proclus-henad` (the henads as their own node), `ammonius-saccas`.
+- Hindu iconography: `sampati-jatayu` (Aruṇa's vulture sons; Rāmāyaṇa), `kadru` / `vinata` (the serpent/​bird co-wives), `kalpavriksha` (wish-tree, parallels Kāmadhenu), `shesha`/`ananta` (Viṣṇu's serpent-couch, pairs with Garuḍa).
