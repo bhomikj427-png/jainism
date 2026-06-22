@@ -2349,3 +2349,42 @@ Each of the four person/source nodes converts a previously low-degree, "reverse-
 - Remaining author/source anchors: `dharmakirti` done; consider `kumarila-bhatta` / `prabhakara` (anchor mimamsa-pramana from the author side), `patanjali` (anchor yoga-darshana), `kapila` (anchor samkhya), `gautama-aksapada` (anchor nyaya-sutra).
 - Hindu iconography/family completion: `trimurti` already exists; consider `garuda` (Viṣṇu's vāhana, parallels Nandi/Hanumān attendant pattern), `kamadhenu`, `aruna`, `kala-bhairava`.
 - Greek/Neoplatonic depth now that `plotinus` exists: `proclus` / `porphyry` (anchor the post-Plotinus school), `plotinus-one` is written — consider `nous` and `henosis` as their own nodes if forward-linked.
+
+---
+
+## Batch 33 — three chapters: darśana author-anchors + Hindu iconography + Neoplatonic depth (2026-06-22)
+
+### Startup reconcile
+- Batches 1–32 fully committed. Audit CLEAN at HEAD `ea6a9e5`: 238 nodes, 1439 edges, 0 orphans, 0 stubs. Working tree clean — no interrupted draft.
+- All 13 Batch-33 candidate filenames confirmed missing (non-breaking to write).
+
+### Batch 33 concepts (plan) — three chapters, 13 concepts
+
+**Chapter A — darśana author/source anchors (5):**
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `kapila.md` | pending | legendary founder of Sāṃkhya; anchors samkhya-karika lineage |
+| 2 | `patanjali.md` | pending | author of Yoga Sūtra; anchors yoga-darshana |
+| 3 | `gautama-aksapada.md` | pending | author of Nyāyasūtra; anchors nyaya-sutra |
+| 4 | `kumarila-bhatta.md` | pending | Bhāṭṭa Mīmāṃsā founder; anchors mimamsa-pramana |
+| 5 | `prabhakara.md` | pending | Prābhākara Mīmāṃsā founder; rival sub-school |
+
+**Chapter B — Hindu iconography / vāhana + family completion (4):**
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 6 | `garuda.md` | pending | Viṣṇu's eagle vāhana; parallels Nandi attendant pattern |
+| 7 | `kamadhenu.md` | pending | wish-fulfilling cow; sacred-cow iconography |
+| 8 | `aruna.md` | pending | Sūrya's charioteer (dawn); inbound to surya |
+| 9 | `kala-bhairava.md` | pending | fierce form of Śiva; is-a-type-of shiva |
+
+**Chapter C — Greek / Neoplatonic depth (4):**
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 10 | `porphyry.md` | pending | Plotinus's student/editor of the Enneads; Isagoge |
+| 11 | `proclus.md` | pending | late systematizer; henads; Elements of Theology |
+| 12 | `nous.md` | pending | the Intellect, second hypostasis |
+| 13 | `henosis.md` | pending | mystical union with the One; the goal of return |
+
