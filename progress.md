@@ -2295,8 +2295,8 @@ The corpus now cleanly separates the two layers the decision defined: a **direct
 
 | # | concept (filename) | status | notes |
 |---|---|---|---|
-| 1 | `asanga.md` | pending | Yogācāra co-founder; anchors cluster from Vasubandhu's other side |
-| 2 | `dharmakirti.md` | pending | anchors pramanavarttika; Dignāga's great successor |
+| 1 | `asanga.md` | done | Yogācāra co-founder; anchors cluster from Vasubandhu's other side |
+| 2 | `dharmakirti.md` | done | anchors pramanavarttika; Dignāga's great successor |
 | 3 | `makkhali-gosala.md` | pending | anchors ajivika; niyati/fatalism |
 | 4 | `plotinus.md` | pending | anchors neoplatonism; the One/emanation |
 | 5 | `nataraja.md` | pending | Śiva's cosmic dance; creation/dissolution cycle |
