@@ -57,3 +57,4 @@ Advaita's position is the most radical: individuality is not transcended but rec
 - often-conflated-with-NOT-equivalent: nirvana-buddhist | both = liberation from rebirth, but anattā (no self) vs ātman-Brahman identity are mutually exclusive
 - part-of: brahman | liberation = realisation of identity with Brahman
 - structurally-parallel-to: maya-advaita | māyā is the cause; mokṣa is the undoing of māyā — same coin, two sides
+- structurally-parallel-to: plotinus | Plotinus's henōsis — the soul's contemplative return-union with the One — parallels mokṣa as the return of ātman to its identity with Brahman (epistrophē ≈ jñāna-return)
