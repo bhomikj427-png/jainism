@@ -55,6 +55,5 @@ Advaita's position is the most radical: individuality is not transcended but rec
 - shares-vocabulary-with: moksha | same Sanskrit term; different ontology (individual dissolves vs individual persists)
 - often-conflated-with-NOT-equivalent: moksha | Jain mokṣa = individual jīva at siddha-śilā (pluralist); Advaita = ātman merges with Brahman (monist)
 - often-conflated-with-NOT-equivalent: nirvana-buddhist | both = liberation from rebirth, but anattā (no self) vs ātman-Brahman identity are mutually exclusive
-- part-of: atman-vedanta | mokṣa-advaita is the soteriological culmination of the ātman-Brahman identity claim
 - part-of: brahman | liberation = realisation of identity with Brahman
 - structurally-parallel-to: maya-advaita | māyā is the cause; mokṣa is the undoing of māyā — same coin, two sides

@@ -43,7 +43,6 @@ A naive reading sees the Samayasāra ("the soul never does karma") as *contradic
 
 ## Links
 
-- expressed-by: kundakunda | the Samayasāra is Kundakunda's chief work
 - part-of: digambara | foundational text of Digambara mysticism
 - formalizes: nishchaya-vyavahara | the whole text is built on reading the soul from the niścaya vs. vyavāhara standpoints
 - shares-vocabulary-with: jiva | its subject is the pure soul (śuddha-jīva)

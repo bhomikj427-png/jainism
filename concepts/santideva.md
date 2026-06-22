@@ -29,6 +29,5 @@ confidence: medium
 ## Links
 
 - formalizes: madhyamaka | Śāntideva is the most important Mādhyamika systematizer of the bodhisattva path; BCA ch. 9 is a standard Madhyamaka exposition
-- expressed-by: bodhicitta | the BCA is the canonical systematization of bodhicitta through the six pāramitās
 - expressed-by: bodhisattva | the BCA describes the full bodhisattva conduct (caryā) from aspiration to Buddhahood
 - historically-influenced-by: nagarjuna | Śāntideva explicitly follows Nāgārjuna's Madhyamaka; BCA ch. 9 builds on MMK arguments

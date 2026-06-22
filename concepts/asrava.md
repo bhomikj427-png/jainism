@@ -48,6 +48,6 @@ The key mechanism: **yoga opens the channel; kaṣāya acts as the adhesive.** W
 ## Links
 
 - part-of: karma | āsrava is the influx-process by which karma particles reach the jīva
-- expressed-by: bandha | when āsrava is accompanied by kaṣāya it becomes bandha (bondage)
+- shares-vocabulary-with: bandha | when āsrava is accompanied by kaṣāya it becomes bandha (bondage)
 - part-of: jiva | āsrava is what happens TO the jīva; the soul is the recipient of influx
 - part-of: tattvartha-sutra | TS 6.2 (directly fetched) defines the causes of āsrava; āsrava is the fourth of the seven tattvas enumerated in TS 1.4

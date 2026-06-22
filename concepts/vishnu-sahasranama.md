@@ -36,7 +36,6 @@ The text's **cross-sectarian reach** is unusual: Śaṅkara's commentary made it
 ## Links
 
 - part-of: mahabharata | the Viṣṇu-sahasranāma is a section of the Mahābhārata (Anuśāsana Parva 13.149) — Bhīṣma's hymn to Yudhiṣṭhira, embedded in the epic
-- expressed-by: vishnu | the sahasranāma is the canonical devotional enumeration of Viṣṇu's attributes
 - part-of: vaishnavism | the text is the supreme stotra of Vaiṣṇava devotion across sub-schools
 - expressed-by: bhakti | recitation of the thousand names is a central bhakti practice
 - shares-vocabulary-with: brahman | Śaṅkara's commentary reads every name as identifying Viṣṇu with nirguṇa Brahman

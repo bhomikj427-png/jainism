@@ -47,7 +47,6 @@ Atisha's formulation: *"buddhō bhaveyaṁ jagato hitāya"* — "May I become a 
 
 ## Links
 
-- expressed-by: bodhisattva | bodhicitta is what constitutes a bodhisattva — the vow is the identity
 - part-of: yogacara | the Yogācāra school grounds bodhicitta practice in the transformation of the ālaya-vijñāna
 - shares-vocabulary-with: madhyamaka | absolute bodhicitta = śūnyatā-realization; MMK's emptiness doctrine is the wisdom-dimension of bodhicitta
 - shares-vocabulary-with: ahimsa-buddhist | the brahmaviharas (karuṇā/maitrī) are the emotional basis of bodhicitta; bodhicitta is the institutional vow form of this compassion

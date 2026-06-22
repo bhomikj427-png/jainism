@@ -52,6 +52,5 @@ Leśyā is **the karmic coloring of the soul** — the soul's psychic-physical c
 ## Links
 
 - part-of: karma | leśyā is produced by the type of karma-matter (*kārmaṇa-varganā*) associated with the soul; it is the soul's karmic complexion, not a separate substance
-- expressed-by: karma-vargana | leśyā directly reflects the qualitative character of the kārmaṇa-varganā particles presently bonded to the jīva; the six colors are the soul-facing expression of the karma-vargana content
 - formalizes: gunasthana | leśyā provides a psycho-physical indicator of a soul's guṇasthāna level: kṛṣṇa/nīla/kāpota = lower stages, tejo/padma = middle, śukla = near liberation
 - part-of: jiva | leśyā is an attribute of the jīva in its saṃsāric state; the liberated siddha has no leśyā

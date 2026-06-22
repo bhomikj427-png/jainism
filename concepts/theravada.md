@@ -59,7 +59,6 @@ Confidence medium; high refused because primary Tipitaka texts were not independ
 - expressed-by: skandha-buddhist | the five khandhas (pañcakkhanda) are the Theravāda Abhidhamma's analysis of the person — the core empirical psychology of the school
 - expressed-by: nirvana-buddhist | nibbāna (Pali) is the Theravāda liberation goal; nirvana-buddhist.md treats this in depth
 - expressed-by: anatta-buddhist | anattā (no-self) is one of the three Theravāda characteristics and the most controversial; the arhat's insight into anattā is what destroys the āsavā
-- expressed-by: abhidharma | the Theravāda Abhidhamma Piṭaka is the systematized analysis underlying the school's philosophy (82 dharmas)
 - expressed-by: pratityasamutpada | paṭicca-samuppāda (Pali) — dependent origination — is the causal framework taught throughout the Sutta Piṭaka; it grounds both suffering-analysis and the path
 - structurally-parallel-to: yogacara | both are major Buddhist schools with systematic doctrine and institutional transmission; together they cover the Theravāda-Mahāyāna divide
 - often-conflated-with-NOT-equivalent: yogacara | Theravāda holds the arhat ideal and Pali Canon authority; Yogācāra holds the bodhisattva ideal and Sanskrit sūtra authority; the eight-consciousness model (ālaya) is absent from Theravāda

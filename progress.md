@@ -2263,4 +2263,22 @@ A stricter check (now built into `build_graph.py audit_graph`) flags directional
   - Resolution per pair: keep the one chronologically/structurally correct direction, OR retype to a symmetric edge if the relation is genuinely mutual/associative. Run `python graph/build_graph.py` → "structural audit" must read CLEAN when done.
 
 ### Audit upgrade
-`build_graph.py` now ends every run with a deterministic **structural audit** (`audit_graph`): dangling stubs, orphans, bidirectional **directional** edges, forbidden hier+similarity combos → prints CLEAN / DEFECTS PRESENT. Current state: stubs NONE, orphans NONE, forbidden-combos NONE; 30 bidirectional-directional defects outstanding (the queue above). Batch-31's own 7 new nodes are clean.
+`build_graph.py` now ends every run with a deterministic **structural audit** (`audit_graph`): dangling stubs, orphans, bidirectional **directional** edges, forbidden hier+similarity combos → prints CLEAN / DEFECTS PRESENT.
+
+---
+
+## Directional-edge integrity pass (2026-06-22) — resolves the 30, audit now CLEAN
+
+Worked through all 30 flagged bidirectional **directional** pairs, adjudicating each from its own note text. Method per pair: keep the one chronologically/structurally correct direction and drop the reverse; where the relation is genuinely **mutual/non-hierarchical**, retype the survivor to symmetric `shares-vocabulary-with`. Inbound-adjacency was computed first so **no deletion orphans a node**.
+
+### Resolutions
+- **23 keep-one-direction** (dropped the reverse defect): dhyana-jain→tapas (part-of); abhidharma→theravada, advaita-vedanta→jnana-marga, advaita-vedanta→vivartavada, yajna→agni, anatta-buddhist→citta, avatara-vedanta→gita, karma-marga→avatara-vedanta, dvaita-vedanta→bhakti, bhakti→gita, vishishtadvaita→bhakti, bodhisattva→bodhicitta, karma-marga→gita, paryaya→kala-dravya, karma-vargana→leshya, kundakunda→nishchaya-vyavahara, kundakunda→samayasara, pancha-mahabhuta→prakriti-samkhya, vishishtadvaita→parinamavada, vishnu→vishnu-sahasranama, aristotle-substance→four-causes, samayasara→nishchaya-vyavahara (formalizes), bodhicitta→santideva (kept this dir, not the author→doctrine one, to preserve santideva's only inbound).
+- **5 retyped to symmetric `shares-vocabulary-with`** (genuinely mutual, no part/whole or means/goal hierarchy): anatta-buddhist↔nirvana-buddhist (insight↔goal), anuvrata↔shad-avashyaka (two classification-schemes overlapping in sāmāyika), atman-vedanta↔moksha-advaita (realization = liberation, co-defining), asrava↔bandha (adjacent causal tattvas), samvara↔nirjara ("the active purification pair").
+- **2 retyped to complementary `aggregates-from`** (container/member leaf pair where strict forward-only would orphan the member): namokara→sadhu and namokara→upadhyaya. Members `aggregates-into` the mantra; the mantra `aggregates-from` its members — the script's intended complementary directional pair, so no same-type bidirectional. This is the one sanctioned exception to forward-only: a container and its leaf-members each need the other to stay non-orphan.
+- **Bonus:** removed a pre-existing exact-duplicate edge `vishnu → vaishnavism (part-of)` (two identical lines merged into one).
+
+### Audit
+`python graph/build_graph.py` → structural audit reads **CLEAN**: stubs NONE, orphans NONE, bidirectional-directional NONE, forbidden-combos NONE, exact-duplicate edges NONE. Graph: **230 nodes, 1429 → 1401 edges** (28 defect edges removed; 7 retyped in place). `graph.svg` re-rendered via Graphviz; `graph.dot`/`graph.html`/`index.md` refreshed.
+
+### Net effect on the §5 policy
+The corpus now cleanly separates the two layers the decision defined: a **directional skeleton** (`is-a-type-of`/`part-of`/`formalizes`/`expressed-by`/`aggregates-into`/`aggregates-from`/`historically-influenced-by`) stored single-direction and audited for contradictions, and a **symmetric associative web** (`shares-vocabulary-with`/`structurally-parallel-to`/`often-conflated-with-NOT-equivalent`) where bidirectional storage is accepted. The standing audit keeps the skeleton honest going forward.

@@ -45,7 +45,6 @@ Confidence medium; high refused because BṛU 4 and BG 4 Sanskrit texts not inde
 
 ## Links
 
-- expressed-by: advaita-vedanta | Advaita Vedānta prioritises jñāna-mārga (Śaṅkara gave it primary importance); jñāna is the Advaita soteriological means
 - expressed-by: moksha-advaita | Advaita liberation (jīvanmukti, ātman=Brahman) is attained via jñāna-mārga; the file elaborates the goal jñāna-mārga leads to
 - shares-vocabulary-with: atman-vedanta | the direct object of jñāna is the ātman–Brahman identity; jñāna-mārga depends on understanding the ātman correctly
 - shares-vocabulary-with: bhakti | the three mārgas (jñāna / bhakti / karma) are the classical Hindu framework for alternate routes to the same liberation

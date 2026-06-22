@@ -52,7 +52,6 @@ Bandha is **karmic bondage** — the intermingling and adhesion of karma particl
 ## Links
 
 - part-of: karma | bandha is what karma-matter does when it adheres to jīva; bandha IS the state of karma-bondage
-- expressed-by: asrava | bandha follows āsrava when kaṣāya is present; without kaṣāya, āsrava does not become bandha
 - expressed-by: samvara | saṃvara is defined as *bandha-nirodha* (obstruction of bandha's cause = āsrava)
 - part-of: tattva-jain | bandha is tattva 4 of the 7-tattva framework
 - part-of: tattvartha-sutra | TS 8.1 (*mithyādarśanāviratipramādakaṣāyayogā bandhahetavaḥ*) is the key verse for bandha; bandha is the fifth of the seven tattvas enumerated in TS 1.4

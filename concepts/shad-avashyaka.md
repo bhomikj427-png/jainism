@@ -52,7 +52,6 @@ The Digambara monastic tradition (*Mūlācāra*) retains essentially the Āvaśy
 - part-of: charitra | the six āvaśyaka are the daily enactment of samyak-cāritra (right conduct) — the standing vows turned into a repeated routine
 - part-of: samvara | each āvaśyaka is a saṃvara practice: equanimity, repentance, and renunciation all stop fresh karmic influx
 - aggregates-into: nirjara | pratikramaṇa and kāyotsarga in particular work off accumulated karma — confession + bodily detachment drive nirjarā
-- part-of: anuvrata | sāmāyika (āvaśyaka #1) is simultaneously one of the layperson's twelve vows (a śikṣāvrata) — the practice-rite and the vow are the same act
 - expressed-by: tapas | kāyotsarga and the fasting tied to pratyākhyāna are forms of austerity (tapas) folded into the daily rite
 - shares-vocabulary-with: dhyana-jain | sāmāyika's stable-posture equanimity-meditation overlaps the dharma-dhyāna of the four-fold meditation scheme — the obligatory rite as a vehicle for auspicious dhyāna
 - often-conflated-with-NOT-equivalent: dana | dāna is one of the *Digambara layperson's* six daily duties but is NOT among the classical Śvetāmbara six āvaśyaka — the two "six essentials" lists are different sets sharing a name

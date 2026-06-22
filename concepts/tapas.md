@@ -80,7 +80,6 @@ All signals converge. Confidence medium: TS 9.19 and 9.20 directly fetched; Mu�
 
 - part-of: nirjara | tapa is the primary mechanism of active (avipāka) nirjara — deliberate karma-shedding
 - part-of: samvara | tapa both stops new karma influx (samvara) and sheds accumulated karma (nirjara)
-- part-of: dhyana-jain | dhyāna (meditation) is the sixth internal tapa in the Jain system; it is simultaneously classified as tapa
 - structurally-parallel-to: ahimsa-vedic | both appear in Patañjali's system — ahiṃsā in the five yamas, tapas in the five niyamas; adjacent but distinct ethical categories
 - structurally-parallel-to: brahmacarya | both brahmacarya and tapas appear in the Jain mahāvrata system and Patañjali's niyamas; shared vocabulary marks historical cross-influence
 - shares-vocabulary-with: guna-samkhya | Sāṃkhya-Yoga tradition grounds tapas in guṇa-theory: tapas diminishes tamas (inertia) by activating rajas and purifying to sattva

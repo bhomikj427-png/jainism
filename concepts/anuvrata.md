@@ -63,6 +63,6 @@ The guṇavratas and śikṣāvratas are not *new* abstinences; they progressive
 - shares-vocabulary-with: asteya | lay partial non-stealing vs the ascetic mahāvrata
 - shares-vocabulary-with: brahmacarya | lay svadāra-santoṣa (spousal contentment) vs the ascetic mahāvrata of complete celibacy
 - shares-vocabulary-with: aparigraha | lay parimāṇa (possession-limit) vs the ascetic mahāvrata of total non-possession
-- part-of: shad-avashyaka | sāmāyika, a śikṣāvrata in the 12-vow scheme, is also the first of the six obligatory daily duties (āvaśyaka)
+- shares-vocabulary-with: shad-avashyaka | sāmāyika, a śikṣāvrata in the 12-vow scheme, is also the first of the six obligatory daily duties (āvaśyaka)
 - part-of: samvara | observing the vows is conduct-restraint (vrata) — one of the named saṃvara practices that stop karmic influx
 - often-conflated-with-NOT-equivalent: sallekhana | the 12 lay vows are sometimes listed with sallekhanā appended as an end-of-life vow; sallekhanā is NOT one of the aṇuvratas — it is a separate terminal observance, taken once, at death

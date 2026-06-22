@@ -43,11 +43,10 @@ Three signals with genuine topic overlap and independent sourcing (Wikipedia art
 
 ## Links
 
-- part-of: vaishnavism | Viṣṇu-theology and Viṣṇu-worship is the central constitutive element of the Vaiṣṇava tradition; the sampradāya takes its name from him
+- part-of: vaishnavism | Viṣṇu is the supreme being and theological centre that constitutes the Vaiṣṇava tradition; the sampradāyas take their name from and organise around him
 - shares-vocabulary-with: brahman | Bhāgavata Purāṇa 1.2.11 uses Brahman, Paramātman, and Bhagavān as three facets of the same non-dual entity (Vaiṣṇava reading)
 - often-conflated-with-NOT-equivalent: brahman | Viṣṇu is personal (*sa-guṇa*), historical agent (avatāra), object of devotion; Brahman is impersonal, nirguṇa, beyond relation — Advaita subordinates Viṣṇu to Brahman; Vaiṣṇava schools resist this subordination
 - expressed-by: avatara-vedanta | the avatāra doctrine is Viṣṇu's primary mode of world-engagement; avatāra presupposes a personal God who can descend
-- part-of: vaishnavism | Viṣṇu as supreme being is the theological centre around which all Vaiṣṇava sampradāyas organise
 - structurally-parallel-to: shaivism | Śiva occupies in Śaivism the same position Viṣṇu occupies in Vaiṣṇavism — supreme personal deity, bhakti focus, Āgamic texts — but the theologies are incompatible about which is ultimate
 - structurally-parallel-to: brahma | both are members of the Trimurti but Viṣṇu (preserver) and Brahmā (creator) play distinct cosmic functions; Viṣṇu alone receives sustained devotional worship
 - expressed-by: vishnu-sahasranama | the Viṣṇusahasranāma (Mahābhārata Anuśāsanaparva 13.149) is the canonical 1000-name enumeration of Viṣṇu's attributes; the supreme Vaiṣṇava stotra

@@ -57,7 +57,7 @@ The mantra is the clearest single expression of Jain non-theism in liturgy. Line
 - aggregates-into: arihant | line 1 — *Ṇamo Arihantāṇaṃ*; the embodied omniscient
 - aggregates-into: siddha | line 2 — *Ṇamo Siddhāṇaṃ*; the bodiless liberated soul
 - aggregates-into: acarya | line 3 — *Ṇamo Āyariyāṇaṃ*; the order-head
-- aggregates-into: upadhyaya | line 4 — *Ṇamo Uvajjhāyāṇaṃ*; the preceptor
-- aggregates-into: sadhu | line 5 — *Ṇamo Loe Savva-sāhūṇaṃ*; all ascetics
+- aggregates-from: upadhyaya | line 4 — *Ṇamo Uvajjhāyāṇaṃ*; the preceptor
+- aggregates-from: sadhu | line 5 — *Ṇamo Loe Savva-sāhūṇaṃ*; all ascetics
 - expressed-by: moksha | the ascending order tracks the path to liberation; lines 1–2 are its goal
 - shares-vocabulary-with: tirthankara | the arihant of line 1 includes the tīrthaṅkaras, but the mantra names none individually

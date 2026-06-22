@@ -36,7 +36,6 @@ Signals converge on the doctrine content (appearance-only, rope-snake analogy, r
 
 ## Links
 
-- expressed-by: advaita-vedanta | Advaita school's causal theory
 - expressed-by: maya-advaita | māyā is the mechanism of the apparent transformation
 - part-of: brahma-sutra | Brahmasūtra interpretation generates the vivartavāda/pariṇāmavāda split
 - structurally-parallel-to: parinamavada | both are satkāryavāda variants (effect pre-exists in cause)

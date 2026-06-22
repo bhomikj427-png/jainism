@@ -42,7 +42,6 @@ Two independent scholarly sources agree on the same four-cause scheme, the Greek
 
 ## Links
 
-- expressed-by: aristotle-substance | the four causes explain what a substance IS and why it changes; hylomorphism (matter + form) is the ontological frame, four causes the explanatory frame
 - shares-vocabulary-with: aristotle-categories | the formal cause maps onto Aristotle's *ousia* (primary substance); the material cause maps onto the category of quality/matter; the two doctrines are complementary
 - structurally-parallel-to: pratityasamutpada | both theories analyse causation as multi-factor (no single cause is sufficient); both explicitly reject mono-causal reduction
 - often-conflated-with-NOT-equivalent: pratityasamutpada | but the final cause (telos, purposive end) is absent from Buddhist conditioned-arising — *pratītyasamutpāda* is purposeless (no teleology, no cosmic goal); the twelve *nidānas* are conditions, not explanatory kinds

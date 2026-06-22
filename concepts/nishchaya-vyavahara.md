@@ -50,8 +50,6 @@ The Jain orthodox position is the *odd one out*: it is a **pluralist realist** t
 
 - is-a-type-of: naya | niścaya and vyavāhara are two nayas (partial valid standpoints)
 - part-of: anekantavada | the co-equal-realism reading grounds them in many-sidedness — both standpoints true
-- expressed-by: kundakunda | systematized as a doctrinal device by Kundakunda
-- formalizes: samayasara | the Samayasāra is the text that deploys the device most fully
 - structurally-parallel-to: sunyata | parallel two-level structure to Madhyamaka paramārtha/saṃvṛti
 - often-conflated-with-NOT-equivalent: sunyata | Jain keeps the conventional real; Madhyamaka makes it empty/provisional
 - structurally-parallel-to: maya-advaita | parallel to Advaita pāramārthika/vyāvāhārika two levels

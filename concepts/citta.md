@@ -64,7 +64,6 @@ Wikipedia (Chitta, Buddhism) establishes citta as processual and the three mind-
 
 - part-of: abhidharma | the 89/121-type classification of citta is the core project of Theravāda Abhidhamma (Dhammasaṅgaṇī)
 - part-of: samsara | the citta-stream is what wanders in samsāra — each moment of clinging generates the next moment; the stream is samsāra from the inside
-- expressed-by: anatta-buddhist | citta as processual rather than substantial directly implements anattā — there is no self behind the citta-stream
 - expressed-by: pratityasamutpada | the citta-series is conditioned co-arising at the momentary level — each citta arises in dependence on the previous citta and its associated mental factors
 - often-conflated-with-NOT-equivalent: upayoga | both name the mind's conscious activity — but Jain upayoga is the mode of a permanent jīva-substance; Buddhist citta is a momentary process with no permanent subject behind it
 - often-conflated-with-NOT-equivalent: prakriti-samkhya | Sāṃkhya citta (material antahkarana) is named with the same word but means the opposite: a material faculty, not consciousness itself; Buddhist citta IS consciousness

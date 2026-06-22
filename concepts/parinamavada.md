@@ -42,7 +42,6 @@ Signals converge on doctrine and school attribution. Confidence medium; high ref
 ## Links
 
 - expressed-by: prakriti-samkhya | Sāṃkhya's Prakṛti-pariṇāma is the foundational form
-- expressed-by: vishishtadvaita | Brahma-pariṇāmavāda is Rāmānuja's variant
 - part-of: samkhya-karika | Sāṃkhyakārikā's satkāryavāda grounds the real-transformation model
 - shares-vocabulary-with: sat | satkāryavāda ("the effect pre-exists in the cause as sat") is the causal axiom shared with TS 5.30's sat-definition
 - structurally-parallel-to: vivartavada | both are satkāryavāda variants

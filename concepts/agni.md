@@ -47,7 +47,6 @@ Confidence medium: Wikipedia source comprehensive but secondary; RV 1.1 and RV 1
 
 ## Links
 
-- expressed-by: yajna | Agni is the operative medium of yajña; without Agni there is no sacrifice; the Pancha Mahā-Yajña all involve fire
 - shares-vocabulary-with: rta | Agni is *ṛtasya gopā* (guardian of ṛta); fire ritual maintains cosmic order; the connection is explicit in Ṛgvedic hymns
 - historically-influenced-by: upanishad | the Upaniṣads absorb Agni into the Brahman doctrine (RV 1.164.46 is the transition-verse); the external fire becomes the inner fire of consciousness (*prāṇa*, Brahman)
 - structurally-parallel-to: dharma-dravya | both are enabling media in their respective systems — Agni enables the human-divine exchange; dharma-dravya enables the movement of souls and matter; the parallel is weak (Agni is personal-divine, dharma-dravya is impersonal-ontological) and holds only at the abstract "enabler" level

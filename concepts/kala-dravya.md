@@ -52,6 +52,5 @@ The Digambara texts (Pūjyapāda, Kundakunda, Nemicandra) consistently count kā
 
 - is-a-type-of: ajiva | kāla is a non-living substance
 - part-of: dravya | sixth of the six dravyas
-- expressed-by: paryaya | kāla enables paryāya (modal change) in all other substances — vartanā is its role
 - expressed-by: sat | kāla enables the triadic structure of origination/destruction/permanence in all substances
 - structurally-parallel-to: akasha-dravya | both are singular, formless; but ākāśa = spatial, kāla = temporal; ākāśa is astikāya, kāla is not

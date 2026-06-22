@@ -48,6 +48,5 @@ Nirjarā is what makes liberation actually achievable, not merely theoretically 
 ## Links
 
 - part-of: karma | nirjarā is the removal-process for bonded karma
-- expressed-by: samvara | saṃvara and nirjarā operate together as the active purification pair
 - part-of: moksha | nirjarā is a necessary step; mokṣa is reached when nirjarā is complete (all karma shed)
 - expressed-by: tapas | tapa (deliberate austerity) is the primary mechanism of savipāka and avipāka nirjarā; the six external and six internal tapas of TS 9.19–9.20 are the systematic nirjarā toolkit
