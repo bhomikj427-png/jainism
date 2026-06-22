@@ -2282,3 +2282,24 @@ Worked through all 30 flagged bidirectional **directional** pairs, adjudicating 
 
 ### Net effect on the §5 policy
 The corpus now cleanly separates the two layers the decision defined: a **directional skeleton** (`is-a-type-of`/`part-of`/`formalizes`/`expressed-by`/`aggregates-into`/`aggregates-from`/`historically-influenced-by`) stored single-direction and audited for contradictions, and a **symmetric associative web** (`shares-vocabulary-with`/`structurally-parallel-to`/`often-conflated-with-NOT-equivalent`) where bidirectional storage is accepted. The standing audit keeps the skeleton honest going forward.
+
+---
+
+## Batch 32 — author anchors + Hindu iconography (2026-06-22)
+
+### Startup reconcile
+- Batches 1–31 + linker passes + directional-edge integrity pass fully committed. Audit CLEAN: 230 nodes, 1401 edges, 0 orphans, 0 stubs, 0 bidirectional-directional, 0 forbidden combos. Working tree clean — no interrupted draft.
+- All 8 Batch-32 candidate filenames confirmed missing (non-breaking to write).
+
+### Batch 32 concepts (plan)
+
+| # | concept (filename) | status | notes |
+|---|---|---|---|
+| 1 | `asanga.md` | pending | Yogācāra co-founder; anchors cluster from Vasubandhu's other side |
+| 2 | `dharmakirti.md` | pending | anchors pramanavarttika; Dignāga's great successor |
+| 3 | `makkhali-gosala.md` | pending | anchors ajivika; niyati/fatalism |
+| 4 | `plotinus.md` | pending | anchors neoplatonism; the One/emanation |
+| 5 | `nataraja.md` | pending | Śiva's cosmic dance; creation/dissolution cycle |
+| 6 | `kartikeya.md` | pending | Skanda/Murugan; Pārvatī's other son; completes family |
+| 7 | `surya.md` | pending | Vedic sun deity |
+| 8 | `nandi.md` | pending | Śiva's bull-mount/gatekeeper |

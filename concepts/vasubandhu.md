@@ -46,3 +46,4 @@ Three converging signals, two of them independent scholarly references that agre
 - expressed-by: trisvabhava | the *Trisvabhāva-nirdeśa* is his statement of the three-natures doctrine
 - expressed-by: alaya-vijnana | his Yogācāra works (Triṃśikā, *Karmasiddhiprakaraṇa*) develop the storehouse-consciousness as the vehicle of karmic continuity
 - structurally-parallel-to: nagarjuna | the two great post-canonical Buddhist systematic philosophers — Vasubandhu (Yogācāra) and Nāgārjuna (Madhyamaka) — each a root-author whose verse treatises define a Mahāyāna school
+- historically-influenced-by: asanga | Vasubandhu's elder half-brother Asaṅga, already a Yogācārin, converted him from Sarvāstivāda-Sautrāntika Abhidharma to the Mahāyāna — the turning point of his Yogācāra phase
