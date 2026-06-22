@@ -77,6 +77,7 @@ A **physics** link is almost always `structurally-parallel-to` or `often-conflat
 - `progress.md` — the **work-queue**: the assigned batch and each concept's state (`pending | done | blocked`), updated as you go. This is how a relaunched session knows the plan.
 - `chapters/` — the **human-readable teaching layer**: long-form prose reading-views of the material, one file per **chapter** (numbered `01`, `02`, …), grouped by origin into subfolders (`jain/`, `cross-tradition/`, `comparanda/`, `hindu/`, `buddhist/`), and tracked in `chapters/INDEX.md` (the concept→chapter map). **Chapters are reading views, NOT graph nodes** — `build_graph.py` does **not** scan `chapters/`. ⚠️ A **"chapter" (a file here) is NOT the same as a "batch"** (a concept work-queue unit in `progress.md`); when the user says "chapter," they mean a file in `chapters/` — consult `chapters/INDEX.md` for the next chapter number, never `progress.md`'s "Suggested Batch."
 - `graph/build_graph.py` — deterministic script: scans `concepts/*.md`, parses front-matter + `## Links`, builds nodes (**size = link count, colour = tradition**) and edges (**style = link type**: solid = structural, dashed = honest cross-tradition, dotted = conflated-NOT-equivalent). Renders `graph/graph.svg` via Graphviz now; emits a self-contained `graph/graph.html` (Cytoscape) once node count > 30. Idempotent — always regenerated.
+- `graph/find_duplicates.py` — deterministic **duplicate-concept detector** (read-only). Reports four classes: `[DEVANAGARI]` same `term_devanagari` across files (same Sanskrit word — must be a typed tradition-split, not an accident); `[IAST]` same `term_iast` front-matter under two filenames (hard collision); `[TRANSLIT]` distinct keys that fold to one canonical form — transliteration twins (`sunyata`/`shunyata`); `[PHANTOM]` a `## Links` target with no file but within edit-distance 1 of a real file (a typo spawning a stray node). Exit 1 on any IAST/TRANSLIT/PHANTOM group. Run before creating a concept and as part of the §8 pre-commit check.
 - **git**: one commit per concept and per status/confidence change. The log is the research record.
 No graph database, no vector/embedding "semantic search" (fuzzy resemblance is how false equivalence sneaks in — every edge must be defensible), no dependency on Obsidian/Roam (those are just viewers).
 
@@ -97,8 +98,16 @@ No graph database, no vector/embedding "semantic search" (fuzzy resemblance is h
 4. Reconcile `progress.md` to git (git wins on any mismatch).
 5. Find the next `pending` concept in the batch and resume there. Never re-do a committed concept. Never recall a linked concept from memory — read its file.
 
+**Dedup gate — BEFORE creating any concept file (the filename is the unique key; a duplicate key silently forks the graph):**
+1. **Glob `concepts/<key>*.md`.** Exact key already present → do **not** create; add typed links to the existing node instead. The glob also surfaces the **tradition-suffix family** (`ahimsa`, `ahimsa-vedic`, `ahimsa-buddhist`) so you don't mint a third copy of a word that's already split.
+2. **Grep `concepts/` for the term and its transliteration variants** (`sunyata`/`shunyata`, `nibbana`/`nirvana`) and for existing `## Links` targets — a concept may already live under a *different* key. If many files already link `-> X`, `X` is canonical; a near-spelling is a duplicate, not a new node.
+3. **Check `index.md` and `progress.md`** — a `pending` queue entry reserves a key that has no file yet.
+- **Decision rule:** exact key exists → reuse it. Same word, *genuinely different tradition* → create with a tradition suffix **and** add an `often-conflated-with-NOT-equivalent` or `shares-vocabulary-with` edge between the pair (§5 — the map must teach the split). Same concept, different spelling → reuse the canonical key, note the alias in that file; never mint a variant node.
+- After any bulk work, run `python graph/find_duplicates.py`; a non-zero exit (IAST/TRANSLIT/PHANTOM group) is a defect to resolve under §10 before pushing.
+
 **Definition-of-done + pre-commit self-check (run before every commit):**
 - Every claim cited? (no uncited assertions)
+- New concept passed the **dedup gate** above — key is unique, or the reuse/typed-split decision is recorded?
 - No from-scratch translation presented as authoritative?
 - `status` and `confidence` set, and confidence justified (high only on independent agreement)?
 - Links use the controlled vocabulary and parseable format? Physics links typed as parallel/conflated, never identity?
