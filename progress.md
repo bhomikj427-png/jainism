@@ -2303,3 +2303,49 @@ The corpus now cleanly separates the two layers the decision defined: a **direct
 | 6 | `kartikeya.md` | done | Skanda/Murugan; Pārvatī's other son; completes family |
 | 7 | `surya.md` | done | Vedic sun deity |
 | 8 | `nandi.md` | done | Śiva's bull-mount/gatekeeper |
+
+## Run log — Batch 32 (2026-06-22)
+
+### Concepts completed: 8 / 8 (0 blocked, 0 needs-opus-review)
+All converged, confidence medium. Four author/source anchors (which convert low-degree reverse-only nodes into properly-anchored hubs) + four Hindu deity/iconography nodes (completing the Śaiva household).
+
+| concept | status | conf | key source(s) | signal independence |
+|---|---|---|---|---|
+| asanga | converged | medium | Wikipedia + Encyclopedia of Buddhism/EBSCO + corpus | 2 independent refs + corpus |
+| dharmakirti | converged | medium | Wikipedia + **SEP** (disagree on dates — surfaced) + corpus | 2 independent refs + corpus |
+| makkhali-gosala | converged | medium | Wikipedia ×2 (related pages, weak independence — flagged) + corpus | sources ultimately = 2 hostile non-Ājīvika texts; held at medium |
+| plotinus | converged | medium | **SEP** + Wikipedia + corpus | 2 independent refs + corpus |
+| nataraja | converged | medium | Wikipedia + corpus (Britannica 403) | 1 ref + corpus cluster |
+| kartikeya | converged | medium | Wikipedia + corpus deity cluster | 1 ref + corpus cluster |
+| surya | converged | medium | Wikipedia + **World History Enc.** + corpus | 2 independent refs + corpus |
+| nandi | converged | medium | Wikipedia + corpus (shiva/lingam/jiva/hanuman) | 1 ref + corpus cluster |
+
+### Anchor payoff (the point of the author nodes)
+Each of the four person/source nodes converts a previously low-degree, "reverse-only" node into an anchored hub by giving it a correctly-directed inbound from its author/founder:
+- `asanga → formalizes → yogacara`, `→ expressed-by → alaya-vijnana/trisvabhava`; inbound `vasubandhu → historically-influenced-by → asanga` (Asaṅga converted his younger half-brother).
+- `dharmakirti → expressed-by → pramanavarttika` (anchors the text to its author), `→ historically-influenced-by → dignaga-pramana`; inbound `dharmottara → historically-influenced-by → dharmakirti`.
+- `makkhali-gosala → formalizes → ajivika`; inbound `mahavira → shares-vocabulary-with → makkhali-gosala`.
+- `plotinus → formalizes → neoplatonism`, `→ expressed-by → plotinus-one`; inbound `moksha-advaita → structurally-parallel-to → plotinus` (henōsis ∥ ātman-return).
+
+### Prime-directive payoff this batch
+`nataraja` carries the explicit `often-conflated-with-NOT-equivalent → modern-atom` edge for the **Capra/CERN "cosmic dance = modern physics"** claim (2004 CERN gift + plaque). Framed precisely: Naṭarāja is a Śaiva Siddhānta soteriological icon (pañcakṛtya — creation/preservation/destruction/concealment/grace, the freeing of souls from māyā), NOT a depiction of subatomic pair-creation; the physics reading is a 20th-c. analogy imposed from outside. Drawn dotted so the map teaches the distinction (§0/§5).
+
+### Honest-divergence findings recorded (not smoothed over)
+- **dharmakirti dating** is genuinely contested (Frauwallner 600–660 vs Krasser mid-6th vs Balcerowicz 550–610) — surfaced as a table per §4, not collapsed to a single date.
+- **makkhali-gosala** has **no surviving Ājīvika scripture**; the entire portrait comes from two hostile rival sources (Jain *Bhagavatī*, Buddhist *Sāmaññaphala*). Independence explicitly downgraded; confidence held at medium for that reason.
+- **kartikeya** birth myths are deliberately plural (six Kṛttikā-sparks vs Agni/Gaṅgā) — recorded as variants, not reconciled.
+
+### Inbound edges relocated into existing hubs (to keep new all-outbound nodes non-orphan, §5 forward-only / no mechanical mirroring)
+`vasubandhu→asanga`, `dharmottara→dharmakirti`, `mahavira→makkhali-gosala`, `moksha-advaita→plotinus`, `shaivism→nataraja`, `agni→surya`, `shiva→kartikeya`, `shiva→nandi`.
+
+### Audits (deterministic, via build_graph audit_graph)
+- **CLEAN**: dangling stubs NONE, orphans NONE, bidirectional-directional edges NONE, forbidden hier+similarity combos NONE.
+- `is-a-type-of` directions checked specific→general: `nataraja → shiva` (Naṭarāja is a form of the broader deity Śiva). No bidirectional symmetric pairs introduced for the 8 new nodes (each symmetric edge stored once).
+- Graph regenerated: **230 → 238 nodes, 1401 → 1439 edges**. `graph.svg` re-rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`; `graph.dot`/`graph.html`/`index.md` refreshed.
+
+### Corpus milestone: 238 concepts across 32 batches. 0 orphans. 0 unwritten stubs. Audit CLEAN.
+
+### Suggested Batch 33 (names only — no files written)
+- Remaining author/source anchors: `dharmakirti` done; consider `kumarila-bhatta` / `prabhakara` (anchor mimamsa-pramana from the author side), `patanjali` (anchor yoga-darshana), `kapila` (anchor samkhya), `gautama-aksapada` (anchor nyaya-sutra).
+- Hindu iconography/family completion: `trimurti` already exists; consider `garuda` (Viṣṇu's vāhana, parallels Nandi/Hanumān attendant pattern), `kamadhenu`, `aruna`, `kala-bhairava`.
+- Greek/Neoplatonic depth now that `plotinus` exists: `proclus` / `porphyry` (anchor the post-Plotinus school), `plotinus-one` is written — consider `nous` and `henosis` as their own nodes if forward-linked.
