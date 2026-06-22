@@ -35,6 +35,7 @@ Two independent reference works agree on the founding role and pre-Buddhist dati
 
 - expressed-by: prakriti-samkhya | the prakṛti/guṇa-evolution metaphysics Kapila is credited with founding is worked out in prakriti-samkhya.md
 - expressed-by: purusha-samkhya | the plural inactive witness-puruṣa, the other pole of the dualism he originates, is worked out in purusha-samkhya.md
+- structurally-parallel-to: gautama-aksapada | both are the semi-legendary root-sages whom an āstika darśana names as founder while almost nothing biographical survives — anchors-by-attribution rather than documented authors
 - shares-vocabulary-with: patanjali | Patañjali's Yoga is "seśvara Sāṃkhya" — it takes over wholesale the puruṣa/prakṛti dualism, the three guṇas, and kaivalya that Kapila's school originated
 - often-conflated-with-NOT-equivalent: patanjali | but Kapila's classical Sāṃkhya is *nirīśvara* (atheistic, knowledge-based); Patañjali's Yoga adds Īśvara (a special puruṣa) and a meditative praxis — the founder of the godless system vs the founder who re-admits a god
 - shares-vocabulary-with: vishnu | the Bhāgavata Purāṇa counts Kapila among the avatāras of Viṣṇu (son of Kardama and Devahūti), folding the Sāṃkhya founder into the Vaiṣṇava pantheon

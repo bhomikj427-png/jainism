@@ -26,6 +26,7 @@ digraph ancient_texts {
     "digambara" [label="digambara" fillcolor="#ffd23f" shape=ellipse];
     "dravya" [label="dravya" fillcolor="#ffd23f" shape=ellipse];
     "dravyarthika-naya" [label="dravyārthika naya" fillcolor="#ffd23f" shape=ellipse];
+    "garuda" [label="Garuḍa" fillcolor="#ffd23f" shape=ellipse];
     "gunasthana" [label="guṇasthāna" fillcolor="#ffd23f" shape=ellipse];
     "jina" [label="jina" fillcolor="#ffd23f" shape=ellipse];
     "jiva" [label="jīva" fillcolor="#ffd23f" shape=ellipse];
@@ -108,6 +109,7 @@ digraph ancient_texts {
     "dvisatya" [label="dvisatya" fillcolor="#ff8c5a" shape=ellipse];
     "four-noble-truths" [label="cattāri ariyasaccāni" fillcolor="#ff8c5a" shape=ellipse];
     "hetu-vidya" [label="hetuviḍyā" fillcolor="#ff8c5a" shape=ellipse];
+    "kala-bhairava" [label="Kāla Bhairava" fillcolor="#ff8c5a" shape=ellipse];
     "kamalasila" [label="Kamalaśīla" fillcolor="#ff8c5a" shape=ellipse];
     "karuna" [label="karuṇā" fillcolor="#ff8c5a" shape=ellipse];
     "madhyamaka" [label="madhyamaka" fillcolor="#ff8c5a" shape=ellipse];
@@ -142,6 +144,7 @@ digraph ancient_texts {
     "anumana-nyaya" [label="anumāna (Nyāya)" fillcolor="#5b9bff" shape=ellipse];
     "asatkaryavada" [label="asatkāryavāda" fillcolor="#5b9bff" shape=ellipse];
     "dravya-vaisheshika" [label="dravya (Vaiśeṣika)" fillcolor="#5b9bff" shape=ellipse];
+    "gautama-aksapada" [label="Akṣapāda Gautama" fillcolor="#5b9bff" shape=ellipse];
     "jati" [label="jāti" fillcolor="#5b9bff" shape=ellipse];
     "nyaya-sutra" [label="Nyāyasūtra" fillcolor="#5b9bff" shape=ellipse];
     "paramanu-vaisheshika" [label="paramāṇu (Vaiśeṣika)" fillcolor="#5b9bff" shape=ellipse];
@@ -153,6 +156,7 @@ digraph ancient_texts {
     "advaita-vedanta" [label="Advaita Vedānta" fillcolor="#4fd16b" shape=ellipse];
     "agni" [label="Agni" fillcolor="#4fd16b" shape=ellipse];
     "ahimsa-vedic" [label="ahiṃsā (Vedic/Hindu)" fillcolor="#4fd16b" shape=ellipse];
+    "aruna" [label="Aruṇa" fillcolor="#4fd16b" shape=ellipse];
     "atman-vedanta" [label="ātman (Vedānta)" fillcolor="#4fd16b" shape=ellipse];
     "avatara-vedanta" [label="avatāra" fillcolor="#4fd16b" shape=ellipse];
     "brahma" [label="Brahmā" fillcolor="#4fd16b" shape=ellipse];
@@ -165,6 +169,7 @@ digraph ancient_texts {
     "jivanmukti" [label="jīvanmukti" fillcolor="#4fd16b" shape=ellipse];
     "jnana-marga" [label="jñāna-mārga" fillcolor="#4fd16b" shape=ellipse];
     "kali" [label="Kālī" fillcolor="#4fd16b" shape=ellipse];
+    "kamadhenu" [label="Kāmadhenu" fillcolor="#4fd16b" shape=ellipse];
     "karma-vedic" [label="karma (Vedic/Hindu)" fillcolor="#4fd16b" shape=ellipse];
     "kartikeya" [label="Kārttikeya" fillcolor="#4fd16b" shape=ellipse];
     "krishna" [label="Kṛṣṇa" fillcolor="#4fd16b" shape=ellipse];
@@ -204,6 +209,8 @@ digraph ancient_texts {
   subgraph "cluster_Samkhya-Yoga" { style=invis; peripheries=0;
     "citta-vritti" [label="citta-vṛtti" fillcolor="#c77dff" shape=ellipse];
     "guna-samkhya" [label="guṇa (Sāṃkhya)" fillcolor="#c77dff" shape=ellipse];
+    "kapila" [label="Kapila" fillcolor="#c77dff" shape=ellipse];
+    "patanjali" [label="Patañjali" fillcolor="#c77dff" shape=ellipse];
     "prakriti-samkhya" [label="prakṛti (Sāṃkhya)" fillcolor="#c77dff" shape=ellipse];
     "purusha-samkhya" [label="puruṣa (Sāṃkhya)" fillcolor="#c77dff" shape=ellipse];
     "samkhya-karika" [label="Sāṃkhyakārikā" fillcolor="#c77dff" shape=ellipse];
@@ -213,7 +220,9 @@ digraph ancient_texts {
     "arthapatti" [label="arthāpatti" fillcolor="#2dd4bf" shape=ellipse];
     "brahma-sutra" [label="Brahmasūtra" fillcolor="#2dd4bf" shape=ellipse];
     "karma-marga" [label="karma-mārga" fillcolor="#2dd4bf" shape=ellipse];
+    "kumarila-bhatta" [label="Kumārila Bhaṭṭa" fillcolor="#2dd4bf" shape=ellipse];
     "mimamsa-sutra" [label="Mīmāṃsāsūtra" fillcolor="#2dd4bf" shape=ellipse];
+    "prabhakara" [label="Prabhākara" fillcolor="#2dd4bf" shape=ellipse];
     "yajna" [label="yajña" fillcolor="#2dd4bf" shape=ellipse];
   }
   subgraph "cluster_Carvaka" { style=invis; peripheries=0;
@@ -230,12 +239,16 @@ digraph ancient_texts {
     "epicurus-atom" [label="atomos / clinamen (Epicurean)" fillcolor="#b8b8b8" shape=ellipse];
     "epicurus-ethics" [label="ataraxia / hēdonē (Epicurean)" fillcolor="#b8b8b8" shape=ellipse];
     "four-causes" [label="aitia" fillcolor="#b8b8b8" shape=ellipse];
+    "henosis" [label="Henōsis" fillcolor="#b8b8b8" shape=ellipse];
     "neoplatonism" [label="Neoplatonism" fillcolor="#b8b8b8" shape=ellipse];
+    "nous" [label="Nous" fillcolor="#b8b8b8" shape=ellipse];
     "parmenides-being" [label="to eon (Parmenidean Being, Greek)" fillcolor="#b8b8b8" shape=ellipse];
     "plato-forms" [label="eidos (Plato)" fillcolor="#b8b8b8" shape=ellipse];
     "plato-soul" [label="Plato's soul (tripartite)" fillcolor="#b8b8b8" shape=ellipse];
     "plotinus" [label="Plōtinos" fillcolor="#b8b8b8" shape=ellipse];
     "plotinus-one" [label="plotinus-one" fillcolor="#b8b8b8" shape=ellipse];
+    "porphyry" [label="Porphyrios" fillcolor="#b8b8b8" shape=ellipse];
+    "proclus" [label="Proklos" fillcolor="#b8b8b8" shape=ellipse];
     "pyrrhonism" [label="epochē / Pyrrhonism (Greek)" fillcolor="#b8b8b8" shape=ellipse];
     "stoic-logos" [label="stoic-logos" fillcolor="#b8b8b8" shape=ellipse];
     "stoicism" [label="Stōïkismos (Greek)" fillcolor="#b8b8b8" shape=ellipse];
@@ -439,6 +452,8 @@ digraph ancient_texts {
   "arthapatti" -> "pramana-nyaya" [color="#cccccc22"];
   "arthapatti" -> "hetu-vidya" [color="#cccccc22"];
   "arthapatti" -> "paroksha-jnana" [color="#cccccc22"];
+  "aruna" -> "surya" [color="#cccccc22"];
+  "aruna" -> "garuda" [color="#cccccc22"];
   "asanga" -> "yogacara" [color="#cccccc22"];
   "asanga" -> "alaya-vijnana" [color="#cccccc22"];
   "asanga" -> "trisvabhava" [color="#cccccc22"];
@@ -714,6 +729,10 @@ digraph ancient_texts {
   "ganesha" -> "mahabharata" [color="#cccccc22"];
   "ganesha" -> "vyasa" [color="#cccccc22"];
   "ganesha" -> "brahman" [color="#cccccc22"];
+  "garuda" -> "vaishnavism" [color="#cccccc22"];
+  "garuda" -> "nandi" [color="#cccccc22"];
+  "gautama-aksapada" -> "nyaya-sutra" [color="#cccccc22"];
+  "gautama-aksapada" -> "kapila" [color="#cccccc22"];
   "gita" -> "mahabharata" [color="#cccccc22"];
   "gita" -> "vyasa" [color="#cccccc22"];
   "gita" -> "brahma-sutra" [color="#cccccc22"];
@@ -740,6 +759,9 @@ digraph ancient_texts {
   "hanuman" -> "bhakti" [color="#cccccc22"];
   "hanuman" -> "shiva" [color="#cccccc22"];
   "hanuman" -> "mahabharata" [color="#cccccc22"];
+  "henosis" -> "neoplatonism" [color="#cccccc22"];
+  "henosis" -> "moksha-advaita" [color="#cccccc22"];
+  "henosis" -> "moksha-advaita" [color="#cccccc22"];
   "hetu-vidya" -> "dignaga-pramana" [color="#cccccc22"];
   "hetu-vidya" -> "pramana" [color="#cccccc22"];
   "hetu-vidya" -> "vyapti" [color="#cccccc22"];
@@ -781,6 +803,9 @@ digraph ancient_texts {
   "jnana-marga" -> "bhakti" [color="#cccccc22"];
   "jnana-marga" -> "karma-marga" [color="#cccccc22"];
   "jnana-marga" -> "samyak-darshana" [color="#cccccc22"];
+  "kala-bhairava" -> "shiva" [color="#cccccc22"];
+  "kala-bhairava" -> "kala-dravya" [color="#cccccc22"];
+  "kala-bhairava" -> "kala-dravya" [color="#cccccc22"];
   "kala-dravya" -> "ajiva" [color="#cccccc22"];
   "kala-dravya" -> "dravya" [color="#cccccc22"];
   "kala-dravya" -> "sat" [color="#cccccc22"];
@@ -789,6 +814,8 @@ digraph ancient_texts {
   "kali" -> "parvati" [color="#cccccc22"];
   "kali" -> "shiva" [color="#cccccc22"];
   "kali" -> "prakriti-samkhya" [color="#cccccc22"];
+  "kamadhenu" -> "lakshmi" [color="#cccccc22"];
+  "kamadhenu" -> "yajna" [color="#cccccc22"];
   "kamalasila" -> "santaraksita" [color="#cccccc22"];
   "kamalasila" -> "madhyamaka" [color="#cccccc22"];
   "kamalasila" -> "prasanga-nagarjuna" [color="#cccccc22"];
@@ -797,6 +824,13 @@ digraph ancient_texts {
   "kamalasila" -> "gunasthana" [color="#cccccc22"];
   "kamalasila" -> "yoga-darshana" [color="#cccccc22"];
   "kamalasila" -> "yoga-darshana" [color="#cccccc22"];
+  "kapila" -> "prakriti-samkhya" [color="#cccccc22"];
+  "kapila" -> "purusha-samkhya" [color="#cccccc22"];
+  "kapila" -> "gautama-aksapada" [color="#cccccc22"];
+  "kapila" -> "patanjali" [color="#cccccc22"];
+  "kapila" -> "patanjali" [color="#cccccc22"];
+  "kapila" -> "vishnu" [color="#cccccc22"];
+  "kapila" -> "vishnu" [color="#cccccc22"];
   "karma-marga" -> "avatara-vedanta" [color="#cccccc22"];
   "karma-marga" -> "gita" [color="#cccccc22"];
   "karma-marga" -> "karma-vedic" [color="#cccccc22"];
@@ -859,6 +893,11 @@ digraph ancient_texts {
   "krishna" -> "vishnu" [color="#cccccc22"];
   "krishna" -> "rama" [color="#cccccc22"];
   "krishna" -> "bhakti" [color="#cccccc22"];
+  "kumarila-bhatta" -> "mimamsa-pramana" [color="#cccccc22"];
+  "kumarila-bhatta" -> "mimamsa-sutra" [color="#cccccc22"];
+  "kumarila-bhatta" -> "dignaga-pramana" [color="#cccccc22"];
+  "kumarila-bhatta" -> "dignaga-pramana" [color="#cccccc22"];
+  "kumarila-bhatta" -> "prabhakara" [color="#cccccc22"];
   "kundakunda" -> "digambara" [color="#cccccc22"];
   "kundakunda" -> "samayasara" [color="#cccccc22"];
   "kundakunda" -> "nishchaya-vyavahara" [color="#cccccc22"];
@@ -872,6 +911,7 @@ digraph ancient_texts {
   "lakshmi" -> "vishishtadvaita" [color="#cccccc22"];
   "lakshmi" -> "prakriti-samkhya" [color="#cccccc22"];
   "lakshmi" -> "prakriti-samkhya" [color="#cccccc22"];
+  "lakshmi" -> "kamadhenu" [color="#cccccc22"];
   "leshya" -> "karma" [color="#cccccc22"];
   "leshya" -> "gunasthana" [color="#cccccc22"];
   "leshya" -> "jiva" [color="#cccccc22"];
@@ -1075,6 +1115,10 @@ digraph ancient_texts {
   "nishchaya-vyavahara" -> "sunyata" [color="#cccccc22"];
   "nishchaya-vyavahara" -> "maya-advaita" [color="#cccccc22"];
   "nishchaya-vyavahara" -> "maya-advaita" [color="#cccccc22"];
+  "nous" -> "neoplatonism" [color="#cccccc22"];
+  "nous" -> "plato-forms" [color="#cccccc22"];
+  "nous" -> "brahman" [color="#cccccc22"];
+  "nous" -> "brahman" [color="#cccccc22"];
   "nyaya-sutra" -> "pramana-nyaya" [color="#cccccc22"];
   "nyaya-sutra" -> "anumana-nyaya" [color="#cccccc22"];
   "nyaya-sutra" -> "hetvabhasa" [color="#cccccc22"];
@@ -1154,6 +1198,9 @@ digraph ancient_texts {
   "paryayarthika-naya" -> "paryaya" [color="#cccccc22"];
   "paryayarthika-naya" -> "anekantavada" [color="#cccccc22"];
   "paryayarthika-naya" -> "abhidharma" [color="#cccccc22"];
+  "patanjali" -> "yoga-darshana" [color="#cccccc22"];
+  "patanjali" -> "citta-vritti" [color="#cccccc22"];
+  "patanjali" -> "kapila" [color="#cccccc22"];
   "paticcasamuppada-pali" -> "four-noble-truths" [color="#cccccc22"];
   "paticcasamuppada-pali" -> "pratityasamutpada" [color="#cccccc22"];
   "paticcasamuppada-pali" -> "tanha" [color="#cccccc22"];
@@ -1183,9 +1230,19 @@ digraph ancient_texts {
   "plotinus-one" -> "neoplatonism" [color="#cccccc22"];
   "plotinus" -> "neoplatonism" [color="#cccccc22"];
   "plotinus" -> "plotinus-one" [color="#cccccc22"];
+  "plotinus" -> "nous" [color="#cccccc22"];
+  "plotinus" -> "henosis" [color="#cccccc22"];
   "plotinus" -> "plato-forms" [color="#cccccc22"];
   "plotinus" -> "brahman" [color="#cccccc22"];
   "plotinus" -> "brahman" [color="#cccccc22"];
+  "porphyry" -> "plotinus" [color="#cccccc22"];
+  "porphyry" -> "neoplatonism" [color="#cccccc22"];
+  "porphyry" -> "plato-forms" [color="#cccccc22"];
+  "porphyry" -> "proclus" [color="#cccccc22"];
+  "prabhakara" -> "mimamsa-pramana" [color="#cccccc22"];
+  "prabhakara" -> "mimamsa-sutra" [color="#cccccc22"];
+  "prabhakara" -> "kumarila-bhatta" [color="#cccccc22"];
+  "prabhakara" -> "kumarila-bhatta" [color="#cccccc22"];
   "prakriti-samkhya" -> "pudgala" [color="#cccccc22"];
   "prakriti-samkhya" -> "pudgala" [color="#cccccc22"];
   "prakriti-samkhya" -> "guna-samkhya" [color="#cccccc22"];
@@ -1246,6 +1303,10 @@ digraph ancient_texts {
   "pratyaksha-buddhist" -> "pramana-nyaya" [color="#cccccc22"];
   "pratyaksha-buddhist" -> "pramanavarttika" [color="#cccccc22"];
   "pratyaksha-buddhist" -> "anatta-buddhist" [color="#cccccc22"];
+  "proclus" -> "plotinus" [color="#cccccc22"];
+  "proclus" -> "neoplatonism" [color="#cccccc22"];
+  "proclus" -> "plotinus-one" [color="#cccccc22"];
+  "proclus" -> "porphyry" [color="#cccccc22"];
   "pudgala" -> "ajiva" [color="#cccccc22"];
   "pudgala" -> "dravya" [color="#cccccc22"];
   "pudgala" -> "paramanu" [color="#cccccc22"];
@@ -1342,6 +1403,7 @@ digraph ancient_texts {
   "samkhya-karika" -> "yoga-darshana" [color="#cccccc22"];
   "samkhya-karika" -> "yoga-darshana" [color="#cccccc22"];
   "samkhya-karika" -> "satkaryavada" [color="#cccccc22"];
+  "samkhya-karika" -> "kapila" [color="#cccccc22"];
   "samsara" -> "dukkha" [color="#cccccc22"];
   "samsara" -> "pratityasamutpada" [color="#cccccc22"];
   "samsara" -> "karma" [color="#cccccc22"];
@@ -1443,6 +1505,7 @@ digraph ancient_texts {
   "shiva" -> "ganesha" [color="#cccccc22"];
   "shiva" -> "kartikeya" [color="#cccccc22"];
   "shiva" -> "nandi" [color="#cccccc22"];
+  "shiva" -> "kala-bhairava" [color="#cccccc22"];
   "shruta-jnana" -> "pramana" [color="#cccccc22"];
   "shruta-jnana" -> "mati-jnana" [color="#cccccc22"];
   "shruta-jnana" -> "upayoga" [color="#cccccc22"];
@@ -1497,6 +1560,7 @@ digraph ancient_texts {
   "sunyata" -> "mulamadhyamakakarika" [color="#cccccc22"];
   "surya" -> "vishnu" [color="#cccccc22"];
   "surya" -> "brahman" [color="#cccccc22"];
+  "surya" -> "aruna" [color="#cccccc22"];
   "svetambara" -> "tirthankara" [color="#cccccc22"];
   "svetambara" -> "aparigraha" [color="#cccccc22"];
   "svetambara" -> "shruta-jnana" [color="#cccccc22"];
@@ -1656,6 +1720,7 @@ digraph ancient_texts {
   "vishnu" -> "brahma" [color="#cccccc22"];
   "vishnu" -> "vishnu-sahasranama" [color="#cccccc22"];
   "vishnu" -> "ramayana" [color="#cccccc22"];
+  "vishnu" -> "garuda" [color="#cccccc22"];
   "vivartavada" -> "maya-advaita" [color="#cccccc22"];
   "vivartavada" -> "brahma-sutra" [color="#cccccc22"];
   "vivartavada" -> "parinamavada" [color="#cccccc22"];

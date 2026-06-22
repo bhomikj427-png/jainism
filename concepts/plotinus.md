@@ -41,6 +41,8 @@ Two independent reference works agree on dates, teacher, editor, founding role, 
 
 - formalizes: neoplatonism | Plotinus is the founding systematizer of Neoplatonism — the *Enneads* are its foundational text
 - expressed-by: plotinus-one | the doctrine of the One/Good "beyond being," the apex of his hypostasis-hierarchy, is his central metaphysical thesis
+- expressed-by: nous | the doctrine of Intellect (Nous), the second hypostasis where being and thinking coincide and the Platonic Forms live, is the middle term of his hierarchy
+- expressed-by: henosis | henōsis — the soul's mystical union with the One, the goal of the return (epistrophē) — is the soteriological culmination Plotinus articulates
 - historically-influenced-by: plato-forms | Plotinus relocates the Platonic Forms *inside* Nous and identifies the Form of the Good (Republic 509b, "beyond being") with the One — a systematizing revival of Plato
 - structurally-parallel-to: brahman | the One "beyond being," ineffable and the source of all, runs structurally parallel to nirguṇa Brahman as the ineffable ground — a genuine convergence of two independent mystical metaphysics
 - often-conflated-with-NOT-equivalent: brahman | but the One is *beyond* being and consciousness and *really* emanates a graded hierarchy; Brahman *is* pure consciousness (sat-cit-ānanda) with the world as māyā-appearance — productive-source-beyond-mind vs consciousness-itself

@@ -34,5 +34,6 @@ Two independent reference works agree on the Vedic origin, the Āditya status, t
 
 - shares-vocabulary-with: vishnu | Sūrya was increasingly absorbed into Vaiṣṇava worship (Sūrya-Nārāyaṇa) and stands beside Viṣṇu among the five Pañcāyatana deities
 - structurally-parallel-to: brahman | in the Smārta Pañcāyatana, Sūrya is one of five deities treated as equivalent means to realising the one Brahman; the Gāyatrī/Savitṛ solar illumination is read as a figure for the light of consciousness
+- shares-vocabulary-with: aruna | Aruṇa is Sūrya's own charioteer and the personified red glow of dawn — seated at the front of the seven-horse solar chariot, moderating the sun's heat for the world
 
 (Inbound: `agni → shares-vocabulary-with → surya` — Agni and Sūrya are the Vedic terrestrial-fire and celestial-fire/light deities, classically paired in the Agni–Vāyu–Sūrya cosmic triad; stored in agni.md.)

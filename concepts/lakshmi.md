@@ -48,3 +48,4 @@ The Viṣṇu Purāṇa states: **"Viṣṇu is the meaning, Śrī is the speech
 - shares-vocabulary-with: vishishtadvaita | Rāmānuja's theology gives Lakṣmī the mediator/gateway role — distinct from Advaita which dissolves personal deity
 - structurally-parallel-to: prakriti-samkhya | both are the feminine productive principle paired with an inactive masculine (Viṣṇu/Puruṣa) — but Lakṣmī is conscious and personal (NOT the material substrate that Prakṛti is)
 - often-conflated-with-NOT-equivalent: prakriti-samkhya | surface parallel (feminine-productive-principle) breaks because Lakṣmī is *cit* (conscious, purposive) while Sāṃkhya Prakṛti is *acit* (unconscious material)
+- structurally-parallel-to: kamadhenu | both are *ratnas* (treasures) that arose from the Samudra-manthana churning of the cosmic ocean — Lakṣmī (goddess of fortune, with her lotus) and Kāmadhenu (the wish-cow) among the gifts the churning yielded alongside the amṛta
