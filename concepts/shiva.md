@@ -46,3 +46,5 @@ Two signals (a deity article + a tradition treatment grounded in a peer-reviewed
 - often-conflated-with-NOT-equivalent: brahman | personal Śiva (saguṇa, with Śakti, mythic agent) ≠ the impersonal nirguṇa Brahman; Advaita subordinates Śiva to Brahman, Śaiva schools resist this
 - expressed-by: lingam | the aniconic liṅga is Śiva's primary cultic image across all Śaiva traditions
 - shares-vocabulary-with: ganesha | Gaṇeśa, lord of Śiva's gaṇas, is Śiva's son; the beheading-and-elephant-head myth binds the two
+- shares-vocabulary-with: kartikeya | Kārttikeya (Skanda/Murukaṉ), Śiva's war-god son, is born from Śiva's six sparks to slay Tārakāsura
+- shares-vocabulary-with: nandi | Nandi, Śiva's bull-mount and gatekeeper, is chief of his gaṇas and faces the liṅga in every Śaiva temple
