@@ -51,3 +51,4 @@ Three signals with genuine topic overlap and independent sourcing (Wikipedia art
 - structurally-parallel-to: brahma | both are members of the Trimurti but Viṣṇu (preserver) and Brahmā (creator) play distinct cosmic functions; Viṣṇu alone receives sustained devotional worship
 - expressed-by: vishnu-sahasranama | the Viṣṇusahasranāma (Mahābhārata Anuśāsanaparva 13.149) is the canonical 1000-name enumeration of Viṣṇu's attributes; the supreme Vaiṣṇava stotra
 - shares-vocabulary-with: ramayana | the Rāmāyaṇa narrates Rāma, Viṣṇu's seventh avatāra; a foundational Vaiṣṇava devotional text
+- shares-vocabulary-with: garuda | Garuḍa is Viṣṇu's own eagle-mount (vāhana) and banner-emblem — the bird that carries the god, paralleling Nandi for Śiva
