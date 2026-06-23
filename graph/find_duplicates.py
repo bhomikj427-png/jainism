@@ -175,6 +175,30 @@ def main() -> int:
     if not found:
         print("  none")
 
+    # MANIFEST.tsv is the dedup gate's fast accelerator; if it has drifted from
+    # the filesystem the gate's status/links lookups go stale (existence is still
+    # checked against concepts/ directly, so this never causes a missed dup — but
+    # a forgotten `build_graph.py` should still be loud). Warn; don't fail.
+    print("\n== [MANIFEST] freshness vs concepts/ (warn — run build_graph.py to refresh) ==")
+    manifest = REPO_ROOT / "MANIFEST.tsv"
+    if not manifest.exists():
+        print("  MANIFEST.tsv MISSING — run: python graph/build_graph.py")
+    else:
+        man_keys = set()
+        for line in manifest.read_text(encoding="utf-8").splitlines():
+            if line and not line.startswith("#"):
+                man_keys.add(line.split("\t", 1)[0])
+        missing = sorted(keyset - man_keys)   # on disk, absent from manifest
+        stale = sorted(man_keys - keyset)     # in manifest, file deleted
+        if not missing and not stale:
+            print("  in sync")
+        else:
+            if missing:
+                print(f"  NOT YET IN MANIFEST ({len(missing)}): {', '.join(missing)}")
+            if stale:
+                print(f"  STALE ROWS (file gone) ({len(stale)}): {', '.join(stale)}")
+            print("  -> run: python graph/build_graph.py")
+
     print(f"\nHard-collision groups (IAST/TRANSLIT/PHANTOM): {hard}")
     return 1 if hard else 0
 
