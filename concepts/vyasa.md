@@ -46,3 +46,4 @@ confidence: medium
 - shares-vocabulary-with: brahma-sutra | tradition (esp. Vaiṣṇava) identifies Vyāsa with Bādarāyaṇa, the Brahma-sūtra's author — probably two distinct figures merged
 - shares-vocabulary-with: gita | Vyāsa is the frame-narrator and traditional compiler of the Mahābhārata, within which the Bhagavad Gītā is embedded
 - structurally-parallel-to: valmiki | the two legendary *ādi*-sage-authors of the *itihāsa* epics, each written into his own poem as a character
+- often-conflated-with-NOT-equivalent: vyasa-yogabhasya | the "Vyāsa" credited with the Yoga-Bhāṣya is a later honorific overlay, NOT this legendary Mahābhārata Vyāsa — same name, distinct (and possibly = Patañjali) authorial figure

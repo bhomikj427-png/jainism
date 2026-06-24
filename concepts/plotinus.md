@@ -43,6 +43,7 @@ Two independent reference works agree on dates, teacher, editor, founding role, 
 - expressed-by: plotinus-one | the doctrine of the One/Good "beyond being," the apex of his hypostasis-hierarchy, is his central metaphysical thesis
 - expressed-by: nous | the doctrine of Intellect (Nous), the second hypostasis where being and thinking coincide and the Platonic Forms live, is the middle term of his hierarchy
 - expressed-by: henosis | henōsis — the soul's mystical union with the One, the goal of the return (epistrophē) — is the soteriological culmination Plotinus articulates
+- expressed-by: psyche-neoplatonic | the doctrine of Soul as the third hypostasis — the intelligible–sensible intermediary that contemplates Nous and animates the cosmos — is the lower term of his hierarchy
 - historically-influenced-by: plato-forms | Plotinus relocates the Platonic Forms *inside* Nous and identifies the Form of the Good (Republic 509b, "beyond being") with the One — a systematizing revival of Plato
 - historically-influenced-by: ammonius-saccas | Ammonius Saccas was Plotinus' teacher for ~11 years in Alexandria — the man he reportedly recognised as "the one I was looking for"; conventionally the school's founder, though his own doctrine went unrecorded (the "pledge of silence")
 - structurally-parallel-to: brahman | the One "beyond being," ineffable and the source of all, runs structurally parallel to nirguṇa Brahman as the ineffable ground — a genuine convergence of two independent mystical metaphysics

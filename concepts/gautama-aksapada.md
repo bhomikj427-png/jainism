@@ -37,3 +37,4 @@ Two independent reference streams agree on the authorship, the wide dating, the 
 
 - expressed-by: nyaya-sutra | the Nyāyasūtra — the root text founding Nyāya logic and epistemology, on which Vātsyāyana's bhāṣya is built — is the work attributed to Akṣapāda Gautama
 - structurally-parallel-to: kapila | both are the semi-legendary root-sages an āstika darśana names as founder while almost nothing biographical survives — anchors-by-attribution rather than documented authors (Potter: "we have not the vaguest idea who wrote the Nyāyasūtras")
+- structurally-parallel-to: kanada | the paired founder-figures of the sister schools Nyāya (Gautama) and Vaiśeṣika (Kaṇāda) that later fused as Nyāya-Vaiśeṣika — both anchors-by-attribution

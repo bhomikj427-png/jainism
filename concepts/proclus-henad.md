@@ -35,6 +35,5 @@ Two distinct SEP entries agree on the function and independently confirm that th
 ## Links
 
 - part-of: neoplatonism | the henads are a structural level introduced in late (Athenian) Neoplatonic metaphysics
-- part-of: proclus | the henad doctrine is a defining component of Proclus's system, systematized in his *Elements of Theology*
 - historically-influenced-by: plotinus-one | the henads exist precisely to mediate the procession *from* the One, keeping it unparticipated and simple while letting the many participate in unity
 - historically-influenced-by: iamblichus | one candidate origin of the doctrine (from Iamblichus's "law of mean terms") — contested against a Syrianus origin; recorded, not asserted as settled

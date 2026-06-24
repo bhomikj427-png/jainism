@@ -35,3 +35,4 @@ Wikipedia and the secondary cluster agree on the wish-fulfilling nature, the chu
 
 - structurally-parallel-to: lakshmi | both are *ratnas* (treasures) that arose from the Samudra-manthana churning of the cosmic ocean — Lakṣmī (with her lotus) and Kāmadhenu (the wish-cow) among the gifts the churning yielded alongside the amṛta
 - shares-vocabulary-with: yajna | as the inexhaustible source of milk, ghee, and curds, Kāmadhenu supplies the very materials of Vedic sacrifice — she "provided Vasiṣṭha with his needs for the sacrifices," making the wish-cow the ground of the sacrificial economy
+- structurally-parallel-to: kalpavriksha | the wish-cow and the wish-tree — twin churning-born emblems of inexhaustible divine wish-fulfilment, paired products of the same Samudra-manthana

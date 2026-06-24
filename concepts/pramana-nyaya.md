@@ -64,3 +64,4 @@ Dignāga (~5th c. CE) argued perception should be purely non-conceptual (no word
 - structurally-parallel-to: atman-vedanta | both Nyāya and Vedānta defend permanent self against Buddhist anattā; shared realist commitment
 - structurally-parallel-to: aristotle-logic | both formulate the valid syllogism-analog (5-member avayava vs 3-term syllogism); both ground inference in necessary universal connection; historically distinct traditions, formally comparable structures
 - part-of: nyaya-sutra | the four-pramāṇa epistemology elaborated here is the first padārtha-cluster of Gautama's Nyāyasūtra, the root-text of the school
+- historically-influenced-by: vatsyayana | the four-pramāṇa scheme is terse in the sūtra; its working form — definitions, the analysis of perception and inference — was elaborated in Vātsyāyana's Nyāyabhāṣya, the earliest surviving commentary
