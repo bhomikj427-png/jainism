@@ -15,6 +15,36 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 > **🗂  Run-log rotation (token discipline, CLAUDE.md §7/§9).** Closed run-logs older than the current run live in **`progress-archive.md`** (append-only; git is the canonical history). This file keeps only the orientation header, the anchor text, and the **most recent activity** so startup stays cheap. When you finish a batch: append the new run-summary here, then move the *previously* newest run-log block into `progress-archive.md`. Full history: `progress-archive.md` or `git log`.
 
+## Batch 35 — churning-of-the-ocean cluster + darśana author-anchors + Neoplatonic/Greek depth (2026-06-26) — IN PROGRESS
+
+12 concepts, three clusters. All 12 filenames confirmed MISSING at start (dedup gate passed). Working serially (no scout agents this run).
+
+**Cluster A — darśana author/source anchors (3):**
+| # | concept | status | notes |
+|---|---|---|---|
+| 1 | prashastapada | pending | Vaiśeṣika; *Padārthadharmasaṃgraha*; pairs with kanada |
+| 2 | mandana-mishra | pending | Mīmāṃsā→Advaita bridge; Brahmasiddhi |
+| 3 | vindhyavasin | pending | Sāṃkhya teacher; alternate Yogabhāṣya attribution |
+
+**Cluster B — Neoplatonic/Greek depth (4):**
+| # | concept | status | notes |
+|---|---|---|---|
+| 4 | syrianus | pending | Proclus's teacher; the other henad-origin candidate |
+| 5 | theurgy | pending | ritual ascent as its own concept node |
+| 6 | damascius | pending | last Athenian scholarch; *Problems and Solutions* |
+| 7 | liber-de-causis | pending | Proclus-derived text into Islamic/Latin metaphysics |
+
+**Cluster C — Hindu churning cluster (5):**
+| # | concept | status | notes |
+|---|---|---|---|
+| 8 | samudra-manthana | pending | the churning episode itself (anchors existing prose refs) |
+| 9 | vasuki | pending | the churning-rope nāga, Kadrū's son |
+| 10 | kurma | pending | Viṣṇu's tortoise avatar — the churning-pivot |
+| 11 | amrita | pending | nectar of immortality — the churning's prize |
+| 12 | dhanvantari | pending | physician-god who rises with the amṛta |
+
+Existing files that reference these (future inbound de-orphan sources): kamadhenu, kalpavriksha, vinata, kadru, iamblichus, lakshmi, henosis, aruna, garuda, neoplatonism.
+
 ## Batch 34 — darśana root-text author-anchors + Hindu serpent/bird iconography + Neoplatonic depth (2026-06-24)
 
 ### Startup reconcile
