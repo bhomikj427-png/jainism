@@ -49,3 +49,4 @@ Two signals (a deity article + a tradition treatment grounded in a peer-reviewed
 - shares-vocabulary-with: kartikeya | Kārttikeya (Skanda/Murukaṉ), Śiva's war-god son, is born from Śiva's six sparks to slay Tārakāsura
 - shares-vocabulary-with: nandi | Nandi, Śiva's bull-mount and gatekeeper, is chief of his gaṇas and faces the liṅga in every Śaiva temple
 - shares-vocabulary-with: kala-bhairava | Kāla Bhairava is Śiva in his fierce, time-as-destroyer form — the skull-bearing Kāpālika manifestation and (in Kashmir Śaiva Trika) the supreme Bhairava-consciousness
+- shares-vocabulary-with: vasuki | Vāsuki, king of the nāgas (and the churning-cord), is the serpent coiled about Śiva's neck as his ornament

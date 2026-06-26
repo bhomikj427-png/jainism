@@ -32,6 +32,7 @@ Two authoritative independent reference works agree on dating, the scholarch rol
 ## Links
 
 - historically-influenced-by: plotinus | Proclus is the culminating systematizer of the Neoplatonism Plotinus founded — recasting emanation as an axiomatic deductive science in the *Elements of Theology*
+- historically-influenced-by: syrianus | Proclus's direct teacher and predecessor at the Athenian school; he built his system explicitly on Syrianus's lectures, systematizing (among much else) the henads Syrianus had introduced
 - part-of: neoplatonism | as scholarch of the Athenian Academy and author of its most systematic treatises, Proclus represents the school's mature, rigorously-articulated form
 - historically-influenced-by: plotinus-one | Proclus' henad-doctrine elaborates and modifies Plotinus' One: he interposes a rank of divine "henads" between the utterly transcendent One and multiplicity, keeping the One unparticipated and simple while letting the many participate in unity
 - structurally-parallel-to: porphyry | Porphyry and Proclus are the two great transmitters of Neoplatonism beyond antiquity — Proclus carrying the Athenian-school system into Christian (Pseudo-Dionysius) and Islamic (Liber de Causis) metaphysics, as Porphyry carried Aristotelian logic into the Latin West via the Isagoge

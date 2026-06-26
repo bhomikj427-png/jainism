@@ -53,3 +53,4 @@ Three signals with genuine topic overlap and independent sourcing (Wikipedia art
 - shares-vocabulary-with: shesha | Śeṣa (Ananta) is Viṣṇu's thousand-headed serpent-couch in the cosmic ocean, the substrate that remains at pralaya on which the reclining (anantaśāyana) god rests between world-cycles
 - shares-vocabulary-with: ramayana | the Rāmāyaṇa narrates Rāma, Viṣṇu's seventh avatāra; a foundational Vaiṣṇava devotional text
 - shares-vocabulary-with: garuda | Garuḍa is Viṣṇu's own eagle-mount (vāhana) and banner-emblem — the bird that carries the god, paralleling Nandi for Śiva
+- shares-vocabulary-with: kurma | Kūrma, the tortoise that bears Mount Mandara in the churning, is Viṣṇu's second avatāra (a Vedic Prajāpati-tortoise reattributed to Viṣṇu)

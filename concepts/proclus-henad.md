@@ -37,3 +37,4 @@ Two distinct SEP entries agree on the function and independently confirm that th
 - part-of: neoplatonism | the henads are a structural level introduced in late (Athenian) Neoplatonic metaphysics
 - historically-influenced-by: plotinus-one | the henads exist precisely to mediate the procession *from* the One, keeping it unparticipated and simple while letting the many participate in unity
 - historically-influenced-by: iamblichus | one candidate origin of the doctrine (from Iamblichus's "law of mean terms") — contested against a Syrianus origin; recorded, not asserted as settled
+- historically-influenced-by: syrianus | the **other** (and, per SEP, likelier) candidate origin: the henads were "probably introduced by Syrianus himself and later elaborated by Proclus" — the contested origin now resolves to a node

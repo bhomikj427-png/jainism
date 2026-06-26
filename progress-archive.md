@@ -2467,3 +2467,68 @@ Chapters are NOT graph nodes — `build_graph.py` ignores `chapters/`. Corpus un
 A standing **`## Chapter roadmap`** table (Ch 14–20) was added to **`chapters/INDEX.md`**; a fresh session should pick the lowest-numbered `planned` row there. Ch 14 = **Greek & Hellenistic Foundation** (`comparanda/`). Subsequent planned: 15 Sāṃkhya & Yoga, 16 Nyāya & Vaiśeṣika, 17 Mīmāṃsā & Cārvāka (all `hindu/darsana/`), 18 Hindu Deities (`hindu/devotional/`), 19 Hindu Epics & Scripture (`hindu/scripture/`), 20 Buddhist Scholastics & Logicians (`buddhist/`). All listed concepts already exist as nodes — chapters add no graph nodes.
 
 ---
+
+---
+
+## Batch 34 — darśana root-text author-anchors + Hindu serpent/bird iconography + Neoplatonic depth (2026-06-24)
+
+### Startup reconcile
+- Batches 1–33 + Ch-13 chapter run fully committed. Audit CLEAN at start: 251 nodes, 1491 edges, 0 orphans, 0 stubs. Working tree clean — no interrupted draft.
+- Ran in **parallel-research mode** (user request: "run 3–5 agents to fish for concepts"): **4 read-only scout agents** gathered §4 signal bundles for disjoint key-sets; all writing, dedup gating, and commits done **serially** in the main session. Parallelism confined to the safe (research) half — the dedup gate and one-commit-per-concept invariants stayed intact, the graph never forked.
+- All 15 candidate filenames confirmed missing before writing; `vyasa` already existed → dropped from the pool (new nodes link to it instead).
+
+### Batch 34 concepts (plan) — 15 concepts, three clusters
+
+**Cluster A — darśana root-text author/source anchors (5):**
+
+| # | concept | status | conf | notes |
+|---|---|---|---|---|
+| 1 | kanada | done | medium | founder of Vaiśeṣika; expressed-by vaiseshika-sutra |
+| 2 | jaimini | done | medium | author of Mīmāṃsā Sūtra; expressed-by mimamsa-sutra |
+| 3 | badarayana | done | medium | author of Brahma Sūtra; **contested** — Bādarāyaṇa=Vyāsa identity |
+| 4 | vatsyayana | done | **high** | author of Nyāya-Bhāṣya; ≠ Kāmasūtra Vātsyāyana |
+| 5 | vyasa-yogabhasya | done | **low** | Yogabhāṣya author; **contested** — authorship (Maas: =Patañjali) |
+
+**Cluster B — Neoplatonic depth (4):**
+
+| # | concept | status | conf | notes |
+|---|---|---|---|---|
+| 6 | iamblichus | done | high | theurgy; the contemplation-vs-ritual break with Porphyry |
+| 7 | psyche-neoplatonic | done | high | Soul, the third hypostasis; ≠ modern psyche / jīva / Brahman |
+| 8 | proclus-henad | done | medium | the henads; mediating the One; origin contested (Iamblichus/Syrianus) |
+| 9 | ammonius-saccas | **blocked** | low | Plotinus' teacher; wrote nothing, doctrine unattested |
+
+**Cluster C — Hindu serpent/bird iconography + wish-objects (6):**
+
+| # | concept | status | conf | notes |
+|---|---|---|---|---|
+| 10 | jatayu | done | medium | Rāmāyaṇa vulture-demigod; dies fighting Rāvaṇa for Sītā |
+| 11 | sampati | done | medium | elder vulture brother; locates Sītā on Laṅkā |
+| 12 | kadru | done | medium | serpent-mother of the nāgas; co-wife rival of Vinatā |
+| 13 | vinata | done | medium | mother of Garuḍa & Aruṇa; bird-line rival of Kadrū |
+| 14 | shesha | done | **high** | cosmic serpent Śeṣa/Ananta; the remainder at pralaya (ananta = alias, NOT a separate node) |
+| 15 | kalpavriksha | done | medium | wish-fulfilling tree of the churning; parallels Kāmadhenu |
+
+## Run log — Batch 34 (2026-06-24)
+
+### Concepts completed: 15 / 15 (1 blocked, 2 contested, 0 needs-opus-review)
+Author-anchor payoff again: each darśana-author node gives a reverse-only root-text node a correctly-directed `expressed-by` inbound (kanada→vaiseshika-sutra, jaimini→mimamsa-sutra, badarayana→brahma-sutra). Neoplatonic depth completes the One→Nous→Soul triad (psyche-neoplatonic) and adds the henad/theurgy layer. Cluster C completes the Aruṇa/Vinatā/Kadrū avian-serpent family and the churning wish-objects.
+
+### Prime-directive / honest-divergence findings recorded (not smoothed over)
+- **badarayana** `contested`: authorship of the Brahma Sūtra converged, but the **Bādarāyaṇa = Veda-Vyāsa** identification is a later (8th–9th c.) overlay flagged as anachronism — mapped as a divergence table, drawn `often-conflated-with-NOT-equivalent → vyasa`.
+- **vyasa-yogabhasya** `contested`/low: the modern single-author thesis (sūtra+bhāṣya = one *Pātañjalayogaśāstra* by Patañjali) traces to **one scholar (Maas)** reported by many — the §4 independence trap; confidence capped low. The "Vyāsa" ≠ legendary Mahābhārata Vyāsa (later honorific overlay).
+- **ammonius-saccas** `blocked`: wrote nothing + "pledge of silence" ⇒ no doctrine to gloss; Christian-vs-pagan and "two Ammonii" both irreducibly contested; only tertiary modern sources exist (no SEP entry). Committed blocked with the absence recorded as the finding.
+- **vatsyayana**: name-collision with **Vātsyāyana Mallanāga** (Kāmasūtra author) taught in prose, single node (the patanjali-grammarian precedent) — any future Kāmasūtra node must take a disambiguating key.
+- **shesha/ananta**: resolved to **one node** (every source treats Ananta as an epithet, not a distinct being); ananta recorded as a verified alias, no `ananta.md` minted. The *śeṣa* = "remainder at pralaya" doctrine recorded precisely, NOT as a cosmological-physics claim.
+- **kanada**: the *paramāṇu* atomism guardrail noted in-file — the "ancient Indian atom = modern physics" conflation belongs on the paramanu node, not the author file.
+- Genuine source disagreements surfaced per §4: darśana-author **datings** all left as wide ranges (Kaṇāda, Jaimini, Vātsyāyana); proclus-henad **origin** (Iamblichus vs Syrianus); Jaṭāyu/Sampāti **genealogy** (encyclopedic "Śyenī as mother" vs Vālmīki's "Śyenī a distant ancestress, Aruṇa the father").
+
+### De-orphan inbounds relocated into existing hubs (§5 forward-only / symmetric-where-apt; no mechanical mirroring beyond the established de-orphan practice)
+`kumarila-bhatta → historically-influenced-by → jaimini` · `gautama-aksapada → structurally-parallel-to → kanada` (sym) · `pramana-nyaya → historically-influenced-by → vatsyayana` · `proclus → expressed-by → proclus-henad` (replacing `part-of: proclus` in the henad file to avoid a bidirectional-directional defect) · `plotinus → expressed-by → psyche-neoplatonic` · `vishnu → shares-vocabulary-with → shesha` (sym) · `kamadhenu → structurally-parallel-to → kalpavriksha` (sym) · `vyasa → often-conflated-with-NOT-equivalent → vyasa-yogabhasya`. The 8 within-cluster nodes (jatayu↔sampati, kadru↔vinata, iamblichus, badarayana) self-anchored via their cluster edges.
+
+### Audits (deterministic, via build_graph audit_graph + find_duplicates.py)
+- **CLEAN**: dangling stubs NONE, orphans NONE, bidirectional-directional edges NONE, forbidden hier+similarity combos NONE.
+- `find_duplicates.py`: 0 hard-collision groups. The `व्यास` DEVANAGARI flag (vyasa / vyasa-yogabhasya) is the **intended** tradition/identity split — carries the required `often-conflated-with-NOT-equivalent` edge, so the map teaches the distinction rather than forking.
+- Graph regenerated: **251 → 266 nodes, 1491 → 1541 edges**. `graph.svg` re-rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`; `graph.dot`/`graph.html`/`index.md`/`MANIFEST.tsv` refreshed (manifest in sync).
+
+### Corpus milestone: 266 concepts across 34 batches. 0 orphans. 0 unwritten stubs. Audit CLEAN.

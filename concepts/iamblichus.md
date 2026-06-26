@@ -31,3 +31,4 @@ Two independently-authored SEP entries agree on the core doctrine → **converge
 - part-of: neoplatonism | Iamblichus is a central figure of the later, post-Plotinian Neoplatonist tradition, founder of the Apamean school
 - historically-influenced-by: porphyry | studied under Porphyry — but broke with him, replacing Porphyry's intellectualist contemplation with theurgic ritual as the means of ascent (the *Reply to Porphyry* is the critique)
 - historically-influenced-by: plotinus | inherits the One–Nous–Soul framework while rejecting the Plotinian "undescended soul," holding the human soul fully descended into body
+- formalizes: theurgy | Iamblichus gives theurgy its systematic philosophical articulation (*De mysteriis*) — ritual, not contemplation alone, as the ascent of the fully-descended soul

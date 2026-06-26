@@ -43,3 +43,4 @@ The two are independent (a peer-reviewed philosophy encyclopedia and a reference
 - often-conflated-with-NOT-equivalent: sunyata | Advaita's māyāvāda and apophatic nirguṇa Brahman drew the "crypto-Buddhist" charge, but Brahman is a positive permanent reality (sat-cit-ānanda) while śūnyatā denies any self-existent substrate — appearance-of-an-absolute vs emptiness-of-all-svabhāva
 - expressed-by: vivartavada | vivartavāda ("appearance-only" causation) is the Advaita causal theory — Brahman appears to transform without really doing so
 - expressed-by: jnana-marga | jñāna-mārga (path of knowledge) is the soteriological method Advaita prioritises; mokṣa = epistemic shift via śravaṇa/manana/nididhyāsana
+- shares-vocabulary-with: mandana-mishra | Maṇḍana Miśra's Brahmasiddhi is a foundational Advaita treatise — though his locus-of-avidyā doctrine differs from Śaṅkara's, and his identity with Sureśvara is contested
