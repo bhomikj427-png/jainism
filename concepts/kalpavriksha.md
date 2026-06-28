@@ -31,3 +31,5 @@ Two encyclopedic refs independently place it among the churning-products, with t
 
 - structurally-parallel-to: kamadhenu | both are wish-granting products of the same Samudra-Manthana — the wish-tree and the wish-cow, twin emblems of inexhaustible divine abundance
 - shares-vocabulary-with: lakshmi | belongs to the same churning ratna-cluster as Lakṣmī, the pre-eminent product of the Samudra-Manthana
+- shares-vocabulary-with: parijata | co-member of the five celestial trees (pañca-vṛkṣa) of Indra's garden, both born of the churning
+- often-conflated-with-NOT-equivalent: parijata | Pārijāta is popularly called "the Kalpavṛkṣa," but in the five-trees list they are distinct named members — the class-name vs the specific sibling-tree
