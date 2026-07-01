@@ -8,6 +8,12 @@
 #   hindu/devotional/ — deities, vāhanas, iconography, bhakti, the Śaiva/Vaiṣṇava/Śākta families
 #   hindu/scripture/  — epics and canonical texts (Vedas, Upaniṣads, Mahābhārata, Rāmāyaṇa, Gītā, root sūtras)
 
+> **📖 THIRD TRACK — Translation Reading-Room** (separate from chapters below): word-by-word sourced translations
+> of Jain texts (Tattvārtha Sūtra, Bhaktāmar Stotra, …) live under `chapters/jain/translations/`. Its own driver +
+> work queue is **[chapters/jain/translations/INDEX.md](jain/translations/INDEX.md)**. If the user says
+> **"build the next translation" / "build the next thing"**, go there and take the lowest-numbered `pending` unit.
+> This is NOT a chapter and NOT a batch — it's a primary-source reading room with a strict no-original-translation firewall.
+
 | chapter | file | primary concepts | status |
 |---|---|---|---|
 | 01 Jain Ontology | [jain/01-jain-ontology.md](jain/01-jain-ontology.md) | sat · dravya · paryāya · pudgala · paramāṇu · skandha | drafted |
