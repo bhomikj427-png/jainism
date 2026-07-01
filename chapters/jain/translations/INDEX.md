@@ -20,8 +20,18 @@ Fine — but the method has a hard firewall, and violating it defeats the whole 
   into the disambiguation.** For devotional/poetic texts this box is almost always **N/A** — and that is correct; we do
   not hunt for physics in a praise-hymn.
 - If a word can't be sourced to a published lexicon, **flag it — do not invent a gloss.**
-- Both recensions matter: **Digambara** (Pūjyapāda's *Sarvārthasiddhi*, ~357 sūtras) vs **Śvetāmbara** (Umāsvāti's
-  *Svopajña-bhāṣya*, ~344 sūtras) differ in numbering and some readings. Record divergence, don't smooth it.
+- **Both recensions carry EQUAL weight — NO spine, neither is primary.** **Digambara** (Pūjyapāda's
+  *Sarvārthasiddhi*, ~357 sūtras) and **Śvetāmbara** (Umāsvāti's *Svopajña-bhāṣya*, ~344 sūtras) differ in numbering,
+  some wording, and some commentary. Handling:
+  - **Where they agree** (common case): present the text **once** under a neutral **"Both recensions"** heading —
+    and state that they agree. No duplicating identical Sanskrit.
+  - **Where they diverge** (wording, numbering, or commentary): show a **side-by-side comparison** — two equal,
+    clearly-labelled `Digambara | Śvetāmbara` columns of the same depth. Neither demoted to a footnote.
+    Divergence is the point; make it loud, never smooth it away.
+  - **Walk-order (mechanical, NOT priority):** iterate one concordance sequence and **print both numbers on every
+    entry** (`Dig. 5.1 / Śvet. 5.1`); where the numbering itself forks (one recension splits/combines a sūtra the
+    other doesn't), record that fork as a divergence row. State in-file that this ordering is a table-of-contents
+    choice, not favoritism.
 
 ## §B Sourcing bar (per unit — same discipline as §4 of the charter)
 
@@ -35,13 +45,25 @@ Fine — but the method has a hard firewall, and violating it defeats the whole 
 ## §C File format — per verse/sūtra (copy this skeleton)
 
 Doctrinal and devotional share the skeleton; devotional adds **Meter** and defaults **Modern comparison** to N/A.
+Recension handling is equal-weight (§A): **collapse when identical, side-by-side table when divergent.**
 
 ```
-## <ref, e.g. TS 5.1>   |   <recension used>
+## <ref — print BOTH numbers, e.g. TS Dig. 5.1 / Śvet. 5.1>
 
-**Text (IAST):** <from cited edition>
+**Recension status:** <"Both recensions identical" | "DIVERGENT — see side-by-side below">
+
+--- if IDENTICAL: one neutral block ---
+**Text — Both recensions (IAST):** <from cited edition>
 **Devanāgarī:** <only if verified from a source; omit otherwise>
 **Meter:** <devotional only — e.g. Vasantatilakā>
+
+--- if DIVERGENT: side-by-side, equal columns ---
+| aspect | Digambara (Sarvārthasiddhi) | Śvetāmbara (Umāsvāti bhāṣya) |
+|--------|-----------------------------|------------------------------|
+| number | Dig. 5._ | Śvet. 5._ |
+| text (IAST) | ... | ... |
+| key gloss / commentary | ... (cited) | ... (cited) |
+| what it commits you to | ... | ... |
 
 **Padaccheda — word-split & lexical range** (each row cited to a published lexicon/word-index):
 | word | grammatical form | attested meaning-range | lexical source |
