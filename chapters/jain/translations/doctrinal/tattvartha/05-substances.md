@@ -12,11 +12,11 @@ the document); Monier-Williams *Sanskrit-English Dictionary* (via Cologne Digita
 wisdomlib.org). **Three genuinely independent translations** now compared — confidence on the translation
 panel is **high**: all three converge on the doctrinal sense, and Tatia's wording diverges just enough from
 the other two (see comparison below) to confirm they are not silently copying one another.
-**Status:** in-progress (this file currently covers Dig. 5.1–5.32 / Śvet. 5.1–5.31; three numbering forks
-resolved — the 5.2–5.3 merge, the 5.8 split, and the 5.29–5.30 merge, the last introducing a standing +1
-Dig.-over-Śvet. offset; remainder of the chapter, Dig. 5.33–5.42 / Śvet. 5.32–5.41 — including a genuine
-SS-vs-SBT numerical divergence on atomic bonding and two Dig./Śvet. content-variant sūtras — still pending,
-continues work-queue unit #3).
+**Status:** drafted — complete (Dig. 5.1–5.42 / Śvet. 5.1–5.41, all sūtras of Adhyāya 5). Five structural
+numbering forks found and resolved (two merges, one split — see the chapter-end summary table below for the
+full census); two further Dig./Śvet. content-variant sūtras (different wording, not just numbering) at
+5.37/5.36 and 5.39/5.38; one genuine SS-vs-SBT commentarial divergence on atomic-bonding combinatorics at
+5.36/5.35. Work-queue unit #3 complete.
 
 ---
 
@@ -1458,14 +1458,563 @@ cross-referenced from the concept-batch side (out of scope for this track itself
 
 ---
 
-**Status of this file (interim):** sūtras 5.1–5.32 (Digambara) / 5.1–5.31 (Śvetāmbara) drafted. **Three
-numbering forks now fully resolved and documented:** the 5.2–5.3/Śvet.5.2 merge, the 5.8/Śvet.5.7–5.8 split
-(these two exactly cancel, per the 5.9 note above), and the 5.29–5.30/Śvet.5.29 merge (which introduces a
-standing **+1 offset**, Dig. = Śvet. + 1, for the rest of the chapter). **Two further Dig./Śvet. content-variant
-forks are confirmed in the sources** (not mere renumbering — genuinely different sūtra wording at the same
-structural position) at what will be Dig. 5.37/Śvet. 5.36 (atomic-bonding transformation rule) and Dig.
-5.39/Śvet. 5.38 (whether kāla-as-substance is asserted flatly or attributed to "some teachers"), plus a
-**genuine SS-vs-SBT numerical divergence** on which atoms can integrate (Tatia gives two full comparison tables
-for this) — both still `pending`, continuing work-queue unit #3. Remaining content: the atomic-bonding rules
-(Dig. 5.33–5.39 / Śvet. 5.32–5.38), and substance/quality/mode definitions plus time's infinitude closing the
-chapter (Dig. 5.40–5.42 / Śvet. 5.39–5.41).
+## TS Dig. 5.33 / Śvet. 5.32 — the bonding mechanism: viscosity and dryness
+
+**Recension status:** Both recensions identical in content; numbering offset carried forward (Dig. 5.33 = Śvet.
+5.32).
+
+**Text (IAST):** snigdharūkṣatvād bandhaḥ || Dig. 5.33 / Śvet. 5.32 ||
+**Devanāgarī:** स्निग्धरूक्षत्वाद्बन्धः ॥ ५.३३ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| snigdha | adj. | "sticky, viscous or viscid, glutinous, unctuous, smooth, oily, greasy" — a rich general-Sanskrit range; the Jain-technical layer is not a new *sense* but a new **graded numeric scale** (degrees 1 through infinite) laid on top of the plain adjective, supplied by the commentary, not the dictionary | MW, s.v. *snigdha* |
+| rūkṣa | adj. | "rough, dry, arid... harsh, unkind" — same pattern: plain sense correct, graded degree-scale is commentarial | MW, s.v. *rūkṣa* |
+| bandha | as at 5.24 | "binding, union, combination" (the physical-integration sense, not the karmic-bondage sense) | MW, s.v. *bandha* |
+
+**Disambiguation (from commentary):** Both key words carry their correct general Sanskrit senses — no sense-gap
+here, unlike *avagāha* or *pradeśa* earlier. What the dictionary cannot supply is the doctrinal apparatus the
+next four sūtras build on it: viscosity and dryness are graded, in the commentary, on the same three-tier scale
+already met for *asaṃkhyeya* at 5.8 (through numerable, innumerable, up toward — though not literally reaching,
+for a single atom's quality-intensity — infinite), and it is differences of *degree* on this graded scale,
+not the mere presence or absence of viscosity/dryness, that the following rules (5.34–5.37) actually turn on.
+Sarvārthasiddhi supplies concrete illustrative cases: water, milk, and ghee for high viscosity; dust, ash, and
+sand for high dryness.
+
+**Assembled reading:** Atoms bond with one another specifically by virtue of their tactile qualities of
+viscosity (*snigdha*) or dryness (*rūkṣa*) — the mechanical cause of all matter-integration named generally at
+5.26, now given its specific physical basis, to be qualified by exclusionary rules in the sūtras immediately
+following.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: *not separately excerpted by the jainworld mirror for this stretch — see the summary block
+  cited below, which paraphrases 5.33–5.37 collectively rather than sūtra-by-sūtra* (flagged as a genuine
+  coverage gap in this source for this specific run, not a translation disagreement).
+- Vijay K. Jain/wisdomlib: "Combination of atoms takes place by virtue of their greasiness (snigdhatva) and
+  roughness (rūkṣatva)."
+- Tatia, p. 139 (Śvet. 5.32, cross-ref. "SS 5.33"): "The integration of atoms is due to their tactile qualities
+  of viscosity and dryness." Both sources that give a full sentence converge exactly; no disagreement.
+
+**Modern comparison:** N/A. (A "like poles repel, opposite/differential attraction" framing is superficially
+evocative of physical bonding forces, but no sourced comparison of this kind was found for this sūtra — not
+asserted without a citation.)
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084787; jainworld.com chapter-5 page (collective paraphrase only, see note above);
+Tatia (1994) p. 139–140 (OCR line ~10345); MW as above.
+
+---
+
+## TS Dig. 5.34 / Śvet. 5.33 — the lowest-degree exclusion
+
+**Recension status:** Both recensions identical in content; numbering offset carried forward (Dig. 5.34 = Śvet.
+5.33).
+
+**Text (IAST):** na jaghanyaguṇānām || Dig. 5.34 / Śvet. 5.33 ||
+**Devanāgarī:** न जघन्यगुणानाम् ॥ ५.३४ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| jaghanya | adj. (superlative-type formation) | "last, lowest, worst, vilest, meanest" | MW, s.v. *jaghanya* |
+| guṇa | as at 5.1 (general sense); here specifically the graded viscosity/dryness intensity of 5.33 | "a quality, peculiarity, attribute, property" | MW, s.v. *guṇa* |
+
+**Disambiguation (from commentary):** Sarvārthasiddhi states the exclusion in its strongest form: an atom
+possessing the **minimum** (one-degree) intensity of either viscosity or dryness cannot bond under **any**
+circumstance — not with another one-degree atom, not with a higher-degree atom of the same quality, not with any
+degree of the opposite quality. This is confirmed independently by Vijay K. Jain's mirror of the same
+commentary and by Tatia's own note, both converging on a categorical (not merely typical) exclusion. This
+sūtra's scope becomes important below (5.36), where the Śvetāmbara bhāṣya tradition (per Tatia) is reported as
+drawing a narrower version of the same exclusion than Sarvārthasiddhi does — the first thread of the larger
+contested-table divergence documented at 5.36.
+
+**Assembled reading:** Atoms at the lowest (one-degree) intensity of viscosity or dryness never bond with
+anything, regardless of the other atom's quality or degree.
+
+**Published translations (comparison only):**
+- Vijay K. Jain/wisdomlib: "Combination does not take place between atoms of the lowest degrees of the two
+  attributes."
+- Tatia, p. 140 (Śvet. 5.33, cross-ref. "SS 5.34"): "There cannot be integration of atoms that possess the
+  minimum one degree of viscosity or dryness." His note adds the explicit report that "the SBT also points out
+  the implication that a one-degree atom can integrate with a two-degree atom of a different quality," which
+  Tatia states "is rejected categorically by the SS" — an explicit, named tradition-vs-tradition disagreement
+  reported directly by the source itself (not inferred), the first concrete instance of the larger divergence
+  developed fully at 5.36.
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084788; Tatia (1994) p. 140 (OCR line ~10360); MW as above.
+
+---
+
+## TS Dig. 5.35 / Śvet. 5.34 — the equal-degree exclusion
+
+**Recension status:** Both recensions identical in content; numbering offset carried forward (Dig. 5.35 = Śvet.
+5.34).
+
+**Text (IAST):** guṇasāmye sadṛśānām || Dig. 5.35 / Śvet. 5.34 ||
+**Devanāgarī:** गुणसाम्ये सदृशानाम् ॥ ५.३५ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| guṇasāmya | compound, locative *-e*, "in equality of quality/degree" | *sāmya*: "equality, sameness, similarity, uniformity" | MW, s.v. *sāmya* |
+| sadṛśa | adj., genitive pl. *-ānām* | "like, resembling, similar, corresponding" | MW, s.v. *sadṛśa* |
+
+**Disambiguation (from commentary):** A second exclusion, distinct from 5.34's lowest-degree rule: two atoms at
+the **same** intensity-degree as each other cannot bond, regardless of whether that shared degree is high or
+low — Tatia's note supplies the tradition's own didactic simile, comparing this to two equally-matched
+wrestlers, neither of whom can throw the other. Sarvārthasiddhi (per Vijay K. Jain) reads *sadṛśa* narrowly as
+"of the same quality" (both viscous, or both dry) at equal degree; Tatia reports the Śvetāmbara bhāṣya tradition
+reading it more broadly, to also exclude equal-degree bonding **across** qualities (a one-degree-viscous atom
+and a one-degree-dry atom) — a second thread of the same wider divergence, not yet the full contested table
+(which arrives at 5.36).
+
+**Assembled reading:** Atoms at exactly the same degree of intensity cannot bond with each other — bonding
+across the board requires some difference of degree, the precise minimum size of which is fixed by the next
+sūtra.
+
+**Published translations (comparison only):**
+- Vijay K. Jain/wisdomlib: "There is no combination between atoms of the equal degrees of the same attribute."
+- Tatia, p. 140 (Śvet. 5.34, cross-ref. "SS 5.35"): "Atoms which have the same degree of viscosity or same degree
+  of dryness cannot integrate," his note adding "the SBT also rejects the view that a one-degree atom can
+  integrate with a two-degree atom of the same quality" — read alongside 5.34's note, this confirms the SBT
+  position is, if anything, *more* restrictive than a surface reading of the base sūtra alone would suggest, not
+  less; the SS/SBT divergence is not simply "one tradition is stricter across the board" but varies rule by
+  rule, which is exactly why the full comparison table at 5.36 is needed rather than a one-line summary.
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084789; Tatia (1994) p. 140 (OCR line ~10375); MW as above.
+
+---
+
+## TS Dig. 5.36 / Śvet. 5.35 — the two-degree-gap rule, and the contested integration tables
+
+**Recension status:** Both recensions identical in *sūtra* wording and number (Dig. 5.36 = Śvet. 5.35, offset
+carried forward) — but this is the sūtra under which Tatia's translator apparatus attaches a **genuine
+commentarial divergence**, not a wording or numbering fork of the base text itself: the *Sarvārthasiddhi* (SS,
+Digambara) and the *Śvetāmbara Bhāṣya Tradition* (SBT, as Tatia labels it) are reported to disagree on exactly
+which combinations of degree-difference and quality-match permit bonding. This is presented as a genuine
+**CONTESTED** comparison (CLAUDE.md §2), not smoothed into a single rule.
+
+**Text (IAST):** dvyadhikādiguṇānāṃ tu || Dig. 5.36 / Śvet. 5.35 ||
+**Devanāgarī:** द्वयधिकादिगुणानां तु ॥ ५.३६ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| dvi-adhika | compound, "exceeding/greater by two" | *dvi* "two"; *adhika* "additional, exceeding, superior, more than" | MW, s.v. *adhika* |
+| tu | particle | "but, on the other hand" — marks this sūtra as the qualifying exception to 5.34–5.35's blanket exclusions | MW, s.v. *tu* |
+
+**Disambiguation (from commentary) — base rule, both traditions agree on this much:** two atoms whose viscosity
+or dryness differs by **two or more degrees** can bond — this is the base permissive rule the two preceding
+exclusionary sūtras (5.34 lowest-degree; 5.35 equal-degree) carve their exceptions out of. Where the traditions
+diverge is on the *finer* combinatorics of exactly which same-vs-different-quality, degree-gap-size
+combinations are and are not permitted. Tatia (p. 140–141) reproduces two full comparison tables, sourced to
+"the three commentators" (i.e. distinguishing SB, SBT, and SS positions, with SB and SBT grouped together as
+agreeing with each other against SS):
+
+| degree relationship | SAME quality (SB/SBT) | DIFFERENT quality (SB/SBT) | SAME quality (SS) | DIFFERENT quality (SS) |
+|---|---|---|---|---|
+| 1 + 1 | No | No | No | No |
+| 1 + 2 | No | Yes | No | No |
+| 1 + 3 | Yes | No | No | No |
+| 1 + (3 or more) | Yes | Yes | No | No |
+| 2-or-more + equal | No | Yes | No | No |
+| 2-or-more + 1 degree higher | No | Yes | No | No |
+| 2-or-more + 2 degrees higher | Yes | Yes | Yes | Yes |
+| 2-or-more + (3-or-more) degrees higher | Yes | Yes | No | No |
+
+**A caveat on confidence, stated plainly rather than smoothed over:** this table is reproduced from a single
+source (Tatia's translator apparatus, itself synthesizing SB/SBT/SS), retrieved via a locally-grepped OCR scan
+of an archive.org text — numeric tables are exactly the kind of content OCR most reliably corrupts (unlike
+running prose, where a garbled word is usually still legible from context), and this table could not be
+independently cross-checked cell-by-cell against a second source, since wisdomlib's mirror of Vijay K. Jain
+covers only the Digambara/SS side and gives it in prose ("integration occurs...if their intensity differs by
+exactly two degrees," without breaking out the same/different-quality sub-cases as a table). What **is**
+independently confirmed, by both the wisdomlib/SS prose and Tatia's own running commentary at 5.34–5.35 (not
+just this table), is the qualitative headline finding: **SS is the more restrictive of the two traditions**,
+permitting bonding in essentially one narrow band (exactly a two-degree gap, either same or different quality)
+and excluding it everywhere else, including — notably — at very large degree gaps (3-or-more), where SB/SBT
+permit bonding but SS, per this table, does not. That specific asymmetry (SS excludes *large* gaps that SB/SBT
+allow) is a striking, doctrinally load-bearing claim in its own right, independent of whatever residual OCR
+uncertainty remains in the table's individual small-gap cells.
+
+**Assembled reading:** Atoms bond when their viscosity/dryness degrees differ by two or more (the shared base
+rule) — but the two commentarial traditions disagree, in ways only partially resolvable from the sources
+consulted here, about exactly which same-quality/different-quality and degree-gap combinations within and
+beyond that band actually qualify; Sarvārthasiddhi's version is markedly narrower than the Śvetāmbara bhāṣya
+tradition's, on both ends of the scale.
+
+**Published translations (comparison only):**
+- Vijay K. Jain/wisdomlib (SS side, prose only): "There are innumerable... [combination] between atoms of the
+  medium of motion... [sic — this doc's snippet]"; more precisely, per the fetched summary: "integration occurs
+  when their greasiness or roughness properties differ by exactly two degrees... with the exception of the
+  lowest degree mentioned in verse 5.34."
+- Tatia, p. 140–141 (Śvet. 5.35, cross-ref. "SS 5.36"): "Two viscous or two dry atoms can integrate if the
+  viscosity or dryness of one is two or more degrees higher than the other," with the two comparison tables
+  above attached as commentary rather than as part of the base sūtra's own translation — the sūtra-level
+  translation itself is not in dispute; the dispute is entirely at the commentarial-elaboration layer.
+
+**Modern comparison:** N/A — a scholastic quantitative rule-system, not a physics claim, though the underlying
+concern (precise numeric conditions for particle bonding) is structurally the kind of question atomic/molecular
+bonding theory also asks; no sourced comparison making that link explicitly was found, so none is asserted.
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084790; Tatia (1994) p. 140–141 (OCR lines ~10380–10440, including the two
+tables); MW as above.
+
+---
+
+## TS Dig. 5.37 vs Śvet. 5.36 — CONTENT VARIANT (not a numbering fork): who transforms whom
+
+**Recension status:** DIVERGENT in **wording**, not merely in number — a different kind of fork from the merges
+and splits already documented. Tatia's own Śvetāmbara mula text supplies its own sūtra here, explicitly labelled
+"(not SS)" — i.e. absent from the Digambara Sarvārthasiddhi text in this form — and then separately quotes the
+actual Digambara SS sūtra as a "variant." Confirmed independently: wisdomlib's mirror of Vijay K. Jain (Dig.,
+doc1084791) gives only the SS wording, with no Śvetāmbara-variant sūtra alongside it, matching Tatia's own
+"(not SS)" flag from the other direction.
+
+| aspect | Śvetāmbara (Tatia's own numbered mūla) | Digambara (Sarvārthasiddhi, "variant" per Tatia) |
+|--------|------------------------------------------|-----------------------------------------------------|
+| number | Śvet. 5.36 | Dig. 5.37 |
+| text (IAST) | *bandhe samādhikau pariṇāmikau* | *bandhe 'dhikau pāriṇāmikau ca* |
+| Devanāgarī | (Tatia romanized only) | बन्धेऽधिको पारिणामिकौ च ॥ ५.३७ ॥ |
+| literal difference | *sam-adhika* — "equal-**or**-higher" | *adhika* alone — "higher" (without the "equal-or" qualifier) |
+| what the wording commits you to | When two dissimilar atoms bond, the atom with the **equal-or-higher** degree transforms the other atom's intensity to match its own. | When two atoms bond, the atom with the (simply) **higher** degree transforms the other's intensity to match its own — no separate provision for the equal-degree case. |
+
+**Padaccheda (new word only):**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| pariṇāmika / pāriṇāmika | adjectival derivative of *pariṇāma* (as at 5.22) | "relating to transformation/change" | MW, s.v. *pariṇāma* (derivative) |
+
+**Disambiguation (from commentary):** Tatia's own note on his 5.36 explains the practical difference directly:
+under the Śvetāmbara wording, when two dissimilar (differing-quality) atoms happen to share the *same* intensity
+degree, one of them still transforms the other to its own quality — "it is not possible to predict which will
+transform the other," his note adds, an openly acknowledged indeterminacy the sūtra's wording is built to cover.
+The Digambara SS wording, lacking the "equal-or" qualifier, does not appear (on its face) to legislate for that
+same-degree case at all — Sarvārthasiddhi's own gloss (per wisdomlib) instead describes only the straightforward
+case of a strictly higher-degree atom transforming a lower one, using the simile of treacle spreading its
+sweetness through dust. Neither source consulted this pass states explicitly *why* the traditions differ on
+whether the equal-degree case needs its own rule — this is recorded as an open, genuine textual divergence, not
+resolved by inference.
+
+**Assembled reading:** Both traditions agree that in atomic bonding, the atom with the greater intensity-degree
+transforms the lesser one to match it (an assimilation, not a mere juxtaposition) — but the Śvetāmbara mūla text
+additionally legislates for the edge case of two dissimilar-quality atoms bonding at *equal* degree, while the
+Digambara Sarvārthasiddhi wording, as given, does not extend to that case in the same terms.
+
+**Published translations (comparison only):**
+- Tatia, p. 141 (his own 5.36, "not SS"): "In integration, the atom with the equal or higher degree of viscosity
+  or dryness transforms the intensity of the dissimilar atom to its own."
+- Tatia, p. 141, reporting the SS variant (his "(SS 5.37, variant of 5.36)"): "In integration, the atom with
+  greater degree of intensity transforms the intensity of the atom which is two degrees less to be like itself."
+  *(Note: Tatia's own gloss of the SS variant here specifies "two degrees less," tightening the comparison
+  further — consistent with SS's generally narrower two-degree-band rule already documented at 5.36 above,
+  rather than a bare "higher.")*
+- Vijay K. Jain/wisdomlib (Dig., doc1084791): "In the process of combination, the atom with higher degree of the
+  attribute transforms the other," with the commentary's own simile of treacle spreading through dust —
+  independently confirms the SS-side wording and sense, without the Śvetāmbara equal-degree provision.
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084791; Tatia (1994) p. 141 (OCR lines ~10445–10460); MW as above.
+
+---
+
+## TS Dig. 5.38 / Śvet. 5.37 — substance defined by quality and mode
+
+**Recension status:** Both recensions identical in content; numbering offset carried forward (Dig. 5.38 = Śvet.
+5.37).
+
+**Text (IAST):** guṇaparyāyavad dravyam || Dig. 5.38 / Śvet. 5.37 ||
+**Devanāgarī:** गुणपर्ययवत् द्रव्यम् ॥ ५.३८ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| guṇa | as at 5.1/5.34 | "a quality, attribute, property" — the same word Vaiśeṣika uses for its own *guṇa* category of reality, and Sāṃkhya for its three *guṇa*s (sattva/rajas/tamas); a `shares-vocabulary-with` note across systems, not pursued further in this track | MW, s.v. *guṇa* |
+| paryāya | as at 5.22 (flagged there for *pariṇāma*, a related but distinct word); here the noun itself | general Sanskrit: "revolution, succession, turn... alternation"; MW separately flags **"(with Jainas) the regular development of a thing, and the end of this"** as a distinct Jain technical sense — close to, but not identical with, "mode" as this chapter uses it (a transient modification of a substance or quality) | MW, s.v. *paryāya* |
+| -vat | possessive suffix | "possessing, having" | standard Sanskrit morphology |
+
+**Disambiguation (from commentary):** The chapter's formal capstone definition, previewed informally back at
+5.37/Śvet.5.36's *pariṇāmika* and at 5.22's *pariṇāma*. Sarvārthasiddhi (via Tatia's note) supplies an "ancient
+verse" it quotes approvingly (paraphrased here, not reproduced verbatim): quality is what distinguishes one
+substance from another (e.g. sentience distinguishes soul from non-sentient matter), while mode is a substance's
+transformation over time. A substance is never without qualities or modes — the association is natural and
+eternal, not contingent. Tatia's translator's note adds an illustration: a substance (e.g. a lemon) is *partially*
+identical with its qualities and modes (yellow, sour, hanging-from-a-branch) and *partially* different from them
+(no single quality or mode is the whole of the substance) — a direct application of the *arpita/anarpita*
+standpoint-logic already established at 5.32/Śvet.5.31.
+
+**Assembled reading:** A substance, by formal definition, is precisely that which possesses both persistent
+qualities (distinguishing it from other substance-kinds) and transient modes (its moment-to-moment
+transformations) — closing the loop the chapter opened at 5.2 by finally defining, rather than merely
+presupposing, what "substance" (*dravya*) itself means.
+
+**Published translations (comparison only):**
+- Vijay K. Jain/wisdomlib: "That which has qualities (guṇa) and modes (paryāya) is a substance (dravya)."
+- Tatia, p. 141–142 (Śvet. 5.37, cross-ref. "SS 5.38"): "That which possesses qualities and modes is a
+  substance," with the lemon illustration in his translator's note. Both converge exactly.
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** [[anekantavada]] — the "partially identical, partially different" reading of a
+substance's relation to its own qualities/modes is a direct application of non-absolutist logic, not a separate
+doctrine.
+
+**Sources:** wisdomlib.org doc1084792; Tatia (1994) p. 141–142 (OCR lines ~10465–10490); MW, s.v. *paryāya*, via
+wisdomlib/Cologne mirror.
+
+---
+
+## TS Dig. 5.39 vs Śvet. 5.38 — CONTENT VARIANT (not a numbering fork): how confidently is kāla a substance?
+
+**Recension status:** DIVERGENT in wording, the second content-variant fork in the chapter (same structural
+pattern as Dig. 5.37/Śvet. 5.36 above). Tatia's Śvetāmbara mūla supplies its own sūtra, flagged "(not SS)," and
+separately reports the Digambara SS wording as a "variant." Confirmed independently: wisdomlib's Vijay K.
+Jain/SS mirror (doc1084793) gives only the plain, unhedged wording, with no "according to some" qualifier,
+matching Tatia's "(not SS)" flag from the other side.
+
+| aspect | Śvetāmbara (Tatia's own numbered mūla) | Digambara (Sarvārthasiddhi, "variant" per Tatia) |
+|--------|------------------------------------------|-----------------------------------------------------|
+| number | Śvet. 5.38 | Dig. 5.39 |
+| text (IAST) | *kālaścetyeke* | *kālaśca* |
+| Devanāgarī | (Tatia romanized only) | कालश्च ॥ ५.३९ ॥ |
+| literal difference | *ca* "and" + *iti* "thus" + *eke* "some [teachers/authorities]" appended — "time [is a substance] too, **according to some**" | *ca* "and" only — "time [is a substance] too" |
+| what the wording commits you to | Explicitly attributes the claim "time is a substance" to a subset of teachers, flagging it as a position not universally held even within the tradition transmitting this text. | States "time is a substance" as settled doctrine, without qualification or attribution. |
+
+**Disambiguation (from commentary):** This is a substantive, not merely stylistic, difference: the Śvetāmbara
+mūla's *eke* ("some") is a standard Sanskrit philosophical-text device for flagging an internally contested
+point — signalling that the substance-hood of time was, at least at some stage of the tradition, a live
+question rather than uncontroversial doctrine (compare the parallel internal question already flagged at 5.4/
+5.22 about kāla's exceptional status: no *-kāya*, no space-points, treated separately from the start). Neither
+Tatia's note nor the wisdomlib/SS mirror explains *why* the Digambara wording drops the qualifier — whether
+because Sarvārthasiddhi simply regards the question as already settled, or because the "some teachers" clause is
+a purely Śvetāmbara-transmission-historical artifact naming specific (unspecified here) dissenting teachers.
+Recorded as an open point, not resolved by inference.
+
+**Assembled reading:** Both recensions affirm that time is a sixth substance — but the Śvetāmbara mūla text
+preserves an explicit note of internal scholarly disagreement on this very point ("according to some"), which
+the Digambara wording, as transmitted, does not carry.
+
+**Published translations (comparison only):**
+- Tatia, p. 142 (his own 5.38, "not SS"): "Time is also a substance, according to some teachers."
+- Tatia, p. 142, reporting the SS variant (his "(SS 5.39, variant of 5.38)"): "Time is also a substance." — the
+  bare claim, without the attribution clause, exactly as wisdomlib's independent SS mirror also gives it.
+- Vijay K. Jain/wisdomlib (Dig., doc1084793): "The time (kāla) also is a substance (dravya)." — confirms the
+  unqualified Digambara wording independently.
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084793; Tatia (1994) p. 142 (OCR lines ~10495–10510); MW as above.
+
+---
+
+## TS Dig. 5.40 / Śvet. 5.39 — time's infinite instants
+
+**Recension status:** Both recensions identical in content; numbering offset carried forward (Dig. 5.40 = Śvet.
+5.39).
+
+**Text (IAST):** so 'nantasamayaḥ || Dig. 5.40 / Śvet. 5.39 ||
+**Devanāgarī:** सोऽनन्तसमयः ॥ ५.४० ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| ananta | as at 5.9 | "endless, boundless, infinite" | MW, s.v. *ananta* |
+| samaya | m. | general Sanskrit: an extensive 27-sense range covering "time," "agreement, convention," "doctrine, precept," "occasion," and more — **no trace of the specific Jain technical sense** ("the smallest, further-indivisible unit of time") in the general lexicon; that narrower technical sense is supplied entirely by the commentarial tradition, exactly the pattern already established for *pradeśa* (space) at 5.8 and now extended to *samaya* (time) | MW, s.v. *samaya* |
+
+**Disambiguation (from commentary):** Sarvārthasiddhi (per Tatia's note) distinguishes **real time**
+(*niścaya-kāla*, the bare succession of *samaya*-instants, one per cosmic space-point, "like gems placed on every
+cosmic space unit") from **conventional time** (*vyavahāra-kāla*, the ordinary reckoning of days/months/years
+built up from combinations of instants, previewed already at 5.22's real/conventional split). This sūtra's *so*
+("it") refers specifically to conventional time: though any single present *samaya* is, by definition, just one
+instant, the full run of conventional time — past and future together — comprises an infinite number of such
+instants, mirroring the same "genuinely infinite because unbounded" logic already used for space at 5.9 (as
+opposed to the merely "innumerable" finite-but-huge scale used for dharma/adharma/souls at 5.8).
+
+**Assembled reading:** Conventional time, taken as a whole (encompassing past and future, not just the single
+present instant), consists of an infinite number of the smallest time-units (*samaya*).
+
+**Published translations (comparison only):**
+- Vijay K. Jain/wisdomlib: *(fetched summary did not supply a full running sentence for this doc; content
+  confirmed via commentary paraphrase only — see Tatia below for the fuller sentence)*.
+- Tatia, p. 142 (Śvet. 5.39, cross-ref. "SS 5.40"): "Time consists of an infinite number of time units," his note
+  adding the real/conventional distinction and the caveat that "instants cannot exist independently — they
+  require a substance to inhere in" — a direct application of 5.29–5.30's existence-definition (nothing "is"
+  except as a mode of some persisting substance) to time specifically.
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084794; Tatia (1994) p. 142 (OCR line ~10515); MW, s.v. *samaya*, via
+wisdomlib/Cologne mirror.
+
+---
+
+## TS Dig. 5.41 / Śvet. 5.40 — quality formally defined
+
+**Recension status:** Both recensions identical in content; numbering offset carried forward (Dig. 5.41 = Śvet.
+5.40).
+
+**Text (IAST):** dravyāśrayā nirguṇā guṇāḥ || Dig. 5.41 / Śvet. 5.40 ||
+**Devanāgarī:** द्रव्याश्रया निर्गुणा गुणाः ॥ ५.४१ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| āśraya | m. (in compound, "having X as its basis") | "that on which anything rests or depends, a receptacle, seat, abode, refuge, basis" | MW, s.v. *āśraya* |
+| nirguṇa | adj. | "having no good qualities... devoid of all qualities or properties"; MW's entry also glosses this term as applicable **"(said of the Supreme Being)"** — flagging its separate, major life as the standard Advaita Vedānta epithet for the qualityless *nirguṇa Brahman*, a `shares-vocabulary-with`-but-radically-different-doctrine case (Advaita's *nirguṇa* denies that ultimate reality has *any* determinate qualities at all; this sūtra instead uses the plain compositional sense — "guṇas themselves have no further sub-qualities riding on them" — to distinguish qualities from the multi-quality substances/modes that do carry them) | MW, s.v. *nirguṇa* |
+
+**Disambiguation (from commentary):** Completes the chapter's formal-definitions triad (existence at 5.29–5.30;
+substance at 5.38; now quality). Sarvārthasiddhi's point, as reported by Tatia: qualities always depend on a
+substance as their base (nothing exists as a free-floating quality with no substance to belong to), and
+qualities are themselves *nirguṇa* — they do not, in turn, have further qualities riding on *them* — which is
+precisely what distinguishes a quality from a substance or a cluster (a *skandha*, per 5.25, is itself a
+substance-aggregate that *does* carry qualities). The commentary also draws the qualities/modes distinction
+sharply here: qualities are the *persistent* attributes of a substance (e.g. a soul's sentience, matter's
+colour), while modes (already defined at 5.38, developed further next at 5.42) are the *transient*, changing
+phases those qualities and the substance pass through.
+
+**Assembled reading:** A quality is, by formal definition, that which is permanently grounded in some substance
+and which does not itself possess further qualities — the persistent, non-recursive attribute-layer that
+distinguishes a substance's stable character from its changing modes.
+
+**Published translations (comparison only):**
+- Vijay K. Jain/wisdomlib: "Those which have substances as their foundation, and are not themselves the
+  foundation of anything, are qualities." *(Note: this wording emphasizes "not the foundation of anything" —
+  slightly different framing from "devoid of further qualities," though converging on the same underlying
+  claim: qualities don't, in turn, support their own sub-qualities.)*
+- Tatia, p. 143 (Śvet. 5.40, cross-ref. "SS 5.41"): "Those which have substances as their foundation, and are not
+  themselves the foundation of anything, are qualities." (Tatia's rendering matches Vijay K. Jain's wording here
+  closely enough to flag as a genuinely convergent, not merely coincidentally similar, translation choice — both
+  independently landing on "foundation" for *āśraya*.)
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** none yet (see note at 5.1). *(A future `nirguna-brahman` or `advaita-vedanta`
+cross-reference — [[advaita-vedanta]] already exists in `concepts/` — would be the right place for the
+`shares-vocabulary-with`/`often-conflated-with-NOT-equivalent` pair flagged in the padaccheda above; not created
+from this reading-room track per its own scope rule, see note at 5.1.)*
+
+**Sources:** wisdomlib.org doc1084795; Tatia (1994) p. 143 (OCR line ~10520); MW, s.v. *āśraya*, *nirguṇa*, via
+wisdomlib/Cologne mirror.
+
+---
+
+## TS Dig. 5.42 / Śvet. 5.41 — transformation formally defined (chapter's end)
+
+**Recension status:** Both recensions identical in content; numbering offset carried forward one final time
+(Dig. 5.42 = Śvet. 5.41). This is the **last sūtra of Adhyāya 5 in both recensions** — confirmed by wisdomlib's
+doc1084796 (the next indexed document in this mirror's sequence moves to Chapter 6) and by Tatia's OCR text,
+which likewise moves to a new chapter heading immediately after.
+
+**Text (IAST):** tadbhāvaḥ pariṇāmaḥ || Dig. 5.42 / Śvet. 5.41 ||
+**Devanāgarī:** तद्भावः परिणामः ॥ ५.४२ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| tad-bhāva | compound, as at 5.31 ("that-ness, its own nature/state") | "being, existing... nature" | MW, s.v. *bhāva* |
+| pariṇāma | as at 5.22 (flagged there for its distinct Sāṃkhya-technical life) | "change, alteration, transformation, development" | MW, s.v. *pariṇāma* |
+
+**Disambiguation (from commentary):** The chapter's formal closing definition, directly answering the question
+5.29–5.31 opened (how can a substance be both eternal and subject to modal change without contradiction?) and
+the question 5.38 presupposed (what exactly is a "mode"?). Sarvārthasiddhi: transformation (*pariṇāma*) is "the
+continuity of one's own nature through change" — not a substance ceasing to be itself and becoming something
+else, but that same substance's own nature *manifesting* differently. The commentary distinguishes two kinds:
+beginningless transformation (*anādi-pariṇāma*, e.g. dharma's motion-enabling function, which — from the general
+standpoint — has no starting point) and transformation-with-a-beginning (*sādi-pariṇāma*, the same function
+viewed from a specific, dated instance). Tatia's translator's note underscores that this closes the chapter's
+central argument: modes appear and disappear, but the substances and qualities underlying them do not — and the
+"more fundamental" change that *does* touch substances and qualities themselves (as opposed to their fleeting
+modes) can only be defined with reference to the very time-units (*samaya*, 5.40) the chapter has just finished
+establishing.
+
+**Assembled reading:** Transformation is a substance's continuity of its own essential nature *through* change —
+the formal definition that reconciles the chapter's two governing claims (5.4/5.31: substances are eternal;
+5.29–5.30: existence necessarily includes origination and cessation) by locating both change and continuity in
+the same event, viewed from different standpoints, rather than treating them as competing facts about the
+substance.
+
+**Published translations (comparison only):**
+- Vijay K. Jain/wisdomlib: "The condition (change) of a substance is its transformation–pariṇāma."
+- Tatia, p. 143–144 (Śvet. 5.41, cross-ref. "SS 5.42"): "Transformation means the continuity of one's own nature
+  through change," his closing translator's note explicitly identifying qualities as changing "in their
+  intensity, but [not] in their essential nature" — both sources converge exactly on content, closing the
+  chapter without disagreement.
+
+**Modern comparison (QUARANTINED):** None sourced for this specific sūtra. Flagging only a **vocabulary** note,
+carried over from 5.22: *pariṇāma* is Sāṃkhya darśana's own load-bearing technical term for the real
+transformation of *prakṛti* (primordial matter) into the manifest world — a `shares-vocabulary-with` candidate
+between this chapter's closing definition and [[parinamavada]]/[[samkhya-karika]], genuinely interesting because
+both systems use "transformation of an eternal substrate" to solve the same permanence-vs-change problem, but
+with different substrates (Jain: six independent, really-existing *dravya*s, each individually transforming;
+Sāṃkhya: one *prakṛti*, transforming into the entire phenomenal world under *puruṣa*'s proximity) — not
+developed further here, since this reading-room track does not itself create `concepts/` graph nodes.
+
+**Links to concept nodes:** [[parinamavada]] [[samkhya-karika]] [[anekantavada]]
+
+**Sources:** wisdomlib.org doc1084796; jainworld.com chapter-5 page; Tatia (1994) p. 143–144 (OCR lines
+~10525–10545); MW as above.
+
+---
+
+## Chapter-end summary: the numbering-fork census
+
+Adhyāya 5 is now fully drafted in both recensions: **Digambara 5.1–5.42 (42 sūtras) / Śvetāmbara 5.1–5.41 (41
+sūtras)**, per Tatia's own edition. Walking the whole chapter turned up exactly **five** structural forks between
+the two numbering tracks, of two genuinely different kinds — a finding worth stating plainly rather than folding
+into a vague "the traditions differ somewhat":
+
+| fork | location | kind | net numbering effect |
+|------|----------|------|----------------------|
+| 1 | Dig. 5.2–5.3 → Śvet. 5.2 | merge (Dig. splits what Śvet. states in one sūtra) | −1 (temporary — cancelled by fork 2) |
+| 2 | Dig. 5.8 → Śvet. 5.7–5.8 | split (Dig. states in one sūtra what Śvet. splits into two) | +1 (cancels fork 1 — both tracks resync exactly at 5.9) |
+| 3 | Dig. 5.29–5.30 → Śvet. 5.29 | merge (same structural type as fork 1) | −1, **not cancelled** — this is the offset that holds for the rest of the chapter |
+| 4 | Dig. 5.37 vs Śvet. 5.36 | **content variant**, not a count change — different sūtra wording for the same conceptual step (atomic-bonding transformation rule: Śvet. covers the equal-degree case explicitly, Dig. does not) | none (offset unaffected) |
+| 5 | Dig. 5.39 vs Śvet. 5.38 | **content variant**, not a count change — Śvet. mūla attributes kāla's substance-hood to "some teachers" (*eke*), Dig. states it flatly | none (offset unaffected) |
+
+Forks 1–3 are pure structural bookkeeping (how many sūtras a given stretch of content is divided into); forks 4–5
+are genuine doctrinal/textual divergences — the two traditions' base texts say meaningfully different things at
+the same conceptual position, not just count them differently. Keeping these two kinds visibly distinct (rather
+than reporting "five numbering differences" as if they were all the same kind of fact) is itself an application
+of this reading-room's own no-smoothing-over discipline (`INDEX.md` §A). The **genuine SS-vs-SBT numerical
+divergence** on atomic-bonding combinatorics at Dig. 5.36/Śvet. 5.35 is a sixth, separate kind of disagreement
+again — not a fork in the base sūtra text at all (both traditions state the same "two-or-more-degree-gap" rule),
+but a divergence entirely at the **commentarial-elaboration** layer, documented there with an explicit
+confidence caveat about the source table's OCR reliability.
+
+**Status of this file: Adhyāya 5 (The Non-Soul Substances) — COMPLETE.** All 42 Digambara / 41 Śvetāmbara sūtras
+drafted across four sessions, both recensions at equal weight throughout, three independent translations
+maintained for nearly every sūtra (Jaini/jainworld thinned out after 5.32 — flagged in-file at 5.33 as a
+genuine, named coverage gap in that source for this final stretch, not silently dropped). **Open items for a
+future pass, recorded rather than smoothed away:** the Dig. 5.36/Śvet. 5.35 atomic-integration table's exact
+small-gap cell values rest on a single OCR'd source and are flagged lower-confidence than the rest of the file;
+Devanāgarī for several late sūtras (5.29 onward in Tatia's own text) was available only via the wisdomlib/Vijay
+K. Jain mirror, not cross-checked against a second Devanāgarī source the way early sūtras were. **Work-queue
+unit #3 (TS Adhyāya 5) is now done.** Per `INDEX.md` §E, the next lowest-numbered `pending` unit is **#4, TS
+Adhyāya 1 (knowledge and its means — jñāna, naya, pramāṇa, nikṣepa)**, file `doctrinal/tattvartha/01-knowledge.md`.
