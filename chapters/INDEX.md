@@ -30,6 +30,7 @@
 | 12 The Buddhist Family | [buddhist/12-buddhist.md](buddhist/12-buddhist.md) | four-noble-truths · dukkha · tanha · paticcasamuppada-pali · nibbana-theravada · anatta-buddhist · anicca · theravada · arhat · skandha-buddhist · abhidharma · śūnyatā · bodhicitta · bodhisattva · madhyamaka · dvisatya · catuṣkoṭi · yogacara · vijñaptimātratā · ālaya-vijñāna · tathāgatagarbha | drafted |
 | 13 Neoplatonism | [comparanda/13-neoplatonism.md](comparanda/13-neoplatonism.md) | neoplatonism · plotinus · plotinus-one · nous · henosis · porphyry · proclus | drafted |
 | 14 Greek & Hellenistic Foundation | [comparanda/14-greek-foundation.md](comparanda/14-greek-foundation.md) | parmenides-being · democritus-atom · plato-forms · plato-soul · aristotle-substance · aristotle-categories · aristotle-logic · aristotle-ethics · four-causes · epicurus-atom · epicurus-ethics · stoicism · stoic-logos · cynicism · pyrrhonism · academic-skepticism | drafted |
+| 15 Sāṃkhya & Yoga | [hindu/darsana/15-samkhya-yoga.md](hindu/darsana/15-samkhya-yoga.md) | kapila · samkhya-karika · prakriti-samkhya · purusha-samkhya · guna-samkhya · satkaryavada · patanjali · yoga-darshana · citta-vritti · citta · manas | drafted |
 
 ---
 
@@ -39,7 +40,6 @@
 
 | # | planned chapter | sub-folder | primary concepts (already written as nodes) | status |
 |---|---|---|---|---|
-| 15 | Sāṃkhya & Yoga | `hindu/darsana/` | kapila · prakriti-samkhya · purusha-samkhya · guna-samkhya · satkaryavada · samkhya-karika · patanjali · yoga-darshana · citta-vritti · citta · manas | planned |
 | 16 | Nyāya & Vaiśeṣika | `hindu/darsana/` | gautama-aksapada · nyaya-sutra · vaiseshika-sutra · paramanu-vaisheshika · dravya-vaisheshika · pancha-mahabhuta · asatkaryavada (NB: the *epistemology* — anumāna, vyāpti, hetvābhāsa, tarka, jāti — is already primary-covered in Ch 05; this chapter is the realist **ontology/atomism** side, cross-ref Ch 05) | planned |
 | 17 | Mīmāṃsā & Cārvāka | `hindu/darsana/` | mimamsa-sutra · kumarila-bhatta · prabhakara · carvaka (NB: mīmāṃsā-pramāṇa / arthāpatti / śabda-pramāṇa are in Ch 05/10; this chapter is ritual-exegesis + the materialist nāstika challenge) | planned |
 | 18 | Hindu Deities: Trimūrti & the Devotional Families | `hindu/devotional/` | brahma · vishnu · shiva · trimurti · nataraja · lingam · nandi · kala-bhairava · krishna · rama · garuda · vaishnavism · durga · kali · parvati · shakti · ganesha · hanuman · surya · agni · kartikeya · kamadhenu · aruna · shaivism · spanda · pratyabhijna | planned |
@@ -201,3 +201,14 @@
 | cynicism | Ch 14 | — (autarkeia/askēsis; ancestor of Stoicism) |
 | pyrrhonism | Ch 14 | — (epochē via isostheneia; vs catuṣkoṭi/Madhyamaka) |
 | academic-skepticism | Ch 14 | — (Arcesilaus/Carneades; to pithanon; vs Pyrrhonism) |
+| kapila | Ch 15 | — (legendary founder-by-attribution; Purāṇic Viṣṇu-avatāra Kapila NOT-equiv) |
+| samkhya-karika | Ch 15 | Ch 11 (satkāryavāda underlies vivartavāda/pariṇāmavāda split) |
+| prakriti-samkhya | Ch 15 | Ch 09 (structurally-parallel-to Jain pudgala) |
+| purusha-samkhya | Ch 15 | Ch 03 (structurally-parallel-to Jain jīva) |
+| guna-samkhya | Ch 15 | — (guṇa vs Jain dravya-guṇa NOT-equiv) |
+| satkaryavada | Ch 15 | Ch 11 (§3.2/§4.1 vivartavāda/pariṇāmavāda derive from this axiom) |
+| patanjali | Ch 15 | — (grammarian-Patañjali conflation rejected) |
+| yoga-darshana | Ch 15 | Ch 08 (yamas share Jain mahāvrata vocabulary, NOT-equiv) · Ch 03/07 (aṣṭāṅga vs guṇasthāna NOT-equiv) |
+| citta-vritti | Ch 15 | Ch 05 (vikalpa converges with Dignāga's kalpanā/apoha) |
+| citta | Ch 15 | Ch 12 (Buddhist citta as processual consciousness, inverted vs Sāṃkhya-Yoga citta) |
+| manas | Ch 15 | Ch 01/03 (Jain mano-yoga) · Ch 12 (Buddhist/Yogācāra manas-vijñāna) |
