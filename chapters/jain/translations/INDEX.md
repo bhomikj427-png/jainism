@@ -110,9 +110,9 @@ chapters/jain/translations/
 
 | # | unit | file to create | status | notes |
 |---|------|----------------|--------|-------|
-| 1 | **PROTOTYPE — TS 5.1 (single sūtra)** | `doctrinal/tattvartha/05-substances.md` (start it with 5.1 only) | **drafted — awaiting user approval** | Prove the doctrinal format on the hardest case. **STOPPED after 5.1 per plan; do not continue the chapter until the user signs off on the format.** Open item: 3rd translation (Tatia 1994) not retrievable this pass — see file's Sources note. |
+| 1 | **PROTOTYPE — TS 5.1 (single sūtra)** | `doctrinal/tattvartha/05-substances.md` (start it with 5.1 only) | **done — format approved by user** | Proved the doctrinal format. 3 independent translations sourced (Jaini 1920, Vijay K. Jain 2018, Tatia 1994 — retrieved via direct download + local grep after the fetch tool truncated the OCR text); confidence high. |
 | 2 | **PROTOTYPE — Bhaktāmar v1 (single verse)** | `devotional/bhaktamar/01-bhaktamar.md` (verse 1 only) | pending | Prove the devotional format (meter; Modern-comparison = N/A). **STOP after v1 for approval.** |
-| 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | pending | The substances: ajīva, dravya, pudgala, paramāṇu, skandha, dharma/adharma/ākāśa/kāla. Only after #1 approved. |
+| 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | **next up** | The substances: ajīva, dravya, pudgala, paramāṇu, skandha, dharma/adharma/ākāśa/kāla. #1 approved — building now. |
 | 4 | TS Adhyāya 1 — knowledge & means | `doctrinal/tattvartha/01-knowledge.md` | pending | 5 jñānas, naya, pramāṇa, nikṣepa. |
 | 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/…` | pending | Split into verse-range files (~8–11 verses each) once v1 format is approved. |
 | 6 | TS Adhyāya 2 (jīva) | `doctrinal/tattvartha/02-soul.md` | pending | |
@@ -135,10 +135,13 @@ chapters/jain/translations/
 
 ## §G Done-log (append as units complete)
 
-- **TS 5.1 prototype drafted** (`doctrinal/tattvartha/05-substances.md`) — 2026-07-09. Both recensions
-  identical for this sūtra. 2 independent translations sourced (Jaini 1920, Vijay K. Jain 2018/Sarvārthasiddhi);
-  Tatia 1994 sought but not retrieved this pass (open item, noted in-file). Disambiguation for *kāya*
-  (space-point analogy, excludes kāla) and *dharma/adharma* (commentary narrows from general ethical MW sense
-  to "medium of motion/rest") both grounded in Sarvārthasiddhi. Modern-comparison box populated (ether/
-  relativity, `often-conflated-with-NOT-equivalent`) using an existing Jain-side source that itself pushes back
-  on the equivalence. **Awaiting user approval before continuing the chapter (unit #3).**
+- **TS 5.1 prototype approved** (`doctrinal/tattvartha/05-substances.md`) — 2026-07-09. Both recensions
+  identical for this sūtra. 3 independent translations sourced (Jaini 1920, Vijay K. Jain 2018/Sarvārthasiddhi,
+  Tatia 1994 — the last retrieved by downloading the archive.org OCR `_djvu.txt` directly and grepping it
+  locally, since the WebFetch summarizer kept truncating the document before Chapter 5); confidence raised to
+  high — Tatia's "extended" vs. the other two's literal "(bodies)" for *-kāya* is a real, informative
+  translator divergence that confirms independence. Disambiguation for *kāya* (space-point analogy, excludes
+  kāla) and *dharma/adharma* (commentary narrows from general ethical MW sense to "medium of motion/rest") both
+  grounded in Sarvārthasiddhi. Modern-comparison box populated (ether/relativity,
+  `often-conflated-with-NOT-equivalent`) using an existing Jain-side source that itself pushes back on the
+  equivalence. **User approved the format — proceeding to unit #3 (TS 5.2 → end of Adhyāya 5).**

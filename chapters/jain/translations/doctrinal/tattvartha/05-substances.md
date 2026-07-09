@@ -6,11 +6,12 @@ readings anchored to Ācārya Pūjyapāda's *Sarvārthasiddhi*; Śvetāmbara rea
 *Svopajña-bhāṣya* (tradition ascribes the bhāṣya to the sūtra's author in the Śvetāmbara lineage only).
 **Editions/translations used this unit:** Vijay K. Jain (2018, *Ācārya Umāsvāmī's Tattvārthasūtra — with
 Sarvārthasiddhi*, via wisdomlib.org mirror); J.L. Jaini (1920, *Tattvarthadhigama Sutra*, Sacred Books of the
-Jainas vol. 2, via jainworld.com mirror); Monier-Williams *Sanskrit-English Dictionary* (via Cologne Digital
-Sanskrit Dictionaries / wisdomlib.org). Nathmal Tatia's 1994 *That Which Is* (Yale/Sacred Literature Trust) was
-sought as a third independent translation but its Chapter 5 text was not retrievable via automated fetch within
-a bounded effort (~5 attempts) — see Sources note below. Confidence on the *translation* comparison is therefore
-**medium, not high**, pending a third independent voice.
+Jainas vol. 2, via jainworld.com mirror); Nathmal Tatia (1994, *That Which Is*, Yale/Sacred Literature Trust,
+via archive.org OCR text — retrieved by direct download + local grep after the standard fetch tool truncated
+the document); Monier-Williams *Sanskrit-English Dictionary* (via Cologne Digital Sanskrit Dictionaries /
+wisdomlib.org). **Three genuinely independent translations** now compared — confidence on the translation
+panel is **high**: all three converge on the doctrinal sense, and Tatia's wording diverges just enough from
+the other two (see comparison below) to confirm they are not silently copying one another.
 **Status:** in-progress (this file currently covers 5.1 only — prototype unit, per work-queue item #1; **stop
 here for user approval before continuing the chapter**).
 
@@ -82,12 +83,19 @@ label by the commentary's stated analogy.
   (bodies) are the medium of motion, the medium of rest, space and matter."
 - Vijay K. Jain (2018, via wisdomlib.org): "The non-[soul] substances (bodies) — ajīvakāya — are the medium of
   motion (dharma), the medium of rest (adharma), the space (ākāśa) and the matter (pudgala)."
-- No substantive disagreement between the two: both render *dharma*/*adharma* as "medium of motion"/"medium of
-  rest," both treat *-kāya* as "(bodies)," parenthetically glossed rather than expanded into the commentarial
-  space-point explanation (that explanation is preserved separately, in-line, only in Vijay K. Jain's
-  accompanying Sarvārthasiddhi commentary, not in the bare sūtra translation itself). Given the terseness of a
-  one-line sūtra, this close agreement is expected and does not by itself prove independence — flagged rather
-  than over-claimed; see confidence note above regarding the missing third source.
+- Nathmal Tatia (1994, *That Which Is*, p. 123): "**The media of motion and of rest, space and matter are
+  extended non-sentient entities.**" His accompanying note glosses this directly: the four are "extended in
+  space," each built of *pradeśa* ("units," his term for the smallest indivisible part of the substance) —
+  i.e. Tatia unpacks *-kāya* straight into "extended," rather than keeping the literal "(bodies)" gloss Jaini
+  and Vijay K. Jain both retain.
+- **All three agree** on the core doctrinal content: dharma = medium of motion, adharma = medium of rest,
+  ākāśa/pudgala = space/matter, all four grouped as extended non-sentient entities. **Genuine, informative
+  divergence** on one point: Jaini and Vijay K. Jain translate *-kāya* literally as "(bodies)" and leave the
+  space-point reasoning to a separate commentary note, while Tatia folds the commentarial payload (extension
+  across multiple space-points) directly into the running translation as "extended." Both choices are
+  defensible — literal-plus-footnote versus interpretive-inline — and the difference is a real translator
+  choice, not textual disagreement; it is exactly the kind of divergence that shows these three are
+  independent renderings rather than copies of one another.
 
 **Modern comparison (QUARANTINED — labelled, never feeds disambiguation):** Popular Jain-apologetic literature
 sometimes reaches for *dharma*/*adharma* as "medium of motion/rest" and analogizes them to the 19th-century
@@ -116,12 +124,11 @@ if the concept-batch track (`progress.md`) reaches Jain substance ontology.
 - J.L. Jaini (trans.), *Tattvarthadhigama Sutra*, Sacred Books of the Jainas vol. 2 (1920; public domain),
   mirrored at https://jainworld.com/scripture/tattvarth-sutra/chapter-5/ ; original scan at
   https://archive.org/details/tattvarthadhigam0000umas
-- Nathmal Tatia (trans.), *That Which Is: Tattvārtha Sūtra* (1994) — full text located at
-  https://archive.org/details/ThatWhichIsTattvarthaSutraNathaMalaTatia ; Chapter 5 content not successfully
-  retrieved via automated fetch (tool returned only front matter/Chapter 1 across repeated attempts). Left as
-  an open item — a manual/direct check of this source would let the comparison panel move to 3 independent
-  translations and the confidence rating up to high; not done this unit to respect the bounded-effort rule
-  (CLAUDE.md §8).
+- Nathmal Tatia (trans.), *That Which Is: Tattvārtha Sūtra* (1994), p. 123 — text at
+  https://archive.org/details/ThatWhichIsTattvarthaSutraNathaMalaTatia . The WebFetch summarizer tool
+  repeatedly truncated this large OCR document before reaching Chapter 5; retrieved by downloading the raw
+  `_djvu.txt` OCR (`archive.org/stream/.../..._djvu.txt`) directly and grepping it locally for the sūtra's
+  IAST opening ("ajivakaya dharm...pudgalah," OCR-garbled diacritics) — found at line 11993 of the OCR text.
 - Monier-Williams *Sanskrit-English Dictionary*, via Cologne Digital Sanskrit Dictionaries mirror on
   wisdomlib.org: https://www.wisdomlib.org/definition/ajiva , /jiva , /kaya , /dharma , /akasha , /pudgala
 - Jainworld, "Jain Metaphysics and Science: A Comparison" (PDF):
