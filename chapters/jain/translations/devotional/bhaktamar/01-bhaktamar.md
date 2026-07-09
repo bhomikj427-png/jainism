@@ -465,11 +465,484 @@ skill].
 **Sources:** Vijay K. Jain (2023) via archive.org OCR (lines ~2188–2209); jainsquare.wordpress.com; MW as
 above.
 
-**Status of this file:** verses 1–6 drafted this batch (a complete thematic unit: the opening obeisance, v.1,
-followed by the poet's five-verse "humility topos" — inadequate yet compelled by devotion, v.2–6). Continuing
-verses (7 onward — praise of the Jina's physical/spiritual radiance, then later the *prātihārya*/miracle
-verses where the Digambara-Śvetāmbara 44-vs-48 divergence actually begins) remain `pending` for a future
-session. Note for continuation: verse 7's actual number was not confirmed against an independent source this
-pass (a martial/battle-imagery verse appears next in the Vijay K. Jain OCR sequence, but its printed numeral
-was not legible in the OCR and no cross-check was done before this file was closed out — verify its number
-before drafting it, rather than assuming linear OCR order equals verse order).
+**Note on the Vijay K. Jain archive.org source used for v.1–6:** the archive.org item used
+(`bhaktamara-2023-f-web-preview`) turns out to be a **preview excerpt**, not the complete 48-verse book — its
+OCR contains only the front matter, the traditional origin-story, and verses 1–6. This explains why verse 7
+could not be located in it by keyword search; it simply is not in the file. **Correction to the earlier
+caution below:** the "martial/battle-imagery" passage found further down that same OCR file is *not* verse 7
+— it is a later verse (part of the *prātihārya*/miracle-efficacy section, not yet reached in this file) that
+happened to be included elsewhere in the preview excerpt. Verse 7 itself was independently confirmed (below)
+against a cleanly-numbered source, resolving the open question left at the end of the previous session.
+
+---
+
+## §ii Verses 7 onward — sourcing note (new for this batch)
+
+The Vijay K. Jain preview excerpt is exhausted as of v.6. Two new sources anchor v.7 onward:
+- **jainsquare.wordpress.com's paginated "1–48 stotras" series** (distinct from the "verse 1–8 commentary"
+  post used above for v.2–6 — a *different* page on the same site; cited by its own URL per verse to avoid
+  conflating the two), consistently numbered and independently cross-checked at v.7 and v.1 against a
+  full-Sanskrit-only 48-verse reference (bhaktinidhi.com) that agrees on wording — used as the primary text
+  and translation backbone for this stretch.
+- **Bhagwan Das Jaini (trans.), rhyming English rendering, hosted at cs.colostate.edu/~malaiya/bhaktamar.html**
+  (transliteration by Ashok Sethi, proofread by Surbhi Sethi; page maintained by Prof. Yashwant Malaiya,
+  Colorado State University) — a genuinely independent **named** translator, distinct from every source used
+  so far in this file. Quoted excerpts only (the fetch tool truncates the full rhyme on this page), but
+  sufficient to confirm doctrinal/imagery agreement per verse.
+
+Given the volume of remaining verses (37 more across both recensions' full count), entries below use a
+**leaner but equally sourced format**: full Sanskrit + Devanāgarī always; padaccheda/disambiguation reserved
+for words carrying genuine interpretive stakes (most of this section is stock *kāvya* praise-imagery — moons,
+suns, elephants, oceans — already explained once and not re-derived word-by-word every time); two-source
+translation comparison maintained throughout; Modern-comparison box populated only where a real, sourced
+popular conflation exists (flagged per-verse, N/A otherwise, same discipline as before).
+
+---
+
+## Bhaktāmara v.7 — both recensions
+
+**Text (IAST):** tvat-saṃstavena bhava-santati-sannibaddhaṁ pāpaṁ kṣaṇāt kṣayam upaiti śarīra-bhājām | ākrānta-
+lokam-alinīlam aśeṣam āśu sūryāṃśu-bhinnam iva śārvaram andhakāram || 7 ||
+**Devanāgarī:** त्वत्संस्तवेन भवसंतति सन्निबद्धं । पापं क्षणात् क्षयमुपैति शरीर भाजाम् ॥ आक्रान्त लोकमलिनीलमशेषमाशु ।
+सूर्यांशुभिन्नमिव शार्वरमन्धकारम् ॥७॥
+
+**Gloss notes:** *bhava-santati* = "the succession of [rebirths/worldly] existences," continuing the *bhava*
+vocabulary from v.1's *bhava-jale*; *śārvaram andhakāram* = "the darkness of night" (*śarvarī*, "night," +
+*andhakāra*, "darkness" — a doubled term for emphasis, standard *kāvya* intensification, not two distinct
+technical senses).
+
+**Assembled reading:** Sin bound up through the succession of [previous] embodied existences goes to
+destruction in an instant through praise of you — swiftly, entirely — the way the darkness of night,
+world-covering and pitch-black, is broken apart by the sun's rays.
+
+**Published translations (comparison only):**
+- jainsquare (1–48 series): "Just as the bright sun rays remove darkness, the sins accumulated by living
+  beings are wiped out by praying you."
+- Bhagwan Das Jaini (excerpt): "Accumulated sins of births disappear / The prayer removes their traces / No
+  traces of any darkness appear / When sun's rays the night faces." — same simile, same claim, independently
+  versified.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/7/; Bhagwan Das Jaini trans. via
+cs.colostate.edu/~malaiya/bhaktamar.html.
+
+---
+
+## Bhaktāmara v.8 — both recensions
+
+**Text (IAST):** matvā iti nātha tava saṃstavanaṁ mayedam ārabhyate tanu-dhiyā api tava prabhāvāt | cetaḥ
+hariṣyati satāṁ nalinī-daleṣu muktā-phala-dyutim upaiti nanu udabinduḥ || 8 ||
+**Devanāgarī:** मत्वेति नाथ्! तव् संस्तवनं मयेद । मारभ्यते तनुधियापि तव प्रभावात् ॥ चेतो हरिष्यति सतां नलिनीदलेषु ।
+मुक्ताफल द्युतिमुपैति ननूदबिन्दुः ॥८॥
+
+**Gloss notes:** *tanu-dhiyā* = "with slender/meagre intellect" (*tanu* "thin, slight" + *dhī* "intellect") —
+the poet's continuing self-deprecation motif from v.3–6, here compressed into one compound rather than a full
+simile-verse.
+
+**Assembled reading:** Thinking thus, O Lord, this praise of you is being begun by me, even with meagre
+intellect — [it will still succeed] through your influence. It will captivate the minds of the virtuous: a
+water-droplet on a lotus petal indeed attains the lustre of a pearl [regardless of the droplet's own humble
+origin].
+
+**Published translations (comparison only):**
+- jainsquare: "The composer expresses that though this praise is composed by one of limited intellect, it will
+  certainly please noble people through the divine influence. The analogy presented compares water droplets on
+  lotus leaves to gleaming pearls, creating a pleasant, beautiful sight."
+- Bhagwan Das Jaini (excerpt): "With Thy grace, prayer I offer / Pleasant soothing to people's mind / When
+  water drops on lotus flower / Shine, it imparts of pearls kind." — same image, same logic (humble matter
+  transformed by context/grace), independently rendered.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/8/; Bhagwan Das Jaini trans.
+
+---
+
+## Bhaktāmara v.9 — both recensions
+
+**Text (IAST):** āstāṁ tava stavanam asta-samasta-doṣaṁ tvat-saṃkathā api jagatāṁ duritāni hanti | dūre
+sahasra-kiraṇaḥ kurute prabhā eva padmākareṣu jalajāni vikāśa-bhāñji || 9 ||
+**Devanāgarī:** आस्तां तव स्तवनमस्तसमस्त दोषं । त्वत्संकथाऽपि जगतां दुरितानि हन्ति ॥ दूरे सहस्त्रकिरणः कुरुते प्रभैव ।
+पद्माकरेषु जलजानि विकाशभांजि ॥९॥
+
+**Gloss notes:** *sahasra-kiraṇaḥ* = "the thousand-rayed one," a standard Sanskrit kenning for the sun (not a
+literal ray-count claim); *padmākareṣu* = "in the lotus-ponds."
+
+**Assembled reading:** Let full praise of you — which destroys every fault — stand aside for a moment: even
+mere talk about you destroys the misfortunes of [beings in] the world. Even while still far off [below the
+horizon], the thousand-rayed sun's mere radiance alone causes the water-born [lotuses] in the lotus-ponds to
+open into bloom.
+
+**Published translations (comparison only):**
+- jainsquare: "The brilliant sun is far away; still, at dawn its soft glow makes the drooping lotus buds
+  bloom. Similarly, O Jina! Let alone the immeasurable powers of your eulogy, mere utterance of your name with
+  devotion destroys the sins of the mundane beings and purifies them."
+- Bhagwan Das Jaini (excerpt): "What to say of Thy attributes glorious / Mere mention destroys sins
+  notorious..." — matches the "even mere mention, let alone full praise" logical structure exactly.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/9/; Bhagwan Das Jaini trans.
+
+---
+
+## Bhaktāmara v.10 — both recensions
+
+**Text (IAST):** na atyadbhutaṁ bhuvana-bhūṣaṇa bhūta-nātha bhūtaiḥ guṇaiḥ bhuvi bhavantam abhiṣṭuvantaḥ |
+tulyā bhavanti bhavataḥ nanu tena kiṁ vā bhūtyāśritaṁ ya iha na ātma-samaṁ karoti || 10 ||
+**Devanāgarī:** नात्यद् भूतं भुवन भुषण भूतनाथ । भूतैर् गुणैर् भुवि भवन्तमभिष्टुवन्तः ॥ तुल्या भवन्ति भवतो ननु तेन किं वा ।
+भूत्याश्रितं य इह नात्मसमं करोति ॥१०॥
+
+**Gloss notes:** dense paronomasia on the syllable *bhū-*/*bhav-* across the verse (*bhuvana*, *bhūta-nātha*,
+*bhūtaiḥ*, *bhuvi*, *bhavantam*, *bhavataḥ*, *bhūtyāśritam*) — a deliberate sound-figure (a form of
+*anuprāsa*/alliteration), not separate technical senses needing disambiguation; flagged as craft, per the same
+method used for v.1's *yuga* pun.
+
+**Assembled reading:** O ornament of the world, O lord of beings — it is not so very astonishing that those who
+praise you here on earth, [praising you] for your real virtues, become your equal. For does not a powerful
+patron (one whom [others] resort to for prosperity) make dependents equal to himself?
+
+**Published translations (comparison only):**
+- jainsquare: "O Lord of the living! O Eminence of the world! It is not surprising that he who is engrossed in
+  praise of your infinite virtues attains your exalted position. It should not be surprising if a benevolent
+  master makes his subjects his equals."
+- Bhagwan Das Jaini (excerpt): "No wonder they attain Thy position / Who recite Thy attributes with
+  devotion..." — same claim (praising the Jina elevates the devotee toward his own status), matching logic.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/10/; Bhagwan Das Jaini trans.
+
+---
+
+## Bhaktāmara v.11 — both recensions
+
+**Text (IAST):** dṛṣṭvā bhavantam animeṣa-vilokanīyaṁ na anyatra toṣam upayāti janasya cakṣuḥ | pītvā payaḥ
+śaśikara-dyuti dugdha-sindhoḥ kṣāraṁ jalaṁ jalanidheḥ asituṁ ka icchet || 11 ||
+**Devanāgarī:** दृष्टवा भवन्तमनिमेष विलोकनीयं । नान्यत्र तोषमुपयाति जनस्य चक्षुः ॥ पीत्वा पयः शशिकरद्युति दुग्ध सिन्धोः ।
+क्षारं जलं जलनिधेरसितुं क इच्छेत् ॥११॥
+
+**Gloss notes:** *animeṣa-vilokanīyam* = "worth beholding without blinking" (*animeṣa*, "unblinking" + *vi-lok*
+"to behold"); *dugdha-sindhoḥ* = "of the milk-ocean," the mythic ocean of milk (*kṣīrasāgara*) common to
+Purāṇic cosmography generally, used here purely as stock poetic contrast-image against the salty sea, not a
+Jain cosmological claim about actual world-geography.
+
+**Assembled reading:** Having seen you — worthy of being gazed at without blinking — the eye of a person finds
+satisfaction nowhere else. Who, having drunk the milk-ocean's water, bright as moonbeams, would wish to drink
+the briny water of [an ordinary] sea?
+
+**Published translations (comparison only):**
+- jainsquare: "Your divine magnificence is spell-binding. After looking at your divine form nothing else
+  pleases the eye. Obviously, who would like to taste the saline sea water after drinking fresh water of the
+  divine milk-ocean, pure and soothing like moonlight?"
+- Bhagwan Das Jaini (excerpt): "On Thee a person focuses attention / Excludes everything else to mention..." —
+  same core claim (nothing else satisfies once one has beheld the Jina), matching logic.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/11/; Bhagwan Das Jaini trans.
+
+---
+
+## Bhaktāmara v.12 — both recensions
+
+**Text (IAST):** yaiḥ śānta-rāga-rucibhiḥ paramāṇubhiḥ tvaṁ nirmāpitaḥ tri-bhuvanaika-lalāma-bhūta | tāvanta
+eva khalu te api aṇavaḥ pṛthivyāṁ yat te samānam aparaṁ na hi rūpam asti || 12 ||
+**Devanāgarī:** यैः शान्तरागरुचिभिः परमाणुभिस्तवं । निर्मापितस्त्रिभुवनैक ललाम भूत ॥ तावन्त एव खलु तेऽप्यणवः पृथिव्यां ।
+यत्ते समानमपरं न हि रूपमस्ति ॥१२॥
+
+**Padaccheda — the one genuinely load-bearing term here:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| paramāṇu | compound, *parama* "highest, ultimate, extreme" + *aṇu* "atom, minute particle" | "an infinitesimal particle, atom" — MW's general entry matches the Jain-technical sense closely already (unlike e.g. *pradeśa* at TS 5.8, no real narrowing needed): *paramāṇu* is the standard pan-Indian philosophical term (shared with Vaiśeṣika and other schools) for the smallest indivisible unit of matter, and this is exactly the sense the Tattvārtha Sūtra doctrinal track uses it in (see TS 5.8/5.11 in this same reading room, on *pradeśa*-counts and atoms) | MW, s.v. *aṇu*, *parama* |
+
+**Disambiguation / cross-reference note:** This verse leans on real Jain atomic doctrine — the same *paramāṇu*
+concept the TS Adhyāya 5 unit in this reading room is independently working through (matter/*pudgala* as
+composed of indivisible *paramāṇu*s, TS 5.11 "*nāṇoḥ*") — as the vehicle for a devotional hyperbole: it claims
+the Jina's body was built from every "tranquil-hued" atom in existence, so none remain to build an equal
+form elsewhere. This is poetic hyperbole *using* real doctrinal vocabulary, not a separate doctrinal claim in
+its own right — flagged as an in-corpus cross-reference (devotional text borrowing precisely the doctrinal
+text's technical term), worth a future `shares-vocabulary-with`-style link between the eventual `paramanu.md`
+concept node (not yet written) and this stotra, once/if the concept-batch track reaches it.
+
+**Assembled reading:** O you who are the sole ornament of the three worlds — by however many tranquil-hued,
+serene-coloured atoms you were formed, that many fewer atoms of that [special, tranquil] kind now remain
+elsewhere on earth; that is why no other form exists equal to yours.
+
+**Published translations (comparison only):**
+- jainsquare: "O Crown of the three realms! It appears as if the quiescence and harmony imparting ultimate
+  particles became extinct after constituting your body, because I do not witness such out-of-the-world
+  magnificence other than yours."
+- Bhagwan Das Jaini (excerpt): "Lord of the universe its decoration and grandeur / There is none else here to
+  match your splendour..." — same conclusion (uniqueness of form), the atomic-exhaustion mechanism is implicit
+  rather than spelled out in this compressed rhyme, but not contradicted.
+
+**Modern comparison (QUARANTINED — labelled, never feeds disambiguation):** *Paramāṇu* is one of the most
+frequently seized-on terms in popular Jain-science apologetics, regularly glossed as "the Jain atom, proving
+ancient India anticipated modern atomic physics" or even equated with specific subatomic particles (electron,
+proton, or — in some florid popular writing — informally called a "God particle"). Sourced scholarly pushback
+exists directly on this point: a review of the *paramāṇu* literature notes explicitly that "Jain paramāṇu is
+different from the atom accepted in Physics, which is destructible and divisible," whereas Jain *paramāṇu* is
+doctrinally defined as indivisible, indestructible, and imperceptible to the senses — properties the modern
+physical atom (splittable into protons/electrons/neutrons, itself further divisible) does not share. Recorded
+here as `often-conflated-with-NOT-equivalent`: real shared vocabulary ("indivisible ultimate particle") and a
+real shared *ambition* (a theory of matter's smallest constituents), but not the same physical content — the
+modern atom is not indivisible, and *paramāṇu*, on Jain terms, is not a physical hypothesis open to
+experimental revision the way the modern atomic model has in fact been revised (Thomson → Rutherford → Bohr →
+quantum-mechanical models, each empirically overturning the last; Jain *paramāṇu* doctrine makes no comparable
+claim to be a provisional, evidence-revisable physical model).
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/12/; Bhagwan Das Jaini trans.;
+MW s.v. *aṇu*; herenow4u.net, "Microcosmology: Atom in Jain Philosophy & Modern Science" and the
+academia.edu paper "The philosophy of Paramāṇu in Jainism: the invisible yet physical God Particle" — used
+only for the quarantined Modern-comparison box, not for doctrinal disambiguation (the disambiguation above
+rests on MW plus internal consistency with the TS Adhyāya 5 material already in this reading room).
+
+---
+
+## Bhaktāmara v.13 — both recensions
+
+**Text (IAST):** vaktraṁ kva te sura-nara-uraga-netra-hāri niḥśeṣa-nirjita-jagat-tritayopamānam | bimbaṁ
+kalaṅka-malinaṁ kva niśākarasya yad vāsare bhavati pāṇḍu-palāśa-kalpam || 13 ||
+**Devanāgarī:** वक्त्रं क्व ते सुरनरोरगनेत्रहारि । निःशेष निर्जित जगत् त्रितयोपमानम् ॥ बिम्बं कलङ्क मलिनं क्व निशाकरस्य ।
+यद्वासरे भवति पांडुपलाशकल्पम् ॥१३॥
+
+**Gloss notes:** *sura-nara-uraga* = "gods, humans, and serpent-beings [nāgas]" — a standard three-tier
+inventory of sentient onlookers in Sanskrit/Jain cosmological literature, not a new category requiring
+separate treatment here.
+
+**Assembled reading:** Where is your face, which captivates the eyes of gods, men, and serpent-beings, and
+which utterly surpasses [any] comparison drawn from all three worlds — and where is the moon's disk, sullied
+by its dark spot, which by day becomes [as pale and lifeless as] a withered leaf?
+
+**Published translations (comparison only):**
+- jainsquare: "Comparing your radiant face to the moon is improper. Your luminous countenance pleases the eyes
+  of gods, celestial beings, and humans alike, whereas the moon appears dull and pale as autumn leaves during
+  daytime. Even the finest available analogy falls short in comparison to your face."
+- Bhagwan Das Jaini (excerpt): "Serenity of Thine face is matchless / Is feast for mortals celestial sight..."
+  — same claim and same target of comparison (the moon, found wanting).
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/13/; Bhagwan Das Jaini trans.
+
+---
+
+## Bhaktāmara v.14 — both recensions
+
+**Text (IAST):** sampūrṇa-maṇḍala-śaśāṅka-kalā-kalāpaḥ śubhrā guṇāḥ tri-bhuvanaṁ tava laṅghayanti | ye
+saṃśritāḥ tri-jagad-īśvara nātham ekaṁ kastān nivārayati sañcarataḥ yatheṣṭam || 14 ||
+**Devanāgarī:** सम्पूर्णमण्ङल शशाङ्ककलाकलाप् । शुभ्रा गुणास्त्रिभुवनं तव लंघयन्ति ॥ ये संश्रितास् त्रिजगदीश्वर नाथमेकं ।
+कस्तान् निवारयति संचरतो यथेष्टम् ॥१४॥
+
+*(Devanāgarī on this specific jainsquare page shows minor OCR-plausible irregularities — e.g. "मण्ङल" for the
+expected "मण्डल" — noted rather than silently corrected; the IAST line is internally consistent and was used
+as the basis for the assembled reading.)*
+
+**Gloss notes:** *tri-jagad-īśvara* = "lord of the three worlds," another *-īśvara*/*-indra*/*-nātha* honorific
+compound in the same family as v.2's *jinendra* and v.5's *muniśa*.
+
+**Assembled reading:** Your pure virtues, [gathered together] like the full complement of the full moon's
+digits, surpass [the bounds of] the three worlds. Who can obstruct those who — having taken refuge in you, the
+sole lord of the three worlds — roam about as they please?
+
+**Published translations (comparison only):**
+- jainsquare: "O Lord of the three realms! Surpassing the glow of the full moon, your infinite virtues are
+  radiating throughout the universe—even beyond the three realms; the hymns in praise of your virtues can be
+  heard everywhere. Indeed, who can curb the freedom of movement of devotees of the only omnipotent like you?"
+- Bhagwan Das Jaini (excerpt): "Thine attributes all three worlds transcend / Like full moon rays filling
+  earth's atmosphere..." — matches the moon-completeness image and the "surpassing the three worlds" claim.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/14/; Bhagwan Das Jaini trans.
+
+---
+
+## Bhaktāmara v.15 — both recensions
+
+**Text (IAST):** citraṁ kim atra yadi te tridaśāṅganābhiḥ nītaṁ manāk api mano na vikāra-mārgam |
+kalpānta-kāla-marutā calita-acalena kiṁ mandarādri-śikharaṁ calitaṁ kadācit || 15 ||
+**Devanāgarī:** चित्रं किमत्र यदि ते त्रिदशांगनाभिर् । नीतं मनागपि मनो न विकार मार्गम् ॥ कल्पान्तकालमरुता चलिताचलेन ।
+किं मन्दराद्रिशिखिरं चलितं कदाचित् ॥१५॥
+
+**Gloss notes:** *kalpānta-kāla-marutā* — the same "wind at the end of the cosmic age" stock intensifier
+already flagged at v.4's *kalpānta*; same disambiguation applies (poetic intensifier borrowing shared *kāvya*
+cosmological imagery, not the hymn making an independent claim about Jain eon-doctrine — see v.4 for the full
+note, not repeated here). *Mandarādri* = Mount Mandara, the mythic mountain used in the Churning of the Ocean
+story common to wider Indian Purāṇic literature — here purely a "proverbially immovable object" image, not a
+claim about Jain cosmography specifically (which centers Mount Meru/Sumeru, a distinct peak, as its
+axis-mundi; *Mandara* here is a stock literary reference, not a Jain-cosmology assertion).
+
+**Assembled reading:** What is surprising in this, if the celestial nymphs could not lead your mind, even
+slightly, onto the path of passion/agitation? Can the peak of Mount Mandara ever be shaken by the wind that
+[normally] shakes [even lesser] immovable mountains at the end of the cosmic age?
+
+**Published translations (comparison only):**
+- jainsquare: "O Passionless! Divine nymphs have tried their best to allure you through libidinous gestures,
+  but it is not surprising that your tranquillity has not been disturbed even fractionally. Of course, the
+  tremendous gale of the doomsday, that moves common hillocks, cannot disturb even the tip of the great
+  Sumeru mountain." (jainsquare's own rendering substitutes "Sumeru" for the Sanskrit's *Mandara* — a
+  translator's harmonization to the more familiar Jain-cosmological peak, not a textual variant; flagged as a
+  genuine, minor translation choice.)
+- Bhagwan Das Jaini (excerpt): "Failed to seduce Thee with her charm / Celestial beauty could do no harm..." —
+  matches the core claim (imperviousness to seduction), the mountain-simile portion not included in the
+  quoted excerpt.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/15/; Bhagwan Das Jaini trans.
+
+---
+
+## Bhaktāmara v.16 — both recensions
+
+**Text (IAST):** nirdhūma-varti-pavarjita-taila-pūraḥ kṛtsnaṁ jagat-trayam idaṁ prakaṭī-karoṣi | gamyo na jātu
+marutāṁ calita-acalānāṁ dīpaḥ aparaḥ tvam asi nātha jagat-prakāśaḥ || 16 ||
+**Devanāgarī:** निर्धूमवर्तिपवर्जित तैलपूरः । कृत्स्नं जगत्त्रयमिदं प्रकटी करोषि ॥ गम्यो न जातु मरुतां चलिताचलानां ।
+दीपोऽपरस्त्वमसि नाथ् जगत्प्रकाशः ॥१६॥
+
+**Gloss notes:** *nirdhūma-varti-pavarjita-taila-pūraḥ* — one long descriptive compound, "free of smoke, wick,
+and a filling of oil" — the entire compound functions as a single privative description of an impossible
+lamp, no individual term needs separate technical treatment.
+
+**Assembled reading:** [Being] a lamp free of smoke, wick, or oil-filling, you make this entire three-fold
+world manifest. Never reachable by winds that [otherwise] move [even] immovable mountains, you, O Lord, are
+indeed a lamp unlike [any other] — the illuminator of the world.
+
+**Published translations (comparison only):**
+- jainsquare: "O Lord! You are an all-enlightening divine lamp that needs neither a wick nor oil, and is
+  smokeless, yet enlightens three realms. Even the storm that moves the immovables does not affect it."
+- Bhagwan Das Jaini (excerpt): "O Lord, Thy light three worlds illumines / A lamp without wick oil smoke Thou
+  shines..." — same paradoxical-lamp image, matching point for point.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/16/; Bhagwan Das Jaini trans.
+
+---
+
+## Bhaktāmara v.17 — both recensions
+
+**Text (IAST):** na astaṁ kadācit upayāsi na rāhu-gamyaḥ spaṣṭī-karoṣi sahasā yugapat jaganti | na
+ambhodhara-udara-niruddha-mahā-prabhāvaḥ sūrya-atiśāyi-mahimā asi munīndra loke || 17 ||
+**Devanāgarī:** नास्तं कादाचिदुपयासि न राहुगम्यः । स्पष्टीकरोषि सहसा युगपज्जगन्ति ॥ नाम्भोधरोदर निरुद्धमहाप्रभावः ।
+सूर्यातिशायिमहिमासि मुनीन्द्र! लोके ॥१७॥
+
+**Gloss notes:** *rāhu-gamyaḥ* — "reachable/attainable by Rāhu" — refers to the mythic eclipse-demon Rāhu
+(the same figure already handled carefully at *svarbhanu* in the concept-graph track's Batch 37, in a
+different, Puranic-astronomy context; noted here only as a shared piece of pan-Indian mythological vocabulary
+the stotra draws on, not re-litigated). *Ambhodhara-udara-niruddha* = "obstructed within the belly of a
+cloud-bearer [cloud]."
+
+**Assembled reading:** You never set, are never reachable by Rāhu [i.e. never eclipsed], and instantly make all
+the worlds manifest at once. Your great power/splendour is never confined within a cloud's interior; O lord of
+sages, your glory in the world surpasses the sun's.
+
+**Published translations (comparison only):**
+- jainsquare: "[Your omniscience] never sets like the sun, is never eclipsed, cannot be obstructed by clouds,
+  and illuminates all three worlds simultaneously—surpassing the sun's glory through infinite virtue and
+  passionlessness."
+- Bhagwan Das Jaini (excerpt): "Sun suffers eclipse, clouds obscure its light / It sets, disappears leaving
+  darkness..." — same four-part contrast (setting, eclipse, cloud-obstruction, and — by implication —
+  darkness) structured as the sun's failures against the Jina's constancy.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/17/; Bhagwan Das Jaini trans.
+
+---
+
+## Bhaktāmara v.18 — both recensions
+
+**Text (IAST):** nitya-udayaṁ dalita-moha-mahā-andhakāraṁ gamyaṁ na rāhu-vadanasya na vāridānām | vibhrājate
+tava mukha-abjam anaḍpa-kānti vidyotayat jagat apūrva-śaśāṅka-bimbam || 18 ||
+**Devanāgarī:** नित्योदयं दलितमोहमहान्धकारं । गम्यं न राहुवदनस्य न वारिदानाम् ॥ विभ्राजते तव मुखाब्जमनल्प कान्ति ।
+विद्योतयज्जगदपूर्व शशाङ्कबिम्बम् ॥१८॥
+
+**Gloss notes:** Continues v.13's face-vs-moon comparison with a fuller list of ways the Jina's "moon" [face]
+outperforms the literal moon: perpetual (vs. waxing/waning), dispels the "great darkness of delusion" (*moha*
+— a genuine Jain karma-theory term, obstructive-delusion karma, used here in its ordinary sense consistent
+with karma doctrine, not requiring separate disambiguation since no other sense competes with it in context),
+and immune to eclipse or cloud-cover.
+
+**Assembled reading:** Ever-rising, having shattered the great darkness of delusion, unreachable by Rāhu's
+mouth or by rain-clouds — your lotus-face, of no small radiance, shines forth: an unprecedented moon-disk that
+illuminates the world.
+
+**Published translations (comparison only):**
+- jainsquare: "Your lotus face is a moon par excellence. The moon shines only at night and that too in a
+  fortnightly cycle, but your face is ever radiant. The moon light penetrates darkness only to a limited
+  extent, your face removes the universal darkness of ignorance and desire. The moon is eclipsed as well as
+  covered by clouds, but there is nothing that can veil your face."
+- Bhagwan Das Jaini (excerpt): "The beauty of Thy face, O Lord, transcends that of moon / Which sets, suffers,
+  eclipse..." — same point-by-point moon-superiority structure.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/18/; Bhagwan Das Jaini trans.
+
+---
+
+## Bhaktāmara v.19 — both recensions
+
+**Text (IAST):** kiṁ śarvarīṣu śaśinā ahni vivasvatā vā yuṣmat-mukha-indu-daliteṣu tamassu nātha | niṣpanna-
+śāli-vana-śālini jīva-loke kāryaṁ kiyat jaladharaiḥ jala-bhāra-namraiḥ || 19 ||
+**Devanāgarī:** किं शर्वरीषु शशिनाऽह्नि विवस्वता वा । युष्मन्मुखेन्दु दलितेषु तमस्सु नाथ ॥ निष्मन्न शालिवनशालिनि जीव लोके ।
+कार्यं कियज्जलधरैर् जलभार नम्रैः ॥१९॥
+
+**Gloss notes:** *niṣpanna-śāli-vana-śālini* = "in [a world] adorned with a ripened rice-field" — a second,
+independent simile closing the verse: rain-clouds, heavy with water, become pointless once the rice-crop has
+already ripened, paralleling the sun/moon-made-pointless claim in the verse's first half.
+
+**Assembled reading:** O Lord, once the darkness has already been dispelled by your face-moon, what further
+need is there of the moon by night, or the sun by day? [Likewise:] in a world already adorned with ripened
+rice-fields, what use are rain-heavy, water-laden clouds?
+
+**Published translations (comparison only):**
+- jainsquare: "O Lord of the Universe! Where is the need of the sun during the day and the moon during the
+  night when your ever radiant face sweeps away the darkness of the world. Indeed, once the crop is ripe what
+  is the need of the thundering rain clouds."
+- Bhagwan Das Jaini (excerpt): "O Lord, Thy halo dispels the darkness perpetual / Of what use is then sun of
+  usual..." — matches the first half's logic; the rice-field/rain-cloud second simile is not present in the
+  quoted excerpt, but not contradicted either.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/19/; Bhagwan Das Jaini trans.
+
+---
+
+## Bhaktāmara v.20 — both recensions
+
+**Text (IAST):** jñānaṁ yathā tvayi vibhāti kṛta-avakāśaṁ na evaṁ tathā hari-hara-ādiṣu nāyakeṣu | tejaḥ
+sphurat-maṇiṣu yāti yathā mahattvaṁ na evaṁ tu kāca-śakale kiraṇa-ākule api || 20 ||
+**Devanāgarī:** ज्ञानं यथा त्वयि विभाति कृतावकाशं । नैवं तथा हरिहरादिषु नायकेषु ॥ तेजः स्फुरन्मणिषु याति यथा महत्वं ।
+नैवं तु काच शकले किरणाकुलेऽपि ॥२०॥
+
+**Gloss notes:** *hari-hara-ādiṣu nāyakeṣu* = "among leading [deities] beginning with Hari [Viṣṇu] and Hara
+[Śiva]" — names two major non-Jain deities directly by their standard Sanskrit epithets, as the explicit
+comparison class this verse ranks the Jina's *jñāna* (knowledge) above; a cross-tradition comparison internal
+to the hymn's own rhetoric (Jain vs. Vaiṣṇava/Śaiva deities), not something this reading room needs to
+adjudicate — recorded as the poem's own claim, not endorsed or disputed here.
+
+**Assembled reading:** Just as knowledge shines in you, having found [full] scope, it does not shine thus among
+leading [deities] such as Hari and Hara. Just as brilliance attains greatness in a flashing gemstone, it does
+not do so in a piece of glass, however agitated/scattered with light-rays.
+
+**Published translations (comparison only):**
+- jainsquare: "O Lord! The pure, incessant and complete knowledge that you have, cannot be found in any other
+  deity in this world. Indeed, the lustre and light of priceless gems can hardly be seen in the glass pieces
+  glittering in a beam of light."
+- Bhagwan Das Jaini (excerpt): "Deities other envy Thy Omniscience / Just as glass glaze diamond's
+  brilliance..." — same gem-vs-glass simile, same comparative-knowledge claim.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/20/; Bhagwan Das Jaini trans.
+
+**Status of this file:** verses 1–20 drafted to full standard this session. Verses 21 through the end of both
+recensions (44 Śvetāmbara / 48 Digambara, including the Digambara-only *prātihārya* verses ~31/32–35 and the
+shared miracle-efficacy verses that follow) remain `pending` for continuation.
