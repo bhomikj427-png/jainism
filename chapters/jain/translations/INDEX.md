@@ -113,7 +113,7 @@ chapters/jain/translations/
 | 1 | **PROTOTYPE — TS 5.1 (single sūtra)** | `doctrinal/tattvartha/05-substances.md` (start it with 5.1 only) | **done — format approved by user** | Proved the doctrinal format. 3 independent translations sourced (Jaini 1920, Vijay K. Jain 2018, Tatia 1994 — retrieved via direct download + local grep after the fetch tool truncated the OCR text); confidence high. |
 | 2 | **PROTOTYPE — Bhaktāmar v1 (single verse)** | `devotional/bhaktamar/01-bhaktamar.md` (verse 1 only) | **done — format approved by user** | Proved the devotional format (meter; Modern-comparison correctly N/A). 2 solid named sources (Vijay K. Jain 2023 via archive.org OCR + local grep; Nalini Balbir/Jainpedia) + 1 flagged likely-derivative popular paraphrase used only as cross-check — confidence medium, open item to find a 3rd named scholarly source. |
 | 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | **done — Adhyāya 5 complete, Dig. 5.1–5.42 / Śvet. 5.1–5.41** | Full chapter drafted across four sessions. Five structural numbering forks (two merges: 5.2–5.3→Śvet.5.2 and 5.29–5.30→Śvet.5.29; one split: 5.8→Śvet.5.7–5.8; the merge/split pair exactly cancels at 5.9, the second merge stands as a permanent +1 Dig.-over-Śvet. offset for the rest of the chapter). Two genuine Dig./Śvet. **content-variant** sūtras, not mere renumbering (5.37 vs Śvet.5.36 — atomic-bonding transformation rule; 5.39 vs Śvet.5.38 — kāla's substance-hood asserted flatly vs. attributed to "some teachers"). One genuine **SS-vs-SBT commentarial divergence** on atomic-bonding combinatorics (5.36/Śvet.5.35, two full comparison tables, flagged lower-confidence — OCR-sourced numeric table, not independently cross-checked). 5.32/Śvet.5.31 (arpitānarpitasiddheḥ) identified as the TS's own textual anchor for the already-written `anekāntavāda`/`syādvāda`/`saptabhaṅgī`/`naya` concept nodes. Chapter-end fork-census table included in-file. |
-| 4 | TS Adhyāya 1 — knowledge & means | `doctrinal/tattvartha/01-knowledge.md` | pending | 5 jñānas, naya, pramāṇa, nikṣepa. |
+| 4 | TS Adhyāya 1 — knowledge & means | `doctrinal/tattvartha/01-knowledge.md` | **done — first pass complete, both recensions** | 5 jñānas, naya, pramāṇa, nikṣepa. Genuine numbering fork found: Śvet. runs 1.1–1.35, Dig. 1.1–1.33 (a dropped sūtra at the avadhi-jñāna split, a further merge at the naya list); one content-variant sūtra (1.16, pure/impure mental faculties, differently worded). Sūtras 1.1–1.12 at full depth; 1.13–1.35 as content survey (most of this chapter's terms already have dedicated concept-node treatment in Ch.02/07 — linked, not re-derived). |
 | 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/01-bhaktamar.md` (continuing same file) | **done — all 48 Digambara verses drafted** | **Complete first pass of the entire Bhaktāmara Stotra** (Digambara 48-verse recension). v.37–47 cover the eight traditional "protection from danger" verses (elephant, lion, fire, snake, war ×2, ocean, disease, bondage) — internally cross-checked against v.47's own summary verse, confirming the eight-danger identification. v.48 is the colophon where Mānatuṅga names himself (flagged as the hymn's own primary-source authorship evidence, distinct from the later hagiographical origin-story). v.43 resolved the OCR mystery from 2 sessions ago — confirmed as v.43, not v.7. **Open items for a future pass:** most of v.21–48 is single-sourced (jainsquare only, no second translation); Śvetāmbara-specific numbers v.28–44 are inferred from the −4 offset, not independently confirmed against a Śvetāmbara-labelled source; padaccheda/MW fetches were skipped for most of v.21–48 (leaner format). |
 | 6 | TS Adhyāya 2 (jīva) | `doctrinal/tattvartha/02-soul.md` | pending | |
 | 7 | TS Adhyāya 6 (āsrava) | `doctrinal/tattvartha/06-influx.md` | pending | |
@@ -308,3 +308,29 @@ chapters/jain/translations/
   v.2–44 individually (this book's OCR Devanāgarī is font-corrupted; a legible source would be needed). Per
   §E, Kalyāṇamandira is done; remaining `pending` units are **#4 (TS Adhyāya 1)** and the other TS adhyāyas,
   plus the still-`later` Ṇamokāra/Navkār and other minor stotras.
+- **TS Adhyāya 1 drafted — first pass complete, both recensions** (`doctrinal/tattvartha/01-knowledge.md`, unit
+  #4) — 2026-07-09, continuing autonomously per user instruction. Sourced Tatia (1994, archive.org OCR,
+  downloaded and read locally) as the primary text — its translator apparatus flags every SB/SBT-vs-SS
+  numbering divergence explicitly, doing much of the recension-comparison work directly — cross-checked against
+  Vijay K. Jain (2018) and, for sūtras 1–12, Jaini/jainworld. **Found a genuine two-part numbering fork**,
+  structurally different from Adhyāya 5's merge/split patterns: (1) Śvetāmbara 1.21 ("clairvoyance has two
+  types") has no separate Digambara counterpart — absorbed into what becomes Digambara's own 1.21, putting
+  Digambara one sūtra behind Śvetāmbara from there on; (2) Śvetāmbara's five-*naya* list (1.34, with sub-type
+  counts in a separate 1.35) becomes Digambara's single seven-*naya* sūtra (1.33) — promoting two of
+  Śvetāmbara's *śabda*-sub-types to independent standing. **Net: Śvetāmbara 1.1–1.35, Digambara 1.1–1.33.**
+  Also found a **genuine content-variant sūtra** (1.16 vs. its "SS variant," per Tatia's own apparatus): both
+  recensions contrast objects graspable by pure vs. impure mental faculties, but the Digambara wording
+  (*anukta*, "unspoken," reversing an exposed/unexposed contrast) tracks a different distinction than the
+  Śvetāmbara wording (*niḥsṛta*/*sāndigdha*) — flagged as the same category of fork as TS 5.37/Śvet.5.36 in the
+  Adhyāya 5 unit. **Key economization for this chapter**: most of its technical vocabulary (all five *jñāna*s,
+  *naya* and its five/seven named sub-types, *pramāṇa*, *ratnatraya*) already has full concept-node treatment
+  in `concepts/` (Ch. 02/07 of the teaching layer) — this unit links to those nodes for term-level lexical work
+  rather than re-deriving it, and instead focuses on what's unique to the reading room: the sūtra text itself,
+  its recension numbering, and sūtra-level grammar. **Format choice, same principle as Kalyāṇamandira**: sūtras
+  1.1–1.12 (the *ratnatraya* opening through the *pratyakṣa*/*parokṣa* split) at full padaccheda depth, since
+  that sūtra-level material is new to the reading room; sūtras 1.13–1.35 (the five *jñāna*s' internal taxonomy)
+  as a content survey in original prose, both because the term-level content already has fuller treatment
+  elsewhere and to avoid transcribing three full translations of over twenty further sūtras verbatim. Confirmed
+  1.10–1.12's *parokṣa*/*pratyakṣa* split is this sūtra's own textual root for the already-documented
+  Jain-vs-Nyāya/Buddhist/Mīmāṃsā inversion finding in `paroksha-jnana.md`. Per §E, the next lowest-numbered
+  `pending` unit is **#6, TS Adhyāya 2 (jīva)**.
