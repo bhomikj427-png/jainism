@@ -2,7 +2,7 @@
 
 > **⚠️ ORIENTATION — read this before acting (kept short on purpose; loaded on every startup — closed run-logs are rotated to `progress-archive.md`).**
 > This project has **two parallel structures**, and they are NOT interchangeable:
-> 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 38 done, 300 concepts** (audit CLEAN).
+> 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 39 done, 304 concepts** (audit CLEAN).
 > 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Ch 14 (next = Ch 15)**. **→ The planned chapters Ch 15–20 are listed in the `## Chapter roadmap` table in `chapters/INDEX.md`** — a fresh session picks the lowest-numbered `planned` row. NOTE: `hindu/` now has a **second level** (`darsana/`, `devotional/`, `scripture/`) — see `chapters/INDEX.md` header for what goes where.
 >
 > **"chapter" ≠ "batch."** If the user says "chapter," they mean a file in `chapters/` — open `chapters/INDEX.md` for the next number; do NOT answer with a "Suggested Batch" from this file. (This mistake has recurred across sessions — see `chapter-vs-batch` memory.)
@@ -15,43 +15,42 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 > **🗂  Run-log rotation (token discipline, CLAUDE.md §7/§9).** Closed run-logs older than the current run live in **`progress-archive.md`** (append-only; git is the canonical history). This file keeps only the orientation header, the anchor text, and the **most recent activity** so startup stays cheap. When you finish a batch: append the new run-summary here, then move the *previously* newest run-log block into `progress-archive.md`. Full history: `progress-archive.md` or `git log`.
 
-## Batch 38 — Neoplatonic/Greek closure (2026-07-10)
+## Batch 39 — Āyurveda opening cluster (2026-07-10)
 
 ### Startup reconcile
-- Batches 1–37 fully committed. Audit CLEAN at start: 296 nodes, 1669 edges, 0 orphans, 0 stubs. Working tree clean — no interrupted draft.
-- Worked serially, one concept end-to-end then commit. Dedup gate (Glob) before writing each file.
-- Cluster chosen via user forced-choice (§10 genuine fork among 4 suggested Batch-38 clusters): **Neoplatonic/Greek closure**, 4 concepts, closing out the Ch.13 Neoplatonism cluster.
+- Batches 1–38 fully committed. Audit CLEAN at start: 300 nodes, 1686 edges, 0 orphans, 0 stubs. Working tree clean — no interrupted draft.
+- Worked serially, one concept end-to-end then commit. Dedup gate (Glob) before writing each file — confirmed `ayurveda`/`sushruta`/`charaka`/`tridosha` all unclaimed; `dhanvantari.md` already existed and explicitly names Āyurveda/Suśruta as unclaimed forward-references.
+- Cluster chosen autonomously (user directive: proceed without asking, assume reasonably) from progress.md's four suggested Batch-39 clusters: **Āyurveda**, the most self-contained. Mīmāṃsā/Advaita, the carried-over Vedic-figures cluster, and Eriugena/Psellos were left for a future batch.
 
-### Batch 38 concepts — 4 / 4 done (0 blocked, 0 needs-opus-review)
+### Batch 39 concepts — 4 / 4 done (0 blocked, 0 needs-opus-review)
 
 | # | concept | status | conf | notes |
 |---|---|---|---|---|
-| 1 | simplicius | converged | medium | last-generation Athenian Neoplatonist commentator; sole preserver of ~2/3 of all surviving verbatim Presocratic fragments via his Aristotle commentaries; 529 CE Academy closure + Persian exile with Damascius; SEP/Wikipedia death-date discrepancy (560 vs 540) surfaced, not silently resolved |
-| 2 | marinus | converged | medium | Proclus's student, successor as scholarch, and biographer; *Life of Proclus* (*On Happiness*) flagged explicitly as advocacy (virtue-ascent argument for Proclus's eudaimonia), not neutral biography, even though it's the primary source; destroyed his own *Philebus* commentary |
-| 3 | pseudo-dionysius | contested | medium | Christian Neoplatonist writing under a false 1st-c. apostolic name; real Proclan borrowing (procession/return, hierarchy) re-grounded in Trinitarian love and direct divine-creature dependence; genuine three-way contested identity (SEP's "unknown pupil of Proclus" / Peter-the-Iberian / a proposed **Damascius**-identification) presented as a comparison table, none endorsed |
-| 4 | chaldean-oracles | converged | medium | 2nd-c. theurgic verse-fragments (Julian the Chaldean/Theurgist), source of the word *theourgia* itself; "Bible of the Neoplatonists" — Proclus/Damascius/Iamblichus treated it as authoritative; flagged provenance problem: surviving fragments are filtered entirely through the same school being asked to treat them as scripture |
+| 1 | ayurveda | converged | medium | the umbrella medical tradition; flagged the honest gap between the popular "5,000-year-old" claim and Wikipedia's sourced "first centuries CE" dating for the classical texts; scientific-critique material (doshas "fictional," no cancer-cure evidence, rasaśāstra heavy-metal toxicity) recorded as the external secular assessment, held separate from the internal doctrinal account |
+| 2 | charaka | contested | medium | the internal-medicine Saṃhitā + its eponymous physician; three-layer redaction (Agniveśa → Charaka → Dṛḍhabala) surfaced; `status: contested` set specifically for Chattopadhyay's "lineage not person" thesis vs. the traditional individual-author reading; Britannica fetch blocked (HTTP 403) and flagged as a sourcing gap rather than papered over |
+| 3 | sushruta | contested | medium | the surgery-centered Saṃhitā + its eponymous physician; Dhanvantari-vs-Divodāsa manuscript-framing split (oldest MSS attribute directly to Divodāsa); flagged a genuine rigor-divergence between Meulenbeld's philological caution (Wikipedia) and a peer-reviewed PMC medical-history source's flat, uncritical "~600 BCE" dating with no debate acknowledged at all |
+| 4 | tridosha | converged | medium | vāta/pitta/kapha, each a mahābhūta-pairing; *duṣ*-root etymology (imbalance, not inherent harm); open item honestly flagged — two comparative-review PDFs (Charaka/Suśruta/Vāgbhaṭa treatment differences) could not be read (fetch tool returned unparseable binary/OCR), so that deeper cross-textual comparison is deferred |
 
 ### Prime-directive / honest-divergence findings recorded (not smoothed over)
-- **simplicius**: SEP gives his death as ca. 560, Wikipedia as ca. 540 — a real, unresolved discrepancy between two independent reference works, recorded rather than averaged or silently picked.
-- **marinus**: the *Life of Proclus* is simultaneously the primary historical source for Proclus's biography *and* explicit hagiographic advocacy (structured to prove Proclus attained eudaimonia, "unmistakably hostile to Christianity") — both facts held together rather than treating the source as neutral testimony.
-- **pseudo-dionysius**: the central finding is the corpus's identity itself is genuinely unresolved among scholars — three non-converging candidates (anonymous Proclus-pupil / Peter the Iberian / Damascius) captured as a comparison table per CLAUDE.md §4, with `status: contested` set at the file level specifically for the identity question (doctrine and dating are convergent).
-- **chaldean-oracles**: flagged an independence problem one level deeper than usual — not just "are the modern secondary sources independent" (they are) but "is the ancient evidentiary base itself independent of its interpreters" (it is not: every surviving fragment comes via Proclus, Damascius, or Psellos, the very school treating it as scripture).
-- A Grokipedia (AI-generated tertiary) hit was again excluded during chaldean-oracles research, continuing the recurring, deliberate exclusion practice from Batches 36–37 (bali, svarbhanu).
+- **ayurveda**: the "5,000 years old" self-presentation vs. the textually-verifiable "first centuries CE" dating band — recorded as a real gap, not rounded away.
+- **charaka**: Chattopadhyay's claim that "Charaka" names a lineage/sect rather than an individual, set against the traditional-author reading assumed by most popular medical-history literature — presented as contested, not resolved.
+- **sushruta**: two internal-tradition attribution frames (printed editions: Dhanvantari teaching a group including Sushruta; oldest manuscripts: direct Divodāsa attribution) plus a cross-genre rigor gap — a peer-reviewed PMC piece asserts an unqualified "~600 BCE" date with zero historiographical caveat, while the Meulenbeld-sourced Wikipedia account treats the dating as a live, unresolved 2000 BCE–6th c. CE range.
+- **tridosha**: an open item honestly logged rather than silently dropped — the intended three-way Charaka/Suśruta/Vāgbhaṭa comparative-elaboration content could not be sourced this round because both comparative-review PDFs returned as unreadable binary content via the fetch tool.
+- Two Britannica fetches (charaka.md, ayurveda-adjacent) returned HTTP 403 and were recorded as sourcing gaps rather than silently substituted with an indirect citation.
 
-### De-orphan / correct-direction edges added to existing files (established practice)
-- `damascius → historically-influenced-by → marinus` (Damascius's own file already narrated studying under Marinus in prose but lacked the typed edge).
-- `iamblichus → historically-influenced-by → chaldean-oracles` and `proclus → historically-influenced-by → chaldean-oracles` (correct direction: the Oracles are the earlier source; both files already discussed this in prose without a typed edge).
-- `henosis → structurally-parallel-to → pseudo-dionysius` and `damascius → structurally-parallel-to → simplicius` (symmetric-type mirror edges, added specifically to de-orphan the two new nodes that otherwise had only outbound edges — same technique as Batch 37's hub-inbound de-orphaning).
+### Cross-tradition honesty-layer edges added (new, this batch)
+- `ayurveda often-conflated-with-NOT-equivalent prakriti-samkhya` (paired with `shares-vocabulary-with` on the same ordered pair, the one sanctioned two-type combination) — Āyurvedic *prakṛti* (individual dosha-constitution) vs. Sāṃkhya *prakṛti* (cosmic primal matter): same word, different tradition, not the same concept at different scales.
+- `tridosha often-conflated-with-NOT-equivalent guna-samkhya` — the dosha (physiological) and guṇa (psychological, sattva/rajas/tamas) personality-classification layers are sometimes run together in popular wellness literature as one system; they are two distinct schemes over the same person.
+- `charaka structurally-parallel-to sushruta` / `sushruta structurally-parallel-to charaka` (symmetric type, both directions written independently from each node's own vantage per §5's storage rule) — same core subjects, opposite emphasis (internal medicine vs. surgery), unresolved relative chronology.
 
 ### Audits (deterministic, via build_graph audit_graph + find_duplicates.py)
-- **First pass found 2 orphans** (pseudo-dionysius, simplicius — written but not yet a target of any edge) — resolved by the two symmetric-mirror edges above; **second pass CLEAN**: dangling stubs NONE, orphans NONE, bidirectional-directional edges NONE, forbidden hier+similarity combos NONE.
-- `find_duplicates.py`: 0 hard-collision groups (IAST/TRANSLIT/PHANTOM); manifest in sync. Existing DEVANAGARI/SPLIT groups unchanged (aḥiṃsā, vyāsa pairs — pre-existing, not from this batch).
-- Graph regenerated: **296 → 300 nodes, 1669 → 1686 edges**. `graph.svg` re-rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`; `graph.dot`/`graph.html`/`index.md`/`MANIFEST.tsv` refreshed (manifest in sync).
+- Single pass CLEAN: dangling stubs NONE, orphans NONE, bidirectional-directional edges NONE, forbidden hier+similarity combos NONE. (No orphans to resolve this batch — every new concept picked up an inbound edge naturally via the `structurally-parallel-to`/`shares-vocabulary-with` cluster above plus each `formalizes: ayurveda` edge.)
+- `find_duplicates.py`: exit 0, 0 hard-collision groups (IAST/TRANSLIT/PHANTOM); manifest in sync. Pre-existing DEVANAGARI/SPLIT groups (aḥiṃsā, vyāsa pairs) unchanged, not touched by this batch.
+- Graph regenerated: **300 → 304 nodes, 1686 → 1700 edges**. `graph.svg` re-rendered via `"C:\Program Files\Graphviz\bin\dot.exe"` (Graphviz not on PATH this session — explicit binary path used, same as Batch 38); `graph.dot`/`graph.html`/`index.md`/`MANIFEST.tsv` refreshed.
 
-### Corpus milestone: 300 concepts across 38 batches. 0 orphans. 0 unwritten stubs. Audit CLEAN.
+### Corpus milestone: 304 concepts across 39 batches. 0 orphans. 0 unwritten stubs. Audit CLEAN.
 
-### Suggested Batch 39 (names only — no files written)
-- **Āyurveda** (dhanvantari opens it, still unclaimed): `ayurveda`, `sushruta`, `charaka`, `tridosha` (vāta/pitta/kapha).
-- **Mīmāṃsā/Advaita:** `sureshvara`, `shankara`/`adi-shankara` (still unwritten — referenced by mandana-mishra, advaita-vedanta), `varsaganya`.
-- **Newly opened, carried over from Batch 37:** `varuna` (Indra's Vedic-decline parallel, cited in indra.md but unwritten), `atri` (the RV 5.40 sage who restores the sun, cited in svarbhanu.md but unwritten), `balarama` (Kṛṣṇa's brother, cited in varuni.md but unwritten), `prahlada` (Bali's grandfather, cited in bali.md but unwritten), `vritra`/`verethragna` comparanda cluster (Indo-European dragon-slaying, flagged in indra.md, not yet a node).
-- **Newly opened by this batch:** a possible `eriugena` node (John Scottus Eriugena, who translated the Corpus Areopagiticum into Latin and transmitted it to the medieval Christian West — cited in pseudo-dionysius.md but unwritten); `psellos`/`michael-psellos` (the alternate Byzantine transmission line for the Chaldean Oracles fragments, cited in chaldean-oracles.md but unwritten).
+### Suggested Batch 40 (names only — no files written)
+- **Mīmāṃsā/Advaita** (carried over, untouched this round): `sureshvara`, `shankara`/`adi-shankara` (still unwritten — referenced by `mandana-mishra`, `advaita-vedanta`), `varsaganya`.
+- **Carried over from Batch 37/38:** `varuna` (Indra's Vedic-decline parallel, cited in `indra.md`), `atri` (RV 5.40 sage, cited in `svarbhanu.md`), `balarama` (cited in `varuni.md`), `prahlada` (Bali's grandfather, cited in `bali.md`), `vritra`/`verethragna` comparanda cluster (cited in `indra.md`); `eriugena` (cited in `pseudo-dionysius.md`); `psellos`/`michael-psellos` (cited in `chaldean-oracles.md`).
+- **Newly opened by this batch:** a possible `vagbhata` node (Aṣṭāṅga Hṛdayam author, the third major classical Āyurveda authority alongside Charaka/Suśruta — named in `ayurveda.md` and `sushruta.md` but not yet a node); the Āyurveda cluster's own internal open item (a `dhatu`/`mala` node — the seven-tissue/waste-product framework mentioned in `ayurveda.md` but not yet broken out as its own concept).

@@ -164,9 +164,11 @@ digraph ancient_texts {
     "aruna" [label="Aruṇa" fillcolor="#4fd16b" shape=ellipse];
     "atman-vedanta" [label="ātman (Vedānta)" fillcolor="#4fd16b" shape=ellipse];
     "avatara-vedanta" [label="avatāra" fillcolor="#4fd16b" shape=ellipse];
+    "ayurveda" [label="Āyurveda" fillcolor="#4fd16b" shape=ellipse];
     "bali" [label="Bali" fillcolor="#4fd16b" shape=ellipse];
     "brahma" [label="Brahmā" fillcolor="#4fd16b" shape=ellipse];
     "brahman" [label="brahman" fillcolor="#4fd16b" shape=ellipse];
+    "charaka" [label="Caraka" fillcolor="#4fd16b" shape=ellipse];
     "dhanvantari" [label="Dhanvantari" fillcolor="#4fd16b" shape=ellipse];
     "durga" [label="Durgā" fillcolor="#4fd16b" shape=ellipse];
     "dvaita-vedanta" [label="Dvaita Vedānta" fillcolor="#4fd16b" shape=ellipse];
@@ -221,7 +223,9 @@ digraph ancient_texts {
     "spanda" [label="spanda" fillcolor="#4fd16b" shape=ellipse];
     "sthitaprajna" [label="sthitaprajña" fillcolor="#4fd16b" shape=ellipse];
     "surya" [label="Sūrya" fillcolor="#4fd16b" shape=ellipse];
+    "sushruta" [label="Suśruta" fillcolor="#4fd16b" shape=ellipse];
     "svarbhanu" [label="Svarbhānu" fillcolor="#4fd16b" shape=ellipse];
+    "tridosha" [label="Tridoṣa" fillcolor="#4fd16b" shape=ellipse];
     "trimurti" [label="trimūrti" fillcolor="#4fd16b" shape=ellipse];
     "ucchaihshravas" [label="Uccaiḥśravas" fillcolor="#4fd16b" shape=ellipse];
     "upanishad" [label="Upaniṣad" fillcolor="#4fd16b" shape=ellipse];
@@ -551,6 +555,10 @@ digraph ancient_texts {
   "avatara-vedanta" -> "mahabharata" [color="#cccccc22"];
   "avatara-vedanta" -> "krishna" [color="#cccccc22"];
   "avatara-vedanta" -> "rama" [color="#cccccc22"];
+  "ayurveda" -> "pancha-mahabhuta" [color="#cccccc22"];
+  "ayurveda" -> "prakriti-samkhya" [color="#cccccc22"];
+  "ayurveda" -> "prakriti-samkhya" [color="#cccccc22"];
+  "ayurveda" -> "dhanvantari" [color="#cccccc22"];
   "badarayana" -> "brahma-sutra" [color="#cccccc22"];
   "badarayana" -> "vyasa" [color="#cccccc22"];
   "bali" -> "vamana" [color="#cccccc22"];
@@ -626,6 +634,10 @@ digraph ancient_texts {
   "chaldean-oracles" -> "theurgy" [color="#cccccc22"];
   "chaldean-oracles" -> "henosis" [color="#cccccc22"];
   "chaldean-oracles" -> "proclus-henad" [color="#cccccc22"];
+  "charaka" -> "ayurveda" [color="#cccccc22"];
+  "charaka" -> "tridosha" [color="#cccccc22"];
+  "charaka" -> "sushruta" [color="#cccccc22"];
+  "charaka" -> "guna-samkhya" [color="#cccccc22"];
   "charitra" -> "tattva-jain" [color="#cccccc22"];
   "charitra" -> "ahimsa" [color="#cccccc22"];
   "charitra" -> "satya" [color="#cccccc22"];
@@ -1759,6 +1771,9 @@ digraph ancient_texts {
   "surya" -> "vishnu" [color="#cccccc22"];
   "surya" -> "brahman" [color="#cccccc22"];
   "surya" -> "aruna" [color="#cccccc22"];
+  "sushruta" -> "ayurveda" [color="#cccccc22"];
+  "sushruta" -> "charaka" [color="#cccccc22"];
+  "sushruta" -> "dhanvantari" [color="#cccccc22"];
   "svarbhanu" -> "samudra-manthana" [color="#cccccc22"];
   "svarbhanu" -> "rahu" [color="#cccccc22"];
   "svarbhanu" -> "rahu" [color="#cccccc22"];
@@ -1830,6 +1845,9 @@ digraph ancient_texts {
   "tirthankara" -> "loka-jain" [color="#cccccc22"];
   "tirthankara" -> "ahimsa" [color="#cccccc22"];
   "tirthankara" -> "avatara-vedanta" [color="#cccccc22"];
+  "tridosha" -> "ayurveda" [color="#cccccc22"];
+  "tridosha" -> "pancha-mahabhuta" [color="#cccccc22"];
+  "tridosha" -> "guna-samkhya" [color="#cccccc22"];
   "trimurti" -> "vaishnavism" [color="#cccccc22"];
   "trimurti" -> "shaivism" [color="#cccccc22"];
   "trimurti" -> "brahma" [color="#cccccc22"];
