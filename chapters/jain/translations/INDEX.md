@@ -118,7 +118,7 @@ chapters/jain/translations/
 | 6 | TS Adhyāya 2 (jīva) | `doctrinal/tattvartha/02-soul.md` | **done — first pass, sūtras 2.1–2.29 full depth; 2.30–2.52/53 content survey** | Karmic-state taxonomy, senses, soul-transit geometry. Content-variant fork at 2.13/2.14 (mobile/immobile line drawn differently — fire/air-bodied beings). Open item: an untraced second numbering correction somewhere in 2.30–2.52 (Śvet. ends at 2.52, Dig. at 2.53, but the running -1 offset from 2.13 doesn't project to that gap on its own). |
 | 7 | TS Adhyāya 6 (āsrava) | `doctrinal/tattvartha/06-influx.md` | **done — first pass, both recensions** | Action/influx mechanics, causes of each of the 8 karma-types. Merge fork at 6.3/SS 6.3; split fork at 6.18/SS 6.17-18; a genuine doctrinal-addition fork at 6.20/SS 6.21 (SS adds right-faith itself as a cause of divine rebirth). Open item: chapter-end sūtra-count arithmetic (SB 6.26 = SS 6.27) not fully reconciled against the merge+split found. |
 | 8 | TS Adhyāya 8 (bandha) | `doctrinal/tattvartha/08-bondage.md` | **done — first pass, both recensions** | Five causes of bondage, four aspects, eight karma-types' sub-types/duration/intensity, and a closing beneficial-vs-harmful sūtra with a genuine content-variant fork PLUS an intra-Digambara commentarial split (Vīrasena's two commentaries disagree with each other, not just Dig. vs Śvet.). Opening merge (SB 8.1–3→SS 8.1–2) and closing split (SB 8.26→SS 8.25–26) exactly cancel — both recensions end at sūtra 26, a cleaner fork-shape than any prior adhyāya in this reading room. |
-| 9 | TS Adhyāya 9 (saṃvara/nirjarā) | `doctrinal/tattvartha/09-stoppage-shedding.md` | pending | |
+| 9 | TS Adhyāya 9 (saṃvara/nirjarā) | `doctrinal/tattvartha/09-stoppage-shedding.md` | **done — first pass, both recensions** | Stoppage/shedding mechanics, ten moral virtues, twelve reflections, and a rich dhyāna-section (9.27–49) fork cluster: two splits, one content-order swap (a first for this reading room), two Śvetāmbara-only sūtras, and one mirror-image Digambara-only sūtra. |
 | 10 | TS Adhyāya 7 (vratas) | `doctrinal/tattvartha/07-vows.md` | pending | |
 | 11 | TS Adhyāya 3 (lower/middle worlds) | `doctrinal/tattvartha/03-worlds.md` | pending | |
 | 12 | TS Adhyāya 4 (celestial beings) | `doctrinal/tattvartha/04-celestials.md` | pending | |
@@ -405,3 +405,34 @@ chapters/jain/translations/
   closing sūtra's Digambara side (SS 8.25–8.26) was verified via Tatia's own reporting of the SS text but not
   independently re-located in the Vijay K. Jain OCR within this session — a second-source gap on that one
   sūtra pair. Per §E, the next lowest-numbered `pending` unit is **#9, TS Adhyāya 9 (saṃvara/nirjarā)**.
+- **TS Adhyāya 9 drafted — first pass, both recensions** (`doctrinal/tattvartha/09-stoppage-shedding.md`, unit
+  #9) — 2026-07-10, continuing autonomously per user instruction. Re-downloaded both the Tatia (1994) OCR (the
+  clean scan, `ThatWhichIsTattvarthaSutraNathaMalaTatia`, re-located via the `/metadata/` JSON endpoint — the
+  same clean scan used for Adhyāya 8, distinct from the earlier corrupted one) and Vijay K. Jain (2018,
+  `Tattvartha18CompleteWeb`) directly to local files and grepped them, rather than relying on WebFetch
+  summarization, since this chapter's dhyāna section turned out to carry unusually dense sūtra-by-sūtra
+  cross-reference annotations a summarizer would likely flatten. Covered *saṃvara*'s definition and its
+  bhāva/dravya two-fold split (9.1, cross-checked between Tatia's "psychic/physical" and Vijay K. Jain's
+  "bhāva-saṃvara/dravya-saṃvara" wording — different English, same underlying distinction, confirming
+  independence), the seven causes of stoppage (9.2–9.3), guarding and careful movement (9.4–9.5) at full
+  padaccheda depth, the ten moral virtues (9.6) at full depth including a genuine doctrinal fingerprint of the
+  historical Digambara/Śvetāmbara possession-split embedded in a footnote to virtue #8 (renunciation — "pots
+  and cloth are not mentioned in the SS as the orders of this tradition do not allow these items"), and the
+  opening of the twelve reflections (9.7). Sūtras 9.8–9.26 (hardships, conduct-stages, external/internal
+  austerities, penances) were taken as a content survey — Tatia's own apparatus reports zero recension
+  divergence across this entire 19-sūtra stretch. **The dhyāna section (9.27–9.49) is this chapter's real find**:
+  a full concordance table walking Dig. against Śvet. numbering turned up five genuinely distinct kinds of
+  fork in one 23-sūtra stretch — two ordinary splits (Dig. 9.27→Śvet. 9.27-28; Dig. 9.37→Śvet. 9.39-40); **a
+  content-order swap** (Dig. 9.31/9.32 present the same two meditation-topics as Śvet. 9.32/9.33 but in the
+  opposite sequence — a fork *type* not seen in this reading room's prior adhyāyas 5/6/8, which only ever
+  produced merges, splits, or content-variants, never a pure reordering); two Śvetāmbara-only sūtras with no
+  Digambara counterpart at all (9.37, 9.38, per Tatia's own explicit "(not in SS)" annotations); and, the
+  mirror-image case, one Digambara-only sūtra (9.42, "the second variety is devoid of movement") that Tatia's
+  own Śvetāmbara-based text includes but folds into surrounding prose without granting it an independent sūtra
+  number. The chapter's final-count arithmetic (Dig. ends 9.47, Śvet. ends 9.49, net +2) was traced and found
+  **consistent** with the fork census — unlike Adhyāya 6's and 2's previously-flagged unresolved end-of-chapter
+  arithmetic gaps, this one closes cleanly. **Open item honestly flagged**: the entire dhyāna-section fork
+  census rests on Tatia's own translator apparatus alone; Vijay K. Jain's independent numbering for TS 9.27–47
+  specifically was not cross-checked sūtra-by-sūtra this session, so (per the same caution applied to Adhyāya
+  5's SS-vs-SBT atomic-bonding divergence) this specific census should be treated as single-source pending a
+  second-source confirmation. Per §E, the next lowest-numbered `pending` unit is **#10, TS Adhyāya 7 (vratas)**.
