@@ -110,7 +110,7 @@ chapters/jain/translations/
 
 | # | unit | file to create | status | notes |
 |---|------|----------------|--------|-------|
-| 1 | **PROTOTYPE — TS 5.1 (single sūtra)** | `doctrinal/tattvartha/05-substances.md` (start it with 5.1 only) | pending | Prove the doctrinal format on the hardest case. **STOP after 5.1 and show the user for approval before continuing the chapter.** |
+| 1 | **PROTOTYPE — TS 5.1 (single sūtra)** | `doctrinal/tattvartha/05-substances.md` (start it with 5.1 only) | **drafted — awaiting user approval** | Prove the doctrinal format on the hardest case. **STOPPED after 5.1 per plan; do not continue the chapter until the user signs off on the format.** Open item: 3rd translation (Tatia 1994) not retrievable this pass — see file's Sources note. |
 | 2 | **PROTOTYPE — Bhaktāmar v1 (single verse)** | `devotional/bhaktamar/01-bhaktamar.md` (verse 1 only) | pending | Prove the devotional format (meter; Modern-comparison = N/A). **STOP after v1 for approval.** |
 | 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | pending | The substances: ajīva, dravya, pudgala, paramāṇu, skandha, dharma/adharma/ākāśa/kāla. Only after #1 approved. |
 | 4 | TS Adhyāya 1 — knowledge & means | `doctrinal/tattvartha/01-knowledge.md` | pending | 5 jñānas, naya, pramāṇa, nikṣepa. |
@@ -135,4 +135,10 @@ chapters/jain/translations/
 
 ## §G Done-log (append as units complete)
 
-- (none yet)
+- **TS 5.1 prototype drafted** (`doctrinal/tattvartha/05-substances.md`) — 2026-07-09. Both recensions
+  identical for this sūtra. 2 independent translations sourced (Jaini 1920, Vijay K. Jain 2018/Sarvārthasiddhi);
+  Tatia 1994 sought but not retrieved this pass (open item, noted in-file). Disambiguation for *kāya*
+  (space-point analogy, excludes kāla) and *dharma/adharma* (commentary narrows from general ethical MW sense
+  to "medium of motion/rest") both grounded in Sarvārthasiddhi. Modern-comparison box populated (ether/
+  relativity, `often-conflated-with-NOT-equivalent`) using an existing Jain-side source that itself pushes back
+  on the equivalence. **Awaiting user approval before continuing the chapter (unit #3).**
