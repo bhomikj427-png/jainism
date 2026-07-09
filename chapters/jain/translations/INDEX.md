@@ -112,7 +112,7 @@ chapters/jain/translations/
 |---|------|----------------|--------|-------|
 | 1 | **PROTOTYPE — TS 5.1 (single sūtra)** | `doctrinal/tattvartha/05-substances.md` (start it with 5.1 only) | **done — format approved by user** | Proved the doctrinal format. 3 independent translations sourced (Jaini 1920, Vijay K. Jain 2018, Tatia 1994 — retrieved via direct download + local grep after the fetch tool truncated the OCR text); confidence high. |
 | 2 | **PROTOTYPE — Bhaktāmar v1 (single verse)** | `devotional/bhaktamar/01-bhaktamar.md` (verse 1 only) | pending | Prove the devotional format (meter; Modern-comparison = N/A). **STOP after v1 for approval.** |
-| 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | **next up** | The substances: ajīva, dravya, pudgala, paramāṇu, skandha, dharma/adharma/ākāśa/kāla. #1 approved — building now. |
+| 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | **in-progress — 5.2–5.9 done (both numbering tracks), 5.10 → end pending** | Sūtras 5.2–5.9 drafted: dravya/jīva definition (Dig. 5.2–5.3 merge → Śvet. 5.2), eternal/fixed-in-number/formless, matter-alone-has-form, first-three-substances-are-single-wholes, motionless-but-causally-active, space-point counts for dharma/adharma/soul (Dig. 5.8 split → Śvet. 5.7–5.8), space's infinite space-points (numbering resyncs at 5.9). Remaining: matter's space-point counts/atoms (5.10–5.15ish), universe-space occupancy, substance-vs-mode distinction, kāla (time) introduced later in the chapter, six-fold modal change (~5.38–5.44). |
 | 4 | TS Adhyāya 1 — knowledge & means | `doctrinal/tattvartha/01-knowledge.md` | pending | 5 jñānas, naya, pramāṇa, nikṣepa. |
 | 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/…` | pending | Split into verse-range files (~8–11 verses each) once v1 format is approved. |
 | 6 | TS Adhyāya 2 (jīva) | `doctrinal/tattvartha/02-soul.md` | pending | |
@@ -145,3 +145,13 @@ chapters/jain/translations/
   grounded in Sarvārthasiddhi. Modern-comparison box populated (ether/relativity,
   `often-conflated-with-NOT-equivalent`) using an existing Jain-side source that itself pushes back on the
   equivalence. **User approved the format — proceeding to unit #3 (TS 5.2 → end of Adhyāya 5).**
+- **TS 5.2–5.9 drafted** (`doctrinal/tattvartha/05-substances.md`, same file, unit #3 continuing) — 2026-07-09.
+  Two genuine numbering forks found and tabled: Dig. 5.2+5.3 merge into Śvet. 5.2 (dravya/jīva definitions);
+  Dig. 5.8 splits into Śvet. 5.7+5.8 (space-point counts for dharma/adharma vs. soul) — the merge and split
+  exactly cancel, confirmed by both tracks landing back on 5.9 together for space's infinite space-points.
+  Recurring lexical finding, same pattern as 5.1: MW's general entries for *pradeśa* and *asaṃkhyeya* don't
+  carry the Jain technical senses (space-point-sized-to-one-atom; graded three-tier "innumerable" scale) —
+  those come from Sarvārthasiddhi alone. 3 independent translations maintained throughout (Jaini/jainworld,
+  Vijay K. Jain/wisdomlib, Tatia/archive-OCR). **Adhyāya 5 not complete** — 5.10 through the chapter's end
+  (matter/atoms' space-point counts, universe-space occupancy, substance-vs-mode, kāla, six-fold modal change)
+  remains `pending` for a future session.
