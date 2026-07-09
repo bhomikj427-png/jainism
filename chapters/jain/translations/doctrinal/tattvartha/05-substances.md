@@ -12,8 +12,11 @@ the document); Monier-Williams *Sanskrit-English Dictionary* (via Cologne Digita
 wisdomlib.org). **Three genuinely independent translations** now compared — confidence on the translation
 panel is **high**: all three converge on the doctrinal sense, and Tatia's wording diverges just enough from
 the other two (see comparison below) to confirm they are not silently copying one another.
-**Status:** in-progress (this file currently covers 5.1–5.22 of both recensions, no numbering fork found in
-5.10–5.22; remainder of the chapter, 5.23–5.42, still pending — continues work-queue unit #3).
+**Status:** in-progress (this file currently covers Dig. 5.1–5.32 / Śvet. 5.1–5.31; three numbering forks
+resolved — the 5.2–5.3 merge, the 5.8 split, and the 5.29–5.30 merge, the last introducing a standing +1
+Dig.-over-Śvet. offset; remainder of the chapter, Dig. 5.33–5.42 / Śvet. 5.32–5.41 — including a genuine
+SS-vs-SBT numerical divergence on atomic bonding and two Dig./Śvet. content-variant sūtras — still pending,
+continues work-queue unit #3).
 
 ---
 
@@ -1021,16 +1024,448 @@ s.v. *vartana*, *pariṇāma*, *kriyā*, *paratva*, *apara*, via wisdomlib/Colog
 
 ---
 
-**Status of this file:** sūtras 5.1–5.22 (both recensions — no numbering fork found anywhere in this stretch,
-confirmed sūtra-by-sūtra against Tatia's cross-reference apparatus, which supplies no "(SS ...)" annotation from
-5.10 through 5.22) drafted across this and prior sessions. **Two more numbering forks are already located in the
-OCR for the remainder of the chapter** (a Dig. 5.28–5.29 merge into Śvet. 5.28, and a further Dig./Śvet. split
-around 5.36 and 5.38 where Tatia's edition carries an extra "(not SS)" sūtra before restating the SS wording as
-a "variant" — both flagged for careful handling, not yet drafted). Remaining content: matter's sensory
-qualities and modes (5.23–5.24), the atom/cluster distinction and how visibility arises (5.25–5.28), the
-existence/permanence/non-absolutism cluster (5.29–5.31 — directly continuous with the already-written
-`anekāntavāda`/`syādvāda`/`saptabhaṅgī` concept nodes, since Tatia's own commentary derives the Doctrine of
-Non-Absolutism and the Sevenfold Predication explicitly from TS 5.31), the atomic-bonding rules (5.32–5.37,
-including a genuine **SS-vs-SBT numerical-rule divergence** already found in the OCR — a real contested table,
-not just a numbering fork), and finally substance/quality/mode definitions and time's magnitude (5.38–5.42,
-chapter's end). All still `pending`; continues work-queue unit #3 in a future session.
+## TS Dig. 5.23 / Śvet. 5.23 — matter's four sensory qualities
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084777; Tatia p. 131 carries no
+"(SS ...)" cross-reference, consistent with agreement).
+
+**Text (IAST):** sparśarasagandhavarṇavantaḥ pudgalāḥ || 5.23 ||
+**Devanāgarī:** स्पर्शरसगन्धवर्णवन्तः पुद्गलाः ॥ ५.२३ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| sparśa | m. | "touching, touch, contact" | MW, s.v. *sparśa* |
+| rasa | m. | "sap, juice... taste, flavour" | MW, s.v. *rasa* |
+| gandha | m. | "smell, odour" | MW, s.v. *gandha* |
+| varṇa | m. | "colour, hue"; MW's other major sense, "class, caste (brāhmaṇa/kṣatriya/etc.)," is a **different, unrelated** technical register not operative here | MW, s.v. *varṇa* |
+
+**Disambiguation (from commentary):** All four words carry their plain general senses directly into the sūtra —
+no lexical gap this time. The technical content Sarvārthasiddhi adds is the **enumeration**: eight kinds of touch
+(hard/soft, heavy/light, cold/hot, viscous/dry), five tastes (bitter/sour/astringent/acidic/sweet), two smells
+(pleasant/unpleasant), five colours (black/blue/red/yellow/white) — a graded taxonomy the dictionary does not
+and could not supply, since it is a doctrinal classification, not a lexical fact. The commentary also narrows
+which of the eight touches an atom itself can bear (only four: cold, hot, viscous, dry — the other four arise
+only in clusters), previewing 5.25.
+
+**Assembled reading:** Matter — both atoms and clusters — is the one substance-kind possessing sensory qualities:
+touch, taste, smell, and colour, each graded into the specific sub-varieties the commentary enumerates.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Matter is characterized by touch, taste, smell, and color."
+- Vijay K. Jain/wisdomlib: "The forms of matter (pudgala) are characterized by touch (sparśa), taste (rasa),
+  smell (gandha) and colour (varṇa)."
+- Tatia, p. 131: "The clusters of matter and atoms have the qualities of touch, taste, smell and colour," with
+  his note supplying the same eight/five/two/five breakdown as Sarvārthasiddhi, confirming independent access to
+  the same commentarial source rather than one translator copying another.
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084777; jainworld.com chapter-5 page; Tatia (1994) p. 131 (OCR line ~9800); MW as
+above.
+
+---
+
+## TS Dig. 5.24 / Śvet. 5.24 — matter's ten modes
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084778; no Tatia cross-ref).
+
+**Text (IAST):** śabdabandhasaukṣmyasthaulyasaṃsthānabhedatamaśchāyātapodyotavantaśca || 5.24 ||
+**Devanāgarī:** शब्दबन्धसौक्ष्म्यस्थौल्यसंस्थानभेदतमश्छायातपोद्योतवन्तश्च ॥ ५.२४ ॥
+
+**Padaccheda (key terms only — most are plain Sanskrit descriptive nouns, not individually flagged):**
+
+| word | attested meaning-range (MW) | source |
+|------|------------------------------|--------|
+| śabda | "sound, noise" | MW, s.v. *śabda* |
+| bandha | "binding, tying, fettering... union, combination" — **note:** this same root supplies the major Jain karma-theory technical term *bandha* = "bondage" (Adhyāya 8), a genuinely different technical sense; here it means the physical "union/integration" of matter-particles, disambiguated by context and by Sarvārthasiddhi's own gloss "the integration of atoms," not the soul-karma sense | MW, s.v. *bandha* |
+| saṃsthāna | "abiding, being; form, figure, shape, configuration" | MW, s.v. *saṃsthāna* |
+| bheda | "splitting, division, separation" | MW, s.v. *bheda* |
+| tamas | "darkness" (plain sense here; **not** the Sāṃkhya-technical guṇa sense flagged already at 5.22 for *pariṇāma* — same recurring caution, different word) | MW, s.v. *tamas* |
+| ātapa / udyota | *ātapa* "heat (esp. of the sun), sunshine"; *udyota* "light, splendour, brilliance" — commentary narrows these to specifically sun-derived ("warm") vs. moon/gem/firefly-derived ("cool") light | MW, s.v. *ātapa*, *udyota* |
+
+**Disambiguation (from commentary):** Sarvārthasiddhi supplies a specific sub-taxonomy for each of the ten modes
+(e.g. sound as linguistic/non-linguistic, each further natural-vs.-effort-made; shape as five regular geometric
+forms vs. irregular; disintegration as six physical methods) — again a doctrinal enumeration layered onto plain
+lexical items, not a lexical gap as such. The one genuine disambiguation is *bandha*: MW's general "binding,
+union" sense is correct here, but the same word carries a load-bearing distinct technical sense elsewhere in
+this very text (karmic *bandha*, Adhyāya 8) that must not be imported back into this physical-integration sense.
+
+**Assembled reading:** Clusters of matter (not bare atoms — these are modes of aggregation) additionally display
+sound, physical integration, subtlety, grossness, shape, disintegration, darkness, shadow, sun-heat, and
+moon/gem-light — each a graded doctrinal category, not a single simple property.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Sound, union, fineness, grossness, shape, division, darkness, image, and warm/cool light also
+  characterize matter."
+- Vijay K. Jain/wisdomlib: "sound, union (bandha), fineness (saukṣmya), grossness (sthaulya), shape (saṃsthāna),
+  division (bheda), darkness (tamas), shade (chāyā), heat (ātapa) and light (udyota) [are the modes of matter]."
+- Tatia, p. 131–132: "The clusters of matter possess the following modes: sound, integration, subtlety,
+  grossness, shape, disintegration, darkness, shadow, heat and light." All three converge on the same ten-item
+  list and ordering; no disagreement.
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084778; jainworld.com chapter-5 page; Tatia (1994) p. 131–132 (OCR lines
+~9805–9855); MW as above.
+
+---
+
+## TS Dig. 5.25 / Śvet. 5.25 — atoms and clusters, matter's two divisions
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084779; no Tatia cross-ref).
+
+**Text (IAST):** aṇavaḥ skandhāśca || 5.25 ||
+**Devanāgarī:** अणवः स्कन्धाश्च ॥ ५.२५ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| aṇu | as at 5.11 | "small, minute, atomic"; noun "atom of matter" — MW already lexicalizes this sense | MW, s.v. *aṇu* |
+| skandha | m. nom. pl. *-āḥ* | general Sanskrit: "shoulder... trunk (of a tree)... a large branch... a multitude, quantity, aggregate," 23 senses in all; MW's own entry separately flags **"(with Jainas) the body (in the widest sense = *piṇḍa*)"** as a distinct Jain technical sense already lexicalized — but even that Jain-flagged sense is a body/mass in general, **not** the specific "bonded cluster/aggregate of atoms" reading the physics of this chapter requires; that narrower technical sense is supplied by the commentary, not by MW's Jain gloss itself | MW, s.v. *skandha* |
+
+**Disambiguation (from commentary):** A second-order case of the pattern first seen at 5.1: MW *does* flag a
+Jain-specific sense of *skandha*, which might tempt a reader to treat the lexical work as already done — but that
+flagged sense ("the body") is still one step too general for what 5.25 needs, which is specifically "a cluster of
+two or more mutually-bonded atoms" as opposed to any single free atom. Sarvārthasiddhi supplies this narrower
+technical reading directly, quoting the earlier Jain philosopher Kundakunda's *Niyamasāra* v.6 on the atom's
+partless indivisibility (paraphrased, not quoted verbatim here — see Sources) as the term's necessary contrast
+case. Tatia's translator note independently reports a **combinatorial calculation** from the same commentarial
+tradition: five independent groups of atomic qualities (hot-or-cold touch; viscous-or-dry touch; five tastes;
+two smells; five colours), each atom drawing exactly one value from each group, yielding 2×2×5×2×5 = **200**
+possible atomic varieties — a genuine quantitative doctrinal claim, not derivable from the sūtra's four words
+alone, included here because it is a striking, well-attested instance of the commentarial tradition doing
+combinatorial reasoning about physical atoms.
+
+**Assembled reading:** Matter divides exhaustively into exactly two kinds: atoms (partless, single-space-point,
+per 5.11) and clusters (multi-atom aggregates, bonded together) — the foundational classification the next
+several sūtras (5.26–5.28) explain the production-mechanics of.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Elementary particles and their aggregates constitute the two primary divisions of material
+  substance." (a looser paraphrase, per this mirror's compression pattern already flagged at 5.4)
+- Vijay K. Jain/wisdomlib: "The atoms (aṇu) and the molecules (skandha) are the two divisions of the matter
+  (pudgala)."
+- Tatia, p. 132: "Matter has two varieties, atoms and clusters." All three converge on content.
+
+**Modern comparison (QUARANTINED):** None sourced for this specific sūtra. The atom/cluster (aṇu/skandha) split
+is structurally reminiscent of the modern atom/molecule distinction, but — consistent with the caution already
+logged at 5.11 for *paramāṇu* itself — no citation was found making that comparison explicitly for this sūtra;
+not asserted without one.
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084779; jainworld.com chapter-5 page; Tatia (1994) p. 132–133 (OCR lines
+~9860–9895); MW, s.v. *skandha*, via wisdomlib/Cologne mirror.
+
+---
+
+## TS Dig. 5.26 / Śvet. 5.26 — how clusters form
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084780; no Tatia cross-ref).
+
+**Text (IAST):** saṃghātabhedebhya utpadyante || 5.26 ||
+**Devanāgarī:** भेदसङ्घातेभ्य उत्पद्यन्ते ॥ ५.२६ ॥ *(wisdomlib word order: bheda-saṅghāta-)*
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| saṃghāta | m. | "close union, combination, aggregation... a collection, multitude, heap" | MW, s.v. *saṃghāta* |
+| bheda | as at 5.24 | "splitting, division" | MW, s.v. *bheda* |
+| utpadyante | 3rd pl. pres. mid. of *ut-pad* | "to arise, come forth, be produced" | MW, s.v. *ut-pad* |
+
+**Disambiguation (from commentary):** Straightforward — both words carry their general Sanskrit senses.
+Sarvārthasiddhi's contribution is mechanical detail: fusion (*saṃghāta*) is the aggregation of previously
+separate atoms/clusters; fission (*bheda*) is the splitting of a larger cluster by internal or external cause; a
+third route, simultaneous fission-and-fusion, produces new clusters when a split-off piece immediately rejoins
+other matter. All three routes are affirmed as genuine, independent production-mechanisms for clusters.
+
+**Assembled reading:** Clusters of matter arise in exactly three ways: by fusion of smaller units, by fission of
+larger ones, or by fission and fusion happening together.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Aggregates form through fission, fusion, and combined division-fusion processes."
+- Vijay K. Jain/wisdomlib: "Clusters of matter (pudgala) are produced by fission (bheda), fusion (saṅghāta) and a
+  combination of fission-fusion." — matches jainworld's three-way list exactly.
+- Tatia, p. 133: "Clusters of matter are produced in three ways: by integration, disintegration and by a
+  combination of integration and disintegration." All three converge.
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084780; jainworld.com chapter-5 page; Tatia (1994) p. 133 (OCR line ~9905); MW as
+above.
+
+---
+
+## TS Dig. 5.27 / Śvet. 5.27 — how atoms form
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084781; no Tatia cross-ref).
+
+**Text (IAST):** bhedādaṇuḥ || 5.27 ||
+**Devanāgarī:** भेदादणुः ॥ ५.२७ ॥
+
+**Padaccheda:** *bheda* (as at 5.24/5.26); *aṇuḥ* (as at 5.11/5.25) — no new lexical items.
+
+**Disambiguation (from commentary):** The pointed exception to 5.26's three-way rule: Sarvārthasiddhi is explicit
+that an atom, unlike a cluster, arises **only** by fission — never by fusion, and never by the combined
+fission-fusion route — because fusion by definition joins existing units into something larger, which can never
+terminate in the smallest, partless unit. This is a clean logical-necessity claim (an atom is *defined* as
+partless per 5.11, so nothing can produce one by combining parts), stated here as doctrine rather than derived
+step-by-step in the sūtra itself.
+
+**Assembled reading:** An atom comes into being only by the fission of a larger cluster down to its final,
+indivisible remainder — never by fusion.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Elementary particles arise solely through fission of aggregates."
+- Vijay K. Jain/wisdomlib: "An atom (aṇu) is produced by fission (bheda) [alone]."
+- Tatia, p. 133: "An atom is produced by disintegration," his note adding explicitly that this excludes fusion and
+  the combined route — matching Sarvārthasiddhi's explicit exclusion independently.
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084781; jainworld.com chapter-5 page; Tatia (1994) p. 133 (OCR line ~9910); MW as
+above.
+
+---
+
+## TS Dig. 5.28 / Śvet. 5.28 — how visibility arises
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084782; no Tatia cross-ref).
+
+**Text (IAST):** bhedasaṅghātābhyāṃ cākṣuṣaḥ || 5.28 ||
+**Devanāgarī:** भेदसङ्घाताभ्यां चाक्षुषः ॥ ५.२८ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| cākṣuṣa | adj. (< *cakṣus*, "eye, sight") | "belonging to or produced by the eye, visible" | MW, s.v. *cākṣuṣa* |
+
+**Disambiguation (from commentary):** The chapter's most delicate technical puzzle. Sarvārthasiddhi states that
+visibility (perceptibility to the eye) is produced **only** by the combined fission-and-fusion route of 5.26 —
+not by fusion alone (a cluster can grow arbitrarily large by pure aggregation and still, in principle, remain
+imperceptibly subtle) and not by fission alone (which only ever shrinks toward the partless atom, never toward
+visibility). Tatia's translator note flags the deeper problem this sūtra sits on top of: if an atom is genuinely
+partless, how do two partless things combine into one extended thing at all? The commentarial tradition he
+reports (Śvetāmbara bhāṣya-ṭīkā line, cited already at 5.11 and 5.25) resolves this by distinguishing an atom
+*as matter* (partless, unextended) from an atom *as bearer of qualities* (touch/taste/smell/colour, which can
+intensify and "saturate" through integration) — visibility is a threshold effect of quality-saturation, not of
+the partless substrate itself gaining parts. This is flagged here as a genuine philosophical move, not merely
+restated as settled fact — it is the tradition's own attempt to dissolve a problem it recognizes as hard.
+
+**Assembled reading:** A cluster becomes visible specifically when it has been produced by the combined
+fission-fusion process (5.26's third route) — visibility is not a matter of raw atom-count but of this specific
+production-history reaching a qualitative threshold.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Aggregates produced by combined fission-fusion are perceptible to sight."
+- Vijay K. Jain/wisdomlib: "The molecules (skandha) produced by the combined action of fission (bheda) and
+  fusion (saṅghāta) can be perceived by the eyes."
+- Tatia, p. 133–134: "The visibility of the clusters is produced by the combination of disintegration and
+  integration," with an extended translator's note independently raising and addressing the same partless-atom
+  puzzle Vijay K. Jain's Sarvārthasiddhi mirror addresses — strong independent convergence on both the doctrine
+  and the philosophical difficulty it is meant to resolve.
+
+**Modern comparison:** N/A. (A "threshold for macroscopic visibility from microscopic constituents" framing
+invites comparison to statistical-mechanical emergence, but no sourced sourced comparison of this specific kind
+was found for this sūtra — not asserted without a citation.)
+
+**Links to concept nodes:** none yet (see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084782; jainworld.com chapter-5 page; Tatia (1994) p. 133–134 (OCR lines
+~9915–9945); MW as above.
+
+---
+
+## TS Dig. 5.29–5.30 / Śvet. 5.29 — NUMBERING FORK (merge): existence defined
+
+**Recension status:** DIVERGENT — a numbering merge of the same structural type as 5.2–5.3/Śvet. 5.2 above. The
+Digambara recension states the definition of existence in **two** sūtras; the Śvetāmbara recension (Tatia)
+**merges them into one**, printing both Sanskrit lines and both English glosses but assigning its own sūtra
+number only to the second. Confirmed by wisdomlib (Vijay K. Jain/SS, two separate docs, 1084783 and 1084784,
+each independently numbered 5.29 and 5.30) against Tatia's own text, which gives the first line only as "(SS
+5.29)" with no Tatia-own number, and the second as "5.29 (SS 5.30)" — Tatia's edition is explicit that it is
+compressing two Digambara sūtras into one of its own, exactly mirroring the earlier fork's bookkeeping. This
+merge introduces a **permanent +1 offset** between the two numbering tracks for the remainder of the chapter
+(confirmed by every subsequent sūtra through the chapter's end, see the closing table below).
+
+| aspect | Digambara (Sarvārthasiddhi) | Śvetāmbara (Tatia, representing the bhāṣya-line numbering) |
+|--------|------------------------------|--------------------------------------------------------------|
+| number | Dig. 5.29 + Dig. 5.30 | Śvet. 5.29 |
+| text (IAST) | *sat dravyalakṣaṇam* (5.29) / *utpādavyayadhrauvyayuktaṃ sat* (5.30) | *utpāda-vyaya-dhrauvya-yuktaṃ sat* — Tatia's edition includes the *sat dravyalakṣaṇam* line too (printed, glossed) but does not count it as a separate step in his own numbering |
+| Devanāgarī | सत् द्रव्यलक्षणम् ॥ ५.२९ ॥ / उत्पादव्ययध्रौव्ययुक्तं सत् ॥ ५.३० ॥ | (Tatia romanized only) |
+| key gloss / commentary | SS on 5.29: existence (*sat*) is *the* defining mark of substance, introduced here because the substance-specific marks given so far (5.1–5.28) still needed a **common** criterion covering all six substance-kinds at once. SS on 5.30: unpacks *sat* into three simultaneous, inseparable aspects — origination (*utpāda*), cessation (*vyaya*), and persistence (*dhrauvya*) — and explicitly defends the word "yukta" ("possessed of/with"): the three are distinguishable only from the modal standpoint (*paryāyārthika naya*), unified from the substance standpoint (*dravyārthika naya*). | Tatia's single sūtra and note state the same two facts together: existence is the substance's defining mark, and that mark itself decomposes into the origination/cessation/persistence triad. |
+| what it commits you to | Splitting foregrounds "existence = substance's defining mark" as its own claim, worth stating before it is unpacked. | Merging treats the bare definition and its three-part unpacking as one continuous move — a single doctrinal claim delivered in one breath rather than two staged ones. |
+
+**Padaccheda — word-split & lexical range:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| sat | pres. participle of *as*-, "to be" | "being, existing, occurring, happening... real, actual, true" | MW, s.v. *sat* |
+| dravyalakṣaṇa | compound, "mark/defining-characteristic of substance" | *dravya* as at 5.2; *lakṣaṇa* "a mark, sign, symbol, token; a characteristic" | MW, s.v. *lakṣaṇa* |
+| utpāda | m. | "birth, production, appearance, origin" | MW, s.v. *utpāda* |
+| vyaya | m. | general Sanskrit: primarily "expenditure, spending, loss (of money)"; secondary sense "decay, destruction, waning" — **the philosophical "cessation" sense is present but secondary in the general lexicon**, not the word's most common register | MW, s.v. *vyaya* |
+| dhrauvya | n. (< *dhruva*, "fixed, firm") | "fixedness, steadfastness, constancy, stability" | MW, s.v. *dhrauvya* |
+
+**Disambiguation (from commentary):** *Vyaya*'s primary MW sense is financial ("expenditure," the ordinary word
+for a household's outgoings) — the philosophical "cessation/passing-away" sense is present in the dictionary but
+secondary, and it is the commentarial-technical usage (not the dictionary's ranking) that fixes which sense
+operates in this triad. No other word in the pair needs correction from its general sense.
+
+**Assembled reading:** Existence — the one criterion shared by all six substance-kinds despite their differing
+individual marks (5.1–5.28) — consists of the simultaneous, inseparable presence of origination, cessation, and
+persistence: at every moment something new arises (a mode), something old passes away (the prior mode), and the
+underlying substance persists through both.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Existence and remaining in existence characterize substance fundamentally" (5.29) / "Substance
+  exhibits origination, destruction, and permanence simultaneously" (5.30) — jainworld keeps the Digambara
+  two-sūtra split, as expected from its Sacred-Books-of-the-Jainas (Digambara) lineage.
+- Vijay K. Jain/wisdomlib (Dig. numbering): 5.29 "The mark of a substance is existence." / 5.30 "Existence (sat)
+  is with (yukta) origination (utpāda), destruction (vyaya) and permanence (dhrauvya)."
+- Tatia (Śvet. numbering, one sūtra, p. 134): "Origination, cessation and persistence constitute existence" — the
+  merge already established structurally above; his accompanying prose (not a numbered sūtra of its own)
+  restates "Existence is the character of a substance" as the lead-in gloss.
+
+**Modern comparison:** N/A — a metaphysical definition of existence, not a physical claim.
+
+**Links to concept nodes:** [[anekantavada]] [[parinamavada]] — this sūtra is the doctrinal seed of the
+persistence-through-change framework that 5.31–5.32 below develop into non-absolutism and the sevenfold
+predication; flagged here as the earliest point in the chapter where that link becomes concrete, even though the
+full connection is made explicit only at 5.32.
+
+**Sources:** wisdomlib.org doc1084783 (5.29) and doc1084784 (5.30); jainworld.com chapter-5 page; Tatia (1994)
+p. 134–135 (OCR lines ~9945–9970); MW as above.
+
+---
+
+## TS Dig. 5.31 / Śvet. 5.30 — eternality defined
+
+**Recension status:** Both recensions identical in content; numbering now offset by the merge above (Dig. 5.31 =
+Śvet. 5.30) — the running consequence of the fork just resolved, not a new divergence.
+
+**Text (IAST):** tadbhāvāvyayaṃ nityam || Dig. 5.31 / Śvet. 5.30 ||
+**Devanāgarī:** तद्भावाव्ययं नित्यम् ॥ ५.३१ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| tad-bhāva | compound, "that-ness, its own nature/state" | *bhāva*: "being, existing... nature, disposition, temperament" | MW, s.v. *bhāva* |
+| avyaya | adj. | "inexhaustible, imperishable, undecaying, unalterable"; MW's other major sense, **"indeclinable" (a grammatical part of speech)**, is a wholly different technical register not operative here | MW, s.v. *avyaya* |
+
+**Disambiguation (from commentary):** Continues directly from 5.29–5.30's *dhrauvya* ("persistence"): this sūtra
+defines *nitya* ("eternal," already introduced generally at 5.4 for the six substance-*kinds*) more precisely as
+"the imperishability of one's own nature/state." Sarvārthasiddhi grounds this in recognition (*pratyabhijñāna*):
+the very fact that a thing can be re-identified later as "the same thing seen before" is proof that something of
+it persisted unchanged, even as its modes shifted — without any persisting core, recognition itself would be
+impossible. The commentary explicitly flags, and defers to the next sūtra, the apparent tension this creates: if
+something is eternal in *every* respect, change (and therefore the entire soteriological project of
+transmigration and liberation) becomes impossible.
+
+**Assembled reading:** Eternality means the persistence of a thing's own essential nature without loss —
+distinct from, but not contradicting, the modal change that thing continuously undergoes; the reconciliation of
+the two is the next sūtra's explicit business.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Permanence represents indestructibility of substance's essential nature."
+- Vijay K. Jain/wisdomlib: "Permanence (nitya) is indestructibility of own-nature (tadbhāva)."
+- Tatia, p. 135 (Śvet. 5.30, cross-ref. "SS 5.31"): "What remains as it is and does not pass away is eternal." All
+  three converge exactly.
+
+**Modern comparison:** N/A.
+
+**Links to concept nodes:** [[parinamavada]] (`shares-vocabulary-with` candidate — Sāṃkhya's *pariṇāmavāda*
+likewise reconciles a persisting substrate with real change, though via a different substrate/mechanism; not
+pursued further in this track, see note at 5.22).
+
+**Sources:** wisdomlib.org doc1084785; jainworld.com chapter-5 page; Tatia (1994) p. 135 (OCR line ~9975); MW as
+above.
+
+---
+
+## TS Dig. 5.32 / Śvet. 5.31 — non-absolutism and the seed of the sevenfold predication
+
+**Recension status:** Both recensions identical in content; numbering offset carried forward (Dig. 5.32 = Śvet.
+5.31).
+
+**Text (IAST):** arpitānarpitasiddheḥ || Dig. 5.32 / Śvet. 5.31 ||
+**Devanāgarī:** अर्पितानर्पितसिद्धेः ॥ ५.३२ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| arpita | past participle (< *ṛ* + *api*) | "inserted, fixed"; "fixed upon (as the eyes or the mind)"; "offered, delivered, entrusted" — general sense is "directed toward, focused on," which the commentary narrows to "the attribute currently under consideration, foregrounded" | MW, s.v. *arpita* |
+| anarpita | negative of *arpita* | not separately headworded in the consulted MW extract; read compositionally as the negation — "not foregrounded, unconsidered [for now]" | MW, s.v. *arpita* (negated form) |
+| siddhi | f. (in compound, ablative *-siddheḥ*) | "accomplishment, fulfilment, establishment, proof" | MW, s.v. *siddhi* |
+
+**Disambiguation (from commentary):** This is the sūtra Tatia's apparatus explicitly identifies as the textual
+root of three major named Jain doctrines developed at length in his notes (Doctrine of Non-Absolutism, Doctrine
+of Philosophical Standpoints, and the Sevenfold Predication) — all three already exist as their own concept-graph
+nodes in this repository (`anekāntavāda`, `naya`, `syādvāda`/`saptabhaṅgī`) from the concept-batch track, so this
+translation unit does not re-derive them, only anchors where in the TS they are textually sourced. Sarvārthasiddhi's
+reading: an object has infinite attributes; at any moment, the one under active consideration is *arpita*
+("primary/foregrounded"), and all the rest are *anarpita* ("secondary/backgrounded") without ceasing to be real —
+this is how apparently contradictory predicates (a single person is simultaneously father, son, and brother; a
+substance is simultaneously permanent qua substance and impermanent qua mode) are "established" (*siddhi*)
+without logical contradiction: they are true from different, non-competing standpoints, not true and false of
+the same thing in the same respect. Tatia's extended note (paraphrased, not quoted at length here — the material
+is already covered from its own textual base in the `anekāntavāda`/`saptabhaṅgī` concept files) traces from this
+sūtra directly to the classical sevenfold-predication schema (a thing "exists" / "does not exist" /
+"is inexpressible" / and four logical combinations thereof), attributed there to the *Ṣaṭkhaṇḍāgama* scriptural
+tradition rather than invented by Umāsvāti himself.
+
+**Assembled reading:** Seemingly contradictory attributes of one and the same substance are both true, without
+contradiction, because each is asserted from a different standpoint — the attribute currently in view
+(*arpita*) versus the (equally real, merely unconsidered) rest (*anarpita*); this sūtra is the TS's own textual
+anchor for the broader non-absolutist framework the tradition builds out from it.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Contradictory characteristics are established through differing perspectives."
+- Vijay K. Jain/wisdomlib: "The seemingly contradictory attributes are established from the points of view,
+  whether primary or secondary."
+- Tatia, p. 135–139 (Śvet. 5.31, cross-ref. "SS 5.32"): "The ungrasped [unnoticed] aspect of an object is
+  attested by the grasped [noticed] one," with by far the longest translator's note in the chapter (pp. 136–139)
+  developing non-absolutism, the philosophical standpoints, and the sevenfold predication from this single
+  sūtra. All three sources agree on the core doctrinal content; Tatia's rendering is the most literal to the
+  grasped/ungrasped (rather than primary/secondary) imagery of *arpita/anarpita*.
+
+**Modern comparison:** N/A for this sūtra specifically — non-absolutism's occasional popular framing as a
+proto-relativism or proto-complementarity is exactly the kind of claim this project exists to be wary of
+inflating; any such comparison belongs in the `anekāntavāda`/`syādvāda` concept files' own quarantined boxes
+(concept-batch track), not re-litigated here.
+
+**Links to concept nodes:** [[anekantavada]] [[syadvada]] [[saptabhangi]] [[naya]] [[dravyarthika-naya]]
+[[paryayarthika-naya]] — this sūtra is these nodes' textual anchor in the TS; a `formalizes`-direction edge
+(TS 5.32/5.31 → the doctrine nodes) would be the correct type if/when this reading-room track is ever
+cross-referenced from the concept-batch side (out of scope for this track itself, see note at 5.1).
+
+**Sources:** wisdomlib.org doc1084786; jainworld.com chapter-5 page; Tatia (1994) p. 135–139 (OCR lines
+~9980–10310); MW, s.v. *arpita*, via wisdomlib/Cologne mirror.
+
+---
+
+**Status of this file (interim):** sūtras 5.1–5.32 (Digambara) / 5.1–5.31 (Śvetāmbara) drafted. **Three
+numbering forks now fully resolved and documented:** the 5.2–5.3/Śvet.5.2 merge, the 5.8/Śvet.5.7–5.8 split
+(these two exactly cancel, per the 5.9 note above), and the 5.29–5.30/Śvet.5.29 merge (which introduces a
+standing **+1 offset**, Dig. = Śvet. + 1, for the rest of the chapter). **Two further Dig./Śvet. content-variant
+forks are confirmed in the sources** (not mere renumbering — genuinely different sūtra wording at the same
+structural position) at what will be Dig. 5.37/Śvet. 5.36 (atomic-bonding transformation rule) and Dig.
+5.39/Śvet. 5.38 (whether kāla-as-substance is asserted flatly or attributed to "some teachers"), plus a
+**genuine SS-vs-SBT numerical divergence** on which atoms can integrate (Tatia gives two full comparison tables
+for this) — both still `pending`, continuing work-queue unit #3. Remaining content: the atomic-bonding rules
+(Dig. 5.33–5.39 / Śvet. 5.32–5.38), and substance/quality/mode definitions plus time's infinitude closing the
+chapter (Dig. 5.40–5.42 / Śvet. 5.39–5.41).
