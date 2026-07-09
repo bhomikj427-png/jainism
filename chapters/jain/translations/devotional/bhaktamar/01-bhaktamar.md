@@ -943,6 +943,452 @@ not do so in a piece of glass, however agitated/scattered with light-rays.
 
 **Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/20/; Bhagwan Das Jaini trans.
 
-**Status of this file:** verses 1–20 drafted to full standard this session. Verses 21 through the end of both
-recensions (44 Śvetāmbara / 48 Digambara, including the Digambara-only *prātihārya* verses ~31/32–35 and the
-shared miracle-efficacy verses that follow) remain `pending` for continuation.
+---
+
+## Bhaktāmara v.21 — both recensions
+
+**Text (IAST):** manye varaṁ hari-hara-ādayaḥ eva dṛṣṭāḥ dṛṣṭeṣu yeṣu hṛdayaṁ tvayi toṣam eti | kiṁ vīkṣitena
+bhavatā bhuvi yena na anyaḥ kaścit manaḥ harati nātha bhava-antare api || 21 ||
+**Devanāgarī:** मन्ये वरं हरि हरादय एव दृष्टा । दृष्टेषु येषु हृदयं त्वयि तोषमेति ॥ किं वीक्षितेन भवता भुवि येन नान्यः ।
+कश्चिन्मनो हरति नाथ! भवान्तरेऽपि ॥२१॥
+
+**Gloss notes:** Continues v.20's naming of Hari (Viṣṇu) and Hara (Śiva) as the explicit comparison class.
+
+**Assembled reading:** I think it good that I saw Hari, Hara, and the rest first — [only] having seen them does
+my heart find satisfaction in you. What is [even] the point of having seen you, on earth, if [after that] no
+one else can captivate the mind — even in another existence?
+
+**Published translations (comparison only):**
+- jainsquare: "It is good that I have seen other mundane deities before seeing you; because the discontent
+  even after seeing them has been removed by the glimpse of your detached and serene expression. Now that I
+  have witnessed the ultimate I cannot be satisfied with anything lesser in this or later lives."
+- Bhagwan Das Jaini translation for this specific verse was not captured this pass — single-source for v.21.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/21/.
+
+---
+
+## Bhaktāmara v.22 — both recensions
+
+**Text (IAST):** strīṇāṁ śatāni śataśaḥ janayanti putrān na anyā sutaṁ tvad-upamaṁ jananī prasūtā | sarvā diśaḥ
+dadhati bhāni sahasra-raśmiṁ prācī eva dik janayati sphurat-aṁśu-jālam || 22 ||
+**Devanāgarī:** स्त्रीणां शतानि शतशो जनयन्ति पुत्रान् । नान्या सुतं त्वदुपमं जननी प्रसूता ॥ सर्वा दिशो दधति भानि सहस्त्ररश्मिं ।
+प्राच्येव दिग् जनयति स्फुरदंशुजालं ॥२२॥
+
+**Assembled reading:** Hundreds upon hundreds of women give birth to sons; [but] no mother has borne a son to
+compare with you. All directions hold stars, [but] only the eastern direction gives birth to the flashing
+web of rays [i.e. the sun].
+
+**Published translations (comparison only):**
+- jainsquare: "Numerous stars and planets can be seen in all directions but the sun rises only in the East.
+  Similarly innumerable women give birth to sons but an illustrious son like you was born only to one mother;
+  you are unique."
+- Single-source for v.22 (Bhagwan Das Jaini not captured this pass).
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/22/.
+
+---
+
+## Bhaktāmara v.23 — both recensions
+
+**Text (IAST):** tvām āmananti munayaḥ paramaṁ pumāṁsam ādityavarṇam amalaṁ tamasaḥ parastāt | tvām eva
+samyak upalabhya jayanti mṛtyuṁ na anyaḥ śivaḥ śiva-padasya munīndra panthāḥ || 23 ||
+**Devanāgarī:** त्वामामनन्ति मुनयः परमं पुमांस । मादित्यवर्णममलं तमसः परस्तात् ॥ त्वामेव सम्यगुपलभ्य जयंति मृत्युं ।
+नान्यः शिवः शिवपदस्य मुनीन्द्र! पन्थाः ॥२३॥
+
+**Gloss notes:** *āditya-varṇam ... tamasaḥ parastāt* ("sun-coloured... beyond darkness") directly echoes the
+famous *puruṣa-sūktam*/Upaniṣadic formula "*āditya-varṇaṃ tamasaḥ parastāt*" (found in the Śvetāśvatara and
+Īśā Upaniṣads' well-known verses on the supreme puruṣa) — this is a **direct cross-tradition citation/allusion**
+by the poet, not incidental phrasing; flagged as `shares-vocabulary-with` in spirit, continuing the same
+inclusivist rhetorical move already underway since v.20–21 and made explicit at v.25 below (borrowing the
+honorific vocabulary of other Sanskrit religious traditions and redirecting it to the Jina).
+
+**Assembled reading:** Sages declare you to be the supreme being, sun-coloured, stainless, beyond darkness.
+Only by rightly comprehending you do [beings] conquer death; there is no other auspicious path to the abode of
+liberation, O lord of sages.
+
+**Published translations (comparison only):**
+- jainsquare: "All sages believe you to be the supreme being beyond the darkness, and brilliant as the sun.
+  You are free of the malignance of attachment and aversion and beyond the darkness of ignorance. One gains
+  immortality by perceiving, understanding, and following the path of purity you have shown. There is no
+  other path leading to salvation."
+- Single-source for v.23 this pass.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/23/.
+
+---
+
+## Bhaktāmara v.24 — both recensions
+
+**Text (IAST):** tvām avyayaṁ vibhum acintyam asaṅkhyam ādyaṁ brahmāṇam īśvaram anantam ananga-ketum |
+yogīśvaraṁ vidita-yogam anekam ekaṁ jñāna-svarūpam amalaṁ pravadanti santaḥ || 24 ||
+**Devanāgarī:** त्वामव्ययं विभुमचिन्त्यमसंख्यमाद्यं । ब्रह्माणमीश्वरम् अनंतमनंगकेतुम् ॥ योगीश्वरं विदितयोगमनेकमेकं ।
+ज्ञानस्वरूपममलं प्रवदन्ति सन्तः ॥२४॥
+
+**Gloss notes:** A chain of honorific epithets, several of them standard names/titles for *other* traditions'
+supreme deities used here as descriptors of the Jina: *brahmāṇam* ("Brahmā"), *īśvaram* ("Īśvara/Lord," a
+standard Śaiva epithet), *ananga-ketum* (lit. "having the bodiless-one [Kāma, the god of desire] as banner" —
+an epithet elsewhere associated with Śiva as destroyer of Kāma, redirected here). This verse sets up v.25's
+explicit identification.
+
+**Assembled reading:** The wise/virtuous declare you — imperishable, all-pervading, inconceivable,
+innumerable [in virtues], the first, Brahmā, Īśvara, infinite, [victorious over] Kāma, lord of yogis, one who
+has known yoga, manifold [yet] one, of the nature of knowledge, stainless.
+
+**Published translations (comparison only):**
+- jainsquare: "Viewing you in different perspectives sages address you as: Amaranthine (in existence), All
+  pervading (in knowledge), Unfathomable (in perception), Infinite (in virtues), Progenitor (of philosophy),
+  Perpetually blissful (in state), Majestic (in spiritual glory), Eternal (in purity), Serene (with respect to
+  sensuality), Lord of ascetics (in meditation), Preceptor of Yoga (in the yoga philosophy), Multidimensional
+  (in perspective), Unique (in identity), Omniscient (in form), and Pure (free from all vices)." — a
+  free, expanded gloss-per-epithet rather than a tight literal rendering; each Sanskrit title is paired with an
+  interpretive parenthetical rather than left as a bare name, which somewhat obscures (though does not
+  contradict) the verse's direct borrowing of other traditions' deity-names flagged above.
+- Single second source for v.24 this pass.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/24/.
+
+---
+
+## Bhaktāmara v.25 — both recensions
+
+**Text (IAST):** buddhaḥ tvam eva vibudha-arcita-buddhi-bodhāt tvaṁ śaṅkaraḥ asi bhuvana-traya-śaṅkaratvāt |
+dhātā asi dhīra śiva-mārga-vidheḥ vidhānāt vyaktaṁ tvam eva bhagavan puruṣottamaḥ asi || 25 ||
+**Devanāgarī:** बुद्धस्त्वमेव विबुधार्चित बुद्धि बोधात् । त्वं शंकरोऽसि भुवनत्रय शंकरत्वात् ॥ धाताऽसि धीर! शिवमार्ग विधेर्विधानात् ।
+व्यक्तं त्वमेव भगवन्! पुरुषोत्तमोऽसि ॥२५॥
+
+**Padaccheda — the four identifications, each built on a genuine etymological pun (śleṣa):**
+
+| epithet | claimed etymology in this verse | ordinarily names |
+|---------|----------------------------------|--------------------|
+| Buddha | < *budh*, "to awaken/know" — "you are the Buddha because the wise praise your awakened knowledge" (*buddhi-bodhāt*) | the historical Buddha, founder of Buddhism |
+| Śaṅkara | < *śaṁ-kara*, "doer of well-being/auspiciousness" — "you are Śaṅkara because you bring auspiciousness to the three worlds" | Śiva (whose standard epithet this is) |
+| Dhātā | < *dhā*, "to establish, ordain" — "you are the [creator-]Ordainer because you laid down the path/rule to liberation" | Brahmā, the creator-god (also an epithet of the Vedic creator generally) |
+| Puruṣottama | *puruṣa* + *uttama*, "supreme person" — "manifestly you are the supreme person" | Viṣṇu (a standard epithet/name of Viṣṇu, esp. in Vaiṣṇava/Gītā usage) |
+
+**Disambiguation — this is the verse to get right, not just gloss:** This is **not** a claim that the historical
+Buddha, Śiva, Brahmā, and Viṣṇu are secretly the same individual as the Jina, nor a claim that Jainism and
+Buddhism/Śaivism/Vaiṣṇavism are the same religion. The verse is a *śleṣa*-driven rhetorical move, common in
+Sanskrit devotional literature across traditions (praise-poems to one tradition's deity routinely borrow rival
+traditions' honorific names by re-deriving their etymology to fit): each name is re-*justified* from its own
+root meaning as *also* applying, truly, to the Jina — an argument about which deity best *earns* these
+honorific titles by their literal sense, not an identity claim about historical religious founders. This is a
+documented instance of what Indological literature on Jain devotional poetry generally discusses as an
+**inclusivist rhetorical strategy** (asserting one's own tradition's object of devotion is what other
+traditions' honorifics were "really" pointing at all along) rather than syncretism (blending traditions) or a
+factual/historical claim. Recorded here because it is exactly the kind of claim this reading room's method
+requires being precise about: real, load-bearing content (the poet is making a genuine argument, not empty
+flattery) but not the content a careless reading might assume (literal identity of deities/founders).
+
+**Assembled reading:** You alone are the Buddha, because of the awakened knowledge the wise praise [in you];
+you are Śaṅkara, because of [your] bringing auspiciousness to the three worlds; you are the Ordainer (Dhātā),
+O steadfast one, because of your laying down the rule of the auspicious path [to liberation]; manifestly you
+alone, O Lord, are the Supreme Person (Puruṣottama).
+
+**Published translations (comparison only):**
+- jainsquare: "The wise have eulogized your omniscience, making you the Buddha. You are the ultimate
+  benefactor of beings in the universe, thus you are Shamkara. You are the originator of the codes of conduct
+  (Right faith, Right knowledge and Right conduct) leading to Moksha, making you Brahma. You are manifest in
+  the thoughts of all devotees in utmost splendor, thus you are Vishnu. Hence you are supreme of all." — glosses
+  each identification with its justifying clause, matching the etymological-argument structure identified
+  above; renders "Dhātā" as "Brahma" and "Puruṣottama" as "Vishnu" directly (both accurate standard
+  identifications of those epithets).
+- Single second source for v.25 this pass — this verse is important enough that a second, ideally academic,
+  source (e.g. discussion in Indological secondary literature on Jain inclusivism) would be worth locating in
+  a future session rather than relying on jainsquare alone; flagged as an open item.
+
+**Modern comparison:** N/A (this is a cross-*tradition* rhetorical claim, not a science/physics claim — outside
+this reading room's Modern-comparison scope, which is reserved for physics/science parallels specifically).
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/25/; MW s.v. the individual
+epithet roots (*budh*, *śaṁ*+*kṛ*, *dhā*, *puruṣa*+*uttama*) — general Sanskrit lexicon, no separate fetch
+needed beyond what's already established for these common roots elsewhere in this file and the TS track.
+
+---
+
+## Bhaktāmara v.26 — both recensions
+
+**Text (IAST):** tubhyaṁ namaḥ tri-bhuvana-ārti-harāya nātha tubhyaṁ namaḥ kṣititala-amala-bhūṣaṇāya | tubhyaṁ
+namaḥ tri-jagataḥ parama-īśvarāya tubhyaṁ namaḥ jina bhava-udadhi-śoṣaṇāya || 26 ||
+**Devanāgarī:** तुभ्यं नमस्त्रिभुवनार्तिहराय नाथ। तुभ्यं नमः क्षितितलामलभूषणाय॥ तुभ्यं नमस्त्रिजगतः परमेश्वराय।
+तुभ्यं नमो जिन! भवोदधि शोषणाय॥२६॥
+
+**Gloss notes:** *bhava-udadhi-śoṣaṇāya* = "to the one who dries up the ocean of worldly existence" — the
+*bhava*-as-ocean image continuing directly from v.1's *bhava-jale patatāṁ*.
+
+**Assembled reading:** Salutation to you, remover of the affliction of the three worlds, O Lord. Salutation to
+you, the stainless ornament of the earth's surface. Salutation to you, supreme lord of the three worlds.
+Salutation to you, O Jina, who dries up the ocean of worldly existence.
+
+**Published translations (comparison only):**
+- jainsquare: "O Deliverer from all the miseries of the three realms! I bow to you. O Virtuous adoration of
+  this world! I bow to you. O Lord paramount of the three realms! I bow to you. O Terminator of the unending
+  chain of waves of rebirths! I bow to you."
+- Single-source for v.26 this pass.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/26/.
+
+---
+
+## Bhaktāmara v.27 — both recensions
+
+**Text (IAST):** ko vismayaḥ atra yadi nāma guṇaiḥ aśeṣaiḥ tvaṁ saṃśritaḥ niravakāśatayā munīśa | doṣaiḥ
+upātta-vividha-āśraya-jāta-garvaiḥ svapna-antare api na kadācit api īkṣitaḥ asi || 27 ||
+**Devanāgarī:** को विस्मयोऽत्र यदि नाम गुणैरशेषैस् । त्वं संश्रितो निरवकाशतया मुनीश! ॥ दोषैरूपात्त विविधाश्रय जातगर्वैः ।
+स्वप्नान्तरेऽपि न कदाचिदपीक्षितोऽसि ॥२७॥
+
+**Assembled reading:** What wonder is there in this, if you are indeed inhabited by all virtues without
+exception, leaving no room [for anything else], O lord of sages? By vices — grown proud from having taken hold
+of their various [other] supports [i.e. other beings] — you are never seen, even in a dream.
+
+**Published translations (comparison only):**
+- jainsquare: "It is not surprising that all virtues have been drawn and densely fused into you, leaving no
+  scope for vices. The vices have crept into multitude of other beings. Elevated by false pride, they drift
+  away and do not approach you even in dream."
+- Single-source for v.27 this pass.
+
+**Modern comparison:** N/A.
+
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/27/.
+
+---
+
+## §iii The *prātihārya* sequence begins (v.28 onward) — both recensions still agree here
+
+Jain doctrine holds that a Tīrthaṅkara, upon attaining omniscience (*kevala-jñāna*), is accompanied by eight
+miraculous phenomena (*aṣṭa-prātihārya*): the Aśoka tree, flower-rain, divine sound/speech, the divine drum,
+the lion-throne, the halo, the triple parasol, and chowries (fly-whisks) — conventionally counted as eight,
+though sources vary slightly on the exact canonical list. Verses 28–31 below describe four of these
+(Aśoka tree, throne, chowries, parasol) and are **identical across both recensions**.
+
+## Bhaktāmara v.28 — both recensions
+
+**Text (IAST):** uccaiḥ aśoka-taru-saṃśrita-unmayūkham ābhāti rūpam amalaṁ bhavataḥ nitāntam | spaṣṭa-ullasat-
+kiraṇam asta-tamo-vitānaṁ bimbaṁ raveḥ iva payodhara-pārśva-varti || 28 ||
+**Devanāgarī:** उच्चैरशोक तरुसंश्रितमुन्मयूख । माभाति रूपममलं भवतो नितान्तम् ॥ स्पष्टोल्लसत्किरणमस्त तमोवितानं ।
+बिम्बं रवेरिव पयोधर पार्श्ववर्ति ॥२८॥
+
+**Assembled reading (the first *prātihārya* — the Aśoka tree):** Seated beneath the towering Aśoka tree, your
+stainless form, radiating light, shines forth utterly — like the sun's orb beside a cloud-bank, its rays
+clearly blazing, its canopy of darkness dispelled.
+
+**Published translations:** jainsquare: "Sitting under the Ashoka tree, the aura of your scintillating body
+radiating, you look as divinely splendid as the orb of the sun amidst dense clouds, piercing the growing
+darkness with its rays." Single-source this pass. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/28/.
+
+---
+
+## Bhaktāmara v.29 — both recensions
+
+**Text (IAST):** siṃhāsane maṇi-mayūkha-śikhā-vicitre vibhrājate tava vapuḥ kanaka-avadātam | bimbaṁ viyat-
+vilasat-aṃśu-latā-vitānaṁ tuṅga-udaya-adri-śirasi iva sahasra-raśmeḥ || 29 ||
+**Devanāgarī:** सिंहासने मणिमयूखशिखाविचित्रे । विभ्राजते तव वपुः कनकावदातम् ॥ बिम्बं वियद्विलसदंशुलता वितानं ।
+तुंगोदयाद्रि शिरसीव सहस्त्ररश्मेः ॥२९॥
+
+**Assembled reading (the second *prātihārya* — the lion-throne, *siṃhāsana*):** On a throne variegated with
+the flashing tips of jewel-light, your golden, radiant body shines — like the sun's orb on the peak of a
+towering sunrise-mountain, its canopy of light-tendrils flashing across the sky.
+
+**Published translations:** jainsquare: "Sitting on throne with multicoloured hue of gems, your bright golden
+body looks resplendent and attractive like the rising sun on the peak of the eastern mountain, radiating
+golden rays under the canopy of the blue sky." Single-source this pass. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/29/.
+
+---
+
+## Bhaktāmara v.30 — both recensions
+
+**Text (IAST):** kunda-avadāta-cala-cāmara-cāru-śobhaṁ vibhrājate tava vapuḥ kaladhauta-kāntam | udyat-
+śaśāṅka-śuci-nirjhara-vāri-dhāra-muccaiḥ-taṭaṁ sura-gireḥ iva śāta-kaumbham || 30 ||
+**Devanāgarī:** कुन्दावदात चलचामर चारुशोभं । विभ्राजते तव वपुः कलधौतकान्तम् ॥ उद्यच्छशांक शुचिनिर्झर वारिधार ।
+मुच्चैस्तटं सुर गिरेरिव शातकौम्भम् ॥३०॥
+
+**Assembled reading (the third *prātihārya* — chowries, *cāmara*):** Beautified by swaying chowries, white as
+jasmine, your body shines, splendid as refined gold — like the golden slope of the gods' mountain [Meru/Sumeru],
+[streaked] with streams of water pure as the rising moon.
+
+**Published translations:** jainsquare: describes the body as resembling "the peak of the golden mountain,
+Sumeru" with "snow white fans... swinging on both sides" appearing "like streams of water, pure and glittering
+as the rising moon." Single-source this pass. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/30/.
+
+---
+
+## Bhaktāmara v.31 — both recensions
+
+**Text (IAST):** chatra-trayaṁ tava vibhāti śaśāṅka-kāntam uccaiḥ sthitaṁ sthagita-bhānu-kara-pratāpam |
+muktā-phala-prakara-jāla-vivṛddha-śobhaṁ prakhyāpayat tri-jagataḥ parama-īśvaratvam || 31 ||
+**Devanāgarī:** छत्रत्रयं तव विभाति शशांककान्त । मुच्चैः स्थितं स्थगित भानुकर प्रतापम् ॥ मुक्ताफल प्रकरजाल विवृद्धशोभं ।
+प्रख्यापयत्त्रिजगतः परमेश्वरत्वम् ॥३१॥
+
+**Assembled reading (the fourth *prātihārya* — the triple parasol, *chatra-traya*):** A triple parasol, lovely
+as the moon, shines above you, held aloft, screening the sun's scorching rays — its beauty enhanced by a
+network of pearl-clusters — proclaiming [your] supreme lordship over the three worlds.
+
+**Published translations:** jainsquare: "A three tier canopy adorns the space over your head. It has the soft
+white glow of the moon and is decorated with pearl frills. This canopy has screened the scorching sun rays.
+Indeed, this three tier canopy symbolizes your paramountcy over the three realms." Single-source this pass.
+**Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/31/.
+
+---
+
+## §iv NUMBERING FORK — the four Digambara-only *prātihārya* verses (Dig. v.32–35)
+
+**Recension status:** GENUINE DIVERGENCE, and a larger one than any fork found so far in this reading room
+(compare the TS Adhyāya 5 merge/split, which shifted numbering by exactly one sūtra each way — this shifts it
+by **four whole verses**). Confirmed by triangulating three independent facts gathered across this and the
+prior session's research: (1) English Wikipedia's sourced claim that the Śvetāmbara tradition treats "verse
+32, 33, 34, and 35 as in the 48-verse version" as later interpolations, located "between stanzas 31 and 36";
+(2) jainsquare's "1–48" series (which, per its own title, follows the 48-verse **Digambara** count) giving
+verses at exactly those numbers whose content is four of the eight canonical *prātihārya*s **not** already
+covered by v.28–31 — divine drum (v.32), flower-rain (v.33), the halo (v.34), and divine speech (v.35); (3)
+verse 36's content (lotus-flowers appearing under the Jina's footsteps) reading as a natural continuation from
+v.31's parasol, with no thematic gap, consistent with v.36 being where the Śvetāmbara recension's own,
+uninterrupted numbering resumes.
+
+| aspect | Digambara (48-verse count) | Śvetāmbara (44-verse count) |
+|--------|------------------------------|-------------------------------|
+| verses present | v.32 dundubhi (divine drum), v.33 puṣpavṛṣṭi (flower-rain), v.34 bhāmaṇḍala (halo), v.35 divyadhvani (divine speech) — four additional *prātihārya* verses | **absent** — these four verses are not recited; the Śvetāmbara text proceeds directly from its v.31 (parasol) to what the Digambara count numbers v.36 (lotus-under-feet), which becomes the Śvetāmbara's own v.32 |
+| what it commits you to | All eight canonical *prātihārya*s receive a dedicated verse each (v.28 Aśoka tree, v.29 throne, v.30 chowries, v.31 parasol, v.32 drum, v.33 flowers, v.34 halo, v.35 speech) — a complete, symmetrical eightfold treatment | Only four *prātihārya*s receive a dedicated verse (Aśoka tree, throne, chowries, parasol); the hymn does not itemize the divine drum, flower-rain, halo, or divine speech as separate verses — Śvetāmbara sources holding these four to be later additions implies the original 44-verse hymn was not attempting an exhaustive eightfold *prātihārya* catalogue |
+| provenance note | No source consulted across either session dates precisely *when* these four verses entered circulation, only that Śvetāmbara commentarial tradition regards them as secondary. This reading room has not independently verified an early manuscript witness either way — recorded as the traditions' own competing claims, not adjudicated here (per CLAUDE.md §0/§1, no ground-truth verdict is available or asserted). | Śvetāmbara tradition's own numerological reading (44 = the count of Tīrthaṅkaras across past/present/future per some enumerations, noted in the prior session's header material) provides an internal rationale for preferring exactly 44, independent of any manuscript argument. |
+
+**A note on what this fork is *not*:** this is not a case of two recensions disagreeing about the *wording* of
+shared content (contrast the TS Adhyāya 5 forks, which were about how to segment identical words into sūtra
+boundaries). Here the Digambara recension contains additional **whole verses** absent from the Śvetāmbara
+text entirely. Both fork-types get recorded by this reading room's method, but they are structurally different
+claims and are not conflated.
+
+---
+
+## Bhaktāmara Dig. v.32 (no Śvetāmbara equivalent — interpolated verse)
+
+**Text (IAST):** gambhīra-tāra-rava-pūrita-dig-vibhāgaḥ trailokya-loka-śubha-saṅgama-bhūti-dakṣaḥ | sad-dharma-
+rāja-jaya-ghoṣaṇa-ghoṣakaḥ san khe dundubhiḥ dhvanati te yaśasaḥ pravādī || 32 ||
+**Devanāgarī:** गम्भीरतारवपूरित दिग्विभागस् । त्रैलोक्यलोक शुभसंगम भूतिदक्षः ॥ सद्धर्मराजजयघोषण घोषकः सन् ।
+खे दुन्दुभिर्ध्वनति ते यशसः प्रवादी ॥३२॥
+
+**Assembled reading (the fifth *prātihārya* — the divine drum, *dundubhi*):** Filling all quarters of space
+with its deep, resonant sound, skilled at bringing about the auspicious meeting of the three worlds' beings,
+proclaiming the victory of the true religion's king — the divine drum resounds in the sky, itself a herald of
+your fame.
+
+**Published translations:** jainsquare: "The deep resonant drum beats fill space in all directions as if
+felicitating your serene presence and giving a call to all the beings of the three realms to join the pious
+path shown by you." Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/32/.
+
+---
+
+## Bhaktāmara Dig. v.33 (no Śvetāmbara equivalent — interpolated verse)
+
+**Text (IAST):** mandāra-sundara-nameru-su-pārijāta-santānaka-ādi-kusuma-utkara-vṛṣṭi-ruddhā gandha-uda-bindu-
+śubha-manda-marut-prapātā divyā divaḥ patati te vacasāṁ tatiḥ vā || 33 ||
+**Devanāgarī:** मन्दार सुन्दरनमेरू सुपारिजात । सन्तानकादिकुसुमोत्कर- वृष्टिरुद्धा ॥ गन्धोदबिन्दु शुभमन्द मरुत्प्रपाता ।
+दिव्या दिवः पतित ते वचसां ततिर्वा ॥३३॥
+
+**Gloss notes:** *mandāra, nameru, pārijāta, santānaka* — a list of specific mythic celestial flowering trees
+common to wider Purāṇic/epic cosmography (several also named among the five wish-fulfilling trees of Indra's
+paradise in other texts) — stock inventory, not individually disambiguated.
+
+**Assembled reading (the sixth *prātihārya* — flower-rain, *puṣpavṛṣṭi*):** A rain of flowers — mandāra,
+sundara, nameru, excellent pārijāta, santānaka, and others — falls, obstructed [in its fall] by mild, fragrant,
+water-droplet-bearing breezes: a divine [rain] falling from the sky, or perhaps [really] a stream of your own
+speech [taken form].
+
+**Published translations:** jainsquare: describes divine sprays of perfume and showers of fragrant flowers
+drifting toward the Tirthankara, "as if the pious words uttered by you have turned into flowers." Single-source.
+**Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/33/.
+
+---
+
+## Bhaktāmara Dig. v.34 (no Śvetāmbara equivalent — interpolated verse)
+
+**Text (IAST):** śumbhat-prabhā-valaya-bhūri-vibhā vibhoḥ te loka-traye dyutimatāṁ dyutim ākṣipantī | prodyat-
+divākara-nirantara-bhūri-saṅkhyā dīptyā jayati api niśām api soma-saumyām || 34 ||
+**Devanāgarī:** शुम्भत्प्रभावलय भूरिविभा विभोस्ते । लोकत्रये द्युतिमतां द्युतिमाक्षिपन्ती ॥ प्रोद्यद् दिवाकर निरन्तर भूरिसंख्या ।
+दीप्त्या जयत्यपि निशामपि सोम सौम्याम् ॥३४॥
+
+**Disambiguation note:** the halo (*bhā-valaya*, "circle of light") described here is a distinct *prātihārya*
+from v.29's throne-radiance (*maṇi-mayūkha-śikhā*, jewel-light on the throne itself) — the two verses describe
+different phenomena (a throne's jewelled glow vs. a luminous aureole surrounding the Jina's whole body/head),
+not a doctrinal duplication, despite sharing brightness/radiance vocabulary.
+
+**Assembled reading (the seventh *prātihārya* — the halo, *bhāmaṇḍala*):** The abundant splendour of your
+blazing halo of light outshines the splendour of all luminous things in the three worlds; with its brilliance
+— [equal to] countless suns risen at once — it conquers even the night, yet [remains] as cool/gentle as the
+moon.
+
+**Published translations:** jainsquare: "The splendorous halo around you is more brilliant than any other
+luminous object in the universe... more dazzling than many suns put together; but still it is as cool and
+soothing as the bright full moon." Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/34/.
+
+---
+
+## Bhaktāmara Dig. v.35 (no Śvetāmbara equivalent — interpolated verse)
+
+**Text (IAST):** svarga-apavarga-gama-mārga-vimārgaṇa-iṣṭaḥ sad-dharma-tattva-kathana-eka-paṭuḥ tri-lokyāḥ |
+divya-dhvaniḥ bhavati te viśada-artha-satva-bhāṣā-svabhāva-pariṇāma-guṇaiḥ prayojyaḥ || 35 ||
+**Devanāgarī:** स्वर्गापवर्गगममार्ग विमार्गणेष्टः । सद्धर्मतत्वकथनैक पटुस्त्रिलोक्याः ॥ दिव्यध्वनिर्भवति ते विशदार्थसत्व ।
+भाषास्वभाव परिणामगुणैः प्रयोज्यः ॥३५॥
+
+**Gloss notes:** *sad-dharma-tattva-kathana* = "the telling of the truth/reality of the true doctrine" — *sad-
+dharma* here in its ordinary "true teaching/right doctrine" sense, not requiring separate technical
+disambiguation from the doctrinal-track's *dharma* material (that track's *dharma* is the specific
+ajīva-substance "medium of motion" sense at TS 5.1 — an entirely different, unrelated sense of the same
+Sanskrit word; flagged so the two are not confused, following the same discipline used for *tamas* at v.1).
+
+**Assembled reading (the eighth *prātihārya* — divine speech, *divyadhvani*):** Sought after as the path
+leading to heaven and liberation, uniquely skilled at declaring the truth of the true doctrine to the three
+worlds, your divine sound arises — clear in meaning, applicable [to every listening being] through the
+transformative quality of [each being's own] language-nature.
+
+**Published translations:** jainsquare: "Your divine voice (discourse) is potent enough to show the path of
+liberation to all beings... it has the astounding capacity of transforming into the language understood by
+each being of the world." Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/35/.
+
+---
+
+## Bhaktāmara Dig. v.36 / Śvet. v.32 — numbering RESYNCS in the sense that Śvetāmbara's own count resumes here
+
+**Recension status:** Content identical across both recensions; this is Digambara's v.36 and — per the
+divergence table above — Śvetāmbara's own v.32 (their count having proceeded directly from their v.31 to this
+verse, without the four intervening ones). Not independently re-confirmed against a Śvetāmbara-specific
+numbered source this pass (only the Digambara-numbered jainsquare series was used) — flagged as inferred from
+the divergence-table logic, not independently double-checked against a Śvetāmbara-labelled 44-verse edition;
+worth confirming directly in a future session before treating the Śvetāmbara number as fully verified.
+
+**Text (IAST):** unnidra-hema-nava-paṅkaja-puñja-kāntī paryullasat-nakha-mayūkha-śikhā-abhirāmau | pādau
+padāni tava yatra jinendra dhattaḥ padmāni tatra vibudhāḥ parikalpayanti || 36 ||
+**Devanāgarī:** उन्निद्रहेम नवपंकज पुंजकान्ती । पर्युल्लसन्नखमयूख शिखाभिरामौ ॥ पादौ पदानि तव यत्र जिनेन्द्र! धत्तः ।
+पद्मानि तत्र विबुधाः परिकल्पयन्ति ॥३६॥
+
+**Assembled reading:** Your two feet — lovely with the radiant tips of flashing nails, [themselves] like a
+cluster of fresh, blossoming golden lotuses — wherever they take a step, O Jinendra, there the gods fashion
+[real] lotuses [to receive them].
+
+**Published translations:** jainsquare: "Your feet are resplendent like fresh golden lotuses. Their nails
+have a comely glow. Wherever you put your feet the gods create divine golden lotuses." Single-source.
+**Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/36/.
+
+**Status of this file:** verses 1–36 (Digambara numbering) drafted — the complete *prātihārya* sequence
+(v.28–36) is done, including full documentation of the 48-vs-44 numbering fork. Remaining: Dig. v.37–48 /
+Śvet. v.33–44 (the "protection from dangers" efficacy-verses — lions, elephants, fire, snakes, war, ocean,
+disease, prison — and the closing benedictory verses), still `pending` for continuation. Also pending: the
+open item at v.24–25 (a second, ideally academic, source on the inclusivist-identification verse) and the
+unconfirmed Śvetāmbara-specific numbering check at v.36/Śvet.32 noted above.
