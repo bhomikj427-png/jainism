@@ -117,7 +117,7 @@ chapters/jain/translations/
 | 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/01-bhaktamar.md` (continuing same file) | **done — all 48 Digambara verses drafted** | **Complete first pass of the entire Bhaktāmara Stotra** (Digambara 48-verse recension). v.37–47 cover the eight traditional "protection from danger" verses (elephant, lion, fire, snake, war ×2, ocean, disease, bondage) — internally cross-checked against v.47's own summary verse, confirming the eight-danger identification. v.48 is the colophon where Mānatuṅga names himself (flagged as the hymn's own primary-source authorship evidence, distinct from the later hagiographical origin-story). v.43 resolved the OCR mystery from 2 sessions ago — confirmed as v.43, not v.7. **Open items for a future pass:** most of v.21–48 is single-sourced (jainsquare only, no second translation); Śvetāmbara-specific numbers v.28–44 are inferred from the −4 offset, not independently confirmed against a Śvetāmbara-labelled source; padaccheda/MW fetches were skipped for most of v.21–48 (leaner format). |
 | 6 | TS Adhyāya 2 (jīva) | `doctrinal/tattvartha/02-soul.md` | **done — first pass, sūtras 2.1–2.29 full depth; 2.30–2.52/53 content survey** | Karmic-state taxonomy, senses, soul-transit geometry. Content-variant fork at 2.13/2.14 (mobile/immobile line drawn differently — fire/air-bodied beings). Open item: an untraced second numbering correction somewhere in 2.30–2.52 (Śvet. ends at 2.52, Dig. at 2.53, but the running -1 offset from 2.13 doesn't project to that gap on its own). |
 | 7 | TS Adhyāya 6 (āsrava) | `doctrinal/tattvartha/06-influx.md` | **done — first pass, both recensions** | Action/influx mechanics, causes of each of the 8 karma-types. Merge fork at 6.3/SS 6.3; split fork at 6.18/SS 6.17-18; a genuine doctrinal-addition fork at 6.20/SS 6.21 (SS adds right-faith itself as a cause of divine rebirth). Open item: chapter-end sūtra-count arithmetic (SB 6.26 = SS 6.27) not fully reconciled against the merge+split found. |
-| 8 | TS Adhyāya 8 (bandha) | `doctrinal/tattvartha/08-bondage.md` | pending | |
+| 8 | TS Adhyāya 8 (bandha) | `doctrinal/tattvartha/08-bondage.md` | **done — first pass, both recensions** | Five causes of bondage, four aspects, eight karma-types' sub-types/duration/intensity, and a closing beneficial-vs-harmful sūtra with a genuine content-variant fork PLUS an intra-Digambara commentarial split (Vīrasena's two commentaries disagree with each other, not just Dig. vs Śvet.). Opening merge (SB 8.1–3→SS 8.1–2) and closing split (SB 8.26→SS 8.25–26) exactly cancel — both recensions end at sūtra 26, a cleaner fork-shape than any prior adhyāya in this reading room. |
 | 9 | TS Adhyāya 9 (saṃvara/nirjarā) | `doctrinal/tattvartha/09-stoppage-shedding.md` | pending | |
 | 10 | TS Adhyāya 7 (vratas) | `doctrinal/tattvartha/07-vows.md` | pending | |
 | 11 | TS Adhyāya 3 (lower/middle worlds) | `doctrinal/tattvartha/03-worlds.md` | pending | |
@@ -373,3 +373,35 @@ chapters/jain/translations/
   been located in between, which is an arithmetic inconsistency this pass did not fully trace to its source —
   flagged honestly rather than asserted as resolved. Per §E, the next lowest-numbered `pending` unit is **#8,
   TS Adhyāya 8 (bandha)**.
+- **TS Adhyāya 8 drafted — first pass, both recensions** (`doctrinal/tattvartha/08-bondage.md`, unit #8) —
+  2026-07-10, continuing autonomously per user instruction. **Source note:** the previously-used archive.org
+  Tatia scan (`_202003_432_M`, reused across Adhyāyas 1/2/5/6) turned out to have badly corrupted OCR for this
+  chapter — English text intermixed with garbled Devanāgarī-lookalike characters, unreadable even after
+  stripping non-ASCII — so this session located and used a **different archive.org scan of the same edition**
+  (`ThatWhichIsTattvarthaSutraNathaMalaTatia`), whose OCR is clean and fully quotable; flagged for future units
+  in case the corrupted scan resurfaces. Cross-checked against Vijay K. Jain (2018, Sarvārthasiddhi-based),
+  freshly downloaded via the `Tattvartha18CompleteWeb` item. Covered the five causes of bondage (8.1, cross-
+  referenced to the `gunasthana.md` node via Vijay K. Jain's stage-by-stage breakdown of which causes operate
+  at which of the fourteen stages), the passion-driven attraction mechanism and the definition of bondage
+  itself (8.2–8.3/SS 8.2, a clean merge fork), the four aspects of bondage — nature, duration, intensity,
+  particle-count (8.4/SS 8.3, full padaccheda depth) — and the eight karma-types' 97 sub-types plus their
+  duration and intensity mechanics (8.5–8.25/SS 8.4–8.24, content-survey depth, same scope trade-off as
+  Adhyāyas 1/2's enumerative stretches). **This chapter's fork shape is a genuine first for this reading room**:
+  an opening merge (SB 8.1–3→SS 8.1–2) and a closing split (SB 8.26→SS 8.25–26) are exact mirror images that
+  cancel, so both recensions land on sūtra 26 as the chapter's end — unlike Adhyāya 6's unresolved end-of-
+  chapter arithmetic or Adhyāya 2's untraced gap, this one required no open item to explain the final count.
+  **The closing sūtra is also a genuine content variant, not mere renumbering**: Śvetāmbara's beneficial-karma
+  list includes the near-perfect enlightened world-view and three quasi-passions (laughter, relish, male
+  disposition) as beneficial bondage; Digambara's Sarvārthasiddhi excludes all four, on the ground (per Tatia's
+  translator's note) that all four are varieties of destructive/deluding karma and so cannot coherently count
+  as "beneficial." **The chapter's standout finding**: this disagreement does not stop at the Digambara/
+  Śvetāmbara line — Tatia's note records that Vīrasena's own two Digambara commentaries disagree with each
+  other (*Dhāvalā* on the *Ṣaṭkhaṇḍāgama* excludes the four; *Jayadhavalā* on the *Kaṣāyaprābhṛta* includes
+  them) — a rare case where CLAUDE.md §4's commentarial anchor does not converge even within one recension,
+  recorded as an open disagreement rather than adjudicated. A secondary lexical finding ran *against* the
+  recurring pattern from every prior chapter: MW's own general entry for *bandha* already lists "mundane
+  bondage, attachment to this world" as a recognized philosophical sense, so for once the general lexicon
+  needed no narrowing from commentary to reach the Jain technical meaning. **Open item honestly flagged**: the
+  closing sūtra's Digambara side (SS 8.25–8.26) was verified via Tatia's own reporting of the SS text but not
+  independently re-located in the Vijay K. Jain OCR within this session — a second-source gap on that one
+  sūtra pair. Per §E, the next lowest-numbered `pending` unit is **#9, TS Adhyāya 9 (saṃvara/nirjarā)**.
