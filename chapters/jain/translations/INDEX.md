@@ -114,7 +114,7 @@ chapters/jain/translations/
 | 2 | **PROTOTYPE — Bhaktāmar v1 (single verse)** | `devotional/bhaktamar/01-bhaktamar.md` (verse 1 only) | **done — format approved by user** | Proved the devotional format (meter; Modern-comparison correctly N/A). 2 solid named sources (Vijay K. Jain 2023 via archive.org OCR + local grep; Nalini Balbir/Jainpedia) + 1 flagged likely-derivative popular paraphrase used only as cross-check — confidence medium, open item to find a 3rd named scholarly source. |
 | 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | **in-progress — 5.2–5.9 done (both numbering tracks), 5.10 → end pending** | Sūtras 5.2–5.9 drafted: dravya/jīva definition (Dig. 5.2–5.3 merge → Śvet. 5.2), eternal/fixed-in-number/formless, matter-alone-has-form, first-three-substances-are-single-wholes, motionless-but-causally-active, space-point counts for dharma/adharma/soul (Dig. 5.8 split → Śvet. 5.7–5.8), space's infinite space-points (numbering resyncs at 5.9). Remaining: matter's space-point counts/atoms (5.10–5.15ish), universe-space occupancy, substance-vs-mode distinction, kāla (time) introduced later in the chapter, six-fold modal change (~5.38–5.44). |
 | 4 | TS Adhyāya 1 — knowledge & means | `doctrinal/tattvartha/01-knowledge.md` | pending | 5 jñānas, naya, pramāṇa, nikṣepa. |
-| 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/01-bhaktamar.md` (continuing same file) | **in-progress — Dig. v.1–36 done, v.37 → end pending** | v.21–27 drafted (continued praise, incl. v.25's "you are Buddha/Śaṅkara/Dhātā/Puruṣottama" inclusivist-rhetoric verse — carefully disambiguated as etymological argument, NOT a claim of literal deity-identity). v.28–36 drafted: the full *aṣṭa-prātihārya* (8 miracle-accompaniments) sequence, and — the big one — the **Digambara/Śvetāmbara 48-vs-44 numbering fork fully documented**: Dig. v.32–35 (divine drum, flower-rain, halo, divine speech) are the four Śvetāmbara considers later interpolations, sandwiched between the 4 shared *prātihārya* verses (v.28–31: Aśoka tree/throne/chowries/parasol) and the resumption of shared text at Dig. v.36 = Śvet. v.32 (lotus-under-feet). Open items: v.36/Śvet.32 numbering inferred from the divergence table, not independently confirmed against a Śvetāmbara-labelled source; v.24–25 could use a 2nd academic source; several verses in the 21–36 range are single-source (jainsquare only) pending a second translation. |
+| 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/01-bhaktamar.md` (continuing same file) | **done — all 48 Digambara verses drafted** | **Complete first pass of the entire Bhaktāmara Stotra** (Digambara 48-verse recension). v.37–47 cover the eight traditional "protection from danger" verses (elephant, lion, fire, snake, war ×2, ocean, disease, bondage) — internally cross-checked against v.47's own summary verse, confirming the eight-danger identification. v.48 is the colophon where Mānatuṅga names himself (flagged as the hymn's own primary-source authorship evidence, distinct from the later hagiographical origin-story). v.43 resolved the OCR mystery from 2 sessions ago — confirmed as v.43, not v.7. **Open items for a future pass:** most of v.21–48 is single-sourced (jainsquare only, no second translation); Śvetāmbara-specific numbers v.28–44 are inferred from the −4 offset, not independently confirmed against a Śvetāmbara-labelled source; padaccheda/MW fetches were skipped for most of v.21–48 (leaner format). |
 | 6 | TS Adhyāya 2 (jīva) | `doctrinal/tattvartha/02-soul.md` | pending | |
 | 7 | TS Adhyāya 6 (āsrava) | `doctrinal/tattvartha/06-influx.md` | pending | |
 | 8 | TS Adhyāya 8 (bandha) | `doctrinal/tattvartha/08-bondage.md` | pending | |
@@ -179,3 +179,21 @@ chapters/jain/translations/
   the Vijay K. Jain OCR (a battle/elephant-blood-river simile) was NOT drafted as "v.7" because its printed
   numeral wasn't legible in the OCR and wasn't cross-checked — verify the actual number before continuing,
   rather than assuming linear OCR order matches verse order.
+- **Bhaktāmara v.7–48 drafted — the entire Digambara 48-verse recension is now complete** — 2026-07-09. The
+  earlier "is it really v.7" mystery resolved: the Vijay K. Jain archive.org item was a preview excerpt (only
+  v.1–6), and the battle-imagery passage found within it is actually v.43, confirmed independently. New source
+  pair for v.7 onward: jainsquare's paginated "1–48" series (primary) + Bhagwan Das Jaini's named translation
+  via cs.colostate.edu/~malaiya (used through v.20). Full *aṣṭa-prātihārya* sequence (v.28–36) documented,
+  including the major 48-vs-44 **numbering fork**: Dig. v.32–35 (divine drum/flower-rain/halo/divine-speech)
+  are the four verses Śvetāmbara tradition treats as later interpolations — confirmed by triangulating
+  Wikipedia's sourced claim, the verse content itself, and thematic continuity either side of the gap. v.25's
+  "you are Buddha/Śaṅkara/Dhātā/Puruṣottama" verse carefully disambiguated as an inclusivist etymological
+  argument, not a literal-identity claim. v.37–47 are the eight "protection from danger" verses (elephant,
+  lion, fire, snake, war ×2, ocean, disease, bondage), cross-checked against v.47's own summary verse. v.48 is
+  the colophon where Mānatuṅga names himself — flagged as the hymn's own primary-source authorship evidence.
+  **Open items for a future pass** (recorded in-file, not silently dropped): most of v.21–48 is single-sourced
+  (jainsquare only); Śvetāmbara-specific numbers v.28–44 are inferred from the offset, not independently
+  confirmed; padaccheda/MW fetches were skipped for most of v.21–48 (deliberate leaner format given the
+  volume — flagged explicitly as a scope trade-off, not an oversight). **User directive: finish Bhaktāmara
+  before returning to the Tattvārtha Sūtra track (unit #3) — Bhaktāmara is now finished; next session returns
+  to TS Adhyāya 5 (5.10 → end) per that instruction.**

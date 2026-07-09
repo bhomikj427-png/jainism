@@ -1386,9 +1386,278 @@ have a comely glow. Wherever you put your feet the gods create divine golden lot
 **Modern comparison:** N/A.
 **Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/36/.
 
-**Status of this file:** verses 1–36 (Digambara numbering) drafted — the complete *prātihārya* sequence
-(v.28–36) is done, including full documentation of the 48-vs-44 numbering fork. Remaining: Dig. v.37–48 /
-Śvet. v.33–44 (the "protection from dangers" efficacy-verses — lions, elephants, fire, snakes, war, ocean,
-disease, prison — and the closing benedictory verses), still `pending` for continuation. Also pending: the
-open item at v.24–25 (a second, ideally academic, source on the inclusivist-identification verse) and the
-unconfirmed Śvetāmbara-specific numbering check at v.36/Śvet.32 noted above.
+---
+
+## §v The efficacy verses (Dig. v.37–47) and colophon (v.48) — both recensions, offset by −4
+
+From here on, Digambara numbering runs exactly four ahead of Śvetāmbara's own count (per the fork documented
+above: Dig. v.36 = Śvet. v.32, so Dig. v.N = Śvet. v.(N−4) for N ≥ 36). Śvetāmbara-specific numbers are given
+alongside but **not independently re-verified against a Śvetāmbara-labelled source this pass** — same flag as
+at v.36, carried forward consistently rather than silently assumed solid.
+
+## Bhaktāmara Dig. v.37 / Śvet. v.33
+
+**Text (IAST):** itthaṁ yathā tava vibhūtiḥ abhūt jinendra dharma-upadeśana-vidhau na tathā parasya | yādṛk
+prabhā dina-kṛtaḥ prahata-andhakārā tādṛk kutaḥ graha-gaṇasya vikāśinaḥ api || 37 ||
+**Devanāgarī:** इत्थं यथा तव विभूतिरभूज्जिनेन्द्र । धर्मोपदेशनविधौ न तथा परस्य ॥ यादृक् प्रभा दिनकृतः प्रहतान्धकारा ।
+तादृक् कुतो ग्रहगणस्य विकाशिनोऽपि ॥३७॥
+
+**Assembled reading:** Thus, such glory as was yours, O Jinendra, in the manner of teaching the [true]
+doctrine, was not [found] in another's. What darkness-dispelling radiance the sun-maker of the day has —
+where would that be found even in a shining host of planets/stars?
+
+**Published translations:** jainsquare: "The height of eloquence, lucidity and eruditeness evident in your
+discourse is not seen anywhere else... the darkness dissipating dazzle of the sun can never be seen in the
+twinkling stars and planets." Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/37/.
+
+---
+
+## Bhaktāmara Dig. v.38 / Śvet. v.34 — danger 1: the enraged elephant
+
+**Text (IAST):** ścyotat-mada-avila-vilola-kapola-mūlam matta-bhramat-bhramara-nāda-vivṛddha-kopam |
+airāvata-ābham ibham uddhatam āpatantaṁ dṛṣṭvā bhayaṁ bhavati na bhavat-āśritānām || 38 ||
+**Devanāgarī:** श्च्योतन्मदाविलविलोल कपोलमूल । मत्तभ्रमद् भ्रमरनाद विवृद्धकोपम् ॥ ऐरावताभमिभमुद्धतमापतन्तं ।
+दृष्ट्वा भयं भवति नो भवदाश्रितानाम् ॥३८॥
+
+**Assembled reading:** Seeing an elephant, mighty as Airāvata [Indra's elephant], charging — its cheek-base
+restless with flowing rut-fluid, its rage intensified by the drone of intoxicated hovering bees — those who
+have taken refuge in you feel no fear.
+
+**Published translations:** jainsquare: "The devotees who have submitted to you are not scared even of a mad
+mammoth with dripping humor and being incessantly goaded by humming bees." Single-source. **Modern
+comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/38/.
+
+---
+
+## Bhaktāmara Dig. v.39 / Śvet. v.35 — danger 2: the ferocious lion
+
+**Text (IAST):** bhinna-ibha-kumbha-galat-ujjvala-śoṇita-akta muktā-phala-prakara-bhūṣita-bhūmi-bhāgaḥ |
+baddha-kramaḥ krama-gataṁ hariṇa-adhipaḥ api na ākrāmati krama-yuga-acala-saṃśritaṁ te || 39 ||
+**Devanāgarī:** भिन्नेभ कुम्भ गलदुज्जवल शोणिताक्त । मुक्ताफल प्रकर भूषित भुमिभागः ॥ बद्धक्रमः क्रमगतं हरिणाधिपोऽपि ।
+नाक्रामति क्रमयुगाचलसंश्रितं ते ॥३९॥
+
+**Gloss notes:** *hariṇa-adhipaḥ* here = "lord of beasts" = lion (a synonym-compound for the *mṛgendra* already
+used at v.5, not a different animal).
+
+**Assembled reading:** Even a lion — poised to spring, [its territory] adorned with pearl-clusters [i.e. the
+elephant's burst temple-pearls] fallen from splitting elephant-temples stained with bright blood — does not
+attack one who has taken refuge at your feet, [firm and still] as a mountain.
+
+**Published translations:** jainsquare: "A ferocious lion tears open the temples of elephant and scatters
+around white bone-pearls made crimson with blood. Even such angry and roaring lion... gets pacified and does
+not attack a devotee who has taken shelter at your secure feet." Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/39/.
+
+---
+
+## Bhaktāmara Dig. v.40 / Śvet. v.36 — danger 3: forest fire
+
+**Text (IAST):** kalpānta-kāla-pavana-uddhata-vahni-kalpaṁ dāva-analaṁ jvalitam ujjvalam ut-sphuliṅgam |
+viśvaṁ jighatsum iva sammukham āpatantaṁ tvat-nāma-kīrtana-jalaṁ śamayati aśeṣam || 40 ||
+**Devanāgarī:** कल्पांतकाल पवनोद्धत वह्निकल्पं । दावानलं ज्वलितमुज्जवलमुत्स्फुलिंगम् ॥ विश्वं जिघत्सुमिव सम्मुखमापतन्तं ।
+त्वन्नामकीर्तनजलं शमयत्यशेषम् ॥४०॥
+
+**Gloss notes:** *kalpānta-kāla-pavana* — the same "wind at the end of the cosmic age" stock intensifier
+already flagged at v.4 and v.15; same disambiguation applies without repeating the full note.
+
+**Assembled reading:** A forest fire, blazing, bright, sending up sparks, as if fueled by a wind [as fierce] as
+at the end of the cosmic age, advancing head-on as if hungry to devour the world — the water [that is] the
+chanting of your name extinguishes it entirely.
+
+**Published translations:** jainsquare: "Even the all consuming forest conflagration... is extinguished in no
+time by the quenching stream of your name laudition." Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/40/.
+
+---
+
+## Bhaktāmara Dig. v.41 / Śvet. v.37 — danger 4: the venomous serpent
+
+**Text (IAST):** rakta-īkṣaṇaṁ samada-kokila-kaṇṭha-nīlaṁ krodha-uddhataṁ phaṇinam utphaṇam āpatantam |
+ākrāmati krama-yugena nirasta-śaṅkaḥ tvat-nāma nāga-damanī hṛdi yasya puṁsaḥ || 41 ||
+**Devanāgarī:** रक्तेक्षणं समदकोकिल कण्ठनीलं । क्रोधोद्धतं फणिनमुत्फणमापतन्तम् ॥ आक्रामति क्रमयुगेन निरस्तशंकस् ।
+त्वन्नाम नागदमनी हृदि यस्य पुंसः ॥४१॥
+
+**Assembled reading:** A person in whose heart your name — [acting as] a serpent-tamer/antidote — resides,
+walks over, fearlessly, with both feet, a hooded serpent advancing in rage, red-eyed, its throat dark as an
+intoxicated cuckoo's.
+
+**Published translations:** jainsquare: "A devotee who has absorbed the anti-toxin of your pious name crosses
+fearlessly over an extremely venomous and hissing serpent... your devotee has no fear of snakes." Single-source.
+**Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/41/.
+
+---
+
+## Bhaktāmara Dig. v.42 / Śvet. v.38 — danger 5a: an army in battle
+
+**Text (IAST):** valgat-turaṅga-gaja-garjita-bhīma-nādam āje balaṁ balavatām api bhū-patīnām | udyat-divākara-
+mayūkha-śikhā-paviddhaṁ tvat-kīrtanāt tama iva āśu bhidām upaiti || 42 ||
+**Devanāgarī:** वल्गत्तुरंग गजगर्जित भीमनाद । माजौ बलं बलवतामपि भूपतिनाम्! ॥ उद्यद्दिवाकर मयूख शिखापविद्धं ।
+त्वत्- कीर्तनात् तम इवाशु भिदामुपैति ॥४२॥
+
+**Assembled reading:** Even the army of powerful kings — its terrifying roar [made] of prancing horses and
+trumpeting elephants in battle — quickly scatters at the chanting of your praise, like darkness struck by the
+rising sun's blazing rays.
+
+**Published translations:** jainsquare: "As darkness recedes with the rising of the sun, the armies of
+formidable kings... retreat when your pious name is chanted." Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/42/.
+
+---
+
+## Bhaktāmara Dig. v.43 / Śvet. v.39 — danger 5b: personal victory in battle
+
+**Text (IAST):** kunta-agra-bhinna-gaja-śoṇita-vāri-vāha-vega-avatāra-taraṇa-ātura-yodha-bhīme yuddhe jayaṁ
+vijita-durjaya-jeya-pakṣāḥ tvat-pāda-paṅkaja-vana-āśrayiṇaḥ labhante || 43 ||
+**Devanāgarī:** कुन्ताग्रभिन्नगज शोणितवारिवाह । वेगावतार तरणातुरयोध भीमे ॥ युद्धे जयं विजितदुर्जयजेयपक्षास् ।
+त्वत्पाद पंकजवनाश्रयिणो लभन्ते ॥४३॥
+
+*(This is the same passage located out-of-sequence in the Vijay K. Jain archive.org preview OCR consulted for
+v.1–6 — flagged in the previous session as "not yet confirmed as v.7." It is now independently confirmed: this
+is Digambara v.43, not v.7. The earlier caution was justified.)*
+
+**Assembled reading:** In a battle terrifying with warriors eager to cross streams of blood gushing from
+elephants pierced by spear-points, those who take refuge in the lotus-grove of your feet obtain victory —
+[even] over sides [otherwise] hard to conquer or defeat.
+
+**Published translations:** jainsquare: "In the fierce battle, where brave warriors are eager to plod over the
+streams of blood gushing out of the bodies of elephants pierced by sharp spears, the devotee having sought
+protection of the garden of your lotus feet embraces victory ultimately." Single-source. **Modern comparison:**
+N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/43/.
+
+---
+
+## Bhaktāmara Dig. v.44 / Śvet. v.40 — danger 6: shipwreck at sea
+
+**Text (IAST):** ambhaḥ-nidhau kṣubhita-bhīṣaṇa-nakra-cakraṁ pāṭhīna-pīṭha-bhaya-dolbaṇa-vāḍava-agnau raṅgat-
+taraṅga-śikhara-sthita-yāna-pātrāḥ trāsaṁ vihāya bhavataḥ smaraṇāt vrajanti || 44 ||
+**Devanāgarī:** अम्भौनिधौ क्षुभितभीषणनक्रचक्र। पाठीन पीठभयदोल्बणवाडवाग्नौ॥ रंगत्तरंग शिखरस्थित यानपात्रास्।
+त्रासं विहाय भवतःस्मरणाद् व्रजन्ति॥४४॥
+
+**Assembled reading:** Those aboard a ship perched on the crest of tossing waves, in an ocean agitated with a
+terrifying host of crocodiles, [and] with a fear-inducing submarine fire fed by great fish — abandon their
+terror through remembrance of you, and proceed [safely].
+
+**Published translations:** jainsquare: "Those aboard a ship caught at the crest of giant waves and surrounded
+by attacking alligators, giant oceanic creatures, and marine fire surmount such horrors and cross the ocean
+through chanting your name." Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/44/.
+
+---
+
+## Bhaktāmara Dig. v.45 / Śvet. v.41 — danger 7: fatal disease
+
+**Text (IAST):** udbhūta-bhīṣaṇa-jala-udara-bhāra-bhugnāḥ śocyāṁ daśām upagatāḥ cyuta-jīvita-āśāḥ tvat-pāda-
+paṅkaja-rajaḥ-amṛta-digdha-dehāḥ martyā bhavanti makara-dhvaja-tulya-rūpāḥ || 45 ||
+**Devanāgarī:** उद्भूतभीषणजलोदर भारभुग्नाः । शोच्यां दशामुपगताश्च्युतजीविताशाः ॥ त्वत्पादपंकज रजोऽमृतदिग्धदेहा ।
+मर्त्या भवन्ति मकरध्वजतुल्यरूपाः ॥४५॥
+
+**Gloss notes:** *makara-dhvaja* = "having the makara [sea-monster] as one's banner," a standard epithet of
+Kāma/Kāmadeva, the god of love/beauty — used here as a stock comparison for physical handsomeness, not a
+literal claim about the deity himself.
+
+**Assembled reading:** Mortals bent under the weight of a terrible dropsy [swollen-belly disease], reduced to a
+pitiable state, their hope of life gone — [once] their bodies are smeared with the nectar-like dust of your
+lotus feet — become as beautiful in form as Kāmadeva [the god of love].
+
+**Published translations:** jainsquare: "An extremely sick person, disfigured due to advanced dropsy and
+having lost all hopes of recovery and survival, when rubbing the nectar-like dust particles taken from your
+lotus feet, fully recovers and becomes handsome as Adonis." (jainsquare substitutes the Western/Greek "Adonis"
+for the Sanskrit's own *makara-dhvaja*/Kāmadeva reference — a translator's cross-cultural equivalence choice,
+flagged as a genuine translation decision, not a textual variant.) Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/45/.
+
+---
+
+## Bhaktāmara Dig. v.46 / Śvet. v.42 — danger 8: imprisonment/bondage
+
+**Text (IAST):** āpāda-kaṇṭham uru-śṛṅkhala-veṣṭita-aṅgāḥ gāḍhaṁ bṛhat-nigaḍa-koṭi-nighṛṣṭa-jaṅghāḥ tvat-nāma-
+mantram aniśaṁ manujāḥ smarantaḥ sadyaḥ svayaṁ vigata-bandha-bhayāḥ bhavanti || 46 ||
+**Devanāgarī:** आपाद कण्ठमुरूश्रृंखल वेष्टितांगा । गाढं बृहन्निगडकोटिनिघृष्टजंघाः ॥ त्वन्नाममंत्रमनिशं मनुजाः स्मरन्तः ।
+सद्यः स्वयं विगत बन्धभया भवन्ति ॥४६॥
+
+**Assembled reading:** People whose limbs are bound, from foot to neck, with heavy chains, their shins chafed
+raw by the edges of massive shackles — by ceaselessly remembering your name as a mantra — instantly, of
+themselves, become free of the fear of bondage.
+
+**Published translations:** jainsquare: "Individuals held in confinement with heavy chains extending from foot
+to neck, whose legs bear bruises from metal restraints, achieve liberation from bondage by continuously
+remembering your name." Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/46/.
+
+---
+
+## Bhaktāmara Dig. v.47 / Śvet. v.43 — summary verse (all eight dangers named together)
+
+**Text (IAST):** matta-dvipa-indra-mṛga-rāja-dava-anala-ahi-saṅgrāma-vāridhi-mahā-udara-bandhana-uttham tasya
+āśu nāśam upayāti bhayaṁ bhiyā iva yaḥ tāvakaṁ stavam imaṁ matimān adhīte || 47 ||
+**Devanāgarī:** मत्तद्विपेन्द्र मृगराज दवानलाहि । संग्राम वारिधि महोदर बन्धनोत्थम् ॥ तस्याशु नाशमुपयाति भयं भियेव ।
+यस्तावकं स्तवमिमं मतिमानधीते ॥४७॥
+
+**Assembled reading:** For the wise person who studies/recites this hymn of yours, fear arising from mad
+elephant, lion, forest-fire, serpent, battle, ocean, great [dropsy-]belly [disease], or bondage — quickly goes
+to destruction, as if [that fear itself] were afraid.
+
+**Disambiguation note:** this verse names the same eight dangers as v.38–46, functioning as the traditional
+"summary/fruit" verse for the whole efficacy-sequence — confirming, via internal consistency, that this
+reading room's verse-by-verse identification of each danger (elephant/lion/fire/snake/war[×2]/ocean/disease/
+bondage) across v.38–46 above matches the hymn's own explicit self-summary here, rather than being an outside
+imposition of the "eight dangers" framework onto the text.
+
+**Published translations:** jainsquare: "The wise who recites this panegyric with devotion is always free of
+fears of mad elephants, ferocious lions, forest fire, poisonous snakes, tempestuous sea, fatal diseases, and
+bondage. In fact, fear itself is afraid of him." (jainsquare's list omits "battle/war" — one of the eight named
+in the Sanskrit — likely a compression rather than a textual variant, since v.42–43 above are clearly present
+and about battle; flagged as an imprecision in this particular rendering rather than a disagreement about the
+Sanskrit.) Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/47/.
+
+---
+
+## Bhaktāmara Dig. v.48 / Śvet. v.44 — colophon: the poet names himself
+
+**Text (IAST):** stotra-strajaṁ tava jinendra guṇaiḥ nibaddhāṁ bhaktyā mayā vividha-varṇa-vicitra-puṣpām |
+dhatte janaḥ ya iha kaṇṭha-gatām ajasraṁ taṁ mānatuṅgam avaśā samupaiti lakṣmīḥ || 48 ||
+**Devanāgarī:** स्तोत्रस्त्रजं तव जिनेन्द्र! गुणैर्निबद्धां । भक्त्या मया विविधवर्णविचित्रपुष्पाम् ॥ धत्ते जनो य इह कंठगतामजस्रं ।
+तं मानतुंगमवशा समुपैति लक्ष्मीः ॥४८॥
+
+**Padaccheda — the one word that matters most in this verse:**
+
+| word | form | significance |
+|------|------|---------------|
+| Mānatuṅgam | proper name, accusative | The poet names **himself** directly in his own closing verse — this is the hymn's own internal, primary-source evidence for its authorial attribution to Mānatuṅga, independent of any external biographical tradition (the legendary chain-breaking origin-story recounted in the Vijay K. Jain edition's front matter, noted in this file's header, is a separate, later hagiographical layer — this verse alone is the hymn's self-attribution). |
+
+**Assembled reading:** Whoever constantly wears, [placed] at the throat, this garland-of-praise — strung by me,
+out of devotion, from [your] virtues, [as] variously-coloured, wondrous flowers — to that Mānatuṅga [i.e.
+"me"], Lakṣmī [the goddess of fortune/success] comes of her own accord, uncompelled.
+
+**Disambiguation:** the verse is grammatically third-person ("to that Mānatuṅga," not "to me") even though it
+is self-referential — a conventional Sanskrit poetic device (the poet naming himself in the third person within
+his own closing verse, comparable to a *bhaṇita* or signature-verse convention found across many Sanskrit
+devotional/*kāvya* genres), not a claim that someone else named Mānatuṅga is the subject.
+
+**Published translations:** jainsquare: "With devotion I have made up this string (panegyric) of your virtues.
+I have decorated it with charming and multicoloured (words) flowers (sentiments). The devotee who always wears
+it in the neck (memorises and chants) attracts the goddess of success (attracts highest honour, the goal of
+liberation)." Single-source. **Modern comparison:** N/A.
+**Sources:** jainsquare.wordpress.com/2011/04/26/bhaktamar-stotra-1-48-stotras/48/.
+
+---
+
+**Status of this file:** **All 48 Digambara verses now drafted** (v.1–48), including full documentation of the
+48-vs-44 numbering fork at v.32–35/36. Śvetāmbara-specific verse numbers from v.32 onward (Śvet. v.28–44) are
+given as inferred from the −4 offset established at the fork, **not independently re-verified against a
+Śvetāmbara-labelled 44-verse source** — flagged consistently as an open item rather than silently assumed.
+Other open items carried forward: (1) most verses from v.9 onward are **single-sourced** (jainsquare only) —
+the Bhagwan Das Jaini second source was used through v.20 but not systematically re-fetched for v.21–48; a
+second source for this back half would raise confidence from medium to high, matching the standard set by
+v.1–8. (2) v.24–25's inclusivist-identification verse could still use an academic secondary source. (3) No
+padaccheda/MW-lexicon fetches were done for most of v.21–48 (leaner format, as flagged in the §ii sourcing
+note) — words used are overwhelmingly stock *kāvya* vocabulary already covered earlier in this file or
+self-evident in context; flagged in case a future pass wants to tighten this to the v.1–6 standard.
+**Recommended next steps for this text:** (a) a second full source-pass for v.21–48; (b) direct confirmation of
+Śvetāmbara-specific numbering v.28–44; (c) the Kalyāṇa Mandira Stotra and Ṇamokāra Mantra, next in the
+reading-room's devotional queue per `INDEX.md` §E.
