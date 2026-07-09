@@ -116,7 +116,7 @@ chapters/jain/translations/
 | 4 | TS Adhyāya 1 — knowledge & means | `doctrinal/tattvartha/01-knowledge.md` | **done — first pass complete, both recensions** | 5 jñānas, naya, pramāṇa, nikṣepa. Genuine numbering fork found: Śvet. runs 1.1–1.35, Dig. 1.1–1.33 (a dropped sūtra at the avadhi-jñāna split, a further merge at the naya list); one content-variant sūtra (1.16, pure/impure mental faculties, differently worded). Sūtras 1.1–1.12 at full depth; 1.13–1.35 as content survey (most of this chapter's terms already have dedicated concept-node treatment in Ch.02/07 — linked, not re-derived). |
 | 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/01-bhaktamar.md` (continuing same file) | **done — all 48 Digambara verses drafted** | **Complete first pass of the entire Bhaktāmara Stotra** (Digambara 48-verse recension). v.37–47 cover the eight traditional "protection from danger" verses (elephant, lion, fire, snake, war ×2, ocean, disease, bondage) — internally cross-checked against v.47's own summary verse, confirming the eight-danger identification. v.48 is the colophon where Mānatuṅga names himself (flagged as the hymn's own primary-source authorship evidence, distinct from the later hagiographical origin-story). v.43 resolved the OCR mystery from 2 sessions ago — confirmed as v.43, not v.7. **Open items for a future pass:** most of v.21–48 is single-sourced (jainsquare only, no second translation); Śvetāmbara-specific numbers v.28–44 are inferred from the −4 offset, not independently confirmed against a Śvetāmbara-labelled source; padaccheda/MW fetches were skipped for most of v.21–48 (leaner format). |
 | 6 | TS Adhyāya 2 (jīva) | `doctrinal/tattvartha/02-soul.md` | **done — first pass, sūtras 2.1–2.29 full depth; 2.30–2.52/53 content survey** | Karmic-state taxonomy, senses, soul-transit geometry. Content-variant fork at 2.13/2.14 (mobile/immobile line drawn differently — fire/air-bodied beings). Open item: an untraced second numbering correction somewhere in 2.30–2.52 (Śvet. ends at 2.52, Dig. at 2.53, but the running -1 offset from 2.13 doesn't project to that gap on its own). |
-| 7 | TS Adhyāya 6 (āsrava) | `doctrinal/tattvartha/06-influx.md` | pending | |
+| 7 | TS Adhyāya 6 (āsrava) | `doctrinal/tattvartha/06-influx.md` | **done — first pass, both recensions** | Action/influx mechanics, causes of each of the 8 karma-types. Merge fork at 6.3/SS 6.3; split fork at 6.18/SS 6.17-18; a genuine doctrinal-addition fork at 6.20/SS 6.21 (SS adds right-faith itself as a cause of divine rebirth). Open item: chapter-end sūtra-count arithmetic (SB 6.26 = SS 6.27) not fully reconciled against the merge+split found. |
 | 8 | TS Adhyāya 8 (bandha) | `doctrinal/tattvartha/08-bondage.md` | pending | |
 | 9 | TS Adhyāya 9 (saṃvara/nirjarā) | `doctrinal/tattvartha/09-stoppage-shedding.md` | pending | |
 | 10 | TS Adhyāya 7 (vratas) | `doctrinal/tattvartha/07-vows.md` | pending | |
@@ -355,3 +355,21 @@ chapters/jain/translations/
   gender/lifespan) material, which this pass covered only as a content survey rather than sūtra-by-sūtra,
   flagged for a future pass rather than silently left unexplained. Per §E, the next lowest-numbered `pending`
   unit is **#7, TS Adhyāya 6 (āsrava)**.
+- **TS Adhyāya 6 drafted — first pass, both recensions** (`doctrinal/tattvartha/06-influx.md`, unit #7) —
+  2026-07-09, continuing autonomously per user instruction. Same Tatia (1994) OCR reused from Adhyāyas 1–2.
+  Covered *yoga* (action) as influx's mechanism (6.1–6.2), the passion/duration split governing how long karma
+  binds (6.5–6.10), and then, systematically, the specific causes of each of the eight karma-types: knowledge-
+  and intuition-covering (6.11), pain- vs. pleasure-producing (6.12–6.13), view- vs. conduct-deluding
+  (6.14–6.15), lifespan-karma determining rebirth-realm (6.16–6.20), body-type karma (6.21–6.23, including the
+  sixteen-cause list for a Tīrthaṅkara's own body-karma), and status/obstructive karma (6.24–6.26). **Found two
+  clean numbering forks**: a merge (Śvetāmbara's separate "good actions → beneficial karma" / "evil actions →
+  harmful karma" sūtras become one Digambara sūtra, 6.3) and a split, its structural mirror (Śvetāmbara's single
+  sūtra for human-rebirth causes becomes two Digambara sūtras, SS 6.17–6.18). **Found one genuine doctrinal
+  divergence, not a wording variant**: at the causes of divine rebirth (6.20/SS 6.21), the Digambara/SS
+  tradition's sūtra explicitly adds the enlightened world-view itself as an independent cause, per Tatia's own
+  commentary — a substantive addition to the list, given its own sūtra number rather than folded into the
+  shared text. **Left an explicit open item, not smoothed over**: the chapter's own contents table shows the
+  offset is still exactly "-1" at the final sūtra (SB 6.26 = SS 6.27) despite one merge *and* one split having
+  been located in between, which is an arithmetic inconsistency this pass did not fully trace to its source —
+  flagged honestly rather than asserted as resolved. Per §E, the next lowest-numbered `pending` unit is **#8,
+  TS Adhyāya 8 (bandha)**.
