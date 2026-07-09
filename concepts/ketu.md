@@ -29,3 +29,4 @@ Encyclopedia and critical-translation agree on origin and the Rāhu-pairing; the
 
 - part-of: samudra-manthana | Ketu (Svarbhānu's body) originates in the churning, from the same beheading that makes Rāhu
 - shares-vocabulary-with: rahu | the two halves of Svarbhānu — body/tail (Ketu) and head (Rāhu); the descending and ascending lunar nodes, 180° opposed
+- shares-vocabulary-with: svarbhanu | Ketu is the severed body/tail of the pre-beheading whole Svarbhānu, per the Puranic layer of that figure's two-layer history

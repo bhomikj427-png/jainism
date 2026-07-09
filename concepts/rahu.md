@@ -38,3 +38,5 @@ Encyclopedia and critical-translation agree on the beheading and the eclipse-enm
 - shares-vocabulary-with: ketu | the two halves of the severed Svarbhānu — head (Rāhu) and body/tail (Ketu); together the ascending and descending lunar nodes
 - shares-vocabulary-with: mohini | Rāhu is beheaded during Mohinī's distribution of the amṛta
 - shares-vocabulary-with: amrita | he stole a sip, so his head is immortal though his body died
+- shares-vocabulary-with: svarbhanu | Sāyaṇa's commentary treats Svarbhānu and Rāhu as an outright identity — the same being under an older, independently-Vedic name
+- often-conflated-with-NOT-equivalent: svarbhanu | the whole-then-split reading holds Svarbhānu is the pre-beheading whole and Rāhu only its severed head-part — not flatly the same referent as the identity reading above
