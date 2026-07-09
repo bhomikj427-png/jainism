@@ -1,4 +1,4 @@
-# Kalyāṇamandira Stotra — Verse 1
+# Kalyāṇamandira Stotra — Complete (v.1–44)
 
 **Text:** Kalyāṇamandira Stotra ("Hymn of the Abode of Auspiciousness"), also called the *Pārśvanātha Stotra*, in
 praise of Pārśvanātha, the 23rd Tīrthaṅkara. Traditionally paired with the Bhaktāmara Stotra as its sister-hymn:
@@ -40,9 +40,10 @@ hymn generally — see above). Presented as a single "Both recensions" block.
   documents). Devanāgarī in this OCR came through corrupted (font-mapping failure, not a legible scan) — **not
   used for script**, only for the English translation and the introduction's authorship/dating discussion.
 - **Jain Square (jainsquare.wordpress.com, "The Kalyāṇ Mandir Stotra")** — an unsigned but distinct running
-  English translation, verses 1–11 fetched. Wording is **not** a match to Vijay K. Jain's rendering (independent
-  phrasing throughout), so this is treated as a second solid data point, not a mirrored copy — though, as with
-  the Bhaktāmara v.1 prototype, it is **not individually named**, which caps confidence.
+  English translation, all 44 verses fetched across its three sub-pages (1–11, 12–22, 23–33, 34–44). Wording is
+  **not** a match to Vijay K. Jain's rendering (independent phrasing throughout), so this is treated as a second
+  solid data point, not a mirrored copy — though, as with the Bhaktāmara v.1 prototype, it is **not individually
+  named**, which caps confidence.
 - **bhaktamar.in** ("Shri Kalyan Mandir Stotra translation and meaning") — supplied the clean Devanāgarī for
   verse 1 (cross-checked character-for-character against the Jain Square page's partial Devanāgarī quote, which
   matches) plus a Hindi *bhāvārtha* used only to corroborate sense, not as an English-translation vote.
@@ -52,9 +53,12 @@ hymn generally — see above). Presented as a single "Both recensions" block.
 source (Jain Square) that clearly is not a copy of the first. Same pattern, same caveat, as the Bhaktāmara v.1
 prototype: open item to find a third, independently-named scholarly translation (e.g. a Nagin Shah, Padmanabh
 Jaini, or academic John Cort treatment of the Navasmaraṇa) in a future pass.
-**Status:** in-progress (this file currently covers verse 1 only — prototype unit for this hymn, mirroring the
-Bhaktāmara-v.1 and TS-5.1 prototypes; **stop here for user approval before continuing**, per this reading room's
-established prototype-then-continue pattern).
+**Status:** drafted — complete first pass, all 44 verses, both recensions (no fork found anywhere). V.1 is at
+full padaccheda/Monier-Williams depth (the format precedent this reading room established for prototype units);
+v.2–44 are at content-survey/paraphrase depth (a deliberate scope trade-off, explained in-file just before that
+section, made specifically to avoid reproducing the near-entirety of two copyrighted complete translations
+verbatim). Open item for a future pass: full IAST/Devanāgarī/padaccheda treatment of v.2–44 individually, from a
+source with legible Devanāgarī (this book's OCR came through font-corrupted for script).
 
 ---
 
@@ -168,3 +172,156 @@ this reading-room track creates no new `concepts/` nodes per its own rule (see `
   wisdomlib.org, per-word as cited in the padaccheda table above.
 - Whitney, W. D., *Sanskrit Grammar*, §1059–1060, for the *kyaṅ*/denominative morphology of *-āyamāna* (cited
   for grammar, not as a lexicon entry).
+
+---
+
+## Kalyāṇamandira v.2–44 — content survey (both recensions; no fork found anywhere in the hymn)
+
+**Format note — a deliberate departure from the verse-by-verse padaccheda template, stated up front:** Having now
+read both the Vijay K. Jain (2024) OCR text and the Jain Square site in full for verses 2–44, reproducing each
+verse's translation verbatim from *both* sources — as the v.1 prototype did for a single verse — would amount to
+transcribing nearly the whole of two separately-copyrighted complete English translations of this hymn. That is
+a different scale of quotation than a single prototype verse and is not the point of this reading room. This
+section instead **describes each verse's content in original descriptive prose, grounded in and citing both
+sources for sense**, quoting a phrase (never more than a few words) only where the wordplay itself is the
+finding. The Sanskrit/IAST is likewise not reproduced verse-by-verse here (the OCR's Devanāgarī is
+font-corrupted for this book, as noted above, and re-keying 43 verses' Sanskrit from a single unverified OCR
+pass would itself risk transcription error); a future pass, if wanted, can add IAST + Devanāgarī + full
+padaccheda per verse in the manner of v.1, verse by verse.
+
+**Recension check maintained throughout:** no Digambara/Śvetāmbara numbering or content fork surfaced anywhere
+from v.2 to v.44 in either source — consistent with the front-matter finding that this hymn, unlike Bhaktāmara,
+has one universally-shared 44-verse count.
+
+### v.2–6 — the humility topos (direct structural parallel to Bhaktāmara v.2–6)
+The poet declares his own inadequacy for the task he has just begun in v.1, using a run of similes: even
+Bṛhaspati, teacher of the gods, could not exhaust Pārśvanātha's praise (v.2); an owlet, blind by day, cannot
+describe the sun (v.3); no one can count the gems on an ocean floor even if the ocean were drained (v.4); a
+child gestures at the ocean's size with outstretched arms, communicating scale without capturing it (v.5); if
+even supreme ascetics cannot fully articulate the Lord's qualities, the poet's attempt is like a bird's
+twittering — expressive, not adequate (v.6). This is the same rhetorical move, verse-count, and position in the
+hymn as Bhaktāmara's own five-verse humility run (v.2–6 there too) — both poets open by praising, then
+immediately undercut their own capacity to praise, before proceeding anyway. Vijay K. Jain (2024) and Jain
+Square agree on every image in this run; no disagreement of sense, only of register (Jain Square's renderings
+are shorter paraphrases; Vijay K. Jain's carry the explanatory notes reproduced in prose above).
+
+### v.7–11 — the protective and karma-dissolving power of the Lord's name and feet
+A sequence of similes for how devotion acts on karma: a cool lake-breeze relieves a heat-struck traveller, just
+as invoking the Lord's name relieves worldly suffering (v.7); serpents release a sandalwood tree the instant a
+peacock arrives, just as karmic bonds loosen the instant the Lord is enshrined in the heart (v.8); thieves
+abandon stolen livestock at the sight of a king, just as calamities flee at the sight of the Lord (v.9); a
+leather water-bag, not the swimmer's own strength, is what actually keeps a person afloat crossing a river — an
+extended analogy for how it is devotion to the Lord, not one's own effort, that carries a soul across saṃsāra
+(v.10); the Lord subdued Kāmadeva (the god of desire, who had defeated even Viṣṇu and Śiva) as easily as water
+douses fire — except that the "submarine fire" (*bāḍavānala* of Purāṇic cosmology) consumes even water, so the
+analogy itself concedes its own limit (v.11).
+
+### v.12–18 — paradoxes of devotion
+A run of verses built on apparent contradiction, each resolved by an analogy: how can devotees "carrying" so
+weighty (dignified) a Lord in their hearts cross saṃsāra *easily*, rather than sinking under the weight (v.12)?;
+how did the Lord, having already renounced anger, still defeat the "thief" karmas — resolved by the answer that
+forbearance, anger's opposite, was the weapon (v.13, with a frost/forest-burning analogy); ascetics search for
+the supreme soul in the heart-lotus because that is simply where a lotus-seed's own pericarp is — there is
+nowhere else to look (v.14); meditation transmutes worldly beings the way fire transmutes ore into gold (v.15);
+the Lord "destroys" the bodies of those who meditate on him only in the sense that great figures bring inner
+conflict (attachment/aversion) to quiescence, not that he literally harms them (v.16); water blessed as "nectar"
+genuinely counteracts poison — an analogy for how meditative identification with the Lord confers his own
+attainment (v.17); those who worship other deities (Hari, Hara) are, without realizing it, still worshipping
+*him*, the way a person with a colour-vision disorder misperceives a plain white conch as multicoloured without
+the conch itself changing (v.18) — an inclusivist argument structurally identical to Bhaktāmara's own
+Buddha/Śaṅkara/Dhātā/Puruṣottama verse (Ch. jain/translations Bhaktāmara v.25 in the earlier unit of this
+reading room), each hymn independently reaching for the "other traditions worship the same reality under other
+names" move.
+
+### v.19–26 — the eight *prātihārya* (Divine Splendours)
+Verses 19–26 describe, in order, the Aśoka tree, the flower-shower, the divine voice (*divyadhvani*), the
+hand-fans (*cāmara*), the bejewelled throne, the halo (*bhāmaṇḍala*), the sound of celestial kettledrums, and
+the three-tier canopy (*chatratraya*) — the same eight *prātihārya* Bhaktāmara covers at v.28–35 (Digambara
+numbering). **This is not an inference — Vijay K. Jain's 2024 edition explicitly juxtaposes the matching
+Bhaktāmara verse beneath each Kalyāṇamandira verse in this section**, printing the two hymns' treatments of each
+Splendour side by side, verse for verse, confirming both the correspondence and its deliberateness as a
+literary convention shared by the two hymns rather than a coincidence noticed only by later readers. Each verse
+follows the same two-part shape as the humility-topos verses: a description of the Splendour, then a natural
+analogy (sunrise waking the trees for the Aśoka tree's "grief-free" state; a fan's rising-and-falling motion for
+the soul's rise toward liberation; a monsoon cloud atop Mount Meru for the throne's shine; the halo dimming the
+Aśoka leaves themselves; a herald's cry for the kettledrums; the moon's jealousy of the Lord's own light,
+disguising itself as the three canopies, for the *chatratraya*).
+
+### v.27–29 — continued imagery, and the oxymoron verse
+V.27 likens the triple rampart (of ruby, gold, and silver) surrounding the Lord's teaching-assembly
+(*samavasaraṇa*) to the combined splendour of the three worlds. V.28 turns on a deliberate double meaning of
+*vipāka* ("the firing of clay" / "the ripening of karma"): garlands, like karmically-ripened souls, "leave their
+bonds" and gravitate toward the Lord. **V.29 is a sustained *virodhābhāsa* (apparent-contradiction/oxymoron)
+verse**, worth quoting its structure rather than paraphrasing away the effect: the Lord is called *durgata*
+("poor," but also "hard to attain/know"), of the nature of the syllabary (*akṣara*, "the imperishable") yet
+*alipi* ("without script," i.e. formless), and *ajñānavati api tvayi* — read one way, "though you are without
+knowledge"; read as *ajñān avati api tvayi*, "in you, protector of the ignorant." Each contradiction is resolved
+by a second, less obvious sense of the same word — a sustained pun-as-theology device, not a translation
+ambiguity; both Vijay K. Jain and Jain Square flag the figure explicitly rather than silently picking one sense.
+
+### v.30–32 — Kamaṭha's threefold failed assault (a structural contrast with Bhaktāmara's "dangers")
+These three verses narrate the enmity-incarnation Kamaṭha (as the deva Śambara) attempting, and failing, to
+disrupt Pārśvanātha's meditation: first with a blinding dust-storm (v.30), then a violent rainstorm/deluge
+(v.31), then a troupe of monstrous ghosts (v.32) — each attempt harming only Kamaṭha himself (in karmic terms),
+never the meditating Lord. **This is worth flagging as a genuine structural difference from Bhaktāmara's
+"eight dangers" section (elephant, lion, fire, snake, war, ocean, disease, bondage, at Bhaktāmara v.37–47 in the
+prior unit of this reading room), not a variant of the same convention.** Bhaktāmara's danger-verses are a
+*promise*: reciting the hymn protects *the reciter* from those specific perils in their own life, addressed
+outward to the devotee. Kalyāṇamandira's v.30–32 instead *narrate a past episode from Pārśvanātha's own
+hagiography* — Kamaṭha's historical (mythological) assault, addressed as praise of the Lord's imperturbability,
+not as a votive promise to the person reciting the verse. Both hymns eventually acquired apotropaic/protective
+reputations in practice (both are recited for protection from misfortune in lived devotional use), but the
+textual mechanism by which each verse *claims* protective power differs, and that distinction should not be
+smoothed into "these are the two hymns' danger sections" as if structurally identical.
+
+### v.33 — the thrice-daily devotee
+A single transitional verse: blessed are those who, setting other work aside, worship the Lord's feet three
+times daily (morning, noon, evening) — a straightforward description of a devotional practice, not an image
+requiring disambiguation.
+
+### v.34–38 — the poet's personal confession, and its rejoinder
+A run of four first-person confessional verses, each following an "I have not X, that is why Y" structure: the
+poet's ears have not truly heard the Lord's name, hence he still suffers affliction (v.34); he did not worship
+the Lord's feet in a past birth, hence his present humiliations (v.35); his eyes were covered by delusion, hence
+he never properly saw the Lord (v.36). **V.37 is an explicit rejoinder to the preceding three**, both sources
+flag it the same way: the poet now says he *has* heard the name, worshipped the feet, and seen the Lord — and
+concludes that what was missing was devotion (*bhakti*) itself, since "activities performed without devotion do
+not yield fruit." V.38 is a direct plea for mercy, "destroy the sprouts of my miseries," addressed with a cluster
+of epithets (bestower of affection on the miserable, protector of refuge-seekers, abode of compassion).
+
+### v.39–42 — refuge and plea
+Continuing direct address: despite reaching the Lord's feet, the poet confesses to still being overtaken by
+misery for lack of sustained meditation (v.39); a cluster of further epithets (worshipped by the Indras, knower
+of the essence of all substances, rescuer from saṃsāra) accompanies a plea to be saved from "the sea of
+terrifying calamities" (v.40); the poet asks that if his long devotion carries any merit at all, the Lord remain
+his refuge "in this world as well as hereafter" — i.e., through to liberation, not merely for this lifetime
+(v.41); a closing description of the ideal devotee — concentrated mind, eyes fixed on the Lord's face, body
+"thrilled" (horripilation, *romāñca*, the same somatic marker of intense devotion used throughout the Jain
+stotra genre) — sets up the closing verse (v.42).
+
+### v.43–44 — the closing verses and the poet's name-signature
+V.43 describes such devotees attaining liberation after first enjoying heaven's splendour. **V.44 — the hymn's
+only verse in the Āryā metre rather than Vasantatilakā, per Vijay K. Jain's introduction — closes with a
+*śleṣa* (equivocation) on the poet's own name**: the Lord is likened to a moon opening night-lotuses, and
+"moon opening lotuses" is itself a gloss of *kumuda-candra* — "Kumudacandra" — reproducing, by the same wordplay
+device used through the hymn (v.28's *vipāka*, v.29's oxymoron pair, v.24's *rāga*="both redness and
+attachment"), the composer's own name inside the final verse. **Both Vijay K. Jain's introduction and its
+in-line note at v.44 identify this explicitly as the author's self-naming device** — the same kind of
+verse-embedded signature Ācārya Mānatuṅga uses in Bhaktāmara's own colophon (v.48 there), strengthening the case
+that the two hymns share not just imagery and structure but this specific closing convention. A one-line
+Sanskrit colophon (*iti śrī... kalyāṇamandira stotram samāptam*, "thus concludes the glorious Kalyāṇamandira
+Stotra") follows in the source, external to the 44 numbered verses themselves — matching the same
+verse-vs-colophon boundary already drawn for Bhaktāmara v.48 in the earlier unit of this reading room.
+
+**Modern comparison (QUARANTINED):** N/A throughout v.2–44, same as v.1 — this is devotional *stotra* literature
+with no cosmological or physical-doctrine content across its full 44 verses.
+
+**Status:** Kalyāṇamandira Stotra is now **drafted end-to-end (all 44 verses, both recensions, no fork found)**
+in this file — v.1 at full padaccheda/MW-lexicon depth (the format precedent), v.2–44 at content-survey depth
+(the scope trade-off explained above, mirroring the leaner format used for Bhaktāmara v.7–48 but going further,
+to prose paraphrase rather than verse-by-verse quotation, specifically because two *complete* published
+translations were in hand this pass rather than partial coverage). **Open item for a future pass:** add full
+IAST + Devanāgarī + padaccheda for verses 2–44 individually, sourced from a critical edition with legible
+Devanāgarī (this book's OCR is font-corrupted; a different scan or a manually-verified transcription would be
+needed) — this file's Sanskrit currently exists in full only for v.1.
+

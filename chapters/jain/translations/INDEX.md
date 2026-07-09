@@ -123,8 +123,7 @@ chapters/jain/translations/
 | 11 | TS Adhyāya 3 (lower/middle worlds) | `doctrinal/tattvartha/03-worlds.md` | pending | |
 | 12 | TS Adhyāya 4 (celestial beings) | `doctrinal/tattvartha/04-celestials.md` | pending | |
 | 13 | TS Adhyāya 10 (mokṣa) | `doctrinal/tattvartha/10-liberation.md` | pending | Shortest chapter; natural closer for the TS. |
-| 14 | Kalyāṇamandira Stotra — v.1 (prototype) | `devotional/kalyanmandir/01-kalyanmandir.md` (verse 1 only) | **done — prototype drafted, awaiting user approval** | To Pārśvanātha; sister-hymn to Bhaktāmar. No Dig./Śvet. verse-count fork found (both recite the same 44, unlike Bhaktāmar's 44-vs-48). Author identity converges (Kumudacandra = Siddhasena Divākara per Vijay K. Jain 2024) but **date is contested** (6th c. CE / 12th c. VS / "4th–5th c. CE" per three sources) — recorded as a comparison table in-file. |
-| 15 | Kalyāṇamandira Stotra — remaining verses (2 → 44) | `devotional/kalyanmandir/01-kalyanmandir.md` (same file) | pending | Continue after user approves the v.1 prototype format. |
+| 14 | Kalyāṇamandira Stotra — complete (v.1–44) | `devotional/kalyanmandir/01-kalyanmandir.md` | **done — first pass complete, all 44 verses** | To Pārśvanātha; sister-hymn to Bhaktāmar. No Dig./Śvet. verse-count fork found anywhere (both recite the same 44, unlike Bhaktāmar's 44-vs-48). Author identity converges (Kumudacandra = Siddhasena Divākara per Vijay K. Jain 2024) but **date is contested** (6th c. CE / 12th c. VS / "4th–5th c. CE" per three sources) — recorded as a comparison table in-file. V.1 at full padaccheda/MW depth; v.2–44 at content-survey/paraphrase depth (scope trade-off to avoid reproducing two full copyrighted translations verbatim). Open item: full IAST/Devanāgarī/padaccheda for v.2–44 from a source with legible Devanāgarī. |
 | — | Ṇamokāra / Navkār Mantra | `devotional/…` | later | Links back to existing node `ṇamokāra-mantra`. |
 | — | Kalyāṇa/Chattāri/Ratnākara etc. | `devotional/…` | later | Confirm citable published translations exist before queuing. |
 
@@ -279,3 +278,33 @@ chapters/jain/translations/
   source (Vijay K. Jain) plus one solid-but-unsigned-site source (Jain Square); open item to find a third,
   independently-named scholarly translation in a future pass. **Stopped after verse 1 per the prototype
   convention — awaiting user approval before drafting v.2–44 (unit #15).**
+- **Kalyāṇamandira Stotra v.2–44 drafted — the hymn is now complete end-to-end** (`devotional/kalyanmandir/01-kalyanmandir.md`,
+  same file, unit #14 finished) — 2026-07-09, continuing autonomously per user instruction. Read the full
+  Vijay K. Jain (2024) OCR (all 44 verses) and fetched Jain Square's remaining three sub-pages (12–22, 23–33,
+  34–44) to complete the second-source panel across the whole hymn. **Deliberately switched format for v.2–44**:
+  rather than quoting both complete translations verbatim verse-by-verse (as v.1 did as the prototype), this
+  would have reproduced the near-entirety of two separately-copyrighted full translations of the hymn — a
+  different scale of quotation than a single prototype verse warrants. v.2–44 are instead a content survey in
+  original descriptive prose, grounded in and citing both sources, with only isolated short phrases quoted
+  where a wordplay device is itself the finding (v.24 *rāga*, v.28 *vipāka*, v.29's *virodhābhāsa* oxymoron
+  verse, v.44's *kumudacandra* name-signature). Confirmed **no recension fork anywhere** in the full hymn.
+  Grouped the verses thematically rather than singly: v.2–6 humility topos (a direct structural parallel to
+  Bhaktāmara's own v.2–6 humility run — same rhetorical move, same position in the hymn, independently
+  confirmed rather than assumed); v.7–11 protective/karma-dissolving similes; v.12–18 paradox-verses (each
+  resolved by a natural-world analogy); v.19–26 the eight *prātihārya*, where **Vijay K. Jain's edition itself
+  juxtaposes each Kalyāṇamandira verse against its Bhaktāmara counterpart**, confirming the cross-hymn
+  correspondence is a deliberate literary convention, not a pattern only later readers noticed; v.27–29
+  continued imagery plus the *virodhābhāsa* oxymoron verse; **v.30–32, Kamaṭha's threefold failed assault,
+  flagged as a genuine structural contrast with Bhaktāmara's "eight dangers" section** — Bhaktāmara's
+  danger-verses are a votive promise of protection to the reciter, while Kalyāṇamandira's v.30–32 narrate a past
+  episode from the Lord's own hagiography addressed as praise, not a promise to the person reciting — a
+  distinction recorded explicitly rather than flattened into "both hymns have a dangers section"; v.33 the
+  thrice-daily devotee; v.34–38 the poet's four-verse personal confession and its rejoinder (heard/worshipped/
+  seen but without *bhakti*, "activities performed without devotion do not yield fruit"); v.39–42 refuge/plea;
+  v.43–44 closing, where **v.44 (the hymn's only Āryā-metre verse) embeds the composer's own name via
+  *kumuda-candra* wordplay**, identified explicitly as such in Vijay K. Jain's own note — the same
+  verse-embedded-signature convention Mānatuṅga uses in Bhaktāmara's colophon, strengthening the two hymns'
+  documented pairing. **Open item recorded for a future pass:** full IAST/Devanāgarī/padaccheda treatment of
+  v.2–44 individually (this book's OCR Devanāgarī is font-corrupted; a legible source would be needed). Per
+  §E, Kalyāṇamandira is done; remaining `pending` units are **#4 (TS Adhyāya 1)** and the other TS adhyāyas,
+  plus the still-`later` Ṇamokāra/Navkār and other minor stotras.
