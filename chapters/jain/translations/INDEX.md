@@ -111,10 +111,10 @@ chapters/jain/translations/
 | # | unit | file to create | status | notes |
 |---|------|----------------|--------|-------|
 | 1 | **PROTOTYPE — TS 5.1 (single sūtra)** | `doctrinal/tattvartha/05-substances.md` (start it with 5.1 only) | **done — format approved by user** | Proved the doctrinal format. 3 independent translations sourced (Jaini 1920, Vijay K. Jain 2018, Tatia 1994 — retrieved via direct download + local grep after the fetch tool truncated the OCR text); confidence high. |
-| 2 | **PROTOTYPE — Bhaktāmar v1 (single verse)** | `devotional/bhaktamar/01-bhaktamar.md` (verse 1 only) | **drafted — awaiting user approval** | Proved the devotional format (meter; Modern-comparison correctly N/A). 2 solid named sources (Vijay K. Jain 2023 via archive.org OCR + local grep; Nalini Balbir/Jainpedia) + 1 flagged likely-derivative popular paraphrase used only as cross-check, not a 3rd vote — confidence medium, open item to find a 3rd named scholarly source. **STOPPED after v1 per plan; do not continue until user signs off.** |
+| 2 | **PROTOTYPE — Bhaktāmar v1 (single verse)** | `devotional/bhaktamar/01-bhaktamar.md` (verse 1 only) | **done — format approved by user** | Proved the devotional format (meter; Modern-comparison correctly N/A). 2 solid named sources (Vijay K. Jain 2023 via archive.org OCR + local grep; Nalini Balbir/Jainpedia) + 1 flagged likely-derivative popular paraphrase used only as cross-check — confidence medium, open item to find a 3rd named scholarly source. |
 | 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | **in-progress — 5.2–5.9 done (both numbering tracks), 5.10 → end pending** | Sūtras 5.2–5.9 drafted: dravya/jīva definition (Dig. 5.2–5.3 merge → Śvet. 5.2), eternal/fixed-in-number/formless, matter-alone-has-form, first-three-substances-are-single-wholes, motionless-but-causally-active, space-point counts for dharma/adharma/soul (Dig. 5.8 split → Śvet. 5.7–5.8), space's infinite space-points (numbering resyncs at 5.9). Remaining: matter's space-point counts/atoms (5.10–5.15ish), universe-space occupancy, substance-vs-mode distinction, kāla (time) introduced later in the chapter, six-fold modal change (~5.38–5.44). |
 | 4 | TS Adhyāya 1 — knowledge & means | `doctrinal/tattvartha/01-knowledge.md` | pending | 5 jñānas, naya, pramāṇa, nikṣepa. |
-| 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/…` | pending | Split into verse-range files (~8–11 verses each) once v1 format is approved. |
+| 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/01-bhaktamar.md` (continuing same file) | **in-progress — v.1–6 done, v.7 → end pending** | v.2–6 drafted: the poet's "humility topos" (praising despite inadequacy — child/moon, doe/lion, cuckoo/mango-blossom similes). Flagged *vīrya* (v.5) and *śruta* (v.6) as words that carry real Jain technical senses elsewhere (karma theory; the 5 jñānas) but are used in plain colloquial register here — context, not commentary, disambiguates devotional verses. Next verse's actual number needs independent confirmation before drafting (see in-file note) — do not assume linear OCR order. |
 | 6 | TS Adhyāya 2 (jīva) | `doctrinal/tattvartha/02-soul.md` | pending | |
 | 7 | TS Adhyāya 6 (āsrava) | `doctrinal/tattvartha/06-influx.md` | pending | |
 | 8 | TS Adhyāya 8 (bandha) | `doctrinal/tattvartha/08-bondage.md` | pending | |
@@ -164,5 +164,18 @@ chapters/jain/translations/
   "darkness of sin" reading holds, confirmed across all translations compared). Modern-comparison box correctly
   N/A (devotional verse, no doctrinal/cosmological content to conflate). Confidence **medium**: only 2 solidly
   independent named sources (Vijay K. Jain; Nalini Balbir/Jainpedia) plus one flagged likely-derivative popular
-  paraphrase — open item to find a 3rd named scholarly translation. **Awaiting user approval before continuing
-  to the remaining Bhaktāmara verses (unit #5).**
+  paraphrase — open item to find a 3rd named scholarly translation. **User approved the format — proceeded to
+  unit #5.**
+- **Bhaktāmara v.2–6 drafted** (`devotional/bhaktamar/01-bhaktamar.md`, same file, unit #5 continuing) —
+  2026-07-09. A complete thematic unit: the poet's five-verse "humility topos" (praising despite inadequacy —
+  similes of a child grasping the moon's reflection, a lone swimmer against a storm-tossed ocean, a doe
+  confronting a lion, a cuckoo drawn out by mango blossom). Got real Devanāgarī this time (cross-checked
+  between Vijay K. Jain's IAST and an independently-rendered Devanāgarī source, not just an OCR guess).
+  Flagged two words — *vīrya* (v.5) and *śruta* (v.6) — that carry genuine Jain technical senses elsewhere in
+  this very reading room (karma theory; the five *jñāna*s) but read in plain colloquial register here; noted
+  explicitly that context, not a bhāṣya, is what disambiguates devotional verses, since stotras don't carry a
+  commentarial tradition the way TS sūtras do. Same 2-solid-source-plus-one-flagged-popular-paraphrase pattern
+  as v.1; confidence stays medium. **Left an explicit caution for next session:** the verse appearing next in
+  the Vijay K. Jain OCR (a battle/elephant-blood-river simile) was NOT drafted as "v.7" because its printed
+  numeral wasn't legible in the OCR and wasn't cross-checked — verify the actual number before continuing,
+  rather than assuming linear OCR order matches verse order.

@@ -169,3 +169,307 @@ at the TS 5.1 file). Candidate future links if the concept-batch track reaches J
 translation of this verse was not located within a bounded search (~5 queries) this pass — confidence is
 medium rather than high pending one. Worth a targeted retry (e.g. a Champat Rai Jain early-20th-century
 rendering, or an academic journal article) before treating this verse's translation panel as fully converged.
+
+---
+
+## Bhaktāmara v.2 — both recensions
+
+**Recension status:** Both recensions identical (still well before the v.31/32 divergence point).
+
+**Text (IAST):**
+> yaḥ saṃstutaḥ sakala-vāṅmaya-tattva-bodhād
+> udbhūta-buddhi-paṭubhiḥ suraloka-nāthaiḥ |
+> stotrair jagat-tritaya-citta-harair udāraiḥ
+> stoṣye kilāham api taṁ prathamaṁ jinendram || 2 ||
+
+**Devanāgarī:**
+> यः संस्तुतः सकलवाङ्मयतत्त्वबोधा-
+> द् उद्भूतबुद्धिपटुभिः सुरलोकनाथैः ।
+> स्तोत्रैर्जगत्त्रितयचित्तहरैरुदारैः
+> स्तोष्ये किलाहमपि तं प्रथमं जिनेन्द्रम् ॥२॥
+
+*(Devanāgarī cross-checked between the Vijay K. Jain/archive.org OCR IAST and jainsquare.wordpress.com's
+independently-rendered Devanāgarī — both agree on the word sequence.)*
+
+**Padaccheda — load-bearing words only** (uncontested ornament vocabulary — *jagat* "world," *tritaya* "triad"
+— glossed inline in the assembled reading rather than tabled separately):
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| vāṅmaya | adj. (< *vāc* "speech" + *-maya* "consisting of") | "consisting of words, verbal" — here qualifying "the reality expressed in all speech/scripture" | MW, s.v. *vāṅmaya* |
+| tattva-bodha | compound, "reality-knowledge" | *tattva*: "true or real state, truth, reality" (already the operative sense in the Jain philosophical vocabulary this reading room otherwise tracks in the TS files); *bodha*: "waking, knowing, understanding" | MW, s.v. *tattva*, *budh* |
+| suraloka-nātha | compound, "lord(s) of the world of the gods" | *sura*: "a god, deity" (near-synonym of *amara* at v.1); *loka*: "world"; *nātha*: "protector, lord, master" | MW, s.v. *sura*, *loka*, *nātha* |
+| jinendra | compound, "Jina" + *indra* ("chief, lord")| "chief/lord among Jinas" — an honorific superlative, not a claim of a separate rank above ordinary *jina*; standard *-indra* intensifying-suffix usage (cf. *narendra* "lord of men," *devendra* "lord of gods") | MW, s.v. *jina* (v.1 above), *indra* |
+
+**Disambiguation:** No real ambiguity in this verse — every word sits at its single dominant Sanskrit sense.
+The one interpretive note: *jinendra* uses the common Sanskrit intensifying pattern "[noun]+*indra*" (as in
+*narendra*, "lord of men" = "king," or *devendra*, "lord of gods" = Indra himself) to mean, honorifically,
+"the foremost Jina" — not a doctrinal claim that there is a rank called "Jinendra" superior to "Jina" within
+Jain ontology. This is a poetic-honorific compound, not a technical term, and the translations below treat it
+that way (identifying it directly with "the first Jinendra," i.e. Ṛṣabhanātha/Ādinātha, matching the header's
+identification of this stotra's addressee).
+
+**Assembled reading:** He who is praised — through generous hymns that captivate the minds of [beings in] the
+three worlds — by the lords of the gods' world, [gods] whose intelligence has been sharpened by understanding
+the reality taught in all scripture: him, the foremost Jina, I too shall indeed praise.
+
+**Published translations (comparison only):**
+- Vijay K. Jain (2023): "I too shall, no doubt, worship the first 'Jinendra' (Lord Adinatha) who is adored,
+  through excellent hymns that mesmerize the hearts of the living-beings in the three worlds, by the lords
+  (Indra) of the celestial-beings with intellect sharpened by the acquisition of the knowledge of the reality
+  (*tattva*) as expounded in the Scripture."
+- jainsquare.wordpress.com (unattributed; distinct wording from the v.1 popular-paraphrase cluster, so treated
+  as a second data point rather than the same recycled source — still not a named scholar, flagged
+  accordingly): "The celestial beings possess extensive scriptural knowledge and supreme intelligence. They
+  praise Him with stotras that captivate the three worlds. I too will now endeavor to sing praise of the first
+  Jinendra, the first Tirthankara, Rishabhadeva."
+- Both agree on every substantive point; jainsquare's version compresses the "sharpened by understanding
+  reality-as-taught-in-scripture" clause into "extensive scriptural knowledge," a paraphrase rather than a
+  disagreement.
+
+**Modern comparison:** N/A.
+
+**Sources:** Vijay K. Jain (2023) via archive.org OCR (lines ~2041–2074); jainsquare.wordpress.com
+(2011-09-16 post); MW as above.
+
+---
+
+## Bhaktāmara v.3 — both recensions
+
+**Recension status:** Both recensions identical.
+
+**Text (IAST):**
+> buddhyā vinā'pi vibudhārcita-pāda-pīṭha
+> stotuṁ samudyata-matir vigata-trapo'ham |
+> balaṁ vihāya jala-saṁsthitam indu-bimbam
+> anyaḥ ka icchati janaḥ sahasā grahītum || 3 ||
+
+**Devanāgarī:**
+> बुद्ध्या विनाऽपि विबुधार्चितपादपीठ
+> स्तोतुं समुद्यतमतिर्विगतत्रपोऽहम् ।
+> बालं विहाय जलसंस्थितमिन्दुबिम्ब-
+> मन्यः क इच्छति जनः सहसा ग्रहीतुम् ॥३॥
+
+**Padaccheda — load-bearing words:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| vibudha | adj./m., here "the wise ones" = gods | "awakened, wise... a wise man; a god" — same "wise-one/deity" double sense as *sura*/*amara* elsewhere in the hymn | MW, s.v. *vibudha* |
+| pāda-pīṭha | compound | *pāda* "foot" (as at v.1); *pīṭha* "seat, bench, pedestal, throne" | MW, s.v. *pīṭha* |
+| samudyata | past participle (< *sam-ud-yam*, "to raise up, undertake") | "raised, lifted; ready, prepared, resolved, about to" | MW, s.v. *samudyata* |
+| trapā | f. | "perplexity, bashfulness, shame" — negated here (*vigata-trapaḥ*, "gone is [my] shame," i.e. "shameless/emboldened") | MW, s.v. *trapā* |
+| indu-bimba | compound | *indu* "the moon"; *bimba* "disk, orb, reflected image" | MW, s.v. *indu*, *bimba* |
+| grahītum | infinitive (< √*grah*, "to seize, grasp") | "to seize, grasp, catch hold of" | MW, s.v. *grah* |
+
+**Disambiguation:** No lexical ambiguity — the verse's force is entirely in its simile (attempting to praise
+the Jina without adequate intellect is like a child trying to grab the moon's reflection off the surface of
+water), not in any contested word-sense. Flagged only to note the deliberate self-address pattern continuing
+from v.1–2: the poet names the addressee by an epithet tied to the immediate image (here "[you] whose
+foot-seat is worshipped by the wise/gods," continuing the *vibudha*/*sura*/*amara* rotation of near-synonyms
+for "the gods" used across the opening verses — *amara* at v.1, *sura* at v.2, *vibudha* at v.3 — a stylistic
+variation, not three different classes of being).
+
+**Assembled reading:** Even without intelligence, my mind resolved to praise the pedestal of your feet — which
+the wise (gods) worship — I have gone beyond shame. Who else, forsaking [good sense/strength], would want to
+suddenly seize hold of the moon's disk as it rests on water [i.e. its mere reflection] — other than a child?
+
+**Published translations (comparison only):**
+- Vijay K. Jain (2023): "O Lord 'Jinendradeva'! The seat (throne) above which rest your Feet is worshipped by
+  the devas. Although with no intellect, I have embarked on singing hymns of your adoration; this is nothing
+  but my brazenness. Who else but an innocent child can thoughtlessly desire to grab the reflection of the
+  moon in water?"
+- jainsquare.wordpress.com: "I attempt to praise You without intelligence—a shameless act. This resembles a
+  child trying to grasp the moon's reflection in water." (a compressed paraphrase — drops the "seat/pedestal
+  worshipped by the gods" clause entirely, the one substantive omission found so far between these two
+  sources.)
+
+**Modern comparison:** N/A.
+
+**Sources:** Vijay K. Jain (2023) via archive.org OCR (lines ~2085–2113); jainsquare.wordpress.com; MW as above.
+
+---
+
+## Bhaktāmara v.4 — both recensions
+
+**Recension status:** Both recensions identical.
+
+**Text (IAST):**
+> vaktuṁ guṇān guṇa-samudra śaśāṅka-kāntān
+> kas te kṣamaḥ suraguru-pratimo'pi buddhyā |
+> kalpānta-kāla-pavanoddhata-nakra-cakraṁ
+> ko vā tarītum alam ambunidhiṁ bhujābhyām || 4 ||
+
+**Devanāgarī:**
+> वक्तुं गुणान् गुणसमुद्र शशाङ्ककान्तान्
+> कस्ते क्षमः सुरगुरुप्रतिमोऽपि बुद्ध्या ।
+> कल्पान्तकालपवनोद्धतनक्रचक्रं
+> को वा तरीतुमलमम्बुनिधिं भुजाभ्याम् ॥४॥
+
+**Padaccheda — load-bearing words:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| guṇa-samudra | compound, vocative | *guṇa*: "quality, virtue" (ordinary sense — not the Sāṃkhya *guṇa* triad flagged at v.1's *tamas* entry; no *guṇa*-theory content is invoked here either, same discipline applied); *samudra*: "ocean" | MW, s.v. *guṇa*, *samudra* |
+| śaśāṅka-kānta | compound | *śaśāṅka*: "the moon" (lit. "hare-marked," a common kenning); *kānta*: "beloved, lovely, charming" | MW, s.v. *śaśāṅka*, *kānta* |
+| suraguru | compound, "guru/teacher of the gods" | standard epithet of Bṛhaspati, preceptor of the Vedic gods in Purāṇic/epic literature | MW, s.v. *suraguru* |
+| kalpānta | compound, "end of a *kalpa*" (a cosmic eon) | *kalpa*: "a fixed order... a whole day of Brahmā, i.e. 1,000 *yugas*"; *anta*: "end" — "the end of the cosmic eon," conventionally the time of universal dissolution | MW, s.v. *kalpa*, *anta* |
+| nakra-cakra | compound | *nakra*: "crocodile, sea-monster"; *cakra*: "circle, multitude, host" | MW, s.v. *nakra*, *cakra* |
+| ambu-nidhi | compound, "receptacle of water" = ocean | *ambu* "water"; *nidhi* "receptacle, repository" | MW, s.v. *ambu*, *nidhi* |
+
+**Disambiguation:** *Kalpānta* ("end of the cosmic eon") here functions as a stock poetic intensifier — "the
+wind that blows [as fiercely] as at the end of the world-age" — rather than a doctrinal claim being made about
+Jain cosmology's actual eon-structure. The hymn is not asserting anything about *kalpa*-periodization; it is
+borrowing shared Sanskrit *kāvya* stock imagery (the storm at cosmic dissolution) the way English poetry might
+invoke "biblical flood" without making a theological claim. Flagged so the vivid cosmological image is not
+mistaken for the stotra doctrinally describing Jain time-cycles (that is the proper subject of the *kāla*
+material still pending in the TS Adhyāya 5 track, not this hymn).
+
+**Assembled reading:** Who is capable — even one equal to the gods' own teacher [Bṛhaspati] in intellect — of
+describing your virtues, O ocean of virtues, lovely as the moon? Or who could swim across, with [only] two
+arms, the ocean's water-receptacle — its horde of crocodiles roused by wind as fierce as at the end of the
+cosmic age?
+
+**Published translations (comparison only):**
+- Vijay K. Jain (2023): "O Ocean of Virtues! Who else can describe your virtues, bright as the moon, when even
+  Brahaspati, the wise guru of the devas, is incapable of doing it? Who can swim across with his arms the ocean
+  whose water is agitated due to the strong wind that appears to be signalling the end of the world, and home
+  to numerous (rapacious) aquatic animals like the crocodile?"
+- jainsquare.wordpress.com: "Who can praise Your moon-like virtues, O ocean of qualities? Even the celestial
+  guru lacks such capacity. Who can swim across a turbulent ocean infested with crocodiles using only their
+  hands?" (drops the explicit "end of the world" wind-simile, compressing it into "turbulent" — again a
+  compression, not a disagreement.)
+
+**Modern comparison:** N/A. (*Kalpānta*, "end of the cosmic eon," could invite comparison to modern
+cosmological end-states — heat death, Big Crunch, etc. — but as the Disambiguation note above establishes,
+this is a stock poetic intensifier in this verse, not the hymn making a cosmological claim; no sourced popular
+conflation was sought or found this pass, and asserting one here would itself be exactly the over-reading
+CLAUDE.md §0 warns against — so this stays properly N/A rather than manufacturing a comparison.)
+
+**Sources:** Vijay K. Jain (2023) via archive.org OCR (lines ~2123–2145); jainsquare.wordpress.com; MW as above.
+
+---
+
+## Bhaktāmara v.5 — both recensions
+
+**Recension status:** Both recensions identical.
+
+**Text (IAST):**
+> so'haṁ tathāpi tava bhaktivaśān muniśa
+> kartuṁ stavaṁ vigata-śaktir api pravṛttaḥ |
+> prīty-ātma-vīryam avicārya mṛgī mṛgendraṁ
+> nābhyeti kiṁ nija-śiśoḥ paripālanārtham || 5 ||
+
+**Devanāgarī:**
+> सोऽहं तथापि तव भक्तिवशान्मुनीश
+> कर्तुं स्तवं विगतशक्तिरपि प्रवृत्तः ।
+> प्रीत्याऽऽत्मवीर्यमविचार्य मृगी मृगेन्द्रं
+> नाभ्येति किं निजशिशोः परिपालनार्थम् ॥५॥
+
+**Padaccheda — load-bearing words:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| muni-īśa | compound, "lord of ascetics" | *muni*: "a sage, ascetic, monk"; *īśa*: "lord, master" | MW, s.v. *muni*, *īśa* |
+| śakti | f. | "power, ability, strength, capacity" (negated here: *vigata-śaktiḥ*, "power gone," i.e. powerless) | MW, s.v. *śakti* |
+| vīrya | n. | general Sanskrit: "manliness, valour, strength, power, energy." **A separate, Jain-specific technical sense also exists** — *vīrya* as a soul-attribute that can be obstructed by *vīryāntarāya*-karma (Tattvārtha Sūtra Adhyāya 8's classification of obstructing karmas). **Not the operative sense here**: this verse uses *vīrya* in the plain colloquial register (a doe's physical strength relative to a lion), not as a technical karma-theory term — context (an animal-kingdom simile, no karma vocabulary anywhere nearby) makes the general sense the only one that fits, and no source consulted reads it otherwise. | MW, s.v. *vīrya* |
+| mṛgī / mṛgendra | *mṛgī* f. "a female deer"; *mṛgendra* compound "lord of beasts" = lion (same *-indra* honorific-compound pattern as *jinendra* at v.2) | "deer" and "lion" respectively — a stock predator/prey pairing in Sanskrit poetry | MW, s.v. *mṛga*, *mṛgendra* |
+| paripālana | n. (< *pari-pāl*, "to protect fully") | "protecting, guarding, preserving" | MW, s.v. *paripālana* |
+
+**Disambiguation:** The one word worth flagging is *vīrya*, precisely because this reading room's own doctrinal
+track (Tattvārtha Sūtra) will eventually reach *vīryāntarāya*-karma as a technical term. Recorded here
+explicitly so a future cross-reference does not wrongly import that technical sense back into this devotional
+line: **the disambiguation direction runs opposite** to the usual pattern in this file (where a technical
+sense the lexicon under-supplies has to be added from commentary) — here the lexicon supplies *both* senses,
+and it is the verse's own plain narrative context (a mother deer, not a discussion of karma) that rules the
+technical sense *out*. Internal consistency within the hymn, not a bhāṣya, is what disambiguates
+devotional-genre verses, per the method note already established at v.1.
+
+**Assembled reading:** That same I, O lord of ascetics, though bereft of strength/power, have nevertheless set
+about, out of devotion to you, to compose this hymn of praise. Does not a doe, out of love, without weighing
+her own strength, confront a lion — for the sake of protecting her own fawn?
+
+**Published translations (comparison only):**
+- Vijay K. Jain (2023): "O Lord of the Ascetics! Even then, rid of strength as I am, it is only due to my
+  overwhelming devotion to you that I have embarked on making prayers of your adoration. Does the doe (mother
+  deer), not thinking about its (lack of) strength and with the idea of protecting its loved fawn (baby deer),
+  not get into a face-to-face confrontation with the (mighty) lion?"
+- jainsquare.wordpress.com: "Yet devotion compels me to compose this hymn despite my unworthiness, O Lord of
+  ascetics. Like a mother deer forgetting her own weakness to protect her fawn from a lion—devotion is my sole
+  motivation." (Renders *avicārya* — "without weighing/considering" — as "forgetting," a slightly different
+  shade: not considering something in the first place vs. having once known it and setting it aside. A minor,
+  genuine translator-choice divergence rather than a copying artifact.)
+
+**Modern comparison:** N/A.
+
+**Sources:** Vijay K. Jain (2023) via archive.org OCR (lines ~2157–2178); jainsquare.wordpress.com; MW as above.
+
+---
+
+## Bhaktāmara v.6 — both recensions
+
+**Recension status:** Both recensions identical.
+
+**Text (IAST):**
+> alpa-śrutaṁ śrutavatāṁ parihāsa-dhāma
+> tvad-bhaktir eva mukharī-kurute balān mām |
+> yat kokilaḥ kila madhau madhuraṁ virauti
+> tac cāmra-cāru-kalikā-nikaraika-hetuḥ || 6 ||
+
+**Devanāgarī:**
+> अल्पश्रुतं श्रुतवतां परिहासधाम
+> त्वद्भक्तिरेव मुखरीकुरुते बलान्माम् ।
+> यत्कोकिलः किल मधौ मधुरं विरौति
+> तच्चारुचूतकलिकानिकरैकहेतुः ॥६॥
+
+**Padaccheda — load-bearing words:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| śruta | past participle (< √*śru*, "to hear"), here nominalized "[that which is] heard, learning" | general Sanskrit: "heard... knowledge as heard from holy men and transmitted... sacred knowledge, oral tradition." **A distinct Jain technical sense is also attested**: *śruta-jñāna*, scriptural/testimonial knowledge, is one of the five canonical *jñāna*-types in Jain epistemology (the very topic queued for the still-pending TS Adhyāya 1 unit, "knowledge & means"). | MW, s.v. *śruta* |
+| parihāsa-dhāma | compound | *parihāsa*: "joking, mockery, ridicule"; *dhāma*: "abode, seat, place" — "a seat/object of ridicule" | MW, s.v. *parihāsa*, *dhāman* |
+| mukharī-√kṛ | denominative causative (< *mukhara*, "talkative, loquacious" + √*kṛ*, "to make") | "to make talkative/loquacious" | MW, s.v. *mukhara* |
+| kokila | m. | "the (Indian) cuckoo" (uncontested) | MW, s.v. *kokila* |
+| cūta | m. | "the mango tree" (*cāmra* in some readings is a variant/synonym form built on *āmra*, "mango") | MW, s.v. *cūta*, *āmra* |
+| kalikā | f. | "a bud" | MW, s.v. *kalikā* |
+
+**Disambiguation:** *Alpa-śrutam* — "of little *śruta*" — is the interesting case in this verse. Taken purely
+colloquially it means "not very learned/well-read," and every translation compared below renders it that way,
+consistent with the verse's plain self-deprecating sense. But given that *śruta* is also the exact technical
+name of one of the five Jain *jñāna*-types (scriptural/testimonial knowledge — the category the poet, a monk
+addressing monks, would have precise reason to reach for rather than a vaguer word for "knowledge"), the choice
+of *this* specific word plausibly carries a secondary, precise resonance for a Jain-literate audience: "I
+possess little [of the *śruta-jñāna* category]," not just "I am not very well-read" in a generic sense. **This
+is flagged as a plausible resonance the word choice invites, not asserted as confirmed authorial intent** — no
+commentary was consulted to confirm the poet intended the technical echo, so it is recorded as an open
+interpretive possibility rather than folded into the Assembled Reading below, which stays with the
+colloquial sense every translation actually gives.
+
+**Assembled reading:** [Though I am] of little learning — a target of ridicule among the learned — your
+devotion alone forcibly makes me talkative. [It is] just as the cuckoo indeed calls out sweetly in spring: that
+is due to nothing but the [seasonal] abundance of lovely mango buds [prompting it, not the cuckoo's own
+skill].
+
+**Published translations (comparison only):**
+- Vijay K. Jain (2023): "O Lord! I am deficient in knowledge and am a subject of derision in the assembly of
+  the learned. Only my devotion to you is propelling me to get garrulous. Certain it is that the melodious
+  sound that the cuckoo makes during the spring emanates from the seasonal presence of the charming clusters
+  of mango sprouts."
+- jainsquare.wordpress.com: "Though I possess limited knowledge and invite ridicule from scholars, Your
+  devotion compels me forward. Like a cuckoo singing sweetly in spring upon seeing mango blossoms—devotion
+  alone drives this effort." Neither translation flags or invokes the *śruta-jñāna* technical resonance noted
+  above — both stay with the plain colloquial "little learning" sense, consistent with treating that resonance
+  as unconfirmed rather than load-bearing.
+
+**Modern comparison:** N/A.
+
+**Sources:** Vijay K. Jain (2023) via archive.org OCR (lines ~2188–2209); jainsquare.wordpress.com; MW as
+above.
+
+**Status of this file:** verses 1–6 drafted this batch (a complete thematic unit: the opening obeisance, v.1,
+followed by the poet's five-verse "humility topos" — inadequate yet compelled by devotion, v.2–6). Continuing
+verses (7 onward — praise of the Jina's physical/spiritual radiance, then later the *prātihārya*/miracle
+verses where the Digambara-Śvetāmbara 44-vs-48 divergence actually begins) remain `pending` for a future
+session. Note for continuation: verse 7's actual number was not confirmed against an independent source this
+pass (a martial/battle-imagery verse appears next in the Vijay K. Jain OCR sequence, but its printed numeral
+was not legible in the OCR and no cross-check was done before this file was closed out — verify its number
+before drafting it, rather than assuming linear OCR order equals verse order).
