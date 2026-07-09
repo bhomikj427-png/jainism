@@ -115,7 +115,7 @@ chapters/jain/translations/
 | 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | **done — Adhyāya 5 complete, Dig. 5.1–5.42 / Śvet. 5.1–5.41** | Full chapter drafted across four sessions. Five structural numbering forks (two merges: 5.2–5.3→Śvet.5.2 and 5.29–5.30→Śvet.5.29; one split: 5.8→Śvet.5.7–5.8; the merge/split pair exactly cancels at 5.9, the second merge stands as a permanent +1 Dig.-over-Śvet. offset for the rest of the chapter). Two genuine Dig./Śvet. **content-variant** sūtras, not mere renumbering (5.37 vs Śvet.5.36 — atomic-bonding transformation rule; 5.39 vs Śvet.5.38 — kāla's substance-hood asserted flatly vs. attributed to "some teachers"). One genuine **SS-vs-SBT commentarial divergence** on atomic-bonding combinatorics (5.36/Śvet.5.35, two full comparison tables, flagged lower-confidence — OCR-sourced numeric table, not independently cross-checked). 5.32/Śvet.5.31 (arpitānarpitasiddheḥ) identified as the TS's own textual anchor for the already-written `anekāntavāda`/`syādvāda`/`saptabhaṅgī`/`naya` concept nodes. Chapter-end fork-census table included in-file. |
 | 4 | TS Adhyāya 1 — knowledge & means | `doctrinal/tattvartha/01-knowledge.md` | **done — first pass complete, both recensions** | 5 jñānas, naya, pramāṇa, nikṣepa. Genuine numbering fork found: Śvet. runs 1.1–1.35, Dig. 1.1–1.33 (a dropped sūtra at the avadhi-jñāna split, a further merge at the naya list); one content-variant sūtra (1.16, pure/impure mental faculties, differently worded). Sūtras 1.1–1.12 at full depth; 1.13–1.35 as content survey (most of this chapter's terms already have dedicated concept-node treatment in Ch.02/07 — linked, not re-derived). |
 | 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/01-bhaktamar.md` (continuing same file) | **done — all 48 Digambara verses drafted** | **Complete first pass of the entire Bhaktāmara Stotra** (Digambara 48-verse recension). v.37–47 cover the eight traditional "protection from danger" verses (elephant, lion, fire, snake, war ×2, ocean, disease, bondage) — internally cross-checked against v.47's own summary verse, confirming the eight-danger identification. v.48 is the colophon where Mānatuṅga names himself (flagged as the hymn's own primary-source authorship evidence, distinct from the later hagiographical origin-story). v.43 resolved the OCR mystery from 2 sessions ago — confirmed as v.43, not v.7. **Open items for a future pass:** most of v.21–48 is single-sourced (jainsquare only, no second translation); Śvetāmbara-specific numbers v.28–44 are inferred from the −4 offset, not independently confirmed against a Śvetāmbara-labelled source; padaccheda/MW fetches were skipped for most of v.21–48 (leaner format). |
-| 6 | TS Adhyāya 2 (jīva) | `doctrinal/tattvartha/02-soul.md` | pending | |
+| 6 | TS Adhyāya 2 (jīva) | `doctrinal/tattvartha/02-soul.md` | **done — first pass, sūtras 2.1–2.29 full depth; 2.30–2.52/53 content survey** | Karmic-state taxonomy, senses, soul-transit geometry. Content-variant fork at 2.13/2.14 (mobile/immobile line drawn differently — fire/air-bodied beings). Open item: an untraced second numbering correction somewhere in 2.30–2.52 (Śvet. ends at 2.52, Dig. at 2.53, but the running -1 offset from 2.13 doesn't project to that gap on its own). |
 | 7 | TS Adhyāya 6 (āsrava) | `doctrinal/tattvartha/06-influx.md` | pending | |
 | 8 | TS Adhyāya 8 (bandha) | `doctrinal/tattvartha/08-bondage.md` | pending | |
 | 9 | TS Adhyāya 9 (saṃvara/nirjarā) | `doctrinal/tattvartha/09-stoppage-shedding.md` | pending | |
@@ -334,3 +334,24 @@ chapters/jain/translations/
   1.10–1.12's *parokṣa*/*pratyakṣa* split is this sūtra's own textual root for the already-documented
   Jain-vs-Nyāya/Buddhist/Mīmāṃsā inversion finding in `paroksha-jnana.md`. Per §E, the next lowest-numbered
   `pending` unit is **#6, TS Adhyāya 2 (jīva)**.
+- **TS Adhyāya 2 drafted — first pass** (`doctrinal/tattvartha/02-soul.md`, unit #6) — 2026-07-09, continuing
+  autonomously per user instruction. Same primary source as Adhyāya 1 (Tatia 1994, already downloaded this
+  session — reused, not re-fetched), cross-checked against Vijay K. Jain (2018) for the foundational sūtras.
+  Read sūtras 2.1–2.29 in full: the five-fold karma-state taxonomy (2.1–2.7), sentience/*upayoga* as the soul's
+  defining mark (2.8–2.9, cross-referenced to the existing `upayoga.md` node), the worldly/liberated split
+  (2.10), mind-possession and mobility (2.11–2.14), the senses and rational beings (2.15–2.25), and — a genuine
+  piece of distinctive Jain cosmological mechanics — the geometric rules governing a soul's motion in transit
+  between births: straight-line-only movement along the rows of cosmic space-units, zero turns for a
+  liberated soul's final ascent, up to three turns for an ordinary transmigrating soul depending on relative
+  position within the polygonal cosmos (2.26–2.29). **Found a genuine content-variant fork, not mere
+  renumbering, at sūtra 2.13/2.14**: Śvetāmbara names three immobile-being types (earth/water/plant-bodied)
+  and separately declares fire and air *mobile* in the next sūtra; Digambara instead places fire- and
+  air-bodied beings under *immobile* directly in its version of 2.13, making its paired 2.14 correspondingly
+  narrower. Both recensions converge on the same eventual five-element body taxonomy; they draw the
+  mobile/immobile classificatory line across the sūtra pair differently. **Left an explicit open item**: the
+  chapter's own contents table shows Śvetāmbara ending at 2.52 and Digambara at 2.53, but the running "Digambara
+  one sūtra behind" offset established at 2.13 does not project forward to explain that end-of-chapter gap on
+  its own — a second, untraced numbering correction must occur somewhere in the 2.30–2.52 (births/body-types/
+  gender/lifespan) material, which this pass covered only as a content survey rather than sūtra-by-sūtra,
+  flagged for a future pass rather than silently left unexplained. Per §E, the next lowest-numbered `pending`
+  unit is **#7, TS Adhyāya 6 (āsrava)**.
