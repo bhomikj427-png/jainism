@@ -111,7 +111,7 @@ chapters/jain/translations/
 | # | unit | file to create | status | notes |
 |---|------|----------------|--------|-------|
 | 1 | **PROTOTYPE — TS 5.1 (single sūtra)** | `doctrinal/tattvartha/05-substances.md` (start it with 5.1 only) | **done — format approved by user** | Proved the doctrinal format. 3 independent translations sourced (Jaini 1920, Vijay K. Jain 2018, Tatia 1994 — retrieved via direct download + local grep after the fetch tool truncated the OCR text); confidence high. |
-| 2 | **PROTOTYPE — Bhaktāmar v1 (single verse)** | `devotional/bhaktamar/01-bhaktamar.md` (verse 1 only) | pending | Prove the devotional format (meter; Modern-comparison = N/A). **STOP after v1 for approval.** |
+| 2 | **PROTOTYPE — Bhaktāmar v1 (single verse)** | `devotional/bhaktamar/01-bhaktamar.md` (verse 1 only) | **drafted — awaiting user approval** | Proved the devotional format (meter; Modern-comparison correctly N/A). 2 solid named sources (Vijay K. Jain 2023 via archive.org OCR + local grep; Nalini Balbir/Jainpedia) + 1 flagged likely-derivative popular paraphrase used only as cross-check, not a 3rd vote — confidence medium, open item to find a 3rd named scholarly source. **STOPPED after v1 per plan; do not continue until user signs off.** |
 | 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | **in-progress — 5.2–5.9 done (both numbering tracks), 5.10 → end pending** | Sūtras 5.2–5.9 drafted: dravya/jīva definition (Dig. 5.2–5.3 merge → Śvet. 5.2), eternal/fixed-in-number/formless, matter-alone-has-form, first-three-substances-are-single-wholes, motionless-but-causally-active, space-point counts for dharma/adharma/soul (Dig. 5.8 split → Śvet. 5.7–5.8), space's infinite space-points (numbering resyncs at 5.9). Remaining: matter's space-point counts/atoms (5.10–5.15ish), universe-space occupancy, substance-vs-mode distinction, kāla (time) introduced later in the chapter, six-fold modal change (~5.38–5.44). |
 | 4 | TS Adhyāya 1 — knowledge & means | `doctrinal/tattvartha/01-knowledge.md` | pending | 5 jñānas, naya, pramāṇa, nikṣepa. |
 | 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/…` | pending | Split into verse-range files (~8–11 verses each) once v1 format is approved. |
@@ -155,3 +155,14 @@ chapters/jain/translations/
   Vijay K. Jain/wisdomlib, Tatia/archive-OCR). **Adhyāya 5 not complete** — 5.10 through the chapter's end
   (matter/atoms' space-point counts, universe-space occupancy, substance-vs-mode, kāla, six-fold modal change)
   remains `pending` for a future session.
+- **Bhaktāmara v.1 prototype drafted** (`devotional/bhaktamar/01-bhaktamar.md`) — 2026-07-09. Both recensions
+  identical for v.1 (the 44-vs-48 divergence starts around v.31/32). Sourced Vijay K. Jain (2023, Digambara)
+  by downloading the archive.org OCR directly after finding the exact filename via the `/metadata/` JSON
+  endpoint (an initially-guessed filename 404'd). Padaccheda covers all content words via MW; flagged the
+  double sense of *yuga* (pair / cosmic-age) within the same verse as a deliberate poetic figure, and flagged
+  MW's Sāṃkhya-*guṇa* sense of *tamas* as a different tradition's technical meaning not operative here (plain
+  "darkness of sin" reading holds, confirmed across all translations compared). Modern-comparison box correctly
+  N/A (devotional verse, no doctrinal/cosmological content to conflate). Confidence **medium**: only 2 solidly
+  independent named sources (Vijay K. Jain; Nalini Balbir/Jainpedia) plus one flagged likely-derivative popular
+  paraphrase — open item to find a 3rd named scholarly translation. **Awaiting user approval before continuing
+  to the remaining Bhaktāmara verses (unit #5).**
