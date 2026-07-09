@@ -32,3 +32,4 @@ Biography and the signature Ineffable doctrine each independently attested → *
 - part-of: neoplatonism | the last scholarch of the Athenian Neoplatonic school, closed under Justinian in 529
 - shares-vocabulary-with: plotinus-one | Damascius works in the vocabulary of the One but posits the *arrhēton* prior to it — the Ineffable that even the One cannot capture
 - often-conflated-with-NOT-equivalent: plotinus-one | the Ineffable is precisely **not** the One — it is "uncoordinated" and beyond it; identifying the two erases Damascius's whole advance over Plotinus and Proclus
+- structurally-parallel-to: simplicius | both were among the last generation of the Athenian school under Damascius's own headship, exiled together to the Persian court of Khosrow I after Justinian's 529 closure

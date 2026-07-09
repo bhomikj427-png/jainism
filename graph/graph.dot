@@ -272,6 +272,7 @@ digraph ancient_texts {
     "aristotle-ethics" [label="aristotle-ethics" fillcolor="#b8b8b8" shape=ellipse];
     "aristotle-logic" [label="aristotle-logic" fillcolor="#b8b8b8" shape=ellipse];
     "aristotle-substance" [label="ousia (Aristotle)" fillcolor="#b8b8b8" shape=ellipse];
+    "chaldean-oracles" [label="Chaldean Oracles" fillcolor="#b8b8b8" shape=ellipse];
     "cynicism" [label="Cynicism (Kynismos)" fillcolor="#b8b8b8" shape=ellipse];
     "damascius" [label="Damascius" fillcolor="#b8b8b8" shape=ellipse];
     "democritus-atom" [label="atomos (Greek)" fillcolor="#b8b8b8" shape=ellipse];
@@ -281,6 +282,7 @@ digraph ancient_texts {
     "henosis" [label="Henōsis" fillcolor="#b8b8b8" shape=ellipse];
     "iamblichus" [label="Iamblichus" fillcolor="#b8b8b8" shape=ellipse];
     "liber-de-causis" [label="Liber de Causis" fillcolor="#b8b8b8" shape=ellipse];
+    "marinus" [label="Marinos" fillcolor="#b8b8b8" shape=ellipse];
     "neoplatonism" [label="Neoplatonism" fillcolor="#b8b8b8" shape=ellipse];
     "nous" [label="Nous" fillcolor="#b8b8b8" shape=ellipse];
     "parmenides-being" [label="to eon (Parmenidean Being, Greek)" fillcolor="#b8b8b8" shape=ellipse];
@@ -291,8 +293,10 @@ digraph ancient_texts {
     "porphyry" [label="Porphyrios" fillcolor="#b8b8b8" shape=ellipse];
     "proclus" [label="Proklos" fillcolor="#b8b8b8" shape=ellipse];
     "proclus-henad" [label="henás" fillcolor="#b8b8b8" shape=ellipse];
+    "pseudo-dionysius" [label="Pseudo-Dionysius" fillcolor="#b8b8b8" shape=ellipse];
     "psyche-neoplatonic" [label="Psychē" fillcolor="#b8b8b8" shape=ellipse];
     "pyrrhonism" [label="epochē / Pyrrhonism (Greek)" fillcolor="#b8b8b8" shape=ellipse];
+    "simplicius" [label="Simplikios" fillcolor="#b8b8b8" shape=ellipse];
     "stoic-logos" [label="stoic-logos" fillcolor="#b8b8b8" shape=ellipse];
     "stoicism" [label="Stōïkismos (Greek)" fillcolor="#b8b8b8" shape=ellipse];
     "syrianus" [label="Syrianus" fillcolor="#b8b8b8" shape=ellipse];
@@ -619,6 +623,9 @@ digraph ancient_texts {
   "catuskoti" -> "saptabhangi" [color="#cccccc22"];
   "catuskoti" -> "sunyata" [color="#cccccc22"];
   "catuskoti" -> "pratityasamutpada" [color="#cccccc22"];
+  "chaldean-oracles" -> "theurgy" [color="#cccccc22"];
+  "chaldean-oracles" -> "henosis" [color="#cccccc22"];
+  "chaldean-oracles" -> "proclus-henad" [color="#cccccc22"];
   "charitra" -> "tattva-jain" [color="#cccccc22"];
   "charitra" -> "ahimsa" [color="#cccccc22"];
   "charitra" -> "satya" [color="#cccccc22"];
@@ -654,9 +661,11 @@ digraph ancient_texts {
   "cynicism" -> "tapas" [color="#cccccc22"];
   "cynicism" -> "tapas" [color="#cccccc22"];
   "damascius" -> "proclus" [color="#cccccc22"];
+  "damascius" -> "marinus" [color="#cccccc22"];
   "damascius" -> "neoplatonism" [color="#cccccc22"];
   "damascius" -> "plotinus-one" [color="#cccccc22"];
   "damascius" -> "plotinus-one" [color="#cccccc22"];
+  "damascius" -> "simplicius" [color="#cccccc22"];
   "dana" -> "ahimsa" [color="#cccccc22"];
   "dana" -> "aparigraha" [color="#cccccc22"];
   "dana" -> "ahimsa-buddhist" [color="#cccccc22"];
@@ -831,6 +840,7 @@ digraph ancient_texts {
   "henosis" -> "neoplatonism" [color="#cccccc22"];
   "henosis" -> "moksha-advaita" [color="#cccccc22"];
   "henosis" -> "moksha-advaita" [color="#cccccc22"];
+  "henosis" -> "pseudo-dionysius" [color="#cccccc22"];
   "hetu-vidya" -> "dignaga-pramana" [color="#cccccc22"];
   "hetu-vidya" -> "pramana" [color="#cccccc22"];
   "hetu-vidya" -> "vyapti" [color="#cccccc22"];
@@ -849,6 +859,7 @@ digraph ancient_texts {
   "iamblichus" -> "porphyry" [color="#cccccc22"];
   "iamblichus" -> "plotinus" [color="#cccccc22"];
   "iamblichus" -> "theurgy" [color="#cccccc22"];
+  "iamblichus" -> "chaldean-oracles" [color="#cccccc22"];
   "indra" -> "vamana" [color="#cccccc22"];
   "indra" -> "bali" [color="#cccccc22"];
   "indra" -> "krishna" [color="#cccccc22"];
@@ -1095,6 +1106,8 @@ digraph ancient_texts {
   "mandana-mishra" -> "brahman" [color="#cccccc22"];
   "many-valued-logic" -> "saptabhangi" [color="#cccccc22"];
   "many-valued-logic" -> "quantum-complementarity" [color="#cccccc22"];
+  "marinus" -> "proclus" [color="#cccccc22"];
+  "marinus" -> "neoplatonism" [color="#cccccc22"];
   "mati-jnana" -> "pramana" [color="#cccccc22"];
   "mati-jnana" -> "upayoga" [color="#cccccc22"];
   "mati-jnana" -> "kashaya" [color="#cccccc22"];
@@ -1459,6 +1472,10 @@ digraph ancient_texts {
   "proclus" -> "plotinus-one" [color="#cccccc22"];
   "proclus" -> "porphyry" [color="#cccccc22"];
   "proclus" -> "proclus-henad" [color="#cccccc22"];
+  "proclus" -> "chaldean-oracles" [color="#cccccc22"];
+  "pseudo-dionysius" -> "proclus" [color="#cccccc22"];
+  "pseudo-dionysius" -> "henosis" [color="#cccccc22"];
+  "pseudo-dionysius" -> "henosis" [color="#cccccc22"];
   "psyche-neoplatonic" -> "neoplatonism" [color="#cccccc22"];
   "psyche-neoplatonic" -> "plato-soul" [color="#cccccc22"];
   "psyche-neoplatonic" -> "nous" [color="#cccccc22"];
@@ -1696,6 +1713,10 @@ digraph ancient_texts {
   "siddha" -> "nirvana-buddhist" [color="#cccccc22"];
   "siddha" -> "moksha-advaita" [color="#cccccc22"];
   "siddha" -> "dharma-dravya" [color="#cccccc22"];
+  "simplicius" -> "damascius" [color="#cccccc22"];
+  "simplicius" -> "neoplatonism" [color="#cccccc22"];
+  "simplicius" -> "aristotle-logic" [color="#cccccc22"];
+  "simplicius" -> "aristotle-substance" [color="#cccccc22"];
   "skandha-buddhist" -> "skandha" [color="#cccccc22"];
   "skandha-buddhist" -> "jiva" [color="#cccccc22"];
   "skandha-buddhist" -> "namarupa" [color="#cccccc22"];
