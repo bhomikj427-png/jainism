@@ -29,6 +29,7 @@
 | 11 The Vedānta Family | [hindu/darsana/11-vedanta.md](hindu/darsana/11-vedanta.md) | prasthānatrayī · brahman · ātman-vedānta · māyā-advaita · mokṣa-advaita · advaita-vedanta · vivartavāda · pariṇāmavāda · vishishtadvaita · dvaita-vedanta · bhakti · jñāna-mārga · karma-mārga · trimurti · avatāra-vedānta · sarasvatī · lakṣmī | drafted |
 | 12 The Buddhist Family | [buddhist/12-buddhist.md](buddhist/12-buddhist.md) | four-noble-truths · dukkha · tanha · paticcasamuppada-pali · nibbana-theravada · anatta-buddhist · anicca · theravada · arhat · skandha-buddhist · abhidharma · śūnyatā · bodhicitta · bodhisattva · madhyamaka · dvisatya · catuṣkoṭi · yogacara · vijñaptimātratā · ālaya-vijñāna · tathāgatagarbha | drafted |
 | 13 Neoplatonism | [comparanda/13-neoplatonism.md](comparanda/13-neoplatonism.md) | neoplatonism · plotinus · plotinus-one · nous · henosis · porphyry · proclus | drafted |
+| 14 Greek & Hellenistic Foundation | [comparanda/14-greek-foundation.md](comparanda/14-greek-foundation.md) | parmenides-being · democritus-atom · plato-forms · plato-soul · aristotle-substance · aristotle-categories · aristotle-logic · aristotle-ethics · four-causes · epicurus-atom · epicurus-ethics · stoicism · stoic-logos · cynicism · pyrrhonism · academic-skepticism | drafted |
 
 ---
 
@@ -38,7 +39,6 @@
 
 | # | planned chapter | sub-folder | primary concepts (already written as nodes) | status |
 |---|---|---|---|---|
-| 14 | Greek & Hellenistic Foundation | `comparanda/` | parmenides-being · democritus-atom · plato-forms · plato-soul · aristotle-substance · aristotle-categories · aristotle-logic · aristotle-ethics · four-causes · epicurus-atom · epicurus-ethics · stoicism · stoic-logos · cynicism · pyrrhonism · academic-skepticism | planned |
 | 15 | Sāṃkhya & Yoga | `hindu/darsana/` | kapila · prakriti-samkhya · purusha-samkhya · guna-samkhya · satkaryavada · samkhya-karika · patanjali · yoga-darshana · citta-vritti · citta · manas | planned |
 | 16 | Nyāya & Vaiśeṣika | `hindu/darsana/` | gautama-aksapada · nyaya-sutra · vaiseshika-sutra · paramanu-vaisheshika · dravya-vaisheshika · pancha-mahabhuta · asatkaryavada (NB: the *epistemology* — anumāna, vyāpti, hetvābhāsa, tarka, jāti — is already primary-covered in Ch 05; this chapter is the realist **ontology/atomism** side, cross-ref Ch 05) | planned |
 | 17 | Mīmāṃsā & Cārvāka | `hindu/darsana/` | mimamsa-sutra · kumarila-bhatta · prabhakara · carvaka (NB: mīmāṃsā-pramāṇa / arthāpatti / śabda-pramāṇa are in Ch 05/10; this chapter is ritual-exegesis + the materialist nāstika challenge) | planned |
@@ -185,3 +185,19 @@
 | henosis | Ch 13 | Ch 11 (henōsis ∥ mokṣa-advaita; NOT-equivalent) |
 | porphyry | Ch 13 | — (editor of the Enneads; Isagoge / problem of universals) |
 | proclus | Ch 13 | — (Elements of Theology; monē-proodos-epistrophē; henads) |
+| parmenides-being | Ch 14 | — (to eon; Way of Truth vs Way of Opinion) |
+| democritus-atom | Ch 14 | — (atoms + void; qualitative neutrality vs Jain/Vaiśeṣika paramāṇu) |
+| plato-forms | Ch 14 | Ch 13 (Forms as contents of Nous) |
+| plato-soul | Ch 14 | — (tripartite soul; Phaedrus chariot) |
+| aristotle-substance | Ch 14 | Ch 13 (ousia vocabulary underlies logos/Nous discussion) |
+| aristotle-categories | Ch 14 | — (ten categories; primary/secondary substance) |
+| aristotle-logic | Ch 14 | — (syllogistic vs Nyāya anumāna/vyāpti) |
+| aristotle-ethics | Ch 14 | — (eudaimonia; function argument; doctrine of the mean) |
+| four-causes | Ch 14 | — (material/formal/efficient/final; vs pratītyasamutpāda) |
+| epicurus-atom | Ch 14 | — (weight + the swerve/clinamen) |
+| epicurus-ethics | Ch 14 | — (ataraxia/aponia; Tetrapharmakos; vs Cārvāka/nirvāṇa) |
+| stoicism | Ch 14 | Ch 13 (Stoic pneuma/logos vocabulary echoes into later comparanda) |
+| stoic-logos | Ch 14 | — (material rational pneuma; NOT-equiv brahman) |
+| cynicism | Ch 14 | — (autarkeia/askēsis; ancestor of Stoicism) |
+| pyrrhonism | Ch 14 | — (epochē via isostheneia; vs catuṣkoṭi/Madhyamaka) |
+| academic-skepticism | Ch 14 | — (Arcesilaus/Carneades; to pithanon; vs Pyrrhonism) |
