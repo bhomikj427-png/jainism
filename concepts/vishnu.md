@@ -55,3 +55,5 @@ Three signals with genuine topic overlap and independent sourcing (Wikipedia art
 - shares-vocabulary-with: garuda | Garuḍa is Viṣṇu's own eagle-mount (vāhana) and banner-emblem — the bird that carries the god, paralleling Nandi for Śiva
 - shares-vocabulary-with: kurma | Kūrma, the tortoise that bears Mount Mandara in the churning, is Viṣṇu's second avatāra (a Vedic Prajāpati-tortoise reattributed to Viṣṇu)
 - shares-vocabulary-with: vamana | Vāmana/Trivikrama, the dwarf of the three world-measuring strides, is Viṣṇu's fifth avatāra — grown from Viṣṇu's own Ṛgvedic act
+- shares-vocabulary-with: parashurama | Paraśurāma, the axe-wielding brahmin-warrior, is Viṣṇu's sixth avatāra — the first fully human descent
+- shares-vocabulary-with: kalki | Kalki is Viṣṇu's tenth and future avatāra — the terminal, not-yet-arrived descent that closes the current Kali Yuga

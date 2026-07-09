@@ -36,3 +36,5 @@ A critical-translation source and an encyclopedic Purāṇic summary agree on ap
 - shares-vocabulary-with: lakshmi | Lakṣmī (Śrī) is the pre-eminent ratna of this churning; both belong to the one Samudra-Manthana treasure-cluster
 - shares-vocabulary-with: kamadhenu | Kāmadhenu the wish-cow is one of the co-emergent treasures of this episode
 - shares-vocabulary-with: kalpavriksha | Kalpavṛkṣa the wish-tree is one of the co-emergent treasures of this episode
+- shares-vocabulary-with: kaustubha | the crest-jewel that comes to rest on Viṣṇu's chest is one of the co-emergent ratnas
+- shares-vocabulary-with: varuni | the wine-goddess Vāruṇī is one of the co-emergent ratnas, her deva/asura acceptance itself contested across texts
