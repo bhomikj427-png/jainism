@@ -123,7 +123,8 @@ chapters/jain/translations/
 | 11 | TS Adhyāya 3 (lower/middle worlds) | `doctrinal/tattvartha/03-worlds.md` | pending | |
 | 12 | TS Adhyāya 4 (celestial beings) | `doctrinal/tattvartha/04-celestials.md` | pending | |
 | 13 | TS Adhyāya 10 (mokṣa) | `doctrinal/tattvartha/10-liberation.md` | pending | Shortest chapter; natural closer for the TS. |
-| — | Kalyāṇa Mandira Stotra | `devotional/…` | later | To Pārśvanātha; sister-hymn to Bhaktāmar. Queue after TS core + Bhaktāmar. |
+| 14 | Kalyāṇamandira Stotra — v.1 (prototype) | `devotional/kalyanmandir/01-kalyanmandir.md` (verse 1 only) | **done — prototype drafted, awaiting user approval** | To Pārśvanātha; sister-hymn to Bhaktāmar. No Dig./Śvet. verse-count fork found (both recite the same 44, unlike Bhaktāmar's 44-vs-48). Author identity converges (Kumudacandra = Siddhasena Divākara per Vijay K. Jain 2024) but **date is contested** (6th c. CE / 12th c. VS / "4th–5th c. CE" per three sources) — recorded as a comparison table in-file. |
+| 15 | Kalyāṇamandira Stotra — remaining verses (2 → 44) | `devotional/kalyanmandir/01-kalyanmandir.md` (same file) | pending | Continue after user approves the v.1 prototype format. |
 | — | Ṇamokāra / Navkār Mantra | `devotional/…` | later | Links back to existing node `ṇamokāra-mantra`. |
 | — | Kalyāṇa/Chattāri/Ratnākara etc. | `devotional/…` | later | Confirm citable published translations exist before queuing. |
 
@@ -254,3 +255,27 @@ chapters/jain/translations/
   into one summary line. **Adhyāya 5 is now fully drafted, both recensions, all 42 (Dig.) / 41 (Śvet.) sūtras.
   Work-queue unit #3 is done.** Per §E, the next lowest-numbered `pending` unit is **#4, TS Adhyāya 1
   (jñāna/naya/pramāṇa/nikṣepa)**.
+- **Kalyāṇamandira Stotra v.1 prototype drafted** (`devotional/kalyanmandir/01-kalyanmandir.md`, new unit #14) —
+  2026-07-09. User asked for the next *devotional* unit specifically, ahead of the numerically-lowest-pending TS
+  Adhyāya 1 — this is a deliberate track-jump, not a queue-order violation. Found the Vijay K. Jain (2024)
+  archive.org item (`kalyanamandira-stotra-f-24`) via the advancedsearch API by creator, same technique as prior
+  units; downloaded the OCR `_djvu.txt` directly since the Devanāgarī in this particular scan came through
+  font-corrupted (used only for English translation + intro content, not script). Second source: Jain Square's
+  unsigned but independently-worded translation (verses 1–11 fetched); confirmed not a copy of Vijay K. Jain's
+  wording. Devanāgarī sourced cleanly from bhaktamar.in instead, cross-checked character-for-character against
+  Jain Square's partial quote. **Two genuine findings surfaced and recorded as a comparison table, not
+  smoothed over:** (1) author identity converges — Vijay K. Jain's own intro states "Kumudacandra" and
+  "Siddhasena Divākara" are the same person, so this is not a Digambara/Śvetāmbara authorship fork the way it
+  first appeared from scattered web search snippets; (2) but the **date is genuinely contested three ways**
+  (6th c. CE per Muni Ajitasāgara; 12th c. Vikrama Saṃvat per Dr. Darbarilal Kothia, both cited in the same VKJ
+  intro; "4th–5th c. CE" per English Wikipedia's separate, undated-dispute treatment). Also recorded: **no
+  Digambara/Śvetāmbara verse-count fork found for this hymn** (both traditions recite the same 44 verses) —
+  a genuine point of *contrast* with Bhaktāmara's 44-vs-48 split, not an oversight of a fork that exists.
+  *Pota* ("boat") disambiguated from MW's competing "young animal/plant" sense via the surrounding
+  *sāgara*/*nimajjat* imagery — a case where the sentence's own context substitutes for the bhāṣya this
+  stotra genre lacks. The *-āyamāna* denominative suffix was cited to Whitney's grammar rather than MW, since
+  it is a productive morphological formation, not a dictionary headword — flagged explicitly as a lexicon vs.
+  morphology distinction per CLAUDE.md §4. Confidence **medium**, same pattern as Bhaktāmara v.1: one named
+  source (Vijay K. Jain) plus one solid-but-unsigned-site source (Jain Square); open item to find a third,
+  independently-named scholarly translation in a future pass. **Stopped after verse 1 per the prototype
+  convention — awaiting user approval before drafting v.2–44 (unit #15).**
