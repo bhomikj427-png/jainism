@@ -124,7 +124,7 @@ chapters/jain/translations/
 | 12 | TS Adhyāya 4 (celestial beings) | `doctrinal/tattvartha/04-celestials.md` | pending | |
 | 13 | TS Adhyāya 10 (mokṣa) | `doctrinal/tattvartha/10-liberation.md` | pending | Shortest chapter; natural closer for the TS. |
 | 14 | Kalyāṇamandira Stotra — complete (v.1–44) | `devotional/kalyanmandir/01-kalyanmandir.md` | **done — first pass complete, all 44 verses** | To Pārśvanātha; sister-hymn to Bhaktāmar. No Dig./Śvet. verse-count fork found anywhere (both recite the same 44, unlike Bhaktāmar's 44-vs-48). Author identity converges (Kumudacandra = Siddhasena Divākara per Vijay K. Jain 2024) but **date is contested** (6th c. CE / 12th c. VS / "4th–5th c. CE" per three sources) — recorded as a comparison table in-file. V.1 at full padaccheda/MW depth; v.2–44 at content-survey/paraphrase depth (scope trade-off to avoid reproducing two full copyrighted translations verbatim). Open item: full IAST/Devanāgarī/padaccheda for v.2–44 from a source with legible Devanāgarī. |
-| — | Ṇamokāra / Navkār Mantra | `devotional/…` | later | Links back to existing node `ṇamokāra-mantra`. |
+| 15 | Ṇamokāra / Navkār Mantra | `devotional/namokara/01-namokara.md` | **done — first pass complete** | Shortest text in the reading room (7 lines) but the densest fork-per-line ratio yet found: (1) a ṇ/n Digambara/older-Ardhamāgadhī orthographic layer; (2) the real finding — the earliest Śvetāmbara canonical fivefold citation (Bhagavatī i.1) has a *different fifth line* (homage to the Brāhmī script, not the sādhus), per Jaini and Dundas converging independently; (3) the Sthānakvāsī sect rejects the closing couplet's canonical authority outright. Dhavalā-ṭīkā commentary quote (via Jaini) resolves the arhat-before-siddha ordering puzzle, convergent with the existing `namokara.md` concept node's independent Wikipedia/Jainworld-sourced answer. Links back to existing node `namokara.md` (filename note: node key is `namokara`, not `ṇamokāra-mantra`). |
 | — | Kalyāṇa/Chattāri/Ratnākara etc. | `devotional/…` | later | Confirm citable published translations exist before queuing. |
 
 ## §F Open sub-decisions (ask the user only if it changes what to build)
@@ -436,3 +436,32 @@ chapters/jain/translations/
   specifically was not cross-checked sūtra-by-sūtra this session, so (per the same caution applied to Adhyāya
   5's SS-vs-SBT atomic-bonding divergence) this specific census should be treated as single-source pending a
   second-source confirmation. Per §E, the next lowest-numbered `pending` unit is **#10, TS Adhyāya 7 (vratas)**.
+- **Ṇamokāra Mantra drafted — first pass complete** (`devotional/namokara/01-namokara.md`, new unit #15) —
+  2026-07-10. User asked for the next *devotional* unit specifically (same track-jump pattern as Kalyāṇamandira),
+  so this was taken ahead of the numerically-lower TS Adhyāya 7. Sourced two independent named scholarly
+  monographs — Jaini (1979, archive.org OCR `jaina-path-of-purification-jaini`) and Dundas (2002, archive.org
+  OCR `JainsLibraryOfReligiousBeliefsPracticesPaulDundasRoutledge`) — both downloaded and grepped locally rather
+  than relying on WebFetch summarization, per this reading room's established practice. **This 7-line text turned
+  out to carry more genuine recensional complexity than any TS adhyāya drafted so far**, recorded as three
+  distinct forks rather than flattened into one Dig./Śvet. line: (1) a surface ṇ/n orthographic-layer difference
+  (modern Digambara *ṇamo arihantāṇaṁ* vs. the older Ardhamāgadhī *namo arahantāṇaṁ* that both Jaini and Dundas
+  themselves transcribe); (2) the real finding — the earliest Śvetāmbara canonical citation of a fivefold form,
+  Bhagavatī Sūtra i.1, has a genuinely *different fifth line* (homage to the Brāhmī script, not the sādhus) —
+  Jaini (quoting the passage directly) and Dundas (independently, via aṅga/upāṅga commentarial-silence evidence)
+  converge on the same conclusion that the now-universal sādhu-ending form is better attested as Digambara-
+  transmitted (via the Ṣaṭkhaṇḍāgama) than as an original Śvetāmbara text, even though both traditions recite
+  it identically today; (3) the Sthānakvāsī sect (a live Śvetāmbara sub-tradition) rejects the closing couplet's
+  canonical authority outright, per Dundas. A genuine cross-check success: the Dhavalā-ṭīkā commentarial passage
+  found here (via Jaini's citation apparatus) resolves the arhat-before-siddha ordering puzzle and **converges**
+  with the existing `namokara.md` concept node's independently-sourced (Wikipedia/Jainworld) answer to the same
+  question — a rare case of this reading room and the concept-node track closing the loop on each other without
+  either having read the other's sources. Padaccheda focused on the cūlikā's own vocabulary (*namaskāra*, *pāpa*,
+  *praṇāśana*, *maṅgala*, *prathama*, √*bhū*) since the five salutation-terms themselves (*arhat*, *siddha*,
+  *ācārya*, *upādhyāya*, *sādhu*, *loka*) already have full lexical treatment in their own concept nodes — same
+  economization principle as TS Adhyāya 1. **Open items flagged honestly**: no citable source was found giving
+  the Śvetāmbara/Ardhamāgadhī *n*-form in Devanāgarī directly (only reconstructed by substitution); the Bhagavatī
+  i.1 passage was read via Jaini's footnote only, not independently located in a Bhagavatī translation; the
+  Hāthīgumphā inscription's date is given inconsistently across sources and was not reconciled. `find_duplicates.py`
+  run clean (no new concept nodes created by this unit). Per §E, the next lowest-numbered `pending` unit is
+  **#10, TS Adhyāya 7 (vratas)**; the next `later` devotional item is Kalyāṇa/Chattāri/Ratnākara etc., pending
+  confirmation that citable published translations exist.
