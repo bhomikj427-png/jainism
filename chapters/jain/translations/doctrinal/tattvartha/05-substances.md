@@ -12,8 +12,8 @@ the document); Monier-Williams *Sanskrit-English Dictionary* (via Cologne Digita
 wisdomlib.org). **Three genuinely independent translations** now compared — confidence on the translation
 panel is **high**: all three converge on the doctrinal sense, and Tatia's wording diverges just enough from
 the other two (see comparison below) to confirm they are not silently copying one another.
-**Status:** in-progress (this file currently covers 5.1 only — prototype unit, per work-queue item #1; **stop
-here for user approval before continuing the chapter**).
+**Status:** in-progress (this file currently covers 5.1–5.22 of both recensions, no numbering fork found in
+5.10–5.22; remainder of the chapter, 5.23–5.42, still pending — continues work-queue unit #3).
 
 ---
 
@@ -459,8 +459,578 @@ space alone extends past the bounded universe into limitless non-universe space.
 **Sources:** wisdomlib.org doc1084763; jainworld.com chapter-5 page; Tatia (1994) p. 125 (OCR lines
 ~12154–12173); MW as above.
 
-**Status of this file:** sūtras 5.1–5.9 (Digambara numbering) / 5.1–5.9 (Śvetāmbara numbering, after one merge
-and one split exactly cancel) drafted this batch. Remainder of Adhyāya 5 (space-point counts for matter/atoms,
-6-substance recap, the substance-vs-mode distinction, and — starting roughly at Dig. 5.38–5.44 — the
-introduction of time/kāla and the doctrine of six-fold modal change) still `pending`; continues work-queue
-unit #3 in a future session.
+## TS 5.10 (both recensions)
+
+**Recension status:** Both recensions identical and same number — confirmed by wisdomlib doc1084764 (Dig.) and
+Tatia's OCR text carrying no "(SS ...)" cross-reference at this sūtra (consistent with agreement).
+
+**Text (IAST):** saṃkhyeyāsaṃkhyeyāśca pudgalānām || 5.10 ||
+**Devanāgarī:** संख्येयासंख्येयाश्च पुद्गलानाम् ॥ ५.१० ॥ (wisdomlib/Vijay K. Jain mirror)
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| saṃkhyeya | gerundive of *saṃ-khyā*, "to count, enumerate" | "to be numbered or counted, definite in number, calculable" — the positive counterpart of *asaṃkhyeya* (already covered at 5.8) | MW, s.v. *saṃkhyeya* |
+
+**Disambiguation (from commentary):** The sūtra completes the space-point census begun at 5.8–5.9: dharma,
+adharma, and each soul are always middle-tier *innumerable* (5.8); ākāśa is always *infinite* (5.9); but matter
+alone — in its clusters (*skandha*) — spans **all three** magnitudes (numerable, innumerable, or infinite),
+depending on the cluster. Vijay K. Jain/Sarvārthasiddhi (via wisdomlib) flags the resulting puzzle explicitly:
+if the universe has only an innumerable number of space-points (5.8–5.9's ceiling for anything short of ākāśa
+itself), how can an *infinite* cluster of atoms fit inside it? The commentary's resolution is deferred to
+matter's unique capacity for mutual interpenetration and subtle-form contraction (developed further at 5.14).
+
+**Assembled reading:** Unlike the other five substance-kinds, whose space-point counts are each fixed at one
+magnitude, matter's clusters vary — some occupy a numerable, some an innumerable, and some an infinite number of
+space-points.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Matter has numberable, innumberable and infinite space points."
+- Vijay K. Jain/wisdomlib: "The space-points (pradeśa) of the matter (pudgala) are numerable (saṃkhyāta),
+  innumerable (asaṃkhyāta) and infinite (ananta)."
+- Tatia, p. 125: "The number of units in clusters of matter may be numerable, innumerable or infinite." All
+  three agree exactly on content; no divergence.
+
+**Modern comparison:** N/A.
+
+**Sources:** wisdomlib.org doc1084764; jainworld.com chapter-5 page; Tatia (1994) p. 125 (OCR, archive.org
+"That Which is Tattvartha Sutra Natha Mala Tatia_djvu.txt", downloaded directly, line ~9540); MW as above.
+
+---
+
+## TS 5.11 (both recensions)
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084765; no Tatia cross-ref).
+
+**Text (IAST):** nāṇoḥ || 5.11 ||
+**Devanāgarī:** नाणोः ॥ ५.११ ॥ (wisdomlib/Vijay K. Jain mirror)
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| na | negative particle | "not" | standard |
+| aṇoḥ | genitive sing. of *aṇu* (sandhi *na* + *aṇoḥ* → *nāṇoḥ*) | *aṇu*: adj. "small, minute, atomic"; as masc. noun, "atom of matter" and, separately, "atom of time — the 54,675,000th part of a *muhūrta*" — **MW's own general entry already lexicalizes the atomic-matter sense**, unlike *pudgala*'s Jain-specific technical layer at 5.1 | MW, s.v. *aṇu* |
+
+**Disambiguation (from commentary):** A maximally terse, elliptical sūtra (two syllables), continuing 5.10's
+topic. Sarvārthasiddhi (via wisdomlib): the atom (*paramāṇu*, "ultimate/highest atom" — the technical term
+Sarvārthasiddhi actually uses in its gloss, sharpening MW's plainer *aṇu*) has **no** additional space-point
+beyond the single one it already occupies (per the definition of *pradeśa* at 5.8 as "the space occupied by an
+indivisible elementary particle"), precisely because nothing smaller than the atom exists to divide that
+space-point further. This is the closing link of a chain that started as a forward-reference at 5.8.
+
+**Assembled reading:** The atom of matter has no [additional] space-point — it occupies exactly the one
+space-point that is, by definition, sized to it, and no more.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Elementary units of matter are extremely small, indivisible, occupying one space point."
+- Vijay K. Jain/wisdomlib: "There are no space-points (pradeśa) in the indivisible atom (paramāṇu)." (a more
+  literal rendering of the elliptical negative)
+- Tatia, p. 125 ("na-noh"): "There is no additional unit in an atom of matter." — closest to Vijay K. Jain's
+  literalism; Jaini's rendering unpacks the same content descriptively. No doctrinal disagreement.
+
+**Modern comparison (QUARANTINED):** The "indivisible ultimate particle, occupying one indivisible unit of
+space" description invites an obvious surface comparison to the modern physical atom/subatomic particle. No
+sourced text consulted this pass makes that comparison explicitly for *this* sūtra (contrast 5.1's ether
+comparison, which **was** sourced) — not asserted without a citation. Flagged as `often-conflated-with-NOT-
+equivalent`-in-waiting: Jain *paramāṇu* is a metaphysical postulate reached by textual/scriptural authority and
+commentarial reasoning about partless indivisibility, not an empirically-probed particle; the two systems answer
+different questions even where the words rhyme.
+
+**Sources:** wisdomlib.org doc1084765; jainworld.com chapter-5 page; Tatia (1994) p. 125 (OCR line ~9545); MW,
+s.v. *aṇu*, via wisdomlib/Cologne mirror.
+
+---
+
+## TS 5.12 (both recensions)
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084766).
+
+**Text (IAST):** lokākāśe 'vagāhaḥ || 5.12 ||
+**Devanāgarī:** लोकाकाशेऽवगाहः ॥ ५.१२ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| loka-ākāśa | compound, locative *-e* | *loka*: "the world, a tract, region, province"; *ākāśa* as at 5.1 | MW, s.v. *loka*, *ākāśa* |
+| avagāha | masc. noun, nom. sing. | MW's **general** entry: "plunging, bathing (in water)"; secondarily "a bucket" — **no trace of a "spatial location/accommodation" sense in the general lexicon** | MW, s.v. *avagāha* |
+
+**Disambiguation (from commentary):** A third instance of the pattern first flagged at 5.1 (dharma/adharma):
+the dictionary's *avagāha* is about bathing, not about being spatially located or accommodated. Sarvārthasiddhi
+(via wisdomlib) supplies the entire technical sense used throughout this cluster of sūtras (5.12–5.18): *avagāha*
+= "location within" / "accommodation by" — the four extended substances just discussed (dharma, adharma, souls,
+matter) are all located specifically within the bounded **cosmic** space (*lokākāśa*), as opposed to the
+unbounded *alokākāśa* ("non-universe space") introduced by contrast at 5.9. The commentary adds that space
+itself needs no external accommodator — it is self-supporting, a point sharpened further at 5.18.
+
+**Assembled reading:** Dharma, adharma, souls, and matter are all located specifically within cosmic space (not
+in the transcosmic space beyond it, which — per 5.9 — has no occupant except space itself).
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Substances inhabit universal space; space outside has no substance except space itself."
+- Vijay K. Jain/wisdomlib: "These substances–the media of motion and of rest, the souls, and the forms of
+  matter–are located in the universe-space (lokākāśa)."
+- Tatia, p. 126 ("lokakase'vagahah"): "All four substances mentioned above are contained in cosmic space." All
+  three converge; Jaini's rendering makes the *alokākāśa* contrast explicit rather than leaving it implicit.
+
+**Modern comparison:** N/A.
+
+**Sources:** wisdomlib.org doc1084766; jainworld.com chapter-5 page; Tatia (1994) p. 126 (OCR line ~9570); MW,
+s.v. *avagāha*, via wisdomlib/Cologne mirror.
+
+---
+
+## TS 5.13 (both recensions)
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084767).
+
+**Text (IAST):** dharmādharmayoḥ kṛtsne || 5.13 ||
+**Devanāgarī:** धर्माधर्मयोः कृत्स्ने ॥ ५.१३ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| kṛtsna | adj., locative sing. *kṛtsne* | "entire, whole, all, complete" | MW, s.v. *kṛtsna* |
+
+**Disambiguation (from commentary):** Narrows 5.12's general claim: of the four substances just said to occupy
+cosmic space, dharma and adharma specifically occupy **all** of it — every space-point of *lokākāśa*, without
+exception (unlike matter and souls, whose variable occupancy is addressed next, 5.14–5.15). Sarvārthasiddhi
+(via wisdomlib) gives two similes, both independently preserved by Tatia's translation apparatus: dharma/adharma
+are not confined "like a pitcher in a house," but pervade the whole of cosmic space "in the manner of oil in a
+sesame seed" — interpenetrating it without displacing or obstructing it.
+
+**Assembled reading:** Dharma and adharma each occupy the entirety of cosmic space, coextensive with it and
+interpenetrating it, unlike a contained object occupying only part of a larger space.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Media of motion and rest pervade the entire universe-space and coexist without
+  interference."
+- Vijay K. Jain/wisdomlib (per Sarvārthasiddhi): pervade "the entire universe...in the manner of the oil in the
+  sesamum seed."
+- Tatia, p. 126: "The medium of motion and medium of rest both occupy all cosmic space," with the same
+  sesame-oil simile reported independently in his commentary notes. All three converge, and the shared simile
+  (not verbatim-identical wording, but the same figure) is a good independence check — it traces to
+  Sarvārthasiddhi as the common commentarial ancestor, not to one translator copying another.
+
+**Modern comparison:** N/A.
+
+**Sources:** wisdomlib.org doc1084767; jainworld.com chapter-5 page; Tatia (1994) p. 126 (OCR line ~9576); MW as
+above.
+
+---
+
+## TS 5.14 (both recensions)
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084768).
+
+**Text (IAST):** ekapradeśādiṣu bhājyaḥ pudgalānām || 5.14 ||
+**Devanāgarī:** एकप्रदेशादिषु भाज्यः पुद्गलानाम् ॥ ५.१४ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| eka-pradeśa-ādi | compound, locative pl. *-ādiṣu*, "beginning with/from one space-point" | *eka* "one"; *pradeśa* as at 5.8; *ādi* "beginning, and so on, et cetera" | MW, s.v. *eka*, *ādi* |
+| bhājya | gerundive of *bhaj*-, "to divide, apportion, distribute, share" | "to be divided/apportioned/distributed" — i.e. variable, distributable across a range | MW, s.v. *bhāj* |
+
+**Disambiguation (from commentary):** The direct counterpart to 5.13's "entire, without exception" claim about
+dharma/adharma: matter's occupancy is instead *bhājya* — divisible/variable — ranging from as little as one
+space-point (a single atom) up through numerable and innumerable space-points (per 5.10's tri-level scale),
+never the whole of cosmic space at once (that would require infinite occupancy, which 5.10 already excluded for
+any single cluster short of the space-substance itself). Sarvārthasiddhi's resolution of the interpenetration
+puzzle first raised at 5.10 is given here: matter clusters can shrink into subtle forms and mutually interpenetrate
+"like the lights of many lamps in a room," which is how an enormous number of atoms/clusters can share
+cosmic space's merely-innumerable space-points without the "one space-point per one atom" rule of 5.11 producing
+a contradiction.
+
+**Assembled reading:** Unlike dharma/adharma's fixed total occupancy (5.13), matter's clusters occupy a variable
+range of space — from a single space-point up to an innumerable number — depending on the cluster's size and
+degree of subtle contraction.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Matter occupies space from one to innumerable points."
+- Vijay K. Jain/wisdomlib: "The forms of matter (pudgala) occupy (inhabit) from one space-point (pradeśa)
+  onwards."
+- Tatia, p. 126–127: "A cluster of matter may occupy one space unit or numerable or innumerable space units. An
+  atom occupies only one space unit," with his translator's note flagging the conundrum explicitly: "it is
+  possible for an infinite number of atoms to occupy one space unit" — the same puzzle Vijay K. Jain's
+  commentary resolves via subtle-form contraction, confirming both sources are drawing on the same
+  Sarvārthasiddhi reasoning independently.
+
+**Modern comparison:** N/A.
+
+**Sources:** wisdomlib.org doc1084768; jainworld.com chapter-5 page; Tatia (1994) p. 126–127 (OCR line ~9590);
+MW as above.
+
+---
+
+## TS 5.15 (both recensions)
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084769).
+
+**Text (IAST):** asaṃkhyeyabhāgādiṣu jīvānām || 5.15 ||
+**Devanāgarī:** असंख्येयभागादिषु जीवानाम् ॥ ५.१५ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| asaṃkhyeya-bhāga-ādi | compound, "beginning with an innumerablth part" | *asaṃkhyeya* as at 5.8; *bhāga*: "a share, portion, part, division" | MW, s.v. *bhāga* |
+
+**Disambiguation (from commentary):** Parallel in structure to 5.14 but for souls rather than matter: a soul's
+occupancy ranges from a single innumerablth-part of cosmic space up to (per the next sūtra, 5.16) the whole of
+it in the rare case of *kevalī-samudghāta* (the liberating soul's momentary total expansion). Sarvārthasiddhi
+(via wisdomlib) raises and answers the same numerical puzzle as at 5.10/5.14 for souls specifically: souls are
+infinite in number, yet cosmic space has only innumerable space-points; the resolution given is that souls
+divide into subtle-bodied and gross-bodied classes, and subtle-bodied souls offer no mutual resistance, so that
+"even infinite-times-infinite souls in the subtle state" can co-occupy the space of a single one-sensed
+(*nigoda*) soul.
+
+**Assembled reading:** A soul occupies anywhere from one innumerablth-part of cosmic space up to a larger
+share of it, varying by the soul's embodiment.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Soul inhabits one to innumberable space points." (a looser paraphrase of the "innumerablth
+  part" structure)
+- Vijay K. Jain/wisdomlib: "The souls inhabit one of innumerable parts, etc., of the universe-space."
+- Tatia, p. 127: "A soul can occupy space that is one innumerablth part, or more, of cosmic space." Tatia and
+  Vijay K. Jain agree closely on the literal "innumerablth part" structure; Jaini's shorter paraphrase is
+  compatible but less precise — the same asymmetry already seen at 5.4, not a new disagreement.
+
+**Modern comparison:** N/A.
+
+**Sources:** wisdomlib.org doc1084769; jainworld.com chapter-5 page; Tatia (1994) p. 127 (OCR line ~9605); MW as
+above.
+
+---
+
+## TS 5.16 (both recensions)
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084770).
+
+**Text (IAST):** pradeśasaṃhāravisarpābhyāṃ pradīpavat || 5.16 ||
+**Devanāgarī:** प्रदेशसंहारविसर्पाभ्यां प्रदीपवत् ॥ ५.१६ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| saṃhāra | masc. noun (instr. dual with *visarpa*) | "collecting, drawing together, contraction, withdrawal; also destruction" | MW, s.v. *saṃhāra* |
+| visarpa / visarga | masc. noun | *visarpa*: "creeping, moving, spreading, extending"; (Tatia's romanization gives *visarga*, "emission, letting go, discharge" — a related but distinct root; the two published translations use slightly different underlying readings of the same sandhi-compressed word, noted here rather than silently resolved) | MW, s.v. *visarpa*, *visarga* |
+| pradīpa-vat | "like a lamp," comparative suffix *-vat* on *pradīpa* | *pradīpa*: "a light, lamp" | MW, s.v. *pradīpa* |
+
+**Disambiguation (from commentary):** Explains *how* the soul's variable occupancy (just stated at 5.15) works
+mechanically: by contraction (*saṃhāra*) and expansion (*visarpa/visarga*) of its space-points, exactly as a
+lamp's light fills whatever room or vessel contains it — expanding to fill a large hall, contracting to fill a
+small jar, without the lamp itself (the soul's essential nature) changing. Sarvārthasiddhi (via wisdomlib)
+stresses that the soul is not itself material but "assumes material form on account of beginningless bondage
+with karmas," which is why it can be constrained to fit a body of a given size at all. Tatia's translation notes
+add a further technical point not contradicted by the others: the worldly soul's minimum contraction is bounded
+below (an innumerablth part, never a single space-point) because it is always accompanied by a karmic body of
+its own, itself needing innumerable space-points to house.
+
+**Assembled reading:** The soul's space-points contract or expand to exactly fit the body it currently occupies,
+the way a lamp's light fills whatever space contains it — a mechanical account of the variable occupancy just
+asserted in 5.15.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Soul space points change via contraction/expansion like lamp light filling available
+  space."
+- Vijay K. Jain/wisdomlib: "The soul occupies, similar to lamp light, from one to innumerable parts of
+  universe-space through contraction and expansion of its space-points."
+- Tatia, p. 127: "Like the light of a lamp, the soul assumes the size of the body it happens to occupy on
+  account of the contraction and expansion of its space units." All three converge on the lamp simile and its
+  doctrinal point; no disagreement, only the minor *visarpa*/*visarga* romanization variance noted above.
+
+**Modern comparison:** N/A.
+
+**Sources:** wisdomlib.org doc1084770; jainworld.com chapter-5 page; Tatia (1994) p. 127 (OCR line ~9628); MW as
+above.
+
+---
+
+## TS 5.17 (both recensions)
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084771).
+
+**Text (IAST):** gatisthityupagrahau dharmādharmayor upakāraḥ || 5.17 ||
+**Devanāgarī:** गतिस्थित्युपग्रहौ धर्माधर्मयोरुपकारः ॥ ५.१७ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| gati / sthiti | nom. dual compound members | *gati* "going, motion, movement"; *sthiti* "standing, remaining, stability, rest" — both plain general Sanskrit, matching the technical sense already established for dharma/adharma at 5.1 without further narrowing needed | MW, s.v. *gati*, *sthiti* |
+| upagraha | second compound member, nom. dual *-au* | "seizing, grasping; also help, assistance, favour" — MW lists both a literal-grasping sense and a help/assistance sense as coexisting general meanings | MW, s.v. *upagraha* |
+| upakāra | nom. sing. (the sūtra's main predicate) | "help, assistance, benefit, service, favour; use, advantage" — a well-attested general Sanskrit word for "help," carrying no built-in causal-taxonomy distinction on its own | MW, s.v. *upakāra* |
+
+**Disambiguation (from commentary):** Both *upagraha* and *upakāra* mean "help/assistance" in the general
+lexicon, and a surface reading might treat this sūtra as simply repeating itself. Sarvārthasiddhi (via
+wisdomlib) supplies the load-bearing technical distinction that MW's entries alone do not: dharma and adharma
+are the **supporting cause** (*nimitta*, an "instrumental"/general cause) of motion and rest respectively — as
+opposed to the soul, which is the *efficient cause*, and the body, which is the *material cause*, of its own
+motion. The commentary's own analogy, preserved independently by both Vijay K. Jain and Tatia, is that dharma is
+to a moving soul/body as water is to a swimming fish — necessary for the motion, but not itself the mover; and
+adharma is to a resting thing as the ground is to a standing horse. The commentary also explicitly rejects
+collapsing dharma/adharma/ākāśa into "space alone under three names" (a rival view it names and refutes): if
+space itself were the medium of motion and rest, matter and souls could move and rest anywhere in space,
+including the boundless *alokākāśa* beyond the cosmos — which they cannot (5.12).
+
+**Assembled reading:** Dharma functions as the supporting (not efficient, not material) cause that makes motion
+possible wherever it occurs; adharma functions identically for rest. Neither is the mover/resting thing itself,
+just as water enables a fish's swimming without doing the swimming.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Media of motion and rest assist motion/rest of soul and matter respectively."
+- Vijay K. Jain/wisdomlib (per Sarvārthasiddhi): "The medium of motion (dharma) facilitates movement of the
+  souls (jīva) and forms of matter (pudgala)," with the medium of rest doing likewise for rest; explicitly
+  labelled a "general cause," not a "special cause."
+- Tatia, p. 128: "The function of the medium of motion is to act as the supporting cause for motion and the
+  function of the medium of rest is to act as the supporting cause for rest," with the same fish/water and
+  horse/ground similes independently reported. All three converge; the three-cause (efficient/material/
+  supporting) taxonomy is confirmed as the commentarial payload behind the plain-Sanskrit word *upakāra*.
+
+**Modern comparison:** N/A. (As at 5.7, a "medium enabling but not itself performing motion" framing could
+invite an ether-style comparison; no sourced instance of that specific comparison for *this* sūtra was found —
+not asserted without citation. See 5.1's Modern-comparison box, which already carries the sourced ether
+discussion and its explicit refutation.)
+
+**Sources:** wisdomlib.org doc1084771; jainworld.com chapter-5 page; Tatia (1994) p. 128 (OCR line ~9660); MW as
+above.
+
+---
+
+## TS 5.18 (both recensions)
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084772).
+
+**Text (IAST):** ākāśasyāvagāhaḥ || 5.18 ||
+**Devanāgarī:** आकाशस्यावगाहः ॥ ५.१८ ॥
+
+**Padaccheda:** *ākāśasya* (genitive of *ākāśa*) + *avagāhaḥ* — both words already covered (5.1, 5.12).
+
+**Disambiguation (from commentary):** Completes the five-substance function sequence begun at 5.17 for space's
+own turn: reusing *avagāha* from 5.12 (there, the general fact that four substances are located "within"
+cosmic space), this sūtra names *avagāha* — accommodation itself — as specifically **space's own defining
+function** (its causal contribution, parallel to dharma's motion-support and adharma's rest-support). Vijay K.
+Jain/Sarvārthasiddhi (via wisdomlib) addresses an objection: since space is imperceptible, how do we know it
+exists at all? Answer: by inference from its unique effect, universal accommodation. The commentary further
+clarifies that visible obstruction (a wall blocking a path) is a fact about matter obstructing matter, not
+about space failing to accommodate — space's accommodating capacity is total and never itself the obstacle.
+
+**Assembled reading:** Space's defining function is to provide the room within which every other substance (and
+itself) is located — the "container" role already presupposed by 5.12's "these substances are located in cosmic
+space," here named as space's own specific causal contribution to the other four.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Space function is to provide accommodation to all substances."
+- Vijay K. Jain/wisdomlib: "The function of the space (ākāśa) is to provide accommodation (avagāha)."
+- Tatia, p. 129: "Space acts as the receptacle of other substances," adding that in transcosmic space, where
+  no other substance exists, "space only has to accommodate itself." All three converge; Tatia's
+  self-accommodation point is an elaboration, not a disagreement.
+
+**Modern comparison:** N/A.
+
+**Sources:** wisdomlib.org doc1084772; jainworld.com chapter-5 page; Tatia (1994) p. 129 (OCR line ~9700); MW as
+at 5.1/5.12.
+
+---
+
+## TS 5.19 (both recensions)
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084773).
+
+**Text (IAST):** śarīravāṅmanaḥprāṇāpānāḥ pudgalānām || 5.19 ||
+**Devanāgarī:** शरीरवाङ्मनःप्राणापानाः पुद्गलानाम् ॥ ५.१९ ॥
+
+**Padaccheda:** A five-member dvandva compound of common Sanskrit nouns not requiring technical disambiguation:
+*śarīra* "body," *vāc* "speech," *manas* "mind," *prāṇa-apāna* "the in- and out-breaths" (MW, s.vv.) — each
+carries its ordinary general sense; the interpretive weight is entirely in the commentary's causal claim, not in
+any lexical narrowing.
+
+**Disambiguation (from commentary):** Matter's own function (parallel to dharma/adharma/space's just-stated
+functions) is named: matter is the **material cause** of body, speech-organ, mind, and respiration. The
+Sarvārthasiddhi argument (via wisdomlib), independently corroborated by Tatia's fuller notes, runs through each
+in turn: speech and breath are material because they are perceptible to the senses and can be physically
+obstructed (a wall blocks both sound and airflow); the (physical) mind is material because it is produced by,
+and altered by, karma — itself a subtle form of matter — and is affected by material things (intoxicants,
+shocks). Both sources add the same qualification: a *psychic* mind/faculty of knowing, distinct from the
+physical organ, belongs to the soul, not to matter — the physical organ is what matter provides.
+
+**Assembled reading:** The physical body, the organ of speech, the (physical) organ of mind, and the breath are
+all constituted from matter as their material cause — the soul's necessary material equipment for embodied
+life, as opposed to the soul's own intrinsic (non-material) sentience.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Matter forms body basis and organs of speech, mind, respiration."
+- Vijay K. Jain/wisdomlib: "The function of the matter (pudgala) is to form the basis of the body, the organs
+  of speech and mind, and respiration."
+- Tatia, p. 129–130: "Matter functions as the material cause of body, speech, mind and breath," with extensive
+  supporting notes on the psychic/physical mind distinction, matching the same distinction reported via
+  wisdomlib's Sarvārthasiddhi mirror. All three converge.
+
+**Modern comparison:** N/A.
+
+**Sources:** wisdomlib.org doc1084773; jainworld.com chapter-5 page; Tatia (1994) p. 129–130 (OCR line ~9715);
+MW as above.
+
+---
+
+## TS 5.20 (both recensions)
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084774).
+
+**Text (IAST):** sukhaduḥkhajīvitamaraṇopagrahāśca || 5.20 ||
+**Devanāgarī:** सुखदुःखजीवितमरणोपग्रहाश्च ॥ ५.२० ॥
+
+**Padaccheda:** *sukha* "pleasure," *duḥkha* "pain," *jīvita* "life, living," *maraṇa* "death" — all common
+Sanskrit terms, general senses fully adequate (MW, s.vv.); *upagraha* as at 5.17 ("assistance/contribution").
+
+**Disambiguation (from commentary):** A second, additional function of matter, beyond 5.19's body/speech/mind/
+breath: matter also *contributes to* (not solely causes — the commentary is careful about this, per both
+sources) pleasure, pain, life, and death. Sarvārthasiddhi (via wisdomlib) attributes pleasure/pain jointly to
+internal karmic causes (feeling-producing karmas) *and* external material objects/conditions; life is sustained
+by matter functioning as nourishment (and by lifespan-karma, itself a form of subtle matter), death brought on
+by matter functioning as toxin or by the same karma's exhaustion.
+
+**Assembled reading:** Beyond forming the body's material substrate (5.19), matter also contributes to
+producing the felt experiences of pleasure and pain and to sustaining or ending life, jointly with karmic
+causes internal to the soul.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Matter contributes to sensuous pleasure, suffering, life, death."
+- Vijay K. Jain/wisdomlib: "The function of the matter (pudgala) is also to contribute to pleasure (sukha),
+  suffering (duḥkha), living (jīvita), and death (maraṇa)."
+- Tatia, p. 130: "The production of pleasure, pain, life and death is also due to matter," with his commentary
+  notes distinguishing ordinary-course death from karma from premature death by external material causes
+  (poison, weapon, fire) — an elaboration matching Sarvārthasiddhi's reasoning, not a disagreement.
+
+**Modern comparison:** N/A.
+
+**Sources:** wisdomlib.org doc1084774; jainworld.com chapter-5 page; Tatia (1994) p. 130 (OCR line ~9730); MW as
+above.
+
+---
+
+## TS 5.21 (both recensions) — the hymn's most-quoted line
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084775).
+
+**Text (IAST):** parasparopagraho jīvānām || 5.21 ||
+**Devanāgarī:** परस्परोपग्रहो जीवानाम् ॥ ५.२१ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| paraspara | indeclinable/adj. compound-initial | "each other, one another, mutual, mutually" | MW, s.v. *paraspara* |
+| upagraha | as at 5.17 | "help, assistance, favour" (general sense suffices; no further technical narrowing needed here) | MW, s.v. *upagraha* |
+
+**Disambiguation (from commentary):** Souls' own function, parallel to the preceding four sūtras: souls render
+mutual assistance to one another. Sarvārthasiddhi (via wisdomlib) illustrates with ordinary social relations —
+master and servant, teacher and student, each benefiting the other — and extends this beyond deliberate help to
+include *any* causal effect one soul's presence has on another's pleasure, suffering, life, or death (echoing
+5.20's matter-side causes, now stated for souls). Independently of the commentarial reading, this specific
+verse has an attested extra-textual life: per Wikipedia's "Parasparopagraho Jīvānām" and "Jain symbols" articles,
+it was adopted in 1975 (the 2,500th anniversary of Mahāvīra's *nirvāṇa*) as the motto inscribed beneath the
+unified Jain emblem adopted that year by all sects, and is widely glossed outside the text itself as an
+ecological/interdependence motto. That popular gloss is a legitimate later reception-history fact, not a claim
+about what the Sarvārthasiddhi's own commentary says the sūtra means in context — the two are kept distinct here
+rather than conflated.
+
+**Assembled reading:** Souls affect one another for good or ill — helping, harming, and sharing in each other's
+pleasure and pain — as their own distinctive functional contribution, closing out the five-substance function
+sequence that began at 5.17.
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Function of souls is to help one another."
+- Vijay K. Jain/wisdomlib: "The function of the souls (jīva) is to help one another," per Sarvārthasiddhi's
+  master/servant and teacher/student examples.
+- Tatia, p. 130–131: "Souls render service to one another," with his own notes adding that souls "cannot live
+  independently of one another" and are "jointly responsible" for shared good/evil acts. All three converge on
+  the doctrinal content.
+
+**Modern comparison:** N/A within the text's own commentarial reading. (The popular "ecological interdependence"
+gloss noted above is a modern reception-history fact about the verse, sourced to Wikipedia, not a physics/
+science comparison — recorded for completeness, not filed as a `structurally-parallel-to` claim.)
+
+**Sources:** wisdomlib.org doc1084775; jainworld.com chapter-5 page; Tatia (1994) p. 130–131 (OCR line ~9750);
+Wikipedia, "Parasparopagraho Jivanam" (https://en.wikipedia.org/wiki/Parasparopagraho_Jivanam) and "Jain
+symbols" (https://en.wikipedia.org/wiki/Jain_symbols), consulted only for the 1975-emblem reception-history
+fact, not for doctrinal disambiguation; a Grokipedia hit on this same phrase was excluded as an AI-generated
+tertiary source, consistent with the same exclusion made during Batch 37 concept research (bali, svarbhanu). MW
+as above.
+
+---
+
+## TS 5.22 (both recensions) — kāla (time) introduced
+
+**Recension status:** Both recensions identical and same number (wisdomlib doc1084776).
+
+**Text (IAST):** vartanāpariṇāmakriyāḥ paratvāparatve ca kālasya || 5.22 ||
+**Devanāgarī:** वर्तनापरिणामक्रियाः परत्वापरत्वे च कालस्य ॥ ५.२२ ॥
+
+**Padaccheda:**
+
+| word | form | attested meaning-range (MW) | source |
+|------|------|------------------------------|--------|
+| vartanā | fem. noun | "continuance, continuing to exist, going on" (from *vṛt*-, "to turn, revolve, exist, continue") | MW, s.v. *vartana* |
+| pariṇāma | masc. noun | "change, alteration, transformation, development, evolution"; MW separately flags this as a Sāṃkhya-philosophical technical term for the transformation of primordial matter (*prakṛti*) — a **different tradition's** technical usage of the same word, noted here so it is not silently imported into the Jain reading | MW, s.v. *pariṇāma* |
+| kriyā | fem. noun | "doing, action, activity, motion" (as already met negated at 5.7, *niṣkriya*) | MW, s.v. *kriyā* |
+| paratva / aparatva | abstract nouns from *para* "far, other, higher" / negated | "posteriority, remoteness" / "priority, nearness" — i.e. the relations "later-than" and "earlier-than" | MW, s.v. *paratva*, *apara* |
+
+**Disambiguation (from commentary):** Introduces the sixth and last substance-kind, *kāla* (time), whose
+existence and space-point count were deliberately deferred at 5.1 (time has no *-kāya*, no spatial extension —
+see 5.1's disambiguation) and briefly flagged again at 5.4 in the six-substance headcount. Here its **function**
+is named first, ahead of its own nature (addressed later at 5.38–5.42): time is the condition that makes
+possible (1) *vartanā*, a substance's bare continuance/persistence moment to moment; (2) *pariṇāma*, its change
+of mode; (3) *kriyā*, motion (in matter and souls); and (4) the relations of *paratva*/*aparatva*, i.e. temporal
+"earlier" and "later." Sarvārthasiddhi (via wisdomlib) explains time as an external instrumental cause (like
+dharma/adharma for motion/rest) operating at two levels: real time (*niścaya-kāla*, marked by bare continuity)
+and conventional time (*vyavahāra-kāla*, recognized only indirectly through the changes it enables in other
+substances) — Tatia's translation and notes independently confirm this real/conventional split via the same
+Sarvārthasiddhi line.
+
+**Assembled reading:** Time's distinctive causal contribution — parallel to dharma's motion-support, adharma's
+rest-support, space's accommodation, matter's materiality, and souls' mutual influence just enumerated in
+5.17–5.21 — is to make possible continuance, change, motion, and the before/after sequence in all the other
+substances; time itself is introduced here by its function, with its own substance-hood argued later in the
+chapter (5.38–5.39).
+
+**Published translations (comparison only):**
+- Jaini/jainworld: "Time assists substance continuity, modifications, actions, temporal proximity."
+- Vijay K. Jain/wisdomlib: "Assisting substances in their continuity of being through gradual changes
+  (vartanā), in their modification (pariṇāma), in their movement (kriyā), in their endurance (paratva) and in
+  their non-endurance (aparatva), are the functions of time (kāla)."
+- Tatia, p. 131: "The functions of time are: becoming, change, motion and the sequence of before and after,"
+  with his note flagging this as "the first mention of the substance time" and cross-referencing forward to
+  5.38 for time's own nature — independently matching the forward-reference structure already inferred above
+  from Sarvārthasiddhi. All three converge.
+
+**Modern comparison (QUARANTINED):** None sourced for this sūtra specifically. Flagging only a **vocabulary**
+note, not a doctrinal claim: *pariṇāma* is also Sāṃkhya darśana's own technical term for real transformation of
+*prakṛti* (as MW's entry itself notes) — a genuine `shares-vocabulary-with` candidate once a `pariṇāmavāda` or
+`samkhya-karika` node is reachable from this reading-room track, but not pursued further here since this track
+does not create `concepts/` graph nodes (see file-level note below).
+
+**Sources:** wisdomlib.org doc1084776; jainworld.com chapter-5 page; Tatia (1994) p. 131 (OCR line ~9760); MW,
+s.v. *vartana*, *pariṇāma*, *kriyā*, *paratva*, *apara*, via wisdomlib/Cologne mirror.
+
+---
+
+**Status of this file:** sūtras 5.1–5.22 (both recensions — no numbering fork found anywhere in this stretch,
+confirmed sūtra-by-sūtra against Tatia's cross-reference apparatus, which supplies no "(SS ...)" annotation from
+5.10 through 5.22) drafted across this and prior sessions. **Two more numbering forks are already located in the
+OCR for the remainder of the chapter** (a Dig. 5.28–5.29 merge into Śvet. 5.28, and a further Dig./Śvet. split
+around 5.36 and 5.38 where Tatia's edition carries an extra "(not SS)" sūtra before restating the SS wording as
+a "variant" — both flagged for careful handling, not yet drafted). Remaining content: matter's sensory
+qualities and modes (5.23–5.24), the atom/cluster distinction and how visibility arises (5.25–5.28), the
+existence/permanence/non-absolutism cluster (5.29–5.31 — directly continuous with the already-written
+`anekāntavāda`/`syādvāda`/`saptabhaṅgī` concept nodes, since Tatia's own commentary derives the Doctrine of
+Non-Absolutism and the Sevenfold Predication explicitly from TS 5.31), the atomic-bonding rules (5.32–5.37,
+including a genuine **SS-vs-SBT numerical-rule divergence** already found in the OCR — a real contested table,
+not just a numbering fork), and finally substance/quality/mode definitions and time's magnitude (5.38–5.42,
+chapter's end). All still `pending`; continues work-queue unit #3 in a future session.

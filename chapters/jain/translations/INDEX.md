@@ -112,7 +112,7 @@ chapters/jain/translations/
 |---|------|----------------|--------|-------|
 | 1 | **PROTOTYPE — TS 5.1 (single sūtra)** | `doctrinal/tattvartha/05-substances.md` (start it with 5.1 only) | **done — format approved by user** | Proved the doctrinal format. 3 independent translations sourced (Jaini 1920, Vijay K. Jain 2018, Tatia 1994 — retrieved via direct download + local grep after the fetch tool truncated the OCR text); confidence high. |
 | 2 | **PROTOTYPE — Bhaktāmar v1 (single verse)** | `devotional/bhaktamar/01-bhaktamar.md` (verse 1 only) | **done — format approved by user** | Proved the devotional format (meter; Modern-comparison correctly N/A). 2 solid named sources (Vijay K. Jain 2023 via archive.org OCR + local grep; Nalini Balbir/Jainpedia) + 1 flagged likely-derivative popular paraphrase used only as cross-check — confidence medium, open item to find a 3rd named scholarly source. |
-| 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | **in-progress — 5.2–5.9 done (both numbering tracks), 5.10 → end pending** | Sūtras 5.2–5.9 drafted: dravya/jīva definition (Dig. 5.2–5.3 merge → Śvet. 5.2), eternal/fixed-in-number/formless, matter-alone-has-form, first-three-substances-are-single-wholes, motionless-but-causally-active, space-point counts for dharma/adharma/soul (Dig. 5.8 split → Śvet. 5.7–5.8), space's infinite space-points (numbering resyncs at 5.9). Remaining: matter's space-point counts/atoms (5.10–5.15ish), universe-space occupancy, substance-vs-mode distinction, kāla (time) introduced later in the chapter, six-fold modal change (~5.38–5.44). |
+| 3 | TS Adhyāya 5 — remainder (5.2 → end) | `doctrinal/tattvartha/05-substances.md` | **in-progress — 5.2–5.22 done (both recensions, no fork in 5.10–5.22), 5.23 → end (5.42) pending** | Sūtras 5.2–5.9 drafted: dravya/jīva definition (Dig. 5.2–5.3 merge → Śvet. 5.2), eternal/fixed-in-number/formless, matter-alone-has-form, first-three-substances-are-single-wholes, motionless-but-causally-active, space-point counts for dharma/adharma/soul (Dig. 5.8 split → Śvet. 5.7–5.8), space's infinite space-points (numbering resyncs at 5.9). Sūtras 5.10–5.22 drafted this session: matter's tri-level space-point count and the atom's exactly-one-space-point rule; universe-space (lokākāśa) occupancy — dharma/adharma total, matter/soul variable via contraction-expansion (lamp simile); the five-substance function sequence (dharma=motion-support, adharma=rest-support, ākāśa=accommodation, pudgala=body/speech/mind/breath + pleasure/pain/life/death, jīva=parasparopagraha — the hymn's most-quoted line, 1975 Jain-emblem motto per Wikipedia); kāla (time) introduced by its four functions. No numbering fork anywhere in 5.10–5.22 (confirmed against Tatia's cross-ref apparatus). Two more forks already located in the OCR for the remainder (a Dig. 5.28–5.29 merge → Śvet. 5.28; a genuine Dig./Śvet. content-variant, not just renumbering, around 5.36/5.38). Remaining: matter's qualities/modes + atom-cluster distinction (5.23–5.28), existence/non-absolutism cluster directly continuous with the anekāntavāda/syādvāda/saptabhaṅgī concept nodes (5.29–5.31), atomic-bonding rules incl. a genuine SS-vs-SBT numerical-rule divergence (5.32–5.37), substance/quality/mode definitions + time's infinitude (5.38–5.42, chapter's end). |
 | 4 | TS Adhyāya 1 — knowledge & means | `doctrinal/tattvartha/01-knowledge.md` | pending | 5 jñānas, naya, pramāṇa, nikṣepa. |
 | 5 | Bhaktāmar — remaining verses | `devotional/bhaktamar/01-bhaktamar.md` (continuing same file) | **done — all 48 Digambara verses drafted** | **Complete first pass of the entire Bhaktāmara Stotra** (Digambara 48-verse recension). v.37–47 cover the eight traditional "protection from danger" verses (elephant, lion, fire, snake, war ×2, ocean, disease, bondage) — internally cross-checked against v.47's own summary verse, confirming the eight-danger identification. v.48 is the colophon where Mānatuṅga names himself (flagged as the hymn's own primary-source authorship evidence, distinct from the later hagiographical origin-story). v.43 resolved the OCR mystery from 2 sessions ago — confirmed as v.43, not v.7. **Open items for a future pass:** most of v.21–48 is single-sourced (jainsquare only, no second translation); Śvetāmbara-specific numbers v.28–44 are inferred from the −4 offset, not independently confirmed against a Śvetāmbara-labelled source; padaccheda/MW fetches were skipped for most of v.21–48 (leaner format). |
 | 6 | TS Adhyāya 2 (jīva) | `doctrinal/tattvartha/02-soul.md` | pending | |
@@ -197,3 +197,33 @@ chapters/jain/translations/
   volume — flagged explicitly as a scope trade-off, not an oversight). **User directive: finish Bhaktāmara
   before returning to the Tattvārtha Sūtra track (unit #3) — Bhaktāmara is now finished; next session returns
   to TS Adhyāya 5 (5.10 → end) per that instruction.**
+- **TS 5.10–5.22 drafted** (`doctrinal/tattvartha/05-substances.md`, same file, unit #3 continuing) — 2026-07-09.
+  Re-fetched the Tatia OCR from scratch this session (the correct archive.org filename has a lower-case "is" —
+  "That Which is Tattvartha..." — found via the `/metadata/` JSON endpoint, same technique as the Bhaktāmar
+  prototype). No numbering fork anywhere in 5.10–5.22 — confirmed three ways per sūtra (Tatia's own "(SS ...)"
+  cross-reference apparatus stays silent throughout; wisdomlib's sequential doc-ID numbering 1084764→1084776
+  lines up 1:1 with Dig. 5.10→5.22; jainworld's Jaini translation list matches the same count). Recurring
+  lexical finding, same pattern as 5.1/5.12: MW's general entry for *avagāha* is "plunging, bathing" with **no
+  trace** of the Jain technical "spatial accommodation/location" sense used at 5.12 and 5.18 — supplied entirely
+  by Sarvārthasiddhi. Traced a clean forward-reference chain across 5.8→5.10→5.11→5.14 on the "how can infinite
+  atoms fit in only-innumerable space" puzzle, resolved via matter's subtle-form interpenetration (the "many
+  lamps in one room" simile, independently reported by both Vijay K. Jain/Sarvārthasiddhi and Tatia). 5.17's
+  *upakāra*/*upagraha* both mean plain "help" in MW, but Sarvārthasiddhi's three-cause taxonomy (efficient/
+  material/**supporting**) is what the sūtra actually encodes — the same "lexicon gives the outer bound,
+  commentary decides which sense wins" pattern as 5.1's dharma/adharma. **5.21 (parasparopagraho jīvānām)
+  flagged as the hymn's single most-quoted line**: kept the in-context Sarvārthasiddhi reading (mutual causal
+  influence, good and bad) strictly separate from its well-documented 1975 reception history as the motto
+  beneath the unified Jain emblem (Wikipedia, both the dedicated article and "Jain symbols") — logged as
+  reception-history, not filed as a doctrinal or modern-science comparison. A Grokipedia hit surfaced during
+  that same search and was excluded, consistent with the same exclusion made twice during Batch 37 (bali,
+  svarbhanu). 5.22 introduces kāla (time) by function ahead of its own nature (deferred to 5.38–5.42 per 5.1's
+  and 5.4's earlier forward-references); flagged *pariṇāma*'s separate life as a Sāṃkhya technical term
+  (transformation of *prakṛti*) as a `shares-vocabulary-with` candidate for a future `pariṇāmavāda`/
+  `samkhya-karika` node — not acted on further since this reading-room track creates no `concepts/` graph nodes.
+  **Two more numbering forks already spotted in the OCR for the remainder** (a Dig. 5.28–5.29 merge into Śvet.
+  5.28; a genuine Dig./Śvet. *content* variant — not just renumbering — around Śvet. 5.36/5.38, where Tatia's
+  edition carries an extra sūtra marked "(not SS)" before restating the SS wording as a "variant") — flagged for
+  the next session, not yet drafted. **Adhyāya 5 not complete** — 5.23 through the chapter's end (5.42) remains
+  `pending`, including a genuine SS-vs-SBT numerical divergence on atomic-bonding rules (5.32–5.37) and the
+  existence/non-absolutism cluster (5.29–5.31) that connects directly to the already-written
+  `anekāntavāda`/`syādvāda`/`saptabhaṅgī` concept nodes.
