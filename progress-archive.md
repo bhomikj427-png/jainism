@@ -2594,3 +2594,50 @@ Directional edges added to existing files: `proclus → historically-influenced-
 - **Āyurveda** (dhanvantari opens it): `ayurveda`, `sushruta`, `charaka`, `tridosha` (vāta/pitta/kapha) — a whole proto-medicine sub-graph.
 - **Neoplatonic/Greek closure:** `simplicius` (Damascius's pupil, the great commentator), `marinus` (Proclus's successor), `pseudo-dionysius` (the Christian channel for Proclus — pairs with liber-de-causis as the *other* transmission line), `chaldean-oracles` (theurgy's source-text).
 - **Mīmāṃsā/Advaita:** `sureshvara` (would let the Maṇḍana-identity edge resolve), `shankara`/`adi-shankara` (conspicuously still unwritten — referenced by mandana-mishra, advaita-vedanta), `varsaganya` (Vindhyavāsin's teacher).
+
+---
+
+## Batch 36 — daśāvatāra spine + churning-cluster finish (2026-06-28)
+
+### Startup reconcile
+- Batches 1–35 fully committed. Audit CLEAN at start: 278 nodes, 1585 edges, 0 orphans, 0 stubs. Working tree clean — no interrupted draft.
+- Worked **serially** (no scout agents). One concept end-to-end, then commit; dedup gate (Glob) before each.
+- All 11 candidate filenames confirmed MISSING before writing. **Decision:** did NOT mint a separate `dashavatara` umbrella node — the existing `avatara-vedanta` already carries the daśāvatāra list; each new avatāra is `is-a-type-of: avatara-vedanta` (matching `kurma`).
+
+### Batch 36 concepts — 11 / 11 done (0 blocked, 0 contested-as-status, 0 needs-opus-review)
+
+**Cluster A — daśāvatāra spine (4; kurma/matsya already anchored it):**
+| # | concept | status | conf | notes |
+|---|---|---|---|---|
+| 1 | matsya | done | medium | first avatāra, flood-fish; ŚB flood-fish → Brahmā (MBh) → Viṣṇu (Purāṇa) diachronic shift |
+| 2 | varaha | done | medium | third avatāra, boar lifts earth, slays Hiraṇyākṣa; Vedic Emūṣa/Prajāpati → Viṣṇu |
+| 3 | narasimha | done | medium | fourth avatāra, man-lion; the **boon-loophole** theology of the liminal; slays Hiraṇyakaśipu, saves Prahlāda |
+| 4 | vamana | done | medium | fifth avatāra, dwarf/Trivikrama; grows from Viṣṇu's **own** Ṛgvedic three strides (NOT a Prajāpati reattribution) |
+
+**Cluster B — churning-cluster finish (7):**
+| # | concept | status | conf | notes |
+|---|---|---|---|---|
+| 5 | halahala | done | medium | churning-poison (Kālakūṭa) Śiva drinks; etiology of Nīlakaṇṭha |
+| 6 | mohini | done | medium | Viṣṇu's enchantress-form; distributes amṛta; occasions Rāhu's beheading; avatāra-vs-māyā recorded |
+| 7 | rahu | done | medium | severed head of Svarbhānu, eclipse-demon & ascending lunar node |
+| 8 | ketu | done | medium | severed body of Svarbhānu, descending lunar node & comet-stratum |
+| 9 | airavata | done | medium | churning white elephant, Indra's mount |
+| 10 | ucchaihshravas | done | medium | churning seven-headed horse; hinge of the Kadrū–Vinatā wager |
+| 11 | parijata | done | medium | churning-tree & Kṛṣṇa–Satyabhāmā episode; the Pārijāta=Kalpavṛkṣa conflation mapped |
+
+### Prime-directive / honest-divergence findings recorded (not smoothed over)
+- **The Prajāpati→Viṣṇu reattribution thread** (matsya/varaha, echoing kurma): the Vedic Brāhmaṇa cosmic animals (flood-fish, boar Emūṣa) were **Prajāpati/Brahmā**, later transferred to Viṣṇu as Vaiṣṇavism rose — recorded as a diachronic shift (image continuous, theology not), NOT a timeless avatāra. ŚB 14.1.2 explicitly harmonizes Emūṣa into Prajāpati.
+- **vamana** is the deliberate contrast case: NOT a reattribution — the avatāra grows from **Viṣṇu's own** Ṛgvedic Trivikrama (1.154); but "neither Bali nor Vāmana appears in" the Vedic strides → the dwarf-frame is the later accretion. Two distinct kinds of Vedic continuity kept apart.
+- **rahu/ketu** §0 case: the eclipse-by-swallowing **myth** is NOT an astronomical eclipse theory; classical siddhāntic astronomy gave the shadow/node account **separately**, and the node-points merely took the names Rāhu/Ketu. Mapped as **naming + correlation, not identity** — explicitly resisting "the ancients secretly knew the lunar nodes."
+- **mohini** classification divergence: avatāra vs Viṣṇu's *māyā* — function stable, label contested; linked to avatara-vedanta as shares-vocabulary (not is-a-type-of) to honor the open classification.
+- **parijata** §5 headline conflation: Pārijāta and Kalpavṛkṣa are **distinct named members** of the five celestial trees (pañca-vṛkṣa: Mandāra/Pārijāta/Santāna/Kalpavṛkṣa/Haricandana), yet "Kalpavṛkṣa" is **also** the class-name — so Pārijāta is "a kalpavṛkṣa" generically while ≠ the tree *named* Kalpavṛkṣa. Drawn as `shares-vocabulary-with` + `often-conflated-with-NOT-equivalent` (the sanctioned two-type pair).
+
+### De-orphan inbounds relocated into existing hubs (established practice; pure-symmetric pairs, no hierarchy on those pairs, proven-clean)
+`vishnu → shares-vocabulary-with → vamana` · `shiva → shares-vocabulary-with → halahala` · `kalpavriksha → shares-vocabulary-with / often-conflated-with-NOT-equivalent → parijata`. The other 8 new nodes self-anchored via intra-batch cluster edges (matsya↔varaha↔narasimha; mohini↔rahu↔ketu; airavata↔ucchaihshravas; ucchaihshravas→kadru/vinata/garuda) and existing hubs.
+
+### Audits (deterministic, via build_graph audit_graph + find_duplicates.py)
+- **CLEAN**: dangling stubs NONE, orphans NONE, bidirectional-directional edges NONE, forbidden hier+similarity combos NONE.
+- `find_duplicates.py`: 0 hard-collision groups (IAST/TRANSLIT/PHANTOM); manifest in sync. Existing DEVANAGARI/SPLIT ~groups (moksa, paramanu, pramana, skandha, etc.) are intended tradition-splits, unchanged.
+- Graph regenerated: **278 → 289 nodes, 1585 → 1636 edges**. `graph.svg` re-rendered via `"C:\Program Files\Graphviz\bin\dot.exe"`; `graph.dot`/`graph.html`/`index.md`/`MANIFEST.tsv` refreshed (manifest in sync).
+
+### Corpus milestone: 289 concepts across 36 batches. 0 orphans. 0 unwritten stubs. Audit CLEAN.
