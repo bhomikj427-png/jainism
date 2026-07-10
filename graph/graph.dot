@@ -218,10 +218,12 @@ digraph ancient_texts {
     "satkaryavada" [label="satkāryavāda" fillcolor="#4fd16b" shape=ellipse];
     "shaivism" [label="Śaivism" fillcolor="#4fd16b" shape=ellipse];
     "shakti" [label="Śakti" fillcolor="#4fd16b" shape=ellipse];
+    "shankara" [label="Śaṅkara" fillcolor="#4fd16b" shape=ellipse];
     "shesha" [label="Śeṣa" fillcolor="#4fd16b" shape=ellipse];
     "shiva" [label="Śiva" fillcolor="#4fd16b" shape=ellipse];
     "spanda" [label="spanda" fillcolor="#4fd16b" shape=ellipse];
     "sthitaprajna" [label="sthitaprajña" fillcolor="#4fd16b" shape=ellipse];
+    "sureshvara" [label="Sureśvara" fillcolor="#4fd16b" shape=ellipse];
     "surya" [label="Sūrya" fillcolor="#4fd16b" shape=ellipse];
     "sushruta" [label="Suśruta" fillcolor="#4fd16b" shape=ellipse];
     "svarbhanu" [label="Svarbhānu" fillcolor="#4fd16b" shape=ellipse];
@@ -1116,6 +1118,7 @@ digraph ancient_texts {
   "mandana-mishra" -> "kumarila-bhatta" [color="#cccccc22"];
   "mandana-mishra" -> "advaita-vedanta" [color="#cccccc22"];
   "mandana-mishra" -> "brahman" [color="#cccccc22"];
+  "mandana-mishra" -> "sureshvara" [color="#cccccc22"];
   "many-valued-logic" -> "saptabhangi" [color="#cccccc22"];
   "many-valued-logic" -> "quantum-complementarity" [color="#cccccc22"];
   "marinus" -> "proclus" [color="#cccccc22"];
@@ -1697,6 +1700,12 @@ digraph ancient_texts {
   "shakti" -> "prakriti-samkhya" [color="#cccccc22"];
   "shakti" -> "parinamavada" [color="#cccccc22"];
   "shakti" -> "upanishad" [color="#cccccc22"];
+  "shankara" -> "advaita-vedanta" [color="#cccccc22"];
+  "shankara" -> "badarayana" [color="#cccccc22"];
+  "shankara" -> "brahma-sutra" [color="#cccccc22"];
+  "shankara" -> "kundakunda" [color="#cccccc22"];
+  "shankara" -> "mandana-mishra" [color="#cccccc22"];
+  "shankara" -> "shiva" [color="#cccccc22"];
   "shesha" -> "kadru" [color="#cccccc22"];
   "shesha" -> "vishnu" [color="#cccccc22"];
   "shesha" -> "garuda" [color="#cccccc22"];
@@ -1768,6 +1777,10 @@ digraph ancient_texts {
   "sunyata" -> "catuskoti" [color="#cccccc22"];
   "sunyata" -> "madhyamaka" [color="#cccccc22"];
   "sunyata" -> "mulamadhyamakakarika" [color="#cccccc22"];
+  "sureshvara" -> "shankara" [color="#cccccc22"];
+  "sureshvara" -> "advaita-vedanta" [color="#cccccc22"];
+  "sureshvara" -> "mandana-mishra" [color="#cccccc22"];
+  "sureshvara" -> "mandana-mishra" [color="#cccccc22"];
   "surya" -> "vishnu" [color="#cccccc22"];
   "surya" -> "brahman" [color="#cccccc22"];
   "surya" -> "aruna" [color="#cccccc22"];

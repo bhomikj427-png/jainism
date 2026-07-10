@@ -34,3 +34,4 @@ The Mīmāṃsā→Advaita bridge and authorship of Brahmasiddhi converge; the *
 - historically-influenced-by: kumarila-bhatta | Maṇḍana was Kumārila's student in Mīmāṃsā before composing his Advaita Brahmasiddhi
 - shares-vocabulary-with: advaita-vedanta | the Brahmasiddhi is a foundational Advaita treatise with a distinctive doctrine — the jīva as locus of *anirvacanīya* avidyā
 - shares-vocabulary-with: brahman | the Brahmasiddhi ("establishment of Brahman") defends the non-dual Brahman of Advaita
+- often-conflated-with-NOT-equivalent: sureshvara | the traditional debate-conversion legend makes Maṇḍana *become* Sureśvara; scholarship is split (Kuppuswami Sastri: distinct; Balasubramanian: unproven either way), and their stated doctrines oppose on the locus of avidyā (jīva vs Brahman) and the role of meditation — the map keeps them distinct nodes so the legend is taught, not assumed
