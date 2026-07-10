@@ -31,6 +31,7 @@
 | 13 Neoplatonism | [comparanda/13-neoplatonism.md](comparanda/13-neoplatonism.md) | neoplatonism · plotinus · plotinus-one · nous · henosis · porphyry · proclus | drafted |
 | 14 Greek & Hellenistic Foundation | [comparanda/14-greek-foundation.md](comparanda/14-greek-foundation.md) | parmenides-being · democritus-atom · plato-forms · plato-soul · aristotle-substance · aristotle-categories · aristotle-logic · aristotle-ethics · four-causes · epicurus-atom · epicurus-ethics · stoicism · stoic-logos · cynicism · pyrrhonism · academic-skepticism | drafted |
 | 15 Sāṃkhya & Yoga | [hindu/darsana/15-samkhya-yoga.md](hindu/darsana/15-samkhya-yoga.md) | kapila · samkhya-karika · prakriti-samkhya · purusha-samkhya · guna-samkhya · satkaryavada · patanjali · yoga-darshana · citta-vritti · citta · manas | drafted |
+| 16 Nyāya & Vaiśeṣika | [hindu/darsana/16-nyaya-vaisheshika.md](hindu/darsana/16-nyaya-vaisheshika.md) | gautama-aksapada · kanada · nyaya-sutra · vaiseshika-sutra · dravya-vaisheshika · paramanu-vaisheshika · pancha-mahabhuta · asatkaryavada · prashastapada | drafted |
 
 ---
 
@@ -40,7 +41,6 @@
 
 | # | planned chapter | sub-folder | primary concepts (already written as nodes) | status |
 |---|---|---|---|---|
-| 16 | Nyāya & Vaiśeṣika | `hindu/darsana/` | gautama-aksapada · nyaya-sutra · vaiseshika-sutra · paramanu-vaisheshika · dravya-vaisheshika · pancha-mahabhuta · asatkaryavada (NB: the *epistemology* — anumāna, vyāpti, hetvābhāsa, tarka, jāti — is already primary-covered in Ch 05; this chapter is the realist **ontology/atomism** side, cross-ref Ch 05) | planned |
 | 17 | Mīmāṃsā & Cārvāka | `hindu/darsana/` | mimamsa-sutra · kumarila-bhatta · prabhakara · carvaka (NB: mīmāṃsā-pramāṇa / arthāpatti / śabda-pramāṇa are in Ch 05/10; this chapter is ritual-exegesis + the materialist nāstika challenge) | planned |
 | 18 | Hindu Deities: Trimūrti & the Devotional Families | `hindu/devotional/` | brahma · vishnu · shiva · trimurti · nataraja · lingam · nandi · kala-bhairava · krishna · rama · garuda · vaishnavism · durga · kali · parvati · shakti · ganesha · hanuman · surya · agni · kartikeya · kamadhenu · aruna · shaivism · spanda · pratyabhijna | planned |
 | 19 | Hindu Epics & Scripture | `hindu/scripture/` | upanishad · brahma-sutra · mahabharata · ramayana · gita · valmiki · vyasa · vishnu-sahasranama · yajna · rta · dana · samsara | planned |
@@ -212,3 +212,12 @@
 | citta-vritti | Ch 15 | Ch 05 (vikalpa converges with Dignāga's kalpanā/apoha) |
 | citta | Ch 15 | Ch 12 (Buddhist citta as processual consciousness, inverted vs Sāṃkhya-Yoga citta) |
 | manas | Ch 15 | Ch 01/03 (Jain mano-yoga) · Ch 12 (Buddhist/Yogācāra manas-vijñāna) |
+| gautama-akṣapāda | Ch 16 | Ch 05 (author-anchor of the Nyāya epistemology files) |
+| kaṇāda | Ch 16 | — (Vaiśeṣika founder; anchor-by-attribution like kapila) |
+| nyāya-sūtra | Ch 16 | Ch 05 (four pramāṇas · pañcāvayava · fallacy catalogue worked out there) |
+| vaiśeṣika-sūtra | Ch 16 | Ch 14 (padārtha scheme vs aristotle-categories) |
+| dravya-vaiśeṣika | Ch 16 | Ch 01/09 (nine vs six dravyas; definition-of-substance comparison) |
+| paramāṇu-vaiśeṣika | Ch 16 | Ch 01 (vs Jain paramāṇu) · Ch 14 (vs democritus-atom) |
+| pañcamahābhūta | Ch 16 | Ch 15 (tanmātra → mahābhūta stage of prakṛti's evolution) · Ch 12 (Buddhist four-element demotion of ākāśa) |
+| asatkāryavāda | Ch 16 | Ch 15 (§5 satkāryavāda, the opposing axiom) · Ch 11 (vivartavāda/pariṇāmavāda derive from the satkārya side) |
+| praśastapāda | Ch 16 | Ch 05 (realism about universals vs Dignāga's apoha) |
