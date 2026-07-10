@@ -121,7 +121,7 @@ chapters/jain/translations/
 | 9 | TS Adhyāya 9 (saṃvara/nirjarā) | `doctrinal/tattvartha/09-stoppage-shedding.md` | **done — first pass, both recensions** | Stoppage/shedding mechanics, ten moral virtues, twelve reflections, and a rich dhyāna-section (9.27–49) fork cluster: two splits, one content-order swap (a first for this reading room), two Śvetāmbara-only sūtras, and one mirror-image Digambara-only sūtra. |
 | 10 | TS Adhyāya 7 (vratas) | `doctrinal/tattvartha/07-vows.md` | **done — first pass, both recensions** | The reading room's cleanest AND largest fork: SS 7.4–7.8 (five bhāvanā sūtras) are a **Digambara-only block** — Śvetāmbara carries the content only inside SB's commentary on 7.3, with genuinely variant lists (non-stealing diverges almost item-for-item). A new fork *type* (block promotion: bhāṣya-level in one recension, mūla-level in the other); constant +5 offset thereafter, chapter-end counts (34 vs 39) exactly explained. Plus an SBT-vs-SS classificatory split on the seven śīlas (subsidiary/trainee line drawn 1-3-6 vs 1-2-3) and one small content variant in the transgression pentads (upabhogādhikatva vs upabhogaparibhogānarthakya). |
 | 11 | TS Adhyāya 3 (lower/middle worlds) | `doctrinal/tattvartha/03-worlds.md` | **done — first pass, both recensions** | Adhyāya 7's new fork type recurs at 4× the size: **SS 3.12–3.32, a 21-sūtra Digambara-only sacred-geography block** (mountain colours, summit-lakes, lotus goddesses, 14 rivers, continent widths, time-cycles) that SB carries as commentary on 3.11; +21 offset, 18-vs-39 chapter ends exactly explained. Plus a miniature of the same rank-fork at 3.2 (SS mūla encodes the hell-counts SB leaves to commentary — figures identical), a Śvet.-only mūla word at 3.1 (*pṛthutarāḥ*), and the reading room's largest bare-number commentarial divergence (SBT vs SS infernal-land depths agree only on the first land). |
-| 12 | TS Adhyāya 4 (celestial beings) | `doctrinal/tattvartha/04-celestials.md` | pending | |
+| 12 | TS Adhyāya 4 (celestial beings) | `doctrinal/tattvartha/04-celestials.md` | **done — first pass, both recensions** | The fork-densest chapter yet, and the first **doctrinal-cosmological** (not just textual) divergence: Śvet. 26 heavens (12 kalpas, 10 indras) vs Dig. 39 (16 kalpas, 12 indras, plus a nine-Anudiśa tier with no Śvet. counterpart). Lifespan section = 11 distinct sub-forks incl. two bare-number divergences (Mahāśukra 17 vs 16+ o.m.p.; luminous-god minimum ¼ vs ⅛ p.m.p.) and a taxonomy fork (mansion-god maxima by chieftainship vs by god-type). A **Śvet.-only 4-sūtra astronomy block** (4.49–52) mirrors Adhyāya 3's Dig.-only geography block in the opposite direction. SBT's kṛṣṇarāji "black gaps" quarantined against the black-hole conflation. Śvet. 53 / Dig. 42 sūtras. |
 | 13 | TS Adhyāya 10 (mokṣa) | `doctrinal/tattvartha/10-liberation.md` | pending | Shortest chapter; natural closer for the TS. |
 | 14 | Kalyāṇamandira Stotra — complete (v.1–44) | `devotional/kalyanmandir/01-kalyanmandir.md` | **done — first pass complete, all 44 verses** | To Pārśvanātha; sister-hymn to Bhaktāmar. No Dig./Śvet. verse-count fork found anywhere (both recite the same 44, unlike Bhaktāmar's 44-vs-48). Author identity converges (Kumudacandra = Siddhasena Divākara per Vijay K. Jain 2024) but **date is contested** (6th c. CE / 12th c. VS / "4th–5th c. CE" per three sources) — recorded as a comparison table in-file. V.1 at full padaccheda/MW depth; v.2–44 at content-survey/paraphrase depth (scope trade-off to avoid reproducing two full copyrighted translations verbatim). Open item: full IAST/Devanāgarī/padaccheda for v.2–44 from a source with legible Devanāgarī. |
 | 15 | Ṇamokāra / Navkār Mantra | `devotional/namokara/01-namokara.md` | **done — first pass complete** | Shortest text in the reading room (7 lines) but the densest fork-per-line ratio yet found: (1) a ṇ/n Digambara/older-Ardhamāgadhī orthographic layer; (2) the real finding — the earliest Śvetāmbara canonical fivefold citation (Bhagavatī i.1) has a *different fifth line* (homage to the Brāhmī script, not the sādhus), per Jaini and Dundas converging independently; (3) the Sthānakvāsī sect rejects the closing couplet's canonical authority outright. Dhavalā-ṭīkā commentary quote (via Jaini) resolves the arhat-before-siddha ordering puzzle, convergent with the existing `namokara.md` concept node's independent Wikipedia/Jainworld-sourced answer. Links back to existing node `namokara.md` (filename note: node key is `namokara`, not `ṇamokāra-mantra`). |
@@ -526,3 +526,33 @@ chapters/jain/translations/
   Tatia's reporting; SS depth-figures not re-located in VKJ body; block-sūtra OCR needs a character-exact
   check; no third translation. Per §E, the next lowest-numbered `pending` unit is **#12, TS Adhyāya 4
   (celestial beings)**.
+- **TS Adhyāya 4 drafted — first pass, both recensions** (`doctrinal/tattvartha/04-celestials.md`, unit #12)
+  — 2026-07-10, same session, sources already local. **The fork-densest chapter in the reading room, and the
+  first divergence that is doctrinal-cosmological rather than textual**: the recensions disagree on what the
+  upper cosmos *contains* — Śvet. 12 kalpa heavens under 10 indras + 9 Graiveyakas + 5 Anuttaras = 26; Dig.
+  16 kalpa heavens under 12 indras (the middle four Śvet. heavens each split into a named pair:
+  Brahma/Brahmottara, Lāntava/Kāpiṣṭha, Śukra/Mahāśukra, Śatāra/Sahasrāra) + 9 Graiveyakas + **9 Anudiśa
+  subdirectional heavens with no Śvetāmbara counterpart** + 5 Anuttaras = 39. Tatia prints two separate
+  cosmos diagrams rather than merging them; treated as the headline with a side-by-side table at SB 4.20/SS
+  4.19. The long lifespan section (SB 4.29–53 vs SS 4.28–42) was censused as **11 distinct sub-forks** in
+  one table: one Śvet.-only header sūtra; a genuine *taxonomy* fork (SB slices mansion-god maxima by
+  north/south chieftainship, SS by god-type — not inter-derivable); two bare-number divergences (Mahāśukra
+  tier 17 vs somewhat-over-16 o.m.p.; non-stellar luminous minimum ¼ vs ⅛ p.m.p.); the Anudiśa tier
+  propagating into the arithmetic; a **four-sūtra Śvetāmbara-only astronomy block** (SB 4.49–52,
+  planet/constellation/star lifespans) that mirrors Adhyāya 3's Digambara-only geography block in the
+  *opposite direction* — strengthening the census observation that neither recension is globally the longer
+  one; and a Digambara-only closing sūtra (SS 4.42, lokāntika lifespans). Also recorded: the colouring fork
+  (SB 4.2+4.7 categorical redness of luminous gods vs SS 4.2's developmental born-any-of-four-mature-red);
+  the shared minimum-equals-the-floor-below recursion (*paratah paratah pūrvā pūrvā'nantarā*) making the
+  heaven-stack gapless in lifespan while the two traditions disagree about the numbers it runs on; the
+  pravīcāra pleasure-gradation ladder (copulation → touch → sight → sound → thought → none, intensity rising
+  as coarseness falls); and two quarantined modern-comparison boxes — the plural-suns Meru-centred sky vs
+  any modern astronomy, and the SBT's *kṛṣṇarāji* "black gaps" (black matter, enormous attraction, gods fear
+  being pulled in) explicitly typed NOT-equivalent to black holes, flagged precisely because the conflation
+  is so tempting. Anchors identified for existing nodes: `indra.md` (indra as rank-title, 4.4), `leshya.md`
+  (the heaven-side colouring pole), `kala-dravya.md` (4.15's measured-time-by-celestial-motion vs substance-
+  time), `garuda.md`/`surya.md` (shares-vocabulary notes). **Open items**: Anudiśas' exact mūla placement in
+  SS 4.19 not character-verified (heavy OCR); VKJ appendix's apparent omission of *yakṣa* in SS 4.11 treated
+  as OCR loss on Tatia's evidence, unverified against a second SS printing; an unresolved OCR discrepancy
+  between SB 4.30's *adhyardham* (1.5) and Tatia's prose "2.5"; two-source panel only. Per §E, the next and
+  **final** pending TS unit is **#13, TS Adhyāya 10 (mokṣa)**.
