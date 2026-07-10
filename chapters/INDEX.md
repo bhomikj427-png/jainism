@@ -32,6 +32,7 @@
 | 14 Greek & Hellenistic Foundation | [comparanda/14-greek-foundation.md](comparanda/14-greek-foundation.md) | parmenides-being · democritus-atom · plato-forms · plato-soul · aristotle-substance · aristotle-categories · aristotle-logic · aristotle-ethics · four-causes · epicurus-atom · epicurus-ethics · stoicism · stoic-logos · cynicism · pyrrhonism · academic-skepticism | drafted |
 | 15 Sāṃkhya & Yoga | [hindu/darsana/15-samkhya-yoga.md](hindu/darsana/15-samkhya-yoga.md) | kapila · samkhya-karika · prakriti-samkhya · purusha-samkhya · guna-samkhya · satkaryavada · patanjali · yoga-darshana · citta-vritti · citta · manas | drafted |
 | 16 Nyāya & Vaiśeṣika | [hindu/darsana/16-nyaya-vaisheshika.md](hindu/darsana/16-nyaya-vaisheshika.md) | gautama-aksapada · kanada · nyaya-sutra · vaiseshika-sutra · dravya-vaisheshika · paramanu-vaisheshika · pancha-mahabhuta · asatkaryavada · prashastapada | drafted |
+| 17 Mīmāṃsā & Cārvāka | [hindu/darsana/17-mimamsa-carvaka.md](hindu/darsana/17-mimamsa-carvaka.md) | jaimini · mimamsa-sutra · kumarila-bhatta · prabhakara · carvaka | drafted |
 
 ---
 
@@ -41,7 +42,6 @@
 
 | # | planned chapter | sub-folder | primary concepts (already written as nodes) | status |
 |---|---|---|---|---|
-| 17 | Mīmāṃsā & Cārvāka | `hindu/darsana/` | mimamsa-sutra · kumarila-bhatta · prabhakara · carvaka (NB: mīmāṃsā-pramāṇa / arthāpatti / śabda-pramāṇa are in Ch 05/10; this chapter is ritual-exegesis + the materialist nāstika challenge) | planned |
 | 18 | Hindu Deities: Trimūrti & the Devotional Families | `hindu/devotional/` | brahma · vishnu · shiva · trimurti · nataraja · lingam · nandi · kala-bhairava · krishna · rama · garuda · vaishnavism · durga · kali · parvati · shakti · ganesha · hanuman · surya · agni · kartikeya · kamadhenu · aruna · shaivism · spanda · pratyabhijna | planned |
 | 19 | Hindu Epics & Scripture | `hindu/scripture/` | upanishad · brahma-sutra · mahabharata · ramayana · gita · valmiki · vyasa · vishnu-sahasranama · yajna · rta · dana · samsara | planned |
 | 20 | Buddhist Scholastics: Madhyamaka, Yogācāra & the Logicians | `buddhist/` | nagarjuna · mulamadhyamakakarika · prasanga-nagarjuna · vasubandhu · asanga · trisvabhava · abhidharmakosa · santaraksita · kamalasila · santideva · dharmakirti · pramana-samuccaya · pramanavarttika · dharmottara · nirvana-mahayana (NB: madhyamaka/yogācāra **doctrine** is in Ch 12; this chapter is the **figures, texts & logicians** behind it) | planned |
@@ -221,3 +221,8 @@
 | pañcamahābhūta | Ch 16 | Ch 15 (tanmātra → mahābhūta stage of prakṛti's evolution) · Ch 12 (Buddhist four-element demotion of ākāśa) |
 | asatkāryavāda | Ch 16 | Ch 15 (§5 satkāryavāda, the opposing axiom) · Ch 11 (vivartavāda/pariṇāmavāda derive from the satkārya side) |
 | praśastapāda | Ch 16 | Ch 05 (realism about universals vs Dignāga's apoha) |
+| jaimini | Ch 17 | Ch 11 (paired with bādarāyaṇa: Pūrva- vs Uttara-Mīmāṃsā) |
+| mīmāṃsā-sūtra | Ch 17 | Ch 05 (the pramāṇa doctrine worked out there) |
+| kumārila-bhaṭṭa | Ch 17 | Ch 05 (svataḥ-prāmāṇya vs Nyāya parataḥ; the Dignāga duel) |
+| prabhākara | Ch 17 | Ch 05 (five-pramāṇa count; akhyāti error-theory) |
+| cārvāka | Ch 17 | Ch 05 (the anti-vyāpti attack) · Ch 14 (NOT-equiv democritus-atom) · Ch 12 (NOT-equiv anattā) |
