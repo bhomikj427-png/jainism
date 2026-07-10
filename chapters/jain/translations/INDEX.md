@@ -119,7 +119,7 @@ chapters/jain/translations/
 | 7 | TS Adhyāya 6 (āsrava) | `doctrinal/tattvartha/06-influx.md` | **done — first pass, both recensions** | Action/influx mechanics, causes of each of the 8 karma-types. Merge fork at 6.3/SS 6.3; split fork at 6.18/SS 6.17-18; a genuine doctrinal-addition fork at 6.20/SS 6.21 (SS adds right-faith itself as a cause of divine rebirth). Open item: chapter-end sūtra-count arithmetic (SB 6.26 = SS 6.27) not fully reconciled against the merge+split found. |
 | 8 | TS Adhyāya 8 (bandha) | `doctrinal/tattvartha/08-bondage.md` | **done — first pass, both recensions** | Five causes of bondage, four aspects, eight karma-types' sub-types/duration/intensity, and a closing beneficial-vs-harmful sūtra with a genuine content-variant fork PLUS an intra-Digambara commentarial split (Vīrasena's two commentaries disagree with each other, not just Dig. vs Śvet.). Opening merge (SB 8.1–3→SS 8.1–2) and closing split (SB 8.26→SS 8.25–26) exactly cancel — both recensions end at sūtra 26, a cleaner fork-shape than any prior adhyāya in this reading room. |
 | 9 | TS Adhyāya 9 (saṃvara/nirjarā) | `doctrinal/tattvartha/09-stoppage-shedding.md` | **done — first pass, both recensions** | Stoppage/shedding mechanics, ten moral virtues, twelve reflections, and a rich dhyāna-section (9.27–49) fork cluster: two splits, one content-order swap (a first for this reading room), two Śvetāmbara-only sūtras, and one mirror-image Digambara-only sūtra. |
-| 10 | TS Adhyāya 7 (vratas) | `doctrinal/tattvartha/07-vows.md` | pending | |
+| 10 | TS Adhyāya 7 (vratas) | `doctrinal/tattvartha/07-vows.md` | **done — first pass, both recensions** | The reading room's cleanest AND largest fork: SS 7.4–7.8 (five bhāvanā sūtras) are a **Digambara-only block** — Śvetāmbara carries the content only inside SB's commentary on 7.3, with genuinely variant lists (non-stealing diverges almost item-for-item). A new fork *type* (block promotion: bhāṣya-level in one recension, mūla-level in the other); constant +5 offset thereafter, chapter-end counts (34 vs 39) exactly explained. Plus an SBT-vs-SS classificatory split on the seven śīlas (subsidiary/trainee line drawn 1-3-6 vs 1-2-3) and one small content variant in the transgression pentads (upabhogādhikatva vs upabhogaparibhogānarthakya). |
 | 11 | TS Adhyāya 3 (lower/middle worlds) | `doctrinal/tattvartha/03-worlds.md` | pending | |
 | 12 | TS Adhyāya 4 (celestial beings) | `doctrinal/tattvartha/04-celestials.md` | pending | |
 | 13 | TS Adhyāya 10 (mokṣa) | `doctrinal/tattvartha/10-liberation.md` | pending | Shortest chapter; natural closer for the TS. |
@@ -465,3 +465,36 @@ chapters/jain/translations/
   run clean (no new concept nodes created by this unit). Per §E, the next lowest-numbered `pending` unit is
   **#10, TS Adhyāya 7 (vratas)**; the next `later` devotional item is Kalyāṇa/Chattāri/Ratnākara etc., pending
   confirmation that citable published translations exist.
+- **TS Adhyāya 7 drafted — first pass, both recensions** (`doctrinal/tattvartha/07-vows.md`, unit #10) —
+  2026-07-10, continuing autonomously per user instruction. Same source pair as Adhyāyas 8/9 (Tatia 1994 clean
+  scan + Vijay K. Jain 2018), both re-downloaded to local files and grepped; VKJ's end-of-book Devanāgarī+IAST
+  sūtra appendix supplied the complete SS mūla for all 39 sūtras, a cleaner primary-text basis than any prior
+  chapter's. **The chapter's structure is the finding**: exactly one fork, but it is the largest and a new
+  *type* for the census — SS 7.4–7.8, the five sūtras giving the five supporting practices (bhāvanā) for each
+  great vow, are **Digambara mūla with no Śvetāmbara sūtra counterpart at all**; Tatia's apparatus states the
+  SB carries the content only inside its commentary on 7.3 "with slight variations," and the variations are
+  genuine content divergences, not paraphrase (the non-stealing lists share barely one item; the non-violence
+  lists swap speech-control for alms-seeking care; chastity swaps body-decoration for segregated lodging;
+  truthfulness differs in order only; non-possessiveness agrees). Called it a **block promotion** fork —
+  scripture-rank in one recension, commentary-rank in the other — and noted the asymmetry runs *against* the
+  usual direction (here the Digambara text is the longer one, the reverse of Adhyāya 9's Śvetāmbara-only
+  sūtras). Offset +5 thereafter, chapter-end arithmetic (Śvet. 34 / Dig. 39) closes exactly — no open
+  arithmetic item, same clean shape as Adhyāya 8. Full padaccheda depth for 7.1 (the five-abstinence
+  definition of vrata), 7.8/SS 7.13 (pramattayogāt — the disposition-not-event definition of hiṃsā, with the
+  SS's Pravacanasāra 3.16–17 and Siddhasenadvātriṃśikā quotations recorded), and 7.12/SS 7.17 (mūrcchā
+  parigrahaḥ, with the SS's own rejected-contention about knowledge-as-possession). Content-survey depth for
+  the strengthening practices (incl. 7.6/SS 7.11, the four social attitudes — identified as the TS's own
+  textual anchor for the existing `maitri-jain.md` node), the observer taxonomy, sallekhanā (7.17/SS 7.22 —
+  word-form variant saṃlekhanā/sallekhanā recorded; both commentaries' parallel suicide-objection rebuttals
+  documented), the fourteen transgression pentads (one genuine small content variant found: SB 7.27
+  *upabhogādhikatva* "excessive use" vs SS 7.32 *upabhogaparibhogānarthakya* "purposeless accumulation" —
+  the only content-level divergence in the whole aticāra run), and the two dāna sūtras. Also recorded: a
+  genuine **SBT-vs-SS classificatory divergence over a shared mūla** at 7.16/SS 7.21 (which of the seven
+  śīlas count as guṇavrata vs śikṣāvrata — the line falls after items 1/3/6 for SBT, after 1–3 for SS), same
+  fork-genus as Adhyāya 5's commentarial atomic-bonding split. A quarantined note at the hiṃsā sūtra flags
+  and *rejects* the tempting mens-rea equation (culpability-tracks-disposition is structurally parallel;
+  the karmic-ontological frame is not criminal-law liability). **Open items**: the SB-side bhāvanā lists are
+  known only through Tatia's reporting (single-source, though against-interest); SS 7.6/7.7 IAST passed
+  through heavy OCR and needs a character-exact check against a clean printed SS edition; no third
+  translation consulted this session. Per §E, the next lowest-numbered `pending` unit is **#11, TS Adhyāya 3
+  (lower/middle worlds)**.
