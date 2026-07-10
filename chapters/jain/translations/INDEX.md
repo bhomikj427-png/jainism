@@ -120,7 +120,7 @@ chapters/jain/translations/
 | 8 | TS Adhyāya 8 (bandha) | `doctrinal/tattvartha/08-bondage.md` | **done — first pass, both recensions** | Five causes of bondage, four aspects, eight karma-types' sub-types/duration/intensity, and a closing beneficial-vs-harmful sūtra with a genuine content-variant fork PLUS an intra-Digambara commentarial split (Vīrasena's two commentaries disagree with each other, not just Dig. vs Śvet.). Opening merge (SB 8.1–3→SS 8.1–2) and closing split (SB 8.26→SS 8.25–26) exactly cancel — both recensions end at sūtra 26, a cleaner fork-shape than any prior adhyāya in this reading room. |
 | 9 | TS Adhyāya 9 (saṃvara/nirjarā) | `doctrinal/tattvartha/09-stoppage-shedding.md` | **done — first pass, both recensions** | Stoppage/shedding mechanics, ten moral virtues, twelve reflections, and a rich dhyāna-section (9.27–49) fork cluster: two splits, one content-order swap (a first for this reading room), two Śvetāmbara-only sūtras, and one mirror-image Digambara-only sūtra. |
 | 10 | TS Adhyāya 7 (vratas) | `doctrinal/tattvartha/07-vows.md` | **done — first pass, both recensions** | The reading room's cleanest AND largest fork: SS 7.4–7.8 (five bhāvanā sūtras) are a **Digambara-only block** — Śvetāmbara carries the content only inside SB's commentary on 7.3, with genuinely variant lists (non-stealing diverges almost item-for-item). A new fork *type* (block promotion: bhāṣya-level in one recension, mūla-level in the other); constant +5 offset thereafter, chapter-end counts (34 vs 39) exactly explained. Plus an SBT-vs-SS classificatory split on the seven śīlas (subsidiary/trainee line drawn 1-3-6 vs 1-2-3) and one small content variant in the transgression pentads (upabhogādhikatva vs upabhogaparibhogānarthakya). |
-| 11 | TS Adhyāya 3 (lower/middle worlds) | `doctrinal/tattvartha/03-worlds.md` | pending | |
+| 11 | TS Adhyāya 3 (lower/middle worlds) | `doctrinal/tattvartha/03-worlds.md` | **done — first pass, both recensions** | Adhyāya 7's new fork type recurs at 4× the size: **SS 3.12–3.32, a 21-sūtra Digambara-only sacred-geography block** (mountain colours, summit-lakes, lotus goddesses, 14 rivers, continent widths, time-cycles) that SB carries as commentary on 3.11; +21 offset, 18-vs-39 chapter ends exactly explained. Plus a miniature of the same rank-fork at 3.2 (SS mūla encodes the hell-counts SB leaves to commentary — figures identical), a Śvet.-only mūla word at 3.1 (*pṛthutarāḥ*), and the reading room's largest bare-number commentarial divergence (SBT vs SS infernal-land depths agree only on the first land). |
 | 12 | TS Adhyāya 4 (celestial beings) | `doctrinal/tattvartha/04-celestials.md` | pending | |
 | 13 | TS Adhyāya 10 (mokṣa) | `doctrinal/tattvartha/10-liberation.md` | pending | Shortest chapter; natural closer for the TS. |
 | 14 | Kalyāṇamandira Stotra — complete (v.1–44) | `devotional/kalyanmandir/01-kalyanmandir.md` | **done — first pass complete, all 44 verses** | To Pārśvanātha; sister-hymn to Bhaktāmar. No Dig./Śvet. verse-count fork found anywhere (both recite the same 44, unlike Bhaktāmar's 44-vs-48). Author identity converges (Kumudacandra = Siddhasena Divākara per Vijay K. Jain 2024) but **date is contested** (6th c. CE / 12th c. VS / "4th–5th c. CE" per three sources) — recorded as a comparison table in-file. V.1 at full padaccheda/MW depth; v.2–44 at content-survey/paraphrase depth (scope trade-off to avoid reproducing two full copyrighted translations verbatim). Open item: full IAST/Devanāgarī/padaccheda for v.2–44 from a source with legible Devanāgarī. |
@@ -498,3 +498,31 @@ chapters/jain/translations/
   through heavy OCR and needs a character-exact check against a clean printed SS edition; no third
   translation consulted this session. Per §E, the next lowest-numbered `pending` unit is **#11, TS Adhyāya 3
   (lower/middle worlds)**.
+- **TS Adhyāya 3 drafted — first pass, both recensions** (`doctrinal/tattvartha/03-worlds.md`, unit #11) —
+  2026-07-10, same session as Adhyāya 7, sources already local (Tatia clean scan + VKJ 2018, incl. the VKJ
+  Devanāgarī+IAST appendix for all 39 SS sūtras). **The headline: Adhyāya 7's newly-identified "block
+  promotion" fork type is not a one-off — it recurs here at four times the size.** SS 3.12–3.32, twenty-one
+  sūtras of Jambūdvīpa sacred geography (mountain colours, summit-lakes, the six lotus-dwelling goddesses,
+  the fourteen rivers and their tributary arithmetic, continent widths, the utsarpiṇī/avasarpiṇī time-cycles,
+  the stable continents), are Digambara mūla with no Śvetāmbara sūtra counterpart — Tatia's own apparatus
+  calls them "the twenty-one additional sutras in the SS" and states the SB carries the content in its
+  commentary on 3.11. Constant +21 offset thereafter; chapter ends (Śvet. 3.18 / Dig. 3.39) exactly
+  explained, clean arithmetic. **Both block promotions found so far run the same direction (Digambara mūla
+  the richer), opposite to Adhyāya 9's Śvetāmbara-only sūtras — logged as evidence the recensions
+  crystallized independently rather than one abridging the other.** Same rank-fork in miniature at 3.2: SB's
+  two-word *tasu narakāḥ* vs SS's long numeric sūtra encoding the seven hell-dwelling counts — **figures
+  identical across recensions, only their canonical rank differs.** Also recorded: a Śvet.-only mūla word at
+  3.1 (*pṛthutarāḥ*, per Tatia's own footnote); the **largest bare-number commentarial divergence in the
+  reading room so far** (infernal-land depths: SBT 180/132/128/120/118/116/108 thousand yojanas vs SS
+  180/32/28/24/20/16/8 — only the first land agrees; interleaving-layer depths also differ), presented as a
+  comparison table; and a second numeric commentarial split on the seven hells' heat/cold distribution.
+  Full padaccheda for 3.1 (śarkarā's gravel-vs-sugar MW range; the *ghanāmbu-vāta-ākāśa* support-stack; the
+  SBT's balloon experiment for water-on-air). Identified the TS textual anchors for four existing concept
+  nodes: `leshya.md` (3.3's colouring exposition), `utsarpini-avasarpini.md` (SS 3.27–28), `tirthankara.md`
+  (the karmabhūmi sūtra's 20-to-170 concurrent-Jina arithmetic), `loka-jain.md` (3.1's cosmic-person frame).
+  The ārya/mleccha sūtra (SB 3.15/SS 3.36) handled with MW's Brahmanical gloss beside the differing SB/SS
+  taxonomies and Tatia's own "myth, history and politics" caveat — reported, not adjudicated. Modern-comparison
+  box deliberately N/A at 3.1 with the anti-geology note. **Open items**: SB-side block-content claim rests on
+  Tatia's reporting; SS depth-figures not re-located in VKJ body; block-sūtra OCR needs a character-exact
+  check; no third translation. Per §E, the next lowest-numbered `pending` unit is **#12, TS Adhyāya 4
+  (celestial beings)**.
