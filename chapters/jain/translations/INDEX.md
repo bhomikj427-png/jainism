@@ -122,7 +122,7 @@ chapters/jain/translations/
 | 10 | TS Adhyāya 7 (vratas) | `doctrinal/tattvartha/07-vows.md` | **done — first pass, both recensions** | The reading room's cleanest AND largest fork: SS 7.4–7.8 (five bhāvanā sūtras) are a **Digambara-only block** — Śvetāmbara carries the content only inside SB's commentary on 7.3, with genuinely variant lists (non-stealing diverges almost item-for-item). A new fork *type* (block promotion: bhāṣya-level in one recension, mūla-level in the other); constant +5 offset thereafter, chapter-end counts (34 vs 39) exactly explained. Plus an SBT-vs-SS classificatory split on the seven śīlas (subsidiary/trainee line drawn 1-3-6 vs 1-2-3) and one small content variant in the transgression pentads (upabhogādhikatva vs upabhogaparibhogānarthakya). |
 | 11 | TS Adhyāya 3 (lower/middle worlds) | `doctrinal/tattvartha/03-worlds.md` | **done — first pass, both recensions** | Adhyāya 7's new fork type recurs at 4× the size: **SS 3.12–3.32, a 21-sūtra Digambara-only sacred-geography block** (mountain colours, summit-lakes, lotus goddesses, 14 rivers, continent widths, time-cycles) that SB carries as commentary on 3.11; +21 offset, 18-vs-39 chapter ends exactly explained. Plus a miniature of the same rank-fork at 3.2 (SS mūla encodes the hell-counts SB leaves to commentary — figures identical), a Śvet.-only mūla word at 3.1 (*pṛthutarāḥ*), and the reading room's largest bare-number commentarial divergence (SBT vs SS infernal-land depths agree only on the first land). |
 | 12 | TS Adhyāya 4 (celestial beings) | `doctrinal/tattvartha/04-celestials.md` | **done — first pass, both recensions** | The fork-densest chapter yet, and the first **doctrinal-cosmological** (not just textual) divergence: Śvet. 26 heavens (12 kalpas, 10 indras) vs Dig. 39 (16 kalpas, 12 indras, plus a nine-Anudiśa tier with no Śvet. counterpart). Lifespan section = 11 distinct sub-forks incl. two bare-number divergences (Mahāśukra 17 vs 16+ o.m.p.; luminous-god minimum ¼ vs ⅛ p.m.p.) and a taxonomy fork (mansion-god maxima by chieftainship vs by god-type). A **Śvet.-only 4-sūtra astronomy block** (4.49–52) mirrors Adhyāya 3's Dig.-only geography block in the opposite direction. SBT's kṛṣṇarāji "black gaps" quarantined against the black-hole conflation. Śvet. 53 / Dig. 42 sūtras. |
-| 13 | TS Adhyāya 10 (mokṣa) | `doctrinal/tattvartha/10-liberation.md` | pending | Shortest chapter; natural closer for the TS. |
+| 13 | TS Adhyāya 10 (mokṣa) | `doctrinal/tattvartha/10-liberation.md` | **done — first pass, both recensions. ⭐ ALL TEN TS ADHYĀYAS NOW DRAFTED** | Śvet. 7 vs Dig. 9 sūtras, decomposing with textbook neatness into one merge (with a real wording variant at the crux: mokṣa as karma's *kṣaya* vs the soul's *vipramokṣa*), one split, and two single-sūtra block promotions (the four similes; the dharmāstikāya boundary argument). The chapter's real find: **the strīmokṣa split lives in no sūtra** — the shared twelve-gateways mūla carries, at gateway 4 (*liṅga*), the SB/SBT's "gender and dress have no bearing" against the SS's "male and nude required." Plus a numeric divergence at gateway 9 (max height 500 vs 525 bows). |
 | 14 | Kalyāṇamandira Stotra — complete (v.1–44) | `devotional/kalyanmandir/01-kalyanmandir.md` | **done — first pass complete, all 44 verses** | To Pārśvanātha; sister-hymn to Bhaktāmar. No Dig./Śvet. verse-count fork found anywhere (both recite the same 44, unlike Bhaktāmar's 44-vs-48). Author identity converges (Kumudacandra = Siddhasena Divākara per Vijay K. Jain 2024) but **date is contested** (6th c. CE / 12th c. VS / "4th–5th c. CE" per three sources) — recorded as a comparison table in-file. V.1 at full padaccheda/MW depth; v.2–44 at content-survey/paraphrase depth (scope trade-off to avoid reproducing two full copyrighted translations verbatim). Open item: full IAST/Devanāgarī/padaccheda for v.2–44 from a source with legible Devanāgarī. |
 | 15 | Ṇamokāra / Navkār Mantra | `devotional/namokara/01-namokara.md` | **done — first pass complete** | Shortest text in the reading room (7 lines) but the densest fork-per-line ratio yet found: (1) a ṇ/n Digambara/older-Ardhamāgadhī orthographic layer; (2) the real finding — the earliest Śvetāmbara canonical fivefold citation (Bhagavatī i.1) has a *different fifth line* (homage to the Brāhmī script, not the sādhus), per Jaini and Dundas converging independently; (3) the Sthānakvāsī sect rejects the closing couplet's canonical authority outright. Dhavalā-ṭīkā commentary quote (via Jaini) resolves the arhat-before-siddha ordering puzzle, convergent with the existing `namokara.md` concept node's independent Wikipedia/Jainworld-sourced answer. Links back to existing node `namokara.md` (filename note: node key is `namokara`, not `ṇamokāra-mantra`). |
 | — | Kalyāṇa/Chattāri/Ratnākara etc. | `devotional/…` | later | Confirm citable published translations exist before queuing. |
@@ -556,3 +556,35 @@ chapters/jain/translations/
   as OCR loss on Tatia's evidence, unverified against a second SS printing; an unresolved OCR discrepancy
   between SB 4.30's *adhyardham* (1.5) and Tatia's prose "2.5"; two-source panel only. Per §E, the next and
   **final** pending TS unit is **#13, TS Adhyāya 10 (mokṣa)**.
+- **TS Adhyāya 10 drafted — first pass, both recensions — ⭐ THE TATTVĀRTHA SŪTRA IS NOW COMPLETE IN THIS
+  READING ROOM: all ten adhyāyas drafted, both recensions, first pass** (`doctrinal/tattvartha/10-liberation.md`,
+  unit #13) — 2026-07-10, same session (fourth unit of the session, after Adhyāyas 7, 3, 4). Shortest
+  chapter: Śvet. 7 sūtras vs Dig. 9, and the difference decomposes into exactly one instance each of the
+  established fork types — one merge (SB 10.2+10.3 → SS 10.2, **with a genuine lexical variant at the
+  definition's crux**: Śvet. *kṛtsnakarmakṣayo mokṣaḥ*, karma's destruction, vs Dig.
+  *kṛtsnakarmavipramokṣo mokṣaḥ*, the soul's release — same event named from the karma's side vs the
+  soul's), one split (SB 10.4 → SS 10.3+10.4), and two single-sūtra block promotions in the by-now-familiar
+  Digambara direction (SS 10.7, the four upward-flight similes — potter's wheel, earth-coated gourd, castor
+  seed, flame; SS 10.8, *dharmāstikāyābhāvāt*, why the siddha halts at the cosmos-border: no medium of
+  motion beyond). Clean arithmetic, nothing unexplained. **The chapter's real find is that the deepest
+  sectarian divergence in the entire text lives in no sūtra at all**: the twelve-gateways sūtra (SB 10.7/SS
+  10.9) is shared mūla, but at gateway 4 (*liṅga*) Tatia's apparatus records the SB/SBT reading — gender
+  and dress have no bearing; women are liberated; "even a householder wearing their daily garb can be
+  liberated" — against the SS's requirement that the liberated be free of sexual disposition AND physically
+  male and nude. The strīmokṣa controversy's primary-text location, recorded as a comparison table; also a
+  numeric commentarial divergence at gateway 9 (max pre-liberation height 500 vs 525 bows, minima also
+  differing). Full padaccheda for 10.1 (kevala; the ablative sequencing as doctrine, mapped by SS onto
+  guṇasthānas 4→7→12); documented the SB's closing set-pieces (siddha-śilā as butterfly-wing-thin white
+  parasol; the triple negative definition of siddha-bliss — unlimited/unconditioned/uncaused; the
+  36-power catalogue the ascetic acquires and ignores; the whole-treatise recapitulation) and VKJ's
+  closing benediction verse (reading the ten chapters = a day's fasting merit). Cross-chapter fork
+  typology summarized in-file as the reading room's capstone: merges, splits, content variants, one
+  content-order swap, single-recension sūtras both directions, commentarial-classification and
+  numeric-commentarial divergences, block promotions at sizes 1/5/21 — **neither recension globally
+  longer or richer, each locally so, chapter by chapter.** **Open items**: gateway-level commentary
+  (incl. both strīmokṣa positions) is via Tatia's apparatus alone — a direct SS-text check is the
+  highest-priority second-source task given the topic's weight; the Dhavalā "neither bound nor unbound"
+  chain unverified against a Dhavalā edition; two-source panel only. **Remaining queue**: the TS track is
+  exhausted; open items across units (third sources, character-exact SS checks, full padaccheda for
+  Kalyāṇamandira v.2–44 and Bhaktāmara v.21–48) are the natural next passes, plus the still-`later`
+  Kalyāṇa/Chattāri/Ratnākara devotional items pending source-confirmation.
