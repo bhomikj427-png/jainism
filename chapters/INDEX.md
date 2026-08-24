@@ -35,6 +35,7 @@
 | 17 Mīmāṃsā & Cārvāka | [hindu/darsana/17-mimamsa-carvaka.md](hindu/darsana/17-mimamsa-carvaka.md) | jaimini · mimamsa-sutra · kumarila-bhatta · prabhakara · carvaka | drafted |
 | 18 The Deity World | [hindu/devotional/18-hindu-deities.md](hindu/devotional/18-hindu-deities.md) | trimurti · brahma · vishnu · shiva · shakti · vaishnavism · shaivism · krishna · rama · lingam · nataraja · kala-bhairava · spanda · pratyabhijna · durga · kali · parvati · ganesha · kartikeya · hanuman · nandi · garuda · surya · agni · indra · aruna · kamadhenu | drafted |
 | 19 The Texts: Śruti, Smṛti & the Authors | [hindu/scripture/19-hindu-scripture.md](hindu/scripture/19-hindu-scripture.md) | upanishad · rta · yajna · brahma-sutra · badarayana · mahabharata · ramayana · gita · samatva · sthitaprajna · jivanmukti · vishnu-sahasranama · vyasa · valmiki · dana · samsara | drafted |
+| 20 Buddhist Scholastics | [buddhist/20-buddhist-scholastics.md](buddhist/20-buddhist-scholastics.md) | nagarjuna · mulamadhyamakakarika · prasanga-nagarjuna · santideva · vasubandhu · abhidharmakosa · asanga · trisvabhava · pramana-samuccaya · dharmakirti · pramanavarttika · santaraksita · kamalasila · nirvana-mahayana | drafted |
 
 ---
 
@@ -46,8 +47,7 @@
 |---|---|---|---|---|
 | ~~18~~ | ~~Hindu Deities: Trimūrti & the Devotional Families~~ | `hindu/devotional/` | — | **drafted** (see table above) |
 | ~~19~~ | ~~Hindu Epics & Scripture~~ | `hindu/scripture/` | — | **drafted** (see table above; picked up badarayana · samatva · sthitaprajna · jivanmukti beyond the planned list) |
-| 20 | Buddhist Scholastics: Madhyamaka, Yogācāra & the Logicians | `buddhist/` | nagarjuna · mulamadhyamakakarika · prasanga-nagarjuna · vasubandhu · asanga · trisvabhava · abhidharmakosa · santaraksita · kamalasila · santideva · dharmakirti · pramana-samuccaya · pramanavarttika · dharmottara · nirvana-mahayana (NB: madhyamaka/yogācāra **doctrine** is in Ch 12; this chapter is the **figures, texts & logicians** behind it) | planned |
-
+| ~~20~~ | ~~Buddhist Scholastics: Madhyamaka, Yogācāra & the Logicians~~ | `buddhist/` | — | **drafted** (see table above; `dharmottara` stays primary in Ch 05 and is cross-referenced only) |
 | 21 | The Churning of the Ocean: the Samudra-manthana Cycle & the Daśāvatāra | `hindu/devotional/` | samudra-manthana · amrita · halahala · kurma · vasuki · dhanvantari · mohini · matsya · varaha · narasimha · vamana · parashurama · kalki · bali · airavata · ucchaihshravas · parijata · kalpavriksha · kaustubha · varuni · shesha · kadru · vinata · jatayu · sampati · rahu · ketu · svarbhanu (NB: `avatara-vedanta` as **doctrine** is primary-covered in Ch 11 and re-treated in Ch 18 §2.2; this chapter is the **individual avatāras and the churning-treasures** — the largest written cluster in `concepts/` with no chapter home) | planned |
 
 *Beyond Ch 21 the corpus still has ethics/practice nodes (karuṇā · mettā · maitrī-jain · upekkhā · mudita · pramoda · karunya · madhyasthya · samatva · dāna · the brahmavihāras), an Āyurveda cluster (ayurveda · charaka · sushruta · tridosha · dhanvantari), and a Neoplatonic remainder not covered by Ch 13 (iamblichus · damascius · syrianus · marinus · simplicius · ammonius-saccas · theurgy · chaldean-oracles · liber-de-causis · pseudo-dionysius · proclus-henad · psyche-neoplatonic). Re-derive the next row from `concepts/` vs. this table whenever the roadmap is exhausted.*
@@ -274,3 +274,17 @@
 | vālmīki | Ch 19 | Ch 18 §2.4 (source-poet of the Rāma cult) |
 | dāna | Ch 19 | Ch 08 (Jain lay practice; abhaya-dāna and ahiṃsā) · Ch 12 (dāna-pāramitā) |
 | saṃsāra | Ch 19 | Ch 03 (Jain bandha/gati) · Ch 12 (SN 15.3; the anattā paradox) · Ch 04 (three-tradition karma) |
+| nāgārjuna | Ch 20 | Ch 12 §6.1 (Madhyamaka doctrine) · Ch 06 (catuṣkoṭi) |
+| mūlamadhyamakakārikā | Ch 20 | Ch 12 (śūnyatā · dvisatya) · Ch 06 (the tetralemma run destructively) |
+| prasaṅga | Ch 20 | Ch 05 §7.3 (NOT-equiv Nyāya tarka) · Ch 14 (∥ and NOT-equiv pyrrhonism) |
+| śāntideva | Ch 20 | Ch 12 §5 (bodhicitta · bodhisattva) |
+| vasubandhu | Ch 20 | Ch 12 §6.2 (Yogācāra) · Ch 15 (the Vindhyavāsin debate) |
+| abhidharmakośa | Ch 20 | Ch 12 §4 (the 75 dharmas) · Ch 03 (∥ tattvartha-sutra as a root-text-plus-commentary compendium) |
+| asaṅga | Ch 20 | Ch 12 §6.2 (ālaya-vijñāna) |
+| trisvabhāva | Ch 20 | Ch 12 §6.2 (Yogācāra doctrine) · Ch 11 (NOT-equiv māyā-advaita) |
+| pramāṇasamuccaya | Ch 20 | Ch 05 §4 (Dignāga's two pramāṇas) · Ch 05 §6.3 (apoha) · Ch 16 (NOT-equiv nyaya-sutra) |
+| dharmakīrti | Ch 20 | Ch 05 §6.2 (vyāpti grounded in real relations) · Ch 12 §3.2 (the sattvānumāna proof of anicca) |
+| pramāṇavārttika | Ch 20 | Ch 05 §9 (hetu-vidyā) · Ch 05 §6.3 (causal apoha) |
+| śāntarakṣita | Ch 20 | Ch 12 §6 (the Madhyamaka/Yogācāra split he adjudicates) · Ch 02 (NOT-equiv anekāntavāda) |
+| kamalaśīla | Ch 20 | Ch 03 (NOT-equiv guṇasthāna) · Ch 15 (NOT-equiv yoga-darśana) |
+| apratiṣṭhita-nirvāṇa | Ch 20 | Ch 12 §2.4 (NOT-equiv nibbāna-theravāda) · Ch 12 §5 (the bodhisattva ideal) |
