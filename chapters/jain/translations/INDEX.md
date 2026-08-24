@@ -125,7 +125,9 @@ chapters/jain/translations/
 | 13 | TS Adhyāya 10 (mokṣa) | `doctrinal/tattvartha/10-liberation.md` | **done — first pass, both recensions. ⭐ ALL TEN TS ADHYĀYAS NOW DRAFTED** | Śvet. 7 vs Dig. 9 sūtras, decomposing with textbook neatness into one merge (with a real wording variant at the crux: mokṣa as karma's *kṣaya* vs the soul's *vipramokṣa*), one split, and two single-sūtra block promotions (the four similes; the dharmāstikāya boundary argument). The chapter's real find: **the strīmokṣa split lives in no sūtra** — the shared twelve-gateways mūla carries, at gateway 4 (*liṅga*), the SB/SBT's "gender and dress have no bearing" against the SS's "male and nude required." Plus a numeric divergence at gateway 9 (max height 500 vs 525 bows). |
 | 14 | Kalyāṇamandira Stotra — complete (v.1–44) | `devotional/kalyanmandir/01-kalyanmandir.md` | **done — first pass complete, all 44 verses** | To Pārśvanātha; sister-hymn to Bhaktāmar. No Dig./Śvet. verse-count fork found anywhere (both recite the same 44, unlike Bhaktāmar's 44-vs-48). Author identity converges (Kumudacandra = Siddhasena Divākara per Vijay K. Jain 2024) but **date is contested** (6th c. CE / 12th c. VS / "4th–5th c. CE" per three sources) — recorded as a comparison table in-file. V.1 at full padaccheda/MW depth; v.2–44 at content-survey/paraphrase depth (scope trade-off to avoid reproducing two full copyrighted translations verbatim). Open item: full IAST/Devanāgarī/padaccheda for v.2–44 from a source with legible Devanāgarī. |
 | 15 | Ṇamokāra / Navkār Mantra | `devotional/namokara/01-namokara.md` | **done — first pass complete** | Shortest text in the reading room (7 lines) but the densest fork-per-line ratio yet found: (1) a ṇ/n Digambara/older-Ardhamāgadhī orthographic layer; (2) the real finding — the earliest Śvetāmbara canonical fivefold citation (Bhagavatī i.1) has a *different fifth line* (homage to the Brāhmī script, not the sādhus), per Jaini and Dundas converging independently; (3) the Sthānakvāsī sect rejects the closing couplet's canonical authority outright. Dhavalā-ṭīkā commentary quote (via Jaini) resolves the arhat-before-siddha ordering puzzle, convergent with the existing `namokara.md` concept node's independent Wikipedia/Jainworld-sourced answer. Links back to existing node `namokara.md` (filename note: node key is `namokara`, not `ṇamokāra-mantra`). |
-| — | Kalyāṇa/Chattāri/Ratnākara etc. | `devotional/…` | later | Confirm citable published translations exist before queuing. |
+| 16 | Svayambhūstotra (Samantabhadra) — 24-Tīrthaṅkara adoration | `devotional/svayambhu/01-svayambhustotra.md` | **done — first pass** | 143 vv., single recension (Digambara-tradition; NO Dig./Śvet. mūla fork). Full-depth §1 Ṛṣabha (vv.1–5) + §24 Mahāvīra (vv.136–143); §§2–23 surveyed. **Two findings:** (1) systematic **appropriation of Brahmanical creator-epithets** (*svayambhū/prajāpati/acyuta/brahma-pada/īśvara*) semantically inverted to self-effort+liberation — a running `shares-vocabulary-with`/`NOT-equivalent` thread vs [[brahman]]; (2) **v.138 = an explicit *syādvāda* statement** (*dṛṣṭeṣṭāvirodhataḥ*), a primary-source anchor for [[syadvada]] on par with TS 5.32 for [[anekantavada]]; v.143 signs off on *naya* + the *samantabhadra* name-pun. Base Sanskrit from sanskritdocuments.org (independent of the translation); English from Vijay K. Jain 2015 (single translation → **medium confidence**); MW padaccheda the independent lexical layer. Textual crux flagged at v.5 (*vaṣa bho*→*vṛṣabho*). **NOTE:** the queued "Ratnākara Pachisi" was scouted and **deferred** — the popular text is a *Gujarati* paraphrase (Desai) and the original Sanskrit does not circulate citably; not cleanly buildable now. |
+| 17 | Āptamīmāṃsā / Devāgamastotra (Samantabhadra) — 114 vv. | `doctrinal/aptamimamsa/` (or `devotional/`) | **pending — NEXT, sources confirmed** | Scouted this session: **GRETIL** hosts a clean critical digital edition (Gajādhara Lal Jain base) + **Vijay K. Jain 2016 (2nd ed.)** English on archive.org (`AptaMimamsaWeb`) + a real commentary tradition (Akalaṅka *Aṣṭaśatī*, Vidyānanda *Aṣṭasahasrī*) for the disambiguation layer. The philosophical anekāntavāda stotra — richest possible reading-room unit; deserves its own dedicated push. |
+| — | Kalyāṇa/Chattāri/Ratnākara etc. | `devotional/…` | later | Confirm citable published translations exist before queuing. (Ratnākara Pachisi checked 2026-08-24 → Sanskrit original not citable online; deferred — see row 16.) |
 
 ## §F Open sub-decisions (ask the user only if it changes what to build)
 
@@ -588,3 +590,44 @@ chapters/jain/translations/
   exhausted; open items across units (third sources, character-exact SS checks, full padaccheda for
   Kalyāṇamandira v.2–44 and Bhaktāmara v.21–48) are the natural next passes, plus the still-`later`
   Kalyāṇa/Chattāri/Ratnākara devotional items pending source-confirmation.
+
+---
+
+### Run-log — 2026-08-24 · Unit #16 Svayambhūstotra (Samantabhadra), first pass · + Ratnākara scouted-and-deferred, #17 Āptamīmāṃsā queued
+
+- **Session ask:** "is Bhaktāmar done? find the next one and get it done as far as you can, without hallucinating."
+  Bhaktāmar confirmed done (unit #5). The queue's only open row was the `later` "Ratnākara etc." with the
+  source-confirmation caveat — so scouting came first.
+- **Ratnākara Pañcaviṃśatikā (Ratnākar Pachisi) — SCOUTED, DEFERRED.** Finding: the text everyone circulates
+  ("Mandir chho mukti tani…") is the **Gujarati** devotional version (Shamjibhai Hemchand Desai); every English
+  rendering online traces to that one Gujarati chain (weak independence), and — decisively — **the original
+  Sanskrit does not circulate citably** (jinavachan/jainsite/lokdayro all carry romanized Gujarati, not
+  Devanāgarī Sanskrit). Without a sourceable Sanskrit base text the word-by-word firewall can't be honoured, so
+  the unit was **not** built (the exact risk the `later`-row caveat anticipated). Recorded, not forced.
+- **Pivot → Svayambhūstotra (Samantabhadra), built as unit #16.** Chosen because clean machine-readable Sanskrit
+  is available (sanskritdocuments.org ITX/HTML, all 143 vv.) and the trusted Vijay K. Jain (2015) edition supplies
+  the English — same edition family as Bhaktāmar + the Tattvārtha *Sarvārthasiddhi*. Devotional → natural
+  continuation; Samantabhadra the anekāntavāda logician → on-theme.
+- **What was built:** full front-matter (single-recension model stated; sourcing-independence honesty; medium
+  confidence justified — one full translation, base text from a study site); the maṅgala; **§1 Ṛṣabha vv.1–5 at
+  full padaccheda depth** (the Brahmanical-epithet-appropriation showcase — *svayambhū/prajāpati/acyuta/brahma-
+  pada/īśvara* each MW-glossed to its theistic sense then doctrinally inverted); **§24 Mahāvīra vv.136–143 at full
+  depth** (v.138 *syādvāda* with full padaccheda + the *dṛṣṭa/iṣṭa* ↔ *pratyakṣa/parokṣa* disambiguation; v.143
+  *naya* + *samantabhadra* signature-pun); §§2–23 structural survey with a verse-range table.
+- **Findings logged in-file:** (1) the epithet-appropriation thread; (2) v.138 as a primary-source [[syadvada]]
+  anchor comparable to TS 5.32 for [[anekantavada]]; (3) countable verse-count asymmetry (5 each **except** §18
+  Aranātha 20, §22 Neminātha 10, §24 Mahāvīra 8 = 143); (4) the yamaka *citra-kāvya* form of the Mahāvīra hymn;
+  (5) textual crux at v.5 (*vaṣa bho* → *vṛṣabho*), flagged not silently emended.
+- **Quarantine held:** Modern-comparison N/A throughout except the one labelled v.138 note (syādvāda
+  `often-conflated-with-NOT-equivalent` fuzzy/many-valued logic — pointer to existing nodes, never fed back into
+  the gloss).
+- **Graph impact:** none — reading-room files are outside `concepts/`; `build_graph.py` does not scan
+  `chapters/`. No new concept nodes created (a `samantabhadra` node is *referenced but unwritten* — flagged as a
+  candidate for the concept-batch track, since [[anekantavada]]/[[syadvada]]/[[saptabhangi]] already presuppose
+  him).
+- **Next unit set to #17, Āptamīmāṃsā / Devāgamastotra** (sources pre-confirmed this session: GRETIL critical
+  digital edition + Vijay K. Jain 2016 + real ṭīkā tradition) — the philosophically richest reading-room unit
+  available; deserves a dedicated push. Per §E the lowest-numbered `pending` unit is now **#17**.
+- **Open items for #16's future passes:** per-verse padaccheda for vv.6–135; a genuine second English translation;
+  full-depth treatment of the extended §18/§22 doctrinal sections; meter identification from a prosody source;
+  confirm the v.5 crux against a critical edition.
