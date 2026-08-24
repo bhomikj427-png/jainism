@@ -37,6 +37,7 @@
 | 19 The Texts: Śruti, Smṛti & the Authors | [hindu/scripture/19-hindu-scripture.md](hindu/scripture/19-hindu-scripture.md) | upanishad · rta · yajna · brahma-sutra · badarayana · mahabharata · ramayana · gita · samatva · sthitaprajna · jivanmukti · vishnu-sahasranama · vyasa · valmiki · dana · samsara | drafted |
 | 20 Buddhist Scholastics | [buddhist/20-buddhist-scholastics.md](buddhist/20-buddhist-scholastics.md) | nagarjuna · mulamadhyamakakarika · prasanga-nagarjuna · santideva · vasubandhu · abhidharmakosa · asanga · trisvabhava · pramana-samuccaya · dharmakirti · pramanavarttika · santaraksita · kamalasila · nirvana-mahayana | drafted |
 | 21 The Churning of the Ocean | [hindu/devotional/21-churning-and-avataras.md](hindu/devotional/21-churning-and-avataras.md) | samudra-manthana · amrita · halahala · kurma · vasuki · dhanvantari · mohini · rahu · ketu · svarbhanu · airavata · ucchaihshravas · kaustubha · varuni · parijata · kalpavriksha · shesha · kadru · vinata · jatayu · sampati · matsya · varaha · narasimha · vamana · bali · parashurama · kalki | drafted |
+| 22 Four and Four: Equanimity & Compassion | [cross-tradition/22-ethics-equanimity.md](cross-tradition/22-ethics-equanimity.md) | metta · karuna · mudita · upekkha · maitri-jain · pramoda · karunya · madhyasthya · ahimsa-vedic | drafted |
 
 ---
 
@@ -50,7 +51,7 @@
 | ~~19~~ | ~~Hindu Epics & Scripture~~ | `hindu/scripture/` | — | **drafted** (see table above; picked up badarayana · samatva · sthitaprajna · jivanmukti beyond the planned list) |
 | ~~20~~ | ~~Buddhist Scholastics: Madhyamaka, Yogācāra & the Logicians~~ | `buddhist/` | — | **drafted** (see table above; `dharmottara` stays primary in Ch 05 and is cross-referenced only) |
 | ~~21~~ | ~~The Churning of the Ocean: the Samudra-manthana Cycle & the Daśāvatāra~~ | `hindu/devotional/` | — | **drafted** (see table above) |
-| 22 | Equanimity & Compassion: the Cross-Tradition Ethics Cluster | `cross-tradition/` | karuna · metta · mudita · upekkha (the four brahmavihāras) · maitri-jain · pramoda · karunya · madhyasthya (the four Jain bhāvanās) · samatva · dana (NB: `samatva` and `dana` are primary-covered in Ch 19 and would be cross-referenced only. The headline is the **four-and-four structural parallel** — the Buddhist brahmavihāras and the Jain bhāvanās are near-identical quartets in incompatible soteriologies) | planned |
+| ~~22~~ | ~~Equanimity & Compassion: the Cross-Tradition Ethics Cluster~~ | `cross-tradition/` | — | **drafted** (see table above; also picked up `ahimsa-vedic`, which had no chapter home) |
 | 23 | Āyurveda: the Medical Tradition | `hindu/` (new sub-folder, or `hindu/scripture/`) | ayurveda · charaka · sushruta · tridosha · dhanvantari (NB: `dhanvantari` is primary-covered in Ch 21 as a churning-ratna and would be cross-referenced only. `vagbhata` and `dhatu`/`mala` are still **unwritten nodes** in the `progress.md` batch queue — check whether they exist before drafting) | planned |
 | 24 | The Later Neoplatonists: Theurgy, the Henads & the Christian Transmission | `comparanda/` | iamblichus · syrianus · proclus-henad · damascius · marinus · simplicius · ammonius-saccas · theurgy · chaldean-oracles · psyche-neoplatonic · liber-de-causis · pseudo-dionysius (NB: `neoplatonism`, `plotinus`, `plotinus-one`, `nous`, `henosis`, `porphyry`, `proclus` are primary-covered in Ch 13; this chapter is the **post-Plotinian school, its ritual turn, and how it reached the Latin Middle Ages**) | planned |
 
@@ -320,3 +321,12 @@
 | bali | Ch 21 | Ch 18 §7.3 (dispossesses Indra) — **contested** (grace vs punishment; Onam) |
 | paraśurāma | Ch 21 | Ch 19 (Mahābhārata + Rāmāyaṇa Bāla 74–76) · Ch 18 §2.4 (the tejas-handover to Rāma) |
 | kalki | Ch 21 | Ch 11/18 (daśāvatāra 10); two confidence tiers; the Kālacakra borrowing |
+| mettā | Ch 22 | Ch 04 (the positive ground of Buddhist ahiṃsā) · Ch 12 (brahmavihāra practice) |
+| karuṇā | Ch 22 | Ch 12 §5 / Ch 20 §3 (*mahākaruṇā* → bodhicitta; Śāntideva) |
+| muditā | Ch 22 | — (the least-practised brahmavihāra; structurally essential) |
+| upekkhā | Ch 22 | Ch 12 §3.1 (grounded in anattā) · Ch 19 §6.3.1 (∥ samatva) |
+| maitrī-jain | Ch 22 | Ch 04/08 (the affective ground of the ahiṃsā vow) · TS 7.11 fetched directly |
+| pramoda | Ch 22 | Ch 03 (the *māna* kaṣāya it opposes) |
+| kāruṇya | Ch 22 | Ch 08 (motive behind the ahiṃsā vow) |
+| mādhyasthya | Ch 22 | Ch 08 (∥ aparigraha — internal non-attachment) · Ch 03 (kaṣāya-restraint) |
+| ahiṃsā-vedic | Ch 22 | Ch 04 (NOT-equiv Jain ahiṃsā, despite the shared maxim) · Ch 15 (Yoga-Sūtra II.30 yamas) |
