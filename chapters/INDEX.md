@@ -33,6 +33,7 @@
 | 15 Sāṃkhya & Yoga | [hindu/darsana/15-samkhya-yoga.md](hindu/darsana/15-samkhya-yoga.md) | kapila · samkhya-karika · prakriti-samkhya · purusha-samkhya · guna-samkhya · satkaryavada · patanjali · yoga-darshana · citta-vritti · citta · manas | drafted |
 | 16 Nyāya & Vaiśeṣika | [hindu/darsana/16-nyaya-vaisheshika.md](hindu/darsana/16-nyaya-vaisheshika.md) | gautama-aksapada · kanada · nyaya-sutra · vaiseshika-sutra · dravya-vaisheshika · paramanu-vaisheshika · pancha-mahabhuta · asatkaryavada · prashastapada | drafted |
 | 17 Mīmāṃsā & Cārvāka | [hindu/darsana/17-mimamsa-carvaka.md](hindu/darsana/17-mimamsa-carvaka.md) | jaimini · mimamsa-sutra · kumarila-bhatta · prabhakara · carvaka | drafted |
+| 18 The Deity World | [hindu/devotional/18-hindu-deities.md](hindu/devotional/18-hindu-deities.md) | trimurti · brahma · vishnu · shiva · shakti · vaishnavism · shaivism · krishna · rama · lingam · nataraja · kala-bhairava · spanda · pratyabhijna · durga · kali · parvati · ganesha · kartikeya · hanuman · nandi · garuda · surya · agni · indra · aruna · kamadhenu | drafted |
 
 ---
 
@@ -42,11 +43,13 @@
 
 | # | planned chapter | sub-folder | primary concepts (already written as nodes) | status |
 |---|---|---|---|---|
-| 18 | Hindu Deities: Trimūrti & the Devotional Families | `hindu/devotional/` | brahma · vishnu · shiva · trimurti · nataraja · lingam · nandi · kala-bhairava · krishna · rama · garuda · vaishnavism · durga · kali · parvati · shakti · ganesha · hanuman · surya · agni · kartikeya · kamadhenu · aruna · shaivism · spanda · pratyabhijna | planned |
+| ~~18~~ | ~~Hindu Deities: Trimūrti & the Devotional Families~~ | `hindu/devotional/` | — | **drafted** (see table above) |
 | 19 | Hindu Epics & Scripture | `hindu/scripture/` | upanishad · brahma-sutra · mahabharata · ramayana · gita · valmiki · vyasa · vishnu-sahasranama · yajna · rta · dana · samsara | planned |
 | 20 | Buddhist Scholastics: Madhyamaka, Yogācāra & the Logicians | `buddhist/` | nagarjuna · mulamadhyamakakarika · prasanga-nagarjuna · vasubandhu · asanga · trisvabhava · abhidharmakosa · santaraksita · kamalasila · santideva · dharmakirti · pramana-samuccaya · pramanavarttika · dharmottara · nirvana-mahayana (NB: madhyamaka/yogācāra **doctrine** is in Ch 12; this chapter is the **figures, texts & logicians** behind it) | planned |
 
-*Beyond Ch 20 the corpus still has ethics/practice nodes (karuṇā · mettā · maitrī-jain · upekkhā · dāna · the brahmavihāras) and any future Batch-34+ nodes that may warrant their own cross-tradition chapter. Re-derive the next row from `concepts/` vs. this table whenever the roadmap is exhausted.*
+| 21 | The Churning of the Ocean: the Samudra-manthana Cycle & the Daśāvatāra | `hindu/devotional/` | samudra-manthana · amrita · halahala · kurma · vasuki · dhanvantari · mohini · matsya · varaha · narasimha · vamana · parashurama · kalki · bali · airavata · ucchaihshravas · parijata · kalpavriksha · kaustubha · varuni · shesha · kadru · vinata · jatayu · sampati · rahu · ketu · svarbhanu (NB: `avatara-vedanta` as **doctrine** is primary-covered in Ch 11 and re-treated in Ch 18 §2.2; this chapter is the **individual avatāras and the churning-treasures** — the largest written cluster in `concepts/` with no chapter home) | planned |
+
+*Beyond Ch 21 the corpus still has ethics/practice nodes (karuṇā · mettā · maitrī-jain · upekkhā · mudita · pramoda · karunya · madhyasthya · samatva · dāna · the brahmavihāras), an Āyurveda cluster (ayurveda · charaka · sushruta · tridosha · dhanvantari), and a Neoplatonic remainder not covered by Ch 13 (iamblichus · damascius · syrianus · marinus · simplicius · ammonius-saccas · theurgy · chaldean-oracles · liber-de-causis · pseudo-dionysius · proclus-henad · psyche-neoplatonic). Re-derive the next row from `concepts/` vs. this table whenever the roadmap is exhausted.*
 
 ---
 
@@ -226,3 +229,31 @@
 | kumārila-bhaṭṭa | Ch 17 | Ch 05 (svataḥ-prāmāṇya vs Nyāya parataḥ; the Dignāga duel) |
 | prabhākara | Ch 17 | Ch 05 (five-pramāṇa count; akhyāti error-theory) |
 | cārvāka | Ch 17 | Ch 05 (the anti-vyāpti attack) · Ch 14 (NOT-equiv democritus-atom) · Ch 12 (NOT-equiv anattā) |
+| trimūrti | Ch 18 | Ch 11 §7.1 (Trimūrti/Tridevi preview table) |
+| brahmā | Ch 18 | Ch 04/11 (the Brahmā ≠ Brahman trap) |
+| viṣṇu | Ch 18 | Ch 11 (the three-school Brahman relation) |
+| śiva | Ch 18 | Ch 11 (Śiva as saguṇa face of Brahman) |
+| śakti | Ch 18 | Ch 15 (NOT-equiv prakṛti) · Ch 11 (NOT-equiv māyā) |
+| vaiṣṇavism | Ch 18 | Ch 11 (Viśiṣṭādvaita/Dvaita sampradāyas) |
+| śaivism | Ch 18 | Ch 11 (the Śaiva rejection of māyāvāda) |
+| kṛṣṇa | Ch 18 | Ch 11/19 (Gītā speaker) — **contested** (avatāra vs svayaṃ bhagavān) |
+| rāma | Ch 18 | Ch 19 (Rāmāyaṇa) · Ch 11 (seventh avatāra) |
+| avatāra | Ch 11 | Ch 18 §2.2 (re-treated as deity doctrine) · Ch 03/10 (NOT-equiv tīrthaṅkara) |
+| liṅga | Ch 18 | Ch 10 (aniconism vs the arihant mūrti) |
+| naṭarāja | Ch 18 | — (the CERN/Capra physics flag lives here) |
+| kāla-bhairava | Ch 18 | Ch 09 (NOT-equiv Jain kāla-dravya) |
+| spanda | Ch 18 | Ch 01 (∥ Jain sat: permanence-in-change) · Ch 15 (NOT-equiv prakṛti) |
+| pratyabhijñā | Ch 18 | Ch 11 (∥ and NOT-equiv Advaita) · Ch 12/05 (vs Buddhist kṣaṇavāda) |
+| durgā | Ch 18 | Ch 11 (∥ avatāra, but self-manifestation not descent) |
+| kālī | Ch 18 | Ch 15 (NOT-equiv prakṛti) |
+| pārvatī | Ch 18 | Ch 19 (Kena Up. Umā Haimavatī antecedent) |
+| gaṇeśa | Ch 18 | Ch 19 (scribe of the Mahābhārata) |
+| kārttikeya | Ch 18 | — (Skanda/Murukaṉ North→South shift) |
+| hanumān | Ch 18 | Ch 19 (Rāmāyaṇa Sundara Kāṇḍa; Mahābhārata Vana Parva) |
+| nandi | Ch 18 | Ch 03 (the *jīva* vocabulary caution) |
+| garuḍa | Ch 18 | Ch 21 planned (the amṛta-quest belongs to the churning cycle) |
+| sūrya | Ch 18 | Ch 19 (Gāyatrī/Savitṛ) · Ch 04 (Pañcāyatana ≈ Brahman) |
+| agni | Ch 18 | Ch 19 (yajña · ṛta) · Ch 14 (∥ and NOT-equiv stoic-logos) · Ch 09 (weak ∥ dharma-dravya) |
+| indra | Ch 18 | Ch 21 planned (Bali/Vāmana; churning) — **contested** (Vedic sovereign vs Purāṇic demotion) |
+| aruṇa | Ch 18 | Ch 19 (Sampāti/Jaṭāyu in the Rāmāyaṇa) |
+| kāmadhenu | Ch 18 | Ch 19 (Vasiṣṭha/Viśvāmitra, Rāmāyaṇa Bāla Kāṇḍa) · Ch 21 planned (churning-ratna) |
