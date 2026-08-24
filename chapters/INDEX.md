@@ -7,6 +7,7 @@
 #   hindu/darsana/    — the philosophical systems (āstika darśanas: Vedānta, Sāṃkhya, Yoga, Nyāya, Vaiśeṣika, Mīmāṃsā)
 #   hindu/devotional/ — deities, vāhanas, iconography, bhakti, the Śaiva/Vaiṣṇava/Śākta families
 #   hindu/scripture/  — epics and canonical texts (Vedas, Upaniṣads, Mahābhārata, Rāmāyaṇa, Gītā, root sūtras)
+#   hindu/shastra/    — technical/scientific śāstra (Āyurveda; and any future jyotiṣa, Arthaśāstra, Nāṭyaśāstra)
 
 > **📖 THIRD TRACK — Translation Reading-Room** (separate from chapters below): word-by-word sourced translations
 > of Jain texts (Tattvārtha Sūtra, Bhaktāmar Stotra, …) live under `chapters/jain/translations/`. Its own driver +
@@ -38,6 +39,7 @@
 | 20 Buddhist Scholastics | [buddhist/20-buddhist-scholastics.md](buddhist/20-buddhist-scholastics.md) | nagarjuna · mulamadhyamakakarika · prasanga-nagarjuna · santideva · vasubandhu · abhidharmakosa · asanga · trisvabhava · pramana-samuccaya · dharmakirti · pramanavarttika · santaraksita · kamalasila · nirvana-mahayana | drafted |
 | 21 The Churning of the Ocean | [hindu/devotional/21-churning-and-avataras.md](hindu/devotional/21-churning-and-avataras.md) | samudra-manthana · amrita · halahala · kurma · vasuki · dhanvantari · mohini · rahu · ketu · svarbhanu · airavata · ucchaihshravas · kaustubha · varuni · parijata · kalpavriksha · shesha · kadru · vinata · jatayu · sampati · matsya · varaha · narasimha · vamana · bali · parashurama · kalki | drafted |
 | 22 Four and Four: Equanimity & Compassion | [cross-tradition/22-ethics-equanimity.md](cross-tradition/22-ethics-equanimity.md) | metta · karuna · mudita · upekkha · maitri-jain · pramoda · karunya · madhyasthya · ahimsa-vedic | drafted |
+| 23 Āyurveda | [hindu/shastra/23-ayurveda.md](hindu/shastra/23-ayurveda.md) | ayurveda · charaka · sushruta · tridosha | drafted |
 
 ---
 
@@ -52,7 +54,7 @@
 | ~~20~~ | ~~Buddhist Scholastics: Madhyamaka, Yogācāra & the Logicians~~ | `buddhist/` | — | **drafted** (see table above; `dharmottara` stays primary in Ch 05 and is cross-referenced only) |
 | ~~21~~ | ~~The Churning of the Ocean: the Samudra-manthana Cycle & the Daśāvatāra~~ | `hindu/devotional/` | — | **drafted** (see table above) |
 | ~~22~~ | ~~Equanimity & Compassion: the Cross-Tradition Ethics Cluster~~ | `cross-tradition/` | — | **drafted** (see table above; also picked up `ahimsa-vedic`, which had no chapter home) |
-| 23 | Āyurveda: the Medical Tradition | `hindu/` (new sub-folder, or `hindu/scripture/`) | ayurveda · charaka · sushruta · tridosha · dhanvantari (NB: `dhanvantari` is primary-covered in Ch 21 as a churning-ratna and would be cross-referenced only. `vagbhata` and `dhatu`/`mala` are still **unwritten nodes** in the `progress.md` batch queue — check whether they exist before drafting) | planned |
+| ~~23~~ | ~~Āyurveda: the Medical Tradition~~ | `hindu/shastra/` **(new sub-folder)** | — | **drafted** (see table above; `dhanvantari` stays primary in Ch 21. `vagbhata` and `dhatu`/`mala` are still **unwritten nodes** — the third classical authority is a hole in the chapter) |
 | 24 | The Later Neoplatonists: Theurgy, the Henads & the Christian Transmission | `comparanda/` | iamblichus · syrianus · proclus-henad · damascius · marinus · simplicius · ammonius-saccas · theurgy · chaldean-oracles · psyche-neoplatonic · liber-de-causis · pseudo-dionysius (NB: `neoplatonism`, `plotinus`, `plotinus-one`, `nous`, `henosis`, `porphyry`, `proclus` are primary-covered in Ch 13; this chapter is the **post-Plotinian school, its ritual turn, and how it reached the Latin Middle Ages**) | planned |
 
 *Rows 22–24 were re-derived from `concepts/` against this table when the original Ch 15–21 roadmap was exhausted (2026-08-24), per the standing instruction in this section. They are the last three clusters of written nodes with no chapter home; after them, every concept in `concepts/` is covered. Re-derive again from `concepts/` vs. this table whenever the roadmap is exhausted.*
@@ -330,3 +332,7 @@
 | kāruṇya | Ch 22 | Ch 08 (motive behind the ahiṃsā vow) |
 | mādhyasthya | Ch 22 | Ch 08 (∥ aparigraha — internal non-attachment) · Ch 03 (kaṣāya-restraint) |
 | ahiṃsā-vedic | Ch 22 | Ch 04 (NOT-equiv Jain ahiṃsā, despite the shared maxim) · Ch 15 (Yoga-Sūtra II.30 yamas) |
+| āyurveda | Ch 23 | Ch 16 §6 (pañcamahābhūta) · Ch 15 (NOT-equiv Sāṃkhya prakṛti) |
+| caraka | Ch 23 | Ch 15 (the guṇa-typology's borrowed vocabulary) — **contested** (person or lineage?) |
+| suśruta | Ch 23 | Ch 21 §5 / Ch 19 (the Dhanvantari-vs-Divodāsa frame; the same stratigraphy as the Rāmāyaṇa) — **contested** |
+| tridoṣa | Ch 23 | Ch 16 §6 (each doṣa = two mahābhūtas) · Ch 15 (NOT-equiv guṇa-sāṃkhya) |
