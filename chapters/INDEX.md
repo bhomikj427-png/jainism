@@ -36,6 +36,7 @@
 | 18 The Deity World | [hindu/devotional/18-hindu-deities.md](hindu/devotional/18-hindu-deities.md) | trimurti · brahma · vishnu · shiva · shakti · vaishnavism · shaivism · krishna · rama · lingam · nataraja · kala-bhairava · spanda · pratyabhijna · durga · kali · parvati · ganesha · kartikeya · hanuman · nandi · garuda · surya · agni · indra · aruna · kamadhenu | drafted |
 | 19 The Texts: Śruti, Smṛti & the Authors | [hindu/scripture/19-hindu-scripture.md](hindu/scripture/19-hindu-scripture.md) | upanishad · rta · yajna · brahma-sutra · badarayana · mahabharata · ramayana · gita · samatva · sthitaprajna · jivanmukti · vishnu-sahasranama · vyasa · valmiki · dana · samsara | drafted |
 | 20 Buddhist Scholastics | [buddhist/20-buddhist-scholastics.md](buddhist/20-buddhist-scholastics.md) | nagarjuna · mulamadhyamakakarika · prasanga-nagarjuna · santideva · vasubandhu · abhidharmakosa · asanga · trisvabhava · pramana-samuccaya · dharmakirti · pramanavarttika · santaraksita · kamalasila · nirvana-mahayana | drafted |
+| 21 The Churning of the Ocean | [hindu/devotional/21-churning-and-avataras.md](hindu/devotional/21-churning-and-avataras.md) | samudra-manthana · amrita · halahala · kurma · vasuki · dhanvantari · mohini · rahu · ketu · svarbhanu · airavata · ucchaihshravas · kaustubha · varuni · parijata · kalpavriksha · shesha · kadru · vinata · jatayu · sampati · matsya · varaha · narasimha · vamana · bali · parashurama · kalki | drafted |
 
 ---
 
@@ -48,9 +49,12 @@
 | ~~18~~ | ~~Hindu Deities: Trimūrti & the Devotional Families~~ | `hindu/devotional/` | — | **drafted** (see table above) |
 | ~~19~~ | ~~Hindu Epics & Scripture~~ | `hindu/scripture/` | — | **drafted** (see table above; picked up badarayana · samatva · sthitaprajna · jivanmukti beyond the planned list) |
 | ~~20~~ | ~~Buddhist Scholastics: Madhyamaka, Yogācāra & the Logicians~~ | `buddhist/` | — | **drafted** (see table above; `dharmottara` stays primary in Ch 05 and is cross-referenced only) |
-| 21 | The Churning of the Ocean: the Samudra-manthana Cycle & the Daśāvatāra | `hindu/devotional/` | samudra-manthana · amrita · halahala · kurma · vasuki · dhanvantari · mohini · matsya · varaha · narasimha · vamana · parashurama · kalki · bali · airavata · ucchaihshravas · parijata · kalpavriksha · kaustubha · varuni · shesha · kadru · vinata · jatayu · sampati · rahu · ketu · svarbhanu (NB: `avatara-vedanta` as **doctrine** is primary-covered in Ch 11 and re-treated in Ch 18 §2.2; this chapter is the **individual avatāras and the churning-treasures** — the largest written cluster in `concepts/` with no chapter home) | planned |
+| ~~21~~ | ~~The Churning of the Ocean: the Samudra-manthana Cycle & the Daśāvatāra~~ | `hindu/devotional/` | — | **drafted** (see table above) |
+| 22 | Equanimity & Compassion: the Cross-Tradition Ethics Cluster | `cross-tradition/` | karuna · metta · mudita · upekkha (the four brahmavihāras) · maitri-jain · pramoda · karunya · madhyasthya (the four Jain bhāvanās) · samatva · dana (NB: `samatva` and `dana` are primary-covered in Ch 19 and would be cross-referenced only. The headline is the **four-and-four structural parallel** — the Buddhist brahmavihāras and the Jain bhāvanās are near-identical quartets in incompatible soteriologies) | planned |
+| 23 | Āyurveda: the Medical Tradition | `hindu/` (new sub-folder, or `hindu/scripture/`) | ayurveda · charaka · sushruta · tridosha · dhanvantari (NB: `dhanvantari` is primary-covered in Ch 21 as a churning-ratna and would be cross-referenced only. `vagbhata` and `dhatu`/`mala` are still **unwritten nodes** in the `progress.md` batch queue — check whether they exist before drafting) | planned |
+| 24 | The Later Neoplatonists: Theurgy, the Henads & the Christian Transmission | `comparanda/` | iamblichus · syrianus · proclus-henad · damascius · marinus · simplicius · ammonius-saccas · theurgy · chaldean-oracles · psyche-neoplatonic · liber-de-causis · pseudo-dionysius (NB: `neoplatonism`, `plotinus`, `plotinus-one`, `nous`, `henosis`, `porphyry`, `proclus` are primary-covered in Ch 13; this chapter is the **post-Plotinian school, its ritual turn, and how it reached the Latin Middle Ages**) | planned |
 
-*Beyond Ch 21 the corpus still has ethics/practice nodes (karuṇā · mettā · maitrī-jain · upekkhā · mudita · pramoda · karunya · madhyasthya · samatva · dāna · the brahmavihāras), an Āyurveda cluster (ayurveda · charaka · sushruta · tridosha · dhanvantari), and a Neoplatonic remainder not covered by Ch 13 (iamblichus · damascius · syrianus · marinus · simplicius · ammonius-saccas · theurgy · chaldean-oracles · liber-de-causis · pseudo-dionysius · proclus-henad · psyche-neoplatonic). Re-derive the next row from `concepts/` vs. this table whenever the roadmap is exhausted.*
+*Rows 22–24 were re-derived from `concepts/` against this table when the original Ch 15–21 roadmap was exhausted (2026-08-24), per the standing instruction in this section. They are the last three clusters of written nodes with no chapter home; after them, every concept in `concepts/` is covered. Re-derive again from `concepts/` vs. this table whenever the roadmap is exhausted.*
 
 ---
 
@@ -288,3 +292,31 @@
 | śāntarakṣita | Ch 20 | Ch 12 §6 (the Madhyamaka/Yogācāra split he adjudicates) · Ch 02 (NOT-equiv anekāntavāda) |
 | kamalaśīla | Ch 20 | Ch 03 (NOT-equiv guṇasthāna) · Ch 15 (NOT-equiv yoga-darśana) |
 | apratiṣṭhita-nirvāṇa | Ch 20 | Ch 12 §2.4 (NOT-equiv nibbāna-theravāda) · Ch 12 §5 (the bodhisattva ideal) |
+| samudra-manthana | Ch 21 | Ch 18 §7.4 (Kāmadhenu as a churning-ratna) · Ch 11 (Lakṣmī) |
+| amṛta | Ch 21 | Ch 12 (Buddhist *amata* = "the deathless," NOT a nectar) · Ch 18 §6.4 (Garuḍa's quest) |
+| hālāhala | Ch 21 | Ch 18 §3 (the Nīlakaṇṭha epithet it explains) |
+| kūrma | Ch 21 | Ch 11/18 (daśāvatāra 2) — **contested** (Prajāpati-tortoise reattributed to Viṣṇu) |
+| vāsuki | Ch 21 | Ch 18 §3 (Śiva's neck-serpent) |
+| dhanvantari | Ch 21 | — (also the presiding deity of the still-uncovered Āyurveda cluster) |
+| mohinī | Ch 21 | Ch 11 §7.2 (the avatāra-vs-māyā classification question) · Ch 18 §3 (the Ayyappa sequel) |
+| rāhu | Ch 21 | — (the eclipse-myth vs *siddhānta*-astronomy flag lives here) |
+| ketu | Ch 21 | — (descending node; the mokṣa-ward pole to Rāhu) |
+| svarbhānu | Ch 21 | Ch 18 §7.3 (the same two-layer stratification as Indra) — **contested** |
+| airāvata | Ch 21 | Ch 18 §7.3 (Indra's mount) |
+| uccaiḥśravas | Ch 21 | Ch 19 (the tail-wager that drives the Rāmāyaṇa's bird-line) |
+| kaustubha | Ch 21 | Ch 18 §2 (Viṣṇu's iconography; Kaustubhadhāri) |
+| vāruṇī | Ch 21 | — **contested** (devas or asuras?); the *surā*/*asura* folk-etymology flag |
+| pārijāta | Ch 21 | Ch 18 §2.3 (the Kṛṣṇa–Satyabhāmā uprooting) |
+| kalpavṛkṣa | Ch 21 | Ch 18 §7.4 (twin of Kāmadhenu) |
+| śeṣa | Ch 21 | Ch 18 §2 (Viṣṇu's serpent-couch) — the cluster's one **high**-confidence node |
+| kadrū | Ch 21 | Ch 18 §6.4 (the nāga/bird enmity Garuḍa inherits) |
+| vinatā | Ch 21 | Ch 18 §§6.4, 7.2 (mother of Garuḍa and Aruṇa) |
+| jaṭāyu | Ch 21 | Ch 19 (Rāmāyaṇa, Araṇya Kāṇḍa) |
+| sampāti | Ch 21 | Ch 19 (Rāmāyaṇa, Kiṣkindhā Kāṇḍa) |
+| matsya | Ch 21 | Ch 11/18 (daśāvatāra 1); the three-stage identity shift |
+| varāha | Ch 21 | Ch 11/18 (daśāvatāra 3); ŚB 14.1.2 caught mid-harmonisation |
+| narasiṃha | Ch 21 | Ch 11/18 (daśāvatāra 4); the boon-loophole |
+| vāmana | Ch 21 | Ch 18 §7.3 (the three worlds restored to Indra); RV 1.154 Trivikrama |
+| bali | Ch 21 | Ch 18 §7.3 (dispossesses Indra) — **contested** (grace vs punishment; Onam) |
+| paraśurāma | Ch 21 | Ch 19 (Mahābhārata + Rāmāyaṇa Bāla 74–76) · Ch 18 §2.4 (the tejas-handover to Rāma) |
+| kalki | Ch 21 | Ch 11/18 (daśāvatāra 10); two confidence tiers; the Kālacakra borrowing |
