@@ -34,6 +34,7 @@
 | 16 Nyāya & Vaiśeṣika | [hindu/darsana/16-nyaya-vaisheshika.md](hindu/darsana/16-nyaya-vaisheshika.md) | gautama-aksapada · kanada · nyaya-sutra · vaiseshika-sutra · dravya-vaisheshika · paramanu-vaisheshika · pancha-mahabhuta · asatkaryavada · prashastapada | drafted |
 | 17 Mīmāṃsā & Cārvāka | [hindu/darsana/17-mimamsa-carvaka.md](hindu/darsana/17-mimamsa-carvaka.md) | jaimini · mimamsa-sutra · kumarila-bhatta · prabhakara · carvaka | drafted |
 | 18 The Deity World | [hindu/devotional/18-hindu-deities.md](hindu/devotional/18-hindu-deities.md) | trimurti · brahma · vishnu · shiva · shakti · vaishnavism · shaivism · krishna · rama · lingam · nataraja · kala-bhairava · spanda · pratyabhijna · durga · kali · parvati · ganesha · kartikeya · hanuman · nandi · garuda · surya · agni · indra · aruna · kamadhenu | drafted |
+| 19 The Texts: Śruti, Smṛti & the Authors | [hindu/scripture/19-hindu-scripture.md](hindu/scripture/19-hindu-scripture.md) | upanishad · rta · yajna · brahma-sutra · badarayana · mahabharata · ramayana · gita · samatva · sthitaprajna · jivanmukti · vishnu-sahasranama · vyasa · valmiki · dana · samsara | drafted |
 
 ---
 
@@ -44,7 +45,7 @@
 | # | planned chapter | sub-folder | primary concepts (already written as nodes) | status |
 |---|---|---|---|---|
 | ~~18~~ | ~~Hindu Deities: Trimūrti & the Devotional Families~~ | `hindu/devotional/` | — | **drafted** (see table above) |
-| 19 | Hindu Epics & Scripture | `hindu/scripture/` | upanishad · brahma-sutra · mahabharata · ramayana · gita · valmiki · vyasa · vishnu-sahasranama · yajna · rta · dana · samsara | planned |
+| ~~19~~ | ~~Hindu Epics & Scripture~~ | `hindu/scripture/` | — | **drafted** (see table above; picked up badarayana · samatva · sthitaprajna · jivanmukti beyond the planned list) |
 | 20 | Buddhist Scholastics: Madhyamaka, Yogācāra & the Logicians | `buddhist/` | nagarjuna · mulamadhyamakakarika · prasanga-nagarjuna · vasubandhu · asanga · trisvabhava · abhidharmakosa · santaraksita · kamalasila · santideva · dharmakirti · pramana-samuccaya · pramanavarttika · dharmottara · nirvana-mahayana (NB: madhyamaka/yogācāra **doctrine** is in Ch 12; this chapter is the **figures, texts & logicians** behind it) | planned |
 
 | 21 | The Churning of the Ocean: the Samudra-manthana Cycle & the Daśāvatāra | `hindu/devotional/` | samudra-manthana · amrita · halahala · kurma · vasuki · dhanvantari · mohini · matsya · varaha · narasimha · vamana · parashurama · kalki · bali · airavata · ucchaihshravas · parijata · kalpavriksha · kaustubha · varuni · shesha · kadru · vinata · jatayu · sampati · rahu · ketu · svarbhanu (NB: `avatara-vedanta` as **doctrine** is primary-covered in Ch 11 and re-treated in Ch 18 §2.2; this chapter is the **individual avatāras and the churning-treasures** — the largest written cluster in `concepts/` with no chapter home) | planned |
@@ -257,3 +258,19 @@
 | indra | Ch 18 | Ch 21 planned (Bali/Vāmana; churning) — **contested** (Vedic sovereign vs Purāṇic demotion) |
 | aruṇa | Ch 18 | Ch 19 (Sampāti/Jaṭāyu in the Rāmāyaṇa) |
 | kāmadhenu | Ch 18 | Ch 19 (Vasiṣṭha/Viśvāmitra, Rāmāyaṇa Bāla Kāṇḍa) · Ch 21 planned (churning-ratna) |
+| upaniṣad | Ch 19 | Ch 11 §1 (prasthānatrayī + the four mahāvākyas) · Ch 04 (brahman/ātman) |
+| ṛta | Ch 19 | Ch 18 §7.1 (Agni as *ṛtasya gopā*) · Ch 14 (∥ stoic-logos) · Ch 12 (∥ dhamma) |
+| yajña | Ch 19 | Ch 17 (Mīmāṃsā's paradigm case) · Ch 18 §7.1 (Agni the mediator) · Ch 08 (NOT-equiv ahiṃsā) |
+| brahma-sūtra | Ch 19 | Ch 11 §1 (as prasthānatrayī member) · Ch 17 (∥ and NOT-equiv mīmāṃsā-sūtra) · Ch 15 (refutes Sāṃkhya) |
+| bādarāyaṇa | Ch 19 | Ch 17 (paired with jaimini: Uttara- vs Pūrva-Mīmāṃsā) — **contested** (identity with Vyāsa) |
+| mahābhārata | Ch 19 | Ch 18 §6.1 (Gaṇeśa the scribe) · Ch 11 (container of the Gītā) |
+| rāmāyaṇa | Ch 19 | Ch 18 §2.4 (the kāṇḍa-layering behind Rāma's avatāra status) |
+| gītā | Ch 19 | Ch 11 (the three Vedānta readings) · Ch 18 §2.2 (BG 4.7–8) — **contested** (which mārga is its aim) |
+| samatva | Ch 19 | Ch 15 (NOT-equiv yoga-darśana's citta-vṛtti-nirodha) · Ch 12 (∥ upekkhā) · Ch 08 (∥ mādhyasthya) |
+| sthitaprajña | Ch 19 | Ch 11 (∥ mokṣa-advaita) · Ch 12 (∥ upekkhā) |
+| jīvanmukti | Ch 19 | Ch 11 (Advaita mokṣa mode) · Ch 07/10 (∥ and NOT-equiv arihant) · Ch 12 (∥ saupādisesa nibbāna) |
+| viṣṇu-sahasranāma | Ch 19 | Ch 18 §2 (Vaiṣṇava supreme stotra) · Ch 11 (the four-school commentary split) |
+| vyāsa | Ch 19 | Ch 15 (NOT-equiv the Yoga-Bhāṣya "Vyāsa") · Ch 18 §6.1 (dictation to Gaṇeśa) |
+| vālmīki | Ch 19 | Ch 18 §2.4 (source-poet of the Rāma cult) |
+| dāna | Ch 19 | Ch 08 (Jain lay practice; abhaya-dāna and ahiṃsā) · Ch 12 (dāna-pāramitā) |
+| saṃsāra | Ch 19 | Ch 03 (Jain bandha/gati) · Ch 12 (SN 15.3; the anattā paradox) · Ch 04 (three-tradition karma) |
