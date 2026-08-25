@@ -43,6 +43,7 @@
 | 24 After Plotinus: Theurgy, the Henads & the End of the Academy | [comparanda/24-later-neoplatonists.md](comparanda/24-later-neoplatonists.md) | ammonius-saccas · iamblichus · theurgy · chaldean-oracles · syrianus · proclus-henad · marinus · damascius · simplicius · psyche-neoplatonic · liber-de-causis · pseudo-dionysius | drafted |
 | 25 Who Wrote the Systems: Commentators, Rivals & Six Ways an Author Dissolves | [hindu/darsana/25-commentators-and-authors.md](hindu/darsana/25-commentators-and-authors.md) | vatsyayana · shankara · mandana-mishra · sureshvara · vyasa-yogabhasya · vindhyavasin | drafted |
 | 26 The Machinery of Bondage: What Karma Is Made Of | [jain/26-karma-machinery.md](jain/26-karma-machinery.md) | ajīva · kārmaṇa-vargaṇā · leśyā · mohanīya | drafted |
+| 27 Process All the Way Down: the Person, the Percept & Two Adversaries | [buddhist/27-process-and-adversaries.md](buddhist/27-process-and-adversaries.md) | nāmarūpa · pratyakṣa-buddhist · nyāyabindu (Dharmottaraṭīkā) · makkhali-gosāla | drafted |
 
 ---
 
@@ -62,7 +63,7 @@
 
 | ~~25~~ | ~~Who Wrote the Systems: the commentators and the identity problems~~ | `hindu/darsana/` | — | **drafted** (see table above; re-derived 2026-08-25 from the `concepts/`-vs-index diff — six nodes that had no chapter home, three of them written after Ch 11 was drafted) |
 | ~~26~~ | ~~The Jain Remainder~~ | `jain/` | — | **drafted** (see table above; retitled *The Machinery of Bondage: What Karma Is Made Of* — the four leftovers turned out to be one mechanism. `karma-vargana` remains the corpus's `low`-confidence node and the chapter says so in §4) |
-| 27 | Buddhist Singletons: *nāmarūpa*, Buddhist *pratyakṣa*, Dharmottara's *Nyāyabindu-ṭīkā*, and the Ājīvika outlier | `buddhist/` | namarupa · pratyaksha-buddhist · dharmottara-nyayabindu · makkhali-gosala (NB: `dharmottara` the person is primary in Ch 05; `makkhali-gosala` is Ājīvika, not Buddhist — placement to be reconsidered when the chapter is written) | planned |
+| ~~27~~ | ~~Buddhist Singletons~~ | `buddhist/` | — | **drafted** (see table above; retitled *Process All the Way Down*. The placement question was resolved **in favour of `buddhist/`** and made explicit in the chapter header: Gosāla is Ājīvika but survives **only** in Buddhist and Jain polemic, and §§7–8 make that the point) |
 | 28 | The Modern-Physics Comparanda | `comparanda/` | modern-atom · quantum-complementarity (the two physics nodes; this is the chapter §0 is most directly about, so it must be written as a **NOT-equivalence** chapter or not at all) | planned |
 
 > **🔁 How this roadmap was re-derived (2026-08-25, after Ch 24 exhausted the previous one).** Diff `concepts/*.md` against the "Full concept → chapter index" below — but **do not diff on the key alone**: the index lists concepts by IAST display name (`ahiṃsā-vedic` for `ahimsa-vedic`), so a naive comparison reports false gaps. The reliable test is a **diacritic-aware search of chapter prose** for the term. Rows 25–28 above came from that test. When these are drafted, re-derive again; if the diff comes back empty, the teaching layer is complete for the current graph and the next unit of work is a **concept batch** (`progress.md`), not a chapter — new nodes first, then a chapter over them.
@@ -368,3 +369,7 @@
 | kārmaṇa-vargaṇā | Ch 26 | Ch 01 (paramāṇu · skandha) · Ch 03 (bandha) — **low** confidence; Digambara *Ṣaṭkhaṇḍāgama*/*Dhavala*, not in the Tattvārtha Sūtra |
 | leśyā | Ch 26 | Ch 03 (guṇasthāna correlation — from aggregation only) · Ch 10 (Śvetāmbara *Uttarādhyayana* 34, not the TS) |
 | mohanīya | Ch 26 | Ch 03 (the guṇasthāna ladder as its staged demolition) · Ch 08 (cāritra) · Ch 03 (kaṣāya — the 16 kaṣāya-vedanīya sub-types) |
+| nāmarūpa | Ch 27 | Ch 12 (link 4 of paṭiccasamuppāda; the khandha mapping) · Ch 03/09 (NOT-equiv jīva — process vs substance) |
+| pratyakṣa-buddhist | Ch 27 | Ch 05 (Dignāga's 2-pramāṇa system; apoha) · Ch 16 (NOT-equiv pramāṇa-nyāya — nominalism vs realism) · Ch 07 (NOT-equiv Jain pratyakṣa — the terminological inversion) |
+| nyāyabindu (Dharmottaraṭīkā) | Ch 27 | Ch 05 (dharmottara the person; hetu-vidyā) · Ch 20 (NOT-equiv pramāṇavārttika — manual vs magnum opus) · Ch 18 (∥ shaivism — the Pratyabhijñā adversary) |
+| makkhali-gosāla | Ch 27 | Ch 10 (the Ājīvika school) · Ch 03/26 (NOT-equiv karma and mokṣa — the word kept, the efficacy denied) · Ch 10 (mahāvīra companionship) |
