@@ -42,6 +42,7 @@
 | 23 Āyurveda | [hindu/shastra/23-ayurveda.md](hindu/shastra/23-ayurveda.md) | ayurveda · charaka · sushruta · tridosha | drafted |
 | 24 After Plotinus: Theurgy, the Henads & the End of the Academy | [comparanda/24-later-neoplatonists.md](comparanda/24-later-neoplatonists.md) | ammonius-saccas · iamblichus · theurgy · chaldean-oracles · syrianus · proclus-henad · marinus · damascius · simplicius · psyche-neoplatonic · liber-de-causis · pseudo-dionysius | drafted |
 | 25 Who Wrote the Systems: Commentators, Rivals & Six Ways an Author Dissolves | [hindu/darsana/25-commentators-and-authors.md](hindu/darsana/25-commentators-and-authors.md) | vatsyayana · shankara · mandana-mishra · sureshvara · vyasa-yogabhasya · vindhyavasin | drafted |
+| 26 The Machinery of Bondage: What Karma Is Made Of | [jain/26-karma-machinery.md](jain/26-karma-machinery.md) | ajīva · kārmaṇa-vargaṇā · leśyā · mohanīya | drafted |
 
 ---
 
@@ -60,7 +61,7 @@
 | ~~24~~ | ~~The Later Neoplatonists: Theurgy, the Henads & the Christian Transmission~~ | `comparanda/` | — | **drafted** (see table above; retitled *After Plotinus: Theurgy, the Henads & the End of the Academy*. `psellos` — the separate Byzantine transmission line for the Chaldean Oracle fragments — is still an **unwritten node** and is flagged in the chapter's footer) |
 
 | ~~25~~ | ~~Who Wrote the Systems: the commentators and the identity problems~~ | `hindu/darsana/` | — | **drafted** (see table above; re-derived 2026-08-25 from the `concepts/`-vs-index diff — six nodes that had no chapter home, three of them written after Ch 11 was drafted) |
-| 26 | The Jain Remainder: *leśyā*, *karma-vargaṇā*, *mohanīya*, *ajīva* | `jain/` | leshya · karma-vargana · mohaniya · ajiva (all four are Jain nodes discussed nowhere in Chs 01–10; `karma-vargana` is `confidence: low`) | planned |
+| ~~26~~ | ~~The Jain Remainder~~ | `jain/` | — | **drafted** (see table above; retitled *The Machinery of Bondage: What Karma Is Made Of* — the four leftovers turned out to be one mechanism. `karma-vargana` remains the corpus's `low`-confidence node and the chapter says so in §4) |
 | 27 | Buddhist Singletons: *nāmarūpa*, Buddhist *pratyakṣa*, Dharmottara's *Nyāyabindu-ṭīkā*, and the Ājīvika outlier | `buddhist/` | namarupa · pratyaksha-buddhist · dharmottara-nyayabindu · makkhali-gosala (NB: `dharmottara` the person is primary in Ch 05; `makkhali-gosala` is Ājīvika, not Buddhist — placement to be reconsidered when the chapter is written) | planned |
 | 28 | The Modern-Physics Comparanda | `comparanda/` | modern-atom · quantum-complementarity (the two physics nodes; this is the chapter §0 is most directly about, so it must be written as a **NOT-equivalence** chapter or not at all) | planned |
 
@@ -363,3 +364,7 @@
 | sureśvara | Ch 25 | Ch 11 (Vārttika-prasthāna; avidyā in Brahman) · Ch 25 §6 (NOT-equiv maṇḍana-miśra) |
 | vyāsa-yogabhāṣya | Ch 25 | Ch 15 (the bhāṣya that defines the Yoga darśana) · Ch 19 (NOT-equiv the Mahābhārata Vyāsa) — **contested**, three attributions |
 | vindhyavāsin | Ch 25 | Ch 15 (Sāṃkhya reformer; the Sāṃkhyakārikā dating thesis) · Ch 20 (the Ayodhyā debate with Vasubandhu's circle) |
+| ajīva | Ch 26 | Ch 09 (the five non-soul dravyas in full) · Ch 01 (pudgala) — ⚠️ its `part-of: jiva` edge inverts the partition; flagged in Ch 26 §2.3 for a maintenance pass |
+| kārmaṇa-vargaṇā | Ch 26 | Ch 01 (paramāṇu · skandha) · Ch 03 (bandha) — **low** confidence; Digambara *Ṣaṭkhaṇḍāgama*/*Dhavala*, not in the Tattvārtha Sūtra |
+| leśyā | Ch 26 | Ch 03 (guṇasthāna correlation — from aggregation only) · Ch 10 (Śvetāmbara *Uttarādhyayana* 34, not the TS) |
+| mohanīya | Ch 26 | Ch 03 (the guṇasthāna ladder as its staged demolition) · Ch 08 (cāritra) · Ch 03 (kaṣāya — the 16 kaṣāya-vedanīya sub-types) |
