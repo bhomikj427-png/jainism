@@ -40,6 +40,7 @@
 | 21 The Churning of the Ocean | [hindu/devotional/21-churning-and-avataras.md](hindu/devotional/21-churning-and-avataras.md) | samudra-manthana · amrita · halahala · kurma · vasuki · dhanvantari · mohini · rahu · ketu · svarbhanu · airavata · ucchaihshravas · kaustubha · varuni · parijata · kalpavriksha · shesha · kadru · vinata · jatayu · sampati · matsya · varaha · narasimha · vamana · bali · parashurama · kalki | drafted |
 | 22 Four and Four: Equanimity & Compassion | [cross-tradition/22-ethics-equanimity.md](cross-tradition/22-ethics-equanimity.md) | metta · karuna · mudita · upekkha · maitri-jain · pramoda · karunya · madhyasthya · ahimsa-vedic | drafted |
 | 23 Āyurveda | [hindu/shastra/23-ayurveda.md](hindu/shastra/23-ayurveda.md) | ayurveda · charaka · sushruta · tridosha | drafted |
+| 24 After Plotinus: Theurgy, the Henads & the End of the Academy | [comparanda/24-later-neoplatonists.md](comparanda/24-later-neoplatonists.md) | ammonius-saccas · iamblichus · theurgy · chaldean-oracles · syrianus · proclus-henad · marinus · damascius · simplicius · psyche-neoplatonic · liber-de-causis · pseudo-dionysius | drafted |
 
 ---
 
@@ -55,9 +56,11 @@
 | ~~21~~ | ~~The Churning of the Ocean: the Samudra-manthana Cycle & the Daśāvatāra~~ | `hindu/devotional/` | — | **drafted** (see table above) |
 | ~~22~~ | ~~Equanimity & Compassion: the Cross-Tradition Ethics Cluster~~ | `cross-tradition/` | — | **drafted** (see table above; also picked up `ahimsa-vedic`, which had no chapter home) |
 | ~~23~~ | ~~Āyurveda: the Medical Tradition~~ | `hindu/shastra/` **(new sub-folder)** | — | **drafted** (see table above; `dhanvantari` stays primary in Ch 21. `vagbhata` and `dhatu`/`mala` are still **unwritten nodes** — the third classical authority is a hole in the chapter) |
-| 24 | The Later Neoplatonists: Theurgy, the Henads & the Christian Transmission | `comparanda/` | iamblichus · syrianus · proclus-henad · damascius · marinus · simplicius · ammonius-saccas · theurgy · chaldean-oracles · psyche-neoplatonic · liber-de-causis · pseudo-dionysius (NB: `neoplatonism`, `plotinus`, `plotinus-one`, `nous`, `henosis`, `porphyry`, `proclus` are primary-covered in Ch 13; this chapter is the **post-Plotinian school, its ritual turn, and how it reached the Latin Middle Ages**) | planned |
+| ~~24~~ | ~~The Later Neoplatonists: Theurgy, the Henads & the Christian Transmission~~ | `comparanda/` | — | **drafted** (see table above; retitled *After Plotinus: Theurgy, the Henads & the End of the Academy*. `psellos` — the separate Byzantine transmission line for the Chaldean Oracle fragments — is still an **unwritten node** and is flagged in the chapter's footer) |
 
-*Rows 22–24 were re-derived from `concepts/` against this table when the original Ch 15–21 roadmap was exhausted (2026-08-24), per the standing instruction in this section. They are the last three clusters of written nodes with no chapter home; after them, every concept in `concepts/` is covered. Re-derive again from `concepts/` vs. this table whenever the roadmap is exhausted.*
+> **🔁 ROADMAP EXHAUSTED (as of Ch 24).** Every concept currently written in `concepts/` now has a primary chapter home. Before starting Ch 25, **re-derive the roadmap**: list `concepts/*.md`, diff it against the "Full concept → chapter index" below, and group whatever is uncovered into the next cluster. If the diff comes back empty, the teaching layer is complete for the current graph and the next unit of work is a **concept batch** (`progress.md`), not a chapter — new nodes first, then a chapter over them.
+
+*Rows 22–24 were re-derived from `concepts/` against this table when the original Ch 15–21 roadmap was exhausted (2026-08-24), per the standing instruction in this section. They were the last three clusters of written nodes with no chapter home; **all three are now drafted (2026-08-25), so the roadmap is again exhausted** — see the notice above the table. Re-derive from `concepts/` vs. this table whenever that happens.*
 
 ---
 
@@ -336,3 +339,15 @@
 | caraka | Ch 23 | Ch 15 (the guṇa-typology's borrowed vocabulary) — **contested** (person or lineage?) |
 | suśruta | Ch 23 | Ch 21 §5 / Ch 19 (the Dhanvantari-vs-Divodāsa frame; the same stratigraphy as the Rāmāyaṇa) — **contested** |
 | tridoṣa | Ch 23 | Ch 16 §6 (each doṣa = two mahābhūtas) · Ch 15 (NOT-equiv guṇa-sāṃkhya) |
+| ammonius-saccas | Ch 24 | Ch 13 §1 (Plotinus's teacher) — **blocked** (doctrine unattested; the "two Ammonii" split, and a third Ammonius Hermiae) |
+| iamblichus | Ch 24 | Ch 13 §5 (the contemplation-vs-ritual divide) · Ch 24 §6.2 (contested henad origin) |
+| theurgy | Ch 24 | Ch 13 §5 (∥ and NOT-equiv henosis) · Ch 24 §5 (NOT-equiv mimamsa apūrva; ∥ yajña) |
+| chaldean-oracles | Ch 24 | Ch 24 §4.4 (the provenance problem: no fragment survives outside a Neoplatonist quoting it) |
+| syrianus | Ch 24 | Ch 13 §6 (teacher of Proclus) · Ch 14 (Aristotle's *Metaphysics* commentary) |
+| proclus-henad | Ch 24 | Ch 13 §6 (Proclus's signature doctrine) · Ch 18/11 (∥ and NOT-equiv the Hindu one-and-many) — **contested** (Iamblichus vs Syrianus origin) |
+| marinus | Ch 24 | Ch 13 §6 (Proclus's *diadochos*) · Ch 24 §6.4 (biography as argument; theurgic virtue at the top of the ladder) |
+| damascius | Ch 24 | Ch 06 / Ch 20 (∥ and NOT-equiv catuṣkoṭi/prasaṅga) · Ch 11 (NOT-equiv nirguṇa Brahman) · Ch 13 §3 (NOT-equiv plotinus-one) |
+| simplicius | Ch 24 | Ch 14 (the channel through which ~⅔ of verbatim Presocratic fragments survive) · Ch 05/20 (∥ and NOT-equiv the bhāṣya tradition) |
+| psyche-neoplatonic | Ch 24 | Ch 13 §2 (the third hypostasis) · Ch 03/09 (NOT-equiv jīva) · Ch 11 (NOT-equiv brahman — Brahman maps to Nous) |
+| liber-de-causis | Ch 24 | Ch 13 §6 (Proclus's *Elements* in Arabic dress) · Ch 14 (NOT-equiv aristotle-substance — Aquinas, 1272) |
+| pseudo-dionysius | Ch 24 | Ch 13 §5 (∥ and NOT-equiv henosis) · Ch 24 §6.2 (deletes henad-mediated causation) — **contested** (author's identity) |
