@@ -44,6 +44,7 @@
 | 25 Who Wrote the Systems: Commentators, Rivals & Six Ways an Author Dissolves | [hindu/darsana/25-commentators-and-authors.md](hindu/darsana/25-commentators-and-authors.md) | vatsyayana · shankara · mandana-mishra · sureshvara · vyasa-yogabhasya · vindhyavasin | drafted |
 | 26 The Machinery of Bondage: What Karma Is Made Of | [jain/26-karma-machinery.md](jain/26-karma-machinery.md) | ajīva · kārmaṇa-vargaṇā · leśyā · mohanīya | drafted |
 | 27 Process All the Way Down: the Person, the Percept & Two Adversaries | [buddhist/27-process-and-adversaries.md](buddhist/27-process-and-adversaries.md) | nāmarūpa · pratyakṣa-buddhist · nyāyabindu (Dharmottaraṭīkā) · makkhali-gosāla | drafted |
+| 28 The Atom That Isn't and the Duality That Isn't: Modern Physics as Comparandum | [comparanda/28-modern-physics.md](comparanda/28-modern-physics.md) | modern-atom · quantum-complementarity | drafted |
 
 ---
 
@@ -64,9 +65,13 @@
 | ~~25~~ | ~~Who Wrote the Systems: the commentators and the identity problems~~ | `hindu/darsana/` | — | **drafted** (see table above; re-derived 2026-08-25 from the `concepts/`-vs-index diff — six nodes that had no chapter home, three of them written after Ch 11 was drafted) |
 | ~~26~~ | ~~The Jain Remainder~~ | `jain/` | — | **drafted** (see table above; retitled *The Machinery of Bondage: What Karma Is Made Of* — the four leftovers turned out to be one mechanism. `karma-vargana` remains the corpus's `low`-confidence node and the chapter says so in §4) |
 | ~~27~~ | ~~Buddhist Singletons~~ | `buddhist/` | — | **drafted** (see table above; retitled *Process All the Way Down*. The placement question was resolved **in favour of `buddhist/`** and made explicit in the chapter header: Gosāla is Ājīvika but survives **only** in Buddhist and Jain polemic, and §§7–8 make that the point) |
-| 28 | The Modern-Physics Comparanda | `comparanda/` | modern-atom · quantum-complementarity (the two physics nodes; this is the chapter §0 is most directly about, so it must be written as a **NOT-equivalence** chapter or not at all) | planned |
+| ~~28~~ | ~~The Modern-Physics Comparanda~~ | `comparanda/` | — | **drafted** (see table above. Written as the corpus's consolidated §0 statement: two worked cases, the five-move anatomy of the slide, the **full inventory** of every modern-science NOT-equivalent edge in `concepts/`, four portable tests, and the mirror error — deflation — from Ch 23) |
 
-> **🔁 How this roadmap was re-derived (2026-08-25, after Ch 24 exhausted the previous one).** Diff `concepts/*.md` against the "Full concept → chapter index" below — but **do not diff on the key alone**: the index lists concepts by IAST display name (`ahiṃsā-vedic` for `ahimsa-vedic`), so a naive comparison reports false gaps. The reliable test is a **diacritic-aware search of chapter prose** for the term. Rows 25–28 above came from that test. When these are drafted, re-derive again; if the diff comes back empty, the teaching layer is complete for the current graph and the next unit of work is a **concept batch** (`progress.md`), not a chapter — new nodes first, then a chapter over them.
+> **✅ ROADMAP COMPLETE — the teaching layer now covers the whole 306-node graph (re-derived 2026-08-26, after Ch 28).**
+> The final diff of `concepts/*.md` against this file, using diacritic-aware search of chapter prose, returned **two** apparent gaps — `naigama-naya` and `saṃgraha-naya` — and both proved to be **already covered in Ch 02 §4** under their bare display names rather than their file keys. Rows for those two (and `vyavahāra-naya`) have been added to the concept→chapter index below; **no chapter was needed.**
+> **→ The next unit of work is therefore a concept batch in `progress.md`, not a chapter.** New nodes first; a chapter over them afterwards. `progress.md`'s "Suggested Batch 41" is the queue. When new concepts are written, re-derive this roadmap again by the method below.
+
+> **🔁 How to re-derive this roadmap (method, first used 2026-08-25 after Ch 24 exhausted the previous one).** Diff `concepts/*.md` against the "Full concept → chapter index" below — but **do not diff on the key alone**: the index lists concepts by IAST display name (`ahiṃsā-vedic` for `ahimsa-vedic`), so a naive comparison reports false gaps. The reliable test is a **diacritic-aware search of chapter prose** for the term. Rows 25–28 above came from that test. When these are drafted, re-derive again; if the diff comes back empty, the teaching layer is complete for the current graph and the next unit of work is a **concept batch** (`progress.md`), not a chapter — new nodes first, then a chapter over them.
 
 *Rows 22–24 were re-derived from `concepts/` against this table when the original Ch 15–21 roadmap was exhausted (2026-08-24), per the standing instruction in this section. They were the last three clusters of written nodes with no chapter home; **all three are now drafted (2026-08-25), so the roadmap is again exhausted** — see the notice above the table. Re-derive from `concepts/` vs. this table whenever that happens.*
 
@@ -373,3 +378,8 @@
 | pratyakṣa-buddhist | Ch 27 | Ch 05 (Dignāga's 2-pramāṇa system; apoha) · Ch 16 (NOT-equiv pramāṇa-nyāya — nominalism vs realism) · Ch 07 (NOT-equiv Jain pratyakṣa — the terminological inversion) |
 | nyāyabindu (Dharmottaraṭīkā) | Ch 27 | Ch 05 (dharmottara the person; hetu-vidyā) · Ch 20 (NOT-equiv pramāṇavārttika — manual vs magnum opus) · Ch 18 (∥ shaivism — the Pratyabhijñā adversary) |
 | makkhali-gosāla | Ch 27 | Ch 10 (the Ājīvika school) · Ch 03/26 (NOT-equiv karma and mokṣa — the word kept, the efficacy denied) · Ch 10 (mahāvīra companionship) |
+| modern-atom | Ch 28 | Ch 01 (NOT-equiv paramāṇu — and the intrinsic-qualities break that leśyā depends on) · Ch 16 (NOT-equiv paramāṇu-vaiśeṣika) · Ch 14 (NOT-equiv democritus/epicurus; the clinamen misreading) · Ch 18 §4.2 (NOT-equiv naṭarāja — the CERN plaque) |
+| quantum-complementarity | Ch 28 | Ch 02 (∥ **and** NOT-equiv anekāntavāda — the Kothari analogy, and the inversion) · Ch 06 (NOT-equiv many-valued-logic) |
+| naigama-naya | Ch 02 | Ch 02 §4 (the first of the seven nayas; the teleological standpoint) — covered in prose, row added in the Ch 28 re-derivation |
+| saṃgraha-naya | Ch 02 | Ch 02 §4 (the generic/class standpoint; maximum abstraction) — covered in prose, row added in the Ch 28 re-derivation |
+| vyavahāra-naya | Ch 02 | Ch 02 §4 (the practical standpoint; unpacks the saṃgraha class into distinctions) — covered in prose, row added in the Ch 28 re-derivation |
