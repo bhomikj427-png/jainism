@@ -43,6 +43,7 @@ Two genuinely independent reference works (a general encyclopedia and a peer-rev
 ## Links
 
 - expressed-by: advaita-vedanta | the school this figure systematised — its doctrine file long carried Śaṅkara as source-anchor awaiting this node
+- historically-influenced-by: gaudapada | his *paramaguru* — grand-preceptor through his own teacher Govinda — whose Māṇḍūkya-kārikā he studied; Comans shows Śaṅkara relies on him extensively in the Brahmasūtra-bhāṣya. Note that the *pracchanna-bauddha* charge lands more squarely on Gauḍapāda's Yogācāra/Mādhyamika borrowings than on Śaṅkara's own text, and that Potter cautions "teacher's teacher" may mean only "highest teacher"
 - historically-influenced-by: badarayana | Śaṅkara's masterpiece is a bhāṣya on Bādarāyaṇa's Brahmasūtra, and he placed himself in a lineage running back to it
 - historically-influenced-by: brahma-sutra | the root text of his principal commentary (with the Upaniṣads and Gītā completing the prasthānatrayī he glossed)
 - structurally-parallel-to: kundakunda | each tradition's most authoritative philosopher-monk systematiser whose attributed corpus far exceeds his authentic one, and whose biography is hagiographic accretion around a thin historical core
