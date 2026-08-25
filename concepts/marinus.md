@@ -31,3 +31,4 @@ Two independently-sourced accounts (a general encyclopedia entry and a cross-ref
 
 - historically-influenced-by: proclus | Marinus was Proclus's direct student and was appointed his successor (diadochos) as head of the Athenian Academy during Proclus's final illness
 - part-of: neoplatonism | Marinus headed the Athenian Neoplatonic Academy immediately after Proclus, continuing the school into the period shortly before Damascius and its 529 CE closure
+- structurally-parallel-to: vidyaranya | the same office in a different tradition: the successor who writes his school's great philosopher into history. Marinus's *Life of Proclus* and the Śaṅkara-digvijaya are each hagiography built as demonstration, and each became the primary biographical source for its subject — the difference being that Marinus's authorship is secure and written the year after Proclus died, where the Digvijaya's attribution is disputed and the gap is centuries

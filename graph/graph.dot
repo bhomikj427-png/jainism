@@ -173,6 +173,7 @@ digraph ancient_texts {
     "durga" [label="Durgā" fillcolor="#4fd16b" shape=ellipse];
     "dvaita-vedanta" [label="Dvaita Vedānta" fillcolor="#4fd16b" shape=ellipse];
     "ganesha" [label="Gaṇeśa" fillcolor="#4fd16b" shape=ellipse];
+    "gaudapada" [label="Gauḍapāda" fillcolor="#4fd16b" shape=ellipse];
     "gita" [label="Bhagavadgītā" fillcolor="#4fd16b" shape=ellipse];
     "halahala" [label="hālāhala" fillcolor="#4fd16b" shape=ellipse];
     "hanuman" [label="Hanumān" fillcolor="#4fd16b" shape=ellipse];
@@ -203,6 +204,7 @@ digraph ancient_texts {
     "narasimha" [label="Narasiṃha" fillcolor="#4fd16b" shape=ellipse];
     "nataraja" [label="Naṭarāja" fillcolor="#4fd16b" shape=ellipse];
     "omniscience-vedanta" [label="sarvajñatva (Vedānta)" fillcolor="#4fd16b" shape=ellipse];
+    "padmapada" [label="Padmapāda" fillcolor="#4fd16b" shape=ellipse];
     "parashurama" [label="Paraśurāma" fillcolor="#4fd16b" shape=ellipse];
     "parijata" [label="Pārijāta" fillcolor="#4fd16b" shape=ellipse];
     "parvati" [label="Pārvatī" fillcolor="#4fd16b" shape=ellipse];
@@ -237,6 +239,7 @@ digraph ancient_texts {
     "varaha" [label="Varāha" fillcolor="#4fd16b" shape=ellipse];
     "varuni" [label="Vāruṇī" fillcolor="#4fd16b" shape=ellipse];
     "vasuki" [label="Vāsuki" fillcolor="#4fd16b" shape=ellipse];
+    "vidyaranya" [label="Vidyāraṇya" fillcolor="#4fd16b" shape=ellipse];
     "vinata" [label="Vinatā" fillcolor="#4fd16b" shape=ellipse];
     "vishishtadvaita" [label="Viśiṣṭādvaita" fillcolor="#4fd16b" shape=ellipse];
     "vishnu" [label="Viṣṇu" fillcolor="#4fd16b" shape=ellipse];
@@ -819,6 +822,14 @@ digraph ancient_texts {
   "ganesha" -> "brahman" [color="#cccccc22"];
   "garuda" -> "vaishnavism" [color="#cccccc22"];
   "garuda" -> "nandi" [color="#cccccc22"];
+  "gaudapada" -> "advaita-vedanta" [color="#cccccc22"];
+  "gaudapada" -> "upanishad" [color="#cccccc22"];
+  "gaudapada" -> "catuskoti" [color="#cccccc22"];
+  "gaudapada" -> "vijnaptimatrata" [color="#cccccc22"];
+  "gaudapada" -> "madhyamaka" [color="#cccccc22"];
+  "gaudapada" -> "madhyamaka" [color="#cccccc22"];
+  "gaudapada" -> "samkhya-karika" [color="#cccccc22"];
+  "gaudapada" -> "maya-advaita" [color="#cccccc22"];
   "gautama-aksapada" -> "nyaya-sutra" [color="#cccccc22"];
   "gautama-aksapada" -> "kapila" [color="#cccccc22"];
   "gautama-aksapada" -> "kanada" [color="#cccccc22"];
@@ -1123,6 +1134,7 @@ digraph ancient_texts {
   "many-valued-logic" -> "quantum-complementarity" [color="#cccccc22"];
   "marinus" -> "proclus" [color="#cccccc22"];
   "marinus" -> "neoplatonism" [color="#cccccc22"];
+  "marinus" -> "vidyaranya" [color="#cccccc22"];
   "mati-jnana" -> "pramana" [color="#cccccc22"];
   "mati-jnana" -> "upayoga" [color="#cccccc22"];
   "mati-jnana" -> "kashaya" [color="#cccccc22"];
@@ -1286,6 +1298,12 @@ digraph ancient_texts {
   "omniscience-vedanta" -> "atman-vedanta" [color="#cccccc22"];
   "omniscience-vedanta" -> "brahman" [color="#cccccc22"];
   "omniscience-vedanta" -> "kevala-jnana" [color="#cccccc22"];
+  "padmapada" -> "shankara" [color="#cccccc22"];
+  "padmapada" -> "advaita-vedanta" [color="#cccccc22"];
+  "padmapada" -> "maya-advaita" [color="#cccccc22"];
+  "padmapada" -> "sureshvara" [color="#cccccc22"];
+  "padmapada" -> "mandana-mishra" [color="#cccccc22"];
+  "padmapada" -> "brahma-sutra" [color="#cccccc22"];
   "pancha-mahabhuta" -> "prakriti-samkhya" [color="#cccccc22"];
   "pancha-mahabhuta" -> "dravya-vaisheshika" [color="#cccccc22"];
   "pancha-mahabhuta" -> "samkhya-karika" [color="#cccccc22"];
@@ -1701,6 +1719,7 @@ digraph ancient_texts {
   "shakti" -> "parinamavada" [color="#cccccc22"];
   "shakti" -> "upanishad" [color="#cccccc22"];
   "shankara" -> "advaita-vedanta" [color="#cccccc22"];
+  "shankara" -> "gaudapada" [color="#cccccc22"];
   "shankara" -> "badarayana" [color="#cccccc22"];
   "shankara" -> "brahma-sutra" [color="#cccccc22"];
   "shankara" -> "kundakunda" [color="#cccccc22"];
@@ -1781,6 +1800,7 @@ digraph ancient_texts {
   "sureshvara" -> "advaita-vedanta" [color="#cccccc22"];
   "sureshvara" -> "mandana-mishra" [color="#cccccc22"];
   "sureshvara" -> "mandana-mishra" [color="#cccccc22"];
+  "sureshvara" -> "padmapada" [color="#cccccc22"];
   "surya" -> "vishnu" [color="#cccccc22"];
   "surya" -> "brahman" [color="#cccccc22"];
   "surya" -> "aruna" [color="#cccccc22"];
@@ -1952,6 +1972,11 @@ digraph ancient_texts {
   "vasuki" -> "shiva" [color="#cccccc22"];
   "vatsyayana" -> "gautama-aksapada" [color="#cccccc22"];
   "vatsyayana" -> "nyaya-sutra" [color="#cccccc22"];
+  "vidyaranya" -> "shankara" [color="#cccccc22"];
+  "vidyaranya" -> "advaita-vedanta" [color="#cccccc22"];
+  "vidyaranya" -> "jivanmukti" [color="#cccccc22"];
+  "vidyaranya" -> "marinus" [color="#cccccc22"];
+  "vidyaranya" -> "simplicius" [color="#cccccc22"];
   "vijnaptimatrata" -> "alaya-vijnana" [color="#cccccc22"];
   "vijnaptimatrata" -> "maya-advaita" [color="#cccccc22"];
   "vijnaptimatrata" -> "dravya" [color="#cccccc22"];

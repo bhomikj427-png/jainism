@@ -4,7 +4,7 @@ abhidharmakosa	Buddhist (Sarvāstivāda-Vaibhāṣika / Sautrāntika)	converged	
 academic-skepticism	Greek (Middle and New Academy; Arcesilaus, Carneades)	converged	medium	8	
 acarya	Jain	converged	medium	10	आचार्य
 adharma-dravya	Jain	converged	medium	7	अधर्मास्तिकाय
-advaita-vedanta	Vedānta (Advaita; āstika darśana)	converged	medium	25	अद्वैत वेदान्त
+advaita-vedanta	Vedānta (Advaita; āstika darśana)	converged	medium	28	अद्वैत वेदान्त
 agni	Vedic / Hindu	converged	medium	10	अग्नि
 ahimsa	Jain	converged	medium	28	अहिंसा
 ahimsa-buddhist	Buddhist	converged	medium	12	अहिंसा (बौद्ध)
@@ -47,11 +47,11 @@ bhakti	cross-tradition (Vedānta, Vaiṣṇava, also Jain and Buddhist parallels
 bodhicitta	Buddhist (Mahāyāna)	converged	medium	11	बोधिचित्त
 bodhisattva	Buddhist (Mahāyāna; also Theravāda antecedent)	converged	medium	14	बोधिसत्त्व
 brahma	Vedic / Hindu (Purāṇic cosmology)	converged	medium	10	ब्रह्मा
-brahma-sutra	Vedānta (Uttara Mīmāṃsā; āstika darśana)	converged	medium	19	ब्रह्मसूत्र
+brahma-sutra	Vedānta (Uttara Mīmāṃsā; āstika darśana)	converged	medium	20	ब्रह्मसूत्र
 brahmacarya	Jain	converged	medium	8	ब्रह्मचर्य
 brahman	Vedanta	converged	medium	49	ब्रह्मन्
 carvaka	Cārvāka / Lokāyata (nāstika materialist)	converged	medium	15	चार्वाक
-catuskoti	Buddhist	converged	medium	16	चतुष्कोटि
+catuskoti	Buddhist	converged	medium	17	चतुष्कोटि
 chaldean-oracles	Greek / Late Antique (2nd-c. theurgic scripture; foundational text for later Neoplatonic theurgy)	converged	medium	5	
 charaka	Hindu (Āyurveda)	contested	medium	5	चरक
 charitra	Jain	converged	medium	27	चारित्र
@@ -84,6 +84,7 @@ four-noble-truths	Buddhist (Theravāda Pali canon; recognized across all Buddhis
 fuzzy-logic	Western (mathematical logic / artificial intelligence)	converged	medium	7	
 ganesha	Hindu (Gāṇapatya; Śaiva; pan-Hindu Purāṇic)	converged	medium	7	गणेश
 garuda	Hindu (Vaiṣṇava); also Buddhist & Jain	converged	medium	9	गरुड
+gaudapada	Advaita Vedānta (pre-Śaṅkara)	contested	medium	9	
 gautama-aksapada	Nyāya (āstika darśana — founder)	converged	medium	6	अक्षपाद गौतम
 gita	Hindu (Vedānta; cross-school)	contested	medium	20	भगवद्गीता
 guna-samkhya	Samkhya	converged	medium	10	गुण (साङ्ख्य)
@@ -100,7 +101,7 @@ jatayu	Hindu (Rāmāyaṇa / epic)	converged	medium	5	जटायु
 jati	Nyāya-Vaiśeṣika	converged	medium	7	जाति
 jina	Jain	converged	medium	12	जिन
 jiva	Jain	converged	medium	32	जीव
-jivanmukti	Hindu (Advaita Vedānta; also Yoga; pan-Indic comparandum)	converged	medium	6	जीवन्मुक्ति
+jivanmukti	Hindu (Advaita Vedānta; also Yoga; pan-Indic comparandum)	converged	medium	7	जीवन्मुक्ति
 jnana-marga	Vedānta (Advaita primary; cross-āstika)	converged	medium	10	ज्ञानमार्ग
 kadru	Hindu (epic / Purāṇic)	converged	medium	4	कद्रू
 kala-bhairava	Hindu (Śaiva; Tantra / Kāpālika; also Vajrayāna Buddhist)	converged	medium	4	काल भैरव
@@ -133,7 +134,7 @@ leshya	Jain	converged	medium	7	लेश्या
 liber-de-causis	Arabic Neoplatonism → Latin scholasticism	converged	high	5	
 lingam	Hindu (Śaiva; Śākta; Liṅgāyat — Vīra Śaiva)	converged	medium	8	लिंग
 loka-jain	Jain	converged	medium	12	लोक (जैन)
-madhyamaka	Buddhist (Mahāyāna)	converged	medium	28	मध्यमक
+madhyamaka	Buddhist (Mahāyāna)	converged	medium	30	मध्यमक
 madhyasthya	Jain	converged	medium	11	माध्यस्थ्य
 mahabharata	Hindu (Itihāsa / Smṛti)	converged	medium	14	महाभारत
 mahavira	Jain	converged	medium	14	महावीर
@@ -141,12 +142,12 @@ maitri-jain	Jain	converged	medium	9	मैत्री
 makkhali-gosala	Ājīvika (heterodox / nāstika śramaṇa movement)	converged	medium	5	मक्खलि गोसाल
 manah-paryaya-jnana	Jain	converged	medium	8	मनःपर्यायज्ञान
 manas	cross-tradition (Jain, Buddhist, Sāṃkhya, Nyāya-Vaiśeṣika)	converged	medium	8	मनस्
-mandana-mishra	Mīmāṃsā → Advaita Vedānta	contested	medium	8	मण्डन मिश्र
+mandana-mishra	Mīmāṃsā → Advaita Vedānta	contested	medium	9	मण्डन मिश्र
 many-valued-logic	Modern Physics	converged	medium	10	(no Sanskrit equivalent)
-marinus	Greek / Late Antique (Athenian Neoplatonist)	converged	medium	3	
+marinus	Greek / Late Antique (Athenian Neoplatonist)	converged	medium	5	
 mati-jnana	Jain	converged	medium	7	मतिज्ञान
 matsya	Hindu (Vedic → Vaiṣṇava)	converged	medium	4	मत्स्य
-maya-advaita	Vedanta	contested	medium	21	माया (अद्वैत)
+maya-advaita	Vedanta	contested	medium	23	माया (अद्वैत)
 metta	Buddhist (Theravāda; pan-Buddhist)	converged	medium	10	मेत्ता
 mimamsa-pramana	Vedanta	converged	medium	16	प्रमाण (मीमांसा)
 mimamsa-sutra	Mīmāṃsā (Pūrva Mīmāṃsā; āstika darśana)	converged	medium	11	मीमांसासूत्र
@@ -175,6 +176,7 @@ nishchaya-vyavahara	Jain	contested	medium	10	निश्चय-व्यवह�
 nous	Greek (esp. Neoplatonist — the second hypostasis)	converged	medium	6	
 nyaya-sutra	Nyāya (āstika darśana)	converged	medium	17	न्यायसूत्र
 omniscience-vedanta	Vedanta	converged	medium	7	सर्वज्ञत्व (वेदान्त)
+padmapada	Advaita Vedānta (Vivaraṇa-prasthāna)	converged	medium	7	
 pancha-mahabhuta	cross-tradition (Sāṃkhya, Vaiśeṣika, Āyurveda; Buddhist parallel with 4 elements)	converged	medium	12	पञ्चमहाभूत
 papa	Jain	converged	medium	10	पाप
 paraconsistent-logic	Western (mathematical logic / philosophy of logic)	converged	medium	9	
@@ -227,7 +229,7 @@ sadhu	Jain	converged	medium	8	साधु
 sallekhana	Jain	contested	medium	7	सल्लेखना
 samatva	Hindu (Vedānta; Bhagavad Gītā)	converged	medium	10	समत्व
 samayasara	Jain	converged	medium	8	समयसार
-samkhya-karika	Sāṃkhya (āstika darśana)	converged	medium	20	सांख्यकारिका
+samkhya-karika	Sāṃkhya (āstika darśana)	converged	medium	21	सांख्यकारिका
 sampati	Hindu (Rāmāyaṇa / epic)	converged	medium	5	सम्पाति
 samsara	cross-tradition (Buddhist / Jain / Hindu)	converged	medium	15	संसार
 samudra-manthana	Hindu (epic / Purāṇic)	converged	medium	20	समुद्रमन्थन
@@ -244,12 +246,12 @@ satya	Jain	converged	medium	7	सत्य
 shad-avashyaka	Jain	converged	medium	7	षडावश्यक
 shaivism	Hindu (Śaiva; āstika darśana; tantric and bhakti traditions)	converged	medium	24	शैव
 shakti	Hindu (Śākta; Śaiva — especially Kashmir Śaivism; Tantric traditions)	converged	medium	14	शक्ति
-shankara	Advaita Vedānta (āstika darśana — systematiser)	converged	medium	7	शङ्कर
+shankara	Advaita Vedānta (āstika darśana — systematiser)	converged	medium	10	शङ्कर
 shesha	Hindu (epic / Purāṇic; esp. Vaiṣṇava)	converged	high	5	शेष
 shiva	Hindu (Śaiva; pan-Hindu)	converged	medium	23	शिव
 shruta-jnana	Jain	converged	medium	10	श्रुतज्ञान
 siddha	Jain	converged	medium	14	सिद्ध
-simplicius	Greek / Late Antique (last generation, Athenian Neoplatonist school)	converged	medium	5	
+simplicius	Greek / Late Antique (last generation, Athenian Neoplatonist school)	converged	medium	6	
 skandha	Jain	converged	medium	8	स्कन्ध
 skandha-buddhist	Buddhist	converged	medium	8	स्कन्ध / खन्ध (Pali: khandha)
 spanda	Hindu (Kashmir Śaivism)	converged	medium	7	स्पन्द
@@ -257,7 +259,7 @@ sthitaprajna	Hindu (Vedānta; Bhagavad Gītā)	converged	medium	8	स्थि�
 stoic-logos	Greek (Stoic)	converged	medium	14	
 stoicism	Greek (Stoic; Hellenistic)	converged	medium	13	(no Sanskrit equivalent)
 sunyata	Buddhist	converged	medium	27	शून्यता
-sureshvara	Advaita Vedānta (Vārttika-prasthāna)	converged	medium	5	सुरेश्वर
+sureshvara	Advaita Vedānta (Vārttika-prasthāna)	converged	medium	7	सुरेश्वर
 surya	Hindu (Vedic origin; later Saura tradition + Smārta Pañcāyatana)	converged	medium	5	सूर्य
 sushruta	Hindu (Āyurveda)	contested	medium	4	सुश्रुत
 svarbhanu	Hindu (Vedic → epic/Puranic)	contested	medium	8	स्वर्भानु
@@ -278,7 +280,7 @@ trimurti	Hindu (Purāṇic / Smārta)	converged	medium	10	त्रिमूर�
 trisvabhava	Buddhist (Yogācāra)	converged	medium	12	त्रिस्वभाव
 ucchaihshravas	Hindu (epic / Purāṇic)	converged	medium	7	उच्चैःश्रवस्
 upadhyaya	Jain	converged	medium	7	उपाध्याय
-upanishad	Vedic / Vedānta (Upaniṣadic corpus, foundational to all āstika darśanas)	converged	medium	18	उपनिषद्
+upanishad	Vedic / Vedānta (Upaniṣadic corpus, foundational to all āstika darśanas)	converged	medium	19	उपनिषद्
 upayoga	Jain	converged	medium	15	उपयोग
 upekkha	Buddhist (Theravāda; pan-Buddhist)	converged	medium	10	उपेक्खा
 utsarpini-avasarpini	Jain	converged	medium	7	उत्सर्पिणी-अवसर्पिणी
@@ -291,7 +293,8 @@ varuni	Hindu (Vedic-adjacent / Puranic)	contested	medium	2	वारुणी
 vasubandhu	Buddhist (Sarvāstivāda-Vaibhāṣika / Sautrāntika → Yogācāra)	converged	medium	11	वसुबन्धु
 vasuki	Hindu (epic / Purāṇic)	converged	medium	6	वासुकि
 vatsyayana	Nyaya-Vaisheshika (Nyāya)	converged	high	3	वात्स्यायन
-vijnaptimatrata	Buddhist (Yogācāra)	contested	medium	16	विज्ञप्तिमात्रता
+vidyaranya	Advaita Vedānta (Śṛṅgeri; Vijayanagara period)	contested	medium	6	
+vijnaptimatrata	Buddhist (Yogācāra)	contested	medium	17	विज्ञप्तिमात्रता
 vinata	Hindu (epic / Purāṇic)	converged	medium	4	विनता
 vindhyavasin	Sāṃkhya	converged	low	4	विन्ध्यवासिन्
 vishishtadvaita	Vedānta (Viśiṣṭādvaita; Śrī Vaiṣṇava; āstika darśana)	converged	medium	11	विशिष्टाद्वैत
