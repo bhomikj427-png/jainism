@@ -41,6 +41,7 @@
 | 22 Four and Four: Equanimity & Compassion | [cross-tradition/22-ethics-equanimity.md](cross-tradition/22-ethics-equanimity.md) | metta · karuna · mudita · upekkha · maitri-jain · pramoda · karunya · madhyasthya · ahimsa-vedic | drafted |
 | 23 Āyurveda | [hindu/shastra/23-ayurveda.md](hindu/shastra/23-ayurveda.md) | ayurveda · charaka · sushruta · tridosha | drafted |
 | 24 After Plotinus: Theurgy, the Henads & the End of the Academy | [comparanda/24-later-neoplatonists.md](comparanda/24-later-neoplatonists.md) | ammonius-saccas · iamblichus · theurgy · chaldean-oracles · syrianus · proclus-henad · marinus · damascius · simplicius · psyche-neoplatonic · liber-de-causis · pseudo-dionysius | drafted |
+| 25 Who Wrote the Systems: Commentators, Rivals & Six Ways an Author Dissolves | [hindu/darsana/25-commentators-and-authors.md](hindu/darsana/25-commentators-and-authors.md) | vatsyayana · shankara · mandana-mishra · sureshvara · vyasa-yogabhasya · vindhyavasin | drafted |
 
 ---
 
@@ -58,7 +59,12 @@
 | ~~23~~ | ~~Āyurveda: the Medical Tradition~~ | `hindu/shastra/` **(new sub-folder)** | — | **drafted** (see table above; `dhanvantari` stays primary in Ch 21. `vagbhata` and `dhatu`/`mala` are still **unwritten nodes** — the third classical authority is a hole in the chapter) |
 | ~~24~~ | ~~The Later Neoplatonists: Theurgy, the Henads & the Christian Transmission~~ | `comparanda/` | — | **drafted** (see table above; retitled *After Plotinus: Theurgy, the Henads & the End of the Academy*. `psellos` — the separate Byzantine transmission line for the Chaldean Oracle fragments — is still an **unwritten node** and is flagged in the chapter's footer) |
 
-> **🔁 ROADMAP EXHAUSTED (as of Ch 24).** Every concept currently written in `concepts/` now has a primary chapter home. Before starting Ch 25, **re-derive the roadmap**: list `concepts/*.md`, diff it against the "Full concept → chapter index" below, and group whatever is uncovered into the next cluster. If the diff comes back empty, the teaching layer is complete for the current graph and the next unit of work is a **concept batch** (`progress.md`), not a chapter — new nodes first, then a chapter over them.
+| ~~25~~ | ~~Who Wrote the Systems: the commentators and the identity problems~~ | `hindu/darsana/` | — | **drafted** (see table above; re-derived 2026-08-25 from the `concepts/`-vs-index diff — six nodes that had no chapter home, three of them written after Ch 11 was drafted) |
+| 26 | The Jain Remainder: *leśyā*, *karma-vargaṇā*, *mohanīya*, *ajīva* | `jain/` | leshya · karma-vargana · mohaniya · ajiva (all four are Jain nodes discussed nowhere in Chs 01–10; `karma-vargana` is `confidence: low`) | planned |
+| 27 | Buddhist Singletons: *nāmarūpa*, Buddhist *pratyakṣa*, Dharmottara's *Nyāyabindu-ṭīkā*, and the Ājīvika outlier | `buddhist/` | namarupa · pratyaksha-buddhist · dharmottara-nyayabindu · makkhali-gosala (NB: `dharmottara` the person is primary in Ch 05; `makkhali-gosala` is Ājīvika, not Buddhist — placement to be reconsidered when the chapter is written) | planned |
+| 28 | The Modern-Physics Comparanda | `comparanda/` | modern-atom · quantum-complementarity (the two physics nodes; this is the chapter §0 is most directly about, so it must be written as a **NOT-equivalence** chapter or not at all) | planned |
+
+> **🔁 How this roadmap was re-derived (2026-08-25, after Ch 24 exhausted the previous one).** Diff `concepts/*.md` against the "Full concept → chapter index" below — but **do not diff on the key alone**: the index lists concepts by IAST display name (`ahiṃsā-vedic` for `ahimsa-vedic`), so a naive comparison reports false gaps. The reliable test is a **diacritic-aware search of chapter prose** for the term. Rows 25–28 above came from that test. When these are drafted, re-derive again; if the diff comes back empty, the teaching layer is complete for the current graph and the next unit of work is a **concept batch** (`progress.md`), not a chapter — new nodes first, then a chapter over them.
 
 *Rows 22–24 were re-derived from `concepts/` against this table when the original Ch 15–21 roadmap was exhausted (2026-08-24), per the standing instruction in this section. They were the last three clusters of written nodes with no chapter home; **all three are now drafted (2026-08-25), so the roadmap is again exhausted** — see the notice above the table. Re-derive from `concepts/` vs. this table whenever that happens.*
 
@@ -351,3 +357,9 @@
 | psyche-neoplatonic | Ch 24 | Ch 13 §2 (the third hypostasis) · Ch 03/09 (NOT-equiv jīva) · Ch 11 (NOT-equiv brahman — Brahman maps to Nous) |
 | liber-de-causis | Ch 24 | Ch 13 §6 (Proclus's *Elements* in Arabic dress) · Ch 14 (NOT-equiv aristotle-substance — Aquinas, 1272) |
 | pseudo-dionysius | Ch 24 | Ch 13 §5 (∥ and NOT-equiv henosis) · Ch 24 §6.2 (deletes henad-mediated causation) — **contested** (author's identity) |
+| vātsyāyana | Ch 25 | Ch 16 (Nyāya-Bhāṣya on the nyaya-sutra) · Ch 05 (the pramāṇa agenda he sets) — the chapter's one **high**-confidence node |
+| śaṅkara | Ch 25 | Ch 11 (the Advaita doctrine he systematised) · Ch 10 (∥ kundakunda) · Ch 18 (NOT-equiv the god Śiva) · Ch 19 (bādarāyaṇa lineage) |
+| maṇḍana-miśra | Ch 25 | Ch 17 (Kumārila's student) · Ch 11 (Brahmasiddhi; avidyā in the jīva) — **contested** (identity; and whose Advaita was primary) |
+| sureśvara | Ch 25 | Ch 11 (Vārttika-prasthāna; avidyā in Brahman) · Ch 25 §6 (NOT-equiv maṇḍana-miśra) |
+| vyāsa-yogabhāṣya | Ch 25 | Ch 15 (the bhāṣya that defines the Yoga darśana) · Ch 19 (NOT-equiv the Mahābhārata Vyāsa) — **contested**, three attributions |
+| vindhyavāsin | Ch 25 | Ch 15 (Sāṃkhya reformer; the Sāṃkhyakārikā dating thesis) · Ch 20 (the Ayodhyā debate with Vasubandhu's circle) |
