@@ -62,3 +62,4 @@ Independence: Wikipedia + WisdomLib are independent sources; the Ṛgveda occurr
 - shares-vocabulary-with: dhamma | dhamma/dharma and ṛta share the Vedic concern with cosmic and moral order; historically, dharma emerged as ṛta's particularized ethical successor in the classical period
 - expressed-by: yajna | yajña is the primary human ritual mechanism for maintaining ṛta; the Puruṣa Sūkta depicts the cosmos itself as arising from primordial sacrifice, making yajña the enactment of ṛta's originary structure
 - expressed-by: agni | Agni (*ṛtasya gopā*, "guardian of ṛta") embodies ṛta in the ritual sphere; fire transforms human offerings into divine reciprocity, sustaining cosmic order
+- expressed-by: varuna | Varuṇa is *ṛta*'s **moral** guardian as Agni is its ritual one — the *pāśa*, the thousand-eyed spies and the confession hymns RV 7.86–88 are the enforcement apparatus of cosmic order applied to human conduct
