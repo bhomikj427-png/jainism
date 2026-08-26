@@ -46,6 +46,7 @@
 | 27 Process All the Way Down: the Person, the Percept & Two Adversaries | [buddhist/27-process-and-adversaries.md](buddhist/27-process-and-adversaries.md) | nāmarūpa · pratyakṣa-buddhist · nyāyabindu (Dharmottaraṭīkā) · makkhali-gosāla | drafted |
 | 28 The Atom That Isn't and the Duality That Isn't: Modern Physics as Comparandum | [comparanda/28-modern-physics.md](comparanda/28-modern-physics.md) | modern-atom · quantum-complementarity | drafted |
 | 29 How Things Reach Us | [cross-tradition/29-transmission.md](cross-tradition/29-transmission.md) | psellos · eriugena · vārṣagaṇya · govinda-bhagavatpāda · utpaladeva · prajñākaragupta · vāgbhaṭa · atri | drafted |
+| 30 Where Does Ignorance Live? | [hindu/darsana/30-locus-of-ignorance.md](hindu/darsana/30-locus-of-ignorance.md) | prakāśātman · vācaspati-miśra | drafted |
 
 ---
 
@@ -392,3 +393,5 @@
 | prajñākaragupta | Ch 29 | Ch 27 (the *niścaya-pratyaya* he rejects) · Ch 05 §9 (dharmottara) · Ch 20 (the Pramāṇavārttika commentarial line) · Ch 07 (∥ and NOT-equiv kevala-jñāna — omniscience as an epistemological result) |
 | vāgbhaṭa | Ch 29 | Ch 23 (the third of the bṛhat-trayī; the AH's Tibetan/Arabic travel) · Ch 31 (A. Hṛ. Sū. 11/24, the tissue-fire rate relation) — **contested** (one Vāgbhaṭa or two) |
 | atri | Ch 29 | Ch 21 §4 (svarbhānu → rāhu/ketu; the naming-vs-identity caution one step further) · Ch 19 (Ṛgveda Maṇḍala 5) — **contested** (what RV 5.40 *is*) |
+| prakāśātman | Ch 30 | Ch 11 (the Vivaraṇa-prasthāna's māyā apparatus) · Ch 25 (padmapāda, whose *Pañcapādikā* he glosses) · Ch 15 (∥ **and** NOT-equiv prakṛti-sāṃkhya — *mūlāvidyā* in prakṛti's job-slot) — **contested** (a three-century dating spread) |
+| vācaspati-miśra | Ch 30 | Ch 15 (*Tattvakaumudī*, 90+ MSS) · Ch 15 (*Tattvavaiśāradī* on the Yoga-bhāṣya) · Ch 16 (the Nyāya *tātparyaṭīkā*) · Ch 17/05 (*Tattvabindu*; the Bhāṭṭa endorsement) · Ch 29 §4 (the instrument by which Vārṣagaṇya is reconstructed) — **contested** (898, era unstated) |
