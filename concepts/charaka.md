@@ -48,3 +48,4 @@ Two independently-fetched signals (Wikipedia's dedicated Charaka Samhita article
 - formalizes: dhatu | the thirteen-agni scheme and the dhātu-nourishment doctrine are transmitted through the Caraka Saṃhitā's Cikitsā Sthāna, and the three *dhātu-poṣaṇa-nyāya*s through Cakrapāṇidatta's commentary on it
 - formalizes: mala | the Caraka Saṃhitā supplies the tri-mala, the seven dhātu-mala correspondences, and the doctrine that a certain quantity of waste is required for the body to function
 - formalizes: agni-ayurveda | the four states of *jāṭharāgni* and the *mandāgni*-as-disease-cause claim (Ci. 15/51) are Caraka's; Ci. 15/3 makes ojas, tejas and prāṇa depend on agni's status
+- structurally-parallel-to: vagbhata | the third member of the *bṛhat-trayī* and the same evidentiary shape again — a definite compendium behind an uncertain person; Vāgbhaṭa is also a successor who synthesises this text, so the two relations are not in competition
