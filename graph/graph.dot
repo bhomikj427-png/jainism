@@ -165,6 +165,7 @@ digraph ancient_texts {
     "advaita-vedanta" [label="Advaita Vedānta" fillcolor="#4fd16b" shape=ellipse];
     "agni" [label="Agni" fillcolor="#4fd16b" shape=ellipse];
     "ahimsa-vedic" [label="ahiṃsā (Vedic/Hindu)" fillcolor="#4fd16b" shape=ellipse];
+    "amalananda" [label="Amalānanda" fillcolor="#4fd16b" shape=ellipse];
     "amrita" [label="amṛta" fillcolor="#4fd16b" shape=ellipse];
     "aruna" [label="Aruṇa" fillcolor="#4fd16b" shape=ellipse];
     "atman-vedanta" [label="ātman (Vedānta)" fillcolor="#4fd16b" shape=ellipse];
@@ -476,6 +477,13 @@ digraph ancient_texts {
   "alaya-vijnana" -> "anatta-buddhist" [color="#cccccc22"];
   "alaya-vijnana" -> "manas" [color="#cccccc22"];
   "alaya-vijnana" -> "tathagata-garbha" [color="#cccccc22"];
+  "amalananda" -> "vacaspati-mishra" [color="#cccccc22"];
+  "amalananda" -> "shankara" [color="#cccccc22"];
+  "amalananda" -> "brahma-sutra" [color="#cccccc22"];
+  "amalananda" -> "padmapada" [color="#cccccc22"];
+  "amalananda" -> "advaita-vedanta" [color="#cccccc22"];
+  "amalananda" -> "prakasatman" [color="#cccccc22"];
+  "amalananda" -> "sarvajnatman" [color="#cccccc22"];
   "ammonius-saccas" -> "neoplatonism" [color="#cccccc22"];
   "ammonius-saccas" -> "plato-forms" [color="#cccccc22"];
   "amrita" -> "samudra-manthana" [color="#cccccc22"];
@@ -2134,6 +2142,7 @@ digraph ancient_texts {
   "vacaspati-mishra" -> "sureshvara" [color="#cccccc22"];
   "vacaspati-mishra" -> "vidyaranya" [color="#cccccc22"];
   "vacaspati-mishra" -> "prakasatman" [color="#cccccc22"];
+  "vacaspati-mishra" -> "amalananda" [color="#cccccc22"];
   "vagbhata" -> "ayurveda" [color="#cccccc22"];
   "vagbhata" -> "charaka" [color="#cccccc22"];
   "vagbhata" -> "sushruta" [color="#cccccc22"];
