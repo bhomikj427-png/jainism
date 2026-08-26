@@ -1,6 +1,6 @@
 # Chapter 33 — The Asura Question: A Word That Changed Sides, Enemies Who Became Devotees, and Two Brothers Ranked in Reverse
 
-**Concepts covered:** varuṇa · vṛtra · verethragna · prahlāda · balarāma
+**Concepts covered:** varuṇa · vṛtra · verethragna · prahlāda · balarāma · **hiraṇyakaśipu** (§5.3.1–5.3.2, added Batch 43)
 **Cross-referenced (primary-covered elsewhere):** indra · agni · sūrya (Ch 18) · ṛta · yajña · upaniṣad · rāmāyaṇa · vyāsa (Ch 19) · bali · vāmana · narasiṃha · matsya · varāha · avatāra-vedānta · svarbhānu · rāhu · ketu · śeṣa (Ch 21) · viṣṇu · śiva · kṛṣṇa · rāma · vaiṣṇavism · śaivism · bhakti (Ch 18/11) · gītā · mahābhārata (Ch 19) · māyā-advaita (Ch 11) · karma-vedic (Ch 04) · ahiṃsā · tīrthaṅkara · utsarpiṇī-avasarpiṇī · pāpa (Ch 03/08/09/10) · satya (Ch 08) · catuṣkoṭi (Ch 06) · atri (Ch 29 §8)
 **Confidence:** all five **medium**, and for a common reason: this is encyclopedia-and-aggregation territory throughout. **No Ṛgvedic hymn, no Avestan text, no Purāṇic passage and no Jain epic was read in translation for this chapter.** §8 says exactly which claims that limits.
 **Source ceiling note:** For `verethragna` in particular, **both signals are Wikipedia articles** — so the independence is between *articles*, not between *authorities*, and the three scholarly positions it maps are known only through a summary of them. That is stated in the node and repeated here because §3 leans on it.
@@ -235,6 +235,30 @@ Prahlāda's father **Hiraṇyakaśipu** held a boon that he could be slain "**ne
 Name the type: the boon is defeated not by superior force but by **exhaustive disjunction failing to be exhaustive**. Every clause partitions a domain in two, and the killer occupies the boundary each partition forgot.
 
 The corpus notes a **formal resonance** with Indian logic's interest in whether alternatives genuinely exclude — the ***catuṣkoṭi*** (Ch 06) adds exactly the *both* and *neither* corners that Hiraṇyakaśipu's boon assumed away. **A resonance, not a source.** The Purāṇa is not doing logic, the corpus asserts no influence in either direction, and the edge is typed to say so.
+
+#### 5.3.1 The verses, and the clause that actually fails *(added in Batch 43 with the `hiraṇyakaśipu` node)*
+
+The paraphrase above is now backed by the text. In G. V. Tagare's translation, *Bhāgavata Purāṇa* **7.3.35–37**:
+
+> **35** — "Let me not meet death at the hands of any being **created by You**"
+>
+> **36–37** — "Let me not meet death **indoors or out of doors**; during **night or at day** time, by the hand of any other (being created by you) **or by means of weapons**; let there be no death to me either **on the earth or in the sky**, either **by men or beasts**; by **gods, demons and big serpents**; by beings whether **living or dead**. Grant me matchlessness in fight and the sole absolute rulership of all embodied beings."
+
+Three things the verses show that the retellings do not.
+
+**He never asks for immortality.** In this rendering there is no request for deathlessness *simpliciter*, and no refusal of one. The boon is an **enumeration from its first clause** — which is what makes it the kind of thing that can have a gap.
+
+**It is not only defensive.** In the same breath he asks for **absolute rulership over all embodied beings**, and at 7.3.38 for Brahmā's own station among the world-guardians. The fence is one half of a bid for the boon-giver's job.
+
+**And the first clause is the one that fails first.** Everything is fenced out *"by any being **created by You**"* — by Brahmā. In this same Purāṇa's cosmology Brahmā is not Viṣṇu's creator but his creature, born from the navel-lotus. **Viṣṇu is not in the domain the boon quantifies over at all.** On that reading the man-lion, the twilight and the threshold are not what makes the killing possible — they are a **surplus**, the narrative satisfying, visibly and one by one, clauses that were already void.
+
+⚠ That last reading is **the corpus's own**, drawn from the quoted verses; no source consulted states it, and the node says so. It is recorded because it changes the moral. On the popular reading: *be careful how you enumerate.* On the textual reading: *you cannot fence out what your fence-maker is smaller than* — a claim about the limits of a **granted** power rather than about the limits of a list. Both are available in the text and the corpus chooses neither.
+
+#### 5.3.2 The adversary is under orders
+
+The *Bhāgavata*'s own frame makes Hiraṇyakaśipu and Hiraṇyākṣa the reborn **Jaya and Vijaya**, Viṣṇu's own gatekeepers at Vaikuṇṭha, cursed by the Four Kumāras to three demonic lives: Hiraṇyakaśipu/Hiraṇyākṣa slain by Narasiṃha and Varāha, Rāvaṇa/Kumbhakarṇa by Rāma, Śiśupāla/Dantavakra by Kṛṣṇa — after which they return.
+
+This sits awkwardly with Canto 7's moral surface, and §5 is the right place to leave the awkwardness standing rather than resolve it. Read morally, Hiraṇyakaśipu is a tyrant destroyed for persecuting his devotee son. Read structurally, **his enmity is assigned, not chosen** — a role three times required so that Viṣṇu has someone to descend against, and its holders are his own intimates. Which is this chapter's thesis arriving from a new direction: one household holds the tradition's model devotee (§6) and the adversary the fourth avatāra exists to kill. **The *asura* category has stopped doing moral work and become a narrative position.**
 
 ---
 
