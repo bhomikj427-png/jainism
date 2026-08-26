@@ -52,3 +52,4 @@ Syādvāda is the **doctrine of conditional predication**: the method of making 
 - part-of: anekantavada | syādvāda is the linguistic-logical expression of anekāntavāda (the method for the metaphysical principle)
 - expressed-by: saptabhangi | saptabhaṅgī systematises syādvāda into seven canonical predication forms
 - formalizes: naya | syādvāda formalises naya-based perspectives into syāt-qualified propositions
+- shares-vocabulary-with: hemacandra | this file's named upgrade path resolves through him: Malliṣeṇa's *Syādvādamañjarī* (1292) is a commentary on Hemacandra's thirty-two-verse *Anyayogavyavacchedadvātriṃśikā*

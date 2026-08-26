@@ -31,6 +31,7 @@ digraph ancient_texts {
     "dravyarthika-naya" [label="dravyārthika naya" fillcolor="#ffd23f" shape=ellipse];
     "garuda" [label="Garuḍa" fillcolor="#ffd23f" shape=ellipse];
     "gunasthana" [label="guṇasthāna" fillcolor="#ffd23f" shape=ellipse];
+    "hemacandra" [label="Hemacandra" fillcolor="#ffd23f" shape=ellipse];
     "iryapathika-asrava" [label="īryāpathika-āsrava" fillcolor="#ffd23f" shape=ellipse];
     "jina" [label="jina" fillcolor="#ffd23f" shape=ellipse];
     "jiva" [label="jīva" fillcolor="#ffd23f" shape=ellipse];
@@ -506,6 +507,7 @@ digraph ancient_texts {
   "anekantavada" -> "quantum-complementarity" [color="#cccccc22"];
   "anekantavada" -> "dvisatya" [color="#cccccc22"];
   "anekantavada" -> "dvisatya" [color="#cccccc22"];
+  "anekantavada" -> "hemacandra" [color="#cccccc22"];
   "anicca" -> "sat" [color="#cccccc22"];
   "anicca" -> "paryaya" [color="#cccccc22"];
   "anicca" -> "anatta-buddhist" [color="#cccccc22"];
@@ -663,6 +665,7 @@ digraph ancient_texts {
   "balarama" -> "utsarpini-avasarpini" [color="#cccccc22"];
   "balarama" -> "mahabharata" [color="#cccccc22"];
   "balarama" -> "gita" [color="#cccccc22"];
+  "balarama" -> "hemacandra" [color="#cccccc22"];
   "bali" -> "vamana" [color="#cccccc22"];
   "bali" -> "narasimha" [color="#cccccc22"];
   "bandha" -> "karma" [color="#cccccc22"];
@@ -1004,6 +1007,16 @@ digraph ancient_texts {
   "hanuman" -> "bhakti" [color="#cccccc22"];
   "hanuman" -> "shiva" [color="#cccccc22"];
   "hanuman" -> "mahabharata" [color="#cccccc22"];
+  "hemacandra" -> "anekantavada" [color="#cccccc22"];
+  "hemacandra" -> "syadvada" [color="#cccccc22"];
+  "hemacandra" -> "saptabhangi" [color="#cccccc22"];
+  "hemacandra" -> "svetambara" [color="#cccccc22"];
+  "hemacandra" -> "balarama" [color="#cccccc22"];
+  "hemacandra" -> "tirthankara" [color="#cccccc22"];
+  "hemacandra" -> "utsarpini-avasarpini" [color="#cccccc22"];
+  "hemacandra" -> "sallekhana" [color="#cccccc22"];
+  "hemacandra" -> "appayya-dikshita" [color="#cccccc22"];
+  "hemacandra" -> "dalhana" [color="#cccccc22"];
   "henosis" -> "neoplatonism" [color="#cccccc22"];
   "henosis" -> "moksha-advaita" [color="#cccccc22"];
   "henosis" -> "moksha-advaita" [color="#cccccc22"];
@@ -2063,6 +2076,7 @@ digraph ancient_texts {
   "syadvada" -> "anekantavada" [color="#cccccc22"];
   "syadvada" -> "saptabhangi" [color="#cccccc22"];
   "syadvada" -> "naya" [color="#cccccc22"];
+  "syadvada" -> "hemacandra" [color="#cccccc22"];
   "syrianus" -> "iamblichus" [color="#cccccc22"];
   "syrianus" -> "neoplatonism" [color="#cccccc22"];
   "syrianus" -> "aristotle-substance" [color="#cccccc22"];
