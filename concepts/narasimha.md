@@ -38,3 +38,4 @@ The boon-loophole is reproduced identically across independent sources → **con
 - is-a-type-of: avatara-vedanta | Narasiṃha is the fourth of the daśāvatāra — Viṣṇu's man-lion descent
 - shares-vocabulary-with: varaha | the paired Hiraṇya-cycle avatāras — Narasiṃha slays Hiraṇyakaśipu, Varāha his brother Hiraṇyākṣa
 - shares-vocabulary-with: vishnu | Narasiṃha is Viṣṇu's man-lion form, bursting from the pillar to save the devotee Prahlāda
+- shares-vocabulary-with: hiranyakashipu | the adversary whose boon dictates the form: that node carries the clauses at *Bhāgavata* 7.3.35–38 in translation, which is the citation this file's loophole structure previously rested on a devotional retelling for

@@ -188,6 +188,7 @@ digraph ancient_texts {
     "govinda-bhagavatpada" [label="Govinda Bhagavatpāda" fillcolor="#4fd16b" shape=ellipse];
     "halahala" [label="hālāhala" fillcolor="#4fd16b" shape=ellipse];
     "hanuman" [label="Hanumān" fillcolor="#4fd16b" shape=ellipse];
+    "hiranyakashipu" [label="Hiraṇyakaśipu" fillcolor="#4fd16b" shape=ellipse];
     "indra" [label="Indra" fillcolor="#4fd16b" shape=ellipse];
     "jatayu" [label="Jaṭāyu" fillcolor="#4fd16b" shape=ellipse];
     "jivanmukti" [label="jīvanmukti" fillcolor="#4fd16b" shape=ellipse];
@@ -1022,6 +1023,15 @@ digraph ancient_texts {
   "hetvabhasa" -> "vyapti" [color="#cccccc22"];
   "hetvabhasa" -> "hetu-vidya" [color="#cccccc22"];
   "hetvabhasa" -> "tarka" [color="#cccccc22"];
+  "hiranyakashipu" -> "narasimha" [color="#cccccc22"];
+  "hiranyakashipu" -> "prahlada" [color="#cccccc22"];
+  "hiranyakashipu" -> "vishnu" [color="#cccccc22"];
+  "hiranyakashipu" -> "brahma" [color="#cccccc22"];
+  "hiranyakashipu" -> "tapas" [color="#cccccc22"];
+  "hiranyakashipu" -> "avatara-vedanta" [color="#cccccc22"];
+  "hiranyakashipu" -> "catuskoti" [color="#cccccc22"];
+  "hiranyakashipu" -> "catuskoti" [color="#cccccc22"];
+  "hiranyakashipu" -> "many-valued-logic" [color="#cccccc22"];
   "iamblichus" -> "neoplatonism" [color="#cccccc22"];
   "iamblichus" -> "porphyry" [color="#cccccc22"];
   "iamblichus" -> "plotinus" [color="#cccccc22"];
@@ -1391,6 +1401,7 @@ digraph ancient_texts {
   "narasimha" -> "avatara-vedanta" [color="#cccccc22"];
   "narasimha" -> "varaha" [color="#cccccc22"];
   "narasimha" -> "vishnu" [color="#cccccc22"];
+  "narasimha" -> "hiranyakashipu" [color="#cccccc22"];
   "nataraja" -> "shiva" [color="#cccccc22"];
   "nataraja" -> "agni" [color="#cccccc22"];
   "nataraja" -> "modern-atom" [color="#cccccc22"];
@@ -1597,6 +1608,7 @@ digraph ancient_texts {
   "prahlada" -> "shaivism" [color="#cccccc22"];
   "prahlada" -> "gita" [color="#cccccc22"];
   "prahlada" -> "catuskoti" [color="#cccccc22"];
+  "prahlada" -> "hiranyakashipu" [color="#cccccc22"];
   "prajnakaragupta" -> "pramanavarttika" [color="#cccccc22"];
   "prajnakaragupta" -> "dharmakirti" [color="#cccccc22"];
   "prajnakaragupta" -> "dharmottara" [color="#cccccc22"];
