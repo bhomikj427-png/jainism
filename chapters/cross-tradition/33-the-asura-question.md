@@ -184,6 +184,16 @@ So this is a **two-term correspondence in vocabulary and in function at once**: 
 
 It remains a **structural parallel and not an identity**: Ahura Mazdā is the sole uncreated creator of a dualist system; Varuṇa is chief of the Ādityas in a polytheistic one. The corpus draws it as a parallel and says so.
 
+**Since this chapter was drafted, [[ahura-mazda|Ahura Mazdā]] has been written as a node, and the correspondence is now sourced from the Iranian side too — where it turns out to be *three*-term, not two:**
+
+| term | Iranian | Indian |
+|---|---|---|
+| the title | ***ahura*** ← PIE *\*h₂ńsuros*, "cognate with Sanskrit *ásura*" | ***asura***, an approving title of Varuṇa at RV 5.63.3 |
+| what it upholds | ***aṣ̃a*** | ***ṛta*** — and both "derive from Proto-Indo-Iranian *\*Hṛtá-* 'truth'" |
+| its ritual guardian | **fire**, with which *Aṣ̃a Vahiṣta* is associated — it "detects" truth and is "the auxiliary of the truth" | **Agni**, *ṛtasya gopā*, "guardian of *ṛta*" (Ch. 19) |
+
+A one-term match can be coincidence. A three-term match in which the second term is the first term's characteristic activity, and the third is the same functional pairing in both languages, is much harder to get by accident. **That is the difference between §4 and §4.1 made quantitative.** — with one caution the new node adds: the stronger claim in circulation, that Ahura Mazdā's name *derives* from *\*vouruna-miθra*, is attributed to "some scholars," is not its source's own voice, and the corpus does **not** assert it. Having just recorded a withdrawn etymology for Varuṇa's name in §4, it declines to accept a new one on the same evidence-grade.
+
 ### 4.2 The two Indo-Iranian cases pull opposite ways
 
 Worth holding together:
