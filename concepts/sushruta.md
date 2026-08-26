@@ -38,3 +38,5 @@ Two independent sources (Wikipedia's Sushruta Samhita article and its Ayurveda a
 - formalizes: ayurveda | the Suśruta Saṃhitā is one of the two foundational codifications of the Āyurvedic medical system (surgical branch)
 - structurally-parallel-to: charaka | both are foundational, multi-redactor Āyurvedic Saṃhitās covering the same core subjects with opposite emphasis — surgery (Suśruta) vs. internal medicine (Charaka) — and an unresolved relative chronology
 - shares-vocabulary-with: dhanvantari | printed editions frame the Suśruta Saṃhitā as Dhanvantari's own teaching, though the oldest manuscripts instead attribute it directly to King Divodāsa — a genuine internal-tradition divergence on which figure is the source, not a settled genealogy
+- formalizes: dhatu | the surgical compendium is the other classical locus for the *sapta-dhātu*, treating the blood chapters at greater length than Caraka does
+- formalizes: mala | Sū. 15 treats increase and decrease of *doṣa*, *dhātu* and *mala* as one subject — the framing on which the balance-model reading of Āyurvedic physiology rests

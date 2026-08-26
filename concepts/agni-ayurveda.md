@@ -83,4 +83,3 @@ The second is the one that repays attention: **the relation is inverse**. Raise 
 - formalizes: mala | the same transformation that yields each tissue yields its residue; malas are what agni leaves behind at every stage
 - shares-vocabulary-with: tridosha | the four states of *jāṭharāgni* are keyed one-to-one onto vāta, pitta and kapha, which is how agni-diagnosis and doṣa-diagnosis interlock
 - shares-vocabulary-with: pancha-mahabhuta | the five *bhūtāgni* are indexed one per mahābhūta — the element scheme entering the model at the level of absorption
-- historically-influenced-by: charaka | the thirteen-fold scheme, the four states, and the *mandāgni*-as-disease-cause claim are all cited to the Caraka Saṃhitā's Cikitsā Sthāna 15

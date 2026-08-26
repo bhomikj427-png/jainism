@@ -62,6 +62,4 @@ This is the point at which the *dhātu* / *mala* pair stops looking like a list 
 - part-of: ayurveda | mala is one of the three fundamental categories — *doṣa*, *dhātu*, *mala* — into which classical Āyurveda analyses the body
 - shares-vocabulary-with: dhatu | the two are outputs of one process: each *dhātv-agni* yields a refined tissue and a residue, so the mala list indexes one-for-one onto the sapta-dhātu
 - shares-vocabulary-with: tridosha | the complication worth teaching: *kapha* is listed as the mala of rasa and *pitta* as the mala of rakta, so two of the three doṣas are also products of tissue metabolism — while *vāta* has no dhātu-mala row at all
-- expressed-by: charaka | the definition, the tri-mala, the dhātu-mala correspondences and the "waste is needed" doctrine are transmitted through the Caraka Saṃhitā
-- shares-vocabulary-with: sushruta | the surgical compendium treats increase and decrease of doṣa, dhātu and mala as one subject, which is the framing this node's balance-model reading depends on
 - often-conflated-with-NOT-equivalent: papa | outside medicine *mala* means impurity or defilement, and Jain and Vedic usage carries moral and ritual weight; the Āyurvedic sense is technical and non-moralised — a residue with a job, not a stain
