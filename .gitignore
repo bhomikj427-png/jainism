@@ -7,3 +7,10 @@ graph/*.png
 
 # Graphviz cleanup intermediate (created+deleted on each render; never commit)
 graph/graph
+
+# Rendered SVG: regenerable, and NOT byte-stable -- fdp in Graphviz 15 relays the
+# graph out on every run even with a fixed seed and byte-identical input, so it
+# rewrote ~12k lines (1.1 MB) per commit carrying no information. The tracked,
+# byte-stable artifacts are graph.dot and graph.html; render the SVG on demand:
+#   python graph/build_graph.py    (or: dot -Kfdp -Tsvg graph/graph.dot -o graph/graph.svg)
+graph/graph.svg

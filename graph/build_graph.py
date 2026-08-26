@@ -297,8 +297,8 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
         dot_path = out_path.with_suffix(".dot")
         _write_dot(nodes, edges, link_counts, dot_path)
         print(f"\n!!  Graphviz render FAILED ({ex}).")
-        print(f"!!  Wrote {dot_path} instead. graph.svg was NOT regenerated and is now "
-              f"STALE -- install Graphviz / add its bin to PATH before committing.")
+        print(f"!!  Wrote {dot_path} instead (tracked, byte-stable). graph.svg is an "
+              f"untracked render -- add Graphviz's bin to PATH to produce it.")
 
 
 def _write_dot(nodes, edges, link_counts, dot_path: Path):
@@ -800,12 +800,13 @@ def write_manifest(nodes, link_counts, out_path: Path):
 
 
 def check_svg_freshness(nodes, svg_path: Path) -> bool:
-    """graph.svg is a *tracked* artifact only Graphviz can regenerate. When `dot` is
+    """graph.svg is an untracked render only Graphviz can produce. When `dot` is
     missing the render fails, the run continues, and the audit still prints CLEAN --
     so a stale SVG can be committed with no warning. Compare its node count to the
     live graph and say so loudly."""
     if not svg_path.exists():
-        print("\n!!  graph/graph.svg is MISSING -- install Graphviz and re-run.")
+        print("graph.svg        : not rendered (untracked artifact; run with "
+              "Graphviz on PATH to produce it)")
         return False
     try:
         svg = svg_path.read_text(encoding="utf-8", errors="ignore")
