@@ -47,6 +47,7 @@
 | 28 The Atom That Isn't and the Duality That Isn't: Modern Physics as Comparandum | [comparanda/28-modern-physics.md](comparanda/28-modern-physics.md) | modern-atom · quantum-complementarity | drafted |
 | 29 How Things Reach Us | [cross-tradition/29-transmission.md](cross-tradition/29-transmission.md) | psellos · eriugena · vārṣagaṇya · govinda-bhagavatpāda · utpaladeva · prajñākaragupta · vāgbhaṭa · atri | drafted |
 | 30 Where Does Ignorance Live? | [hindu/darsana/30-locus-of-ignorance.md](hindu/darsana/30-locus-of-ignorance.md) | prakāśātman · vācaspati-miśra | drafted |
+| 31 The Body as a Rate | [hindu/shastra/31-the-ayurvedic-body.md](hindu/shastra/31-the-ayurvedic-body.md) | agni-āyurveda · dhātu · mala | drafted |
 
 ---
 
@@ -395,3 +396,6 @@
 | atri | Ch 29 | Ch 21 §4 (svarbhānu → rāhu/ketu; the naming-vs-identity caution one step further) · Ch 19 (Ṛgveda Maṇḍala 5) — **contested** (what RV 5.40 *is*) |
 | prakāśātman | Ch 30 | Ch 11 (the Vivaraṇa-prasthāna's māyā apparatus) · Ch 25 (padmapāda, whose *Pañcapādikā* he glosses) · Ch 15 (∥ **and** NOT-equiv prakṛti-sāṃkhya — *mūlāvidyā* in prakṛti's job-slot) — **contested** (a three-century dating spread) |
 | vācaspati-miśra | Ch 30 | Ch 15 (*Tattvakaumudī*, 90+ MSS) · Ch 15 (*Tattvavaiśāradī* on the Yoga-bhāṣya) · Ch 16 (the Nyāya *tātparyaṭīkā*) · Ch 17/05 (*Tattvabindu*; the Bhāṭṭa endorsement) · Ch 29 §4 (the instrument by which Vārṣagaṇya is reconstructed) — **contested** (898, era unstated) |
+| agni-āyurveda | Ch 31 | Ch 18/19 (∥ **and** NOT-equiv the Vedic deity agni — a §8 tradition-split) · Ch 23 (the four states keyed to the doṣas) · Ch 16 (the five *bhūtāgni*, one per mahābhūta) |
+| dhātu | Ch 31 | Ch 23 (the structural counterpart to tridoṣa) · Ch 12 (NOT-equiv skandha-buddhist — tissues sustained vs constituents in an anattā argument) · Ch 15 (NOT-equiv prakṛti-sāṃkhya) — **contested**: the tradition transmits three incompatible nourishment models at once |
+| mala | Ch 31 | Ch 23 (kapha as the mala of rasa, pitta of rakta — the standard picture reversed) · Ch 10 (NOT-equiv pāpa — a residue with a job, not a stain) |
