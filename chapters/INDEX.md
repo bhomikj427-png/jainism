@@ -48,6 +48,7 @@
 | 29 How Things Reach Us | [cross-tradition/29-transmission.md](cross-tradition/29-transmission.md) | psellos · eriugena · vārṣagaṇya · govinda-bhagavatpāda · utpaladeva · prajñākaragupta · vāgbhaṭa · atri | drafted |
 | 30 Where Does Ignorance Live? | [hindu/darsana/30-locus-of-ignorance.md](hindu/darsana/30-locus-of-ignorance.md) | prakāśātman · vācaspati-miśra | drafted |
 | 31 The Body as a Rate | [hindu/shastra/31-the-ayurvedic-body.md](hindu/shastra/31-the-ayurvedic-body.md) | agni-āyurveda · dhātu · mala | drafted |
+| 32 What Survives Omniscience | [jain/32-what-survives-omniscience.md](jain/32-what-survives-omniscience.md) | aghāti-karma · īryāpathika-āsrava | drafted |
 
 ---
 
@@ -399,3 +400,5 @@
 | agni-āyurveda | Ch 31 | Ch 18/19 (∥ **and** NOT-equiv the Vedic deity agni — a §8 tradition-split) · Ch 23 (the four states keyed to the doṣas) · Ch 16 (the five *bhūtāgni*, one per mahābhūta) |
 | dhātu | Ch 31 | Ch 23 (the structural counterpart to tridoṣa) · Ch 12 (NOT-equiv skandha-buddhist — tissues sustained vs constituents in an anattā argument) · Ch 15 (NOT-equiv prakṛti-sāṃkhya) — **contested**: the tradition transmits three incompatible nourishment models at once |
 | mala | Ch 31 | Ch 23 (kapha as the mala of rasa, pitta of rakta — the standard picture reversed) · Ch 10 (NOT-equiv pāpa — a residue with a job, not a stain) |
+| aghāti-karma | Ch 32 | Ch 26 §5 (the other family of TS 8.4's eight) · Ch 10 (the arihant/siddha difference **is** this residue; *tīrthakaratva* as item 42 of nāma-karma) · Ch 03 (why the ladder's top rungs stop activity rather than clarify sight) — closes Ch 26 §6.4 |
+| īryāpathika-āsrava | Ch 32 | Ch 03 (TS 6.4 fetched, upgrading `asrava.md`'s aggregation-only mechanism) · Ch 03 (guṇasthānas 11–13) · Ch 19 (∥ **and** NOT-equiv jīvanmukti — deny new adhesion vs deny new relevance) |
