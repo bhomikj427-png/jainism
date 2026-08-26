@@ -176,6 +176,7 @@ digraph ancient_texts {
     "bali" [label="Bali" fillcolor="#4fd16b" shape=ellipse];
     "brahma" [label="Brahmā" fillcolor="#4fd16b" shape=ellipse];
     "brahman" [label="brahman" fillcolor="#4fd16b" shape=ellipse];
+    "cakrapanidatta" [label="Cakrapāṇidatta" fillcolor="#4fd16b" shape=ellipse];
     "charaka" [label="Caraka" fillcolor="#4fd16b" shape=ellipse];
     "dhanvantari" [label="Dhanvantari" fillcolor="#4fd16b" shape=ellipse];
     "durga" [label="Durgā" fillcolor="#4fd16b" shape=ellipse];
@@ -720,6 +721,13 @@ digraph ancient_texts {
   "brahman" -> "brahma-sutra" [color="#cccccc22"];
   "brahman" -> "parmenides-being" [color="#cccccc22"];
   "brahman" -> "parmenides-being" [color="#cccccc22"];
+  "cakrapanidatta" -> "charaka" [color="#cccccc22"];
+  "cakrapanidatta" -> "sushruta" [color="#cccccc22"];
+  "cakrapanidatta" -> "ayurveda" [color="#cccccc22"];
+  "cakrapanidatta" -> "dhatu" [color="#cccccc22"];
+  "cakrapanidatta" -> "mala" [color="#cccccc22"];
+  "cakrapanidatta" -> "agni-ayurveda" [color="#cccccc22"];
+  "cakrapanidatta" -> "vagbhata" [color="#cccccc22"];
   "carvaka" -> "vyapti" [color="#cccccc22"];
   "carvaka" -> "vyapti" [color="#cccccc22"];
   "carvaka" -> "pramana-nyaya" [color="#cccccc22"];
@@ -835,6 +843,7 @@ digraph ancient_texts {
   "dhatu" -> "mala" [color="#cccccc22"];
   "dhatu" -> "skandha-buddhist" [color="#cccccc22"];
   "dhatu" -> "prakriti-samkhya" [color="#cccccc22"];
+  "dhatu" -> "cakrapanidatta" [color="#cccccc22"];
   "dhyana-jain" -> "samvara" [color="#cccccc22"];
   "dhyana-jain" -> "nirjara" [color="#cccccc22"];
   "dhyana-jain" -> "gunasthana" [color="#cccccc22"];
