@@ -259,6 +259,13 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
         engine="fdp",
         graph_attr={
             "overlap": "prism", "splines": "false", "bgcolor": "#1a1a1a",
+            # Fixed layout seed. NOTE: this is necessary but NOT sufficient --
+            # fdp in Graphviz 15 still produces a different layout on every run
+            # (verified: the same .dot rendered twice differs, under overlap=
+            # prism/scale/false alike). So graph.svg churns ~12k lines per commit
+            # regardless. graph.dot IS byte-stable; if the churn ever matters,
+            # untrack graph.svg and render it on demand from graph.dot.
+            "start": "1",
             "outputorder": "edgesfirst", "K": "0.65", "sep": "+18",
             "fontname": "Helvetica",
         },
@@ -297,6 +304,7 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
 def _write_dot(nodes, edges, link_counts, dot_path: Path):
     """Deterministic .dot intermediate: fdp + invisible per-tradition clusters."""
     lines = ["digraph ancient_texts {", "  layout=fdp;", '  overlap="prism";',
+             '  start=1;',
              '  bgcolor="#1a1a1a";', '  sep="+18";',
              '  node [fontname=Helvetica fontcolor="#e6e6e6" style=filled];']
     fam_nodes = _group_by_family(nodes)

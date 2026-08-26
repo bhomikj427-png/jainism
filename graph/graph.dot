@@ -1,6 +1,7 @@
 digraph ancient_texts {
   layout=fdp;
   overlap="prism";
+  start=1;
   bgcolor="#1a1a1a";
   sep="+18";
   node [fontname=Helvetica fontcolor="#e6e6e6" style=filled];
