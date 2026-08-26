@@ -167,6 +167,7 @@ digraph ancient_texts {
     "ahimsa-vedic" [label="ahiṃsā (Vedic/Hindu)" fillcolor="#4fd16b" shape=ellipse];
     "amalananda" [label="Amalānanda" fillcolor="#4fd16b" shape=ellipse];
     "amrita" [label="amṛta" fillcolor="#4fd16b" shape=ellipse];
+    "appayya-dikshita" [label="Appayya Dīkṣita" fillcolor="#4fd16b" shape=ellipse];
     "aruna" [label="Aruṇa" fillcolor="#4fd16b" shape=ellipse];
     "atman-vedanta" [label="ātman (Vedānta)" fillcolor="#4fd16b" shape=ellipse];
     "atri" [label="Atri" fillcolor="#4fd16b" shape=ellipse];
@@ -484,6 +485,7 @@ digraph ancient_texts {
   "amalananda" -> "advaita-vedanta" [color="#cccccc22"];
   "amalananda" -> "prakasatman" [color="#cccccc22"];
   "amalananda" -> "sarvajnatman" [color="#cccccc22"];
+  "amalananda" -> "appayya-dikshita" [color="#cccccc22"];
   "ammonius-saccas" -> "neoplatonism" [color="#cccccc22"];
   "ammonius-saccas" -> "plato-forms" [color="#cccccc22"];
   "amrita" -> "samudra-manthana" [color="#cccccc22"];
@@ -532,6 +534,16 @@ digraph ancient_texts {
   "apoha" -> "sunyata" [color="#cccccc22"];
   "apoha" -> "sabda-pramana" [color="#cccccc22"];
   "apoha" -> "paryayarthika-naya" [color="#cccccc22"];
+  "appayya-dikshita" -> "amalananda" [color="#cccccc22"];
+  "appayya-dikshita" -> "vacaspati-mishra" [color="#cccccc22"];
+  "appayya-dikshita" -> "shankara" [color="#cccccc22"];
+  "appayya-dikshita" -> "brahma-sutra" [color="#cccccc22"];
+  "appayya-dikshita" -> "advaita-vedanta" [color="#cccccc22"];
+  "appayya-dikshita" -> "shaivism" [color="#cccccc22"];
+  "appayya-dikshita" -> "vishishtadvaita" [color="#cccccc22"];
+  "appayya-dikshita" -> "dvaita-vedanta" [color="#cccccc22"];
+  "appayya-dikshita" -> "anekantavada" [color="#cccccc22"];
+  "appayya-dikshita" -> "anekantavada" [color="#cccccc22"];
   "arhat" -> "theravada" [color="#cccccc22"];
   "arhat" -> "nirvana-buddhist" [color="#cccccc22"];
   "arhat" -> "anatta-buddhist" [color="#cccccc22"];
