@@ -2,8 +2,8 @@
 
 > **⚠️ ORIENTATION — read this before acting (kept short on purpose; loaded on every startup — closed run-logs are rotated to `progress-archive.md`).**
 > This project has **two parallel structures**, and they are NOT interchangeable:
-> 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 43 IN PROGRESS — 332 concepts, 1939 edges** (audit CLEAN; 3 of 11 queued concepts done).
-> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Chs 29–33 drafted — the teaching layer is COMPLETE for the current 329-node graph.** Batch 42 added 20 nodes and five chapters were written over them (29 transmission · 30 the locus of avidyā · 31 the Āyurvedic body · 32 the aghāti karmas · 33 the asura question). The roadmap was re-derived on 2026-08-26 and found **eight** genuine gaps, all of the *covered-in-prose-but-missing-a-row* kind — rows added, no chapter needed. Coverage now verified at **329 / 329**. **→ The next unit of work is to RESUME BATCH 43 here (see the IN-PROGRESS block immediately below the header), not a chapter.** Chapter coverage is complete at 332/332 — the three Batch-43 nodes were folded into Chs 18 and 33 rather than given a new chapter. Write new nodes first, then a chapter over them, then re-derive the roadmap in `chapters/INDEX.md` by the method recorded there. ⚠️ When re-deriving, diff on **chapter prose with diacritics**, not on bare keys — the index lists concepts by IAST display name, so a key-only diff reports false gaps. NOTE: `hindu/` has a **second level** (`darsana/`, `devotional/`, `scripture/`, `shastra/`) — see `chapters/INDEX.md` header for what goes where.
+> 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 43 COMPLETE — 340 concepts, 2022 edges** (audit CLEAN; 11/11 concepts done, pushed).
+> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Ch 34 — The Commentator** (`cross-tradition/`), written over seven of Batch 43's eight new nodes; the eighth (`hiraṇyakaśipu`) was folded into **Ch 33 §§5.3.1–5.3.2** rather than given a chapter of its own. **Chapter coverage is COMPLETE at 340 / 340** — eight rows added to `chapters/INDEX.md`, one per new node. → **The next unit of work is a NEW BATCH (44) — see the Suggested Batch 44 list at the end of the Batch 43 run-log below.** Write new nodes first, then a chapter over them, then re-derive the roadmap in `chapters/INDEX.md` by the method recorded there. ⚠ When re-deriving, diff on **chapter prose with diacritics**, not on bare keys — the index lists concepts by IAST display name, so a key-only diff reports false gaps. NOTE: `hindu/` has a **second level** (`darsana/`, `devotional/`, `scripture/`, `shastra/`) — see `chapters/INDEX.md` header for what goes where.
 >
 > **"chapter" ≠ "batch."** If the user says "chapter," they mean a file in `chapters/` — open `chapters/INDEX.md` for the next number; do NOT answer with a "Suggested Batch" from this file. (This mistake has recurred across sessions — see `chapter-vs-batch` memory.)
 
@@ -15,133 +15,67 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 > **🗂  Run-log rotation (token discipline, CLAUDE.md §7/§9).** Closed run-logs older than the current run live in **`progress-archive.md`** (append-only; git is the canonical history). This file keeps only the orientation header, the anchor text, and the **most recent activity** so startup stays cheap. When you finish a batch: append the new run-summary here, then move the *previously* newest run-log block into `progress-archive.md`. Full history: `progress-archive.md` or `git log`.
 
-## ▶ Batch 43 — IN PROGRESS (2026-08-26) — START HERE
-
-**State: 3 of 11 done, working tree clean, audit CLEAN, everything pushed.** A maintenance pass ran first and is closed (below). Resume at the next `pending` row.
-
-### Maintenance pass — DONE (closed follow-ups 1, 2, 3, 7 of Batch 42)
-| # | item | outcome |
-|---|---|---|
-| 1 | `ajiva.md`'s `part-of: jiva` inverted its own partition | **fixed** — retyped `often-conflated-with-NOT-equivalent`; jīva and ajīva are exhaustive complements, and the note records why (no *complement-of* relation exists) |
-| 2 | `many-valued-logic` tagged `tradition: Modern Physics` | **fixed** — now `Western (mathematical logic / philosophy of logic)`, matching its siblings |
-| 3 | `atman-vedanta.md` / `brahman.md` queued a Vivekācūḍāmaṇi fetch *as Śaṅkara's* | **fixed** — re-scoped to *attributed to*, pointing at `shankara.md` and Ch 25 §3.1 |
-| 7 | `dharmottara.md` vs `dharmottara-nyayabindu.md` suspected redundant | **resolved, no change** — a legitimate person/text split, correctly typed |
-
-**Two findings from that pass, both worth carrying:**
-- **A cross-type edge audit** (not implemented in `build_graph.py`, which only checks same-type) found **77 pairs** carrying directional edges in both directions. They are **complementary inverse pairs** — `part-of` ↔ `expressed-by` (50), `is-a-type-of` ↔ `expressed-by` (11), `formalizes` ↔ `expressed-by` (6), `formalizes` ↔ `part-of` (4), `aggregates-into` ↔ `aggregates-from` (3) — **not** contradictions. Same-type bidirectional edges: **zero**. ⚠️ **CLAUDE.md §5 was clarified to say so explicitly, in both the storage rule and the edge-type pairing rule, with an explicit “do not repair them”** — documentation of existing practice, not a policy change. `aggregates-from` was also added to §5's vocabulary list (used on 4 edges, present in `build_graph.py`, missing from the charter). **This is the one charter edit this session; revert it if unwanted.**
-- **One genuine defect** the same audit found and fixed: `prakriti-samkhya.md` carried `is-a-type-of: guna-samkhya`, asserting prakṛti is a *sub-type* of guṇa — the reverse of its own note. Retyped `expressed-by`; the correct part→whole edge already existed on the other side.
-
-### Batch 43 concepts
-
-| # | concept | state | note |
-|---|---|---|---|
-| 1 | `abhinavagupta` | **done** — contested / medium | The *Tantrāloka*'s 37 chapters make “Kashmir Śaivism” one system; ~15 teachers including declared dualists. Key finding: ***rasāsvāda* resembles *brahmāsvāda* “but it is not a complete dissolution”** — the tradition draws the analogy/identity line itself, and its popularisers drop it. |
-| 2 | `somananda` | **done** — contested / medium | Founder of a school named after a word he never uses. The *Śivadṛṣṭi* is largely polemic (Bhartṛhari, Śākta, Vijñānavāda, Advaita's ignorance-doctrine **by name**), and its decisive clause is “**not Māyā's illusion**.” |
-| 3 | `ahura-mazda` | **done** — contested / medium | Second Iranian node. Ch 33's correspondence is now **three-term**: *ahura*/*asura*, *aṣ̃a*/*ṛta* (both ← PII *\*Hṛtá-*), and fire as the guardian of both. Haug 1884's monotheist reading recorded as datable and interested. |
-| 4 | `sarvajnatman` | pending | the third holder of *pratibimbavāda* (Ch 30 §7) |
-| 5 | `amalananda` | pending | Bhāmatī continuation, 13th c., *Kalpataru* |
-| 6 | `appayya-dikshita` | pending | Bhāmatī continuation, 16th c., *Parimalā* |
-| 7 | `rasesvara` | pending | the mercurial school — opened by `govinda-bhagavatpada`; note the dating conflict (Cowell & Gough put it at “the commencement of the Christian era” against a 9th-c. author) |
-| 8 | `cakrapanidatta` | pending | Caraka's commentator, to whom the three *dhātu-poṣaṇa-nyāya*s are credited **on a single derivative source** (Ch 31 §4.2) |
-| 9 | `dalhana` | pending | Suśruta's commentator |
-| 10 | `hiranyakashipu` | pending | the boon and its failed disjunction (Ch 33 §5.3) |
-| 11 | `hemacandra` | pending | the *Triṣaṣṭiśalākāpuruṣacaritra* — **Ch 33 §7's named upgrade path**; Helen Johnson's complete English translation exists |
-
-### Also done this session
-- **Chapter coverage kept complete**: the three new nodes were folded into **Ch 18 §Pratyabhijñā** (Somānanda given the founder's two paragraphs; Abhinavagupta's *rasa* sentence sharpened to the tradition's own qualification; his integrative role and the Ch 29 §6 transmission fact added) and **Ch 33 §4.1** (the three-term correspondence table). Three rows added to `chapters/INDEX.md`. **332 / 332 covered.**
-- Graph rebuilt at each step; `graph.svg` rendered via the explicit Graphviz `dot.exe` path (still not on PATH). `find_duplicates.py` exit 0.
-
-### ⚠️ Session note for whoever resumes
-**`WebSearch` hit its session limit part-way through this batch** (`WebFetch` continued to work). The three completed nodes were finished on direct fetches plus corpus cross-check. If search is available again, the pending nodes will be much cheaper; if not, prefer nodes with an obvious Wikipedia/SEP/IEP URL to fetch directly.
-
-### Open follow-ups carried into Batch 43
-- **(4)** Ch 11 predates the whole Advaita-lineage cluster; re-read against Ch 25 §§3–6, Batch 41 and Ch 30.
-- **(5)** The Digvijaya dating tension (`shankara.md` dates “Mādhava's Śaṅkaradigvijaya” to the 17th c.; Vidyāraṇya died 1391).
-- **(6)** `karma-vargana.md` is still the Jain layer's one `low` node.
-- **(8)** The **42-vs-93** *nāma*-karma discrepancy — needs the *Karma-grantha* / *Gommaṭhasāra Karmakāṇḍa* read directly.
-- **(9)** Ch 23 §“A third authority” and Ch 26 §6.4 both now describe **closed** holes and should be rewritten when those chapters are next revised.
-
----
-
-## Batch 42 — post-Śaṅkara Advaita, the Āyurvedic body, the Jain aghāti half, and the asura question (2026-08-26)
+## Batch 43 — COMPLETE (2026-08-27) — post-Śaṅkara continuations, the Āyurvedic commentators, the mercurial school, and two named upgrade paths
 
 ### Startup reconcile
-- Batches 1–41 committed; working tree clean at start; audit CLEAN (309 nodes, 1733 edges).
-- Took the **Suggested Batch 42** list from the Batch-41 run-log and worked it end to end, including every "carried over (again)" item.
-- Dedup gate run for all twenty keys: `Glob concepts/<key>*.md` returned nothing for any of them, and a grep of all `## Links` targets confirmed none had been reserved.
+- Working tree clean; git and `progress.md` agreed; audit CLEAN at 332 nodes / 1939 edges; `find_duplicates.py` exit 0.
+- Resumed at row 4 of the 11-concept queue (rows 1–3 and the maintenance pass had been committed in the previous session).
+- `graph.svg` still requires the explicit `dot.exe` path — Graphviz is not on PATH (same workaround as Batches 38–42).
+- **`WebSearch` was available again** (the previous session hit its limit), which is why the remaining eight nodes are better sourced than the first three.
 
-### Batch 42 concepts — 20 / 20 done (0 blocked, 0 needs-opus-review)
+### Concepts — 11 / 11 done (0 blocked, 0 needs-opus-review). Rows 4–11 written this session.
 
 | # | concept | status | conf | the finding |
 |---|---|---|---|---|
-| 1 | prakasatman | contested | medium | *mūlāvidyā* as **positive (*bhāvarūpa*) beginningless** material cause — the doctrinal hinge of all later Advaita. Date **contested across three centuries** (10th c. per IEP/wisdomlib vs c. 1200–1300 per Wikipedia ×2 + Hindupedia), with **no source arguing** for a date. Adds the *pratibimba*/*avaccheda*/*ābhāsa* three-way table. |
-| 2 | vacaspati-mishra | contested | medium | The Bhāmatī side of the locus split finally stated **by its own partisans**, and it matches what IEP said from the Vivaraṇa side. New: avidyā is **plural** in Bhāmatī ("plural since the jīvas are plural"). Date rests on one colophon reading **898** with the **era unstated** — Vikrama gives 840, Śaka 976. Records a **visible reference-work error** (Hindupedia gives him Śaṅkara's dates, 788–820). |
-| 3 | govinda-bhagavatpada | contested | **low** | The lineage's load-bearing joint, attested only by the lineage. Four attributions tabulated with **four different reasons** each fails. The Narmada episode read for *what it does*: Śaṅkara supplies the doctrine **before** initiation. |
-| 4 | utpaladeva | contested | medium | *pratyabhijñā* **does not occur in Somānanda's *Śivadṛṣṭi*** — the second man supplies the thesis. The lost *Vivṛti*'s largest fragment survives **in the margins of Abhinavagupta's *Vivṛtivimarśinī***; Śaṅkarakaṇṭha's 17th-c. notes date the decay. Journal-grade (Ratié ×2). |
-| 5 | aghati-karma | converged | medium | **TS 8.11 enumerates 42** subdivisions of *nāma* against the systematised **93** — and every other count checkable against the sūtra matches, so the whole 148-vs-sūtra gap is inside *nāma* and equals **51**. Only visible because three sūtras were fetched directly. Also: *tīrthakaratva* is item 42. |
-| 6 | iryapathika-asrava | converged | medium | **TS 6.4 fetched**, closing the sourcing gap `asrava.md` had flagged against itself. Guṇasthāna **11–13**; "the *īryāpatha* karmas do not have the power to bind." Stage 11 suppresses rather than destroys passion, so *akaṣāya* is **operational**, not biographical. |
-| 7 | dhatu | contested | medium | Classical Āyurveda transmits **three incompatible nourishment mechanisms simultaneously** (*kṣīra-dadhi* / *kedārī-kulyā* / *khale-kapota*), each explaining what the others cannot. Contested **by design**, not by scholarly disagreement. |
-| 8 | mala | converged | medium | The *dhātu-mala* of **rasa is kapha** and of **rakta is pitta** — two of the three doṣas appear as tissue wastes, reversing the standard picture. *Vāta* has **no row**, flagged. |
-| 9 | agni-ayurveda | converged | medium | **§8 tradition-split** from the Vedic deity `agni`, with the sanctioned two-type edge. Four states of *jāṭharāgni* keyed to the doṣas — a **non-linear** model in which one pathology (*viṣamāgni*) is instability, not a quantity. |
-| 10 | vagbhata | contested | medium | The AH **travelled** — Tibetan, Arabic, Persian. Authorship kept in **two** forms usually conflated: the traditional Elder/Junior harmonisation vs philology's merely **negative** verdict. The AS colophon is already a grandson explaining a homonym. |
-| 11 | varsaganya | contested | **low** | Reconstructed **entirely out of Vācaspati Miśra's citations** (Frauwallner). Two literatures that **do not meet**: Wikipedia attributes the *Ṣaṣṭitantra* to Pañcaśikha and does not mention him at all. |
-| 12 | psellos | contested | medium | The Oracles survive largely because an **11th-c. Christian** quoted them; his is "the most extensive surviving commentary" and the route back to Proclus's lost treatise. **des Places 1971 omits fragments he quotes** — the problem does not stop at antiquity. 1054 charge from the future Patriarch. |
-| 13 | eriugena | contested | medium | Built a complete Neoplatonic system and **"did not have direct knowledge" of Plotinus or Proclus**. *nihil per excellentiam* typed **NOT-equiv** *śūnyatā* — a superlative predicated of a plenum vs an absence asserted to block any source. |
-| 14 | prajnakaragupta | converged | medium | The name four corpus files already cited. Says what he **rejected** (Dharmottara's *niścaya-pratyaya*) and explicitly **not** what he proposed. Serves as the **control case** for evidence-vs-reading confidence. |
-| 15 | vritra | contested | medium | Dragon or **obstruction**? Benveniste & Renou against the combat-myth reading, with the neuter-abstract morphology as the hinge. |
-| 16 | verethragna | contested | medium | **The corpus's first Iranian node.** The *Bahrām Yašt*'s ten forms contain **no adversary** — the strongest datum for the abstract reading. Three-way dispute mapped (traditional / Benveniste-Renou / **Thieme's functional merger**). |
-| 17 | varuna | contested | medium | *asura* at RV 5.63.3 is an **approving** title of the supreme moral god. The *pāśa*, the thousand-eyed spies, RV 7.86–88's confessions, the *Varuṇapraghāsa* wife's confession — a **conscience-religion that did not become the mainline**. Dumézil's Ouranos etymology recorded as **withdrawn**. |
-| 18 | balarama | contested | medium | Jainism **enrols** both brothers among the 63 *śalākāpuruṣa*s and then **reverses the ranking**: Kṛṣṇa (ninth *Vāsudeva*) is reborn in hell for his violence, Balarāma (ninth *Baladeva*) is liberated directly. |
-| 19 | prahlada | converged | medium | *navavidhā bhakti* (BhP 7.5.23–24) read **in order** as a progression of intimacy; and **portable** — the *Śiva Purāṇa* lists the same nine for Śiva. |
-| 20 | atri | contested | medium | "Atri's eclipse": **three dates 391 years apart, two from the same authors**, from a hymn containing no date. The corpus **declines** the datings without asserting them false. |
+| 4 | sarvajñātman | contested | medium | ***dvāra***. He holds every Vivaraṇa-side doctrine and still denies avidyā is the world's **material cause** — "Brahman in association and jointly with ajñāna cannot be regarded as the material cause." So the *āśraya* axis and the material-cause axis are **independent**, and "the Vivaraṇa view" flattens them. Also the corpus's cleanest §4-signal-5 case: the **critical edition's own blurb** carries the Kāñchī succession claim, so *provenance on the text ≠ provenance on the biography*. Date spread ~1,400 years. And a fourth source has him saluting **Deveśvara**, not Sureśvara, as guru — so Dasgupta's computed c. 900 rests on a premise the text does not supply. |
+| 5 | amalānanda | converged | medium | The Bhāmatī stack is **five storeys and the tradition names the set**: "*Vedānta Śāstra* means 'the five texts…'" — in that usage the discipline **is** the stack. Storey 5 exists because storey 4 was unreadable. He also wrote on the **rival** school (*Pañcapādikā-darpaṇa*): fact recorded, "early link between the schools" inference **declined**. The corpus's **control case for lineage claims** — three formulations that reconcile once *dīkṣā*- and *vidyā*-guru are distinguished. Plus a checkable reference-work error (the *Pañcapādikā* given to Vācaspati; it is Padmapāda's). |
+| 6 | appayya-dīkṣita | contested | medium | **The opponent who leaves no trace in the titles.** He named books after Madhva and wrote nothing explicitly against Rāmānuja — yet Duquette (OUP 2021) has the Śaiva oeuvre "mainly directed against Viśiṣṭādvaita." Compatible, and the point: polemical targets are **not readable off a bibliography**. Three readings of his own allegiance tabulated, not settled. The *Siddhāntaleśasaṃgraha* drawn as a 16th-c. doxography of one school's internal splits — structurally what a `contested` node is — parting from §4 at exactly one commitment: it declares the sub-schools to converge. Typed ∥ + NOT-equiv against `anekāntavāda`. |
+| 7 | raseśvara | contested | medium | Its chapter opens with an **objection to the other six darśanas**, not with metallurgy: liberation is deferred past death, so "a man should preserve that body by means of mercury." The alchemy is the argument's **second premise**. Dating: Cowell & Gough (1882) put the school at the "commencement of the Christian era" and Wikipedia repeats it **with attribution** — one source and its echo — against three literatures dating the root texts to the **10th–12th c.** So "Raseśvara *darśana*" is treated as partly a 14th-century classificatory artefact. Sharpest new honesty edge: **siddha** — perfected by having **no** body (Jain) vs an **indestructible** one. Mercury handled in both directions per §0. |
+| 8 | cakrapāṇidatta | converged | medium | Ch 31 §4.2's caveat answered by reading a peer-reviewed review **in full with its endnotes** — and the picture corrected three ways: the *nyāya*s are **four** not three (the fourth, *eka-kāla*, is **Aruṇadatta's**); they are credited to **three different** authorities; and the numbered enumeration is footnoted to a **2017 textbook**, i.e. modern pedagogy over classical images. **§0's failure mode running backwards.** Also the **best-dated person in the corpus** — a regnal anchor (Nayapāla, r. 1040–1070). |
+| 9 | ḍalhaṇa | converged | medium | ***Rakta* is a fourth doṣa — for surgery.** Because *śalyatantra* is about *vraṇa* and blood is the main constituent in wound pathogenesis. So the doṣa-count is **discipline-relative**, which the corpus declines to flatten into inconsistency. He also admits ***mala* as a *śalya***, and his three-part *pariṇāma* (*sūkṣma*/*mala*/*sthūla-bhāga*) is the mechanism `dhatu.md` needed: it makes transformation **partial** and answers the fasting objection. Dated by **citation-bracketing**. |
+| 10 | hiraṇyakaśipu | converged | medium | The verses put under Ch 33 §5.3's paraphrase (*Bhāgavata* 7.3.35–38, Tagare). **He never asks for immortality**, and he asks for Brahmā's own station in the same breath. And the clause that fails first is the **first**: everything is fenced against beings "created by You" — by Brahmā, who is Viṣṇu's creature. Viṣṇu is not in the domain at all, so the dusk and the threshold are a **surplus**. Flagged as the corpus's own reading. Logic edges bounded hard: ∥ + NOT-equiv `catuṣkoṭi`, NOT-equiv `many-valued-logic`. |
+| 11 | hemacandra | converged | medium | **Two of the corpus's own upgrade paths run through one author.** `syādvāda` and `saptabhaṅgī` both name Malliṣeṇa's *Syādvādamañjarī* as their unfetched upgrade — and it is a commentary on Hemacandra's **32-verse** *Anyayogavyavacchedadvātriṃśikā*. That is now the **cheapest high-value primary text visible to this corpus**. Also ***Ardhacakrin***: Johnson's class-term for the Vāsudevas is "half-cakravartin," so Jainism ranks Kṛṣṇa **in the category name**, before any verdict about hell. Fibonacci claim handled in both directions per §0. |
 
-### Chapters written over the new nodes — 5 (Chs 29–33)
-- **Ch 29 — How Things Reach Us** (`cross-tradition/`): the transmission chapter. Four channel-types with the corpus's full inventory and each one's failure mode; the Chaldean Oracles' two filters; Prajñākaragupta as the control case; Atri's eclipse as the *reader's* filter. Primary: psellos · eriugena · vārṣagaṇya · govinda-bhagavatpāda · utpaladeva · prajñākaragupta · vāgbhaṭa · atri.
-- **Ch 30 — Where Does Ignorance Live?** (`hindu/darsana/`): the *āśraya* dispute stated from both sides. Primary: prakāśātman · vācaspati-miśra.
-- **Ch 31 — The Body as a Rate** (`hindu/shastra/`): closes Ch 23's named gap; argues Āyurveda is an **equilibrium theory, not a vitalist one**. Primary: agni-āyurveda · dhātu · mala.
-- **Ch 32 — What Survives Omniscience** (`jain/`): closes Ch 26 §6.4. Primary: aghāti-karma · īryāpathika-āsrava.
-- **Ch 33 — The Asura Question** (`cross-tradition/`): one word across four traditions. Primary: varuṇa · vṛtra · verethragna · prahlāda · balarāma.
+### Chapter written — Ch 34 (and one fold)
+- **Ch 34 — The Commentator** (`cross-tradition/`), over seven of the eight. Positioned explicitly against its neighbours: **Ch 25** asks *who* the commentators were, **Ch 29** how texts survive, **Ch 34** what a commentary is as a *form* — and it is the first of the three to work **across traditions**, which is what makes §5's comparison possible.
+- Two things it argues rather than reports: **(a)** how well a pre-modern Indian figure can be dated is mostly a fact about *what institution they stood next to* — court vs maṭha — not how much was written about them; **(b)** a scholar's real opponents are not readable off his tables of contents.
+- Its **source ceiling is stated at the top and repeated where it bites**: *not one commentary was read.* That is why all seven nodes are `medium`.
+- **`hiraṇyakaśipu` folded into Ch 33 §§5.3.1–5.3.2** rather than given a chapter.
+- `chapters/INDEX.md`: Ch 34 row, Ch 33 row updated, **eight** concept rows. **Coverage 340 / 340.**
 
 ### Findings that reach beyond their own nodes
-- **A §0 case handled as a case.** `atri` separates *what is well-founded* (RV 5.40 describes solar obscuration by Svarbhānu; he heads a long line of eclipse-thinking) from *what is not* (a datable observation; the world's earliest record; a date for the Ṛgveda) — and phrases the negative claim as **not established by what the corpus has seen**, not as false.
-- **Confidence levels now mean two different things, deliberately.** `varsaganya` is `low` because of *the evidence that exists*; `prajnakaragupta` is `medium` because of *the reading that was done*. Ch 29 §7 makes the distinction explicit.
-- **A source used for its terms and refused for its editorialising.** Caraka-Saṃhitā-Online glosses *jāṭharāgni* as "amylolytic, proteolytic and lipolytic enzymes." Quoted in `dhatu.md` and Ch 31 §7, **not adopted** — §4's "take the term, leave the editorialising," applied by name.
-- **Independent corroboration, achieved.** Batches 40–41 recorded the Bhāmatī position only through IEP's Vivaraṇa-side vantage. Batch 42 reached it through the Bhāmatī literature and **everything came back unchanged**.
-- **Two chapter-flagged holes closed**: Ch 23's (`vagbhata`/`dhatu`/`mala`) and Ch 26 §6.4's (the *aghāti* four and the kevalin's residual influx). Both old notes left standing, struck through or annotated, so the hole and its closure are both visible.
-
-### Honesty-layer edges added (selection)
-- `agni-ayurveda` ↔ `agni`: `shares-vocabulary-with` **+** `often-conflated-with-NOT-equivalent` — a §8 tradition-split so the deity's prestige does not underwrite the physiology.
-- `vritra` ↔ `verethragna`: same pair of types — same root, **inverted referent**.
-- `verethragna` ↔ `avatara-vedanta`: same pair — drawn specifically so the coincidence of *ten forms* cannot be read as descent.
-- `eriugena` → `sunyata`: NOT-equivalent — the same negation doing opposite structural jobs.
-- `balarama` → `gita`: NOT-equivalent — bondage in the **intention** vs in the **act**.
-- `prahlada` → `shaivism`: NOT-equivalent — the same nine devotional forms, a different addressee.
-- `prakasatman` → `prakriti-samkhya`: parallel **+** NOT-equivalent — *mūlāvidyā* in prakṛti's job-slot.
-- `prajnakaragupta` → `kevala-jnana`: parallel **+** NOT-equivalent — omniscience as an epistemological result, but not a property of a permanent jīva.
-- `varuna` → `karma-vedic`: NOT-equivalent — a personal moral order with confession vs an impersonal mechanism.
+- **A dating-method triptych, assembled by accident.** Regnal anchor (Cakrapāṇi, 30-year window) · citation-bracketing (Ḍalhaṇa, 150-year bracket, needs nothing but texts) · lineage arithmetic (Sarvajñātman, and it broke). Ch 34 §5.
+- **The doxographic turn**, in four genres deliberately **not** merged: compilation (Ḍalhaṇa) · refutation-doxography (Hemacandra) · ordering (Mādhava) · reconciling (Appayya). Offered as a pattern noticed, **not a thesis argued** — four cases across four centuries is a suggestion.
+- **§0's failure mode has a mirror image.** `cakrapanidatta` found a *modern organising scheme mistaken for an old one* (the four-fold *nyāya* list, footnoted to 2017). Same mechanism, opposite direction, equally invisible from summaries.
+- **Two sources used for their terms and refused for their editorialising**: the IJAM Ḍalhaṇa paper's western-surgical correlations, and Wikipedia's framing of mercury toxicology as refuting the Raseśvaras. §0 applies in the debunking direction too.
+- **A carried follow-up advanced, not closed.** `govinda-bhagavatpada`'s Raseśvara attribution is now blocked from **both** ends by dating (1st c. too early for an 8th-c. guru; 10th–12th c. too late). Two men, one name.
+- **A dispute opened rather than papered over.** `dhatu.md`'s "incompatible by design" reading now carries a flagged challenge from the Āyurvedic academic press ("a cohesive group… they do not conflict"). Neither retired, neither adopted, and the question neither source asks is named.
 
 ### Audits
-- Three de-orphaning passes, all fixed per §10 with **content-motivated** inbound edges written from their own node's vantage (never mechanical mirrors): `nirjara→iryapathika-asrava`, `vacaspati-mishra→prakasatman`, `vijnaptimatrata→utpaladeva`, `charaka→vagbhata`, `krishna→balarama`, `henosis→eriugena`, `santaraksita→prajnakaragupta`, `prakriti-samkhya→varsaganya`, `svarbhanu→atri`, `bhakti→prahlada`.
-- Final: **CLEAN** — 0 stubs, 0 orphans, 0 bidirectional-directional, 0 forbidden combos.
-- `find_duplicates.py`: exit 0. One new expected DEVANAGARI group (`अग्नि : agni, agni-ayurveda`) — a typed split, edge verified.
-- Graph: **309 → 329 nodes, 1733 → 1910 edges**; `graph.svg` rendered via the explicit Graphviz `dot.exe` path (still not on PATH — same workaround as Batches 38–41).
-- **Chapter-coverage re-derivation**: 329 / 329 covered; eight rows added to `chapters/INDEX.md` (gauḍapāda, padmapāda, vidyāraṇya, jina, tīrthaṅkara, tattvārtha-sūtra, samyagdarśana, sarvajñatva) — all *covered-in-prose, missing-a-row*, none needing a chapter.
+- Final: **CLEAN** — 0 stubs, 0 orphans, 0 bidirectional-directional, 0 forbidden combos. `find_duplicates.py` exit 0 throughout.
+- De-orphaning passes, all §10-mechanical, all with **content-motivated** inbound edges written from the inbound node's own vantage: `prakasatman→sarvajnatman` (both sanctioned types), `vacaspati-mishra→amalananda`, `amalananda→appayya-dikshita`, `jivanmukti→rasesvara`, `govinda-bhagavatpada→rasesvara`, `cakrapanidatta→dalhana`, `narasimha→hiranyakashipu`, `prahlada→hiranyakashipu`, `balarama→hemacandra`, `syadvada→hemacandra`, `anekantavada→hemacandra`.
+- Graph: **332 → 340 nodes, 1939 → 2022 edges.** `graph.svg` rendered via the explicit Graphviz path.
 
-### Open follow-ups (carried, not acted on)
-1. **`ajiva.md` stores `part-of: jiva`**, inverting its own partition. A schema question (no *complement-of* relation exists), not a typo. *(carried from Batch 41)*
-2. **`many-valued-logic` carries `tradition: Modern Physics`** — it is formal logic, and the mis-tag mis-colours the node. *(carried)*
-3. **`atman-vedanta.md` and `brahman.md` queue a Vivekacūḍāmaṇi fetch *as Śaṅkara's***; must be re-scoped to *attributed*. *(carried)*
-4. **Ch 11 predates the whole Advaita-lineage cluster** and should be re-read against Ch 25 §§3–6, Batch 41, and now Ch 30. *(carried)*
-5. **The Digvijaya dating tension** (`shankara.md` dates "Mādhava's Śaṅkaradigvijaya" to the 17th c.; Vidyāraṇya died 1391). *(carried)*
-6. **`karma-vargana.md` remains the Jain layer's one `low` node.** *(carried from Ch 26)*
-7. **NEW — `dharmottara.md` and `dharmottara-nyayabindu.md` both exist.** Not flagged by `find_duplicates.py` (keys and IAST differ), but the person/text split should be checked for redundancy. *(opened by Ch 29)*
-8. **NEW — the 42-vs-93 *nāma*-karma discrepancy** is unresolved and needs the *Karma-grantha* / *Gommaṭasāra Karmakāṇḍa* read directly. *(opened by `aghati-karma`)*
-9. **NEW — Ch 23's §"A third authority, and a gap in the graph" and Ch 26 §6.4** both now describe closed holes and should be rewritten when those chapters are next revised.
+### Corpus milestone: **340 concepts across 43 batches; 34 chapters.** 0 orphans. 0 unwritten stubs. Audit CLEAN. Chapter coverage 340/340.
 
-### Corpus milestone: **329 concepts across 42 batches; 33 chapters.** 0 orphans. 0 unwritten stubs. Audit CLEAN. Chapter coverage 329/329.
+### Open follow-ups carried into Batch 44
+1. **Ch 11 predates the whole Advaita-lineage cluster** — re-read against Ch 25 §§3–6, Ch 30 and now Ch 34 §§1–2. *(carried since Batch 42)*
+2. **The Digvijaya dating tension** (`shankara.md` dates "Mādhava's Śaṅkaravijaya" to the 17th c.; Vidyāraṇya died 1391). *(carried)*
+3. **`karma-vargana.md` is still the Jain layer's one `low` node.** *(carried)*
+4. **The 42-vs-93 *nāma*-karma discrepancy** — needs the *Karma-grantha* / *Gommaṭasāra Karmakāṇḍa* read directly. *(carried)*
+5. **Ch 23 §"A third authority" and Ch 26 §6.4** both describe **closed** holes and should be rewritten when next revised. *(carried)* — **and Ch 31 §4.2 now joins them**, since `cakrapanidatta` answered its caveat.
+6. **NEW — `dhatu.md` carries an unresolved three-vs-four dispute** (Ch 34 §8.1). Settled only by reading the *Āyurvedadīpikā* at Ci. 15:20.
+7. **NEW — `balarama.md`'s central claim is still single-sourced.** Johnson's translation was fetched and the Vāsudeva-hell passage **was not found** in the opening material; vol. 5 is the target. Flag deliberately left open.
+8. **NEW — the *Nibandhasaṅgraha*'s preserved commentators are unrecorded.** No source consulted names *which* lost commentaries Ḍalhaṇa absorbed.
+9. **NEW — Prakāśātman's "first to propound *bhāvarūpa* avidyā" is in question.** Dasgupta has Sarvajñātman holding it at c. 900; on Wikipedia's own chronology the priority inverts. No source addresses it.
 
-### Suggested Batch 43 (names only — no files written)
-- **Opened by Batch 42:** `somananda` (the *Śivadṛṣṭi*; Utpaladeva's teacher, and the man who did **not** coin *pratyabhijñā*); `abhinavagupta` (named across Chs 18/27/29 and still unwritten — the grand-disciple whose manuscripts carry Utpaladeva); `rasesvara` (the mercurial school, opened by `govinda-bhagavatpada`); `amalananda` and `appayya-dikshita` (the Bhāmatī continuation); `sarvajnatman` (the third holder of *pratibimbavāda*).
-- **Opened by Chs 29/31:** `cakrapanidatta` (Caraka's commentator, to whom the three *dhātu-poṣaṇa-nyāya*s are credited on a single derivative source) and `dalhana` (Suśruta's commentator).
-- **Opened by Ch 33:** `ahura-mazda` (the corpus's second Iranian node, and the one that would let the *asura/ahura* + *ṛta/aša* correspondence be drawn from the Iranian side); `hiranyakashipu`; `hemacandra` (the *Triṣaṣṭiśalākāpuruṣacaritra*, whose Johnson translation is the named upgrade path for Ch 33 §7).
-- **Structural/maintenance pass:** follow-ups 1, 2, 3 and 7 above — all four are §10-mechanical or near-mechanical, and none has been touched in three batches.
+### Named upgrade paths, cheapest first (the most actionable list this batch produced)
+1. **Hemacandra's *Anyayogavyavacchedadvātriṃśikā* — 32 verses.** Upgrades `syādvāda` **and** `saptabhaṅgī` at once (Dhruva 1933 ed., printed with Malliṣeṇa).
+2. **Cakrapāṇi's *Āyurvedadīpikā*, Ci. 15:20 + the Grahaṇī chapter.** Settles follow-up 6.
+3. **Johnson's *Triṣaṣṭiśalākāpuruṣacaritra* vol. 5.** Settles follow-up 7.
+4. Veezhinathan's *Saṃkṣepaśārīraka* (1985); Duquette 2021 in full (403 on fetch); White, *The Alchemical Body*; Śrīdhara Svāmin's *Bhāvārthadīpikā* on BhP Canto 7.
+
+### Suggested Batch 44 (names only — no files written)
+- **Opened by Batch 43:** `arunadatta` (the *Sarvāṅgasundarā*, and author of the fourth *nyāya* — the one commentator of the three saṃhitās this corpus now lacks); `hemadri` (the *Āyurvedarasāyana*, and the *terminus ante quem* of Ḍalhaṇa's date); `citsukha` (the *Tattvapradīpikā*; Amalānanda's grand-teacher); `mallisena` (the *Syādvādamañjarī*, 1292 — and see upgrade path 1); `shrikantha` (the *Brahmamīmāṃsābhāṣya*, without which Appayya's Śaiva project has no base text); `sivadvaita` (the school itself, currently visible only through `appayya-dikshita`).
+- **Opened by Ch 34:** `nrisimhasrama` (who commissioned the *Parimala*); `jejjata` or `gayadasa` (the lost Suśruta commentators — *if* follow-up 8 can be sourced at all).
+- **Structural/maintenance pass:** follow-ups 1, 2 and 5 — none touched in four batches, and 5 is now three chapters wide.
