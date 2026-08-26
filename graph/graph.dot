@@ -226,6 +226,7 @@ digraph ancient_texts {
     "sampati" [label="Sampāti" fillcolor="#4fd16b" shape=ellipse];
     "samudra-manthana" [label="Samudra-Manthana" fillcolor="#4fd16b" shape=ellipse];
     "sarasvati" [label="sarasvatī" fillcolor="#4fd16b" shape=ellipse];
+    "sarvajnatman" [label="Sarvajñātman" fillcolor="#4fd16b" shape=ellipse];
     "satkaryavada" [label="satkāryavāda" fillcolor="#4fd16b" shape=ellipse];
     "shaivism" [label="Śaivism" fillcolor="#4fd16b" shape=ellipse];
     "shakti" [label="Śakti" fillcolor="#4fd16b" shape=ellipse];
@@ -1574,6 +1575,8 @@ digraph ancient_texts {
   "prakasatman" -> "prakriti-samkhya" [color="#cccccc22"];
   "prakasatman" -> "vidyaranya" [color="#cccccc22"];
   "prakasatman" -> "vacaspati-mishra" [color="#cccccc22"];
+  "prakasatman" -> "sarvajnatman" [color="#cccccc22"];
+  "prakasatman" -> "sarvajnatman" [color="#cccccc22"];
   "prakriti-samkhya" -> "pudgala" [color="#cccccc22"];
   "prakriti-samkhya" -> "pudgala" [color="#cccccc22"];
   "prakriti-samkhya" -> "guna-samkhya" [color="#cccccc22"];
@@ -1835,6 +1838,16 @@ digraph ancient_texts {
   "sarasvati" -> "shakti" [color="#cccccc22"];
   "sarasvati" -> "rta" [color="#cccccc22"];
   "sarasvati" -> "upanishad" [color="#cccccc22"];
+  "sarvajnatman" -> "sureshvara" [color="#cccccc22"];
+  "sarvajnatman" -> "shankara" [color="#cccccc22"];
+  "sarvajnatman" -> "brahma-sutra" [color="#cccccc22"];
+  "sarvajnatman" -> "maya-advaita" [color="#cccccc22"];
+  "sarvajnatman" -> "vivartavada" [color="#cccccc22"];
+  "sarvajnatman" -> "advaita-vedanta" [color="#cccccc22"];
+  "sarvajnatman" -> "prakasatman" [color="#cccccc22"];
+  "sarvajnatman" -> "prakasatman" [color="#cccccc22"];
+  "sarvajnatman" -> "vacaspati-mishra" [color="#cccccc22"];
+  "sarvajnatman" -> "prakriti-samkhya" [color="#cccccc22"];
   "sat" -> "dravya" [color="#cccccc22"];
   "sat" -> "paryaya" [color="#cccccc22"];
   "sat" -> "anekantavada" [color="#cccccc22"];

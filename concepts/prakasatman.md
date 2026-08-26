@@ -28,7 +28,7 @@ The post-Śaṅkara tradition offers three competing accounts of how the one Bra
 
 | theory | claim | who holds it |
 |---|---|---|
-| ***pratibimbavāda*** — reflection | *bimba* (prototype) is Brahman, *pratibimba* (reflection) is the jīva; "the Jiva is a mere reflection…of Brahman, and therefore, identical with its essence, Brahman." Consciousness reflected **in nescience** is Īśvara; the same consciousness reflected **in the inner sense** is the jīva | [[padmapada|Padmapāda]], **Prakāśātman**, Sarvajñātman |
+| ***pratibimbavāda*** — reflection | *bimba* (prototype) is Brahman, *pratibimba* (reflection) is the jīva; "the Jiva is a mere reflection…of Brahman, and therefore, identical with its essence, Brahman." Consciousness reflected **in nescience** is Īśvara; the same consciousness reflected **in the inner sense** is the jīva | [[padmapada|Padmapāda]], **Prakāśātman**, [[sarvajnatman|Sarvajñātman]] |
 | ***avacchedavāda*** — limitation | the jīva is Brahman **delimited** by an adjunct, not reflected in one; its followers object that reflection theory "fails to explain" how a consciousness with no sensible qualities could be reflected at all | [[vacaspati-mishra|Vācaspati Miśra]] (Bhāmatī) |
 | ***ābhāsavāda*** — appearance | jīva as *ābhāsa*, a partial manifestation resembling the real without the real's properties | [[vidyaranya|Vidyāraṇya]] |
 
@@ -71,3 +71,5 @@ The Vivaraṇa position also attracts a standing internal objection, which the r
 - often-conflated-with-NOT-equivalent: prakriti-samkhya | and is not it: prakṛti is real and independent of puruṣa, while mūlāvidyā is exactly what Brahman-knowledge cancels
 - shares-vocabulary-with: vidyaranya | both derive the jīva from Brahman in reflection-vocabulary, and derive it **differently** — *pratibimba* (reflection) against *ābhāsa* (partial appearance)
 - shares-vocabulary-with: vacaspati-mishra | the two school-namesakes: same āśraya/viṣaya and jīva-derivation vocabulary, opposite answers — reflection vs limitation, Brahman vs jīva as locus of avidyā
+- shares-vocabulary-with: sarvajnatman | the third pratibimbavādin, and the one who shows the *āśraya* question and the *material-cause* question are separable
+- often-conflated-with-NOT-equivalent: sarvajnatman | Sarvajñātman holds the same locus-side and the same reflection formula but denies that avidyā is the world's **material cause**, leaving it a mere *dvāra* — so "the Vivaraṇa view" is not one position
