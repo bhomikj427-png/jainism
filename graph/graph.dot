@@ -161,6 +161,7 @@ digraph ancient_texts {
     "vatsyayana" [label="Pakṣilasvāmin Vātsyāyana" fillcolor="#5b9bff" shape=ellipse];
   }
   subgraph "cluster_Vedanta" { style=invis; peripheries=0;
+    "abhinavagupta" [label="Abhinavagupta" fillcolor="#4fd16b" shape=ellipse];
     "advaita-vedanta" [label="Advaita Vedānta" fillcolor="#4fd16b" shape=ellipse];
     "agni" [label="Agni" fillcolor="#4fd16b" shape=ellipse];
     "ahimsa-vedic" [label="ahiṃsā (Vedic/Hindu)" fillcolor="#4fd16b" shape=ellipse];
@@ -231,6 +232,7 @@ digraph ancient_texts {
     "shankara" [label="Śaṅkara" fillcolor="#4fd16b" shape=ellipse];
     "shesha" [label="Śeṣa" fillcolor="#4fd16b" shape=ellipse];
     "shiva" [label="Śiva" fillcolor="#4fd16b" shape=ellipse];
+    "somananda" [label="Somānanda" fillcolor="#4fd16b" shape=ellipse];
     "spanda" [label="spanda" fillcolor="#4fd16b" shape=ellipse];
     "sthitaprajna" [label="sthitaprajña" fillcolor="#4fd16b" shape=ellipse];
     "sureshvara" [label="Sureśvara" fillcolor="#4fd16b" shape=ellipse];
@@ -349,6 +351,7 @@ digraph ancient_texts {
   }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
     "agni-ayurveda" [label="agni (āyurvedic)" fillcolor="#9aa0a6" shape=ellipse];
+    "ahura-mazda" [label="Ahura Mazdā" fillcolor="#9aa0a6" shape=ellipse];
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
     "dhatu" [label="dhātu" fillcolor="#9aa0a6" shape=ellipse];
     "makkhali-gosala" [label="Makkhali Gosāla" fillcolor="#9aa0a6" shape=ellipse];
@@ -365,6 +368,15 @@ digraph ancient_texts {
   "abhidharmakosa" -> "abhidharma" [color="#cccccc22"];
   "abhidharmakosa" -> "anatta-buddhist" [color="#cccccc22"];
   "abhidharmakosa" -> "tattvartha-sutra" [color="#cccccc22"];
+  "abhinavagupta" -> "utpaladeva" [color="#cccccc22"];
+  "abhinavagupta" -> "pratyabhijna" [color="#cccccc22"];
+  "abhinavagupta" -> "shaivism" [color="#cccccc22"];
+  "abhinavagupta" -> "spanda" [color="#cccccc22"];
+  "abhinavagupta" -> "shiva" [color="#cccccc22"];
+  "abhinavagupta" -> "moksha-advaita" [color="#cccccc22"];
+  "abhinavagupta" -> "moksha-advaita" [color="#cccccc22"];
+  "abhinavagupta" -> "vacaspati-mishra" [color="#cccccc22"];
+  "abhinavagupta" -> "shankara" [color="#cccccc22"];
   "academic-skepticism" -> "plato-forms" [color="#cccccc22"];
   "academic-skepticism" -> "pyrrhonism" [color="#cccccc22"];
   "academic-skepticism" -> "pyrrhonism" [color="#cccccc22"];
@@ -430,6 +442,14 @@ digraph ancient_texts {
   "ahimsa" -> "karma" [color="#cccccc22"];
   "ahimsa" -> "ahimsa-buddhist" [color="#cccccc22"];
   "ahimsa" -> "satya" [color="#cccccc22"];
+  "ahura-mazda" -> "varuna" [color="#cccccc22"];
+  "ahura-mazda" -> "varuna" [color="#cccccc22"];
+  "ahura-mazda" -> "varuna" [color="#cccccc22"];
+  "ahura-mazda" -> "rta" [color="#cccccc22"];
+  "ahura-mazda" -> "rta" [color="#cccccc22"];
+  "ahura-mazda" -> "agni" [color="#cccccc22"];
+  "ahura-mazda" -> "verethragna" [color="#cccccc22"];
+  "ahura-mazda" -> "satya" [color="#cccccc22"];
   "airavata" -> "samudra-manthana" [color="#cccccc22"];
   "airavata" -> "ucchaihshravas" [color="#cccccc22"];
   "ajiva" -> "dravya" [color="#cccccc22"];
@@ -1614,6 +1634,7 @@ digraph ancient_texts {
   "pratyabhijna" -> "advaita-vedanta" [color="#cccccc22"];
   "pratyabhijna" -> "spanda" [color="#cccccc22"];
   "pratyabhijna" -> "upayoga" [color="#cccccc22"];
+  "pratyabhijna" -> "somananda" [color="#cccccc22"];
   "pratyaksha-buddhist" -> "dignaga-pramana" [color="#cccccc22"];
   "pratyaksha-buddhist" -> "pramana" [color="#cccccc22"];
   "pratyaksha-buddhist" -> "pramana-nyaya" [color="#cccccc22"];
@@ -1897,6 +1918,14 @@ digraph ancient_texts {
   "skandha" -> "paramanu" [color="#cccccc22"];
   "skandha" -> "pudgala" [color="#cccccc22"];
   "skandha" -> "skandha-buddhist" [color="#cccccc22"];
+  "somananda" -> "pratyabhijna" [color="#cccccc22"];
+  "somananda" -> "shaivism" [color="#cccccc22"];
+  "somananda" -> "shiva" [color="#cccccc22"];
+  "somananda" -> "advaita-vedanta" [color="#cccccc22"];
+  "somananda" -> "maya-advaita" [color="#cccccc22"];
+  "somananda" -> "vijnaptimatrata" [color="#cccccc22"];
+  "somananda" -> "sabda-pramana" [color="#cccccc22"];
+  "somananda" -> "govinda-bhagavatpada" [color="#cccccc22"];
   "spanda" -> "shaivism" [color="#cccccc22"];
   "spanda" -> "pratyabhijna" [color="#cccccc22"];
   "spanda" -> "shakti" [color="#cccccc22"];
@@ -2069,6 +2098,7 @@ digraph ancient_texts {
   "utpaladeva" -> "vidyaranya" [color="#cccccc22"];
   "utpaladeva" -> "shiva" [color="#cccccc22"];
   "utpaladeva" -> "vindhyavasin" [color="#cccccc22"];
+  "utpaladeva" -> "abhinavagupta" [color="#cccccc22"];
   "utsarpini-avasarpini" -> "kala-dravya" [color="#cccccc22"];
   "utsarpini-avasarpini" -> "loka-jain" [color="#cccccc22"];
   "utsarpini-avasarpini" -> "tirthankara" [color="#cccccc22"];
@@ -2163,6 +2193,7 @@ digraph ancient_texts {
   "verethragna" -> "indra" [color="#cccccc22"];
   "verethragna" -> "avatara-vedanta" [color="#cccccc22"];
   "verethragna" -> "avatara-vedanta" [color="#cccccc22"];
+  "verethragna" -> "ahura-mazda" [color="#cccccc22"];
   "vidyaranya" -> "shankara" [color="#cccccc22"];
   "vidyaranya" -> "advaita-vedanta" [color="#cccccc22"];
   "vidyaranya" -> "jivanmukti" [color="#cccccc22"];

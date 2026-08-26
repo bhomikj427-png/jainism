@@ -55,3 +55,4 @@ confidence: medium
 - often-conflated-with-NOT-equivalent: advaita-vedanta | world is real in Pratyabhijñā (Śiva's self-expression), unreal in Advaita (vivarta/māyā); Śiva has dynamic Śakti, nirguṇa Brahman does not
 - shares-vocabulary-with: spanda | Spanda's cosmic-pulsation doctrine is the experiential precursor to Pratyabhijñā's philosophical recognition
 - shares-vocabulary-with: upayoga | both frame liberation as expansion of self-aware consciousness — but Jain upayoga is a property of individual jīva; vimarśa is the single universal Śiva
+- historically-influenced-by: somananda | the school's founding treatise is his *Śivadṛṣṭi* — which argues the position without ever using the word *pratyabhijñā*, so the doctrine this file describes is older than the name it is filed under
