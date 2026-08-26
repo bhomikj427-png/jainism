@@ -50,3 +50,4 @@ Three signals converge on doctrine. Confidence medium; high refused because BG v
 - shares-vocabulary-with: tapas | both are practices within the broader Indian framework of sādhanā (spiritual practice); different soteriological groundings
 - shares-vocabulary-with: dana | both are meritorious practices across traditions but grounded differently (bhakti = devotional; dāna = gift)
 - often-conflated-with-NOT-equivalent: tirthankara | Jain pūjā of Tīrthaṅkaras resembles bhakti but the Tīrthaṅkara does not respond or grant liberation — soteriologically non-equivalent
+- expressed-by: prahlada | its canonical enumeration is his: *Bhāgavata* 7.5.23–24's **navavidhā bhakti** — hearing, chanting, remembering, serving the feet, worship, prayer, servanthood, friendship, self-surrender — and its exemplar is deliberately an *asura*, which is how the path is made independent of birth

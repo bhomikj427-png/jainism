@@ -167,6 +167,7 @@ digraph ancient_texts {
     "amrita" [label="amṛta" fillcolor="#4fd16b" shape=ellipse];
     "aruna" [label="Aruṇa" fillcolor="#4fd16b" shape=ellipse];
     "atman-vedanta" [label="ātman (Vedānta)" fillcolor="#4fd16b" shape=ellipse];
+    "atri" [label="Atri" fillcolor="#4fd16b" shape=ellipse];
     "avatara-vedanta" [label="avatāra" fillcolor="#4fd16b" shape=ellipse];
     "ayurveda" [label="Āyurveda" fillcolor="#4fd16b" shape=ellipse];
     "bali" [label="Bali" fillcolor="#4fd16b" shape=ellipse];
@@ -213,6 +214,7 @@ digraph ancient_texts {
     "parashurama" [label="Paraśurāma" fillcolor="#4fd16b" shape=ellipse];
     "parijata" [label="Pārijāta" fillcolor="#4fd16b" shape=ellipse];
     "parvati" [label="Pārvatī" fillcolor="#4fd16b" shape=ellipse];
+    "prahlada" [label="Prahlāda" fillcolor="#4fd16b" shape=ellipse];
     "prakasatman" [label="Prakāśātman" fillcolor="#4fd16b" shape=ellipse];
     "pratyabhijna" [label="pratyabhijñā" fillcolor="#4fd16b" shape=ellipse];
     "rahu" [label="Rāhu" fillcolor="#4fd16b" shape=ellipse];
@@ -578,6 +580,14 @@ digraph ancient_texts {
   "atman-vedanta" -> "moksha-advaita" [color="#cccccc22"];
   "atman-vedanta" -> "omniscience-vedanta" [color="#cccccc22"];
   "atman-vedanta" -> "carvaka" [color="#cccccc22"];
+  "atri" -> "agni" [color="#cccccc22"];
+  "atri" -> "indra" [color="#cccccc22"];
+  "atri" -> "svarbhanu" [color="#cccccc22"];
+  "atri" -> "rahu" [color="#cccccc22"];
+  "atri" -> "ketu" [color="#cccccc22"];
+  "atri" -> "upanishad" [color="#cccccc22"];
+  "atri" -> "ramayana" [color="#cccccc22"];
+  "atri" -> "rama" [color="#cccccc22"];
   "avadhi-jnana" -> "pramana" [color="#cccccc22"];
   "avadhi-jnana" -> "upayoga" [color="#cccccc22"];
   "avadhi-jnana" -> "manah-paryaya-jnana" [color="#cccccc22"];
@@ -619,6 +629,7 @@ digraph ancient_texts {
   "bhakti" -> "tapas" [color="#cccccc22"];
   "bhakti" -> "dana" [color="#cccccc22"];
   "bhakti" -> "tirthankara" [color="#cccccc22"];
+  "bhakti" -> "prahlada" [color="#cccccc22"];
   "bodhicitta" -> "yogacara" [color="#cccccc22"];
   "bodhicitta" -> "madhyamaka" [color="#cccccc22"];
   "bodhicitta" -> "ahimsa-buddhist" [color="#cccccc22"];
@@ -1514,6 +1525,15 @@ digraph ancient_texts {
   "prabhakara" -> "mimamsa-sutra" [color="#cccccc22"];
   "prabhakara" -> "kumarila-bhatta" [color="#cccccc22"];
   "prabhakara" -> "kumarila-bhatta" [color="#cccccc22"];
+  "prahlada" -> "narasimha" [color="#cccccc22"];
+  "prahlada" -> "bhakti" [color="#cccccc22"];
+  "prahlada" -> "bali" [color="#cccccc22"];
+  "prahlada" -> "vritra" [color="#cccccc22"];
+  "prahlada" -> "varuna" [color="#cccccc22"];
+  "prahlada" -> "vaishnavism" [color="#cccccc22"];
+  "prahlada" -> "shaivism" [color="#cccccc22"];
+  "prahlada" -> "gita" [color="#cccccc22"];
+  "prahlada" -> "catuskoti" [color="#cccccc22"];
   "prajnakaragupta" -> "pramanavarttika" [color="#cccccc22"];
   "prajnakaragupta" -> "dharmakirti" [color="#cccccc22"];
   "prajnakaragupta" -> "dharmottara" [color="#cccccc22"];
@@ -1927,6 +1947,7 @@ digraph ancient_texts {
   "svarbhanu" -> "rahu" [color="#cccccc22"];
   "svarbhanu" -> "indra" [color="#cccccc22"];
   "svarbhanu" -> "bali" [color="#cccccc22"];
+  "svarbhanu" -> "atri" [color="#cccccc22"];
   "svetambara" -> "tirthankara" [color="#cccccc22"];
   "svetambara" -> "aparigraha" [color="#cccccc22"];
   "svetambara" -> "shruta-jnana" [color="#cccccc22"];
