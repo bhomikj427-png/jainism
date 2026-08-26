@@ -844,7 +844,7 @@ def check_progress_size():
     print(f"startup set      : {total:,} bytes of {STARTUP_SET_SOFT_LIMIT:,}{flag}")
 
 
-def main():
+def main() -> int:
     GRAPH_DIR.mkdir(exist_ok=True)
     nodes, edges, link_counts = collect_nodes_and_edges()
     print(f"Nodes: {len(nodes)}  Edges: {len(edges)}")
@@ -852,10 +852,16 @@ def main():
     render_force_graph(nodes, edges, GRAPH_DIR / "graph.html")
     write_index(nodes, REPO_ROOT / "index.md")
     write_manifest(nodes, link_counts, MANIFEST_PATH)
-    audit_graph(nodes, edges)
+    clean = audit_graph(nodes, edges)
+    # Advisory only -- an unrendered SVG (untracked) and an oversized startup set are
+    # warnings, not corpus defects, so they must not fail the gate.
     check_svg_freshness(nodes, GRAPH_DIR / "graph.svg")
     check_progress_size()
+    # The audit is a GATE (CLAUDE.md 8/9): it printed "DEFECTS PRESENT" but main()
+    # dropped the return value, so the process always exited 0 and nothing -- no
+    # pre-commit check, no runner -- could ever see a failure.
+    return 0 if clean else 1
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
