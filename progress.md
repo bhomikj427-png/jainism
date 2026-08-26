@@ -2,8 +2,8 @@
 
 > **⚠️ ORIENTATION — read this before acting (kept short on purpose; loaded on every startup — closed run-logs are rotated to `progress-archive.md`).**
 > This project has **two parallel structures**, and they are NOT interchangeable:
-> 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 42 done, 329 concepts, 1910 edges** (audit CLEAN).
-> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Chs 29–33 drafted — the teaching layer is COMPLETE for the current 329-node graph.** Batch 42 added 20 nodes and five chapters were written over them (29 transmission · 30 the locus of avidyā · 31 the Āyurvedic body · 32 the aghāti karmas · 33 the asura question). The roadmap was re-derived on 2026-08-26 and found **eight** genuine gaps, all of the *covered-in-prose-but-missing-a-row* kind — rows added, no chapter needed. Coverage now verified at **329 / 329**. **→ The next unit of work is a CONCEPT BATCH here (Suggested Batch 43, below), not a chapter.** Write new nodes first, then a chapter over them, then re-derive the roadmap in `chapters/INDEX.md` by the method recorded there. ⚠️ When re-deriving, diff on **chapter prose with diacritics**, not on bare keys — the index lists concepts by IAST display name, so a key-only diff reports false gaps. NOTE: `hindu/` has a **second level** (`darsana/`, `devotional/`, `scripture/`, `shastra/`) — see `chapters/INDEX.md` header for what goes where.
+> 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 43 IN PROGRESS — 332 concepts, 1939 edges** (audit CLEAN; 3 of 11 queued concepts done).
+> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Chs 29–33 drafted — the teaching layer is COMPLETE for the current 329-node graph.** Batch 42 added 20 nodes and five chapters were written over them (29 transmission · 30 the locus of avidyā · 31 the Āyurvedic body · 32 the aghāti karmas · 33 the asura question). The roadmap was re-derived on 2026-08-26 and found **eight** genuine gaps, all of the *covered-in-prose-but-missing-a-row* kind — rows added, no chapter needed. Coverage now verified at **329 / 329**. **→ The next unit of work is to RESUME BATCH 43 here (see the IN-PROGRESS block immediately below the header), not a chapter.** Chapter coverage is complete at 332/332 — the three Batch-43 nodes were folded into Chs 18 and 33 rather than given a new chapter. Write new nodes first, then a chapter over them, then re-derive the roadmap in `chapters/INDEX.md` by the method recorded there. ⚠️ When re-deriving, diff on **chapter prose with diacritics**, not on bare keys — the index lists concepts by IAST display name, so a key-only diff reports false gaps. NOTE: `hindu/` has a **second level** (`darsana/`, `devotional/`, `scripture/`, `shastra/`) — see `chapters/INDEX.md` header for what goes where.
 >
 > **"chapter" ≠ "batch."** If the user says "chapter," they mean a file in `chapters/` — open `chapters/INDEX.md` for the next number; do NOT answer with a "Suggested Batch" from this file. (This mistake has recurred across sessions — see `chapter-vs-batch` memory.)
 
@@ -14,6 +14,54 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 
 > **🗂  Run-log rotation (token discipline, CLAUDE.md §7/§9).** Closed run-logs older than the current run live in **`progress-archive.md`** (append-only; git is the canonical history). This file keeps only the orientation header, the anchor text, and the **most recent activity** so startup stays cheap. When you finish a batch: append the new run-summary here, then move the *previously* newest run-log block into `progress-archive.md`. Full history: `progress-archive.md` or `git log`.
+
+## ▶ Batch 43 — IN PROGRESS (2026-08-26) — START HERE
+
+**State: 3 of 11 done, working tree clean, audit CLEAN, everything pushed.** A maintenance pass ran first and is closed (below). Resume at the next `pending` row.
+
+### Maintenance pass — DONE (closed follow-ups 1, 2, 3, 7 of Batch 42)
+| # | item | outcome |
+|---|---|---|
+| 1 | `ajiva.md`'s `part-of: jiva` inverted its own partition | **fixed** — retyped `often-conflated-with-NOT-equivalent`; jīva and ajīva are exhaustive complements, and the note records why (no *complement-of* relation exists) |
+| 2 | `many-valued-logic` tagged `tradition: Modern Physics` | **fixed** — now `Western (mathematical logic / philosophy of logic)`, matching its siblings |
+| 3 | `atman-vedanta.md` / `brahman.md` queued a Vivekācūḍāmaṇi fetch *as Śaṅkara's* | **fixed** — re-scoped to *attributed to*, pointing at `shankara.md` and Ch 25 §3.1 |
+| 7 | `dharmottara.md` vs `dharmottara-nyayabindu.md` suspected redundant | **resolved, no change** — a legitimate person/text split, correctly typed |
+
+**Two findings from that pass, both worth carrying:**
+- **A cross-type edge audit** (not implemented in `build_graph.py`, which only checks same-type) found **77 pairs** carrying directional edges in both directions. They are **complementary inverse pairs** — `part-of` ↔ `expressed-by` (50), `is-a-type-of` ↔ `expressed-by` (11), `formalizes` ↔ `expressed-by` (6), `formalizes` ↔ `part-of` (4), `aggregates-into` ↔ `aggregates-from` (3) — **not** contradictions. Same-type bidirectional edges: **zero**. ⚠️ **CLAUDE.md §5 was clarified to say so explicitly, in both the storage rule and the edge-type pairing rule, with an explicit “do not repair them”** — documentation of existing practice, not a policy change. `aggregates-from` was also added to §5's vocabulary list (used on 4 edges, present in `build_graph.py`, missing from the charter). **This is the one charter edit this session; revert it if unwanted.**
+- **One genuine defect** the same audit found and fixed: `prakriti-samkhya.md` carried `is-a-type-of: guna-samkhya`, asserting prakṛti is a *sub-type* of guṇa — the reverse of its own note. Retyped `expressed-by`; the correct part→whole edge already existed on the other side.
+
+### Batch 43 concepts
+
+| # | concept | state | note |
+|---|---|---|---|
+| 1 | `abhinavagupta` | **done** — contested / medium | The *Tantrāloka*'s 37 chapters make “Kashmir Śaivism” one system; ~15 teachers including declared dualists. Key finding: ***rasāsvāda* resembles *brahmāsvāda* “but it is not a complete dissolution”** — the tradition draws the analogy/identity line itself, and its popularisers drop it. |
+| 2 | `somananda` | **done** — contested / medium | Founder of a school named after a word he never uses. The *Śivadṛṣṭi* is largely polemic (Bhartṛhari, Śākta, Vijñānavāda, Advaita's ignorance-doctrine **by name**), and its decisive clause is “**not Māyā's illusion**.” |
+| 3 | `ahura-mazda` | **done** — contested / medium | Second Iranian node. Ch 33's correspondence is now **three-term**: *ahura*/*asura*, *aṣ̃a*/*ṛta* (both ← PII *\*Hṛtá-*), and fire as the guardian of both. Haug 1884's monotheist reading recorded as datable and interested. |
+| 4 | `sarvajnatman` | pending | the third holder of *pratibimbavāda* (Ch 30 §7) |
+| 5 | `amalananda` | pending | Bhāmatī continuation, 13th c., *Kalpataru* |
+| 6 | `appayya-dikshita` | pending | Bhāmatī continuation, 16th c., *Parimalā* |
+| 7 | `rasesvara` | pending | the mercurial school — opened by `govinda-bhagavatpada`; note the dating conflict (Cowell & Gough put it at “the commencement of the Christian era” against a 9th-c. author) |
+| 8 | `cakrapanidatta` | pending | Caraka's commentator, to whom the three *dhātu-poṣaṇa-nyāya*s are credited **on a single derivative source** (Ch 31 §4.2) |
+| 9 | `dalhana` | pending | Suśruta's commentator |
+| 10 | `hiranyakashipu` | pending | the boon and its failed disjunction (Ch 33 §5.3) |
+| 11 | `hemacandra` | pending | the *Triṣaṣṭiśalākāpuruṣacaritra* — **Ch 33 §7's named upgrade path**; Helen Johnson's complete English translation exists |
+
+### Also done this session
+- **Chapter coverage kept complete**: the three new nodes were folded into **Ch 18 §Pratyabhijñā** (Somānanda given the founder's two paragraphs; Abhinavagupta's *rasa* sentence sharpened to the tradition's own qualification; his integrative role and the Ch 29 §6 transmission fact added) and **Ch 33 §4.1** (the three-term correspondence table). Three rows added to `chapters/INDEX.md`. **332 / 332 covered.**
+- Graph rebuilt at each step; `graph.svg` rendered via the explicit Graphviz `dot.exe` path (still not on PATH). `find_duplicates.py` exit 0.
+
+### ⚠️ Session note for whoever resumes
+**`WebSearch` hit its session limit part-way through this batch** (`WebFetch` continued to work). The three completed nodes were finished on direct fetches plus corpus cross-check. If search is available again, the pending nodes will be much cheaper; if not, prefer nodes with an obvious Wikipedia/SEP/IEP URL to fetch directly.
+
+### Open follow-ups carried into Batch 43
+- **(4)** Ch 11 predates the whole Advaita-lineage cluster; re-read against Ch 25 §§3–6, Batch 41 and Ch 30.
+- **(5)** The Digvijaya dating tension (`shankara.md` dates “Mādhava's Śaṅkaradigvijaya” to the 17th c.; Vidyāraṇya died 1391).
+- **(6)** `karma-vargana.md` is still the Jain layer's one `low` node.
+- **(8)** The **42-vs-93** *nāma*-karma discrepancy — needs the *Karma-grantha* / *Gommaṭhasāra Karmakāṇḍa* read directly.
+- **(9)** Ch 23 §“A third authority” and Ch 26 §6.4 both now describe **closed** holes and should be rewritten when those chapters are next revised.
+
+---
 
 ## Batch 42 — post-Śaṅkara Advaita, the Āyurvedic body, the Jain aghāti half, and the asura question (2026-08-26)
 
