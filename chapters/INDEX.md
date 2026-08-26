@@ -49,6 +49,7 @@
 | 30 Where Does Ignorance Live? | [hindu/darsana/30-locus-of-ignorance.md](hindu/darsana/30-locus-of-ignorance.md) | prakāśātman · vācaspati-miśra | drafted |
 | 31 The Body as a Rate | [hindu/shastra/31-the-ayurvedic-body.md](hindu/shastra/31-the-ayurvedic-body.md) | agni-āyurveda · dhātu · mala | drafted |
 | 32 What Survives Omniscience | [jain/32-what-survives-omniscience.md](jain/32-what-survives-omniscience.md) | aghāti-karma · īryāpathika-āsrava | drafted |
+| 33 The Asura Question | [cross-tradition/33-the-asura-question.md](cross-tradition/33-the-asura-question.md) | varuṇa · vṛtra · verethragna · prahlāda · balarāma | drafted |
 
 ---
 
@@ -402,3 +403,8 @@
 | mala | Ch 31 | Ch 23 (kapha as the mala of rasa, pitta of rakta — the standard picture reversed) · Ch 10 (NOT-equiv pāpa — a residue with a job, not a stain) |
 | aghāti-karma | Ch 32 | Ch 26 §5 (the other family of TS 8.4's eight) · Ch 10 (the arihant/siddha difference **is** this residue; *tīrthakaratva* as item 42 of nāma-karma) · Ch 03 (why the ladder's top rungs stop activity rather than clarify sight) — closes Ch 26 §6.4 |
 | īryāpathika-āsrava | Ch 32 | Ch 03 (TS 6.4 fetched, upgrading `asrava.md`'s aggregation-only mechanism) · Ch 03 (guṇasthānas 11–13) · Ch 19 (∥ **and** NOT-equiv jīvanmukti — deny new adhesion vs deny new relevance) |
+| varuṇa | Ch 33 | Ch 19 (ṛta's **moral** guardian, as Agni is its ritual one) · Ch 18 (∥ indra — narrowed vs displaced) · Ch 11 (NOT-equiv māyā-advaita) · Ch 04 (NOT-equiv karma-vedic — the road not taken) — **contested** (the withdrawn Ouranos etymology) |
+| vṛtra | Ch 33 | Ch 18 (indra's epithet *Vṛtrahan*) · Ch 19 (∥ ṛta — a cosmos whose failure is blockage) · Ch 21 (∥ bali — the rehabilitated adversary) — **contested** (dragon or obstruction: Benveniste & Renou vs the combat-myth reading) |
+| verethragna | Ch 33 | Ch 18 (∥ **and** NOT-equiv indra) · Ch 21 (∥ **and** NOT-equiv avatāra-vedānta — ten forms, no narrative) — the corpus's **first Iranian node**; **contested** three ways (Benveniste & Renou / Thieme / the traditional war-god view) |
+| prahlāda | Ch 33 | Ch 21 (narasiṃha; bali, his grandson) · Ch 11/18 (the *navavidhā bhakti* of BhP 7.5.23–24) · Ch 18 (NOT-equiv śaivism — the *Śiva Purāṇa* lists the same nine) · Ch 06 (∥ catuṣkoṭi — the boon's failed disjunction, resonance only) |
+| balarāma | Ch 33 | Ch 21 (the disputed ninth daśāvatāra slot: Buddha or Balarāma) · Ch 09 (part-of the utsarpiṇī/avasarpiṇī 63) · Ch 08 (ahiṃsā — the Jain criterion that inverts the ranking) · Ch 19 (NOT-equiv gītā — bondage in the intention vs in the act) |
