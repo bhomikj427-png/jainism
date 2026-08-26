@@ -58,3 +58,4 @@ prakṛti → *mahat/buddhi* (cosmic intelligence) → *ahaṃkāra* (ego-princi
 - often-conflated-with-NOT-equivalent: pudgala | Sāṃkhya prakṛti includes mind/intellect/ego; Jain pudgala is strictly physical; the scope and structure differ fundamentally
 - is-a-type-of: guna-samkhya | the three guṇas constitute all of prakṛti (forward link to guna-samkhya.md, batch 5)
 - structurally-parallel-to: purusha-samkhya | prakṛti and puruṣa are the two co-equal, co-eternal, irreducible poles of Sāṃkhya ontology — matter/evolution vs. consciousness/witness — each defined in mutual opposition to the other; the Sāṃkhyakārikā treats them as inseparable yet categorically distinct
+- shares-vocabulary-with: varsaganya | on Frauwallner's reconstruction the derivation of the *tattva*s from *pradhāna* is where the lost *Ṣaṣṭitantra* spent much of its length — so the evolutionary sequence this file states compactly is a summary of a fuller treatment that no longer exists
