@@ -178,6 +178,7 @@ digraph ancient_texts {
     "brahman" [label="brahman" fillcolor="#4fd16b" shape=ellipse];
     "cakrapanidatta" [label="Cakrapāṇidatta" fillcolor="#4fd16b" shape=ellipse];
     "charaka" [label="Caraka" fillcolor="#4fd16b" shape=ellipse];
+    "dalhana" [label="Ḍalhaṇa" fillcolor="#4fd16b" shape=ellipse];
     "dhanvantari" [label="Dhanvantari" fillcolor="#4fd16b" shape=ellipse];
     "durga" [label="Durgā" fillcolor="#4fd16b" shape=ellipse];
     "dvaita-vedanta" [label="Dvaita Vedānta" fillcolor="#4fd16b" shape=ellipse];
@@ -728,6 +729,7 @@ digraph ancient_texts {
   "cakrapanidatta" -> "mala" [color="#cccccc22"];
   "cakrapanidatta" -> "agni-ayurveda" [color="#cccccc22"];
   "cakrapanidatta" -> "vagbhata" [color="#cccccc22"];
+  "cakrapanidatta" -> "dalhana" [color="#cccccc22"];
   "carvaka" -> "vyapti" [color="#cccccc22"];
   "carvaka" -> "vyapti" [color="#cccccc22"];
   "carvaka" -> "pramana-nyaya" [color="#cccccc22"];
@@ -784,6 +786,13 @@ digraph ancient_texts {
   "cynicism" -> "aparigraha" [color="#cccccc22"];
   "cynicism" -> "tapas" [color="#cccccc22"];
   "cynicism" -> "tapas" [color="#cccccc22"];
+  "dalhana" -> "sushruta" [color="#cccccc22"];
+  "dalhana" -> "cakrapanidatta" [color="#cccccc22"];
+  "dalhana" -> "ayurveda" [color="#cccccc22"];
+  "dalhana" -> "dhatu" [color="#cccccc22"];
+  "dalhana" -> "mala" [color="#cccccc22"];
+  "dalhana" -> "charaka" [color="#cccccc22"];
+  "dalhana" -> "appayya-dikshita" [color="#cccccc22"];
   "damascius" -> "proclus" [color="#cccccc22"];
   "damascius" -> "marinus" [color="#cccccc22"];
   "damascius" -> "neoplatonism" [color="#cccccc22"];
