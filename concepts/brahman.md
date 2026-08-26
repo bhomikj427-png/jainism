@@ -53,7 +53,7 @@ In Advaita Vedānta, Brahman is **the sole ultimate reality** — the one, non-d
 
 2. Wikipedia, "Advaita Vedānta," accessed June 2026. https://en.wikipedia.org/wiki/Advaita_Vedanta — already referenced in atman-vedanta.md.
 
-3. **Not yet fetched (confidence upgrade):** Taittirīya Upaniṣad 2.1 ("satyam jñānam anantam brahma") from Olivelle 1996; Śaṅkara, *Vivekacūḍāmaṇi* for the nirguṇa/saguṇa distinction.
+3. **Not yet fetched (confidence upgrade):** Taittirīya Upaniṣad 2.1 ("satyam jñānam anantam brahma") from Olivelle 1996; the *Vivekacūḍāmaṇi* for the nirguṇa/saguṇa distinction — ⚠️ **attributed to** Śaṅkara, not by him: modern scholarship rejects the attribution (see `shankara.md` and Ch 25 §3.1), so it would evidence the later Advaita tradition's doctrine, not Śaṅkara's own.
 
 ## Links
 

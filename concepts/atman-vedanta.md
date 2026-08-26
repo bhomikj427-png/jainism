@@ -60,7 +60,7 @@ The Jain tradition was explicitly aware of and rejected the monist reading. Anek
 
 2. Britannica, "tat tvam asi," accessed June 2026. https://www.britannica.com/topic/tat-tvam-asi — mahāvākya definition and Śaṅkara's interpretation.
 
-3. **Not yet fetched (confidence upgrade):** Chāndogya Upaniṣad 6.8.7 from a critical edition (Patrick Olivelle's translation, Oxford UP, 1996 recommended); Śaṅkara's *Vivekacūḍāmaṇi* for the liberation-as-jñāna doctrine.
+3. **Not yet fetched (confidence upgrade):** Chāndogya Upaniṣad 6.8.7 from a critical edition (Patrick Olivelle's translation, Oxford UP, 1996 recommended); the *Vivekacūḍāmaṇi* for the liberation-as-jñāna doctrine — ⚠️ **attributed to** Śaṅkara, not by him: modern scholarship rejects the attribution (see `shankara.md` and Ch 25 §3.1), so it is evidence for the later Advaita tradition's doctrine, not for Śaṅkara's own.
 
 ## Links
 

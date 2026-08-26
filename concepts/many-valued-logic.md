@@ -1,7 +1,7 @@
 ---
 term_iast: many-valued logic
 term_devanagari: (no Sanskrit equivalent)
-tradition: Modern Physics
+tradition: Western (mathematical logic / philosophy of logic)
 source_text: Jan Łukasiewicz (1920), *On Three-Valued Logic*; modern formal logic
 status: converged
 confidence: medium

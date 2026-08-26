@@ -776,6 +776,7 @@ digraph ancient_texts {
   "dharmottara-nyayabindu" -> "dharmottara" [color="#cccccc22"];
   "dharmottara-nyayabindu" -> "pramanavarttika" [color="#cccccc22"];
   "dharmottara-nyayabindu" -> "shaivism" [color="#cccccc22"];
+  "dharmottara-nyayabindu" -> "utpaladeva" [color="#cccccc22"];
   "dharmottara-nyayabindu" -> "pramanavarttika" [color="#cccccc22"];
   "dharmottara" -> "hetu-vidya" [color="#cccccc22"];
   "dharmottara" -> "dignaga-pramana" [color="#cccccc22"];

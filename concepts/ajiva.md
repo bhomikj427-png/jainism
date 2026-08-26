@@ -54,5 +54,5 @@ The negative definition — "the characteristic mark (lakṣaṇa) of jīva is a
 ## Links
 
 - part-of: dravya | ajīva is the class of five non-soul dravyas (not itself a dravya but the negative of jīva)
-- part-of: jiva | jīva and ajīva together constitute the complete ontology — every dravya is one or the other
+- often-conflated-with-NOT-equivalent: jiva | jīva and ajīva are **exhaustive complements**, not container and content — every dravya is exactly one of the two, and neither is part of the other. The pair is stored under this type because the controlled vocabulary has no *complement-of* relation and the previous `part-of: jiva` edge asserted the opposite of what this file says; the map's job here is precisely to teach that ajīva is not a sub-class of jīva
 - expressed-by: kala-dravya | kāla is one of the five ajīva dravyas; as the temporal substance its vartana function enables modal change (paryāya) in all other dravyas
