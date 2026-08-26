@@ -1,1 +1,3 @@
+# DORMANT: baseline for the June-2026 linker pass; see link-candidates.md.
+# Not used by build_graph.py / find_duplicates.py / check_chapters.py.
 311c29f74b8c9c4224036aeb779aed6fa72fbb5c

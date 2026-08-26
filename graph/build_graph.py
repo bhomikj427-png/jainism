@@ -9,6 +9,7 @@ Idempotent: safe to re-run at any time.
 
 import os
 import re
+import shutil
 import sys
 import unicodedata
 from pathlib import Path
@@ -17,6 +18,34 @@ from collections import defaultdict
 REPO_ROOT = Path(__file__).parent.parent
 CONCEPTS_DIR = REPO_ROOT / "concepts"
 GRAPH_DIR = REPO_ROOT / "graph"
+
+# Graphviz's `dot` is invoked by the `graphviz` Python package through PATH. The
+# Windows installer routinely does NOT add it, in which case the SVG render fails,
+# the script keeps going, the audit still prints CLEAN — and the *committed*
+# graph.svg silently freezes at whatever the last successful run produced. Probe
+# the standard install locations before giving up. (See check_svg_freshness.)
+DOT_SEARCH_DIRS = (
+    "C:/Program Files/Graphviz/bin",
+    "C:/Program Files (x86)/Graphviz/bin",
+    "/usr/local/bin",
+    "/usr/bin",
+    "/opt/homebrew/bin",
+)
+
+
+def ensure_dot_on_path():
+    """Return a usable `dot`, adding its directory to PATH if we had to find it."""
+    found = shutil.which("dot")
+    if found:
+        return found
+    exe = "dot.exe" if os.name == "nt" else "dot"
+    for d in DOT_SEARCH_DIRS:
+        cand = Path(d) / exe
+        if cand.exists():
+            os.environ["PATH"] = os.environ.get("PATH", "") + os.pathsep + str(cand.parent)
+            print(f"note: `dot` not on PATH; using {cand}")
+            return str(cand)
+    return None
 
 # Edge style by link type (style used by SVG; HTML draws uniform Obsidian-grey links)
 EDGE_STYLES = {
@@ -34,6 +63,19 @@ EDGE_STYLES = {
     # False equivalence -> dotted red
     "often-conflated-with-NOT-equivalent": ("dotted", "#cc0000"),
 }
+# Opacity per edge class, so the three layers read at a glance on the dark ground:
+# the structural skeleton recedes, the honest cross-tradition layer sits above it,
+# and the NOT-equivalent edges — the ones CLAUDE.md 5 says the map must *teach* —
+# are the most visible thing on the canvas.
+EDGE_ALPHA = {"solid": "33", "dashed": "66", "dotted": "99"}
+DEFAULT_EDGE_STYLE = ("solid", "#cccccc")
+
+
+def edge_style(link_type):
+    """(graphviz-style, rgba-hex) for a link type. Unknown types fall back to a
+    neutral solid grey rather than vanishing — an unstyled edge is still an edge."""
+    style, colour = EDGE_STYLES.get(link_type, DEFAULT_EDGE_STYLE)
+    return style, colour + EDGE_ALPHA.get(style, "44")
 
 # Canonical tradition-family -> node colour.
 # Two palettes: pastel for the (white) SVG legend math, vivid for the dark graph.
@@ -199,6 +241,10 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
     """Static SVG: force-directed (fdp) with one *invisible* cluster per tradition,
     so same-tradition dots pack into their own neat region (grouped, but no boxes).
     Dark background, vivid dots, thin grey links — the static cousin of the HTML."""
+    ensure_dot_on_path()
+    # Always refresh the .dot intermediate: it is tracked, it is the offline
+    # fallback, and writing it only on render failure let it go stale silently.
+    _write_dot(nodes, edges, link_counts, out_path.with_suffix(".dot"))
     try:
         import graphviz  # type: ignore
     except ImportError:
@@ -235,14 +281,17 @@ def render_graphviz(nodes, edges, link_counts, out_path: Path):
                        fixedsize="true" if size < 0.5 else "false",
                        fontsize=fs, shape=shape)
     for e in edges:
-        g.edge(e["source"], e["target"], color="#cccccc22")
+        style, colour = edge_style(e["type"])
+        g.edge(e["source"], e["target"], style=style, color=colour)
     try:
         g.render(str(out_path.with_suffix("")), format="svg", cleanup=True)
         print(f"Wrote {out_path}")
     except Exception as ex:
         dot_path = out_path.with_suffix(".dot")
         _write_dot(nodes, edges, link_counts, dot_path)
-        print(f"Graphviz render failed ({ex}); wrote {dot_path}")
+        print(f"\n!!  Graphviz render FAILED ({ex}).")
+        print(f"!!  Wrote {dot_path} instead. graph.svg was NOT regenerated and is now "
+              f"STALE -- install Graphviz / add its bin to PATH before committing.")
 
 
 def _write_dot(nodes, edges, link_counts, dot_path: Path):
@@ -259,9 +308,41 @@ def _write_dot(nodes, edges, link_counts, dot_path: Path):
             lines.append(f'    "{nid}" [label="{node["term_iast"]}" fillcolor="{colour}" shape={shape}];')
         lines.append("  }")
     for e in edges:
-        lines.append(f'  "{e["source"]}" -> "{e["target"]}" [color="#cccccc22"];')
+        style, colour = edge_style(e["type"])
+        lines.append(f'  "{e["source"]}" -> "{e["target"]}" '
+                     f'[style={style} color="{colour}"];')
     lines.append("}")
     dot_path.write_text("\n".join(lines), encoding="utf-8")
+
+
+# Canvas dash patterns matching the Graphviz styles, so the two renderings of the
+# same graph teach the same thing (CLAUDE.md 5/6).
+JS_DASH = {"solid": "null", "dashed": "[4,3]", "dotted": "[1,3]"}
+JS_WIDTH = {"solid": 0.5, "dashed": 0.7, "dotted": 0.9}
+LAYER_LABEL = {
+    "solid":  "structural (within-system)",
+    "dashed": "cross-tradition (honest)",
+    "dotted": "conflated - NOT equivalent",
+}
+
+
+def _hex_to_rgba(hex6: str, alpha_hex: str) -> str:
+    r, g, b = (int(hex6[i:i + 2], 16) for i in (1, 3, 5))
+    return f"rgba({r},{g},{b},{int(alpha_hex, 16) / 255:.3f})"
+
+
+def js_link_styles() -> str:
+    """type -> {c: rgba, d: dash|null, w: width} as a JSON literal for the canvas."""
+    import json
+    out = {}
+    for t, (style, colour) in EDGE_STYLES.items():
+        out[t] = {"c": _hex_to_rgba(colour, EDGE_ALPHA[style]),
+                  "d": None if style == "solid" else json.loads(JS_DASH[style]),
+                  "w": JS_WIDTH[style], "s": style}
+    st, col = DEFAULT_EDGE_STYLE
+    out["__default__"] = {"c": _hex_to_rgba(col, EDGE_ALPHA[st]), "d": None,
+                          "w": JS_WIDTH[st], "s": st}
+    return json.dumps(out)
 
 
 def render_force_graph(nodes, edges, out_path: Path):
@@ -288,7 +369,8 @@ def render_force_graph(nodes, edges, out_path: Path):
             }
             for nid, node in nodes.items()
         ],
-        "links": [{"source": e["source"], "target": e["target"]} for e in edges],
+        "links": [{"source": e["source"], "target": e["target"], "t": e["type"]}
+                  for e in edges],
     }
     present = [f for f in FAMILY_ORDER if any(n["fam"] == f for n in data["nodes"])]
     data_json = json.dumps(data)
@@ -296,6 +378,18 @@ def render_force_graph(nodes, edges, out_path: Path):
     legend = "".join(
         f'<div><span class="sw" style="background:{FAMILY_COLOURS_DARK.get(f, DEFAULT_COLOUR_DARK)}"></span>{f}</div>'
         for f in present)
+    link_styles_json = js_link_styles()
+    # One legend row per *layer* (solid / dashed / dotted), in charter order.
+    seen_layer, edge_rows = set(), []
+    for t, (style, colour) in EDGE_STYLES.items():
+        if style in seen_layer:
+            continue
+        seen_layer.add(style)
+        border = {"solid": "solid", "dashed": "dashed", "dotted": "dotted"}[style]
+        edge_rows.append((style, f'<div><span class="ln" style="border-top:2px {border} '
+                                 f'{colour}"></span>{LAYER_LABEL[style]}</div>'))
+    edge_legend = "".join(r for _, r in sorted(edge_rows,
+                          key=lambda x: ["solid", "dashed", "dotted"].index(x[0])))
 
     html = f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>Ancient Texts — Graph</title>
@@ -308,13 +402,17 @@ def render_force_graph(nodes, edges, out_path: Path):
   #legend .t{{font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:#888;margin-bottom:5px;}}
   #legend div{{display:flex;align-items:center;gap:7px;margin:3px 0;cursor:default;}}
   .sw{{width:11px;height:11px;border-radius:50%;display:inline-block;}}
+  .ln{{width:16px;height:0;display:inline-block;flex:none;}}
   #hint{{position:fixed;bottom:10px;left:12px;z-index:10;color:#666;font-size:11px;}}
 </style></head><body>
-<div id="legend"><div class="t">Tradition</div>{legend}</div>
+<div id="legend"><div class="t">Tradition</div>{legend}
+<div class="t" style="margin-top:9px">Link type</div>{edge_legend}</div>
 <div id="hint">scroll to <b>zoom in</b> and read labels · drag = pan · hover = highlight · same-colour dots cluster by tradition</div>
 <div id="graph"></div>
 <script>
 const DATA = {data_json};
+const LS = {link_styles_json};
+const lstyle = l => LS[l.t] || LS.__default__;
 const PRESENT = {present_json};
 const NREL = 5;
 
@@ -355,8 +453,10 @@ const Graph = ForceGraph()(el)
   .nodeColor(n => (!hover || isNear(hover, n)) ? n.color : 'rgba(120,120,120,0.13)')
   .nodeLabel(() => '')
   .linkColor(l => (hover && (l.source.id === hover.id || l.target.id === hover.id))
-      ? 'rgba(255,255,255,0.55)' : 'rgba(200,200,200,0.09)')
-  .linkWidth(l => (hover && (l.source.id === hover.id || l.target.id === hover.id)) ? 1.4 : 0.5)
+      ? 'rgba(255,255,255,0.75)' : lstyle(l).c)
+  .linkLineDash(l => lstyle(l).d)
+  .linkWidth(l => (hover && (l.source.id === hover.id || l.target.id === hover.id))
+      ? 1.6 : lstyle(l).w)
   .nodeCanvasObjectMode(() => 'after')
   .nodeCanvasObject((n, ctx, scale) => {{
     const near = !hover || isNear(hover, n);
@@ -566,6 +666,12 @@ SYMMETRIC_TYPES = {
     "often-conflated-with-NOT-equivalent",
 }
 HIER_TYPES = {"is-a-type-of", "part-of"}
+# Front-matter vocabularies (CLAUDE.md 3). Nothing validated these before, so a
+# typo in a link type or a status silently became a real edge / a real node state.
+VALID_LINK_TYPES = set(EDGE_STYLES)
+VALID_STATUS = {"converged", "contested", "blocked", "needs-opus-review"}
+VALID_CONFIDENCE = {"high", "medium", "low"}
+REQUIRED_FIELDS = ("term_iast", "tradition", "source_text", "status", "confidence")
 SIMILARITY_TYPES = {
     "shares-vocabulary-with", "structurally-parallel-to",
     "often-conflated-with-NOT-equivalent",
@@ -599,6 +705,27 @@ def audit_graph(nodes, edges):
             forbidden_combo.append((pair, sorted(ts)))
     forbidden_combo.sort()
 
+    # --- controlled-vocabulary / front-matter conformance (written files only) --
+    bad_types, bad_status, bad_conf, missing_fm = [], [], [], []
+    for nid in sorted(written):
+        n = nodes[nid]
+        for link in n["links"]:
+            if link["type"] not in VALID_LINK_TYPES:
+                bad_types.append((nid, link["type"], link["target"]))
+        if n.get("status") not in VALID_STATUS:
+            bad_status.append((nid, n.get("status")))
+        if n.get("confidence") not in VALID_CONFIDENCE:
+            bad_conf.append((nid, n.get("confidence")))
+        for f in REQUIRED_FIELDS:
+            v = str(n.get(f, "")).strip()
+            if not v:
+                missing_fm.append((nid, f))
+            elif f == "term_iast" and not re.sub(r"\(.*?\)", "", v).strip():
+                # term_iast is the canonical KEY: a purely parenthetical value is a
+                # tradition annotation, not a term. (Other fields may legitimately be
+                # parenthetical - e.g. source_text "(none survives - taught orally)".)
+                missing_fm.append((nid, f + " (parenthetical, not a term)"))
+
     print("\n--- structural audit ---")
     print(f"dangling stubs : {stubs or 'NONE'}")
     print(f"orphans        : {orphans or 'NONE'}")
@@ -606,7 +733,12 @@ def audit_graph(nodes, edges):
           f"{bidir_directional or 'NONE'}")
     print(f"forbidden hier+similarity combos (DEFECT): "
           f"{forbidden_combo or 'NONE'}")
-    clean = not (stubs or orphans or bidir_directional or forbidden_combo)
+    print(f"invalid link types (DEFECT)             : {bad_types or 'NONE'}")
+    print(f"invalid status values (DEFECT)          : {bad_status or 'NONE'}")
+    print(f"invalid confidence values (DEFECT)      : {bad_conf or 'NONE'}")
+    print(f"missing/degenerate front-matter (DEFECT): {missing_fm or 'NONE'}")
+    clean = not (stubs or orphans or bidir_directional or forbidden_combo
+                 or bad_types or bad_status or bad_conf or missing_fm)
     print(f"=> {'CLEAN' if clean else 'DEFECTS PRESENT'}")
     return clean
 
@@ -620,6 +752,11 @@ def audit_graph(nodes, edges):
 MANIFEST_PATH = REPO_ROOT / "MANIFEST.tsv"
 PROGRESS_PATH = REPO_ROOT / "progress.md"
 PROGRESS_SOFT_LIMIT = 60_000  # bytes; rotate run-logs to progress-archive.md past this
+# CLAUDE.md 8 loads THREE files on every startup, not one. Guarding only
+# progress.md left the largest of them (chapters/INDEX.md) with no ceiling at all.
+CHAPTERS_INDEX_PATH = REPO_ROOT / "chapters" / "INDEX.md"
+CHAPTERS_INDEX_SOFT_LIMIT = 60_000
+STARTUP_SET_SOFT_LIMIT = 120_000  # combined budget for the always-loaded files
 
 
 def _tsv_safe(s: str) -> str:
@@ -650,6 +787,28 @@ def write_manifest(nodes, link_counts, out_path: Path):
     print(f"Wrote {out_path} ({len(rows)} concepts)")
 
 
+def check_svg_freshness(nodes, svg_path: Path) -> bool:
+    """graph.svg is a *tracked* artifact only Graphviz can regenerate. When `dot` is
+    missing the render fails, the run continues, and the audit still prints CLEAN --
+    so a stale SVG can be committed with no warning. Compare its node count to the
+    live graph and say so loudly."""
+    if not svg_path.exists():
+        print("\n!!  graph/graph.svg is MISSING -- install Graphviz and re-run.")
+        return False
+    try:
+        svg = svg_path.read_text(encoding="utf-8", errors="ignore")
+    except OSError as ex:
+        print(f"\n!!  graph/graph.svg unreadable ({ex}).")
+        return False
+    n_svg = svg.count('class=\"node\"')
+    if n_svg != len(nodes):
+        print(f"\n!!  graph/graph.svg is STALE: {n_svg} nodes in the file vs "
+              f"{len(nodes)} in the corpus. Do NOT commit it as current.")
+        return False
+    print(f"graph.svg        : fresh ({n_svg} nodes)")
+    return True
+
+
 def check_progress_size():
     """Deterministic nag: warn if progress.md has regrown past the soft limit, so a
     future session rotates closed run-logs to progress-archive.md (CLAUDE.md §9)."""
@@ -659,6 +818,17 @@ def check_progress_size():
             print(f"\n⚠️  progress.md is {size:,} bytes (> {PROGRESS_SOFT_LIMIT:,} soft limit). "
                   f"Rotate closed run-logs into progress-archive.md per CLAUDE.md §9 — "
                   f"this file is loaded on EVERY startup.")
+    if CHAPTERS_INDEX_PATH.exists():
+        size = CHAPTERS_INDEX_PATH.stat().st_size
+        if size > CHAPTERS_INDEX_SOFT_LIMIT:
+            print(f"\n!!  chapters/INDEX.md is {size:,} bytes "
+                  f"(> {CHAPTERS_INDEX_SOFT_LIMIT:,} soft limit) and is loaded on EVERY "
+                  f"startup. Shard the concept->chapter map per origin-folder with a "
+                  f"dispatcher, per CLAUDE.md 6.")
+    total = sum(f.stat().st_size for f in
+                (REPO_ROOT / "CLAUDE.md", PROGRESS_PATH, CHAPTERS_INDEX_PATH) if f.exists())
+    flag = "  <-- OVER" if total > STARTUP_SET_SOFT_LIMIT else ""
+    print(f"startup set      : {total:,} bytes of {STARTUP_SET_SOFT_LIMIT:,}{flag}")
 
 
 def main():
@@ -670,6 +840,7 @@ def main():
     write_index(REPO_ROOT / "index.md")
     write_manifest(nodes, link_counts, MANIFEST_PATH)
     audit_graph(nodes, edges)
+    check_svg_freshness(nodes, GRAPH_DIR / "graph.svg")
     check_progress_size()
 
 

@@ -1,5 +1,5 @@
 ---
-term_iast: (modern physics)
+term_iast: quantum complementarity
 tradition: Modern Physics
 source_text: Bohr (1927); Robertson (1929); Heisenberg (1927)
 status: converged

@@ -1,5 +1,10 @@
 # TEACHING.md — How to Teach This Corpus
 
+> ## ⚠️ DORMANT track — not part of the current three-track structure
+> *(banner added by the 2026-08-27 engine-maintenance pass; last substantive edit 2026-06-04.)*
+>
+> This file drives an **interactive teaching** track that has not run since June 2026 and is not listed in CLAUDE.md §6's repository layout. The live tracks are: **concepts** (`concepts/`), **chapters** (`chapters/`, the prose teaching layer) and the **translation reading-room** (`chapters/jain/translations/`). Its coverage ledger, `teaching-log.md`, is stale — see the banner there. Nothing here is wrong; it is simply not wired into the current workflow.
+
 ## §1 Starting assumptions
 Assume zero prior knowledge of Sanskrit, Indian philosophy, or formal logic. Every term needs a plain-English anchor before the technical name. No unexplained jargon — if a Sanskrit term must appear, its meaning immediately follows in parentheses.
 

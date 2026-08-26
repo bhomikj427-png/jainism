@@ -1,5 +1,10 @@
 # teaching-log.md
 
+> ## ⚠️ DORMANT — stale counts; not a status source
+> *(banner added by the 2026-08-27 engine-maintenance pass; last substantive edit 2026-06-19.)*
+>
+> The “Taught 0 of 75 concepts” line and the §A snapshot below describe a **75-concept** corpus. The corpus is now **340** concepts. §A is a hand-maintained status/confidence table — exactly the job `MANIFEST.tsv` does automatically. Per CLAUDE.md §6/§7, **`MANIFEST.tsv` is the status index**; never read status or confidence from this file. Kept only as a record of the interactive-teaching track, which has not run since June 2026.
+
 **Taught 0 of 75 concepts.**
 
 ---

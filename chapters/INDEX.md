@@ -87,8 +87,6 @@
 
 | concept | primary chapter | cross-referenced in |
 |---|---|---|
-| sat | Ch 01 | Ch 02 (anekāntavāda grounding) |
-| dravya | Ch 01 | Ch 02 (naya operates on dravya) |
 | paryāya | Ch 01 | Ch 02 (paryāyārthika nayas) |
 | pudgala | Ch 01 | — |
 | paramāṇu | Ch 01 | — |
@@ -109,16 +107,13 @@
 | nirjarā | Ch 03 | — |
 | mokṣa | Ch 03 | — |
 | guṇasthāna | Ch 03 | — |
-| loka-jain | Ch 03 | — |
 | brahman | Ch 04 | — |
 | ātman-vedānta | Ch 04 | Ch 03 (§2 jīva conflation) |
 | karma-vedic | Ch 04 | Ch 03 (§3 karma conflation) |
 | mokṣa-advaita | Ch 04 | Ch 03 (§10 liberation table) |
 | pratītyasamutpāda | Ch 04 | — |
 | nirvāṇa-buddhist | Ch 04 | Ch 03 (§10 liberation table) |
-| ahiṃsā | Ch 04 | — |
 | ahiṃsā-buddhist | Ch 04 | — |
-| pramāṇa | Ch 05 | Ch 02 (naya/pramāṇa pair, §2.2) |
 | pramāṇa-nyāya | Ch 05 | — |
 | dignāga-pramāṇa | Ch 05 | — |
 | mīmāṃsā-pramāṇa | Ch 05 | — |
@@ -164,7 +159,7 @@
 | kāla | Ch 09 | Ch 01 (one of six dravyas) |
 | loka | Ch 09 | Ch 03 (§ siddha-śilā summit / mokṣa address) |
 | utsarpiṇī-avasarpiṇī | Ch 09 | — (Tīrthaṅkara distribution across the cycle) |
-| dravya | Ch 01 | Ch 09 (§1 the six substances in full) |
+| dravya | Ch 01 | Ch 02 (naya operates on dravya) · Ch 09 (§1 the six substances in full) |
 | sat | Ch 01 | Ch 02 (anekāntavāda grounding) · Ch 09 (§2 being as change-in-permanence) |
 | ṇamokāra-mantra | Ch 10 | — (five-line pañca-parameṣṭhī salutation) |
 | arihant | Ch 07 | Ch 10 (§1 first parameṣṭhī · §5 four ghāti destroyed) |
@@ -185,6 +180,7 @@
 | ājīvika | Ch 10 | — (Gosāla's fatalist śramaṇa rival; niyati vs effort) |
 | prasthānatrayī | Ch 11 | — (triple canonical foundation of Vedānta) |
 | advaita-vedanta | Ch 11 | Ch 04 (brahman/ātman) |
+| maya-advaita | Ch 11 | — |
 | vivartavāda | Ch 11 | Ch 04 (māyā-advaita distinction) |
 | pariṇāmavāda | Ch 11 | — (real transformation; Viśiṣṭādvaita/Śaiva) |
 | vishishtadvaita | Ch 11 | — (Rāmānuja qualified non-dualism) |
@@ -192,10 +188,10 @@
 | bhakti | Ch 11 | Ch 04 (devotion as mokṣa path) |
 | jñāna-mārga | Ch 11 | Ch 04 (knowledge path) |
 | karma-mārga | Ch 11 | Ch 04 (action path; nishkama karma) |
-| trimurti | Ch 11 | — (Brahmā/Viṣṇu/Śiva cosmological triad) |
 | sarasvatī | Ch 11 | — (knowledge goddess; Tridevi Sattva) |
 | lakṣmī | Ch 11 | — (prosperity goddess; Tridevi Rajas; Viṣṇu śakti) |
 | four-noble-truths | Ch 12 | Ch 04 (Buddhist foundation) |
+| dukkha | Ch 12 | — |
 | tanha | Ch 12 | — (craving; 2nd Noble Truth; 8th nidāna) |
 | paticcasamuppada-pali | Ch 12 | Ch 04 (Pali dependent-origination treatment) |
 | nibbana-theravada | Ch 12 | Ch 04 (Theravāda liberation account) |
@@ -205,9 +201,12 @@
 | arhat | Ch 12 | Ch 04 (Theravāda liberation goal) |
 | skandha-buddhist | Ch 12 | Ch 01 (vs Jain skandha) |
 | abhidharma | Ch 12 | — (82-dharma analysis; Abhidharmakośa) |
+| sunyata | Ch 12 | — |
 | bodhicitta | Ch 12 | — (awakening mind; Mahāyāna vow) |
+| bodhisattva | Ch 12 | — |
 | madhyamaka | Ch 12 | Ch 06 (catuṣkoṭi grounding) |
 | dvisatya | Ch 12 | — (Madhyamaka two truths; saṃvṛti/paramārtha) |
+| yogacara | Ch 12 | — |
 | vijñaptimātratā | Ch 12 | — (Yogācāra consciousness-only) |
 | ālaya-vijñāna | Ch 12 | — (storehouse consciousness; rebirth-without-self) |
 | tathāgatagarbha | Ch 12 | — (Buddha-nature; NOT-equiv ātman) |

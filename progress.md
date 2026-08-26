@@ -56,7 +56,35 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 - De-orphaning passes, all §10-mechanical, all with **content-motivated** inbound edges written from the inbound node's own vantage: `prakasatman→sarvajnatman` (both sanctioned types), `vacaspati-mishra→amalananda`, `amalananda→appayya-dikshita`, `jivanmukti→rasesvara`, `govinda-bhagavatpada→rasesvara`, `cakrapanidatta→dalhana`, `narasimha→hiranyakashipu`, `prahlada→hiranyakashipu`, `balarama→hemacandra`, `syadvada→hemacandra`, `anekantavada→hemacandra`.
 - Graph: **332 → 340 nodes, 1939 → 2022 edges.** `graph.svg` rendered via the explicit Graphviz path.
 
-### Corpus milestone: **340 concepts across 43 batches; 34 chapters.** 0 orphans. 0 unwritten stubs. Audit CLEAN. Chapter coverage 340/340.
+### Corpus milestone: **340 concepts across 43 batches; 34 chapters.** 0 orphans. 0 unwritten stubs. Audit CLEAN. Chapter coverage **339/340** (corrected from “340/340” by the maintenance pass below — it had never been machine-checked).
+
+---
+
+## Maintenance pass — engine health (2026-08-27, post-Batch-43)
+
+Requested as a standalone “check the engine for leaks” pass; no concepts written, no batch advanced.
+
+### Fixed (§10-mechanical — deterministic, one correct form, verified by re-running the audit)
+1. **The rendered graph had stopped drawing the honesty layer.** `EDGE_STYLES` was defined in `build_graph.py` and *never read* — all 2022 edges rendered as one undifferentiated grey, in **both** the SVG and the HTML (which never received the edge type at all). §6 promises `style = link type` and §5 says the map must *teach* the not-equivalent distinction; it could not. Now solid/dashed/dotted + per-layer colour and opacity in `graph.svg`, `graph.dot` and `graph.html` (with a link-type legend). Verified: 733 solid / 961 dashed / 328 dotted = 2022.
+2. **`graph.svg` could freeze silently.** Graphviz is installed but not on PATH, so the render failed, the script continued, and the audit still printed CLEAN — a stale tracked artifact could ship unnoticed. `dot` is now resolved from the standard install locations, the failure is loud, and `check_svg_freshness()` compares the SVG's node count to the corpus.
+3. **`graph.dot` was only written when the render *failed*,** so on success the tracked intermediate went stale. Now always regenerated.
+4. **Nothing validated the controlled vocabularies.** A typo'd link type, `status` or `confidence` became a real edge / node state silently. `build_graph.py` now audits link types, `status`, `confidence` and required front-matter against §3/§5, and fails the run. Regression-tested by injecting four defects.
+5. **`quantum-complementarity.md` had `term_iast: (modern physics)`** — a tradition annotation in the canonical-key field. Now `quantum complementarity`, matching its four Modern/Western siblings. Caught by check 4.
+6. **`chapters/INDEX.md` had 6 duplicate rows** (`sat`, `dravya`, `ahiṃsā`, `pramāṇa`, `loka-jain`, `trimurti`), two of them asserting *different* primary chapters for one concept, against the file's own “primary-covered in exactly one chapter” rule. In every pair the later row was the considered one (richer cross-refs; where they conflicted it explicitly demoted the other chapter to a cross-ref). Superseded rows dropped, `dravya`'s cross-refs unioned.
+7. **5 written concepts had no row in the concept→chapter map** — `dukkha`, `sunyata`, `bodhisattva`, `yogacara` (Ch 12) and `maya-advaita` (Ch 11). Each was *verified* to be treated in the chapter prose and already linked from it, so the rows record an existing fact rather than asserting a new one.
+8. **The startup-set size guard pointed at the wrong file.** §7 nagged on `progress.md` (15 KB) while `chapters/INDEX.md` — also loaded every session, and 54 KB — had no ceiling at all. Both are now nagged, plus a combined budget (currently 91 KB / 120 KB).
+9. **`CLAUDE.md` §6 described an engine that no longer existed** — `graph.html` called “Cytoscape” (it is the vendored force-graph), `find_duplicates.py` called four classes (it reports six). Corrected.
+
+### Added
+- **`graph/check_chapters.py`** — the missing checker. “Chapter coverage N/N” was the one structural claim in this repo asserted by hand rather than proven, because `chapters/INDEX.md` keys its concept column by *display term* (`kaṣāya`) while a concept's canonical key is its **filename** (`kashaya`) — the two sets do not join. On first run it found 1 unresolved row, 6 uncovered concepts and 6 duplicates. Now: 339/340, exit 1 on the one remaining gap.
+
+### Open — genuine content gaps, deliberately NOT invented
+1. **`dhamma` is taught by no chapter.** The concept file exists; no chapter links to it or treats it. A real hole in the teaching layer; needs chapter prose, which is out of scope for a maintenance pass.
+2. **`prasthānatrayī` is taught but has no concept file.** Ch 11 (3 mentions) and Ch 19 (4) treat it and `chapters/INDEX.md` gives it a row, but no node exists. A concept worth writing — a candidate for Batch 44, not something to fabricate here.
+
+### Open — needs a human decision (§10a forks; see the pass's closing report)
+- **`chapters/INDEX.md` key convention.** 216 of 341 rows are keyed in diacritic IAST, 125 in canonical filename keys. `check_chapters.py` currently bridges the gap with a reviewed 18-entry alias table. Normalising the column to filename keys would remove the alias table entirely, at the cost of diacritics in that column.
+- **Four dormant tracked files** predating the current three-track structure: `TEACHING.md` + `teaching-log.md` (an abandoned interactive-teaching track; the log still says “Taught 0 of 75 concepts” and carries a hand-maintained 75-row status table that duplicates `MANIFEST.tsv`'s job), and `link-candidates.md` + `.linker-state` (a June linker pass whose recorded policy **quotes a superseded §5** — see the SUPERSEDED banners added to both files).
 
 ### Open follow-ups carried into Batch 44
 1. **Ch 11 predates the whole Advaita-lineage cluster** — re-read against Ch 25 §§3–6, Ch 30 and now Ch 34 §§1–2. *(carried since Batch 42)*
