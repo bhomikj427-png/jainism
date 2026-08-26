@@ -38,7 +38,8 @@ except AttributeError:
 REPO_ROOT = Path(__file__).parent.parent
 CONCEPTS_DIR = REPO_ROOT / "concepts"
 CHAPTERS_DIR = REPO_ROOT / "chapters"
-INDEX_PATH = CHAPTERS_DIR / "INDEX.md"
+INDEX_PATH = CHAPTERS_DIR / "INDEX.md"        # chapter list + roadmap
+COVERAGE_PATH = CHAPTERS_DIR / "coverage.md"  # the concept -> chapter lookup table
 
 # Display terms whose canonical filename key transliteration-folding cannot reach
 # (the file is named for a *disambiguated* or differently-chosen key). Reviewed by
@@ -101,7 +102,10 @@ def parse_index():
     concept_rows: [(lineno, display_term, primary, xrefs)]  — the 3-column map
     """
     chapter_rows, concept_rows = [], []
-    for i, line in enumerate(INDEX_PATH.read_text(encoding="utf-8").splitlines(), 1):
+    # chapter rows (4 cols) live in INDEX.md; concept rows (3 cols) in coverage.md.
+    # Both are scanned; the column count decides which table a row belongs to.
+    for path in (INDEX_PATH, COVERAGE_PATH):
+      for i, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
         if not line.startswith("|"):
             continue
         c = [x.strip() for x in line.split("|")]
@@ -156,7 +160,7 @@ def main() -> int:
 
     print(f"\n== [UNRESOLVED] map rows naming no concept file ({len(unresolved)}) ==")
     for lineno, d in unresolved:
-        print(f"   INDEX.md:{lineno}  {d!r}")
+        print(f"   coverage.md:{lineno}  {d!r}")
     if not unresolved:
         print("   none")
 
@@ -189,7 +193,7 @@ def main() -> int:
     for k in known_unc:
         print(f"   uncovered concept {k!r}: {KNOWN_UNCOVERED[k]}")
     for lineno, d in known_unres:
-        print(f"   INDEX.md:{lineno} {d!r}: {KNOWN_UNRESOLVED[d]}")
+        print(f"   coverage.md:{lineno} {d!r}: {KNOWN_UNRESOLVED[d]}")
     if not (known_unc or known_unres):
         print("   none")
 
