@@ -610,12 +610,16 @@ def index_family(raw: str):
     return ("Dharma / Śāstra & Cross-tradition", None)
 
 
-def write_index(out_path: Path):
+def write_index(nodes, out_path: Path):
     """Regenerate index.md from concept front-matter. Deterministic & idempotent."""
+    # Reuse the already-parsed nodes: re-globbing here read all 340 concept files a
+    # SECOND time every build (680 parses for 340 files) for no new information.
     buckets = defaultdict(list)  # (section, subsection) -> [(id, status, confidence)]
     total = 0
-    for md in sorted(CONCEPTS_DIR.glob("*.md")):
-        n = parse_concept(md)
+    for nid in sorted(nodes):
+        n = nodes[nid]
+        if not n.get("written"):
+            continue  # skip referenced-but-unwritten forward-link targets
         buckets[index_family(n["tradition"])].append(
             (n["id"], n.get("status", "unknown"), n.get("confidence", "low")))
         total += 1
@@ -845,7 +849,7 @@ def main():
     print(f"Nodes: {len(nodes)}  Edges: {len(edges)}")
     render_graphviz(nodes, edges, link_counts, GRAPH_DIR / "graph.svg")
     render_force_graph(nodes, edges, GRAPH_DIR / "graph.html")
-    write_index(REPO_ROOT / "index.md")
+    write_index(nodes, REPO_ROOT / "index.md")
     write_manifest(nodes, link_counts, MANIFEST_PATH)
     audit_graph(nodes, edges)
     check_svg_freshness(nodes, GRAPH_DIR / "graph.svg")
