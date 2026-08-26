@@ -21,30 +21,31 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 ## Maintenance pass — engine health (2026-08-27, post-Batch-43)
 
-Requested as a standalone “check the engine for leaks” pass; no concepts written, no batch advanced.
+Standalone “check the engine for leaks” pass. **No concepts written, no batch advanced** — 340 nodes / 2022 edges throughout. Full detail is in `git log`; this is the short form.
 
-### Fixed (§10-mechanical — deterministic, one correct form, verified by re-running the audit)
-1. **The rendered graph had stopped drawing the honesty layer.** `EDGE_STYLES` was defined in `build_graph.py` and *never read* — all 2022 edges rendered as one undifferentiated grey, in **both** the SVG and the HTML (which never received the edge type at all). §6 promises `style = link type` and §5 says the map must *teach* the not-equivalent distinction; it could not. Now solid/dashed/dotted + per-layer colour and opacity in `graph.svg`, `graph.dot` and `graph.html` (with a link-type legend). Verified: 733 solid / 961 dashed / 328 dotted = 2022.
-2. **`graph.svg` could freeze silently.** Graphviz is installed but not on PATH, so the render failed, the script continued, and the audit still printed CLEAN — a stale tracked artifact could ship unnoticed. `dot` is now resolved from the standard install locations, the failure is loud, and `check_svg_freshness()` compares the SVG's node count to the corpus.
-3. **`graph.dot` was only written when the render *failed*,** so on success the tracked intermediate went stale. Now always regenerated.
-4. **Nothing validated the controlled vocabularies.** A typo'd link type, `status` or `confidence` became a real edge / node state silently. `build_graph.py` now audits link types, `status`, `confidence` and required front-matter against §3/§5, and fails the run. Regression-tested by injecting four defects.
-5. **`quantum-complementarity.md` had `term_iast: (modern physics)`** — a tradition annotation in the canonical-key field. Now `quantum complementarity`, matching its four Modern/Western siblings. Caught by check 4.
-6. **`chapters/INDEX.md` had 6 duplicate rows** (`sat`, `dravya`, `ahiṃsā`, `pramāṇa`, `loka-jain`, `trimurti`), two of them asserting *different* primary chapters for one concept, against the file's own “primary-covered in exactly one chapter” rule. In every pair the later row was the considered one (richer cross-refs; where they conflicted it explicitly demoted the other chapter to a cross-ref). Superseded rows dropped, `dravya`'s cross-refs unioned.
-7. **5 written concepts had no row in the concept→chapter map** — `dukkha`, `sunyata`, `bodhisattva`, `yogacara` (Ch 12) and `maya-advaita` (Ch 11). Each was *verified* to be treated in the chapter prose and already linked from it, so the rows record an existing fact rather than asserting a new one.
-8. **The startup-set size guard pointed at the wrong file.** §7 nagged on `progress.md` (15 KB) while `chapters/INDEX.md` — also loaded every session, and 54 KB — had no ceiling at all. Both are now nagged, plus a combined budget (currently 91 KB / 120 KB).
-9. **`CLAUDE.md` §6 described an engine that no longer existed** — `graph.html` called “Cytoscape” (it is the vendored force-graph), `find_duplicates.py` called four classes (it reports six). Corrected.
+### The two that mattered
+1. **The audit was never a gate.** `build_graph.py` printed “DEFECTS PRESENT” and **exited 0** — `main()` dropped `audit_graph()`'s verdict. Everything it has ever checked (orphans, stubs, bidirectional directional edges, forbidden combos) was advisory, while §8/§9 treated it as a gate. Found only by injecting a defect and watching the runner report PASS. Now exits 1.
+2. **The map had stopped drawing the honesty layer.** `EDGE_STYLES` was defined and never read — all 2022 edges rendered one grey, in both SVG and HTML (which never got the edge type at all), against §6's `style = link type` and §5's “the map must teach the distinction.” Now 733 solid / 961 dashed / 328 dotted, with a legend.
+
+### Also fixed
+`graph.svg` could freeze silently (Graphviz installed but off PATH; render failed, run continued, audit still said CLEAN) — `dot` is now located, the failure is loud, freshness is checked · `graph.dot` was only written when the render *failed* · nothing validated the controlled vocabularies — link types, `status`, `confidence` and front-matter are now audited (this caught `quantum-complementarity.md`'s `term_iast: (modern physics)`) · 6 duplicate rows and 5 missing rows in the concept→chapter map, and a false “340/340” that had never been machine-checked (real: 339/340) · the startup-set size guard watched the wrong file · §6 described an engine that no longer existed.
 
 ### Added
-- **`graph/check_chapters.py`** — the missing checker. “Chapter coverage N/N” was the one structural claim in this repo asserted by hand rather than proven, because `chapters/INDEX.md` keys its concept column by *display term* (`kaṣāya`) while a concept's canonical key is its **filename** (`kashaya`) — the two sets do not join. On first run it found 1 unresolved row, 6 uncovered concepts and 6 duplicates. Now: 339/340, exit 1 on the one remaining gap.
+- **`graph/check_all.py`** — the single gate for §8/§9. Runs all three checks, always all three, exits non-zero if any fails. **Use this, not the scripts individually.**
+- **`graph/check_chapters.py`** — proves chapter coverage instead of asserting it. Coverage was the one structural claim in the repo maintained by hand, and it was wrong.
+
+### Efficiency (measured, not estimated)
+- **Startup set 91.1 KB → 52.5 KB (‑42%).** Rotated Batch 43's closed run-log to the archive per §9, and split the 342-row concept→chapter lookup table out of `chapters/INDEX.md` into **`chapters/coverage.md`** — grepped on demand, never loaded at startup (the same move §7 already made for `index.md`/`MANIFEST.tsv`).
+- **Build parsed every concept file twice** (680 parses for 340 files); `write_index()` now reuses the parsed nodes. 0.215s → 0.116s, `index.md` byte-identical.
+- **`graph.svg` untracked.** `fdp` relays out on every run even with a fixed seed and identical input, so it rewrote ~12k lines / 1.1 MB per commit across 78 commits for no information. `graph.dot` and `graph.html` are byte-stable (verified) and still tracked; render the SVG on demand.
 
 ### Open — genuine content gaps, deliberately NOT invented
-1. **`dhamma` is taught by no chapter.** The concept file exists; no chapter links to it or treats it. A real hole in the teaching layer; needs chapter prose, which is out of scope for a maintenance pass.
-2. **`prasthānatrayī` is taught but has no concept file.** Ch 11 (3 mentions) and Ch 19 (4) treat it and `chapters/INDEX.md` gives it a row, but no node exists. A concept worth writing — a candidate for Batch 44, not something to fabricate here.
+1. **`dhamma` is taught by no chapter.** The node exists; no chapter links to or treats it. Needs chapter prose. Recorded as a `KNOWN-GAP` in `check_chapters.py` so it stays visible without keeping the check permanently red.
+2. **`prasthānatrayī` is taught but has no node.** Ch 11 and Ch 19 treat it and it has a coverage row. A candidate for Batch 44 — not something to fabricate here.
 
-### Open — needs a human decision (§10a forks; see the pass's closing report)
-- **`graph.svg` churn.** `fdp` in Graphviz 15 lays the graph out differently on every run — verified: the *same* `graph.dot` rendered twice differs, under `overlap=prism`/`scale`/`false` alike, and a fixed `start=1` seed does not help. So the tracked SVG rewrites ~12k lines per commit carrying no information. `graph.dot` **is** byte-stable. Options: accept the churn, or untrack `graph.svg` and render on demand from `graph.dot` (§6 currently calls the build “idempotent”, which is true of every output except the SVG).
-- **`chapters/INDEX.md` key convention.** 216 of 341 rows are keyed in diacritic IAST, 125 in canonical filename keys. `check_chapters.py` currently bridges the gap with a reviewed 18-entry alias table. Normalising the column to filename keys would remove the alias table entirely, at the cost of diacritics in that column.
-- **Four dormant tracked files** predating the current three-track structure: `TEACHING.md` + `teaching-log.md` (an abandoned interactive-teaching track; the log still says “Taught 0 of 75 concepts” and carries a hand-maintained 75-row status table that duplicates `MANIFEST.tsv`'s job), and `link-candidates.md` + `.linker-state` (a June linker pass whose recorded policy **quotes a superseded §5** — see the SUPERSEDED banners added to both files).
+### Decided this pass (no longer open)
+- **`chapters/INDEX.md` key convention — left alone, with evidence.** 216 rows are diacritic IAST, 125 canonical keys. Tested the checker's fold across all 340 keys: **340 distinct folds, 0 collisions**, and an ambiguous fold already fails *safe* (returns UNRESOLVED rather than guessing). Rewriting 216 rows would be churn with no measurable gain.
+- **Four dormant tracked files** (`TEACHING.md`, `teaching-log.md`, `link-candidates.md`, `.linker-state`) carry **SUPERSEDED/DORMANT banners** rather than deletion — none is in the startup set, so they cost nothing, and the banners remove the hazard. `link-candidates.md` was the live one: it quotes a §5 that no longer reads that way and could have led a session to bulk-collapse symmetric pairs §5 now calls correct. Deleting them is still yours to call.
 
 ### Open follow-ups carried into Batch 44
 1. **Ch 11 predates the whole Advaita-lineage cluster** — re-read against Ch 25 §§3–6, Ch 30 and now Ch 34 §§1–2. *(carried since Batch 42)*
