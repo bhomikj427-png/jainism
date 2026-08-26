@@ -45,6 +45,7 @@
 | 26 The Machinery of Bondage: What Karma Is Made Of | [jain/26-karma-machinery.md](jain/26-karma-machinery.md) | ajīva · kārmaṇa-vargaṇā · leśyā · mohanīya | drafted |
 | 27 Process All the Way Down: the Person, the Percept & Two Adversaries | [buddhist/27-process-and-adversaries.md](buddhist/27-process-and-adversaries.md) | nāmarūpa · pratyakṣa-buddhist · nyāyabindu (Dharmottaraṭīkā) · makkhali-gosāla | drafted |
 | 28 The Atom That Isn't and the Duality That Isn't: Modern Physics as Comparandum | [comparanda/28-modern-physics.md](comparanda/28-modern-physics.md) | modern-atom · quantum-complementarity | drafted |
+| 29 How Things Reach Us | [cross-tradition/29-transmission.md](cross-tradition/29-transmission.md) | psellos · eriugena · vārṣagaṇya · govinda-bhagavatpāda · utpaladeva · prajñākaragupta · vāgbhaṭa · atri | drafted |
 
 ---
 
@@ -383,3 +384,11 @@
 | naigama-naya | Ch 02 | Ch 02 §4 (the first of the seven nayas; the teleological standpoint) — covered in prose, row added in the Ch 28 re-derivation |
 | saṃgraha-naya | Ch 02 | Ch 02 §4 (the generic/class standpoint; maximum abstraction) — covered in prose, row added in the Ch 28 re-derivation |
 | vyavahāra-naya | Ch 02 | Ch 02 §4 (the practical standpoint; unpacks the saṃgraha class into distinctions) — covered in prose, row added in the Ch 28 re-derivation |
+| psellos | Ch 29 | Ch 24 §4.4 (the Chaldean Oracles' provenance problem, made concrete) · Ch 13/24 (Proclus's lost Chaldean treatise) — **contested** (his own religious position; a 1054 charge from the future Patriarch) |
+| eriugena | Ch 29 | Ch 13 (∥ and NOT-equiv plotinus-one) · Ch 11 (∥ and NOT-equiv advaita-vedānta — the *vivarta* row is load-bearing) · Ch 12 (NOT-equiv śūnyatā — *nihil per excellentiam* is a superlative predicated of a plenum) — **contested** (pantheism) |
+| vārṣagaṇya | Ch 29 | Ch 15 (the Ṣaṣṭitantra and the Sāṃkhyakārikā-as-abridgement thesis) · Ch 25 (vindhyavāsin, his pupil) · Ch 30 (Vācaspati Miśra as the instrument of the reconstruction) — **low** confidence, by evidence |
+| govinda-bhagavatpāda | Ch 29 | Ch 25 §3.1 (the *Vivekacūḍāmaṇi* attribution that undercuts his sole textual naming) · Ch 11 (the Gauḍapāda→Śaṅkara joint) · Ch 19 (∥ vyāsa — a name in a genealogy) — **low** |
+| utpaladeva | Ch 29 | Ch 18 (pratyabhijñā, the doctrine he named — the term is absent from Somānanda's *Śivadṛṣṭi*) · Ch 20/27 (the Dharmakīrti manoeuvre; NOT-equiv vijñaptimātratā) |
+| prajñākaragupta | Ch 29 | Ch 27 (the *niścaya-pratyaya* he rejects) · Ch 05 §9 (dharmottara) · Ch 20 (the Pramāṇavārttika commentarial line) · Ch 07 (∥ and NOT-equiv kevala-jñāna — omniscience as an epistemological result) |
+| vāgbhaṭa | Ch 29 | Ch 23 (the third of the bṛhat-trayī; the AH's Tibetan/Arabic travel) · Ch 31 (A. Hṛ. Sū. 11/24, the tissue-fire rate relation) — **contested** (one Vāgbhaṭa or two) |
+| atri | Ch 29 | Ch 21 §4 (svarbhānu → rāhu/ketu; the naming-vs-identity caution one step further) · Ch 19 (Ṛgveda Maṇḍala 5) — **contested** (what RV 5.40 *is*) |
