@@ -359,6 +359,7 @@ digraph ancient_texts {
     "dhatu" [label="dhātu" fillcolor="#9aa0a6" shape=ellipse];
     "makkhali-gosala" [label="Makkhali Gosāla" fillcolor="#9aa0a6" shape=ellipse];
     "mala" [label="mala" fillcolor="#9aa0a6" shape=ellipse];
+    "rasesvara" [label="Raseśvara" fillcolor="#9aa0a6" shape=ellipse];
     "verethragna" [label="Vərəθraγna" fillcolor="#9aa0a6" shape=ellipse];
   }
   "abhidharma" -> "abhidharmakosa" [color="#cccccc22"];
@@ -966,6 +967,7 @@ digraph ancient_texts {
   "govinda-bhagavatpada" -> "shesha" [color="#cccccc22"];
   "govinda-bhagavatpada" -> "jivanmukti" [color="#cccccc22"];
   "govinda-bhagavatpada" -> "vidyaranya" [color="#cccccc22"];
+  "govinda-bhagavatpada" -> "rasesvara" [color="#cccccc22"];
   "guna-samkhya" -> "prakriti-samkhya" [color="#cccccc22"];
   "guna-samkhya" -> "dravya" [color="#cccccc22"];
   "guna-samkhya" -> "pudgala" [color="#cccccc22"];
@@ -1052,6 +1054,7 @@ digraph ancient_texts {
   "jivanmukti" -> "arihant" [color="#cccccc22"];
   "jivanmukti" -> "nirvana-buddhist" [color="#cccccc22"];
   "jivanmukti" -> "karma-vedic" [color="#cccccc22"];
+  "jivanmukti" -> "rasesvara" [color="#cccccc22"];
   "jnana-marga" -> "moksha-advaita" [color="#cccccc22"];
   "jnana-marga" -> "atman-vedanta" [color="#cccccc22"];
   "jnana-marga" -> "bhakti" [color="#cccccc22"];
@@ -1738,6 +1741,16 @@ digraph ancient_texts {
   "ramayana" -> "bhakti" [color="#cccccc22"];
   "ramayana" -> "rama" [color="#cccccc22"];
   "ramayana" -> "hanuman" [color="#cccccc22"];
+  "rasesvara" -> "shaivism" [color="#cccccc22"];
+  "rasesvara" -> "vidyaranya" [color="#cccccc22"];
+  "rasesvara" -> "govinda-bhagavatpada" [color="#cccccc22"];
+  "rasesvara" -> "jivanmukti" [color="#cccccc22"];
+  "rasesvara" -> "jivanmukti" [color="#cccccc22"];
+  "rasesvara" -> "siddha" [color="#cccccc22"];
+  "rasesvara" -> "siddha" [color="#cccccc22"];
+  "rasesvara" -> "vagbhata" [color="#cccccc22"];
+  "rasesvara" -> "nagarjuna" [color="#cccccc22"];
+  "rasesvara" -> "charaka" [color="#cccccc22"];
   "ratnatraya" -> "moksha" [color="#cccccc22"];
   "ratnatraya" -> "samyak-darshana" [color="#cccccc22"];
   "ratnatraya" -> "pramana" [color="#cccccc22"];
