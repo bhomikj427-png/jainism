@@ -15,6 +15,32 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 > **🗂  Run-log rotation (token discipline, CLAUDE.md §7/§9).** Closed run-logs older than the current run live in **`progress-archive.md`** (append-only; git is the canonical history). This file keeps only the orientation header, the anchor text, and the **most recent activity** so startup stays cheap. When you finish a batch: append the new run-summary here, then move the *previously* newest run-log block into `progress-archive.md`. Full history: `progress-archive.md` or `git log`.
 
+## ACTIVE QUEUE — Batch 44 (opened 2026-08-27)
+
+Ten keys, dedup-gated against the live filesystem before opening (all ten free; no
+transliteration twins: `chitsukha`/`srikantha`/`shivadvaita`/`nrsimhasrama`/`mallishena`
+all return zero). Worked in this order — most-connected first, the speculative pair last.
+
+| # | key | why it is queued | state |
+|---|---|---|---|
+| 1 | `prasthanatrayi` | taught by Ch 11 and Ch 19 with **no node** — the one open coverage inversion | pending |
+| 2 | `mallisena` | the *Syādvādamañjarī* (1292); named upgrade path 1 for `syadvada` + `saptabhangi` | pending |
+| 3 | `citsukha` | the *Tattvapradīpikā*; Amalānanda's grand-teacher — closes an Advaita-lineage hop | pending |
+| 4 | `nrisimhasrama` | commissioned the *Parimala*; opened by Ch 34 | pending |
+| 5 | `shrikantha` | the *Brahmamīmāṃsābhāṣya* — Appayya's Śaiva project has no base text without it | pending |
+| 6 | `sivadvaita` | the school itself, currently visible only through `appayya-dikshita` | pending |
+| 7 | `arunadatta` | the *Sarvāṅgasundarā* — the one commentator of the three saṃhitās this corpus lacks | pending |
+| 8 | `hemadri` | the *Āyurvedarasāyana*; the *terminus ante quem* of Ḍalhaṇa's date | pending |
+| 9 | `jejjata` | lost Suśruta/Caraka commentator — follow-up 8; **may end `blocked`** | pending |
+| 10 | `gayadasa` | the *Nyāyacandrikā* on the Nidānasthāna — follow-up 8; **may end `blocked`** | pending |
+
+**Not in this batch, and not a concept at all:** `dhamma`. The node already exists
+(`converged` / `medium` / 7 links); what is missing is **chapter prose** — no chapter
+teaches or links it. It is a teaching-layer gap, tracked as a `KNOWN-GAP` in
+`check_chapters.py`, and is closed by writing prose, not by writing a node.
+
+---
+
 ### Corpus milestone: **340 concepts across 43 batches; 34 chapters.** 0 orphans. 0 unwritten stubs. Audit CLEAN. Chapter coverage **339/340** (corrected from “340/340” by the maintenance pass below — it had never been machine-checked).
 
 ---
