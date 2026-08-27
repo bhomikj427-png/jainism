@@ -1,5 +1,6 @@
-# chapters/INDEX.md — concept → chapter map
-# Each concept is primary-covered in exactly one chapter. Cross-references elsewhere link back here.
+# chapters/INDEX.md — the chapter list + roadmap (loaded at startup; keep it small)
+# The concept -> chapter LOOKUP TABLE lives in chapters/coverage.md -- grep it, never load it whole.
+# Each concept is primary-covered in exactly one chapter; verify with graph/check_chapters.py.
 # Chapters are grouped by origin into subfolders: jain/ (Jain-tradition chapters), cross-tradition/
 # (comparative chapters spanning multiple traditions), comparanda/ (non-Indian / formal-logic /
 # Greek-Neoplatonic parallels), buddhist/ (Buddhist-tradition chapters), and hindu/ (Hindu chapters).
