@@ -70,7 +70,7 @@ Sit with what that definition does. Asked what *Vedānta Śāstra* **is**, this 
 
 ### 2.1 Why storey five exists
 
-Not for completeness. The *Kalpataru* is "renowned for its depth and complexity, often considered **too abstruse for most students**," and Appayya's *Parimala* was written — at the request of the Advaitin Nṛsiṃhāśrama — to make it approachable.
+Not for completeness. The *Kalpataru* is "renowned for its depth and complexity, often considered **too abstruse for most students**," and Appayya's *Parimala* was written to make it approachable — traditionally, at the request of the Advaitin **Nṛsiṃhāśrama**, though that detail is **single-sourced to a mailing-list posting** and did not survive checking in Batch 44: a chapter devoted to Nṛsiṃhāśrama, a reference entry on him, and an institutional page on Appayya each fail to mention the other man (see `concepts/nrisimhasrama.md`).
 
 So: Amalānanda's continuation of the *Bhāmatī* required its own continuation in order to be readable. That is a compact description of what happened to Indian scholasticism between the 13th and 16th centuries, and it is not a complaint. A tradition that keeps arguing accumulates distinctions; distinctions accumulate technical vocabulary; technical vocabulary eventually needs a translator, and the translator is another commentator. Storey five is a **maintenance operation on storey four**.
 

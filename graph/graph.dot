@@ -219,6 +219,7 @@ digraph ancient_texts {
     "nandi" [label="Nandi" fillcolor="#4fd16b" shape=ellipse];
     "narasimha" [label="Narasiṃha" fillcolor="#4fd16b" shape=ellipse];
     "nataraja" [label="Naṭarāja" fillcolor="#4fd16b" shape=ellipse];
+    "nrisimhasrama" [label="Nṛsiṃhāśrama" fillcolor="#4fd16b" shape=ellipse];
     "omniscience-vedanta" [label="sarvajñatva (Vedānta)" fillcolor="#4fd16b" shape=ellipse];
     "padmapada" [label="Padmapāda" fillcolor="#4fd16b" shape=ellipse];
     "parashurama" [label="Paraśurāma" fillcolor="#4fd16b" shape=ellipse];
@@ -545,6 +546,7 @@ digraph ancient_texts {
   "apoha" -> "sunyata" [style=dotted color="#cc000099"];
   "apoha" -> "sabda-pramana" [style=dashed color="#0066cc66"];
   "apoha" -> "paryayarthika-naya" [style=dashed color="#00993366"];
+  "appayya-dikshita" -> "nrisimhasrama" [style=dashed color="#0066cc66"];
   "appayya-dikshita" -> "amalananda" [style=dashed color="#cc660066"];
   "appayya-dikshita" -> "vacaspati-mishra" [style=dashed color="#cc660066"];
   "appayya-dikshita" -> "shankara" [style=dashed color="#cc660066"];
@@ -1492,6 +1494,14 @@ digraph ancient_texts {
   "nous" -> "plato-forms" [style=dashed color="#cc660066"];
   "nous" -> "brahman" [style=dashed color="#00993366"];
   "nous" -> "brahman" [style=dotted color="#cc000099"];
+  "nrisimhasrama" -> "prakasatman" [style=dashed color="#cc660066"];
+  "nrisimhasrama" -> "padmapada" [style=dashed color="#cc660066"];
+  "nrisimhasrama" -> "sarvajnatman" [style=dashed color="#cc660066"];
+  "nrisimhasrama" -> "advaita-vedanta" [style=solid color="#55555533"];
+  "nrisimhasrama" -> "maya-advaita" [style=solid color="#55555533"];
+  "nrisimhasrama" -> "citsukha" [style=dashed color="#00993366"];
+  "nrisimhasrama" -> "dvaita-vedanta" [style=dashed color="#0066cc66"];
+  "nrisimhasrama" -> "appayya-dikshita" [style=dashed color="#0066cc66"];
   "nyaya-sutra" -> "pramana-nyaya" [style=solid color="#55555533"];
   "nyaya-sutra" -> "anumana-nyaya" [style=solid color="#55555533"];
   "nyaya-sutra" -> "hetvabhasa" [style=solid color="#55555533"];

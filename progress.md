@@ -26,7 +26,7 @@ all return zero). Worked in this order — most-connected first, the speculative
 | 1 | `prasthanatrayi` | taught by Ch 11 and Ch 19 with **no node** — the one open coverage inversion | **done** (converged/medium) |
 | 2 | `mallisena` | the *Syādvādamañjarī* (1292); named upgrade path 1 for `syadvada` + `saptabhangi` | **done** (converged/medium) |
 | 3 | `citsukha` | the *Tattvapradīpikā*; Amalānanda's grand-teacher — closes an Advaita-lineage hop | **done** (converged/medium) |
-| 4 | `nrisimhasrama` | commissioned the *Parimala*; opened by Ch 34 | pending |
+| 4 | `nrisimhasrama` | commissioned the *Parimala*; opened by Ch 34 | **done** (converged/medium; the commission claim did NOT survive checking) |
 | 5 | `shrikantha` | the *Brahmamīmāṃsābhāṣya* — Appayya's Śaiva project has no base text without it | pending |
 | 6 | `sivadvaita` | the school itself, currently visible only through `appayya-dikshita` | pending |
 | 7 | `arunadatta` | the *Sarvāṅgasundarā* — the one commentator of the three saṃhitās this corpus lacks | pending |
