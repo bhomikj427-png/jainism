@@ -245,6 +245,7 @@ digraph ancient_texts {
     "shesha" [label="Śeṣa" fillcolor="#4fd16b" shape=ellipse];
     "shiva" [label="Śiva" fillcolor="#4fd16b" shape=ellipse];
     "shrikantha" [label="Śrīkaṇṭha" fillcolor="#4fd16b" shape=ellipse];
+    "sivadvaita" [label="Śivādvaita" fillcolor="#4fd16b" shape=ellipse];
     "somananda" [label="Somānanda" fillcolor="#4fd16b" shape=ellipse];
     "spanda" [label="spanda" fillcolor="#4fd16b" shape=ellipse];
     "sthitaprajna" [label="sthitaprajña" fillcolor="#4fd16b" shape=ellipse];
@@ -2033,6 +2034,7 @@ digraph ancient_texts {
   "shrikantha" -> "vishishtadvaita" [style=dotted color="#cc000099"];
   "shrikantha" -> "shaivism" [style=dashed color="#0066cc66"];
   "shrikantha" -> "appayya-dikshita" [style=solid color="#55555533"];
+  "shrikantha" -> "sivadvaita" [style=solid color="#55555533"];
   "shrikantha" -> "prasthanatrayi" [style=dashed color="#0066cc66"];
   "shruta-jnana" -> "pramana" [style=solid color="#33333333"];
   "shruta-jnana" -> "mati-jnana" [style=dashed color="#00993366"];
@@ -2051,6 +2053,14 @@ digraph ancient_texts {
   "simplicius" -> "neoplatonism" [style=solid color="#33333333"];
   "simplicius" -> "aristotle-logic" [style=dashed color="#00993366"];
   "simplicius" -> "aristotle-substance" [style=dashed color="#0066cc66"];
+  "sivadvaita" -> "shrikantha" [style=dashed color="#cc660066"];
+  "sivadvaita" -> "parinamavada" [style=solid color="#55555533"];
+  "sivadvaita" -> "vivartavada" [style=solid color="#55555533"];
+  "sivadvaita" -> "appayya-dikshita" [style=solid color="#55555533"];
+  "sivadvaita" -> "advaita-vedanta" [style=dashed color="#00993366"];
+  "sivadvaita" -> "advaita-vedanta" [style=dotted color="#cc000099"];
+  "sivadvaita" -> "vishishtadvaita" [style=dotted color="#cc000099"];
+  "sivadvaita" -> "shaivism" [style=dashed color="#0066cc66"];
   "skandha-buddhist" -> "skandha" [style=dotted color="#cc000099"];
   "skandha-buddhist" -> "jiva" [style=dashed color="#0066cc66"];
   "skandha-buddhist" -> "namarupa" [style=dashed color="#0066cc66"];
