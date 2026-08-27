@@ -70,3 +70,4 @@ Independence confirmed: Olivelle (1998) and Radhakrishnan (1953) are 45 years ap
 - expressed-by: jnana-marga | the path of knowledge (jñāna-mārga) is the distinctively Upaniṣadic soteriological path; the Upaniṣads are its authoritative text
 - shares-vocabulary-with: brahma-sutra | the Brahmasūtra systematizes and harmonises the Upaniṣads; both anchor the *prasthānatrayī* (the three foundational Vedānta texts)
 - structurally-parallel-to: theravada | both are multi-text canonical scriptural traditions that spawned competing schools of interpretation on a shared authoritative base
+- aggregates-into: prasthanatrayi | the Upaniṣads are slot 1 of the Vedānta canon, the **śruti-prasthāna** — and the only slot whose membership is a list (ten *mukhya*, sometimes eleven or twelve) rather than a single text

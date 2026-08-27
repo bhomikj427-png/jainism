@@ -47,3 +47,4 @@ All three readings cite the same verses but interpret them through divergent ont
 - shares-vocabulary-with: krishna | the Gītā is Kṛṣṇa's discourse to Arjuna; he is its divine speaker
 - expressed-by: samatva | BG 2.48 (*samatvaṁ yoga ucyate*) makes equanimity the Gītā's own definition of yoga
 - expressed-by: sthitaprajna | BG 2.54–72 portrays the sthitaprajña, the sage of steady wisdom — the Gītā's realized-sage ideal
+- aggregates-into: prasthanatrayi | the Gītā is slot 2, the **smṛti-prasthāna** — the remembered text seated beside a revealed one, which is what makes the Vedānta canon deliberately heterogeneous

@@ -75,8 +75,8 @@ KNOWN_UNCOVERED = {
     "dhamma": "no chapter teaches it or links to it; needs chapter prose (progress.md)",
 }
 KNOWN_UNRESOLVED = {
-    "prasthānatrayī": "taught in Ch 11 and Ch 19 but no concept file exists yet; "
-                      "a candidate node, not a bad row (progress.md)",
+    # prasthānatrayī was here — CLOSED in Batch 44: the node now exists, so the
+    # Ch 11 coverage row resolves normally and needs no excuse.
 }
 
 

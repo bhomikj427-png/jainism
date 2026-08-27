@@ -224,6 +224,7 @@ digraph ancient_texts {
     "parvati" [label="Pārvatī" fillcolor="#4fd16b" shape=ellipse];
     "prahlada" [label="Prahlāda" fillcolor="#4fd16b" shape=ellipse];
     "prakasatman" [label="Prakāśātman" fillcolor="#4fd16b" shape=ellipse];
+    "prasthanatrayi" [label="prasthānatrayī" fillcolor="#4fd16b" shape=ellipse];
     "pratyabhijna" [label="pratyabhijñā" fillcolor="#4fd16b" shape=ellipse];
     "rahu" [label="Rāhu" fillcolor="#4fd16b" shape=ellipse];
     "rama" [label="Rāma" fillcolor="#4fd16b" shape=ellipse];
@@ -704,6 +705,7 @@ digraph ancient_texts {
   "brahma-sutra" -> "samkhya-karika" [style=dashed color="#00993366"];
   "brahma-sutra" -> "samkhya-karika" [style=dotted color="#cc000099"];
   "brahma-sutra" -> "gita" [style=dashed color="#0066cc66"];
+  "brahma-sutra" -> "prasthanatrayi" [style=solid color="#55555533"];
   "brahma" -> "brahman" [style=dotted color="#cc000099"];
   "brahma" -> "vaishnavism" [style=solid color="#33333333"];
   "brahma" -> "vishnu" [style=dashed color="#00993366"];
@@ -983,6 +985,7 @@ digraph ancient_texts {
   "gita" -> "krishna" [style=dashed color="#0066cc66"];
   "gita" -> "samatva" [style=solid color="#55555533"];
   "gita" -> "sthitaprajna" [style=solid color="#55555533"];
+  "gita" -> "prasthanatrayi" [style=solid color="#55555533"];
   "govinda-bhagavatpada" -> "gaudapada" [style=dashed color="#cc660066"];
   "govinda-bhagavatpada" -> "vyasa" [style=dashed color="#00993366"];
   "govinda-bhagavatpada" -> "kapila" [style=dashed color="#00993366"];
@@ -1691,6 +1694,15 @@ digraph ancient_texts {
   "prashastapada" -> "vaiseshika-sutra" [style=dashed color="#cc660066"];
   "prashastapada" -> "paramanu-vaisheshika" [style=dashed color="#0066cc66"];
   "prashastapada" -> "dignaga-pramana" [style=dashed color="#0066cc66"];
+  "prasthanatrayi" -> "upanishad" [style=solid color="#55555533"];
+  "prasthanatrayi" -> "brahma-sutra" [style=solid color="#55555533"];
+  "prasthanatrayi" -> "gita" [style=solid color="#55555533"];
+  "prasthanatrayi" -> "shankara" [style=solid color="#55555533"];
+  "prasthanatrayi" -> "advaita-vedanta" [style=solid color="#55555533"];
+  "prasthanatrayi" -> "vishishtadvaita" [style=solid color="#55555533"];
+  "prasthanatrayi" -> "dvaita-vedanta" [style=solid color="#55555533"];
+  "prasthanatrayi" -> "prakasatman" [style=dashed color="#0066cc66"];
+  "prasthanatrayi" -> "mimamsa-pramana" [style=dashed color="#0066cc66"];
   "pratityasamutpada" -> "karma" [style=dotted color="#cc000099"];
   "pratityasamutpada" -> "nirvana-buddhist" [style=solid color="#33333333"];
   "pratityasamutpada" -> "karma" [style=dashed color="#0066cc66"];
@@ -2171,6 +2183,7 @@ digraph ancient_texts {
   "upanishad" -> "jnana-marga" [style=solid color="#55555533"];
   "upanishad" -> "brahma-sutra" [style=dashed color="#0066cc66"];
   "upanishad" -> "theravada" [style=dashed color="#00993366"];
+  "upanishad" -> "prasthanatrayi" [style=solid color="#55555533"];
   "upayoga" -> "jiva" [style=solid color="#33333333"];
   "upayoga" -> "pramana" [style=solid color="#55555533"];
   "upayoga" -> "kevala-jnana" [style=solid color="#55555533"];
