@@ -367,6 +367,7 @@ digraph ancient_texts {
     "agni-ayurveda" [label="agni (āyurvedic)" fillcolor="#9aa0a6" shape=ellipse];
     "ahura-mazda" [label="Ahura Mazdā" fillcolor="#9aa0a6" shape=ellipse];
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
+    "arunadatta" [label="Aruṇadatta" fillcolor="#9aa0a6" shape=ellipse];
     "dhatu" [label="dhātu" fillcolor="#9aa0a6" shape=ellipse];
     "makkhali-gosala" [label="Makkhali Gosāla" fillcolor="#9aa0a6" shape=ellipse];
     "mala" [label="mala" fillcolor="#9aa0a6" shape=ellipse];
@@ -612,6 +613,11 @@ digraph ancient_texts {
   "arthapatti" -> "paroksha-jnana" [style=dashed color="#0066cc66"];
   "aruna" -> "surya" [style=dashed color="#0066cc66"];
   "aruna" -> "garuda" [style=dashed color="#0066cc66"];
+  "arunadatta" -> "vagbhata" [style=dashed color="#cc660066"];
+  "arunadatta" -> "ayurveda" [style=solid color="#55555533"];
+  "arunadatta" -> "cakrapanidatta" [style=dashed color="#0066cc66"];
+  "arunadatta" -> "dhatu" [style=dashed color="#0066cc66"];
+  "arunadatta" -> "dalhana" [style=dashed color="#00993366"];
   "asanga" -> "yogacara" [style=solid color="#55555533"];
   "asanga" -> "alaya-vijnana" [style=solid color="#55555533"];
   "asanga" -> "trisvabhava" [style=solid color="#55555533"];
@@ -2280,6 +2286,7 @@ digraph ancient_texts {
   "vagbhata" -> "agni-ayurveda" [style=solid color="#55555533"];
   "vagbhata" -> "vyasa" [style=dashed color="#00993366"];
   "vagbhata" -> "govinda-bhagavatpada" [style=dashed color="#00993366"];
+  "vagbhata" -> "arunadatta" [style=solid color="#55555533"];
   "vaiseshika-sutra" -> "dravya-vaisheshika" [style=solid color="#55555533"];
   "vaiseshika-sutra" -> "paramanu-vaisheshika" [style=solid color="#55555533"];
   "vaiseshika-sutra" -> "pramana-nyaya" [style=dashed color="#0066cc66"];

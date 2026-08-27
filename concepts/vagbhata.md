@@ -66,3 +66,4 @@ This makes Vāgbhaṭa the third instance in the Āyurvedic cluster of the same 
 - formalizes: agni-ayurveda | the same passage is the sharpest classical statement of tissue-fire as a **rate** whose increase depletes rather than augments
 - structurally-parallel-to: vyasa | a name attached to a compendium before it is attached to a biography — the AS colophon itself already has one Vāgbhaṭa explaining that he bears his grandfather's name
 - structurally-parallel-to: govinda-bhagavatpada | the same evidentiary shape in another tradition: a figure whose existence is not in doubt but whose person is reconstructed almost entirely from a text's own framing verses
+- expressed-by: arunadatta | the *Aṣṭāṅgahṛdaya*'s principal commentary, the *Sarvāṅgasundarā* (c. 1220) — which glosses nearly every word, and whose title puns on this text's own eight limbs

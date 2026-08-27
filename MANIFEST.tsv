@@ -37,6 +37,7 @@ aristotle-logic	Greek	converged	medium	18
 aristotle-substance	Greek (Aristotelian)	converged	medium	19	~
 arthapatti	Mīmāṃsā (Bhāṭṭa school)	converged	medium	7	अर्थापत्ति
 aruna	Hindu (Vedic-Purāṇic; solar mythology)	converged	medium	6	अरुण
+arunadatta	Āyurveda (Aṣṭāṅgahṛdaya commentarial tradition)	converged	medium	6	
 asanga	Buddhist (Mahāyāna; Yogācāra / Vijñānavāda)	converged	medium	5	असङ्ग
 asatkaryavada	Nyāya-Vaiśeṣika	converged	medium	6	असत्कार्यवाद
 asrava	Jain	converged	medium	11	आस्रव
@@ -46,7 +47,7 @@ atman-vedanta	Vedanta	converged	medium	27	आत्मन् (वेदान्
 atri	Hindu (Vedic → epic/Purāṇic)	contested	medium	9	अत्रि
 avadhi-jnana	Jain	converged	medium	8	अवधिज्ञान
 avatara-vedanta	Vedanta	converged	medium	35	अवतार
-ayurveda	Hindu (Vedic-derived medical/scientific tradition)	converged	medium	13	आयुर्वेद
+ayurveda	Hindu (Vedic-derived medical/scientific tradition)	converged	medium	14	आयुर्वेद
 badarayana	Vedānta (Uttara-Mīmāṃsā)	contested	medium	4	बादरायण
 balarama	Hindu (Vaiṣṇava) — and Jain (as Baladeva, a śalākāpuruṣa)	contested	medium	12	बलराम
 bali	Hindu (Vaiṣṇava / Puranic; Kerala regional/devotional)	contested	medium	6	बलि
@@ -58,7 +59,7 @@ brahma	Vedic / Hindu (Purāṇic cosmology)	converged	medium	11	ब्रह्�
 brahma-sutra	Vedānta (Uttara Mīmāṃsā; āstika darśana)	converged	medium	28	ब्रह्मसूत्र
 brahmacarya	Jain	converged	medium	8	ब्रह्मचर्य
 brahman	Vedanta	converged	medium	50	ब्रह्मन्
-cakrapanidatta	Hindu (Āyurveda; Bengal, Pāla period)	converged	medium	10	चक्रपाणिदत्त
+cakrapanidatta	Hindu (Āyurveda; Bengal, Pāla period)	converged	medium	11	चक्रपाणिदत्त
 carvaka	Cārvāka / Lokāyata (nāstika materialist)	converged	medium	16	चार्वाक
 catuskoti	Buddhist	converged	medium	20	चतुष्कोटि
 chaldean-oracles	Greek / Late Antique (2nd-c. theurgic scripture; foundational text for later Neoplatonic theurgy)	converged	medium	6	
@@ -68,7 +69,7 @@ citsukha	Advaita Vedānta (post-Śaṅkara dialectic)	converged	medium	11	चि
 citta	Buddhist (primary); Sāṃkhya-Yoga (distinct usage)	converged	medium	12	चित्त
 citta-vritti	Hindu (Sāṃkhya-Yoga)	converged	medium	10	चित्तवृत्ति
 cynicism	Greek (Hellenistic; Socratic school)	converged	medium	7	
-dalhana	Hindu (Āyurveda; surgical/Śalyatantra commentarial tradition)	converged	medium	10	डल्हण
+dalhana	Hindu (Āyurveda; surgical/Śalyatantra commentarial tradition)	converged	medium	11	डल्हण
 damascius	Greek (late Neoplatonism, Athenian school)	converged	high	8	
 dana	cross-tradition (Jain, Buddhist, Hindu)	converged	medium	12	दान
 democritus-atom	Greek	converged	medium	14	(no Sanskrit equivalent)
@@ -78,7 +79,7 @@ dharma-dravya	Jain	converged	medium	14	धर्मास्तिकाय
 dharmakirti	Buddhist (Sautrāntika / Yogācāra; the Epistemological School, pramāṇavāda)	converged	medium	8	धर्मकीर्ति
 dharmottara	Buddhist (Dignāga–Dharmakīrti line; Kashmiri school)	converged	medium	11	धर्मोत्तर
 dharmottara-nyayabindu	Buddhist (Dharmakīrti / Dharmottara — Kashmiri pramāṇavāda)	converged	medium	11	न्यायबिन्दु
-dhatu	Āyurveda	contested	medium	15	धातु
+dhatu	Āyurveda	contested	medium	16	धातु
 dhyana-jain	Jain	converged	medium	9	ध्यान (जैन)
 digambara	Jain	converged	medium	10	दिगम्बर
 dignaga-pramana	Buddhist	converged	medium	25	प्रमाण (दिग्नाग)
@@ -316,7 +317,7 @@ upekkha	Buddhist (Theravāda; pan-Buddhist)	converged	medium	10	उपेक्�
 utpaladeva	Hindu (Kashmir Śaivism — Pratyabhijñā)	contested	medium	13	उत्पलदेव
 utsarpini-avasarpini	Jain	converged	medium	9	उत्सर्पिणी-अवसर्पिणी
 vacaspati-mishra	Advaita Vedānta (Bhāmatī-prasthāna); pan-darśana commentator	contested	medium	24	वाचस्पति मिश्र
-vagbhata	Hindu (Āyurveda)	contested	medium	10	वाग्भट
+vagbhata	Hindu (Āyurveda)	contested	medium	12	वाग्भट
 vaiseshika-sutra	Nyāya-Vaiśeṣika (Vaiśeṣika; Kaṇāda)	converged	medium	19	वैशेषिकसूत्र
 vaishnavism	Vedic / Hindu (Vaiṣṇava; bhakti traditions and Vedānta schools)	converged	medium	18	वैष्णव
 valmiki	Hindu (Itihāsa tradition)	converged	medium	5	वाल्मीकि
