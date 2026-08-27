@@ -15,82 +15,83 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 > **🗂  Run-log rotation (token discipline, CLAUDE.md §7/§9).** Closed run-logs older than the current run live in **`progress-archive.md`** (append-only; git is the canonical history). This file keeps only the orientation header, the anchor text, and the **most recent activity** so startup stays cheap. When you finish a batch: append the new run-summary here, then move the *previously* newest run-log block into `progress-archive.md`. Full history: `progress-archive.md` or `git log`.
 
-## ACTIVE QUEUE — Batch 44 (opened 2026-08-27)
+### Corpus milestone: **350 concepts across 44 batches; 34 chapters.** 0 orphans. 0 unwritten stubs. Structural + conformance audits CLEAN. ⚠ **Chapter coverage 340/350 — nine of Batch 44's ten nodes are UNCOVERED, plus the standing `dhamma` gap.** `check_chapters.py` is **red on purpose** until Ch 35 is written; that is the documented mid-batch state (§9: nodes first, then a chapter over them), not a defect to hunt.
 
-Ten keys, dedup-gated against the live filesystem before opening (all ten free; no
-transliteration twins: `chitsukha`/`srikantha`/`shivadvaita`/`nrsimhasrama`/`mallishena`
-all return zero). Worked in this order — most-connected first, the speculative pair last.
+---
 
-| # | key | why it is queued | state |
+## ▶ NEXT SESSION — start here, in this order
+
+1. **Write Ch 35 over Batch 44's ten nodes.** This is the *only* thing standing between the repo and a green `check_all.py`. The batch has one obvious spine — **Ch 34 asked what a commentator does, and Batch 44 answered it five different ways** (see "The thread" below). Suggested home: `chapters/cross-tradition/`, as a direct sequel to Ch 34. ⚠ If the ten split more naturally into two chapters (a Vedānta/canon one and an Āyurveda-commentators one), that is a genuine fork — take it and number them 35 and 36. Add rows to `chapters/coverage.md`, then re-run `python graph/check_all.py`.
+2. **Close the `dhamma` gap** — the standing `KNOWN-GAP` in `check_chapters.py`. The node exists (`converged` / `medium`, 7 links); no chapter teaches or links it. It belongs in **Ch 12 (The Buddhist Family)**, which already carries the whole Pali cluster: fold it in and add a `coverage.md` row rather than writing a chapter for one node. Then delete its entry from `KNOWN_UNCOVERED` in `check_chapters.py`.
+3. **Then** open Batch 45 from the suggestions at the end of this log.
+
+---
+
+## Batch 44 — CLOSED (2026-08-27). 10/10 concepts; 340 → 350 nodes.
+
+Every concept passed the §8 dedup gate against the live filesystem, transliteration twins included, and was committed individually with its findings in the message. `git log` is the detail; this is the short form.
+
+### The ten
+
+| # | key | status / conf | the one-line finding |
 |---|---|---|---|
-| 1 | `prasthanatrayi` | taught by Ch 11 and Ch 19 with **no node** — the one open coverage inversion | **done** (converged/medium) |
-| 2 | `mallisena` | the *Syādvādamañjarī* (1292); named upgrade path 1 for `syadvada` + `saptabhangi` | **done** (converged/medium) |
-| 3 | `citsukha` | the *Tattvapradīpikā*; Amalānanda's grand-teacher — closes an Advaita-lineage hop | **done** (converged/medium) |
-| 4 | `nrisimhasrama` | commissioned the *Parimala*; opened by Ch 34 | **done** (converged/medium; the commission claim did NOT survive checking) |
-| 5 | `shrikantha` | the *Brahmamīmāṃsābhāṣya* — Appayya's Śaiva project has no base text without it | **done** (**contested**/medium) |
-| 6 | `sivadvaita` | the school itself, currently visible only through `appayya-dikshita` | **done** (converged/medium) |
-| 7 | `arunadatta` | the *Sarvāṅgasundarā* — the one commentator of the three saṃhitās this corpus lacks | **done** (converged/medium) |
-| 8 | `hemadri` | the *Āyurvedarasāyana*; the *terminus ante quem* of Ḍalhaṇa's date | pending |
-| 9 | `jejjata` | lost Suśruta/Caraka commentator — follow-up 8; **may end `blocked`** | **done** (**contested**/medium — NOT blocked; sources found) |
-| 10 | `gayadasa` | the *Nyāyacandrikā* on the Nidānasthāna — follow-up 8; **may end `blocked`** | **done** (converged/medium — NOT blocked) |
+| 1 | `prasthanatrayi` | converged / medium | "Three" counts **slots, not books** — slot 1 is ten Upaniṣads with a soft edge and a disputed attribution sitting on it. **No source dates the term**; a promising *Vedāntasāra* lead was checked and **not confirmed**. |
+| 2 | `mallisena` | converged / medium | Read **Dhruva's 1933 critical edition itself**. The colophon dates the work to the **weekday**. Corrected `hemacandra.md`'s six-school list, which came from a bookseller's blurb and is **unstable across the literature**. |
+| 3 | `citsukha` | converged / medium | He glossed **both** Maṇḍana's *Brahmasiddhi* and Sureśvara's *Naiṣkarmyasiddhi* — texts this corpus deliberately keeps NOT-equivalent. **Aufrecht corroborates** the Amalānanda ← Sukhaprakāśa ← Citsukha chain Batch 43 assembled from web pages. |
+| 4 | `nrisimhasrama` | converged / medium | **The claim that queued him did not survive.** Three sources with every occasion to link him to Appayya's *Parimala* do not mention the other man. Ch 34 and `appayya-dikshita.md` both qualified. |
+| 5 | `shrikantha` | **contested** / medium | Five defensible readings, 3100 BCE → 15th c. McCrea's title says the invention of Śrīkaṇṭha's **Vedānta** — not of Śrīkaṇṭha. A popular source had already made that slide; logged as a specimen of the failure §0 exists to prevent. |
+| 6 | `sivadvaita` | converged / medium | The founding mechanism is **exact**: Appayya reads Śrīkaṇṭha's *pariṇāmavāda* as *vivartavāda* (Duquette 2015). The corpus's Vedānta **taxonomy** turns out to be the **instrument** that made a school. |
+| 7 | `arunadatta` | converged / medium | Dated by having been **contradicted about the structure of the eye** — a fourth dating method for `dalhana.md`'s table. Gode: **three** men of the name, merged by the popular literature into one polymath. |
+| 8 | `hemadri` | converged / medium | Writing a cited-but-unwritten node **loosened a bracket it was holding up**: Ḍalhaṇa's upper bound moves from "early 13th c." to **c. 1309**, because 1260 was Hemādri's first year, not his medical work's date. |
+| 9 | `jejjata` | **contested** / medium | Three dates for him are really three dates for **Vāgbhaṭa** — and `vagbhata.md` already records Vāgbhaṭa as at least two men. Both ends of the dating argument may be composite. |
+| 10 | `gayadasa` | converged / medium | **One section, one manuscript** — yet known to have covered the whole *Suśrutasaṃhitā*, because Ḍalhaṇa quotes it throughout. Evidence for extent and evidence for wording come from different places. |
 
-**Not in this batch, and not a concept at all:** `dhamma`. The node already exists
-(`converged` / `medium` / 7 links); what is missing is **chapter prose** — no chapter
-teaches or links it. It is a teaching-layer gap, tracked as a `KNOWN-GAP` in
-`check_chapters.py`, and is closed by writing prose, not by writing a node.
+### What the batch did to nodes it did not create
 
----
+Writing these ten **changed nine existing files** — the return on the "write the nodes you merely cite" principle:
 
-### Corpus milestone: **340 concepts across 43 batches; 34 chapters.** 0 orphans. 0 unwritten stubs. Audit CLEAN. Chapter coverage **339/340** (corrected from “340/340” by the maintenance pass below — it had never been machine-checked).
+- `dalhana.md` — **date-bracket loosened** (upper bound → c. 1309); **open hole closed**: the *Nibandhasaṅgraha*'s absorbed commentators are now named (Jejjaṭa, Gayadāsa), reframing it as the **archive** of Suśruta's commentators rather than another commentary on Suśruta.
+- `hemacandra.md` — six-school claim qualified; gains `expressed-by: mallisena`.
+- `syadvada.md`, `saptabhangi.md` — upgrade path sharpened from a book title to **stanzas XXI–XXX**; `saptabhangi`'s "key text for the scheme" flagged as resting on Wikipedia, **not** on the text.
+- `appayya-dikshita.md` — the *Parimala* request-claim marked single-sourced and tested; gains the `shrikantha` edge and the McCrea/Duquette citations its standing "it is an exercise" reading had lacked.
+- `amalananda.md` — lineage now corroborated from a manuscript catalogue.
+- `upanishad.md`, `brahma-sutra.md`, `gita.md`, `vagbhata.md` — complementary inverse edges (§5).
+- `chapters/cross-tradition/34-the-commentator.md` — §3 qualified.
 
----
+### Engine
 
-## Maintenance pass — engine health (2026-08-27, post-Batch-43)
+- **`check_all.py` was broken and is fixed.** It died with `UnicodeEncodeError` on the first Devanagari character `find_duplicates.py` printed: the child scripts reconfigure their own stdout to UTF-8, but the runner re-printed captured output on a cp1252 console. **The duplicate and chapter checks never ran at all** — and the traceback's non-zero exit merely looked like a failing check. Now reconfigured; all three run.
+- `check_chapters.py` — the `prasthānatrayī` `KNOWN_UNRESOLVED` excuse **removed**, since the node exists and the row now resolves on its own.
 
-Standalone “check the engine for leaks” pass. **No concepts written, no batch advanced** — 340 nodes / 2022 edges throughout. Full detail is in `git log`; this is the short form.
+### The thread running through the batch
 
-### The two that mattered
-1. **The audit was never a gate.** `build_graph.py` printed “DEFECTS PRESENT” and **exited 0** — `main()` dropped `audit_graph()`'s verdict. Everything it has ever checked (orphans, stubs, bidirectional directional edges, forbidden combos) was advisory, while §8/§9 treated it as a gate. Found only by injecting a defect and watching the runner report PASS. Now exits 1.
-2. **The map had stopped drawing the honesty layer.** `EDGE_STYLES` was defined and never read — all 2022 edges rendered one grey, in both SVG and HTML (which never got the edge type at all), against §6's `style = link type` and §5's “the map must teach the distinction.” Now 733 solid / 961 dashed / 328 dotted, with a legend.
+Ch 34 asked what a commentator *does*. Batch 44 answered five ways, and they do not reduce to one: **define** what the school lacked (Citsukha); **transmit and add nothing**, and be called superb for it (Nṛsiṃhāśrama — *"has not put forward any new interpretation … yet as a commentator he is superb"*); **legislate** physiology the base text left open (Aruṇadatta, Ḍalhaṇa); **constitute** the position you claim to be explaining (Appayya on Śrīkaṇṭha); and — unplanned, out of the Āyurveda trio — **archive**: Ḍalhaṇa's compiling is the reason a century of Suśruta scholarship is recoverable at all, so compilation is a survival strategy rather than a failure of originality. That is Ch 35's spine.
 
-### Also fixed
-`graph.svg` could freeze silently (Graphviz installed but off PATH; render failed, run continued, audit still said CLEAN) — `dot` is now located, the failure is loud, freshness is checked · `graph.dot` was only written when the render *failed* · nothing validated the controlled vocabularies — link types, `status`, `confidence` and front-matter are now audited (this caught `quantum-complementarity.md`'s `term_iast: (modern physics)`) · 6 duplicate rows and 5 missing rows in the concept→chapter map, and a false “340/340” that had never been machine-checked (real: 339/340) · the startup-set size guard watched the wrong file · §6 described an engine that no longer existed.
+### Follow-ups carried into Batch 45
 
-### Added
-- **`graph/check_all.py`** — the single gate for §8/§9. Runs all three checks, always all three, exits non-zero if any fails. **Use this, not the scripts individually.**
-- **`graph/check_chapters.py`** — proves chapter coverage instead of asserting it. Coverage was the one structural claim in the repo maintained by hand, and it was wrong.
+**New, and top of the list:**
 
-### Efficiency (measured, not estimated)
-- **Startup set 91.1 KB → 52.5 KB (‑42%).** Rotated Batch 43's closed run-log to the archive per §9, and split the 342-row concept→chapter lookup table out of `chapters/INDEX.md` into **`chapters/coverage.md`** — grepped on demand, never loaded at startup (the same move §7 already made for `index.md`/`MANIFEST.tsv`).
-- **Build parsed every concept file twice** (680 parses for 340 files); `write_index()` now reuses the parsed nodes. 0.215s → 0.116s, `index.md` byte-identical.
-- **`graph.svg` untracked.** `fdp` relays out on every run even with a fixed seed and identical input, so it rewrote ~12k lines / 1.1 MB per commit across 78 commits for no information. `graph.dot` and `graph.html` are byte-stable (verified) and still tracked; render the SVG on demand.
+1. **⭐ Meulenbeld, *A History of Indian Medical Literature*** (Groningen Oriental Studies 15, 1999–2002) — the standard reference, **free full text** at Internet Archive item **`Meulenbeld-HIML`** (files `HIML 1A _djvu.txt`, `HIML_1B_djvu.txt`, `HIML_2A_djvu.txt`, `HIML_2B_djvu.txt`, `HIML_3_djvu.txt`). **Two download attempts failed on the literal spaces in the filenames**; neither `%20` nor `+` worked. Next attempt: pull the exact path from `archive.org/metadata/Meulenbeld-HIML` (which *did* return the file list), or try the BookReader search endpoint. Would upgrade **seven** nodes at once — `gayadasa`, `jejjata`, `dalhana`, `cakrapanidatta`, `arunadatta`, `hemadri`, `vagbhata`.
+2. **McCrea 2016**, *JIP* 44:1, 81–94 — Springer, PhilPapers and ResearchGate all blocked. The only thing that would let `shrikantha` state the invention thesis rather than parse its title.
+3. **Which of Hemādri's works quotes Ḍalhaṇa** — unidentified by any source; `dalhana.md`'s revised upper bound rests on the inference that it is his only medical work.
+4. **Citsukha's *Abhiprāyaprakāśikā*** — would answer whose locus of avidyā he defends, having glossed both Maṇḍana and Sureśvara.
+5. **Malliṣeṇa, stanzas XXI–XXX** — upgrades `syadvada` **and** `saptabhangi` together (upgrade path 1, now precise instead of a title).
+6. **Fisher 2017** (*IJHS*) — whether Śivādvaita outlived Appayya; no source consulted says.
+7. Two paywalled (HTTP 402) papers written on exactly their subjects: *JIMH* 27:1 (1997) on Aruṇadatta + Hemādri, PMID 12575692; *J. Ayurveda* 16:1 (2022) on Hemādri.
 
-### Open — genuine content gaps, deliberately NOT invented
-1. **`dhamma` is taught by no chapter.** The node exists; no chapter links to or treats it. Needs chapter prose. Recorded as a `KNOWN-GAP` in `check_chapters.py` so it stays visible without keeping the check permanently red.
-2. **`prasthānatrayī` is taught but has no node.** Ch 11 and Ch 19 treat it and it has a coverage row. A candidate for Batch 44 — not something to fabricate here.
+**Carried from Batch 43, still untouched — 1 and 2 are now five batches overdue:**
 
-### Decided this pass (no longer open)
-- **`chapters/INDEX.md` key convention — left alone, with evidence.** 216 rows are diacritic IAST, 125 canonical keys. Tested the checker's fold across all 340 keys: **340 distinct folds, 0 collisions**, and an ambiguous fold already fails *safe* (returns UNRESOLVED rather than guessing). Rewriting 216 rows would be churn with no measurable gain.
-- **Four dormant tracked files** (`TEACHING.md`, `teaching-log.md`, `link-candidates.md`, `.linker-state`) carry **SUPERSEDED/DORMANT banners** rather than deletion — none is in the startup set, so they cost nothing, and the banners remove the hazard. `link-candidates.md` was the live one: it quotes a §5 that no longer reads that way and could have led a session to bulk-collapse symmetric pairs §5 now calls correct. Deleting them is still yours to call.
+1. **Ch 11 predates the whole Advaita-lineage cluster** — re-read against Ch 25 §§3–6, Ch 30, Ch 34, and now `citsukha` / `nrisimhasrama` / `prasthanatrayi`. **Ch 11 §1 has a node under it for the first time.**
+2. **Ch 23 §"A third authority", Ch 26 §6.4 and Ch 31 §4.2** all describe **closed** holes and should be rewritten. ⚠ **Ch 23's is now worse**: it says the third saṃhitā's commentator is a hole, and Batch 44 wrote him (`arunadatta`) *and* his colleague (`hemadri`).
+3. The **Digvijaya dating tension** in `shankara.md` (Mādhava's *Śaṅkaravijaya* dated 17th c.; Vidyāraṇya d. 1391).
+4. **`karma-vargana.md`** is still the Jain layer's one `low` node.
+5. The **42-vs-93 *nāma*-karma discrepancy** — needs the *Karma-grantha* / *Gommaṭasāra Karmakāṇḍa* read directly.
+6. **`dhatu.md`'s three-vs-four dispute** (Ch 34 §8.1) — settled by the *Āyurvedadīpikā* at Ci. 15:20. ⚠ `arunadatta` now sits **inside** this dispute, holding *eka-kāla*.
+7. **`balarama.md`** still single-sourced; Johnson vol. 5 is the target.
+8. **Prakāśātman's *bhāvarūpa* avidyā priority** — Dasgupta and Wikipedia's chronology invert it; no source addresses it.
 
-### Open follow-ups carried into Batch 44
-1. **Ch 11 predates the whole Advaita-lineage cluster** — re-read against Ch 25 §§3–6, Ch 30 and now Ch 34 §§1–2. *(carried since Batch 42)*
-2. **The Digvijaya dating tension** (`shankara.md` dates "Mādhava's Śaṅkaravijaya" to the 17th c.; Vidyāraṇya died 1391). *(carried)*
-3. **`karma-vargana.md` is still the Jain layer's one `low` node.** *(carried)*
-4. **The 42-vs-93 *nāma*-karma discrepancy** — needs the *Karma-grantha* / *Gommaṭasāra Karmakāṇḍa* read directly. *(carried)*
-5. **Ch 23 §"A third authority" and Ch 26 §6.4** both describe **closed** holes and should be rewritten when next revised. *(carried)* — **and Ch 31 §4.2 now joins them**, since `cakrapanidatta` answered its caveat.
-6. **NEW — `dhatu.md` carries an unresolved three-vs-four dispute** (Ch 34 §8.1). Settled only by reading the *Āyurvedadīpikā* at Ci. 15:20.
-7. **NEW — `balarama.md`'s central claim is still single-sourced.** Johnson's translation was fetched and the Vāsudeva-hell passage **was not found** in the opening material; vol. 5 is the target. Flag deliberately left open.
-8. **NEW — the *Nibandhasaṅgraha*'s preserved commentators are unrecorded.** No source consulted names *which* lost commentaries Ḍalhaṇa absorbed.
-9. **NEW — Prakāśātman's "first to propound *bhāvarūpa* avidyā" is in question.** Dasgupta has Sarvajñātman holding it at c. 900; on Wikipedia's own chronology the priority inverts. No source addresses it.
+### Suggested Batch 45 (names only — no files written)
 
-### Named upgrade paths, cheapest first (the most actionable list this batch produced)
-1. **Hemacandra's *Anyayogavyavacchedadvātriṃśikā* — 32 verses.** Upgrades `syādvāda` **and** `saptabhaṅgī` at once (Dhruva 1933 ed., printed with Malliṣeṇa).
-2. **Cakrapāṇi's *Āyurvedadīpikā*, Ci. 15:20 + the Grahaṇī chapter.** Settles follow-up 6.
-3. **Johnson's *Triṣaṣṭiśalākāpuruṣacaritra* vol. 5.** Settles follow-up 7.
-4. Veezhinathan's *Saṃkṣepaśārīraka* (1985); Duquette 2021 in full (403 on fetch); White, *The Alchemical Body*; Śrīdhara Svāmin's *Bhāvārthadīpikā* on BhP Canto 7.
-
-### Suggested Batch 44 (names only — no files written)
-- **Opened by Batch 43:** `arunadatta` (the *Sarvāṅgasundarā*, and author of the fourth *nyāya* — the one commentator of the three saṃhitās this corpus now lacks); `hemadri` (the *Āyurvedarasāyana*, and the *terminus ante quem* of Ḍalhaṇa's date); `citsukha` (the *Tattvapradīpikā*; Amalānanda's grand-teacher); `mallisena` (the *Syādvādamañjarī*, 1292 — and see upgrade path 1); `shrikantha` (the *Brahmamīmāṃsābhāṣya*, without which Appayya's Śaiva project has no base text); `sivadvaita` (the school itself, currently visible only through `appayya-dikshita`).
-- **Opened by Ch 34:** `nrisimhasrama` (who commissioned the *Parimala*); `jejjata` or `gayadasa` (the lost Suśruta commentators — *if* follow-up 8 can be sourced at all).
-- **Structural/maintenance pass:** follow-ups 1, 2 and 5 — none touched in four batches, and 5 is now three chapters wide.
+- **Opened by Batch 44:** `sriharsa` (the *Khaṇḍanakhaṇḍakhādya* — Citsukha's model, and the corpus has **no** node for what its own sources call the most difficult work in Advaita); `anandabodha` (the *Nyāyamakaranda*, glossed by both Citsukha and Sukhaprakāśa); `madhusudana-sarasvati` (the *Advaitasiddhi* — the Advaita side of the dvaita–advaita debate, entirely absent); `candrata` (Vāgbhaṭa's grandson, the other witness to Jejjaṭa); `haricandra` (*Bhaṭṭāra Haricandra*, 5th c., the earliest Caraka commentator named in this batch's sources).
+- **⚠ Structural, and now the Vedānta layer's largest single hole:** **`ramanuja` and `madhva` are named repeatedly across the corpus and have no nodes.** `vishishtadvaita` and `dvaita-vedanta` exist as schools without their founders. `prasthanatrayi` made this visible by naming both men as trayī-commentators, and `nrisimhasrama`'s *Bhedadhikkāra* and `sivadvaita`'s Madhva polemics both point at an absent node.
+- **Maintenance:** carried follow-ups 1 and 2 above — untouched for five batches, and 2 is now three chapters wide and factually stale.
