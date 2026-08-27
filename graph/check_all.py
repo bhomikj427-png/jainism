@@ -24,6 +24,16 @@ import subprocess
 import sys
 from pathlib import Path
 
+# Each child script reconfigures *its own* stdout to UTF-8, but we capture that
+# output and re-print it here -- on a Windows console that is cp1252, so a single
+# Devanagari character in find_duplicates.py's report raised UnicodeEncodeError
+# and killed the gate before the duplicate and chapter checks ever reported.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, ValueError):
+        pass
+
 GRAPH_DIR = Path(__file__).parent
 CHECKS = [
     ("build_graph", "build_graph.py", "graph, audits, size budgets"),
