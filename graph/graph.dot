@@ -49,6 +49,7 @@ digraph ancient_texts {
     "madhyasthya" [label="mādhyasthya" fillcolor="#ffd23f" shape=ellipse];
     "mahavira" [label="mahāvīra" fillcolor="#ffd23f" shape=ellipse];
     "maitri-jain" [label="maitrī" fillcolor="#ffd23f" shape=ellipse];
+    "mallisena" [label="Malliṣeṇa" fillcolor="#ffd23f" shape=ellipse];
     "manah-paryaya-jnana" [label="manaḥparyāyajñāna" fillcolor="#ffd23f" shape=ellipse];
     "mati-jnana" [label="matijñāna" fillcolor="#ffd23f" shape=ellipse];
     "mohaniya" [label="mohanīya" fillcolor="#ffd23f" shape=ellipse];
@@ -1012,6 +1013,7 @@ digraph ancient_texts {
   "hanuman" -> "shiva" [style=dashed color="#0066cc66"];
   "hanuman" -> "mahabharata" [style=dashed color="#0066cc66"];
   "hemacandra" -> "anekantavada" [style=solid color="#55555533"];
+  "hemacandra" -> "mallisena" [style=solid color="#55555533"];
   "hemacandra" -> "syadvada" [style=dashed color="#0066cc66"];
   "hemacandra" -> "saptabhangi" [style=dashed color="#0066cc66"];
   "hemacandra" -> "svetambara" [style=solid color="#55555533"];
@@ -1297,6 +1299,12 @@ digraph ancient_texts {
   "mala" -> "dhatu" [style=dashed color="#0066cc66"];
   "mala" -> "tridosha" [style=dashed color="#0066cc66"];
   "mala" -> "papa" [style=dotted color="#cc000099"];
+  "mallisena" -> "hemacandra" [style=dashed color="#cc660066"];
+  "mallisena" -> "syadvada" [style=solid color="#55555533"];
+  "mallisena" -> "anekantavada" [style=solid color="#55555533"];
+  "mallisena" -> "saptabhangi" [style=solid color="#55555533"];
+  "mallisena" -> "dalhana" [style=dashed color="#00993366"];
+  "mallisena" -> "amalananda" [style=dashed color="#0066cc66"];
   "manah-paryaya-jnana" -> "pramana" [style=solid color="#33333333"];
   "manah-paryaya-jnana" -> "upayoga" [style=solid color="#33333333"];
   "manah-paryaya-jnana" -> "kevala-jnana" [style=solid color="#33333333"];

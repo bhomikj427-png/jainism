@@ -49,7 +49,7 @@ The saptabhaṅgī is the **sevenfold predication scheme**: the formal logical c
 
 2. Nathmal Tatia (tr.), *That Which Is: Tattvārthasūtra*, HarperCollins/International Sacred Literature Trust, 1994. ISBN 0060689854. — anchor text; saptabhaṅgī is post-TS, so TS is background only.
 
-3. **Not yet fetched (needed for confidence upgrade):** Bimal K. Matilal, *The Central Philosophy of Jainism*, 1981 (the standard scholarly treatment of saptabhaṅgī); Mallisena, *Syādvādamañjarī* (primary classical text).
+3. **Not yet fetched (needed for confidence upgrade):** Bimal K. Matilal, *The Central Philosophy of Jainism*, 1981 (the standard scholarly treatment of saptabhaṅgī); Mallisena, *Syādvādamañjarī* — **located but not doctrinally read** ([[mallisena]], Batch 44). ⚠ The claim above that it is "the key text for the scheme" rests on Wikipedia, **not** on the text: no excerpt reached this pass discusses the saptabhaṅgī at all. Target for confirmation: **stanzas XXI–XXX**.
 
 ## Links
 

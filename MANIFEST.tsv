@@ -18,11 +18,11 @@ ajiva	Jain	converged	medium	10	अजीव
 ajivika	Ājīvika (śramaṇa)	converged	medium	7	आजीविक
 akasha-dravya	Jain	converged	medium	10	आकाशास्तिकाय
 alaya-vijnana	Buddhist (Yogācāra)	converged	medium	15	आलयविज्ञान
-amalananda	Advaita Vedānta (Bhāmatī-prasthāna; with a Vivaraṇa-side work)	converged	medium	10	
+amalananda	Advaita Vedānta (Bhāmatī-prasthāna; with a Vivaraṇa-side work)	converged	medium	11	
 ammonius-saccas	Neoplatonism (Greek; Alexandrian)	blocked	low	3	
 amrita	Hindu (Vedic → epic/Purāṇic); reused in Buddhism	converged	medium	6	अमृत
 anatta-buddhist	Buddhist	contested	medium	19	अनात्मन् (Pali: anattā)
-anekantavada	Jain	contested	medium	32	अनेकान्तवाद
+anekantavada	Jain	contested	medium	33	अनेकान्तवाद
 anicca	Buddhist	converged	medium	9	अनिच्च (Pāli)
 anumana-nyaya	Nyāya-Vaiśeṣika	converged	medium	7	अनुमान (न्याय)
 anuvrata	Jain	converged	medium	11	अणुव्रत
@@ -67,7 +67,7 @@ charitra	Jain	converged	medium	27	चारित्र
 citta	Buddhist (primary); Sāṃkhya-Yoga (distinct usage)	converged	medium	12	चित्त
 citta-vritti	Hindu (Sāṃkhya-Yoga)	converged	medium	10	चित्तवृत्ति
 cynicism	Greek (Hellenistic; Socratic school)	converged	medium	7	
-dalhana	Hindu (Āyurveda; surgical/Śalyatantra commentarial tradition)	converged	medium	9	डल्हण
+dalhana	Hindu (Āyurveda; surgical/Śalyatantra commentarial tradition)	converged	medium	10	डल्हण
 damascius	Greek (late Neoplatonism, Athenian school)	converged	high	8	
 dana	cross-tradition (Jain, Buddhist, Hindu)	converged	medium	12	दान
 democritus-atom	Greek	converged	medium	14	(no Sanskrit equivalent)
@@ -104,7 +104,7 @@ guna-samkhya	Samkhya	converged	medium	11	गुण (साङ्ख्य)
 gunasthana	Jain	converged	medium	28	गुणस्थान
 halahala	Hindu (epic / Purāṇic)	converged	medium	4	हालाहल
 hanuman	Hindu (Vaiṣṇava bhakti — Rāma cult; pan-Hindu; some Śaiva framing)	converged	medium	6	हनुमान्
-hemacandra	Jain (Śvetāmbara; Caulukya-period Gujarat)	converged	medium	13	हेमचन्द्र
+hemacandra	Jain (Śvetāmbara; Caulukya-period Gujarat)	converged	medium	15	हेमचन्द्र
 henosis	Greek / Late Antique (Neoplatonist mysticism)	converged	medium	11	
 hetu-vidya	Buddhist (Dignāga–Dharmakīrti line)	converged	medium	22	हेतुविद्या
 hetvabhasa	cross-tradition (Nyāya, Buddhist)	converged	medium	7	हेत्वाभास
@@ -157,6 +157,7 @@ mahavira	Jain	converged	medium	14	महावीर
 maitri-jain	Jain	converged	medium	9	मैत्री
 makkhali-gosala	Ājīvika (heterodox / nāstika śramaṇa movement)	converged	medium	5	मक्खलि गोसाल
 mala	Āyurveda	converged	medium	10	मल
+mallisena	Jain (Śvetāmbara; 13th-century)	converged	medium	7	
 manah-paryaya-jnana	Jain	converged	medium	8	मनःपर्यायज्ञान
 manas	cross-tradition (Jain, Buddhist, Sāṃkhya, Nyāya-Vaiśeṣika)	converged	medium	8	मनस्
 mandana-mishra	Mīmāṃsā → Advaita Vedānta	contested	medium	10	मण्डन मिश्र
@@ -261,7 +262,7 @@ samyak-darshana	Jain	converged	medium	9	सम्यग्दर्शन
 sangraha-naya	Jain	converged	medium	11	संग्रहनय
 santaraksita	Buddhist (Yogācāra-Svātantrika-Madhyamaka)	converged	medium	14	शान्तरक्षित
 santideva	Buddhist (Madhyamaka; Mahāyāna)	converged	medium	4	शान्तिदेव
-saptabhangi	Jain	converged	medium	20	सप्तभंगी
+saptabhangi	Jain	converged	medium	21	सप्तभंगी
 sarasvati	Hindu (Vedic / Śākta)	converged	medium	8	सरस्वती
 sarvajnatman	Advaita Vedānta (post-Śaṅkara; Vārttika lineage by discipleship, Vivaraṇa-side by doctrine)	contested	medium	13	
 sat	Jain	converged	medium	18	सत्
@@ -289,7 +290,7 @@ surya	Hindu (Vedic origin; later Saura tradition + Smārta Pañcāyatana)	conver
 sushruta	Hindu (Āyurveda)	contested	medium	9	सुश्रुत
 svarbhanu	Hindu (Vedic → epic/Puranic)	contested	medium	10	स्वर्भानु
 svetambara	Jain	converged	medium	9	श्वेताम्बर
-syadvada	Jain	converged	medium	9	स्याद्वाद
+syadvada	Jain	converged	medium	10	स्याद्वाद
 syrianus	Greek (Neoplatonism, Athenian school)	converged	high	5	
 tanha	Buddhist (Theravāda; Pali tradition; also Mahāyāna as *tṛṣṇā*)	converged	medium	7	तण्हा
 tapas	cross-tradition (Jain, Hindu, Buddhist)	converged	medium	17	तपस्

@@ -24,7 +24,7 @@ all return zero). Worked in this order — most-connected first, the speculative
 | # | key | why it is queued | state |
 |---|---|---|---|
 | 1 | `prasthanatrayi` | taught by Ch 11 and Ch 19 with **no node** — the one open coverage inversion | **done** (converged/medium) |
-| 2 | `mallisena` | the *Syādvādamañjarī* (1292); named upgrade path 1 for `syadvada` + `saptabhangi` | pending |
+| 2 | `mallisena` | the *Syādvādamañjarī* (1292); named upgrade path 1 for `syadvada` + `saptabhangi` | **done** (converged/medium) |
 | 3 | `citsukha` | the *Tattvapradīpikā*; Amalānanda's grand-teacher — closes an Advaita-lineage hop | pending |
 | 4 | `nrisimhasrama` | commissioned the *Parimala*; opened by Ch 34 | pending |
 | 5 | `shrikantha` | the *Brahmamīmāṃsābhāṣya* — Appayya's Śaiva project has no base text without it | pending |

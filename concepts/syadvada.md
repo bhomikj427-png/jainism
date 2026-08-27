@@ -45,7 +45,7 @@ Syādvāda is the **doctrine of conditional predication**: the method of making 
 
 3. Nathmal Tatia (tr.), *That Which Is: Tattvārthasūtra*, HarperCollins/International Sacred Literature Trust, 1994. ISBN 0060689854. — confirmed; relevant chapters not fetched.
 
-4. **Not yet fetched (needed for confidence upgrade):** Samantabhadra, *Āptamīmāṃsā* v. 105 (critical edition); Mallisena, *Syādvādamañjarī* (major Jain treatise on syādvāda).
+4. **Not yet fetched (needed for confidence upgrade):** Samantabhadra, *Āptamīmāṃsā* v. 105 (critical edition); Mallisena, *Syādvādamañjarī* — **partly discharged in Batch 44**: the Dhruva 1933 critical edition is now located, dated from its colophon and structurally described in [[mallisena]], but **no doctrinal passage was read**. The precise remaining target is **stanzas XXI–XXX**, the constructive third of the work.
 
 ## Links
 

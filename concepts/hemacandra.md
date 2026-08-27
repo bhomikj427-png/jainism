@@ -65,7 +65,8 @@ What is **not** licensed: that Hemacandra was studying "the Fibonacci sequence."
 
 ## Links
 
-- formalizes: anekantavada | the *Anyayogavyavacchedadvātriṃśikā*: thirty-two verses arguing non-onesidedness **against six named schools** — Vaiśeṣika, Nyāya, Vedānta, Sāṃkhya, Buddhism and Cārvāka — which is anekāntavāda deployed as polemic rather than expounded as doctrine
+- formalizes: anekantavada | the *Anyayogavyavacchedadvātriṃśikā*: thirty-two verses arguing non-onesidedness **against six named schools** — which is anekāntavāda deployed as polemic rather than expounded as doctrine. ⚠ *Which* six is **less settled than this file first recorded**: the descriptive literature gives two different lists (Vedānta in one, Mīmāṃsā in the other), and Dhruva's own analysis of contents localises only four — see [[mallisena]]
+- expressed-by: mallisena | the thirty-two verses acquired their standard commentary 120 years on: the *Syādvādamañjarī* (1292), whose colophon dates itself to the weekday — and whose contents table is what qualifies the six-school claim above
 - shares-vocabulary-with: syadvada | that node's named upgrade path, Malliṣeṇa's *Syādvādamañjarī* (1292), is a **commentary on those thirty-two verses** — a connection neither file recorded
 - shares-vocabulary-with: saptabhangi | same route, same 32-verse base text: what both Jain nodes flagged as an unfetched 13th-century title turns out to be a dated commentary on a 12th-century work already in this corpus's scope
 - expressed-by: svetambara | the Śvetāmbara tradition's most complete single expositor — grammar, lexicon, epistemology, discipline and sacred history all from one hand, and the *Yogaśāstra* its fullest statement of practice
