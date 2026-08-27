@@ -369,6 +369,7 @@ digraph ancient_texts {
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
     "arunadatta" [label="Aruṇadatta" fillcolor="#9aa0a6" shape=ellipse];
     "dhatu" [label="dhātu" fillcolor="#9aa0a6" shape=ellipse];
+    "gayadasa" [label="Gayadāsa" fillcolor="#9aa0a6" shape=ellipse];
     "hemadri" [label="Hemādri" fillcolor="#9aa0a6" shape=ellipse];
     "jejjata" [label="Jejjaṭa" fillcolor="#9aa0a6" shape=ellipse];
     "makkhali-gosala" [label="Makkhali Gosāla" fillcolor="#9aa0a6" shape=ellipse];
@@ -819,6 +820,7 @@ digraph ancient_texts {
   "cynicism" -> "tapas" [style=dashed color="#00993366"];
   "cynicism" -> "tapas" [style=dotted color="#cc000099"];
   "dalhana" -> "sushruta" [style=dashed color="#cc660066"];
+  "dalhana" -> "gayadasa" [style=dashed color="#cc660066"];
   "dalhana" -> "jejjata" [style=dashed color="#cc660066"];
   "dalhana" -> "cakrapanidatta" [style=dashed color="#cc660066"];
   "dalhana" -> "ayurveda" [style=solid color="#55555533"];
@@ -999,6 +1001,9 @@ digraph ancient_texts {
   "gautama-aksapada" -> "nyaya-sutra" [style=solid color="#55555533"];
   "gautama-aksapada" -> "kapila" [style=dashed color="#00993366"];
   "gautama-aksapada" -> "kanada" [style=dashed color="#00993366"];
+  "gayadasa" -> "sushruta" [style=dashed color="#cc660066"];
+  "gayadasa" -> "ayurveda" [style=solid color="#55555533"];
+  "gayadasa" -> "jejjata" [style=dashed color="#00993366"];
   "gita" -> "mahabharata" [style=solid color="#33333333"];
   "gita" -> "vyasa" [style=dashed color="#0066cc66"];
   "gita" -> "brahma-sutra" [style=dashed color="#0066cc66"];

@@ -47,7 +47,7 @@ atman-vedanta	Vedanta	converged	medium	27	आत्मन् (वेदान्
 atri	Hindu (Vedic → epic/Purāṇic)	contested	medium	9	अत्रि
 avadhi-jnana	Jain	converged	medium	8	अवधिज्ञान
 avatara-vedanta	Vedanta	converged	medium	35	अवतार
-ayurveda	Hindu (Vedic-derived medical/scientific tradition)	converged	medium	16	आयुर्वेद
+ayurveda	Hindu (Vedic-derived medical/scientific tradition)	converged	medium	17	आयुर्वेद
 badarayana	Vedānta (Uttara-Mīmāṃsā)	contested	medium	4	बादरायण
 balarama	Hindu (Vaiṣṇava) — and Jain (as Baladeva, a śalākāpuruṣa)	contested	medium	12	बलराम
 bali	Hindu (Vaiṣṇava / Puranic; Kerala regional/devotional)	contested	medium	6	बलि
@@ -69,7 +69,7 @@ citsukha	Advaita Vedānta (post-Śaṅkara dialectic)	converged	medium	11	चि
 citta	Buddhist (primary); Sāṃkhya-Yoga (distinct usage)	converged	medium	12	चित्त
 citta-vritti	Hindu (Sāṃkhya-Yoga)	converged	medium	10	चित्तवृत्ति
 cynicism	Greek (Hellenistic; Socratic school)	converged	medium	7	
-dalhana	Hindu (Āyurveda; surgical/Śalyatantra commentarial tradition)	converged	medium	13	डल्हण
+dalhana	Hindu (Āyurveda; surgical/Śalyatantra commentarial tradition)	converged	medium	14	डल्हण
 damascius	Greek (late Neoplatonism, Athenian school)	converged	high	8	
 dana	cross-tradition (Jain, Buddhist, Hindu)	converged	medium	12	दान
 democritus-atom	Greek	converged	medium	14	(no Sanskrit equivalent)
@@ -100,6 +100,7 @@ ganesha	Hindu (Gāṇapatya; Śaiva; pan-Hindu Purāṇic)	converged	medium	7	�
 garuda	Hindu (Vaiṣṇava); also Buddhist & Jain	converged	medium	9	गरुड
 gaudapada	Advaita Vedānta (pre-Śaṅkara)	contested	medium	10	
 gautama-aksapada	Nyāya (āstika darśana — founder)	converged	medium	6	अक्षपाद गौतम
+gayadasa	Āyurveda (Suśruta commentarial tradition)	converged	medium	4	गयादास
 gita	Hindu (Vedānta; cross-school)	contested	medium	24	भगवद्गीता
 govinda-bhagavatpada	Advaita Vedānta (traditional lineage); Raseśvara (contested attribution)	contested	low	11	गोविन्द भगवत्पाद
 guna-samkhya	Samkhya	converged	medium	11	गुण (साङ्ख्य)
@@ -118,7 +119,7 @@ iryapathika-asrava	Jain	converged	medium	10	ईर्यापथिक-आस�
 jaimini	Mīmāṃsā (Pūrva-Mīmāṃsā)	converged	medium	3	जैमिनि
 jatayu	Hindu (Rāmāyaṇa / epic)	converged	medium	5	जटायु
 jati	Nyāya-Vaiśeṣika	converged	medium	7	जाति
-jejjata	Āyurveda (the earliest commentarial layer; Caraka and Suśruta)	contested	medium	7	जेज्जट
+jejjata	Āyurveda (the earliest commentarial layer; Caraka and Suśruta)	contested	medium	8	जेज्जट
 jina	Jain	converged	medium	12	जिन
 jiva	Jain	converged	medium	32	जीव
 jivanmukti	Hindu (Advaita Vedānta; also Yoga; pan-Indic comparandum)	converged	medium	13	जीवन्मुक्ति
@@ -294,7 +295,7 @@ stoicism	Greek (Stoic; Hellenistic)	converged	medium	13	(no Sanskrit equivalent)
 sunyata	Buddhist	converged	medium	28	शून्यता
 sureshvara	Advaita Vedānta (Vārttika-prasthāna)	converged	medium	10	सुरेश्वर
 surya	Hindu (Vedic origin; later Saura tradition + Smārta Pañcāyatana)	converged	medium	5	सूर्य
-sushruta	Hindu (Āyurveda)	contested	medium	10	सुश्रुत
+sushruta	Hindu (Āyurveda)	contested	medium	11	सुश्रुत
 svarbhanu	Hindu (Vedic → epic/Puranic)	contested	medium	10	स्वर्भानु
 svetambara	Jain	converged	medium	9	श्वेताम्बर
 syadvada	Jain	converged	medium	10	स्याद्वाद
