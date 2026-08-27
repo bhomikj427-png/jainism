@@ -71,6 +71,7 @@ The paper that supplies the three modifications above states its own method plai
 ## Links
 
 - historically-influenced-by: sushruta | the *Nibandhasaṅgraha* is the Suśruta commentary — and the only one to survive complete, so the surgical corpus reaches the present largely inside his reading of it
+- historically-influenced-by: jejjata | one of the commentators the *Nibandhasaṅgraha* absorbs — and the earliest: Jejjaṭa's Suśruta commentary, "the oldest known," survives essentially **only** in quotation here and in Candraṭa. This edge closes a hole this file recorded as open (“no source consulted names *which* earlier commentators the *Nibandhasaṅgraha* preserves”)
 - historically-influenced-by: cakrapanidatta | he **quotes** Cakrapāṇi, which is the *terminus post quem* of his date-bracket; the Caraka commentator is one generation of authority behind the Suśruta commentator
 - expressed-by: ayurveda | the surgical branch's authoritative commentator, and the one who decides what *śalyatantra*'s object is
 - formalizes: dhatu | the three-part *pariṇāma* — *sūkṣmabhāga* / *malabhāga* / *sthūlabhāga* — that makes transformation **partial** and answers the fasting objection against *kṣīra-dadhi*

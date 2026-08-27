@@ -31,7 +31,7 @@ all return zero). Worked in this order — most-connected first, the speculative
 | 6 | `sivadvaita` | the school itself, currently visible only through `appayya-dikshita` | **done** (converged/medium) |
 | 7 | `arunadatta` | the *Sarvāṅgasundarā* — the one commentator of the three saṃhitās this corpus lacks | **done** (converged/medium) |
 | 8 | `hemadri` | the *Āyurvedarasāyana*; the *terminus ante quem* of Ḍalhaṇa's date | pending |
-| 9 | `jejjata` | lost Suśruta/Caraka commentator — follow-up 8; **may end `blocked`** | pending |
+| 9 | `jejjata` | lost Suśruta/Caraka commentator — follow-up 8; **may end `blocked`** | **done** (**contested**/medium — NOT blocked; sources found) |
 | 10 | `gayadasa` | the *Nyāyacandrikā* on the Nidānasthāna — follow-up 8; **may end `blocked`** | pending |
 
 **Not in this batch, and not a concept at all:** `dhamma`. The node already exists
