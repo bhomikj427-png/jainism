@@ -181,6 +181,7 @@ digraph ancient_texts {
     "brahman" [label="brahman" fillcolor="#4fd16b" shape=ellipse];
     "cakrapanidatta" [label="Cakrapāṇidatta" fillcolor="#4fd16b" shape=ellipse];
     "charaka" [label="Caraka" fillcolor="#4fd16b" shape=ellipse];
+    "citsukha" [label="Citsukha" fillcolor="#4fd16b" shape=ellipse];
     "dalhana" [label="Ḍalhaṇa" fillcolor="#4fd16b" shape=ellipse];
     "dhanvantari" [label="Dhanvantari" fillcolor="#4fd16b" shape=ellipse];
     "durga" [label="Durgā" fillcolor="#4fd16b" shape=ellipse];
@@ -491,6 +492,7 @@ digraph ancient_texts {
   "amalananda" -> "brahma-sutra" [style=dashed color="#cc660066"];
   "amalananda" -> "padmapada" [style=dashed color="#cc660066"];
   "amalananda" -> "advaita-vedanta" [style=solid color="#55555533"];
+  "amalananda" -> "citsukha" [style=dashed color="#cc660066"];
   "amalananda" -> "prakasatman" [style=dashed color="#00993366"];
   "amalananda" -> "sarvajnatman" [style=dashed color="#0066cc66"];
   "amalananda" -> "appayya-dikshita" [style=solid color="#55555533"];
@@ -774,6 +776,15 @@ digraph ancient_texts {
   "charitra" -> "acarya" [style=solid color="#55555533"];
   "charitra" -> "pramana" [style=dashed color="#0066cc66"];
   "charitra" -> "samyak-darshana" [style=dashed color="#0066cc66"];
+  "citsukha" -> "shankara" [style=dashed color="#cc660066"];
+  "citsukha" -> "mandana-mishra" [style=dashed color="#cc660066"];
+  "citsukha" -> "sureshvara" [style=dashed color="#cc660066"];
+  "citsukha" -> "advaita-vedanta" [style=solid color="#55555533"];
+  "citsukha" -> "madhyamaka" [style=dashed color="#00993366"];
+  "citsukha" -> "madhyamaka" [style=dotted color="#cc000099"];
+  "citsukha" -> "prasanga-nagarjuna" [style=dashed color="#00993366"];
+  "citsukha" -> "prakasatman" [style=dashed color="#0066cc66"];
+  "citsukha" -> "nyaya-sutra" [style=dashed color="#0066cc66"];
   "citta-vritti" -> "citta" [style=dotted color="#cc000099"];
   "citta-vritti" -> "guna-samkhya" [style=solid color="#33333333"];
   "citta-vritti" -> "purusha-samkhya" [style=solid color="#33333333"];

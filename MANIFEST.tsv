@@ -5,7 +5,7 @@ abhinavagupta	Hindu (Kashmir Śaivism — Trika); Sanskrit aesthetics	contested	
 academic-skepticism	Greek (Middle and New Academy; Arcesilaus, Carneades)	converged	medium	8	
 acarya	Jain	converged	medium	10	आचार्य
 adharma-dravya	Jain	converged	medium	7	अधर्मास्तिकाय
-advaita-vedanta	Vedānta (Advaita; āstika darśana)	converged	medium	37	अद्वैत वेदान्त
+advaita-vedanta	Vedānta (Advaita; āstika darśana)	converged	medium	38	अद्वैत वेदान्त
 aghati-karma	Jain	converged	medium	9	अघाति-कर्म
 agni	Vedic / Hindu	converged	medium	14	अग्नि
 agni-ayurveda	Āyurveda	converged	medium	11	अग्नि
@@ -18,7 +18,7 @@ ajiva	Jain	converged	medium	10	अजीव
 ajivika	Ājīvika (śramaṇa)	converged	medium	7	आजीविक
 akasha-dravya	Jain	converged	medium	10	आकाशास्तिकाय
 alaya-vijnana	Buddhist (Yogācāra)	converged	medium	15	आलयविज्ञान
-amalananda	Advaita Vedānta (Bhāmatī-prasthāna; with a Vivaraṇa-side work)	converged	medium	11	
+amalananda	Advaita Vedānta (Bhāmatī-prasthāna; with a Vivaraṇa-side work)	converged	medium	12	
 ammonius-saccas	Neoplatonism (Greek; Alexandrian)	blocked	low	3	
 amrita	Hindu (Vedic → epic/Purāṇic); reused in Buddhism	converged	medium	6	अमृत
 anatta-buddhist	Buddhist	contested	medium	19	अनात्मन् (Pali: anattā)
@@ -64,6 +64,7 @@ catuskoti	Buddhist	converged	medium	20	चतुष्कोटि
 chaldean-oracles	Greek / Late Antique (2nd-c. theurgic scripture; foundational text for later Neoplatonic theurgy)	converged	medium	6	
 charaka	Hindu (Āyurveda)	contested	medium	13	चरक
 charitra	Jain	converged	medium	27	चारित्र
+citsukha	Advaita Vedānta (post-Śaṅkara dialectic)	converged	medium	10	चित्सुख
 citta	Buddhist (primary); Sāṃkhya-Yoga (distinct usage)	converged	medium	12	चित्त
 citta-vritti	Hindu (Sāṃkhya-Yoga)	converged	medium	10	चित्तवृत्ति
 cynicism	Greek (Hellenistic; Socratic school)	converged	medium	7	
@@ -150,7 +151,7 @@ leshya	Jain	converged	medium	7	लेश्या
 liber-de-causis	Arabic Neoplatonism → Latin scholasticism	converged	high	5	
 lingam	Hindu (Śaiva; Śākta; Liṅgāyat — Vīra Śaiva)	converged	medium	8	लिंग
 loka-jain	Jain	converged	medium	12	लोक (जैन)
-madhyamaka	Buddhist (Mahāyāna)	converged	medium	30	मध्यमक
+madhyamaka	Buddhist (Mahāyāna)	converged	medium	32	मध्यमक
 madhyasthya	Jain	converged	medium	11	माध्यस्थ्य
 mahabharata	Hindu (Itihāsa / Smṛti)	converged	medium	15	महाभारत
 mahavira	Jain	converged	medium	14	महावीर
@@ -160,7 +161,7 @@ mala	Āyurveda	converged	medium	10	मल
 mallisena	Jain (Śvetāmbara; 13th-century)	converged	medium	7	
 manah-paryaya-jnana	Jain	converged	medium	8	मनःपर्यायज्ञान
 manas	cross-tradition (Jain, Buddhist, Sāṃkhya, Nyāya-Vaiśeṣika)	converged	medium	8	मनस्
-mandana-mishra	Mīmāṃsā → Advaita Vedānta	contested	medium	10	मण्डन मिश्र
+mandana-mishra	Mīmāṃsā → Advaita Vedānta	contested	medium	11	मण्डन मिश्र
 many-valued-logic	Western (mathematical logic / philosophy of logic)	converged	medium	11	(no Sanskrit equivalent)
 marinus	Greek / Late Antique (Athenian Neoplatonist)	converged	medium	6	
 mati-jnana	Jain	converged	medium	7	मतिज्ञान
@@ -192,7 +193,7 @@ nirvana-buddhist	Buddhist	converged	medium	27	निर्वाण (Pali: nibb�
 nirvana-mahayana	Buddhist (Mahāyāna)	converged	medium	9	अप्रतिष्ठितनिर्वाण
 nishchaya-vyavahara	Jain	contested	medium	10	निश्चय-व्यवहार
 nous	Greek (esp. Neoplatonist — the second hypostasis)	converged	medium	6	
-nyaya-sutra	Nyāya (āstika darśana)	converged	medium	18	न्यायसूत्र
+nyaya-sutra	Nyāya (āstika darśana)	converged	medium	19	न्यायसूत्र
 omniscience-vedanta	Vedanta	converged	medium	7	सर्वज्ञत्व (वेदान्त)
 padmapada	Advaita Vedānta (Vivaraṇa-prasthāna)	converged	medium	9	
 pancha-mahabhuta	cross-tradition (Sāṃkhya, Vaiśeṣika, Āyurveda; Buddhist parallel with 4 elements)	converged	medium	14	पञ्चमहाभूत
@@ -219,14 +220,14 @@ porphyry	Greek / Late Antique (Neoplatonist)	converged	medium	6
 prabhakara	Mīmāṃsā (Prābhākara/Guru sub-school; āstika darśana)	converged	medium	6	प्रभाकर
 prahlada	Hindu (Vaiṣṇava; epic/Purāṇic)	converged	medium	12	प्रह्लाद
 prajnakaragupta	Buddhist (pramāṇa / logico-epistemological school)	converged	medium	11	प्रज्ञाकरगुप्त
-prakasatman	Advaita Vedānta (Vivaraṇa-prasthāna)	contested	medium	16	प्रकाशात्मन्
+prakasatman	Advaita Vedānta (Vivaraṇa-prasthāna)	contested	medium	17	प्रकाशात्मन्
 prakriti-samkhya	Samkhya	converged	medium	28	प्रकृति (साङ्ख्य)
 pramana	Jain	converged	medium	23	प्रमाण
 pramana-nyaya	Nyaya-Vaisheshika	converged	medium	31	प्रमाण (न्याय)
 pramana-samuccaya	Buddhist (pramāṇavāda; Yogācāra-leaning)	converged	medium	8	प्रमाणसमुच्चय
 pramanavarttika	Buddhist (pramāṇavāda; Sautrāntika–Yogācāra)	converged	medium	12	प्रमाणवार्त्तिक
 pramoda	Jain	converged	medium	9	प्रमोद
-prasanga-nagarjuna	Buddhist (Madhyamaka / Prāsaṅgika)	converged	medium	18	प्रसङ्ग
+prasanga-nagarjuna	Buddhist (Madhyamaka / Prāsaṅgika)	converged	medium	19	प्रसङ्ग
 prashastapada	Vaiśeṣika	converged	medium	5	प्रशस्तपाद
 prasthanatrayi	Vedānta (all schools; a category-term, not a text)	converged	medium	12	प्रस्थानत्रयी
 pratityasamutpada	Buddhist	converged	medium	31	प्रतीत्यसमुत्पाद (Pali: paṭicca-samuppāda)
@@ -271,7 +272,7 @@ satya	Jain	converged	medium	9	सत्य
 shad-avashyaka	Jain	converged	medium	7	षडावश्यक
 shaivism	Hindu (Śaiva; āstika darśana; tantric and bhakti traditions)	converged	medium	29	शैव
 shakti	Hindu (Śākta; Śaiva — especially Kashmir Śaivism; Tantric traditions)	converged	medium	14	शक्ति
-shankara	Advaita Vedānta (āstika darśana — systematiser)	converged	medium	17	शङ्कर
+shankara	Advaita Vedānta (āstika darśana — systematiser)	converged	medium	18	शङ्कर
 shesha	Hindu (epic / Purāṇic; esp. Vaiṣṇava)	converged	high	7	शेष
 shiva	Hindu (Śaiva; pan-Hindu)	converged	medium	26	शिव
 shruta-jnana	Jain	converged	medium	10	श्रुतज्ञान
@@ -285,7 +286,7 @@ sthitaprajna	Hindu (Vedānta; Bhagavad Gītā)	converged	medium	8	स्थि�
 stoic-logos	Greek (Stoic)	converged	medium	14	
 stoicism	Greek (Stoic; Hellenistic)	converged	medium	13	(no Sanskrit equivalent)
 sunyata	Buddhist	converged	medium	28	शून्यता
-sureshvara	Advaita Vedānta (Vārttika-prasthāna)	converged	medium	9	सुरेश्वर
+sureshvara	Advaita Vedānta (Vārttika-prasthāna)	converged	medium	10	सुरेश्वर
 surya	Hindu (Vedic origin; later Saura tradition + Smārta Pañcāyatana)	converged	medium	5	सूर्य
 sushruta	Hindu (Āyurveda)	contested	medium	9	सुश्रुत
 svarbhanu	Hindu (Vedic → epic/Puranic)	contested	medium	10	स्वर्भानु
