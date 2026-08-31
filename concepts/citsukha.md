@@ -23,7 +23,7 @@ The corpus already holds most of Citsukha's bibliography as **separate nodes**, 
 | *Abhiprāyaprakāśikā* | Maṇḍana's *Brahmasiddhi* | [[mandana-mishra]] |
 | (commentary) | Sureśvara's *Naiṣkarmyasiddhi* | [[sureshvara]] |
 | (commentary) | Śrīharṣa's *Khaṇḍanakhaṇḍakhādya* | [[sriharsa]] — **written Batch 45**; SEP names the commentary the *Khaṇḍanabhāvadīpikā* |
-| (commentary) | Ānandabodha's *Nyāyamakaranda* | — (unwritten) |
+| (commentary) | Ānandabodha's *Nyāyamakaranda* | [[anandabodha]] — **written Batch 45**; Dasgupta names Citsukha among its commentators |
 
 Rows 2 and 3 are the interesting ones. [[sureshvara]] and [[mandana-mishra]] are joined in this corpus by an `often-conflated-with-NOT-equivalent` edge, drawn precisely because **their stated doctrines oppose**: avidyā located in Brahman for Sureśvara, in the jīva for Maṇḍana; knowledge directly liberating versus meditation required. The corpus keeps them apart on purpose, so that the traditional legend identifying the two men is *taught* rather than assumed.
 
@@ -73,6 +73,7 @@ This is the single most valuable datum on the node, because it is the **traditio
 
 ## Links
 
+- historically-influenced-by: anandabodha | he commented on the *Nyāyamakaranda*, and Dasgupta's "most of Ānandabodha's arguments were borrowed by the later writers of the Vedānta school" names the arsenal Citsukha inherited — the argument against the perceptibility of difference, and avidyā as the neither-real-nor-unreal third thing
 - historically-influenced-by: shankara | the *Bhāṣyabhāvaprakāśikā* glosses the *Brahmasūtrabhāṣya* — Citsukha works on the root commentary as well as on its later defenders
 - historically-influenced-by: mandana-mishra | the *Abhiprāyaprakāśikā* glosses the *Brahmasiddhi*; **and** see the next edge — the same author also glossed the text of the man this corpus keeps doctrinally opposed to Maṇḍana
 - historically-influenced-by: sureshvara | he also commented on the *Naiṣkarmyasiddhi*. Whether the *Abhiprāyaprakāśikā* and this commentary take the same side on the locus of avidyā is **unknown to this corpus** and is the sharpest unread question the node leaves
