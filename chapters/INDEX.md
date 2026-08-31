@@ -54,6 +54,7 @@
 | 34 The Commentator | [cross-tradition/34-the-commentator.md](cross-tradition/34-the-commentator.md) | sarvajñātman · amalānanda · appayya-dīkṣita · cakrapāṇidatta · ḍalhaṇa · hemacandra · raseśvara | drafted |
 | 35 Dating a Literature Without Dates: The Āyurvedic Commentators | [hindu/shastra/35-dating-a-literature-without-dates.md](hindu/shastra/35-dating-a-literature-without-dates.md) | haricandra · jejjaṭa · gayadāsa · candraṭa · aruṇadatta · hemādri · indu | drafted |
 | 36 Founders and the Lineages That Made Them | [hindu/darsana/36-founders-and-their-lineages.md](hindu/darsana/36-founders-and-their-lineages.md) | nāthamuni · yāmunācārya · rāmānuja · madhva · śrīkaṇṭha · śivādvaita | drafted |
+| 37 The Dialecticians: What Refutation Is For | [cross-tradition/37-the-dialecticians.md](cross-tradition/37-the-dialecticians.md) | udayana · śrīharṣa · ānandabodha · citsukha · nṛsiṃhāśrama · malliṣeṇa · vyāsatīrtha · madhusūdana-sarasvatī | drafted |
 
 ---
 
