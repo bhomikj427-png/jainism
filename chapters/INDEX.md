@@ -52,6 +52,7 @@
 | 32 What Survives Omniscience | [jain/32-what-survives-omniscience.md](jain/32-what-survives-omniscience.md) | aghāti-karma · īryāpathika-āsrava | drafted |
 | 33 The Asura Question | [cross-tradition/33-the-asura-question.md](cross-tradition/33-the-asura-question.md) | varuṇa · vṛtra · verethragna · prahlāda · balarāma · hiraṇyakaśipu (§5.3.1–2) · ahura-mazdā (§4.1) | drafted |
 | 34 The Commentator | [cross-tradition/34-the-commentator.md](cross-tradition/34-the-commentator.md) | sarvajñātman · amalānanda · appayya-dīkṣita · cakrapāṇidatta · ḍalhaṇa · hemacandra · raseśvara | drafted |
+| 35 Dating a Literature Without Dates: The Āyurvedic Commentators | [hindu/shastra/35-dating-a-literature-without-dates.md](hindu/shastra/35-dating-a-literature-without-dates.md) | haricandra · jejjaṭa · gayadāsa · candraṭa · aruṇadatta · hemādri · indu | drafted |
 
 ---
 
