@@ -31,7 +31,9 @@ Sources give **918–1038** (Wikipedia), **918–1036**, and **916–1041**. All
 
 ⚠ **918–1038 is exactly 120 years.** So is the traditional dating of Rāmānuja — **1017–1137** — already flagged in `ramanuja.md` as "a schematic number, not an observation." **Two consecutive ācāryas of one lineage, each assigned precisely 120 years**, is not plausibly two independent observations; 120 years is the conventional ideal full human span. This file therefore treats the *precision* of these dates as **hagiographical convention**, while accepting the **10th–11th century** placement, which is independently constrained by his grandfather Nāthamuni and by Rāmānuja after him.
 
-This is not a new argument — it is Sydnor's argument about Rāmānuja, applied one generation earlier, and it **strengthens** his case: a lineage that hands out 120-year lifespans is not a lineage keeping records.
+⚠ **Strengthened later in the same batch.** Writing [[nathamuni]] added the third data point and turned the observation into a pattern: Nāthamuni is conventionally **823–951 — 128 years**, with an alternative dating of 582–922 that Wikipedia itself calls implausible at "400+ years." A further source gives Yāmuna as **917–1042**, a fourth span (125 years). **All three ācāryas of the *munitraya*, consecutively, are assigned lifespans no human reaches.** That is a convention, not three observations.
+
+This is not a new argument — it is Sydnor's argument about Rāmānuja, applied to the whole lineage, and it **strengthens** his case: a lineage that hands out 120-year lifespans is not a lineage keeping records.
 
 ### The works
 
@@ -80,7 +82,7 @@ Quoted alone, it makes a 10th-century Vaiṣṇava sound like a critic of caste;
 
 ## Links
 
-- historically-influenced-by: nathamuni | his grandfather, from whom he received the leadership of the maṭha — and who compiled the Āḻvārs' hymns, so that the Tamil devotional corpus enters the Sanskrit philosophical lineage one generation above Yāmuna
+- historically-influenced-by: nathamuni | his grandfather, from whom he received the leadership of the maṭha — and who compiled the Āḻvārs' hymns, so that the Tamil devotional corpus enters the Sanskrit philosophical lineage one generation above Yāmuna. The *Nyāyatattva* fragments show Yāmuna quoting him, which is part of how that lost work is being reconstructed
 - expressed-by: vishishtadvaita | the earliest surviving philosophical statement of the position Rāmānuja later systematised — the *Siddhitraya* argues the finite self, God and cognition separately, which is the school's three-reals structure before it had a name
 - historically-influenced-by: gita | the *Gītārthasaṅgraha* summarises it in 32 verses; `gita.md` already carries the three-hexad division under his name, written before this node existed
 - shares-vocabulary-with: mimamsa-pramana | the *Āgamaprāmāṇya* is an argument **conducted on Mīmāṃsā's own ground**: it accepts the *śabda*-pramāṇa framework and the apauruṣeya criterion, then denies that Pāñcarātra falls outside them — the vocabulary is the opponent's
