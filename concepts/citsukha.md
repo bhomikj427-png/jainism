@@ -22,7 +22,7 @@ The corpus already holds most of Citsukha's bibliography as **separate nodes**, 
 | *Bhāṣyabhāvaprakāśikā* | Śaṅkara's *Brahmasūtrabhāṣya* | [[shankara]] |
 | *Abhiprāyaprakāśikā* | Maṇḍana's *Brahmasiddhi* | [[mandana-mishra]] |
 | (commentary) | Sureśvara's *Naiṣkarmyasiddhi* | [[sureshvara]] |
-| (commentary) | Śrīharṣa's *Khaṇḍanakhaṇḍakhādya* | — (unwritten) |
+| (commentary) | Śrīharṣa's *Khaṇḍanakhaṇḍakhādya* | [[sriharsa]] — **written Batch 45**; SEP names the commentary the *Khaṇḍanabhāvadīpikā* |
 | (commentary) | Ānandabodha's *Nyāyamakaranda* | — (unwritten) |
 
 Rows 2 and 3 are the interesting ones. [[sureshvara]] and [[mandana-mishra]] are joined in this corpus by an `often-conflated-with-NOT-equivalent` edge, drawn precisely because **their stated doctrines oppose**: avidyā located in Brahman for Sureśvara, in the jīva for Maṇḍana; knowledge directly liberating versus meditation required. The corpus keeps them apart on purpose, so that the traditional legend identifying the two men is *taught* rather than assumed.
@@ -60,6 +60,8 @@ This is the single most valuable datum on the node, because it is the **traditio
 5. **Provenance** — **Aufrecht's *Catalogus Catalogorum*** is a 19th-century critical manuscript catalogue and the strongest provenance available here. It independently confirms the full lineage chain — "pupil of Gauḍeśvarācārya, guru of Sukhaprakāśa Muni" — that [[amalananda]] had to assemble from three reference pages. This is a **corpus-level result**: a genealogy pieced together from institutional web pages in Batch 43 is now corroborated from a manuscript catalogue, and the Amalānanda ← Sukhaprakāśa ← Citsukha chain no longer rests on the weaker layer.
 
 **CONVERGED** on date (c. 1220), teacher, pupil, principal work and its double function. Confidence **medium**, not high, for reasons this node states rather than hides: **no work of Citsukha's was read** — every doctrinal statement here is a report of a report, including the two definitions, which reach this file through Dasgupta's paraphrase and not from the *Citsukhī*; the commentary list differs between sources; and one source contradicts itself on the century.
+
+⚠ **Corroborated Batch 45, from a genuinely independent direction.** Dasgupta (1932) is quoted above saying Citsukha "had all Śrīharṣa's powers of acute dialectical thought" but went further by *defining* rather than only refuting. Nilanjan Das, *SEP* "Śrīharṣa" (2018) — a different author, 86 years later, writing about [[sriharsa|Śrīharṣa]] rather than about Citsukha — independently records that Citsukha "developed arguments from this work further" in the *Tattvapradīpikā*, and names his commentary on the *Khaṇḍana* as the *Khaṇḍanabhāvadīpikā*. **Two independent sources agreeing on both the dependence and its direction** — a 1932 history and a 2018 encyclopedia entry, neither derivable from the other. The Śrīharṣa → Citsukha dependence is now the best-attested claim in this file.
 
 ## Sources
 

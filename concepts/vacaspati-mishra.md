@@ -81,6 +81,8 @@ Tradition explains the title *Bhāmatī* as his wife's name — the story being 
 - "Vedanta, Advaita," *Internet Encyclopedia of Philosophy*, https://iep.utm.edu/advaita-vedanta/ — **peer-reviewed reference** (distilled into [[padmapada]], Batch 41): Vācaspati Miśra 9th c.; jīva as locus *and* object of avidyā; *tulāvidyā*'s veiling and projecting.
 - **Identified but not read (named upgrade path):** the *Bhāmatī* itself (S. S. Suryanarayana Sastri & C. Kunhan Raja, *The Bhāmatī of Vācaspati on Śaṅkara's Brahmasūtrabhāṣya, Catuḥsūtrī*, Theosophical Publishing House 1933); Ganganatha Jha's *Tattvakaumudī* translation; P. S. Roodurmun, *Bhāmatī and Vivaraṇa Schools of Advaita Vedānta*.
 
+⚠ **Name collision, logged Batch 45 — there are two Vācaspati Miśras.** SEP's list of Naiyāyikas who wrote refutatory commentaries on [[sriharsa|Śrīharṣa]]'s *Khaṇḍanakhaṇḍakhādya* includes a **Vācaspati Miśra II** of Mithilā, working after Gaṅgeśa's reconstruction of Nyāya — i.e. roughly the 15th century, some five hundred years after the *Bhāmatī* author this file describes. Same name, same region, the same Maithil Brahmin milieu, adjacent disciplines: an unusually easy conflation, and one that would silently backdate Navya-Nyāya material into the 9th–10th century. **This node is Vācaspati Miśra I only.** Any future *Khaṇḍana*-commentary material belongs to a separate key, not here.
+
 ## Links
 
 - historically-influenced-by: shankara | the *Bhāmatī* is a gloss on Śaṅkara's *Brahmasūtra-bhāṣya*; "at least one generation younger than Ādi Śaṅkara"
