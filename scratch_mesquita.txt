@@ -1,0 +1,505 @@
+madhva’s unknown sources: a review
+Shrisha Rao ∗ B. N. K. Sharma
+(Asiatische Studien L VII, 1, 2003. pp. 181–194)
+1 Introduction
+The present paper attempts to give an academic response to Roque
+Mesquita’s study, Madhva’s Unknown Literary Sources: Some Observations .1
+Reviews of the original German version of the above-mentioned text have
+appeared in various academic journals (some are brieﬂy cited on the book
+jacket itself). Although well-intentioned in their assessments, they miss se-
+rious problems in the text reviewed, which we would like to point out here.
+Upon an investigation of Madhva’s unknown sources, Mesquita concludes
+that Madhva himself is the author of them, and that “we should assume that
+all the unknown sources of Madhva are not ‘ﬁnished products’, but merely
+‘work-titles’, which Madhva employs as a loop (sic) to hang up his literary
+compositions” (p. 175). Madhva commits the fraud in honesty, for he “is
+sincerely and ﬁrmly convinced that he was acting on the command of Vis .n. u”
+(p. 176). Mesquita has a detailed discussion (pp. 35–62) of the avat¯ ara
+doctrine of Madhva, and indicates how Madhva’s claim of being the third
+incarnation of V¯ ayu, a god he describes as close to Vis.n. u, is pertinent in this
+regard (pp. 63–87).
+Mesquita’s monograph upon the subject of Madhva’s unknown sources is
+a welcome foray into the subject, just touched upon by previous authors
+like Suzanne Siauve (Doctrine de Madhva, Pondicherry, 1968), and B.N.K.
+∗Corresponding author.
+1
+Sharma (History of the Dvaita School of Vedanta, 3d. ed., Motilal Banarsi-
+dass, 2000). It however makes factual errors of a type not generally expected
+in mature scholarship, and is thus suspect in its core assessments.
+The chief diﬃculty with Mesquita’s work is that his research is monumen-
+tally incomplete, so he presents a distorted picture that does little to cause
+faith in his conclusions. Mesquita is genuinely unfamiliar with the spread
+of the Vedic corpora, and in a rush to judgement labels Madhva the author
+of rare Vedic (and some post-Vedic) sources for which we have collateral
+evidence other than Madhva’s own word; in fact, in a few cases, we even
+have evidence of their present-day or recent availability. This evidence for
+the existence of many of Madhva’s sources that Mesquita carelessly labels
+“ﬁctitious” is damaging to his credibility, to say the least, since it is always a
+given that a conclusion is no more sound than the facts upon which it rests.
+It is well beyond the scope of the present paper to discuss the question of
+the unknown sources in full detail, but here we simply highlight evidences for
+a few of the “ﬁctitious” sources (with an emphasis on the ´Sruti sources, which
+are thoroughly researched), and also point out other errors in the claims
+Mesquita presents as facts. We intend the following solely as a template for
+further thorough research, rather than as an exhaustive resource in itself. 2
+One improvement in the English version over the original German text
+is the availability of indices, so that names, “ﬁctitious” titles, etc., may be
+readily cross-referenced with the pertinent pages in the book. Taking this
+into account, we do not necessarily cite every instance where an unknown
+source is discussed by Mesquita.
+2 Some “ﬁctitious” sources
+Mesquita (pp. 30–31) cites with apparent approval the list of unfamiliar
+sources from Madhva’s BSBh. objected to by Appayyad ¯ ıks.ita (17th cent.),
+and proceeds to assume without veriﬁcation that all of them, as well as
+others like them, must indeed be unknown. This amounts to putting too
+much faith in a medieval traditionalist’s claims, a rather odd thing for a
+modern scholar to do. Mesquita also is apparently unaware of the reply
+2
+to Appayyad ¯ ıks.ita by his M¯ adhva contemporaries Vijay ¯ ındra T ¯ ırtha3 and
+N¯ ar¯ ayan. ¯ ac¯ arya,4 whom he completely fails even to mention. The work of
+Vijay ¯ ındra has been published.5
+Here are some “ﬁctitious” sources of Madhva, and independent evidences
+of their reality—
+2.1 Pain . gi-´Sruti
+In footnote 49 on page 39, and elsewhere, Mesquita calls a ´Sruti text of
+Madhva with the label Pain. gi unknown, following Appayyad ¯ ıks.ita. In fact:
+1. In the K¯ a´ sik¯ acommentary6 (pp. 192–193) on P¯ an . in ¯ ı’s As.t.¯ adhy¯ ay ¯ ı
+4.3.105, we ﬁnd the statement kalpes. u pain. g ¯ ı kalpah. , showing that
+this was an important recension with its own Kalpa-s¯ utra. Patanjali’s
+Mah¯ abh¯ as.ya on 4.2.66 also refers to the same, and indicates that said
+Kalpa-s¯ utra was actually available to him:evamapi pain. g ¯ ıkalpah. atr¯ api
+pr¯ apnoti.
+2. A manuscript of a Pain . g¯ ayani Br¯ ahman. a is reported by Oppert 7 (p.
+22, no. 390) to have been in the possession of one Venkatar¯ ama ´Srauti
+of Mullandram. Also see pages 454, 557, and 582, where Oppert notes
+other manuscripts. Therefore, in all, Oppert reports a total of four
+manuscripts, although there do not seem to be more recent reports of
+them (a matter unfortunately not helped by the fact that Oppert’s cat-
+alog does not give any accurate contact information on his informants).
+3. Pain. gi Gr.hya (further evidence of a robust recension) is quoted by
+these8 (pp. 187, et seq.) traditional commentators—Haradatta
+on ¯Apastambha Gr.hya 8.21.9, M¯ askar ¯ ı on Gautama Dharmas¯ utra
+14.6.17; the Pain . gi Dharmas¯ utra is quoted in the Smr. ticandrik¯ a
+(A´ saucakhan. d. a).
+4. Pain. gi is counted as one of the ´S¯ akhas of the R . g Veda by the
+Prapancahr.daya,9 a pre-R¯ am¯ anuja text, in its second chapter (Veda
+Prakaran. a).
+3
+5. Teachers of the Pain. gi clan are quoted in numerous pre-Madhva texts,
+e.g., ´San. kh¯ ayana Br¯ ahman. a 16.9; Patanjali’s S¯ amaved ¯ ıya Nid¯ anas¯ utra
+4.7; Br.had¯ aran. yaka Upanis.ad 6.3.10 (Madhuka Pain. gya is mentioned).
+6. The Pain. g¯ ayani Br¯ ahman. a is twice quoted in the ¯Apastambha ´Srauta-
+s¯ utra (at 5.14.18 and 5.29.4).10
+7. There are literally dozens of citations from Pain . gi, Pain. g¯ ayani, and
+Pain. gala Br¯ ahman. as which have been collected by Satya Shrava, pp.
+45–48,11 and by Ghosh. 12 For brevity, we do not list them all here.
+8. A Pain. gi-´Sruti (having an Upanis.adic ﬂavor) is quoted by Sudarshana
+S¯ ur ¯ ı (a disciple of R¯ am¯ anuja) in his´Srutaprad ¯ ıpik¯ a, as well as in
+the ´Srutaprak¯ a´ sik¯ a in thecatuhs¯ utr ¯ ıportions. These are the same as
+that quoted by ´San. kar¯ ac¯ arya in his own commentary13 on the Brahma
+S¯ utras, but SS quotes a few more words. Thus, early authors from the
+other two Vedantic streams also cite this source.
+2.2 Bh¯ allaveya-´Sruti
+In footnote 17 on page 21, and elsewhere, Mesquita calls a ´Sruti text of
+Madhva with the label Bh¯ allaveya unknown, also following Appayyad ¯ ıks.ita.
+In fact:
+1. As before, in the K¯ a´ sik¯ acommentary14 on P¯ an. in ¯ ı’s As.t.¯ adhy¯ ay ¯ ı 4.3.105,
+we ﬁnd the statement br¯ ahman. es. u t¯ avat—bh¯ allavinah. , referring to a
+Br¯ ahman. a text of this recension. The commentary Ny¯ asa shows that
+the recension was named after its progenitor Bhallu.
+2. According to Ramanatha Dikshitar, 15 manuscripts of the Bh¯ allavi
+Br¯ ahman. a of the S¯ ama Veda are still said to exist in North India (p.
+207). These need to be traced and published.
+3. The Bh¯ allaveya-´Sruti is also quoted by ´San. kara in his BSBh. (3.3.26)
+and by his disciple Sure´ svara in his Br.hadv¯ artika (2.4.26).
+4
+4. Satya Shrava 16 (pp. 66–68) shows that the following pre-Madhva
+sources all reference the Bh¯ allaveyas: Ven . kat.am¯ adhava (commen-
+tator on several texts of the R . g Veda); Patanjali’s Mah¯ abh¯ as.ya
+on 4.2.66 and 4.3.105 (from this context it is clear that a recen-
+sion of the SV is implied); N¯ arada´ siks .¯ a 1.13; Jaimin ¯ ıya Br¯ ahman. a
+3.125; Jaimin ¯ ıya Upanis.ad Br¯ ahman. a 2.4.7; Upagranthas¯ utra 1.10 of
+K¯ aty¯ ayana; Bh¯ as.ikas¯ utra 3.15 of K¯ aty¯ ayana; T¯ an. d. ya Br¯ ahman. a 2.2.4.
+5. Ghosh 17 gives citations (pp. 110–111) of “this well-known school of
+the S¯ amaveda” from the following: Br .haddevat¯ a 5.21–23 and 5.159,
+Dr¯ ahy¯ ayan. a-´ srauta-s¯ utra 3.4.2, Baudh¯ ayana Dharmas¯ utra 1.2.11–12—
+and also indicates other places where citations may be found.
+2.3 Sauparn . a-´Sruti
+In Madhva’s Vis .n. u-Tattva-Vinirn. aya, one ﬁnds a quote labeled iti
+sauparn. a´ srutih. . This is, Mesquita thinks, a “loop” for one of Madhva’s own
+productions. However, a clue about the origin of this ´Sruti is to be found in
+another of Madhva’s own works, the G ¯ ıt¯ a-T¯ atparya-Nirn. aya 2.25, whence he
+references a quote with the label, iti r. gvede sauparn. a´ s¯ akh¯ ay¯ am. Accordingly:
+1. In the Kashmir Khila Samhit¯ a, the Suparn. a Adhy¯ aya comprises the
+whole of Adhy¯ aya 1 of 11 s¯ uktas (79 mantras in all). However, a
+manuscript of the Suparn . a Adhy¯ aya having an extent of 214 ´ slokas
+(i.e., 214 × 32 syllables) exists in the collection of the Royal Asiatic
+Society of Bengal 18 (p. 240, entry 172).
+2. In addition, there is one more Suparn . a Adhy¯ aya19 translated into En-
+glish.
+3. In her work on the khila texts of the R. g Veda, Bhise 20 discusses some
+Sauparn. a hymns, and translates them as well.
+Our sources indicate that many manuscripts of the Sauparn . a recension of
+the R. g Veda still exist in India; these need to be collated and published.
+5
+2.4 V atsa- ´Sruti
+This is a source objected to as ﬁctitious by Appayyad ¯ ıks .ita, and following
+him, by Mesquita also. In fact:
+1. In the Vis .n. u Pur¯ an. a,21 the recensions of various Vedas are discussed,
+and a guru-´ sis. ya parampar¯ ais described from Paila, one of the direct
+disciples of Vy¯ asa. There (verse 3.4.22), each of the following ﬁve disci-
+ples of Devamitra ´S¯ akalya are mentioned as having received a Samhit¯ a
+each of the R V from their Guru: Mudgala, Galava, Vatsa, ´S¯ aliya,´Si´ sira.
+These all correspond to Vedic recensions only: a ´Si´ sira´ s¯ akh¯ ais known,
+as are the R V Kramap¯ at.ha of B¯ abhravya Galava, and the Mudgala
+Upanis.ad. This is strong collateral evidence for the onetime existence
+of the Vatsa ´ s¯ akh¯ aalso (remnants may still remain).
+2. The Mah¯ abh¯ as.ya of Patanjali 22 at 4.2.104 reads G¯ argakam| V¯ atsakam
+| Maudakam | Paippal¯ adakam ... K¯ al¯ apakam, etc.—the other names on
+the list are of Vedic recensions: Mauda and Paippal¯ ada of A V, K¯ al¯ apaka
+the same as Maitr¯ ayan.¯ ı, G¯ arga of SV—so must ‘Vatsa’ also be.
+3. All the versions of the ancient text Caran . avy¯ uha clearly state23 that
+Vatsa (also called Paun. d. ravatsa) was a school of the V¯ ajasaney ¯ ı Yajur
+Veda.
+4. Hem¯ adri (13th cent.) has quoted the Vatsa Gr .hya.24 Once more, the
+existence of a Gr.hya is strong evidence for the recension.
+5. The Vedavr.ks.a25 mentions a YV ´ s¯ akh¯ anamed Paun. d. ravatsa.
+2.5 Other “ﬁctitious” titles
+For brevity, we mention just in passing some of the other “ﬁctitious” titles
+used by Madhva:
+2.5.1 Udd¯ alaka- ´Sruti
+Udd¯ alaka the son of Arun. i belonged to the Gautama clan 26 (pp. 187–188),
+for which reason he is also called ¯Arun. i. The Prapancahr .daya mentions
+6
+Gautama as a ´ s¯ akh¯ aof the R V (and also of the SV); an “Udd¯ alaka- ´Sruti”
+could come from either source. (Madhva also cites a Gautama- khila in his
+G ¯ ıt¯ a Bh¯ as.ya, 10.41.)
+2.5.2 Indradyumna- ´Sruti
+This is related to the Bh¯ allaveyas, or could even be part of them. For in-
+stance, note the following passage from the K¯ an. va ´Satapatha Br¯ ahman. a27:
+“2.7.1.16 In that matter, Indradyumna Bh¯ allaveya made [use of]
+an anus. t.ubh [verse] as prayer of invitation and a tris. t.ubh [verse] as
+the oﬀering prayer, thinking, “Let me thus enclose on both sides
+(or let me obtain from both).” He fell down from this chariot.
+Having fallen from the chariot, he broke (dislocated) his arm.”
+Mention of an Indradyumna Bh¯ allaveya may also be found elsewhere, e.g.,
+in the Ch¯ andogya Upanis.ad, 5.14.1.
+2.5.3 Agnive´ sya- ´Sruti & Kaun. d. inya-´Sruti
+Agnive´ sya and Kaun. d. inya, the progenitors of the recensions bearing their
+names, are said to have been disciples of V¯ adh¯ ula, which is a full-ﬂedged
+´ s¯ akh¯ anow found in Kerala. The ¯Ananda Samhit¯ a—a Vaikh¯ anasa text, clearly
+mentions the Kalpas of these two ´ s¯ akhas. The Tantrav¯ arttika of Kumarila
+Bhatta (1.3.11) also mentions the Kaun. d. inya Kalpa. The Pravaramanjar ¯ ı of
+Purus.ottama also quotes the Kaun. d. inya ´Srautas¯ utra28 (pp. 237–238).
+At this time, the remnants of the Agnive´ syas may be found in the Tanjore
+region among the Dikshitar ´Saivites. They use the Taittir ¯ ıya YV, and their
+tradition might now be extinct. 29
+2.5.4 Pippal¯ ada- ´S¯ akh¯ a
+An Atharva Veda recension bearing the name is well known (and has been
+published); it, or associated Br¯ ahman. a and such literature, could easily qual-
+ify for the name.
+The Pippal¯ ada school is also alluded to by the Mah¯ abh¯ as.ya of Patanjali
+at 4.2.104 (cited previously) and 4.2.66.
+7
+2.5.5 Vy¯ asa-Smr.ti
+This is not, as Mesquita appears to assume, simply a loose tag applied to
+a mixture of some proportion of Pur¯ an . ic sources as well as Madhva’s own
+secret compositions, but is an independent dharma´ s¯ astratreatise in its own
+name. It is quoted from by ´San. kara under Gaud. ap¯ ada-K¯ arik¯ a 2.31, as well
+as by others in many other places. The editors of the Dharmako´ sa series out
+of Pune (vol. 1, 1937) state that they have tried to reconstruct this and other
+rare Smr.tis from quotations found in various works. P.V. Kane 30 discusses
+this source also.
+We have heard that the complete Vy¯ asa-Smr .ti is part of a collection of
+Smr.ti texts published from Calcutta, but don’t have an exact reference.
+2.5.6 Bhavis .yatparva
+This is a name given to the last part of the Hari-vam . sa; Mesquita (pp. 62,
+fn. 103) adduces no reasons whatsoever for saying that it has “nothing to
+do” with that text. (The mere assertion that a quote is not found there
+is not suﬃcient—see section 3.) Names at a second level (names for parts
+of texts) such as Moks .adharma are used by Madhva. The name can also
+refer to the last Parva of the Mah¯ abh¯ arata itself—see the opening remarks
+of R¯ aghavendra31 (p. 1) in his G ¯ ıt¯ a-Vivr.ti, where he names the eighteen
+Parvas of the Mbh., using this name for the last.
+2.5.7 Mah¯ asam. hit¯ a
+This is a Pancar¯ atra work also known as the Sanatkum¯ ara Sam . hit¯ a. It
+is divided into ﬁve major sections each called a R¯ atra. It has been pub-
+lished.32 Unfortunately, all manuscripts the editors could ﬁnd were muti-
+lated, so the ﬁnal R¯ atracalled Br.haspati-R¯ atra is missing, as are signiﬁcant
+parts of others as well. The colophon, which uses the name Mah¯ a Sam . hit¯ a,
+states that the text contains of the order of 10,000 verses (11,000 according
+to one manuscript) while the published text has of the order of 6000 verses,
+the rest being lost.
+8
+2.5.8 Laks .an. a´ s¯ astra
+An unknown text called a laks. an. a-´ s¯ astraby Madhva is found quoted in his
+MBTN, chapter nine. The fragment from which the verse is quoted is found
+in two manuscripts, and has been published; its editor surmises that it may
+be from the Brahm¯ an. d. a Pur¯ an. a.33
+3 “Fictitious” quotes from known works
+Mesquita notes that he is unable to ﬁnd quotes given by Madhva from certain
+well-known sources, and assumes that this is because Madhva has claimed
+that his quotes come from them in order to impart legitimacy. However, we
+show by a few examples that no such assumption is called for.
+Brieﬂy, we may note that published versions and manuscripts of these
+known sources vary widely, and there is generally no editio cum notis vario-
+rum for one to use.
+3.1 Brahm¯ an. d. a Pur¯ an. a
+This is a source quoted from by Madhva quite a number of times, and always,
+apparently, with the problem that his quotes are not to be found (Mesquita,
+p. 90, fn. 153).
+After a study of the major Pur¯ an. as, Banerji 34 says (p. 25):
+“None of the many verses from the Brahm¯ an . d. a quoted by
+Hem¯ adri (13th cent.) in his Caturvarga-Cint¯ aman . i occurs in
+the extant Brahm¯ an. d. a Pur¯ an. a. This naturally raises the sus-
+picion that the present Pur¯ an. a is, to a great extent, diﬀerent
+from the genuine Brahm¯ an. d. a Pur¯ an. a. The contents of the ex-
+tant Brahm¯ an. d. a Pur¯ an. a [also] do not accord well with what is
+stated [about them] in the Matsya Pur¯ an. a.”
+3.2 Garud . a Pur¯ an. a
+This is another source of Madhva that has a similar problem.
+9
+Even here, Banerji says we have the same diﬃculty 35:
+“The contents of the extant Garud. a do not tally with those men-
+tioned in the Matsya, Skanda, and Agni [Pur¯ an. as]. Not a single
+one of the many verses attributed to the Garud . a by early writ-
+ers like Madhv¯ ac¯ arya, Devanabhat.t.a, Hem¯ adri, M¯ adhav¯ ac¯ arya,
+´S¯ ulap¯ an. i, etc., is found in the present version. These reasons
+warrant the assumption that there was an earlier version of the
+Garud. a.”
+Similar problems exist with other Pur¯ an. as also—refer Banerji. Mesquita
+uses just one published version of each text he refers to, which would cause
+problems even in other cases than Madhva’s quotes, because the published
+texts do vary signiﬁcantly from one another.
+3.3 Mah¯ a Upanis.ad
+This is an extant Upanis .ad quoted from by Madhva (and also R¯ am¯ anuja in
+his BSBh. on 1.1.1), but none of the quotes said by Madhva to have come
+from this source are to be found there.
+In this regard, the editors of the Dharmako´ sa series 36 opine (p. 4), based
+on their reading of the work itself, that the text presently known as Mah¯ a
+Upanis.ad “is collected from the original Mah¯ a Upanis .ad, and the [present]
+text is a quotation from the latter.”
+4 Arguing for the Authorship of Madhva
+Most of the arguments Mesquita oﬀers for the authorship of Madhva are
+predicated upon the incorrect assumption that there indeed is no trace of
+the sources except Madhva’s own word. Given the evidence we have cited
+for the veracity of these sources, his arguments have no basis and may be
+summarily discarded. However, just for illustration, we mention a few speciﬁc
+errors in Mesquita’s analysis.
+10
+The claim of Madhva that certain texts called Tattva-viveka, etc., were
+authored by Vis.n. u or N¯ ar¯ ayan. a comes from the Vais .n. ava doctrine that all
+of the traditional Pancar¯ atra texts were authored by N¯ ar¯ ayan. a:
+pan˜ car¯ atrasya kr. tsnasya vakt¯ a (vett¯ a) n¯ ar¯ ayan. ah. (tu bhagav¯ an) svayam
+(Mbh. 12.337.63, also quoted by Madhva in the second chapter of his
+Mah¯ abh¯ arata-T¯ atparya-Nirn. aya). Whether there were, or are, Pancar¯ atric
+texts named Tattva-nirn. aya, etc., and indeed whether any modern scholar
+would glibly accept the claim that the entire genre of such texts was authored
+by N¯ ar¯ ayan. a are issues to be discussed, of course, but Mesquita is nonetheless
+in error for not having raised them, and for having mis-stated Madhva’s
+position.
+Mesquita claims (pp. 93 et seq.) that Madhva’s commentator Jayat ¯ ırtha
+refers to the unknown source “Brahma Tarka” as a “lost work,” vide his
+statement at ¯ ıtena prabandhena uktam. However, the phrase at ¯ ıta prabandha
+need not necessarily mean “lost text.” It simply means “previous text,”
+where the “previous” is anterior in the ﬂow of discussion, rather than in
+time. Such usage on the part of Jayat ¯ ırtha 37 is seen in his commentary on
+Madhva’s commentary on the ¯I´ s¯ av¯ asya Upanis.ad, verse 15, where he says iti
+at ¯ ıtagranthena uktamin reference to verse 6 of that Upanis .ad itself. Madhva
+gives the extent of the Brahma Tarka as 5000 verses, etc., in verses 74, et seq.,
+of his Anu-Vy¯ akhy¯ ana, in commenting upon which not only does Jayat ¯ ırtha
+not state that a “lost” text is being referred to, but argues for why the
+Brahma Tarka only, rather than the traditional Ny¯ aya and other texts, must
+be accepted by all Ved¯ antins.
+5 Madhva’s Critics and Non-Critics
+Mesquita is very wrong in his impression that Madhva was criticized for his
+unknown sources right from his own time. Even if we accept his suggestion
+that Varadaguru and Venkat.an¯ atha were of Madhva’s own time, 38 the fact
+remains that neither scholar has referenced Madhva, his doctrine, his works,
+or his statements. A random or undirected diatribe about people who use
+unknown sources cannot be correlated with Madhva except by a stretch of
+11
+Mesquita’s ill-founded imagination. The fact remains that the ﬁrst opponent
+to clearly accuse Madhva was Appayyad ¯ ıks.ita, who came three centuries
+later, and it is also highly signiﬁcant that Appayya oﬀers his criticisms on
+his own, with no reference to previous views . It is also signiﬁcant that no fol-
+lower of Madhva upto the time of Vijay ¯ ındra T ¯ ırtha felt the need to respond
+to the charge, as surely would have been done had it been known before
+then. It is not plausible that such a charge made would have been ignored,
+since Jayat ¯ ırtha and others were quick to consider and explain other charges
+against Madhva.
+These issues have already been discussed by Sharma 39 in extenso under the
+rubrics ‘Problem of Sources’ (pp. 87–89) and ‘Problem of Untraceable Texts’
+(pp. 437–438). Although this material must have been easily available to
+him, Mesquita remains unaware, as Sharma notes (p. 632).
+As new evidence, we should note that Vy¯ asar¯ aya (1460-1539), who initiated
+the polemical battle between Dvaita and Advaita with his Ny¯ ay¯ amr.ta, quotes
+some of Madhva’s supposedly “ﬁctitious” sources as authorities in his favor,
+and his opponent Madhus¯ udana Saraswat ¯ ı, who did not even refrain from
+name-calling during the course of his defense of Advaita, makes no charge
+of unknown sources, but instead strives to explain the authorities in his own
+side’s favor.
+For instance, Vy¯ asar¯ aya quotes a line attributed to the Brahma-Tarka
+in the Vis .n. u-tattva-vinirn. aya, in the ﬁrst pariccheda, under the topic
+pratyaks. asya j¯ aty¯ a upakram¯ adiny¯ ayai´ sca pr¯ abalyam.40
+Note particularly the following:
+“pr¯ abalyam¯ agamasyaiva j¯ aty¯ a tes. u tris. u smr. tam” iti tu
+vaidik¯ arthavis. ayam |
+In response, 41 the Advaitasiddhi says:
+tadagr. h ¯ ıtagr¯ ahitvamapi na pr¯ abalye prayojakam ...
+—and speciﬁcally concludes with:
+pratyuta ¯ agamasyaiva sarvatah. pr¯ abalyam. sm¯ aryate
+—“pr¯ abalyam¯ agamasyaiva j¯ aty¯ a tes. u tris. u smr. tam” iti |
+12
+na ca tad ‘vaidik¯ arthavis. ayam’ iti v¯ acyam. ,
+advaitasy¯ api vaidik¯ arthavis. ayatv¯ at∥
+Similarly, the Ny¯ ay¯ amr.ta quotes 42 a verse attributed to the Parama- ´Sruti
+in the Vis.n. u-tattva-vinirn. aya:
+“ahamityeva yo vedyah. sa j ¯ ıva iti k ¯ ırtitah. |
+sa duh. kh ¯ ı sa sukh ¯ ı caiva sa p¯ atram. bandhamoks. ayoh. ∥”
+iti ´ srutau moks. ¯ anvayokte´ sca|
+The Advaitasiddhi response is seen to accept the validity of the quote
+oﬀered.43
+As such, the conclusions are that the question of unknown sources never
+ﬁgured in the Ny¯ ay¯ amr.ta-Advaitasiddhi debate, the locus classicus for the
+criticism—and defense—of Madhva, and that criticism of his sources was
+not uniformly made from his time on, unlike the impression conveyed by
+Mesquita.
+6 Conclusion
+The bogey of unknown and untraceable quotations was raised against Mad-
+hva by disgruntled critics like Appayyad ¯ ıks.ita for the ﬁrst time centuries after
+Madhva, and was of only a nuisance value. Appayyad ¯ ıks.ita never contested
+the Ny¯ ay¯ amr.ta or Candrik¯ a composed near his own time, though he sur-
+vived the demise of their author Vy¯ asat ¯ ırtha by a good 40 years or more.
+He thought it wise to leave it to better men like the far-oﬀ Madhus¯ udana
+Saraswat ¯ ı who never bothered to raise the issue, possibly because they were
+better informed.
+It was in sheer frustration that Appayya turned to target Madhva himself
+somehow and found the topic of the alleged aprasiddha texts a convenient
+weapon with which to discomﬁt and malign the system on minor issues like
+the untraceable texts; or Madhva’s alleged departures from Paninian gram-
+mar, language, and idiom; or his alleged metrical lapses and so forth. The
+attempts had only a nuisance value but even these irrelevant criticisms were
+13
+repulsed then and there by doughty scholars of Dvaita like Vijay ¯ ındra and
+N¯ ar¯ ayan. ¯ ac¯ arya.
+Madhva’s disciple Aks.obhya debated with Vidy¯ aran. ya on tattvamasi in a
+v¯ adaumpired by the great Ved¯ anta De´ sika and was declared the victor. As
+a result, Madhva’s system was given a place in the Sarvadar´ sana San . graha,
+which could not have been done if Madhva’s system had only a cart-load of
+untraceable texts to show in support.
+In the present paper, we have tried to gather pertinent information about
+texts alleged to be creations of Madhva’s own fancy. In the absence (in
+some cases incidental rather than necessary) of access to the actual texts
+themselves, such circumstantial evidence as we have tried to present here
+serves the purpose; even in law, circumstantial evidence is acceptable when
+direct witnesses are not available. Mesquita, and anyone who cares to agree
+with his analysis, would be doing a far better job by investigating matters
+for himself as we have done, rather than by blindly agreeing with Appayya
+and coming up with ludicrous theories based on false premises.
+7 Acknowledgements
+Robert Zydenbos drew our attention to Mesquita’s work, and also to the need
+for a well-researched academic response. Gerald Penn helped us begin our
+work by his partial translation of the German text. A great deal of informa-
+tion regarding Vedic sources was given by Vishal Agarwal; some information
+on other sources was also provided by Krishna Kadiri and Kesava Tadipa-
+tri. Prooﬁng of earlier drafts was undertaken by Arvind Acharya, Kesava
+Tadipatri, Nataraj B. V., and Krishna Kadiri.
+14
+Notes
+1Mesquita, Roque: Madhva’s Unknown Literary Sources: Some Observa-
+tions. Aditya Prakashan, New Delhi, 2000. 197 pp. (Translation of Madhva
+und seine unbekannten literarischen Quellen ). Publications of the De Nobili
+Research Library, Volume XXIV. Wien: University of Vienna, Institute of
+Indology, 1997. 151 pp.
+2The following, which has appeared since the original writing of this pa-
+per, may also be of interest: Sharma, B. N. K., My Latest Four Research Pa-
+pers, available online from http://www.dvaita.net/pdf/papers/four.pdf.
+This booklet contains leads for further research, including the showing that
+some strange source names: M¯ ay¯ avaibhava Sam. hit¯ a, Hayagr ¯ ıva Sam. hit¯ a, etc.,
+used by Madhva, are titles of available Pancar¯ atra texts or fragments.
+3cf. B. N. K. Sharma, “History of the Dvaita School of Ved¯ anta,” 3d. ed.,
+2000, pp. 403–404.
+4ibid., pp. 437–438.
+5Madhvamatamukhabh¯ us.an. a, Gurus¯ arvabhauma Sam. skr.ta Vidy¯ ap ¯ ıt.ha,
+Mantralayam, 1994.
+6‘K¯ a´ sik¯ a—(A Commentary on P¯ an. in ¯ ı’s As.t.¯ adhy¯ ay ¯ ı) of V¯ amana and
+Jay¯ aditya with Ny¯ asa (or K¯ a´ sik¯ a Vivaran. apa˜ njik¯ a) of Jinendrabuddhi and
+Padamanjari of Haradatta Mishra with Bh¯ avabodhin ¯ ı—A Hindi exposition’
+by Dr. Jaya Shankar Lal Tripathi, Vol.5 (Adhyayas 4.2 - 5.1), Tara Book
+Agency, Varanasi, 1988.
+7Gustav Oppert; Lists of Sanskrit Manuscripts in Private Libraries of
+South India; Vol. 2; Govt. Press; Madras; 1885.
+8Datta, Bhagavad and Satya Shrava; Vaidik V¯ a ˙ nmaya k¯ a Itih¯ as, vol. I;
+Pranava Prakashan; Delhi; 1978.
+9Ganapati´ s¯ astr ¯ ı, T; 1915; Prapancahr.daya; Trivandrum Sanskrit Series,
+15
+vol. 45; Trivandrum. Reprinted in 1987 by Yudhishthira Mimamsaka (Ra-
+malal Kapoor Trust, Bahalagarh, district Sonepat).
+10Makoto Fushimi; Br¯ ahman. a passages in ¯Apastambha-´Srautas¯ utra, Elec-
+tronic Journal of Vedic Studies (EJVS) 4-1 (1998) p. 11.
+11Satya Shrava; A Comprehensive History of Vedic Literature—Br¯ ahman. a
+and ¯Aran. yaka Works; Pranava Prakashan; Delhi; 1977.
+12Batakrishna Ghosh; Collection of the Fragments of Lost Br¯ ahman . as,
+1935; reprinted as Panini Vaidika Granthamala 9: Distributors, Meharchand
+Lachhmandas, New Delhi, 1982.
+13The Catuh-S¯ utr ¯ ı Bh¯ a´ sya of Madhv¯ ac¯ arya, B.N.K. Sharma, Madras, 1934.
+14See footnote 4 above.
+15M. Ramanatha Dikshitar: S¯ amas¯ arasarwaswam, Ramayana Printing
+Works, Madras, 1972.
+16See footnote 11 above.
+17See footnote 12 above.
+18Mah¯ amahop¯ adhy¯ aya Hariprasad Shastri; A descriptive catalog of San-
+skrit manuscripts in the Government collection under the care of the Asiatic
+Society of Bengal, Vol. II—Vedic Manuscripts; Asiatic Society of Bengal,
+Calcutta; 1923.
+19Dange, Sadashiv A.; Divine Hymns and Ancient Thought Ritual and the
+Quest for Truth; Navrang; New Delhi; 1995 (vol. II, pp. 292–301).
+20The Khila-S¯ uktas of the R. gveda: A Study, Usha R. Bhise, BORI, Poona,
+1995. Bhandarkar Oriental Series #27.
+21See footnote 8 above.
+22ibid., p. 165.
+16
+23ibid., p. 213.
+24ibid., p. 165.
+25Witzel, Michael; Materielien zu den vedischen Schulen (I. Ueber die
+Caraka-Sakha); Studien zur Indologie und Iranistik, vol. 8/9; 1982/3; pp.
+171–240.
+26See footnote 8 above.
+27Swaminathan, C. R. K¯ an. va´ satapathabr¯ ahman. am, vol. II; Indira Gandhi
+National Center for Arts; New Delhi; 1997. Comprises K¯ an . d. a II and III of
+the text.
+28See footnote 8 above.
+29M. Witzel, personal communication.
+30‘History of Dharma´ s¯ astra (ancient and medieval religious and civil law)’
+by Pandurang Vaman Kane. Bhandarkar Oriental Research Institute, Poona,
+Volume 1, 1930.
+31R¯ aghavendrayatikr.tah. G ¯ ıt¯ arthasan. grahah. (G ¯ ıt¯ avivr.tih. ). Editors
+A. R. Panchamukhi, Raja S. Pavamanacharya. Gurus¯ arvabhauma
+San. skr.tavidy¯ ap ¯ ıt.ha, R¯ aghavendra Sw¯ am ¯ ı Mat.ha, Mantr¯ alaya, 1995.
+32“Sanatkum¯ ara Samhit¯ a of the Pancar¯ atr¯ agama” edited by Pandit V.
+Krishnam¯ ach¯ arya (Foreword by Dr. V. Raghavan). The Adyar Library and
+Research Centre, Madras, 1969.
+33Mah¯ abh¯ aratat¯ atparyanirn. ayah. : ´Sri V¯ adir¯ ajat ¯ ırtha´ sr ¯ ıp¯ adapran.¯ ıtay¯ a
+Bh¯ avapraka´ sik¯ akhyavy¯ akhyay¯ a sametah. , ed. V. Prabhanjanacarya, Sri
+Vyasa Madhwa Seva Pratisthana: supported by Prof. B. Venkateshacharya
+Memorial Trust, Bangalore 1998.
+34Studies in the Mah¯ apur¯ an. as. Sures Chandra Banerji, Punthi Pustak,
+Calcutta, 1991.
+17
+35ibid., p. 30
+36Dharmako´ sa, Upanis.atk¯ an. d. a, vol. 2, part 2, Pune, 1949.
+37See the publication of the ¯I´ s¯ av¯ asya with commentaries available online
+from http://www.dvaita.net (ISBN 0-9703421-2-8).
+38We do not in fact accept this, noting that Mesquita confounds the 17th-
+century Venkatan¯ atha, who was a critic of Madhva, with the 13th-century
+Ved¯ anta De´ sika, who was not. This issue and related ones are discussed at
+length elsewhere; see footnote 2 above.
+39B.N.K. Sharma; see footnote 2.
+40Number 20, page 276, Volume 1, Ny¯ ay¯ amr.ta-Advaitasiddhi with com-
+mentaries. Dvaita Vedanta Studies and Research Foundation, Bangalore,
+1994.
+41ibid., p. 279.
+42DVSRF edition, Vol. 2, Number 33, page 490.
+43ibid., p. 498.
+18
