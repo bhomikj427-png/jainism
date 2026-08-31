@@ -132,6 +132,39 @@ This verse logically implies nibbāna is *not* mere extinction — it is a *posi
 
 *→ concept files: [anatta-buddhist.md](../../concepts/anatta-buddhist.md) · [anicca.md](../../concepts/anicca.md)*
 
+### 3.0 The word underneath both pillars — *dhamma* {#dhamma}
+
+*→ concept file: [dhamma.md](../../concepts/dhamma.md)*
+
+Before either pillar can stand, one word has to be unpacked — and it is **the most polysemous term in the entire Indian philosophical lexicon**. Pali ***dhamma*** and Sanskrit ***dharma*** are etymologically identical (√*dhṛ*, "to hold, support") and their semantic fields then diverge radically.
+
+Pali *dhamma* carries **four** primary senses, not mutually exclusive:
+
+| # | sense | where it lives | gloss |
+|---|---|---|---|
+| 1 | **the Buddha's Teaching** (*pariyatti-dhamma*) | the Nikāyas; the second of the Three Jewels | doctrine + path + enlightenment — *"Dhammaṃ saraṇaṃ gacchāmi"* |
+| 2 | **natural / cosmic law** (*niyāma-dhamma*) | the Dhammapada's opening; [paṭicca-samuppāda](#paticcasamuppada) | the impersonal lawfulness of conditioned existence |
+| 3 | **mental phenomena / objects** (*dhammāyatana*, the sixth sense-base) | Abhidhamma psychology; the six-*āyatana* schema | any cognizable mental object, including past, future or imaginary ones |
+| 4 | **constituent elements of reality** | the *Dhammasaṅgaṇī* | the irreducible momentary events — **82** in Theravāda (citta, cetasika, rūpa, nibbāna) — into which "things" are analysed |
+
+**Senses 3 and 4 are what make [§3.1](#anatta) work**, and it is worth seeing the connection before reading the argument rather than after. If everything that appears to be "a person" resolves without remainder into **momentary, conditioned *dhamma*s** — none of them permanent, none self-owning — then there is no *attā* left over to find. The *Anattalakkhaṇa Sutta*'s argument runs over the five aggregates; the Abhidhamma's contribution is to push the same analysis down to the level of elementary events and make it exhaustive.
+
+⚠ **The whole Abhidhamma enterprise is named after sense 4.** [§4](#theravada) and the *abhidharma* material below are, in a precise sense, the working-out of one meaning of this word.
+
+### 3.0.1 Three collisions the map must teach {#dhamma-collisions}
+
+Because the root is shared, *dhamma*/*dharma* generates the corpus's densest cluster of false equivalences. Three are worth holding apart explicitly:
+
+| term | tradition | what it means | relation to Pali *dhamma* |
+|---|---|---|---|
+| ***dharma*** | Hindu (Vedic / Mīmāṃsā / Gītā) | cosmic moral order; social duty; righteousness | **same root, overlapping cosmic-law sense (2)** — but Hindu dharma is *permanent, normative and duty-centred*, not a transient phenomenal element |
+| ***dharma-dravya*** | Jain | **the medium of motion**, one of the six *dravya*s | **only the name is shared.** A physical/quasi-physical substance — neither teaching, nor mental phenomenon, nor law |
+| ***dhamma*** sense 4 | Theravāda Abhidhamma | irreducible momentary event | the sense that does the anattā work, and the one the other two traditions have no counterpart for |
+
+The Jain case is the sharpest and is drawn in the graph as an explicit **NOT-equivalent** edge: [Ch 09](../jain/09-jain-cosmos.md) treats *dharma-dravya* as one of the six substances of the Jain cosmos, and a reader who moves between these chapters on the strength of the shared word will get both wrong.
+
+> **The general lesson.** A shared etymology guarantees a shared *history*, not a shared *referent*. √*dhṛ* tells you these words were once the same word. It tells you nothing about whether the Buddhist analysing a moment of consciousness and the Jain describing what lets a body move are talking about anything remotely alike. Ch 28 anatomises the same failure with modern-science vocabulary; this is the intra-Indian version, and it is easier to fall for because the terms really are cognate.
+
 ### 3.1 Anattā — no permanent self {#anatta}
 
 *Anattā* (not-self) is Buddhism's most distinctive and most debated doctrine. SN 22.59 (*Anattalakkhaṇa Sutta*), directly fetched (two independent translations: Thanissaro Bhikkhu + Ñāṇamoli Bhikkhu):

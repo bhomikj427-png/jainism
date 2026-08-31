@@ -72,7 +72,9 @@ ALIASES = {
 # with its reason and reported under [KNOWN-GAP] instead of failing the run. Anything
 # NOT in these tables still fails. Remove an entry the moment it is actually closed.
 KNOWN_UNCOVERED = {
-    "dhamma": "no chapter teaches it or links to it; needs chapter prose (progress.md)",
+    # dhamma was here -- CLOSED in Batch 45: folded into Ch 12 as the new §3.0/§3.0.1,
+    # where its senses 3 and 4 are shown to be what the anatta argument of §3.1 runs on.
+    # This table is now EMPTY: every written concept has a real chapter row.
 }
 KNOWN_UNRESOLVED = {
     # prasthānatrayī was here — CLOSED in Batch 44: the node now exists, so the
