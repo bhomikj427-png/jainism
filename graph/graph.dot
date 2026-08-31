@@ -177,14 +177,10 @@ digraph ancient_texts {
     "atman-vedanta" [label="ātman (Vedānta)" fillcolor="#4fd16b" shape=ellipse];
     "atri" [label="Atri" fillcolor="#4fd16b" shape=ellipse];
     "avatara-vedanta" [label="avatāra" fillcolor="#4fd16b" shape=ellipse];
-    "ayurveda" [label="Āyurveda" fillcolor="#4fd16b" shape=ellipse];
     "bali" [label="Bali" fillcolor="#4fd16b" shape=ellipse];
     "brahma" [label="Brahmā" fillcolor="#4fd16b" shape=ellipse];
     "brahman" [label="brahman" fillcolor="#4fd16b" shape=ellipse];
-    "cakrapanidatta" [label="Cakrapāṇidatta" fillcolor="#4fd16b" shape=ellipse];
-    "charaka" [label="Caraka" fillcolor="#4fd16b" shape=ellipse];
     "citsukha" [label="Citsukha" fillcolor="#4fd16b" shape=ellipse];
-    "dalhana" [label="Ḍalhaṇa" fillcolor="#4fd16b" shape=ellipse];
     "dhanvantari" [label="Dhanvantari" fillcolor="#4fd16b" shape=ellipse];
     "durga" [label="Durgā" fillcolor="#4fd16b" shape=ellipse];
     "dvaita-vedanta" [label="Dvaita Vedānta" fillcolor="#4fd16b" shape=ellipse];
@@ -238,6 +234,7 @@ digraph ancient_texts {
     "rama" [label="Rāma" fillcolor="#4fd16b" shape=ellipse];
     "ramanuja" [label="Rāmānuja" fillcolor="#4fd16b" shape=ellipse];
     "ramayana" [label="rāmāyaṇa" fillcolor="#4fd16b" shape=ellipse];
+    "rasesvara" [label="Raseśvara" fillcolor="#4fd16b" shape=ellipse];
     "rta" [label="ṛta" fillcolor="#4fd16b" shape=ellipse];
     "samatva" [label="samatva" fillcolor="#4fd16b" shape=ellipse];
     "sampati" [label="Sampāti" fillcolor="#4fd16b" shape=ellipse];
@@ -258,15 +255,12 @@ digraph ancient_texts {
     "sthitaprajna" [label="sthitaprajña" fillcolor="#4fd16b" shape=ellipse];
     "sureshvara" [label="Sureśvara" fillcolor="#4fd16b" shape=ellipse];
     "surya" [label="Sūrya" fillcolor="#4fd16b" shape=ellipse];
-    "sushruta" [label="Suśruta" fillcolor="#4fd16b" shape=ellipse];
     "svarbhanu" [label="Svarbhānu" fillcolor="#4fd16b" shape=ellipse];
-    "tridosha" [label="Tridoṣa" fillcolor="#4fd16b" shape=ellipse];
     "trimurti" [label="trimūrti" fillcolor="#4fd16b" shape=ellipse];
     "ucchaihshravas" [label="Uccaiḥśravas" fillcolor="#4fd16b" shape=ellipse];
     "upanishad" [label="Upaniṣad" fillcolor="#4fd16b" shape=ellipse];
     "utpaladeva" [label="Utpaladeva" fillcolor="#4fd16b" shape=ellipse];
     "vacaspati-mishra" [label="Vācaspati Miśra" fillcolor="#4fd16b" shape=ellipse];
-    "vagbhata" [label="Vāgbhaṭa" fillcolor="#4fd16b" shape=ellipse];
     "vaishnavism" [label="Vaiṣṇavism" fillcolor="#4fd16b" shape=ellipse];
     "valmiki" [label="vālmīki" fillcolor="#4fd16b" shape=ellipse];
     "vamana" [label="Vāmana" fillcolor="#4fd16b" shape=ellipse];
@@ -284,6 +278,25 @@ digraph ancient_texts {
     "vyasa" [label="vyāsa" fillcolor="#4fd16b" shape=ellipse];
     "vyasatirtha" [label="Vyāsatīrtha" fillcolor="#4fd16b" shape=ellipse];
     "yamunacarya" [label="Yāmunācārya" fillcolor="#4fd16b" shape=ellipse];
+  }
+  subgraph "cluster_Ayurveda" { style=invis; peripheries=0;
+    "agni-ayurveda" [label="agni (āyurvedic)" fillcolor="#2e9e63" shape=ellipse];
+    "arunadatta" [label="Aruṇadatta" fillcolor="#2e9e63" shape=ellipse];
+    "ayurveda" [label="Āyurveda" fillcolor="#2e9e63" shape=ellipse];
+    "cakrapanidatta" [label="Cakrapāṇidatta" fillcolor="#2e9e63" shape=ellipse];
+    "candrata" [label="Candraṭa" fillcolor="#2e9e63" shape=ellipse];
+    "charaka" [label="Caraka" fillcolor="#2e9e63" shape=ellipse];
+    "dalhana" [label="Ḍalhaṇa" fillcolor="#2e9e63" shape=ellipse];
+    "dhatu" [label="dhātu" fillcolor="#2e9e63" shape=ellipse];
+    "gayadasa" [label="Gayadāsa" fillcolor="#2e9e63" shape=ellipse];
+    "haricandra" [label="Haricandra" fillcolor="#2e9e63" shape=ellipse];
+    "hemadri" [label="Hemādri" fillcolor="#2e9e63" shape=ellipse];
+    "indu" [label="Indu" fillcolor="#2e9e63" shape=ellipse];
+    "jejjata" [label="Jejjaṭa" fillcolor="#2e9e63" shape=ellipse];
+    "mala" [label="mala" fillcolor="#2e9e63" shape=ellipse];
+    "sushruta" [label="Suśruta" fillcolor="#2e9e63" shape=ellipse];
+    "tridosha" [label="Tridoṣa" fillcolor="#2e9e63" shape=ellipse];
+    "vagbhata" [label="Vāgbhaṭa" fillcolor="#2e9e63" shape=ellipse];
   }
   subgraph "cluster_Samkhya-Yoga" { style=invis; peripheries=0;
     "citta-vritti" [label="citta-vṛtti" fillcolor="#c77dff" shape=ellipse];
@@ -373,20 +386,9 @@ digraph ancient_texts {
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
-    "agni-ayurveda" [label="agni (āyurvedic)" fillcolor="#9aa0a6" shape=ellipse];
     "ahura-mazda" [label="Ahura Mazdā" fillcolor="#9aa0a6" shape=ellipse];
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
-    "arunadatta" [label="Aruṇadatta" fillcolor="#9aa0a6" shape=ellipse];
-    "candrata" [label="Candraṭa" fillcolor="#9aa0a6" shape=ellipse];
-    "dhatu" [label="dhātu" fillcolor="#9aa0a6" shape=ellipse];
-    "gayadasa" [label="Gayadāsa" fillcolor="#9aa0a6" shape=ellipse];
-    "haricandra" [label="Haricandra" fillcolor="#9aa0a6" shape=ellipse];
-    "hemadri" [label="Hemādri" fillcolor="#9aa0a6" shape=ellipse];
-    "indu" [label="Indu" fillcolor="#9aa0a6" shape=ellipse];
-    "jejjata" [label="Jejjaṭa" fillcolor="#9aa0a6" shape=ellipse];
     "makkhali-gosala" [label="Makkhali Gosāla" fillcolor="#9aa0a6" shape=ellipse];
-    "mala" [label="mala" fillcolor="#9aa0a6" shape=ellipse];
-    "rasesvara" [label="Raseśvara" fillcolor="#9aa0a6" shape=ellipse];
     "verethragna" [label="Vərəθraγna" fillcolor="#9aa0a6" shape=ellipse];
   }
   "abhidharma" -> "abhidharmakosa" [style=solid color="#33333333"];

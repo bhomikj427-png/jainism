@@ -84,6 +84,7 @@ FAMILY_COLOURS = {
     "Buddhist":           "#ffa07a",
     "Nyaya-Vaisheshika":  "#82b4ff",
     "Vedanta":            "#b0e0b0",
+    "Ayurveda":           "#5fae7a",
     "Samkhya-Yoga":       "#d8b4fe",
     "Mimamsa":            "#7fd4c0",
     "Carvaka":            "#c8a06a",
@@ -98,6 +99,7 @@ FAMILY_COLOURS_DARK = {
     "Buddhist":           "#ff8c5a",
     "Nyaya-Vaisheshika":  "#5b9bff",
     "Vedanta":            "#4fd16b",
+    "Ayurveda":           "#2e9e63",
     "Samkhya-Yoga":       "#c77dff",
     "Mimamsa":            "#2dd4bf",
     "Carvaka":            "#d9a066",
@@ -110,7 +112,7 @@ DEFAULT_COLOUR = "#ffffff"
 DEFAULT_COLOUR_DARK = "#9aa0a6"
 
 FAMILY_ORDER = [
-    "Jain", "Buddhist", "Nyaya-Vaisheshika", "Vedanta", "Samkhya-Yoga",
+    "Jain", "Buddhist", "Nyaya-Vaisheshika", "Vedanta", "Ayurveda", "Samkhya-Yoga",
     "Mimamsa", "Carvaka", "Greek", "Modern/Western", "cross-tradition",
     "unwritten", "unknown",
 ]
@@ -140,13 +142,22 @@ def tradition_family(raw: str) -> str:
         return "Nyaya-Vaisheshika"
     if "buddhist" in t or "madhyamaka" in t or "yogacara" in t or "abhidharma" in t:
         return "Buddhist"
+    # Ayurveda is a sub-branch of the Hindu block, not a peer of it: checked
+    # before "hindu"/"vedic" so the medical nodes get their own shade of the
+    # Vedanta green, but AFTER "cross-tradition" so `pancha-mahabhuta` (which
+    # merely lists Ayurveda among four systems) stays cross-tradition. The
+    # epic/puranic guard keeps `dhanvantari` -- a deity whose front-matter leads
+    # with "epic / Puranic" and who is taught in the devotional chapter -- with
+    # the Hindu deities rather than with the medical authors.
+    if ("ayurveda" in t or "medical" in t) and not ("epic" in t or "puranic" in t):
+        return "Ayurveda"
     if "vedanta" in t or "advaita" in t or "vedic" in t:
         return "Vedanta"
     if "samkhya" in t or "sankhya" in t:
         return "Samkhya-Yoga"
     if "yoga" in t:
         return "Samkhya-Yoga"
-    if "hindu" in t:
+    if "hindu" in t or "saiva" in t or "sakta" in t:
         return "Vedanta"
     if "greek" in t or "stoic" in t or "platon" in t or "aristotel" in t or "neoplaton" in t:
         return "Greek"
