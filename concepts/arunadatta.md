@@ -61,6 +61,12 @@ That is worth restating as a claim about **who owns Āyurvedic theory**: the sch
 
 **CONVERGED** on date (c. 1220), father, principal work and its character; the sources agree and Gode supplies the reasoning rather than the assertion. Confidence **medium**: the *Sarvāṅgasundarā* itself was **not read**; the one directly relevant peer-reviewed paper is paywalled; and the **bibliography is genuinely split** — a divergence mapped above rather than resolved, since Gode's three-namesakes finding is single-sourced even though it is much the better-provenanced side.
 
+⚠ **Added Batch 45 — Aruṇadatta removed things, and the corpus can now see one of them.** Meulenbeld (*HIML* IA, s.v. [[indu|Indu]]) records that at ***Aṣṭāṅgahṛdaya* Ci. 19.98** the names ***Jina*** and ***Jinasuta*** are "suppressed by **Aruṇadatta** and many editors, who replace them by **Śiva** and **Śivasuta**" — where Indu keeps them and glosses Jina as **the Buddha** and Jinasuta as **Avalokiteśa**. Likewise **Tārā**, whom Indu names as a Buddhist deity, is "passed over in silence" in Aruṇadatta's commentary.
+
+This adds a **third** kind of commentarial act to the two this file already records. Aruṇadatta was written up as a commentator who **legislates** — fixing a nourishment model his base text left open — and who is **dated by having been contradicted**. He also, on this evidence, **edits**: a Buddhist reading in the base text is replaced by a Śaiva one, and the printed tradition follows him.
+
+⚠ Two limits, both real. **The direction is not secure**: it depends on Indu being the earlier or contemporary witness, and Indu's date is itself disputed — Meulenbeld places him before the latter half of the 12th c., **P. V. Sharma makes him 13th-c. and posterior to Aruṇadatta**, in which case Indu restored what Aruṇadatta had already changed. And **the verse has not been checked in any edition** by this corpus; the claim is Meulenbeld's report. What survives either way is that **the two commentaries print different deities at a locatable verse** — which is not an interpretive disagreement. `indu.md` carries the full table.
+
 ## Sources
 
 - P. K. Gode, "Vāgbhaṭa, the author of the *Astanga-hrdaya*, and his Commentators," in *Studies in Indian Literary History*, via Wisdomlib, https://www.wisdomlib.org/history/book/studies-in-indian-literary-history/d/doc1474914.html — **critical literary history; the dominant source here**: "the son of Mrgankadatta"; the dating chain (Vijayarakṣita "controverts a certain doctrine of Aruṇadatta regarding the structure of the eye"; Vijayarakṣita quotes Guṇākara, 1239 A.D.; hence "Aruṇadatta flourished about 1220 A. D."); the namesake finding — "three persons of the same name viz. Aruṇadatta, wrote on four different subjects viz. Medicine, Lexicography, grammar and architecture"; and Hemādri's quotation of Aruṇadatta ("*maireyo* … *kharjurasavah* *iti arunadattah*").
@@ -71,6 +77,7 @@ That is worth restating as a claim about **who owns Āyurvedic theory**: the sch
 
 ## Links
 
+- often-conflated-with-NOT-equivalent: indu | the corpus's sharpest commentator-pair, routinely bracketed as "the two commentators on the *Aṣṭāṅgahṛdaya*": at Ci. 19.98 Aruṇadatta and the editors print **Śiva** and **Śivasuta** where Indu reads **Jina** and **Jinasuta**, and Tārā is named by Indu and silently dropped here. The bracket hides a substitution
 - historically-influenced-by: vagbhata | the *Sarvāṅgasundarā* glosses the *Aṣṭāṅgahṛdaya* word by word — and its title puns on the base text's own "eight limbs"
 - expressed-by: ayurveda | with him the corpus has a named commentator for each of the three saṃhitās, which is the shape the discipline's authority actually takes: three root texts, each with its glossator
 - shares-vocabulary-with: cakrapanidatta | the four *dhātu-poṣaṇa nyāya*s are assembled **across** the three commentarial traditions, not authored by one man: Cakrapāṇi carries *khale-kapota*, Suśruta *kedārī-kulyā*, and Aruṇadatta ***eka-kāla*** — nourishment as simultaneous and circulation-driven

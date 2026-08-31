@@ -21,6 +21,17 @@ confidence: medium
 
 Note what the three rows have in common: **they are not three datings of Jejjaṭa. They are three datings of Vāgbhaṭa, with Jejjaṭa attached.** The chain is *Jejjaṭa was Vāgbhaṭa's pupil → therefore Jejjaṭa is a generation after Vāgbhaṭa → therefore date Vāgbhaṭa and you have dated Jejjaṭa.* Move the anchor and the whole spread moves with it, which is exactly what has happened across three centuries of proposals.
 
+### ⚠ A fourth date, added Batch 45 — and the first that does not run through Vāgbhaṭa
+
+**G. Jan Meulenbeld**, *A History of Indian Medical Literature* (1999–2002) — the standard critical reference for this literature, obtained and read in Batch 45 — places Jejjaṭa in the **seventh or eighth century**.
+
+That is a fourth proposal, but it is **not a fourth instance of the pattern above**: Meulenbeld does not derive it from a discipleship to Vāgbhaṭa. On the contrary, he **rejects** the Kerala tradition that Vāgbhaṭa taught Jejjaṭa and [[indu|Indu]] — "these traditions are not worthy of credit" — and, in `indu.md`, argues that Indu's citation *of* Jejjaṭa rules out their having been fellow-pupils.
+
+**Two things follow, and both strengthen this file's thesis rather than settling it.**
+
+1. Meulenbeld independently confirms the finding. Dating [[candrata|Candraṭa]] he writes: "**As Jejjaṭa's date is disputed**, it is preferable to depart from another fact in establishing the upper chronological limit" — and routes around him to Ravigupta's *Siddhasāra* instead. The standard reference reaches this node's verdict and draws the practical rule: **a disputed date cannot anchor another date.**
+2. Jejjaṭa is nonetheless usable as a *lower* bound for others, because being **quoted** is a harder fact than being dated. [[haricandra|Haricandra]] is placed before A.D. 600 partly because Jejjaṭa quotes him, and Indu's *terminus post quem* comes from citing Jejjaṭa. **A figure whose own date is contested can still order other figures around himself.**
+
 ### Why that anchor cannot bear the weight
 
 [[vagbhata]] records that "Vāgbhaṭa" is **a name attached to a compendium before it is attached to a biography** — the *Aṣṭāṅgasaṅgraha*'s own colophon has one Vāgbhaṭa explaining that he bears his **grandfather's** name. So the tradition itself asserts at least two men of the name, one generation apart.
@@ -65,6 +76,7 @@ The commentary that survives is the one that quoted the others. **Compilation is
 
 ## Links
 
+- shares-vocabulary-with: haricandra | he **quotes** Haricandra, which is one of the two grounds for dating the earliest Caraka commentator before A.D. 600 — and Niścalakara's *Ratnaprabhā* brackets the two as agreeing on many points though not all
 - historically-influenced-by: charaka | the *Nirantarapadavyākhyā* is a word-by-word commentary on the *Carakasaṃhitā* — among its earliest, and surviving with named chapter-ranges missing
 - historically-influenced-by: sushruta | and separately the **oldest known commentary on Suśruta**, which survives essentially not at all except in later quotation
 - historically-influenced-by: vagbhata | tradition makes him Vāgbhaṭa's pupil, and **every proposed date for him is really a date for Vāgbhaṭa with a generation added**. ⚠ That anchor is unsound in this corpus's own terms: [[vagbhata]] records "Vāgbhaṭa" as a name borne by at least two men, by the *Aṣṭāṅgasaṅgraha* colophon's own admission
