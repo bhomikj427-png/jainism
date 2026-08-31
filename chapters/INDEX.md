@@ -77,9 +77,22 @@
 | ~~27~~ | ~~Buddhist Singletons~~ | `buddhist/` | — | **drafted** (see table above; retitled *Process All the Way Down*. The placement question was resolved **in favour of `buddhist/`** and made explicit in the chapter header: Gosāla is Ājīvika but survives **only** in Buddhist and Jain polemic, and §§7–8 make that the point) |
 | ~~28~~ | ~~The Modern-Physics Comparanda~~ | `comparanda/` | — | **drafted** (see table above. Written as the corpus's consolidated §0 statement: two worked cases, the five-move anatomy of the slide, the **full inventory** of every modern-science NOT-equivalent edge in `concepts/`, four portable tests, and the mirror error — deflation — from Ch 23) |
 
-> **✅ ROADMAP COMPLETE — the teaching layer now covers the whole 306-node graph (re-derived 2026-08-26, after Ch 28).**
-> The final diff of `concepts/*.md` against this file, using diacritic-aware search of chapter prose, returned **two** apparent gaps — `naigama-naya` and `saṃgraha-naya` — and both proved to be **already covered in Ch 02 §4** under their bare display names rather than their file keys. Rows for those two (and `vyavahāra-naya`) have been added to the concept→chapter index below; **no chapter was needed.**
-> **→ The next unit of work is therefore a concept batch in `progress.md`, not a chapter.** New nodes first; a chapter over them afterwards. `progress.md`'s "Suggested Batch 41" is the queue. When new concepts are written, re-derive this roadmap again by the method below.
+> **✅ ROADMAP COMPLETE — the teaching layer covers the whole 362-node graph, with no exceptions (re-derived 2026-08-31, after Chs 35–37).**
+> `python graph/check_chapters.py` reports **362 / 362**, and its `KNOWN_UNCOVERED` table is now **EMPTY** — the first
+> time the corpus has had full coverage with no recorded excuses. The last standing gap, `dhamma`, was closed by folding
+> it into **Ch 12 §3.0/§3.0.1** rather than writing a chapter for one node.
+>
+> Chapters **35, 36 and 37** were derived in one pass from the 21 uncovered nodes of Batches 44+45, taking the
+> three-way split rather than the two `progress.md` had suggested: an Āyurveda-commentators chapter (`hindu/shastra/`),
+> a Vedānta-founders chapter (`hindu/darsana/`), and a cross-tradition dialecticians chapter that spans Nyāya, Advaita,
+> Dvaita **and** Jainism.
+>
+> **→ The next unit of work is therefore a concept batch in `progress.md` (Batch 46), not a chapter.** New nodes first;
+> a chapter over them afterwards. When new concepts are written, re-derive this roadmap again by the method below.
+>
+> ⚠ **One standing debt this roadmap cannot fix by itself: [Ch 11 (The Vedānta Family)](hindu/darsana/11-vedanta.md)
+> now predates Chs 25, 30, 34, 36 and 37**, all of which build on it, and it has never been re-read against them.
+> It is carried as follow-up 1 in `progress.md` and has been open for six batches.
 
 > **🔁 How to re-derive this roadmap (method, first used 2026-08-25 after Ch 24 exhausted the previous one).** Diff `concepts/*.md` against the "Full concept → chapter index" below — but **do not diff on the key alone**: the index lists concepts by IAST display name (`ahiṃsā-vedic` for `ahimsa-vedic`), so a naive comparison reports false gaps. The reliable test is a **diacritic-aware search of chapter prose** for the term. Rows 25–28 above came from that test. When these are drafted, re-derive again; if the diff comes back empty, the teaching layer is complete for the current graph and the next unit of work is a **concept batch** (`progress.md`), not a chapter — new nodes first, then a chapter over them.
 
