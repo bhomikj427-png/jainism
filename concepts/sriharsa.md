@@ -53,6 +53,14 @@ His readers split exactly along the line the modern dispute runs on, and did so 
 
 ⚠ **Name collision, logged.** The **Vācaspati Miśra II** who answered Śrīharṣa from Mithilā is **not** [[vacaspati-mishra|Vācaspati Miśra]], the 9th–10th-c. *sarva-tantra-sva-tantra* author of the *Bhāmatī* who has a node in this corpus. Two Maithil Naiyāyika-Vedāntins of one name, some five centuries apart. A caution has been added to that file.
 
+### Udayana, his father, and a synchronism found after this file was written
+
+⚠ **Added later in the same batch, from `udayana.md`.** Writing Udayana turned up a tradition that changes how the *Khaṇḍana*'s choice of target should be read. The *Naiṣadhacarita* commentator **Cāṇḍupaṇḍita** attests that **Śrīharṣa's father was defeated in debate by Udayana** — and D. C. Bhattacharyya uses that testimony as one of four arguments for **redating Udayana** a century later than the usual Śaka 906 / 984 CE, placing the debate at 1070–80.
+
+The convergence is unplanned and therefore worth something: this file recorded **Śrīhira, a poet at Vijayacandra's court**, from Wikipedia's article on Śrīharṣa, which has no interest in Nyāya chronology; Bhadra's study reaches the same father and the same court from a 13th–14th-c. commentator quoted inside a dating argument. On this tradition, Śrīharṣa's choice of **Udayana's *Lakṣaṇāvalī*** as the thing to demolish is not only doctrinal — **it is a son answering his father's defeat**, and the observation above that the book is "shaped by the target it attacks" acquires a second, biographical sense.
+
+Held at arm's length, twice. Cāṇḍupaṇḍita's report is a debate-anecdote of the same genre this corpus discounts in `shankara.md` and `appayya-dikshita.md`; its usable content is that a later commentator **believed the two men were contemporaries**, not that the debate happened. And it leaves an unreconciled **reign-date problem**: Śrīharṣa is placed "under Govindacandra and Vijayacandra (1104–54)" in the dating argument, while the *Naiṣadhacarita* is dated **1174 under Jayacandra** above. No source consulted reconciles the two. **Open, and not smoothed.**
+
 ### An independent confirmation the corpus can now claim
 
 `citsukha.md` records **Dasgupta** (1932) saying Citsukha "had all Śrīharṣa's powers of acute dialectical thought" but went further by *defining* rather than only refuting. SEP (2018), written from the other end and about the other man, says Citsukha "developed arguments from this work further" in the *Tattvapradīpikā*. **These are genuinely independent** — a 1932 history and a 2018 encyclopedia entry, different authors, different subject-focus — and they agree on both the dependence and its direction. That is a real strengthening of a Batch 44 finding.
@@ -75,7 +83,7 @@ His readers split exactly along the line the modern dispute runs on, and did so 
 
 ## Links
 
-- historically-influenced-by: udayana | his principal named opponent: the *Lakṣaṇāvalī*, "Garland of Definitions," supplies much of what the *Khaṇḍana* refutes — the book is shaped by the target it attacks
+- historically-influenced-by: udayana | his principal named opponent: the *Lakṣaṇāvalī*, "Garland of Definitions," supplies much of what the *Khaṇḍana* refutes — the book is shaped by the target it attacks, and on Cāṇḍupaṇḍita's testimony the target was personal: Udayana had defeated Śrīharṣa's father in debate
 - shares-vocabulary-with: pramana-nyaya | the *Khaṇḍana* argues on Nyāya's own ground, taking over its definitional apparatus in order to show that no definition of *pramāṇa* meets the three conditions Nyāya itself requires
 - shares-vocabulary-with: advaita-vedanta | claimed by the school and adopted by its dialecticians, but he "didn't affiliate himself explicitly" to it, and Granoff argues he departs from it — a school affiliation asserted **about** an author rather than **by** him
 - often-conflated-with-NOT-equivalent: advaita-vedanta | the conflation the corpus must teach: a book of pure refutation has no thesis to read off, so "Śrīharṣa the Advaitin" is a **reconstruction**, contested in print by Granoff 1978 against Phillips 1995 and Ram-Prasad 2002, not a datum
