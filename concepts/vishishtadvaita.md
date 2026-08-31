@@ -9,11 +9,13 @@ confidence: medium
 
 ## Gloss / Divergence map
 
-**Viśiṣṭādvaita** ("qualified non-dualism," lit. "non-duality *of the qualified*") is the **theistic, soul-and-matter-realist** reading of Vedānta, systematised by **Rāmānuja** (traditionally 1017–1137 CE; modern estimates c. 1077–1157), the chief philosopher of **Śrī Vaiṣṇavism**. It rests on his **Śrī Bhāṣya**, a commentary on the [[brahma-sutra]]. It is the middle path between Śaṅkara's strict monism ([[advaita-vedanta]]) and Madhva's full dualism ([[dvaita-vedanta]]).
+**Viśiṣṭādvaita** ("qualified non-dualism," lit. "non-duality *of the qualified*") is the **theistic, soul-and-matter-realist** reading of Vedānta, systematised by **[[ramanuja|Rāmānuja]]** (traditionally 1017–1137 CE; Carman's revision c. 1077–1157 — but see `ramanuja.md`, where Sydnor argues **neither** dating is establishable), the chief philosopher of **Śrī Vaiṣṇavism**. It rests on his **Śrī Bhāṣya**, a commentary on the [[brahma-sutra]] — one of only three works whose attribution to him no source disputes. It is the middle path between Śaṅkara's strict monism ([[advaita-vedanta]]) and Madhva's full dualism ([[dvaita-vedanta]]).
 
 **The one thesis.** Reality is **one Brahman, but Brahman is *qualified* (viśiṣṭa)** by real internal differentiation. There are **three reals**: **Īśvara** (Brahman as the personal God **Viṣṇu / Nārāyaṇa**, endowed with infinite auspicious attributes — hence **saguṇa**, *not* the nirguṇa Brahman of Advaita), **cit** (sentient individual souls / jīvas), and **acit** (insentient matter). The relation is the **body–soul** relation (**śarīra–śarīrin**): souls and matter are the **real body / modes (prakāra)** of Brahman, inseparable from but distinct within it — "the entire universe, including both souls and matter, serves as the body of God."
 
 **Against Advaita.** Rāmānuja **rejects māyā / avidyā as illusion**: plurality is *genuinely real*, individual souls are *not* a false appearance, and Brahman is not attribute-less. Knowledge alone does not liberate.
+
+⚠ **Added Batch 45.** The doctrine summarised here is secure; the *man* is not. `ramanuja.md` maps three separate disputes — his dates, which of the nine attributed works are his, and whether the Śrī Vaiṣṇava biography is history at all. Note in particular that on the IEP's reading the **Gadya Traya is of disputed authenticity**, which would remove the first-person devotional voice from behind the prapatti doctrine stated below.
 
 **Liberation.** *Mokṣa* is **eternal communion / loving service to God in Vaikuṇṭha, with the soul retaining its individuality** — participation, not merger or identity. The means is **bhakti** (devotion) and **prapatti** (total self-surrender), not abstract jñāna alone. This makes Rāmānuja "probably the single most influential thinker of devotional Hinduism."
 

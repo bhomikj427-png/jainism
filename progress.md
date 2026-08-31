@@ -27,6 +27,27 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 ---
 
+## Batch 45 — ACTIVE (opened 2026-08-31). Target: 350 -> 360 nodes.
+
+**Spine:** Batch 44 asked what a commentator *does*. Batch 45 writes the people the corpus has been *citing without a node* — starting with the two founders whose schools already have nodes, and the dialecticians who made Advaita defend itself.
+
+| # | key | state | why queued |
+|---|-----|-------|-----------|
+| 1 | `ramanuja` | pending | ⚠ structural: named across 19 files, no node; `vishishtadvaita` is a school without its founder |
+| 2 | `madhva` | pending | ⚠ structural: same; `dvaita-vedanta` is a school without its founder |
+| 3 | `yamunacarya` | pending | Rāmānuja's predecessor — the Śrī Vaiṣṇava chain has no upstream node |
+| 4 | `sriharsa` | pending | *Khaṇḍanakhaṇḍakhādya* — Citsukha's model; corpus has no node for what its own sources call the hardest work in Advaita |
+| 5 | `anandabodha` | pending | *Nyāyamakaranda* — glossed by BOTH Citsukha and Sukhaprakāśa (Batch 44 chain) |
+| 6 | `vyasatirtha` | pending | *Nyāyāmṛta* — the Dvaita attack that `madhusudana-sarasvati` answers; the debate needs both ends |
+| 7 | `madhusudana-sarasvati` | pending | *Advaitasiddhi* — the Advaita side of the dvaita–advaita debate, entirely absent |
+| 8 | `candrata` | pending | Vāgbhaṭa's grandson; the other witness to Jejjaṭa (Batch 44 follow-up) |
+| 9 | `haricandra` | pending | *Bhaṭṭāra Haricandra* — earliest Caraka commentator named in Batch 44's sources |
+| 10 | `indu` | pending | commentator on the *Aṣṭāṅgasaṅgraha*; completes the Āyurveda-commentator layer |
+
+**Live source target for 8–10:** Meulenbeld, *A History of Indian Medical Literature* (follow-up 1 below) — two download attempts failed last batch on literal spaces in the archive.org filenames.
+
+---
+
 ## Batch 44 — CLOSED (2026-08-27). 10/10 concepts; 340 → 350 nodes.
 
 Every concept passed the §8 dedup gate against the live filesystem, transliteration twins included, and was committed individually with its findings in the message. `git log` is the detail; this is the short form.
