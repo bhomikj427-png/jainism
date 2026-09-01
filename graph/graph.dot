@@ -417,6 +417,7 @@ digraph ancient_texts {
     "nagesha-bhatta" [label="Nāgeśa Bhaṭṭa" fillcolor="#9aa0a6" shape=ellipse];
     "panini" [label="Pāṇini" fillcolor="#9aa0a6" shape=ellipse];
     "patanjali-grammarian" [label="Patañjali (vaiyākaraṇa)" fillcolor="#9aa0a6" shape=ellipse];
+    "pratyahara" [label="pratyāhāra" fillcolor="#9aa0a6" shape=ellipse];
     "sabdabrahman" [label="śabdabrahman" fillcolor="#9aa0a6" shape=ellipse];
     "sphota" [label="sphoṭa" fillcolor="#9aa0a6" shape=ellipse];
     "vakyapadiya" [label="Vākyapadīya" fillcolor="#9aa0a6" shape=ellipse];
@@ -702,6 +703,7 @@ digraph ancient_texts {
   "asrava" -> "jiva" [style=solid color="#33333333"];
   "asrava" -> "tattvartha-sutra" [style=solid color="#33333333"];
   "astadhyayi" -> "vyakarana" [style=solid color="#55555533"];
+  "astadhyayi" -> "pratyahara" [style=solid color="#55555533"];
   "astadhyayi" -> "mahabhashya" [style=solid color="#55555533"];
   "astadhyayi" -> "kasika" [style=solid color="#55555533"];
   "astadhyayi" -> "nyaya-sutra" [style=dashed color="#00993366"];
@@ -2041,6 +2043,10 @@ digraph ancient_texts {
   "pratyabhijna" -> "spanda" [style=dashed color="#0066cc66"];
   "pratyabhijna" -> "upayoga" [style=dashed color="#0066cc66"];
   "pratyabhijna" -> "somananda" [style=dashed color="#cc660066"];
+  "pratyahara" -> "astadhyayi" [style=solid color="#33333333"];
+  "pratyahara" -> "kasika" [style=dashed color="#0066cc66"];
+  "pratyahara" -> "sphota" [style=dashed color="#00993366"];
+  "pratyahara" -> "nirukta" [style=dashed color="#0066cc66"];
   "pratyaksha-buddhist" -> "dignaga-pramana" [style=solid color="#33333333"];
   "pratyaksha-buddhist" -> "pramana" [style=dotted color="#cc000099"];
   "pratyaksha-buddhist" -> "pramana-nyaya" [style=dotted color="#cc000099"];

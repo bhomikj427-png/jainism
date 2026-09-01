@@ -83,6 +83,7 @@ The text "was composed in an era when oral composition and transmission was the 
 ## Links
 
 - formalizes: vyakarana | the root text of the grammatical tradition — Vyākaraṇa is, in practice, the study of this text and its commentaries
+- expressed-by: pratyahara | the abbreviation device this text runs on and never names — and the one part of it a modern proof shows to be optimally constructed (Petersen 2004), a property of the list and **not** a claim about what Pāṇini knew
 - aggregates-into: mahabhashya | the Mahābhāṣya treats 1,228 of its sūtras, and by Patañjali's own reckoning reassigns eleven of the received lines away from Pāṇini
 - aggregates-into: kasika | ⭐ the contrast that matters: where the Mahābhāṣya reaches 31%, the 7th-c. Kāśikāvṛtti glosses **all 3,981** in this text's own order — "the only extant full-length commentary on the sūtras," and a beginners' gloss
 - structurally-parallel-to: nyaya-sutra | both are root-sūtra texts so compressed that the tradition's real content lives in the commentaries, and both have a boundary problem about which lines are the author's
