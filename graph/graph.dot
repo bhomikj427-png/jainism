@@ -406,6 +406,7 @@ digraph ancient_texts {
     "bhartrhari" [label="Bhartṛhari" fillcolor="#9aa0a6" shape=ellipse];
     "kaiyata" [label="Kaiyaṭa" fillcolor="#9aa0a6" shape=ellipse];
     "karaka" [label="kāraka" fillcolor="#9aa0a6" shape=ellipse];
+    "kasika" [label="Kāśikā" fillcolor="#9aa0a6" shape=ellipse];
     "katyayana" [label="Kātyāyana" fillcolor="#9aa0a6" shape=ellipse];
     "mahabhashya" [label="Mahābhāṣya" fillcolor="#9aa0a6" shape=ellipse];
     "makkhali-gosala" [label="Makkhali Gosāla" fillcolor="#9aa0a6" shape=ellipse];
@@ -696,6 +697,7 @@ digraph ancient_texts {
   "asrava" -> "tattvartha-sutra" [style=solid color="#33333333"];
   "astadhyayi" -> "vyakarana" [style=solid color="#55555533"];
   "astadhyayi" -> "mahabhashya" [style=solid color="#55555533"];
+  "astadhyayi" -> "kasika" [style=solid color="#55555533"];
   "astadhyayi" -> "nyaya-sutra" [style=dashed color="#00993366"];
   "astadhyayi" -> "modern-atom" [style=dashed color="#00993366"];
   "astadhyayi" -> "aristotle-logic" [style=dotted color="#cc000099"];
@@ -1384,6 +1386,11 @@ digraph ancient_texts {
   "kashaya" -> "karma" [style=solid color="#33333333"];
   "kashaya" -> "dhyana-jain" [style=solid color="#55555533"];
   "kashaya" -> "guna-samkhya" [style=dashed color="#00993366"];
+  "kasika" -> "vyakarana" [style=solid color="#33333333"];
+  "kasika" -> "astadhyayi" [style=dashed color="#cc660066"];
+  "kasika" -> "mahabhashya" [style=dashed color="#cc660066"];
+  "kasika" -> "bhartrhari" [style=dashed color="#00993366"];
+  "kasika" -> "kaiyata" [style=dashed color="#00993366"];
   "katyayana" -> "vyakarana" [style=solid color="#55555533"];
   "katyayana" -> "astadhyayi" [style=dashed color="#cc660066"];
   "katyayana" -> "mahabhashya" [style=solid color="#33333333"];

@@ -84,6 +84,7 @@ The text "was composed in an era when oral composition and transmission was the 
 
 - formalizes: vyakarana | the root text of the grammatical tradition — Vyākaraṇa is, in practice, the study of this text and its commentaries
 - aggregates-into: mahabhashya | the Mahābhāṣya treats 1,228 of its sūtras, and by Patañjali's own reckoning reassigns eleven of the received lines away from Pāṇini
+- aggregates-into: kasika | ⭐ the contrast that matters: where the Mahābhāṣya reaches 31%, the 7th-c. Kāśikāvṛtti glosses **all 3,981** in this text's own order — "the only extant full-length commentary on the sūtras," and a beginners' gloss
 - structurally-parallel-to: nyaya-sutra | both are root-sūtra texts so compressed that the tradition's real content lives in the commentaries, and both have a boundary problem about which lines are the author's
 - structurally-parallel-to: modern-atom | the corpus's standing pattern for a physics/formal comparandum: a real structural resemblance between an ancient analysis and a modern formalism, recorded as resemblance and explicitly not as identity or descent
 - often-conflated-with-NOT-equivalent: aristotle-logic | both are early rule-systems admired as "the first formal system," but Pāṇini's rules derive well-formed *word-shapes* from morphological material while Aristotle's derive *truths* from premises — a generative grammar and a logic of inference are not the same object, and the shared praise obscures it
