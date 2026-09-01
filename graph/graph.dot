@@ -154,6 +154,7 @@ digraph ancient_texts {
     "asatkaryavada" [label="asatkāryavāda" fillcolor="#5b9bff" shape=ellipse];
     "avacchedaka" [label="avacchedaka" fillcolor="#5b9bff" shape=ellipse];
     "dravya-vaisheshika" [label="dravya (Vaiśeṣika)" fillcolor="#5b9bff" shape=ellipse];
+    "gadadhara" [label="Gadādhara Bhaṭṭācārya" fillcolor="#5b9bff" shape=ellipse];
     "gangesha" [label="Gaṅgeśa Upādhyāya" fillcolor="#5b9bff" shape=ellipse];
     "gautama-aksapada" [label="Akṣapāda Gautama" fillcolor="#5b9bff" shape=ellipse];
     "jati" [label="jāti" fillcolor="#5b9bff" shape=ellipse];
@@ -390,9 +391,6 @@ digraph ancient_texts {
     "samsara" [label="saṃsāra" fillcolor="#ff6fa5" shape=ellipse];
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
-  }
-  subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "gadadhara" [label="gadadhara" fillcolor="#777777" shape=box];
   }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
     "ahura-mazda" [label="Ahura Mazdā" fillcolor="#9aa0a6" shape=ellipse];
@@ -1041,6 +1039,12 @@ digraph ancient_texts {
   "fuzzy-logic" -> "saptabhangi" [style=dashed color="#00993366"];
   "fuzzy-logic" -> "anekantavada" [style=dotted color="#cc000099"];
   "fuzzy-logic" -> "paraconsistent-logic" [style=dotted color="#cc000099"];
+  "gadadhara" -> "navya-nyaya" [style=solid color="#33333333"];
+  "gadadhara" -> "raghunatha-siromani" [style=dashed color="#cc660066"];
+  "gadadhara" -> "udayana" [style=dashed color="#cc660066"];
+  "gadadhara" -> "sabda-pramana" [style=solid color="#55555533"];
+  "gadadhara" -> "madhusudana-sarasvati" [style=dashed color="#0066cc66"];
+  "gadadhara" -> "tattvacintamani" [style=dashed color="#0066cc66"];
   "ganesha" -> "shaivism" [style=solid color="#33333333"];
   "ganesha" -> "parvati" [style=dashed color="#0066cc66"];
   "ganesha" -> "mahabharata" [style=dashed color="#0066cc66"];
@@ -1392,6 +1396,7 @@ digraph ancient_texts {
   "madhusudana-sarasvati" -> "appayya-dikshita" [style=dashed color="#0066cc66"];
   "madhusudana-sarasvati" -> "madhva" [style=dashed color="#0066cc66"];
   "madhusudana-sarasvati" -> "krishna" [style=dashed color="#0066cc66"];
+  "madhusudana-sarasvati" -> "gadadhara" [style=dashed color="#0066cc66"];
   "madhva" -> "dvaita-vedanta" [style=solid color="#55555533"];
   "madhva" -> "brahma-sutra" [style=dashed color="#cc660066"];
   "madhva" -> "appayya-dikshita" [style=dashed color="#0066cc66"];
