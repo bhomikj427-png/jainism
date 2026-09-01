@@ -420,6 +420,7 @@ digraph ancient_texts {
     "sabdabrahman" [label="śabdabrahman" fillcolor="#9aa0a6" shape=ellipse];
     "sphota" [label="sphoṭa" fillcolor="#9aa0a6" shape=ellipse];
     "vakyapadiya" [label="Vākyapadīya" fillcolor="#9aa0a6" shape=ellipse];
+    "vararuci" [label="Vararuci" fillcolor="#9aa0a6" shape=ellipse];
     "verethragna" [label="Vərəθraγna" fillcolor="#9aa0a6" shape=ellipse];
     "vyakarana" [label="vyākaraṇa" fillcolor="#9aa0a6" shape=ellipse];
   }
@@ -1415,6 +1416,7 @@ digraph ancient_texts {
   "katyayana" -> "astadhyayi" [style=dashed color="#cc660066"];
   "katyayana" -> "mahabhashya" [style=solid color="#33333333"];
   "katyayana" -> "jejjata" [style=dashed color="#00993366"];
+  "katyayana" -> "vararuci" [style=dotted color="#cc000099"];
   "katyayana" -> "panini" [style=dashed color="#cc660066"];
   "kaundabhatta" -> "vyakarana" [style=solid color="#55555533"];
   "kaundabhatta" -> "bhattoji-dikshita" [style=dashed color="#cc660066"];
@@ -2681,6 +2683,10 @@ digraph ancient_texts {
   "varaha" -> "matsya" [style=dashed color="#0066cc66"];
   "varaha" -> "narasimha" [style=dashed color="#0066cc66"];
   "varaha" -> "vishnu" [style=dashed color="#0066cc66"];
+  "vararuci" -> "katyayana" [style=dotted color="#cc000099"];
+  "vararuci" -> "vyakarana" [style=solid color="#55555533"];
+  "vararuci" -> "patanjali" [style=dashed color="#00993366"];
+  "vararuci" -> "kasika" [style=dashed color="#00993366"];
   "varsaganya" -> "kapila" [style=dashed color="#cc660066"];
   "varsaganya" -> "satkaryavada" [style=solid color="#55555533"];
   "varsaganya" -> "guna-samkhya" [style=solid color="#55555533"];
