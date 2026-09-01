@@ -83,6 +83,8 @@ Tradition explains the title *Bhāmatī* as his wife's name — the story being 
 
 ⚠ **Name collision, logged Batch 45 — there are two Vācaspati Miśras.** SEP's list of Naiyāyikas who wrote refutatory commentaries on [[sriharsa|Śrīharṣa]]'s *Khaṇḍanakhaṇḍakhādya* includes a **Vācaspati Miśra II** of Mithilā, working after Gaṅgeśa's reconstruction of Nyāya — i.e. roughly the 15th century, some five hundred years after the *Bhāmatī* author this file describes. Same name, same region, the same Maithil Brahmin milieu, adjacent disciplines: an unusually easy conflation, and one that would silently backdate Navya-Nyāya material into the 9th–10th century. **This node is Vācaspati Miśra I only.** Any future *Khaṇḍana*-commentary material belongs to a separate key, not here.
 
+⚠ **CONFIRMED INDEPENDENTLY, Batch 46.** The collision was logged in Batch 45 on a single route — SEP's list of Śrīharṣa's Naiyāyika answerers. Writing [[tattvacintamani|`tattvacintamani.md`]] produced a second, unrelated route to the same conclusion: **Appendix C of a Nyāya-Vaiśeṣika historical study, censusing thirty commentaries on Gaṅgeśa's *Tattvacintāmaṇi*, lists among the first tier an *Anumāna-khaṇḍa* commentary by "Vācaspati Miśra."** A commentary on Gaṅgeśa (*fl.* c. 1325) **cannot** be by the *Bhāmatī* author (9th–10th c.), who predates him by four centuries. A commentary census has no interest in the collision and had never heard of this file; it confirms it anyway. **Two independent witnesses now: a list of one man's opponents, and a list of another man's commentators.**
+
 ## Links
 
 - historically-influenced-by: shankara | the *Bhāmatī* is a gloss on Śaṅkara's *Brahmasūtra-bhāṣya*; "at least one generation younger than Ādi Śaṅkara"

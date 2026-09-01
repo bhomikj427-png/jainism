@@ -30,6 +30,23 @@ Both forms are recognised across traditions. A complete inference typically depl
 | **Jain** | vyāpti derived from induction; both anvaya and vyatireka forms recognised | not a separate positive account found in fetched sources; Jain inference (anumāna) shares the hetu/sādhya framework with Nyāya; naya-standpoint view of inference adds the caveat that any inferential claim is partial | Tattvārtha Sūtra Ch. 1 (pramāṇa chapter) |
 | **Cārvāka (rejects)** | universal concomitance is unknowable | no mechanism can verify all past/present/future cases; induction is always incomplete | Lokāyata tradition |
 
+## What Navya-Nyāya did to it (added Batch 46)
+
+This file has always named *Navya-Nyāya (Gaṅgeśa, Tattvacintāmaṇi)* in its Nyāya row. Batch 46 wrote those nodes, and they change the picture in one important way.
+
+**[[gangesha|Gaṅgeśa]]'s treatment is a serial demolition.** He states candidate definitions of pervasion and refutes them one by one before giving his own, the *siddhānta-lakṣaṇa*. ⚠ The two best sources give **different counts**: SEP says twenty-four rejected; **Ganeri** says twenty-one rejected — the first five being the famous ***vyāpti-pañcaka*** — and seven accepted. Not reconciled; the shape is agreed, the number is not.
+
+**Two problems drove the whole exercise**, and both are about the *no counter-example* definition ("there is no place where the reason H is present and the inferred property S absent"):
+
+1. ***Kevalānvayin*, universally positive inference.** If S is *nameability*, a property of everything, then "the absence of nameability" is uninstantiated (*aprasiddha*) and the definition contains a non-referring term. Gaṅgeśa's fix is to quantify over **properties** instead: no property whose absence is co-located with H can be identical with S. Ganeri: the trick "implicitly trades on the theorem A → B ≡ ¬(A & ¬B)," saying what the counter-example clause says "without actually using the potentially non-referring phrase 'absence of S'."
+2. ***Avyāpya-vṛtti*, partial location.** A property may occupy part of a locus and not the rest, so its presence-range and absence-range overlap — and a naïve counter-example test then rejects sound inferences. The repair is [[avacchedaka|delimitation]].
+
+⚠⚠ **And the point that should govern every comparison drawn from this file.** Ganeri asks why, since pervasion just means "all H are S," the Naiyāyikas did not simply use universal quantification:
+
+> "The answer, perhaps, is that they were in fact **trying to define this notion**, and to do so only in terms of certain other notions which they took to be primitive, especially the notion of **co-location and absence**."
+
+**So the vyāpti literature is not a long approach to a quantifier they lacked. It is an analysis of the quantifier into two primitives** — being in the same locus, and being absent from it — chosen because a Nyāya ontology contains loci and absences and does not contain variables and binders. The `often-conflated-with-NOT-equivalent: many-valued-logic` edge below, and the `structurally-parallel-to: aristotle-logic` edge, must both be read through this: the aim is not a calculus of forms but an **analysis of a relation into things**.
+
 ## Key contested point: universals vs. particulars
 
 Nyāya grounds vyāpti in universals — abstract properties (sāmānya) that inhere in particulars and are perceptible through "supernormal connection" (sāmānya-lakṣaṇa-pratyāsatti). Buddhist nominalists reject universals as real entities; Dignāga and Dharmakīrti recast vyāpti in purely particular-level terms (trairūpya, causal necessity). This is not a dispute about whether vyāpti exists — all inference-accepting schools use it — but about what the world must be like for vyāpti to be knowable.
@@ -61,3 +78,4 @@ Signals converge on definition and structure; the grounding dispute (universals 
 - structurally-parallel-to: dignaga-pramana | Dignāga's trairūpya is his formal reconstruction of vyapti without appealing to universals
 - often-conflated-with-NOT-equivalent: many-valued-logic | vyapti is a two-valued relation (either pervasion holds or it does not); it is not a many-valued or modal operator
 - structurally-parallel-to: aristotle-logic | both establish necessary connection in valid inference — vyāpti as universal pervasion (anumāna's major-term ground); Aristotelian syllogism's necessary major premise; different traditions, comparable formal aim
+- expressed-by: avacchedaka | the repair for *avyāpya-vṛtti*: a property that occupies part of a locus and not the rest breaks the naïve counter-example test, and delimitation is what restores it. ⚠ the backlinks to `tattvacintamani` and `gangesha` are **not** stored here — those files carry `formalizes: vyapti`, and §5 forbids the same directional type in both directions; grep for them
