@@ -44,6 +44,17 @@ Two atoms of the same type combine into a *dvyaṇuka* (dyad), which is still im
 | A-priori argument | "measurement fails at the limit" | "division cannot regress infinitely" |
 | Theism | Yes (Udayana's Nyāya-Vaiśeṣika synthesis) | No |
 
+### ⚠ Rejected from inside the school (added Batch 46)
+
+Vaiśeṣika atomism is presented throughout this corpus as the school's ontology. It is more precisely **Kaṇāda's, Praśastapāda's and Udayana's**. [[raghunatha-siromani|**Raghunātha Śiromaṇi**]] (c. 1477–1547), the second great figure of Navya-Nyāya and by common report the most powerful logician the tradition produced, **denied atoms (*paramāṇu*) and dyads (*dvyaṇuka*)** in his *Padārthatattvanirūpaṇa* — along with the category *viśeṣa*, which is what individuates atoms in the first place and which gives the school its name.
+
+**Two things follow and the corpus should hold both.**
+
+1. **Date and attribute the atomism; do not generalise it across the school.** "Nyāya-Vaiśeṣika held an atomic theory" is false without a period attached.
+2. **This strengthens `kanada.md`'s prime-directive warning with a historical argument.** That file warns that the *paramāṇu* doctrine is "routinely inflated into 'ancient Indian atomic theory = modern physics'." The conceptual objection stands on its own; now there is a historical one beside it — **a doctrine that the tradition's own leading later thinker discarded on metaphysical grounds is not an empirical result being handed forward.** A physical theory is not abandoned by its best practitioner because he finds the arguments for it unpersuasive.
+
+⚠ **What the rejection amounts to is not established here** — whether he denies partless ultimate units as such, or only the *dvyaṇuka*/*tryaṇuka* aggregation mechanism. **Potter's 1957 text-and-translation of the *Padārthatattvanirūpaṇa* (Harvard-Yenching Institute Studies 17) would settle it and was not read.**
+
 ## Reasoning across signals
 
 **Signal 1 — New World Encyclopedia "Vaisheshika":** Four atom types with tiered quality list (earth=4, water=3, fire=2, air=1) fetched directly. Adṛṣṭa + God as combination mechanism confirmed. Primary sources: Kaṇāda, Praśastapāda, Udayana. Medium provenance.

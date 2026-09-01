@@ -163,6 +163,7 @@ digraph ancient_texts {
     "paramanu-vaisheshika" [label="paramāṇu (Vaiśeṣika)" fillcolor="#5b9bff" shape=ellipse];
     "pramana-nyaya" [label="pramāṇa (Nyāya)" fillcolor="#5b9bff" shape=ellipse];
     "prashastapada" [label="Praśastapāda" fillcolor="#5b9bff" shape=ellipse];
+    "raghunatha-siromani" [label="Raghunātha Śiromaṇi" fillcolor="#5b9bff" shape=ellipse];
     "tarka" [label="tarka" fillcolor="#5b9bff" shape=ellipse];
     "tattvacintamani" [label="Tattvacintāmaṇi" fillcolor="#5b9bff" shape=ellipse];
     "udayana" [label="Udayana" fillcolor="#5b9bff" shape=ellipse];
@@ -392,7 +393,6 @@ digraph ancient_texts {
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
     "gadadhara" [label="gadadhara" fillcolor="#777777" shape=box];
-    "raghunatha-siromani" [label="raghunatha-siromani" fillcolor="#777777" shape=box];
   }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
     "ahura-mazda" [label="Ahura Mazdā" fillcolor="#9aa0a6" shape=ellipse];
@@ -1967,6 +1967,16 @@ digraph ancient_texts {
   "quantum-complementarity" -> "anekantavada" [style=dashed color="#00993366"];
   "quantum-complementarity" -> "many-valued-logic" [style=dashed color="#00993366"];
   "quantum-complementarity" -> "many-valued-logic" [style=dotted color="#cc000099"];
+  "raghunatha-siromani" -> "navya-nyaya" [style=solid color="#33333333"];
+  "raghunatha-siromani" -> "gangesha" [style=dashed color="#cc660066"];
+  "raghunatha-siromani" -> "tattvacintamani" [style=dashed color="#cc660066"];
+  "raghunatha-siromani" -> "avacchedaka" [style=solid color="#55555533"];
+  "raghunatha-siromani" -> "abhava" [style=solid color="#55555533"];
+  "raghunatha-siromani" -> "paramanu-vaisheshika" [style=dotted color="#cc000099"];
+  "raghunatha-siromani" -> "jati" [style=dotted color="#cc000099"];
+  "raghunatha-siromani" -> "vaiseshika-sutra" [style=dashed color="#0066cc66"];
+  "raghunatha-siromani" -> "dravya-vaisheshika" [style=dashed color="#0066cc66"];
+  "raghunatha-siromani" -> "gadadhara" [style=dashed color="#0066cc66"];
   "rahu" -> "samudra-manthana" [style=solid color="#33333333"];
   "rahu" -> "ketu" [style=dashed color="#0066cc66"];
   "rahu" -> "mohini" [style=dashed color="#0066cc66"];

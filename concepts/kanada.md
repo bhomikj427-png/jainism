@@ -13,6 +13,8 @@ confidence: medium
 
 **Prime-directive caution.** Kaṇāda's *paramāṇu* doctrine — eternal, indivisible, partless ultimate units that combine into compounds — is routinely inflated into "ancient Indian atomic theory = modern physics." That is a structural analogy, not an identity (the Vaiśeṣika atom is a metaphysical-categorial posit, not an empirical particle, and combines by *dyads/triads* under *adṛṣṭa*, not by physical force). The conflation belongs on the [[paramanu]] node, not here.
 
+⚠ **A second, historical argument for the same caution (added Batch 46).** The conceptual objection above stands on its own. Beside it now sits a fact about the tradition: **[[raghunatha-siromani|Raghunātha Śiromaṇi]] (c. 1477–1547) — the second great figure of Navya-Nyāya and by common report its most powerful logician — denied atoms and dyads**, and dismissed *viśeṣa*, the category that individuates them and gives Vaiśeṣika its name, as unproven. **A doctrine that its own tradition's leading later thinker discarded on metaphysical grounds is not an empirical discovery being handed forward across the centuries.** Physical theories are not abandoned by their best practitioners for finding the arguments unpersuasive; metaphysical posits are. ⚠ Exactly what his rejection amounts to is unsettled here — see `raghunatha-siromani.md`.
+
 **Dating (wide, unsettled).**
 
 | claim | who holds it |
