@@ -305,6 +305,7 @@ digraph ancient_texts {
     "jejjata" [label="Jejjaṭa" fillcolor="#2e9e63" shape=ellipse];
     "mala" [label="mala" fillcolor="#2e9e63" shape=ellipse];
     "sushruta" [label="Suśruta" fillcolor="#2e9e63" shape=ellipse];
+    "tisata" [label="Tīsaṭa" fillcolor="#2e9e63" shape=ellipse];
     "tridosha" [label="Tridoṣa" fillcolor="#2e9e63" shape=ellipse];
     "vagbhata" [label="Vāgbhaṭa" fillcolor="#2e9e63" shape=ellipse];
   }
@@ -394,6 +395,10 @@ digraph ancient_texts {
     "samsara" [label="saṃsāra" fillcolor="#ff6fa5" shape=ellipse];
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
+  }
+  subgraph "cluster_unwritten" { style=invis; peripheries=0;
+    "niscalakara" [label="niscalakara" fillcolor="#777777" shape=box];
+    "vrnda" [label="vrnda" fillcolor="#777777" shape=box];
   }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
     "ahura-mazda" [label="Ahura Mazdā" fillcolor="#9aa0a6" shape=ellipse];
@@ -814,6 +819,7 @@ digraph ancient_texts {
   "candrata" -> "hemadri" [style=dashed color="#0066cc66"];
   "candrata" -> "cakrapanidatta" [style=dashed color="#0066cc66"];
   "candrata" -> "vagbhata" [style=dotted color="#cc000099"];
+  "candrata" -> "tisata" [style=dashed color="#0066cc66"];
   "carvaka" -> "vyapti" [style=dashed color="#0066cc66"];
   "carvaka" -> "vyapti" [style=dotted color="#cc000099"];
   "carvaka" -> "pramana-nyaya" [style=dashed color="#0066cc66"];
@@ -2403,6 +2409,18 @@ digraph ancient_texts {
   "tirthankara" -> "loka-jain" [style=solid color="#33333333"];
   "tirthankara" -> "ahimsa" [style=solid color="#33333333"];
   "tirthankara" -> "avatara-vedanta" [style=dashed color="#0066cc66"];
+  "tisata" -> "ayurveda" [style=solid color="#33333333"];
+  "tisata" -> "tridosha" [style=solid color="#55555533"];
+  "tisata" -> "sushruta" [style=dashed color="#cc660066"];
+  "tisata" -> "charaka" [style=dashed color="#cc660066"];
+  "tisata" -> "vagbhata" [style=dotted color="#cc000099"];
+  "tisata" -> "candrata" [style=dashed color="#0066cc66"];
+  "tisata" -> "niscalakara" [style=dashed color="#0066cc66"];
+  "tisata" -> "cakrapanidatta" [style=dashed color="#0066cc66"];
+  "tisata" -> "vrnda" [style=dotted color="#cc000099"];
+  "tisata" -> "dalhana" [style=dashed color="#0066cc66"];
+  "tisata" -> "hemadri" [style=dashed color="#0066cc66"];
+  "tisata" -> "jejjata" [style=dashed color="#0066cc66"];
   "tridosha" -> "ayurveda" [style=solid color="#33333333"];
   "tridosha" -> "pancha-mahabhuta" [style=dashed color="#0066cc66"];
   "tridosha" -> "guna-samkhya" [style=dotted color="#cc000099"];
