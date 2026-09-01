@@ -138,3 +138,39 @@ The `build_graph` audit caught **three** same-type bidirectional `expressed-by` 
 - **Structural holes this batch exposed:** **`bhartrhari`** and **`vakyapadiya`** — Ch 38 §4.1 shows Navya-Nyāya's signature device has **grammatical** ancestry and the corpus has **no node for the Sanskrit grammatical tradition at all**; **`madhava-nidana`** / **`madhavakara`** — the *Siddhayoga* is organised on it, Tīsaṭa is partly dated by not following it, and it has no node; **`vijayaraksita`** and **`srikanthadatta`** — both are hinges in Ch 39 and neither exists.
 - **Opened by Batch 46:** `annambhatta` / `tarkasangraha` (the manual the school needed); `jagadisha-tarkalankara`; `vardhamana-upadhyaya`; `sridhara` / `nyayakandali`; `jayanta-bhatta` / `nyayamanjari`; `parasara-bhatta`; `yadavaprakasha`.
 - **Maintenance:** carried follow-up — **Ch 11 predates the entire Advaita-lineage cluster and now also Chs 36–39.**
+
+---
+
+## ▶ Batch 47 — OPEN (2026-09-01). Theme: **the śāstra the corpus has been leaning on without a node — Vyākaraṇa.**
+
+**Why this batch.** A grep of `concepts/` finds **20 files** that invoke "grammar / grammatical / Pāṇini / vyākaraṇa"
+— and there is **not one node for the Sanskrit grammatical tradition.** Three specific debts:
+- **Ch 38 §4.1** derives Navya-Nyāya's signature device (`avacchedaka`) from **grammatical** ancestry, citing a
+  tradition the graph cannot show.
+- **`patanjali.md` states the debt in its own prose:** *"No node exists for the grammarian; the caution is
+  recorded here in prose since a typed edge needs a target."* This batch supplies the target.
+- `sabda-pramana`, `apoha`, `mimamsa-pramana` all presuppose a theory of how words mean, sourced to no node.
+
+**⚠ The queue is a set of leads to test, not facts.** Named tests carried in:
+- **T1** — Is the Yoga-sūtra Patañjali the *Mahābhāṣya* Patañjali? `patanjali.md` says no (Renou; Bhojadeva ~10th c.).
+  Test it against grammatical scholarship, not Yoga scholarship. A tradition-split node is only justified if it fails.
+- **T2** — Is *sphoṭa* Bhartṛhari's invention? The corpus's prior is "yes"; the *Mahābhāṣya* may already have the word.
+- **T3** — Does the `avacchedaka`-from-grammar claim in Ch 38 survive contact with an actual grammar source?
+- **T4** — Is the "**munitraya**" (three sages: Pāṇini/Kātyāyana/Patañjali) a scholarly periodisation or a
+  traditional one the corpus would be repeating uncritically?
+
+| # | key | state | note |
+|---|---|---|---|
+| 1 | `vyakarana` | pending | the discipline; vedāṅga, not a darśana — check that claim |
+| 2 | `panini` | pending | |
+| 3 | `astadhyayi` | pending | |
+| 4 | `katyayana` | pending | the vārttikakāra |
+| 5 | `patanjali-grammarian` | pending | tradition-split from `patanjali` **only if T1 holds** |
+| 6 | `mahabhashya` | pending | |
+| 7 | `bhartrhari` | pending | |
+| 8 | `vakyapadiya` | pending | |
+| 9 | `sphota` | pending | T2 |
+| 10 | `shabdabrahman` | pending | |
+| 11 | `karaka` | pending | case-role theory — the likely real ancestor of relational analysis (T3) |
+
+Additions mid-batch are allowed on the Batch 45/46 precedent when a node opens a required edge target.
