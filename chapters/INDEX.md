@@ -57,6 +57,8 @@
 | 37 The Dialecticians: What Refutation Is For | [cross-tradition/37-the-dialecticians.md](cross-tradition/37-the-dialecticians.md) | udayana · śrīharṣa · ānandabodha · citsukha · nṛsiṃhāśrama · malliṣeṇa · vyāsatīrtha · madhusūdana-sarasvatī | drafted |
 | 38 The New Logic: What Navya-Nyāya Was Actually For | [hindu/darsana/38-the-new-logic.md](hindu/darsana/38-the-new-logic.md) | navya-nyāya · gaṅgeśa · tattvacintāmaṇi · avacchedaka · abhāva · raghunātha-śiromaṇi · gadādhara | drafted |
 | 39 Filling in the Blanks: How the Record Gets Made | [cross-tradition/39-filling-in-the-blanks.md](cross-tradition/39-filling-in-the-blanks.md) | jayatīrtha · vedānta-deśika · vimuktātman · tīsaṭa · niścalakara · vṛnda | drafted |
+| 40 What Grammar Was For: Pāṇini & the Ancillary Sciences | [hindu/shastra/40-what-grammar-was-for.md](hindu/shastra/40-what-grammar-was-for.md) | vyākaraṇa · pāṇini · aṣṭādhyāyī · kāraka · kātyāyana · patañjali (vaiyākaraṇa) · mahābhāṣya · nirukta | drafted |
+| 41 The Word as the World: Bhartṛhari & Grammar's Claim to Be a Darśana | [hindu/darsana/41-the-word-as-the-world.md](hindu/darsana/41-the-word-as-the-world.md) | bhartṛhari · vākyapadīya · sphoṭa · śabdabrahman | drafted |
 
 ---
 

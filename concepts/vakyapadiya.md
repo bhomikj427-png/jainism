@@ -74,3 +74,4 @@ Abhyankar's judgement on its opening section is worth having, both for the claim
 - shares-vocabulary-with: jati | kāṇḍa III opens with a *Jāti-samuddeśa*: the grammarian takes up the universal as a problem about how a word can name a class
 - shares-vocabulary-with: dravya-vaisheshika | ⚠ kāṇḍa III is organised on *jāti*, *dravya*, *guṇa*, *dik*, *kriyā*, *kāla*, *sambandha* — the Vaiśeṣika category list, borrowed by a grammarian to structure a book about words
 - structurally-parallel-to: tattvacintamani | both are the founding book of a technical philosophical literature whose working text became the root plus its commentary — here Bhartṛhari is read through Helārāja, as Gaṅgeśa is through the Dīdhiti
+- shares-vocabulary-with: karaka | kāṇḍa III's *Sādhana-samuddeśa* takes up the kāraka doctrine under the grammarians' other name for it, *sādhana* — the participant-role analysis handled as one of the ontological topics alongside *jāti*, *dravya* and *sambandha*

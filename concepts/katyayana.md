@@ -75,3 +75,4 @@ Attributions accumulate on the name. Abhyankar: he "is also **believed** to be t
 - historically-influenced-by: astadhyayi | the Vārttikas exist only as critical notes on Pāṇini's sūtras — the work has no subject apart from that text
 - part-of: mahabhashya | ⚠ a storage fact as much as a structural one: the Vārttikas survive only as quoted and discussed inside the Mahābhāṣya, so Kātyāyana is materially contained in his own commentator
 - structurally-parallel-to: jejjata | the corpus's Āyurvedic case of an author recoverable only through later citation, whose corpus-boundary and date both move with the citing source
+- historically-influenced-by: panini | ⚠ the *munitraya* chain the corpus was missing: the Vārttikas engage Pāṇini the author, not only his text — they correct him. With patanjali-grammarian's edge to Kātyāyana this completes the tradition's own line of descent, Patañjali ← Kātyāyana ← Pāṇini
