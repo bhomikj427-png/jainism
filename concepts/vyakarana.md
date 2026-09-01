@@ -63,11 +63,7 @@ Signals 1–3 **split on the darśana question**, and that split is the finding 
 
 ## Links
 
-- expressed-by: panini | the tradition's founding author — the earliest grammarian whose work survives, not the earliest grammarian
-- expressed-by: katyayana | the second of the munitraya, author of the Vārttikas
-- expressed-by: patanjali-grammarian | the third of the munitraya, author of the Mahābhāṣya — and by Kaiyaṭa's maxim its highest authority
-- expressed-by: bhartrhari | the grammarian who argued vyākaraṇa into a darśana, supplying it a metaphysics it had not previously claimed
-- aggregates-from: astadhyayi | the discipline's root text; munitraya in Abhyankar's second sense names this very text as the triad's joint contribution
-- shares-vocabulary-with: sabda-pramana | grammarians analyse how words mean; Mīmāṃsā and Nyāya turn that into testimony as a means of knowledge — SEP notes the grammarians develop no pramāṇa theory of their own
 - structurally-parallel-to: ayurveda | the corpus's other non-darśana śāstra — a technical discipline with its own canon, commentarial hierarchy and dating problems, filed outside the six systems
+- shares-vocabulary-with: sabda-pramana | grammarians analyse how words mean; Mīmāṃsā and Nyāya turn that into testimony as a means of knowledge — SEP notes the grammarians develop no pramāṇa theory of their own
 - often-conflated-with-NOT-equivalent: mimamsa-sutra | both hold śabda eternal and both theorise Vedic language, but Mīmāṃsā's interest is injunctive force and testimony while the grammarians' is the form and unity of the utterance — and the two reach opposite verdicts on sphoṭa
+- shares-vocabulary-with: nirukta | the sister vedāṅga: vyākaraṇa fixes the correct *form* of words, nirukta their *meaning* in context — Wikipedia sets the two side by side, and Yāska names grammarians Pāṇini also names
