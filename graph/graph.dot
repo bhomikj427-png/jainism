@@ -404,6 +404,7 @@ digraph ancient_texts {
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
     "astadhyayi" [label="Aṣṭādhyāyī" fillcolor="#9aa0a6" shape=ellipse];
     "bhartrhari" [label="Bhartṛhari" fillcolor="#9aa0a6" shape=ellipse];
+    "kaiyata" [label="Kaiyaṭa" fillcolor="#9aa0a6" shape=ellipse];
     "karaka" [label="kāraka" fillcolor="#9aa0a6" shape=ellipse];
     "katyayana" [label="Kātyāyana" fillcolor="#9aa0a6" shape=ellipse];
     "mahabhashya" [label="Mahābhāṣya" fillcolor="#9aa0a6" shape=ellipse];
@@ -1282,6 +1283,12 @@ digraph ancient_texts {
   "jnana-marga" -> "karma-marga" [style=dashed color="#0066cc66"];
   "jnana-marga" -> "samyak-darshana" [style=dashed color="#0066cc66"];
   "kadru" -> "vinata" [style=dashed color="#00993366"];
+  "kaiyata" -> "mahabhashya" [style=dashed color="#cc660066"];
+  "kaiyata" -> "vyakarana" [style=solid color="#55555533"];
+  "kaiyata" -> "patanjali-grammarian" [style=dashed color="#cc660066"];
+  "kaiyata" -> "bhartrhari" [style=dashed color="#cc660066"];
+  "kaiyata" -> "patanjali" [style=dashed color="#cc660066"];
+  "kaiyata" -> "tattvacintamani" [style=dashed color="#00993366"];
   "kala-bhairava" -> "shiva" [style=solid color="#33333333"];
   "kala-bhairava" -> "kala-dravya" [style=dashed color="#0066cc66"];
   "kala-bhairava" -> "kala-dravya" [style=dotted color="#cc000099"];
@@ -1482,6 +1489,7 @@ digraph ancient_texts {
   "mahabhashya" -> "sphota" [style=solid color="#55555533"];
   "mahabhashya" -> "astadhyayi" [style=dashed color="#cc660066"];
   "mahabhashya" -> "bhartrhari" [style=solid color="#55555533"];
+  "mahabhashya" -> "kaiyata" [style=solid color="#55555533"];
   "mahabhashya" -> "jati" [style=dashed color="#0066cc66"];
   "mahabhashya" -> "tattvacintamani" [style=dashed color="#00993366"];
   "mahabhashya" -> "sabda-pramana" [style=dashed color="#0066cc66"];
