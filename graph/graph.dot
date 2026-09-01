@@ -278,6 +278,7 @@ digraph ancient_texts {
     "vasuki" [label="Vāsuki" fillcolor="#4fd16b" shape=ellipse];
     "vedanta-desika" [label="Veṅkaṭanātha (Vedānta Deśika)" fillcolor="#4fd16b" shape=ellipse];
     "vidyaranya" [label="Vidyāraṇya" fillcolor="#4fd16b" shape=ellipse];
+    "vimuktatman" [label="Vimuktātman" fillcolor="#4fd16b" shape=ellipse];
     "vinata" [label="Vinatā" fillcolor="#4fd16b" shape=ellipse];
     "vishishtadvaita" [label="Viśiṣṭādvaita" fillcolor="#4fd16b" shape=ellipse];
     "vishnu" [label="Viṣṇu" fillcolor="#4fd16b" shape=ellipse];
@@ -456,6 +457,7 @@ digraph ancient_texts {
   "advaita-vedanta" -> "vivartavada" [style=solid color="#55555533"];
   "advaita-vedanta" -> "jnana-marga" [style=solid color="#55555533"];
   "advaita-vedanta" -> "mandana-mishra" [style=dashed color="#0066cc66"];
+  "advaita-vedanta" -> "vimuktatman" [style=solid color="#55555533"];
   "aghati-karma" -> "karma-prakriti" [style=solid color="#33333333"];
   "aghati-karma" -> "karma" [style=solid color="#33333333"];
   "aghati-karma" -> "arihant" [style=solid color="#55555533"];
@@ -549,6 +551,7 @@ digraph ancient_texts {
   "anandabodha" -> "sriharsa" [style=dashed color="#0066cc66"];
   "anandabodha" -> "ramanuja" [style=dashed color="#0066cc66"];
   "anandabodha" -> "navya-nyaya" [style=dashed color="#0066cc66"];
+  "anandabodha" -> "vimuktatman" [style=dotted color="#cc000099"];
   "anatta-buddhist" -> "jiva" [style=dotted color="#cc000099"];
   "anatta-buddhist" -> "nirvana-buddhist" [style=dashed color="#0066cc66"];
   "anatta-buddhist" -> "skandha-buddhist" [style=solid color="#33333333"];
@@ -2586,6 +2589,14 @@ digraph ancient_texts {
   "vijnaptimatrata" -> "madhyamaka" [style=dotted color="#cc000099"];
   "vijnaptimatrata" -> "trisvabhava" [style=solid color="#33333333"];
   "vijnaptimatrata" -> "utpaladeva" [style=dotted color="#cc000099"];
+  "vimuktatman" -> "advaita-vedanta" [style=solid color="#33333333"];
+  "vimuktatman" -> "anandabodha" [style=dotted color="#cc000099"];
+  "vimuktatman" -> "citsukha" [style=dashed color="#0066cc66"];
+  "vimuktatman" -> "prakasatman" [style=dotted color="#cc000099"];
+  "vimuktatman" -> "mandana-mishra" [style=dashed color="#0066cc66"];
+  "vimuktatman" -> "sureshvara" [style=dashed color="#0066cc66"];
+  "vimuktatman" -> "madhusudana-sarasvati" [style=dashed color="#0066cc66"];
+  "vimuktatman" -> "maya-advaita" [style=dashed color="#0066cc66"];
   "vinata" -> "garuda" [style=dashed color="#0066cc66"];
   "vinata" -> "aruna" [style=dashed color="#0066cc66"];
   "vindhyavasin" -> "kapila" [style=dashed color="#cc660066"];

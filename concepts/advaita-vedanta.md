@@ -44,3 +44,4 @@ The two are independent (a peer-reviewed philosophy encyclopedia and a reference
 - expressed-by: vivartavada | vivartavāda ("appearance-only" causation) is the Advaita causal theory — Brahman appears to transform without really doing so
 - expressed-by: jnana-marga | jñāna-mārga (path of knowledge) is the soteriological method Advaita prioritises; mokṣa = epistemic shift via śravaṇa/manana/nididhyāsana
 - shares-vocabulary-with: mandana-mishra | Maṇḍana Miśra's Brahmasiddhi is a foundational Advaita treatise — though his locus-of-avidyā doctrine differs from Śaṅkara's, and his identity with Sureśvara is contested
+- expressed-by: vimuktatman | the *Iṣṭasiddhi*, one of the **four traditional *siddhi*s** of the school — with `mandana-mishra`, `sureshvara` and `madhusudana-sarasvati`, all four of their authors are now in the corpus. His was the account of avidyā that **Prakāśātman's Vivaraṇa school eventually displaced**
