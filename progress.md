@@ -31,6 +31,30 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 ---
 
+### ⭐ A trajectory note, added after Batch 47 closed — **make Batch 48 a DEPTH batch, not a widening one**
+
+*(Written by the Batch 46 session reviewing the corpus's direction across 44–47. It does not replace the Batch 48 suggestions below; it says what to do **with** them.)*
+
+**The project is on track on every metric it measures, and drifting on the one thing it is *for*.** The evidence for "on track" is strong and is worth naming, because it is the machinery working as designed: **Ch 38 §4.1 (Batch 46) found that Navya-Nyāya's signature device had *grammatical* ancestry and recorded that the corpus had no node for Bhartṛhari or the *Vākyapadīya*. One batch later there are twelve grammar nodes.** The corpus told the next session what to build and it got built. Batch 47 then **qualified Batch 46's own generalisation** about reference sources rather than inheriting it. **Cross-session self-correction is the healthiest signal this project has.**
+
+**The drift, in three measurable forms:**
+
+1. **Distance from primary sources is growing, not shrinking.** §1 says work from critical editions and existing scholarly translations; in practice Batches 44–47 worked from **reference works *about* those texts**. Both of the last two batches hit unreadable OCR on a located edition. **The "identified but not read" lists are compounding: each batch adds ~8 and closes 1–2.**
+2. **Teaching-layer staleness is accelerating.** Ch 11 was seven chapters out of date at the close of Batch 46 and is **nine** now. Chapters are write-once and never revisited, so this grows by one per batch until someone stops it.
+3. **The follow-up debt from Batches 43–46 is almost entirely untouched.**
+
+**So: spend Batch 48 on depth and debt, and add new nodes only where a written chapter already depends on a node that does not exist.** Growth resumes at 49.
+
+**Part A — read what is already in hand or cheap.** ⭐ **`Matilal 1968 Parts II–III`** — his English translations of Gaṅgeśa's ***Abhāva-vāda*** and Raghunātha's ***Nañvāda*** with the Sanskrit appended. **Still the cheapest high-value item in the corpus**: a published scholarly translation of part of the primary text, downloadable by a known-good route, sampled in Batch 46 and never worked through. Upgrades four nodes from exposition-of-exposition to text.
+
+**Part B — the standing external items**: Potter's *Padārthatattvanirūpaṇa* (1957) — settles what Raghunātha's "denies atoms" amounts to, and the number-eliminated/number-added contradiction that currently carries a hypothesis of the corpus's own; **Neevel 1977 pp. 14–16**; the *Ratnaprabhā* and the *Siddhayoga* with Śrīkaṇṭhadatta (**five files depend on these and none has seen a line**); Phillips's *Tattvacintāmaṇi*; Ingalls 1951.
+
+⚠ **Part C — a fairness item, not a gap. `P. V. Sharma` appears four times in Batch 46 and always in rebuttal**, and the corpus has never read him directly. **A file that only ever records one side of a dispute is not neutral**, however good the source doing the rebutting.
+
+**Part D — maintenance.** ⭐ **Revise Ch 11.** Nine chapters out of date is now the largest staleness in the corpus. Also check whether **Ch 26 §6.4** and **Ch 31 §4.2** still describe holes that have since closed.
+
+---
+
 ## Batch 47 — CLOSED (2026-09-01). 12/12 concepts; 375 → 387 nodes; 2339 → 2410 edges. Plus Ch 40 and Ch 41.
 
 Theme: **the śāstra the corpus had been leaning on without a node — Vyākaraṇa.** A grep found **20 files** invoking "grammar / Pāṇini / vyākaraṇa" against **zero** nodes for the Sanskrit grammatical tradition. **`python graph/check_all.py` → ALL CHECKS PASS**, chapter coverage **387/387**, structural audit **CLEAN**.
