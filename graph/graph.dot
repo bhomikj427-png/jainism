@@ -411,6 +411,7 @@ digraph ancient_texts {
     "katyayana" [label="Kātyāyana" fillcolor="#9aa0a6" shape=ellipse];
     "mahabhashya" [label="Mahābhāṣya" fillcolor="#9aa0a6" shape=ellipse];
     "makkhali-gosala" [label="Makkhali Gosāla" fillcolor="#9aa0a6" shape=ellipse];
+    "nagesha-bhatta" [label="Nāgeśa Bhaṭṭa" fillcolor="#9aa0a6" shape=ellipse];
     "panini" [label="Pāṇini" fillcolor="#9aa0a6" shape=ellipse];
     "patanjali-grammarian" [label="Patañjali (vaiyākaraṇa)" fillcolor="#9aa0a6" shape=ellipse];
     "sabdabrahman" [label="śabdabrahman" fillcolor="#9aa0a6" shape=ellipse];
@@ -1299,6 +1300,7 @@ digraph ancient_texts {
   "kaiyata" -> "patanjali-grammarian" [style=dashed color="#cc660066"];
   "kaiyata" -> "bhartrhari" [style=dashed color="#cc660066"];
   "kaiyata" -> "patanjali" [style=dashed color="#cc660066"];
+  "kaiyata" -> "nagesha-bhatta" [style=solid color="#55555533"];
   "kaiyata" -> "tattvacintamani" [style=dashed color="#00993366"];
   "kala-bhairava" -> "shiva" [style=solid color="#33333333"];
   "kala-bhairava" -> "kala-dravya" [style=dashed color="#0066cc66"];
@@ -1635,6 +1637,11 @@ digraph ancient_texts {
   "nagarjuna" -> "prasanga-nagarjuna" [style=solid color="#55555533"];
   "nagarjuna" -> "catuskoti" [style=solid color="#55555533"];
   "nagarjuna" -> "dvisatya" [style=solid color="#55555533"];
+  "nagesha-bhatta" -> "vyakarana" [style=solid color="#55555533"];
+  "nagesha-bhatta" -> "kaiyata" [style=dashed color="#cc660066"];
+  "nagesha-bhatta" -> "katyayana" [style=dashed color="#0066cc66"];
+  "nagesha-bhatta" -> "sphota" [style=dashed color="#0066cc66"];
+  "nagesha-bhatta" -> "astadhyayi" [style=dashed color="#00993366"];
   "naigama-naya" -> "naya" [style=solid color="#33333333"];
   "naigama-naya" -> "anekantavada" [style=solid color="#33333333"];
   "naigama-naya" -> "dravyarthika-naya" [style=solid color="#33333333"];

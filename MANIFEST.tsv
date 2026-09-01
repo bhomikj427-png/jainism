@@ -43,7 +43,7 @@ arunadatta	Āyurveda (Aṣṭāṅgahṛdaya commentarial tradition)	converged	m
 asanga	Buddhist (Mahāyāna; Yogācāra / Vijñānavāda)	converged	medium	5	असङ्ग
 asatkaryavada	Nyāya-Vaiśeṣika	converged	medium	6	असत्कार्यवाद
 asrava	Jain	converged	medium	11	आस्रव
-astadhyayi	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	11	अष्टाध्यायी
+astadhyayi	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	12	अष्टाध्यायी
 asteya	Jain	converged	medium	7	अस्तेय
 astikaya	Jain	converged	medium	9	अस्तिकाय
 atman-vedanta	Vedanta	converged	medium	27	आत्मन् (वेदान्त)
@@ -137,7 +137,7 @@ jiva	Jain	converged	medium	32	जीव
 jivanmukti	Hindu (Advaita Vedānta; also Yoga; pan-Indic comparandum)	converged	medium	13	जीवन्मुक्ति
 jnana-marga	Vedānta (Advaita primary; cross-āstika)	converged	medium	10	ज्ञानमार्ग
 kadru	Hindu (epic / Purāṇic)	converged	medium	4	कद्रू
-kaiyata	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	8	कैयट
+kaiyata	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	10	कैयट
 kala-bhairava	Hindu (Śaiva; Tantra / Kāpālika; also Vajrayāna Buddhist)	converged	medium	4	काल भैरव
 kala-dravya	Jain	converged	medium	11	काल
 kali	Hindu (Śākta; Tantric; pan-Hindu Purāṇic)	converged	medium	5	काली
@@ -158,7 +158,7 @@ karuna	Buddhist (Theravāda + Mahāyāna)	converged	medium	12	करुणा
 karunya	Jain	converged	medium	10	कारुण्य
 kashaya	Jain	converged	medium	16	कषाय
 kasika	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	6	काशिका
-katyayana	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	6	कात्यायन
+katyayana	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	7	कात्यायन
 kaustubha	Hindu (Vaiṣṇava / Puranic)	converged	medium	4	कौस्तुभ
 ketu	Hindu (Purāṇic; jyotiṣa)	converged	medium	5	केतु
 kevala-jnana	Jain	converged	medium	19	केवलज्ञान
@@ -201,6 +201,7 @@ moksha-advaita	Vedanta	converged	medium	21	मोक्ष (अद्वैत)
 mudita	Buddhist (Theravāda; pan-Buddhist)	converged	medium	7	मुदिता
 mulamadhyamakakarika	Buddhist (Madhyamaka)	converged	medium	12	मूलमध्यमककारिका
 nagarjuna	Buddhist (Madhyamaka)	converged	medium	11	नागार्जुन
+nagesha-bhatta	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	6	नागेशभट्ट
 naigama-naya	Jain	converged	medium	7	नैगमनय
 namarupa	Buddhist	converged	medium	6	नामरूप
 namokara	Jain	converged	medium	9	णमोकार मंत्र
@@ -317,7 +318,7 @@ skandha	Jain	converged	medium	8	स्कन्ध
 skandha-buddhist	Buddhist	converged	medium	9	स्कन्ध / खन्ध (Pali: khandha)
 somananda	Hindu (Kashmir Śaivism — Pratyabhijñā)	contested	medium	9	सोमानन्द
 spanda	Hindu (Kashmir Śaivism)	converged	medium	9	स्पन्द
-sphota	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	12	स्फोट
+sphota	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	13	स्फोट
 sriharsa	Advaita Vedānta (disputed affiliation); pan-darśana dialectician	contested	medium	14	श्रीहर्ष
 sthitaprajna	Hindu (Vedānta; Bhagavad Gītā)	converged	medium	8	स्थितप्रज्ञ
 stoic-logos	Greek (Stoic)	converged	medium	14	
@@ -379,7 +380,7 @@ vishnu-sahasranama	Hindu (Vaiṣṇava)	converged	medium	9	विष्णुस
 vivartavada	Vedānta (Advaita / post-Śaṅkara)	contested	medium	12	विवर्तवाद
 vritra	Hindu (Vedic → epic/Purāṇic)	contested	medium	9	वृत्र
 vrnda	Āyurveda (post-classical therapeutic literature; Bengal)	contested	medium	13	
-vyakarana	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	16	व्याकरण
+vyakarana	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	17	व्याकरण
 vyapti	cross-tradition (Nyāya, Buddhist, Jain)	converged	medium	25	व्याप्ति
 vyasa	Hindu (Itihāsa / Purāṇa / Vedānta tradition)	converged	medium	13	व्यास
 vyasa-yogabhasya	Yoga (Pātañjala-Yoga darśana)	contested	low	6	व्यास
