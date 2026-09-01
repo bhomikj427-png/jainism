@@ -159,13 +159,13 @@ karuna	Buddhist (Theravāda + Mahāyāna)	converged	medium	12	करुणा
 karunya	Jain	converged	medium	10	कारुण्य
 kashaya	Jain	converged	medium	16	कषाय
 kasika	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	9	काशिका
-katyayana	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	9	कात्यायन
+katyayana	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	10	कात्यायन
 kaundabhatta	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	converged	medium	7	कौण्डभट्ट
 kaustubha	Hindu (Vaiṣṇava / Puranic)	converged	medium	4	कौस्तुभ
 ketu	Hindu (Purāṇic; jyotiṣa)	converged	medium	5	केतु
 kevala-jnana	Jain	converged	medium	19	केवलज्ञान
 krishna	Hindu (Vaiṣṇava; pan-Hindu)	contested	medium	17	कृष्ण
-kumarila-bhatta	Mīmāṃsā (Bhāṭṭa sub-school; āstika darśana)	converged	medium	10	कुमारिल भट्ट
+kumarila-bhatta	Mīmāṃsā (Bhāṭṭa sub-school; āstika darśana)	converged	medium	11	कुमारिल भट्ट
 kundakunda	Jain	converged	medium	8	कुन्दकुन्द
 kurma	Hindu (Vedic → Vaiṣṇava)	contested	medium	6	कूर्म
 lakshmi	Hindu (Vaiṣṇava / Śākta)	converged	medium	15	लक्ष्मी
@@ -186,14 +186,14 @@ mala	Āyurveda	converged	medium	10	मल
 mallisena	Jain (Śvetāmbara; 13th-century)	converged	medium	7	
 manah-paryaya-jnana	Jain	converged	medium	8	मनःपर्यायज्ञान
 manas	cross-tradition (Jain, Buddhist, Sāṃkhya, Nyāya-Vaiśeṣika)	converged	medium	8	मनस्
-mandana-mishra	Mīmāṃsā → Advaita Vedānta	contested	medium	13	मण्डन मिश्र
+mandana-mishra	Mīmāṃsā → Advaita Vedānta	contested	medium	14	मण्डन मिश्र
 many-valued-logic	Western (mathematical logic / philosophy of logic)	converged	medium	15	(no Sanskrit equivalent)
 marinus	Greek / Late Antique (Athenian Neoplatonist)	converged	medium	6	
 mati-jnana	Jain	converged	medium	7	मतिज्ञान
 matsya	Hindu (Vedic → Vaiṣṇava)	converged	medium	4	मत्स्य
 maya-advaita	Vedanta	contested	medium	33	माया (अद्वैत)
 metta	Buddhist (Theravāda; pan-Buddhist)	converged	medium	10	मेत्ता
-mimamsa-pramana	Vedanta	converged	medium	22	प्रमाण (मीमांसा)
+mimamsa-pramana	Vedanta	converged	medium	23	प्रमाण (मीमांसा)
 mimamsa-sutra	Mīmāṃsā (Pūrva Mīmāṃsā; āstika darśana)	converged	medium	15	मीमांसासूत्र
 modern-atom	Modern Physics	converged	high	8	(no Sanskrit equivalent)
 mohaniya	Jain	converged	medium	8	मोहनीय
@@ -321,7 +321,8 @@ skandha	Jain	converged	medium	8	स्कन्ध
 skandha-buddhist	Buddhist	converged	medium	9	स्कन्ध / खन्ध (Pali: khandha)
 somananda	Hindu (Kashmir Śaivism — Pratyabhijñā)	contested	medium	9	सोमानन्द
 spanda	Hindu (Kashmir Śaivism)	converged	medium	9	स्पन्द
-sphota	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	15	स्फोट
+sphota	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	16	स्फोट
+sphotasiddhi	Mīmāṃsā → Advaita Vedānta (on a Vyākaraṇa doctrine)	converged	medium	6	स्फोटसिद्धि
 sriharsa	Advaita Vedānta (disputed affiliation); pan-darśana dialectician	contested	medium	14	श्रीहर्ष
 sthitaprajna	Hindu (Vedānta; Bhagavad Gītā)	converged	medium	8	स्थितप्रज्ञ
 stoic-logos	Greek (Stoic)	converged	medium	14	
@@ -360,7 +361,7 @@ vacaspati-mishra	Advaita Vedānta (Bhāmatī-prasthāna); pan-darśana commentat
 vagbhata	Hindu (Āyurveda)	contested	medium	20	वाग्भट
 vaiseshika-sutra	Nyāya-Vaiśeṣika (Vaiśeṣika; Kaṇāda)	converged	medium	23	वैशेषिकसूत्र
 vaishnavism	Vedic / Hindu (Vaiṣṇava; bhakti traditions and Vedānta schools)	converged	medium	18	वैष्णव
-vakyapadiya	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	13	वाक्यपदीय
+vakyapadiya	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	14	वाक्यपदीय
 valmiki	Hindu (Itihāsa tradition)	converged	medium	5	वाल्मीकि
 vamana	Hindu (Vedic → Vaiṣṇava)	converged	medium	6	वामन
 varaha	Hindu (Vedic → Vaiṣṇava)	converged	medium	6	वराह

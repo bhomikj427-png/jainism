@@ -336,6 +336,7 @@ digraph ancient_texts {
     "mandana-mishra" [label="Maṇḍana Miśra" fillcolor="#2dd4bf" shape=ellipse];
     "mimamsa-sutra" [label="Mīmāṃsāsūtra" fillcolor="#2dd4bf" shape=ellipse];
     "prabhakara" [label="Prabhākara" fillcolor="#2dd4bf" shape=ellipse];
+    "sphotasiddhi" [label="Sphoṭasiddhi" fillcolor="#2dd4bf" shape=ellipse];
     "yajna" [label="yajña" fillcolor="#2dd4bf" shape=ellipse];
   }
   subgraph "cluster_Carvaka" { style=invis; peripheries=0;
@@ -1572,6 +1573,7 @@ digraph ancient_texts {
   "manas" -> "jiva" [style=dotted color="#cc000099"];
   "manas" -> "upayoga" [style=dashed color="#00993366"];
   "mandana-mishra" -> "kumarila-bhatta" [style=dashed color="#cc660066"];
+  "mandana-mishra" -> "sphotasiddhi" [style=solid color="#55555533"];
   "mandana-mishra" -> "advaita-vedanta" [style=dashed color="#0066cc66"];
   "mandana-mishra" -> "brahman" [style=dashed color="#0066cc66"];
   "mandana-mishra" -> "sureshvara" [style=dotted color="#cc000099"];
@@ -2411,6 +2413,11 @@ digraph ancient_texts {
   "sphota" -> "apoha" [style=dotted color="#cc000099"];
   "sphota" -> "mandana-mishra" [style=dashed color="#0066cc66"];
   "sphota" -> "sabda-pramana" [style=dotted color="#cc000099"];
+  "sphotasiddhi" -> "sphota" [style=solid color="#55555533"];
+  "sphotasiddhi" -> "vakyapadiya" [style=dashed color="#cc660066"];
+  "sphotasiddhi" -> "kumarila-bhatta" [style=dashed color="#cc660066"];
+  "sphotasiddhi" -> "mimamsa-pramana" [style=solid color="#33333333"];
+  "sphotasiddhi" -> "katyayana" [style=dashed color="#00993366"];
   "sriharsa" -> "udayana" [style=dashed color="#cc660066"];
   "sriharsa" -> "pramana-nyaya" [style=dashed color="#0066cc66"];
   "sriharsa" -> "advaita-vedanta" [style=dashed color="#0066cc66"];
