@@ -19,11 +19,48 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 ---
 
-## ▶ NEXT SESSION — start here
+## ▶ BATCH 46 — OPEN (2026-09-01). Theme: **close the Navya-Nyāya hole.**
 
-**The repo is fully green.** `python graph/check_all.py` passes all three checks; there is no outstanding
-maintenance and no red gate. So the next unit of work is a **new concept batch (46)** — see the suggestions
-at the end of the Batch 45 run-log below.
+The repo was fully green at batch open (`check_all.py`: ALL CHECKS PASS, 362 nodes / 2198 edges / 37 chapters).
+Batch 46 is therefore new nodes, not maintenance.
+
+**Why this theme.** Batch 45's closing report flagged Navya-Nyāya as *"a complete hole."* Verified at batch
+open by grep: **Gaṅgeśa and/or "Navya-Nyāya" are named in 7 concept files** (`tarka`, `vyapti`, `udayana`,
+`sriharsa`, `anandabodha`, `vacaspati-mishra`, `madhusudana-sarasvati`) **and 3 chapters** (05, 37, and 37's
+Madhusūdana section) — **with no node anywhere.** `tarka.md` even carries `Tattvacintāmaṇi (Gaṅgeśa)` in its
+`source_text` front-matter. The corpus has old Nyāya (Gautama → Vātsyāyana → Praśastapāda → Vācaspati →
+Udayana) and then stops at exactly the point the tradition itself calls a new beginning. This is the largest
+remaining named-but-unbuilt structure in the graph.
+
+⚠ **Dedup gate already run against the live filesystem for all 12 keys.** One Batch-45 suggestion was
+**stale**: `padmapada` **already exists** as a node. Dropped from the queue. The remaining 12 keys have no file.
+
+⚠ **The suggestions below are leads, not facts.** Batches 44 and 45 each falsified their own queue premises
+(`nrisimhasrama`, `candrata`). A batch that never falsifies its own queue is not checking it. Expect at least
+one of these twelve to turn out other than advertised, and record it when it does.
+
+### The queue
+
+| # | key | why it is queued | state |
+|---|---|---|---|
+| 1 | `navya-nyaya` | the school itself — the anchor node the other five hang from | pending |
+| 2 | `gangesha` | Gaṅgeśa Upādhyāya, the founder; named in 5 files with no node | pending |
+| 3 | `tattvacintamani` | the text; already in `tarka.md`'s front-matter as a source | pending |
+| 4 | `raghunatha-siromani` | the Dīdhiti, and the man who **revised Vaiśeṣika's category list** | pending |
+| 5 | `gadadhara` | late Navadvīpa; named in `madhusudana-sarasvati.md` | pending |
+| 6 | `avacchedaka` | the *limitor* — the technical device that makes Navya-Nyāya a notation | pending |
+| 7 | `jayatirtha` | Madhva's standardiser; named repeatedly in `vyasatirtha.md`, `madhva.md` | pending |
+| 8 | `vedanta-desika` | Śrī Vaiṣṇavism's other systematiser; 44 citations of the lost *Nyāyatattva* | pending |
+| 9 | `vimuktatman` | Ānandabodha's alleged teacher — **single-sourced**, so writing him IS the test | pending |
+| 10 | `tisata` | the *Cikitsākalikā*; Candraṭa's father, whose authority-list omits Vāgbhaṭa | pending |
+| 11 | `niscalakara` | the *Ratnaprabhā* — a witness in four Batch 44/45 nodes | pending |
+| 12 | `vrnda` | the *Siddhayoga* | pending |
+
+Then: a chapter (or two) over the new nodes, `check_all.py`, run-log, rotate Batch 45's log to the archive.
+
+---
+
+## (Batch 45's closing suggestions, kept for reference)
 
 ⚠ **Read this before opening Batch 46.** Batch 45 falsified **two** of its own queue premises (`candrata`,
 `nrisimhasrama` in Batch 44 before it). The suggestions below are **leads, not facts** — every one of them is
