@@ -410,6 +410,7 @@ digraph ancient_texts {
     "karaka" [label="kāraka" fillcolor="#9aa0a6" shape=ellipse];
     "kasika" [label="Kāśikā" fillcolor="#9aa0a6" shape=ellipse];
     "katyayana" [label="Kātyāyana" fillcolor="#9aa0a6" shape=ellipse];
+    "kaundabhatta" [label="Kauṇḍabhaṭṭa" fillcolor="#9aa0a6" shape=ellipse];
     "mahabhashya" [label="Mahābhāṣya" fillcolor="#9aa0a6" shape=ellipse];
     "makkhali-gosala" [label="Makkhali Gosāla" fillcolor="#9aa0a6" shape=ellipse];
     "nagesha-bhatta" [label="Nāgeśa Bhaṭṭa" fillcolor="#9aa0a6" shape=ellipse];
@@ -790,6 +791,7 @@ digraph ancient_texts {
   "bhattoji-dikshita" -> "vyakarana" [style=solid color="#55555533"];
   "bhattoji-dikshita" -> "astadhyayi" [style=dashed color="#cc660066"];
   "bhattoji-dikshita" -> "mahabhashya" [style=dashed color="#cc660066"];
+  "bhattoji-dikshita" -> "kaundabhatta" [style=solid color="#55555533"];
   "bhattoji-dikshita" -> "kasika" [style=dashed color="#00993366"];
   "bhattoji-dikshita" -> "karaka" [style=dashed color="#0066cc66"];
   "bodhicitta" -> "yogacara" [style=solid color="#33333333"];
@@ -1413,6 +1415,12 @@ digraph ancient_texts {
   "katyayana" -> "mahabhashya" [style=solid color="#33333333"];
   "katyayana" -> "jejjata" [style=dashed color="#00993366"];
   "katyayana" -> "panini" [style=dashed color="#cc660066"];
+  "kaundabhatta" -> "vyakarana" [style=solid color="#55555533"];
+  "kaundabhatta" -> "bhattoji-dikshita" [style=dashed color="#cc660066"];
+  "kaundabhatta" -> "navya-nyaya" [style=dashed color="#cc660066"];
+  "kaundabhatta" -> "mimamsa-pramana" [style=dashed color="#cc660066"];
+  "kaundabhatta" -> "sphota" [style=dashed color="#0066cc66"];
+  "kaundabhatta" -> "vakyapadiya" [style=dashed color="#00993366"];
   "kaustubha" -> "samudra-manthana" [style=solid color="#33333333"];
   "kaustubha" -> "vishnu" [style=dashed color="#0066cc66"];
   "kaustubha" -> "lakshmi" [style=dashed color="#0066cc66"];

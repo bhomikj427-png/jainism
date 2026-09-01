@@ -45,5 +45,6 @@ He was a Brahmin, reported from Maharashtra or Andhra; his teacher was **Śeṣa
 - expressed-by: vyakarana | the man who re-ordered the tradition's root text for teaching, and whose arrangement — not Pāṇini's — is how Sanskrit grammar has been learned since
 - historically-influenced-by: astadhyayi | the Siddhāntakaumudī re-arranges its sūtras topic-wise, so that every rule needed for one derivation sits in one place instead of across eight chapters
 - historically-influenced-by: mahabhashya | his *Śabdakaustubha* is a commentary on it — Bhaṭṭoji works at tier 3 and tier 1 at once
+- aggregates-into: kaundabhatta | his *Vaiyākaraṇasiddhāntakārikā* is the verse text his nephew's *Vaiyākaraṇabhūṣaṇa* glosses — the corpus's idiom for "a commentary was written on this," here from author to commentator within one family
 - structurally-parallel-to: kasika | ⭐ Abhyankar names the two together as the authorities whose commentarial practice fixes the received count of Pāṇini's sūtras at 3,983 — a 7th-century gloss and a 17th-century re-ordering, cited as one canon
 - shares-vocabulary-with: karaka | the *Kāraka-prakaraṇa* is where students in practice stop reading his self-commentary, per Abhyankar — the tradition recording its own attrition point
