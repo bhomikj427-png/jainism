@@ -276,6 +276,7 @@ digraph ancient_texts {
     "varuna" [label="Varuṇa" fillcolor="#4fd16b" shape=ellipse];
     "varuni" [label="Vāruṇī" fillcolor="#4fd16b" shape=ellipse];
     "vasuki" [label="Vāsuki" fillcolor="#4fd16b" shape=ellipse];
+    "vedanta-desika" [label="Veṅkaṭanātha (Vedānta Deśika)" fillcolor="#4fd16b" shape=ellipse];
     "vidyaranya" [label="Vidyāraṇya" fillcolor="#4fd16b" shape=ellipse];
     "vinata" [label="Vinatā" fillcolor="#4fd16b" shape=ellipse];
     "vishishtadvaita" [label="Viśiṣṭādvaita" fillcolor="#4fd16b" shape=ellipse];
@@ -1594,6 +1595,7 @@ digraph ancient_texts {
   "nathamuni" -> "bhakti" [style=dashed color="#0066cc66"];
   "nathamuni" -> "gayadasa" [style=dashed color="#00993366"];
   "nathamuni" -> "dalhana" [style=dashed color="#00993366"];
+  "nathamuni" -> "vedanta-desika" [style=dashed color="#0066cc66"];
   "navya-nyaya" -> "pramana-nyaya" [style=dashed color="#cc660066"];
   "navya-nyaya" -> "udayana" [style=dashed color="#cc660066"];
   "navya-nyaya" -> "vaiseshika-sutra" [style=dashed color="#cc660066"];
@@ -2554,6 +2556,15 @@ digraph ancient_texts {
   "vasuki" -> "shiva" [style=dashed color="#0066cc66"];
   "vatsyayana" -> "gautama-aksapada" [style=dashed color="#cc660066"];
   "vatsyayana" -> "nyaya-sutra" [style=solid color="#33333333"];
+  "vedanta-desika" -> "vishishtadvaita" [style=solid color="#33333333"];
+  "vedanta-desika" -> "ramanuja" [style=dashed color="#cc660066"];
+  "vedanta-desika" -> "nathamuni" [style=dashed color="#cc660066"];
+  "vedanta-desika" -> "yamunacarya" [style=dashed color="#cc660066"];
+  "vedanta-desika" -> "vishishtadvaita" [style=solid color="#55555533"];
+  "vedanta-desika" -> "pramana-nyaya" [style=dotted color="#cc000099"];
+  "vedanta-desika" -> "mimamsa-sutra" [style=dashed color="#0066cc66"];
+  "vedanta-desika" -> "mimamsa-pramana" [style=dotted color="#cc000099"];
+  "vedanta-desika" -> "advaita-vedanta" [style=dashed color="#0066cc66"];
   "verethragna" -> "vritra" [style=dashed color="#0066cc66"];
   "verethragna" -> "vritra" [style=dotted color="#cc000099"];
   "verethragna" -> "indra" [style=dashed color="#0066cc66"];
@@ -2586,6 +2597,7 @@ digraph ancient_texts {
   "vishishtadvaita" -> "parinamavada" [style=solid color="#55555533"];
   "vishishtadvaita" -> "bhakti" [style=solid color="#55555533"];
   "vishishtadvaita" -> "vishnu" [style=solid color="#55555533"];
+  "vishishtadvaita" -> "vedanta-desika" [style=solid color="#55555533"];
   "vishnu-sahasranama" -> "mahabharata" [style=solid color="#33333333"];
   "vishnu-sahasranama" -> "vaishnavism" [style=solid color="#33333333"];
   "vishnu-sahasranama" -> "bhakti" [style=solid color="#55555533"];

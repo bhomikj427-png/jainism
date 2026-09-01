@@ -34,6 +34,14 @@ Wikipedia states plainly that the traditional claim of a **400+ year lifespan is
 
 ⚠ **Three consecutive ācāryas, each assigned a span no human reaches.** One such figure is a hagiographic flourish; three in a row, in one lineage, is a **convention** — the *munitraya*'s dates are a system of stitching, not a record. `yamunacarya.md` raised this on two data points; the third confirms it, and it retrospectively supports Sydnor's verdict in `ramanuja.md` that reconstructing these lives is "nearly impossible." **What survives the observation:** the 9th–12th century placement and the *order*, which are constrained by the citation record. What does not: any endpoint.
 
+⚠⚠ **CONFIRMED FROM OUTSIDE, Batch 46 — and it is no longer this corpus's inference.** The observation above was arithmetic: three impossible spans, therefore a convention. Writing [[vedanta-desika|`vedanta-desika.md`]] found a specialist stating the mechanism outright. **Elisa Freschi**, in the peer-reviewed *Internet Encyclopedia of Philosophy*:
+
+> "the **lifespans of the earliest teachers of Viśiṣṭādvaita Vedānta have been prolonged in order to connect them with each other**" — citing **Neevel 1977, pp. 14–16**
+
+**That is exactly the "system of stitching" this file proposed, named, sourced, and given a purpose: the spans are stretched *so that the teachers can have met*.** Freschi adds that the biographical material "comes largely from later hagiographies and therefore may not yield reliable historical data," and that the dates are "traditional rather than definitively established." ⚠ **Neevel was not read** — the corpus has Freschi's report of Neevel's argument, corroborated by its own arithmetic. Enough to assert the pattern; **not** enough to assert a corrected date, and none is asserted.
+
+⚠ **The convention outlives the *munitraya*.** Freschi gives Veṅkaṭanātha himself as c. 1269 – c. 1370 — **about 101 years** — so the stretching continues into the 14th century, one ācārya beyond the three tabulated above.
+
 ### Divergence 2 — how the Prabandham was recovered
 
 The tradition: Nāthamuni heard only **ten** (or eleven) hymns of Nammāḻvār at Kumbakonam; went to Tirukkurugūr; chanted the associated verses **12,000 times** beneath a sacred tree; whereupon **Nammāḻvār appeared and gave him all four thousand** compositions of the twelve Āḻvārs.
@@ -79,3 +87,4 @@ Two things follow, and both matter to the corpus:
 - shares-vocabulary-with: bhakti | his compilation of the Āḻvārs' four thousand Tamil verses is the mechanism by which a vernacular devotional corpus became canonical inside a Sanskrit philosophical school
 - structurally-parallel-to: gayadasa | an author who does not survive, reconstructed from the quotations of those who used him — Gayadāsa through Ḍalhaṇa's *Nibandhasaṅgraha*, Nāthamuni through forty-four citations in Vedānta Deśika alone
 - structurally-parallel-to: dalhana | the same evidential shape from the other side: a compiler whose act of gathering is why an earlier literature is recoverable at all — the Prabandham for the Āḻvārs, the *Nibandhasaṅgraha* for Suśruta's commentators
+- shares-vocabulary-with: vedanta-desika | ⚠ **two relations at once.** *Transmission*: the lost *Nyāyatattva* is "quoted largely in the *Nyāyasiddhāñjana*" (Freschi, citing Vīrarāghavācārya 1976, p. 519) — Veṅkaṭanātha is the principal reason anything of this node's subject survives. *Method*: both men annex Nyāya **in their titles** rather than refuting it — *Nyāya-tattva*, "the truth of Nyāya," and *Nyāya-pariśuddhi*, "the purification of Nyāya," whose rule 1.1.2 is "the Nyāya when it agrees with the Veda … not the pure Nyāya." Four centuries apart, the same move. ⚠ the directional influence edge is stored on the Veṅkaṭanātha side (§5); grep for it
