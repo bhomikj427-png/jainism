@@ -52,6 +52,7 @@ He is a Maharashtrian brāhmaṇa — reported from **Tasgaon**, Satara district
 
 - expressed-by: vyakarana | tier 5, and the point at which the tradition's own reference works stop the list — "right on upto Nāgeśa of the 18th century"
 - historically-influenced-by: kaiyata | his *Uddyota* is a commentary on the *Pradīpa*, and it is where Kaiyaṭa's ranking maxim gets its empirical gloss — one that proves more than the maxim says
+- historically-influenced-by: bhattoji-dikshita | ⚠ the corrected relation: a **teaching** descent, not a blood one. Bhaṭṭoji → Haridīkṣita (his grandson) → Nāgeśa, whose Laghu- and Bṛhacchabdenduśekhara are commentaries on Bhaṭṭoji's Siddhāntakaumudī
 - shares-vocabulary-with: katyayana | ⚠ his two-class definition of *Vārttika* is what makes the count contested: on the narrow reading many lines the Mahābhāṣya presents as Vārttikas "will not strictly be termed as Vārttikas," and ~5,000 becomes ~1,400
 - shares-vocabulary-with: sphota | he wrote a *Sphoṭavāda* and the *Vaiyākaraṇasiddhāntamañjūṣā* — and with Kauṇḍabhaṭṭa rejected Bhartṛhari's unitary sentence-meaning model. ⚠ The corpus has read neither work
 - structurally-parallel-to: astadhyayi | ⭐ the same shape as that node's five sūtra counts: the text is stable and its **boundary** is a judgement — here an 18th-c. definition decides how much of Kātyāyana survives

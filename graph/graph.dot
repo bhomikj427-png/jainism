@@ -404,6 +404,7 @@ digraph ancient_texts {
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
     "astadhyayi" [label="Aṣṭādhyāyī" fillcolor="#9aa0a6" shape=ellipse];
     "bhartrhari" [label="Bhartṛhari" fillcolor="#9aa0a6" shape=ellipse];
+    "bhattoji-dikshita" [label="Bhaṭṭoji Dīkṣita" fillcolor="#9aa0a6" shape=ellipse];
     "helaraja" [label="Helārāja" fillcolor="#9aa0a6" shape=ellipse];
     "kaiyata" [label="Kaiyaṭa" fillcolor="#9aa0a6" shape=ellipse];
     "karaka" [label="kāraka" fillcolor="#9aa0a6" shape=ellipse];
@@ -786,6 +787,11 @@ digraph ancient_texts {
   "bhartrhari" -> "parinamavada" [style=dashed color="#00993366"];
   "bhartrhari" -> "advaita-vedanta" [style=dotted color="#cc000099"];
   "bhartrhari" -> "avacchedaka" [style=dashed color="#0066cc66"];
+  "bhattoji-dikshita" -> "vyakarana" [style=solid color="#55555533"];
+  "bhattoji-dikshita" -> "astadhyayi" [style=dashed color="#cc660066"];
+  "bhattoji-dikshita" -> "mahabhashya" [style=dashed color="#cc660066"];
+  "bhattoji-dikshita" -> "kasika" [style=dashed color="#00993366"];
+  "bhattoji-dikshita" -> "karaka" [style=dashed color="#0066cc66"];
   "bodhicitta" -> "yogacara" [style=solid color="#33333333"];
   "bodhicitta" -> "madhyamaka" [style=dashed color="#0066cc66"];
   "bodhicitta" -> "ahimsa-buddhist" [style=dashed color="#0066cc66"];
@@ -1639,6 +1645,7 @@ digraph ancient_texts {
   "nagarjuna" -> "dvisatya" [style=solid color="#55555533"];
   "nagesha-bhatta" -> "vyakarana" [style=solid color="#55555533"];
   "nagesha-bhatta" -> "kaiyata" [style=dashed color="#cc660066"];
+  "nagesha-bhatta" -> "bhattoji-dikshita" [style=dashed color="#cc660066"];
   "nagesha-bhatta" -> "katyayana" [style=dashed color="#0066cc66"];
   "nagesha-bhatta" -> "sphota" [style=dashed color="#0066cc66"];
   "nagesha-bhatta" -> "astadhyayi" [style=dashed color="#00993366"];
