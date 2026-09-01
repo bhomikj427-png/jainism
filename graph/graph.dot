@@ -304,6 +304,7 @@ digraph ancient_texts {
     "indu" [label="Indu" fillcolor="#2e9e63" shape=ellipse];
     "jejjata" [label="Jejjaṭa" fillcolor="#2e9e63" shape=ellipse];
     "mala" [label="mala" fillcolor="#2e9e63" shape=ellipse];
+    "niscalakara" [label="Niścalakara" fillcolor="#2e9e63" shape=ellipse];
     "sushruta" [label="Suśruta" fillcolor="#2e9e63" shape=ellipse];
     "tisata" [label="Tīsaṭa" fillcolor="#2e9e63" shape=ellipse];
     "tridosha" [label="Tridoṣa" fillcolor="#2e9e63" shape=ellipse];
@@ -397,7 +398,6 @@ digraph ancient_texts {
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "niscalakara" [label="niscalakara" fillcolor="#777777" shape=box];
     "vrnda" [label="vrnda" fillcolor="#777777" shape=box];
   }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
@@ -1665,6 +1665,14 @@ digraph ancient_texts {
   "nirvana-mahayana" -> "bodhicitta" [style=solid color="#55555533"];
   "nirvana-mahayana" -> "sunyata" [style=dashed color="#0066cc66"];
   "nirvana-mahayana" -> "tathagata-garbha" [style=dashed color="#0066cc66"];
+  "niscalakara" -> "ayurveda" [style=solid color="#33333333"];
+  "niscalakara" -> "cakrapanidatta" [style=dashed color="#cc660066"];
+  "niscalakara" -> "tisata" [style=dashed color="#0066cc66"];
+  "niscalakara" -> "haricandra" [style=dashed color="#0066cc66"];
+  "niscalakara" -> "jejjata" [style=dashed color="#0066cc66"];
+  "niscalakara" -> "candrata" [style=dashed color="#0066cc66"];
+  "niscalakara" -> "vagbhata" [style=dotted color="#cc000099"];
+  "niscalakara" -> "vedanta-desika" [style=dashed color="#0066cc66"];
   "nishchaya-vyavahara" -> "naya" [style=solid color="#33333333"];
   "nishchaya-vyavahara" -> "anekantavada" [style=solid color="#33333333"];
   "nishchaya-vyavahara" -> "sunyata" [style=dashed color="#00993366"];
