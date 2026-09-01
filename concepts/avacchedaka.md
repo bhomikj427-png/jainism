@@ -125,7 +125,6 @@ Matilal then does the translation explicitly, rendering (ii), (iii) and (iv) wit
 ## Links
 
 - part-of: navya-nyaya | the device the school's technical language is built on; without delimited occurrence the notation cannot individuate cognitions and the definition of pervasion does not survive partial location
-- expressed-by: raghunatha-siromani | he wrote a dedicated *Avacchedakatva-nirukti* and, per Matilal, favoured two of the four rival accounts of limitorship — the term is one of the places his hand is most visible
 - formalizes: abhava | ⚠ **honest scoping**: the limitor's most consequential job is on the *absence* side — *ghaṭatvāvacchinna-pratiyogitā*, "counterpositive-ness delimited by pot-ness," is how Nyāya says *all* pots without a quantifier. Ingalls: in a hierarchy of abstractions "it is only by the use of negation that universal laws can be framed"
 - structurally-parallel-to: paraconsistent-logic | the *kapi-saṃyoga* case is the same puzzle a paraconsistent logic is built for: two apparently contradictory statements about one locus, both true
 - often-conflated-with-NOT-equivalent: paraconsistent-logic | ⚠ **and the opposite repair.** Paraconsistency weakens explosion so a contradiction can be survived. Nyāya **denies the contradiction**: the two occurrences carry different delimitors and never were about the same thing. Non-contradiction is preserved, not relaxed

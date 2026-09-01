@@ -405,8 +405,6 @@ digraph ancient_texts {
   "abhava" -> "vaiseshika-sutra" [style=dashed color="#cc660066"];
   "abhava" -> "prashastapada" [style=dashed color="#cc660066"];
   "abhava" -> "avacchedaka" [style=solid color="#55555533"];
-  "abhava" -> "raghunatha-siromani" [style=solid color="#55555533"];
-  "abhava" -> "gangesha" [style=solid color="#55555533"];
   "abhava" -> "mimamsa-pramana" [style=dotted color="#cc000099"];
   "abhava" -> "prabhakara" [style=dotted color="#cc000099"];
   "abhava" -> "pratyaksha-buddhist" [style=dashed color="#0066cc66"];
@@ -699,7 +697,6 @@ digraph ancient_texts {
   "atri" -> "ramayana" [style=dashed color="#0066cc66"];
   "atri" -> "rama" [style=dashed color="#0066cc66"];
   "avacchedaka" -> "navya-nyaya" [style=solid color="#33333333"];
-  "avacchedaka" -> "raghunatha-siromani" [style=solid color="#55555533"];
   "avacchedaka" -> "abhava" [style=solid color="#55555533"];
   "avacchedaka" -> "paraconsistent-logic" [style=dashed color="#00993366"];
   "avacchedaka" -> "paraconsistent-logic" [style=dotted color="#cc000099"];
@@ -1059,6 +1056,7 @@ digraph ancient_texts {
   "gangesha" -> "mimamsa-pramana" [style=dotted color="#cc000099"];
   "gangesha" -> "paramanu-vaisheshika" [style=dashed color="#0066cc66"];
   "gangesha" -> "pramana-nyaya" [style=dashed color="#0066cc66"];
+  "gangesha" -> "abhava" [style=solid color="#55555533"];
   "garuda" -> "vaishnavism" [style=solid color="#33333333"];
   "garuda" -> "nandi" [style=dashed color="#00993366"];
   "gaudapada" -> "advaita-vedanta" [style=solid color="#55555533"];
