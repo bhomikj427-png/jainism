@@ -111,7 +111,7 @@ Hindupedia adds a negative fact that matters: it treats **only** the four *pram�
 ## Links
 
 - part-of: navya-nyaya | the founder on the majority reading; on the minority readings the school's greatest exponent rather than its origin — a distinction `navya-nyaya.md` maps rather than resolves
-- expressed-by: tattvacintamani | one man, one book; the school's whole later literature is commentary on it, and SEP records that two centuries of study flowed through "single sentences or phrases" of one of its chapters
+- expressed-by: tattvacintamani | one man, one book; the school's whole later literature is commentary on it, and SEP records that two centuries of study flowed through "single sentences or phrases" of one of its chapters. Per the commentary census in `tattvacintamani.md`, **his own son Vardhamāna is among its first commentators**. ⚠ stored in this direction only — the corpus idiom is person → what they expressed, and §5 forbids the same directional type both ways; grep for the backlink
 - historically-influenced-by: udayana | SEP: Gaṅgeśa "follows more closely than any other thinker" Udayana and "endorses Udayana's Vaiśeṣika-infused Nyāya"; `udayana.md` already recorded, from the other side, that Gaṅgeśa calls him simply *Ācāryaḥ* — and both men come from Karion
 - historically-influenced-by: dignaga-pramana | the *Tattvacintāmaṇi*'s organising plan, one chapter per knowledge-source, is Dignāga's — a Buddhist book-plan carried into the school that spent centuries refuting Buddhists
 - formalizes: vyapti | the definition of pervasion is where he concentrated and where the tradition followed him; ⚠ the two specialist sources give **different counts** of how many candidate definitions he rejected (SEP 24, Ganeri 21) — recorded, not reconciled

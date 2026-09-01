@@ -101,7 +101,6 @@ Well published, and the corpus can say so from records it read rather than from 
 ## Links
 
 - part-of: navya-nyaya | the foundational text; on the majority reading the school is dated by it, which is why `navya-nyaya.md` has to separate dating-by-book from dating-by-method
-- expressed-by: gangesha | one author, one work — and per the commentary census his own son Vardhamāna is among its first commentators
 - formalizes: vyapti | the book's centre of gravity, and the reason the later literature narrowed to one chapter of it: a serial refutation of candidate definitions of pervasion ending in the *siddhānta-lakṣaṇa*
 - historically-influenced-by: nyaya-sutra | it takes the *Nyāyasūtra*'s first category, *pramāṇa*, and **drops the second, *prameya*** — the inheritance is real and the omission is the argument
 - historically-influenced-by: dignaga-pramana | one chapter per knowledge-source is Dignāga's plan, "copied by Gaṅgeśa" — the consolidating text of the anti-Buddhist school is built on a Buddhist logician's outline

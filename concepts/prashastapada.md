@@ -24,6 +24,11 @@ Authorship and the work's character converge; the **date** is the soft point ("t
 
 - "Prashastapada," *Wikipedia*, https://en.wikipedia.org/wiki/Prashastapada — **encyclopedia**: Padārthadharmasaṃgraha, dates, the seven added guṇas, realism vs Dignāga, overshadowing of the sūtras.
 
+⚠ **Two Batch-46 additions from Matilal, *The Navya-Nyāya Doctrine of Negation* (Harvard 1968), read at first hand.**
+
+1. **He did not add the seventh category either.** "Praśastapāda also did not state whether absence should be considered a separate category" (p. 100). **Śrīdhara** (*Nyāyakandalī*, c. 991) and **Udayana** (*Kiraṇāvalī*, c. 1050) argued that absence, though "not been mentioned by Praśastapāda (or by Kaṇāda) as a separate *padārtha*," was "so approved by them **implicitly**." So the *padārtha*-list this file describes was **later argued to contain more than it says** — see [[abhava|`abhava.md`]].
+2. **A title question, logged not settled.** Matilal, ch. 12 n. 11: "See the opening sentence of Praśastapāda's *Padārthadharmasaṃgraha*. **Should this book be called *Padārthapraveśa*?**" — citing **D. C. Bhattacharyya, *History of Navya-nyāya in Mithilā*, p. 55**. The corpus has now met that monograph from **three** directions (`udayana.md` on Udayana's date, `gangesha.md` via SEP, and here on this title); it remains unread and is the single most-wanted book in the Nyāya layer.
+
 ## Links
 
 - historically-influenced-by: kanada | Praśastapāda's treatise stands downstream of Kaṇāda, the Vaiśeṣika founder
