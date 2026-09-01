@@ -72,5 +72,6 @@ He worked from **two** bodies of data at once: the accentuation and word-formati
 - expressed-by: astadhyayi | Pāṇini's entire surviving output is this one rule-system; the person is recoverable only through the text
 - expressed-by: vyakarana | first of the munitraya and founder of the tradition in the only defensible sense — the earliest grammarian whose book survives
 - shares-vocabulary-with: nirukta | Yāska's etymological vedāṅga names grammarians Pāṇini also names (Śākaṭāyana, Gārgya); the two disciplines share a pre-Pāṇinian roster, though their relative chronology is not settled here
+- shares-vocabulary-with: yaska | the same roster, at the level of the two **men** rather than the two disciplines: each cites Śākaṭāyana and Gārgya as authorities already established, and neither can be dated from the other. ⚠ Their relative order remains open — see nirukta.md
 - structurally-parallel-to: gangesha | both are dated by a literature that drifted one direction over a century or more with every stage still in print — the corpus's own recurring finding about how a spread of estimates is mistaken for a consensus
 - shares-vocabulary-with: kanada | the corpus's other founder-figure known only through a surviving root-text, with predecessors named and lost

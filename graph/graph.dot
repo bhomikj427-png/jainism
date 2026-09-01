@@ -289,6 +289,7 @@ digraph ancient_texts {
     "vyasa" [label="vyāsa" fillcolor="#4fd16b" shape=ellipse];
     "vyasatirtha" [label="Vyāsatīrtha" fillcolor="#4fd16b" shape=ellipse];
     "yamunacarya" [label="Yāmunācārya" fillcolor="#4fd16b" shape=ellipse];
+    "yaska" [label="Yāska" fillcolor="#4fd16b" shape=ellipse];
   }
   subgraph "cluster_Ayurveda" { style=invis; peripheries=0;
     "agni-ayurveda" [label="agni (āyurvedic)" fillcolor="#2e9e63" shape=ellipse];
@@ -1807,6 +1808,7 @@ digraph ancient_texts {
   "panini" -> "astadhyayi" [style=solid color="#55555533"];
   "panini" -> "vyakarana" [style=solid color="#55555533"];
   "panini" -> "nirukta" [style=dashed color="#0066cc66"];
+  "panini" -> "yaska" [style=dashed color="#0066cc66"];
   "panini" -> "gangesha" [style=dashed color="#00993366"];
   "panini" -> "kanada" [style=dashed color="#0066cc66"];
   "papa" -> "asrava" [style=solid color="#33333333"];
@@ -2856,6 +2858,11 @@ digraph ancient_texts {
   "yamunacarya" -> "pramana" [style=dashed color="#0066cc66"];
   "yamunacarya" -> "lakshmi" [style=dashed color="#0066cc66"];
   "yamunacarya" -> "shankara" [style=dashed color="#00993366"];
+  "yaska" -> "nirukta" [style=solid color="#55555533"];
+  "yaska" -> "mimamsa-sutra" [style=dashed color="#0066cc66"];
+  "yaska" -> "dhatu" [style=dashed color="#0066cc66"];
+  "yaska" -> "sabda-pramana" [style=dashed color="#0066cc66"];
+  "yaska" -> "vyakarana" [style=dashed color="#00993366"];
   "yoga-darshana" -> "samkhya-karika" [style=dashed color="#0066cc66"];
   "yoga-darshana" -> "samkhya-karika" [style=dotted color="#cc000099"];
   "yoga-darshana" -> "citta-vritti" [style=solid color="#55555533"];
