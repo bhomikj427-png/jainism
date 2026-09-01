@@ -58,6 +58,29 @@ Sharma also records that Vyāsatīrtha "modelled his *Nyāyāmṛta* on the *Vā
 
 ⚠ That closes a circuit worth marking: `sriharsa.md` lists the Advaitin and Naiyāyika responses to the *Khaṇḍana* from SEP, and **no Dvaita response**. There was one; it is lost; and its only witness is the man who started the next war.
 
+### ⭐ Batch 46: the non-partisan specialist, read at last
+
+Batch 45 closed this file with a standing complaint — **"everything in `vyasatirtha.md` currently leans on a committed Dvaita partisan"** — and named **Valerie Stoker** and **Michael Williams** as the two modern specialists who could correct it. **Williams has now been read**, at first hand: *"The Impact of Navya-Nyāya on Mādhva Vedānta: Vyāsatīrtha and the Problem of Empty Terms," Journal of Indian Philosophy 49.2 (2020), 205–232* — peer-reviewed and open access. **Follow-up partly closed.** Four results:
+
+**1. The dates.** Williams gives **1460–1539**, independently of Sharma. That is now **three** sources for 1460 (Sharma 1994; Rao & Sharma 2003 in *Asiatische Studien*; Williams 2020) against Wikipedia's 1447. **This file's lean is confirmed by a non-partisan specialist.**
+
+**2. A Sharma citation that could not be verified.** On the question whether [[jayatirtha|Jayatīrtha]] already knew Gaṅgeśa, Williams writes: *"Sharma ([1961], p. 252) has claimed that Jayatīrtha was aware of Gaṅgeśa"* — and then: ***"I have not been able to locate this verse in any modern edition of the text."*** ⚠ **An unlocated verse is not a fabricated one**, and Williams claims only what he checked. But this is precisely the independent check Batch 45 asked for, and it landed on a citation rather than an interpretation. It does **not** touch the *Nyāyāmṛta* material this file rests on, which is doubly sourced through Anantakrishna Sastri and Dasgupta.
+
+**3. He was the first Mādhva to take on Navya-Nyāya.** Williams: Vyāsatīrtha was **"the first member of the Mādhva tradition to engage in detail with the ideas of Gaṅgeśa and his followers in Mithila."** So the *Nyāyāmṛta* is not only the opening of the Dvaita–Advaita controversy; it is the **arrival of [[navya-nyaya|Navya-Nyāya]] in Vedānta polemic**.
+
+**4. ⚠⚠ And a finding that sharpens this file's own "collection" thesis into something stranger.** Williams shows the two great works use Gaṅgeśa in **opposite directions**:
+
+| work | target | what he does with Navya-Nyāya |
+|---|---|---|
+| ***Nyāyāmṛta*** | Advaita | **"adopted Navya-Nyāya conventions and positions even though they conflicted with his own, Mādhva, views"** |
+| ***Tarkatāṇḍava*** ("Death-Dance of Logic") | Nyāya itself | **critiqued those same positions directly** |
+
+**He borrows a weapon to fight one opponent and then attacks the weapon when he turns to face its owner.** That is not inconsistency; it is the *collection* method this file already identifies, extended — the *Nyāyāmṛta* collects **whatever will defeat an Advaitin**, including positions its author does not hold. It also means **the *Nyāyāmṛta* cannot be read as a straightforward statement of Vyāsatīrtha's own views**, which is a real constraint on every use this corpus makes of it.
+
+⚠ **Williams's methodological verdict, adopted here**: he distances himself from **Karl Potter**'s emphasis on Navya-Nyāya as "rigorous terminology," holding that "the available Sanskrit literature does **not** suggest that Mādhva philosophers regarded their encounter with Navya-Nyāya primarily as a matter of embracing an updated technical language." **Arguments crossed, not jargon.**
+
+⚠ **Still open**: **Valerie Stoker, *Polemics and Patronage in the City of Victory*** remains unread, and it is the one that would test the Vijayanagara/patronage side of this file rather than the philosophical side.
+
 ## Reasoning across signals
 
 **Signal 1 — B. N. K. Sharma, *Advaitasiddhi vs Nyāyāmṛta: An Up To Date Critical Re-Appraisal*, Part I, Ānandatīrtha Pratiṣṭhāna, Bangalore, 1994 — read directly** (Internet Archive full text). A monograph by a named professor (Rupārel College, Bombay), and the single richest source: the 1460–1539 dates, "Prince of Dialecticians," sixth in succession from Jayatīrtha, the *Vādāvalī*/*Vādaratnāvalī* models, Viṣṇudāsācārya's three works of which only one survives, "demolition precedes construction," the four *paricchedas*, Vyāsatīrtha's self-statement of purpose, the fifty-year gap before the *Advaitasiddhi*, "nearly three centuries," Anantakrishna Sastri's assessment quoted at p. 36, Nṛsiṃhāśrama's *Tattvaviveka* citing the *Nyāyāmṛta*, and the Narain–Sharma modern round. ⚠ **Sharma is a committed Dvaita partisan** — the book is a reply on behalf of one side — and is used accordingly: for bibliography, chronology and quotation of others, not for verdicts. **Signal 2 — Mm. Anantakrishna Sastri**, quoted within signal 1: the editor of both sides' texts for the Calcutta Oriental Series IX, and therefore the least partisan voice available on what the *Nyāyāmṛta* is. **Signal 3 — Wikipedia, "Vyasatirtha"**: 1447–1539; Sāḷuva Narasiṃha, Tuḷuva Narasa Nāyaka and Kṛṣṇadevarāya; the three works' subjects; the reply-chain with named authors; and the modern scholars **B. N. K. Sharma, Valerie Stoker and Michael Williams**. **Signal 4 — corpus-internal**: `anandabodha.md` (Dasgupta's independent statement that Vyāsatīrtha collected Ānandabodha's and Prakāśātman's arguments) and `madhva.md` (Rao & Sharma 2003, the *Nyāyāmṛta*'s quotation of the disputed sources, and the 1460–1539 dating).
@@ -88,3 +111,5 @@ Sharma also records that Vyāsatīrtha "modelled his *Nyāyāmṛta* on the *Vā
 - shares-vocabulary-with: nrisimhasrama | a near-contemporary Advaitin whose *Tattvaviveka* cites the *Nyāyāmṛta* — evidence that the Advaita side was reading it well before Madhusūdana replied
 - structurally-parallel-to: sriharsa | the two great Indian works of philosophical demolition, differing on whether demolition is the whole job: Śrīharṣa asserts nothing and is therefore claimable by a school he may not have joined; Vyāsatīrtha builds after clearing, and his allegiance is never in doubt
 - often-conflated-with-NOT-equivalent: sriharsa | and the distinction the map must teach: the *Khaṇḍana* refutes **definitions** to show that no definition can succeed; the *Nyāyāmṛta* refutes **an opposing system** to install its own. Similar reputations, opposite projects — and a **lost** Dvaita reply to Śrīharṣa, Viṣṇudāsācārya's *Khaṇḍana-khaṇḍana*, survives only in Vyāsatīrtha's quotations
+- historically-influenced-by: jayatirtha | the *munitraya* line runs Madhva → Jayatīrtha → Vyāsatīrtha, and the doctrine this file's polemics run on — that we can reason about **nonexistent** things — is Jayatīrtha's, extended here into "substrate-free" (*anāśrita*) qualities and turned against Gaṅgeśa's *āśrayāsiddhi*
+- shares-vocabulary-with: navya-nyaya | Williams 2020: the **first** Mādhva to engage Gaṅgeśa and the Mithilā school in detail — and he does it in two opposite directions, adopting Navya-Nyāya positions in the *Nyāyāmṛta* that he attacks in the *Tarkatāṇḍava*

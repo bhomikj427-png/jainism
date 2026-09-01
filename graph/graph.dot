@@ -200,6 +200,7 @@ digraph ancient_texts {
     "hiranyakashipu" [label="Hiraṇyakaśipu" fillcolor="#4fd16b" shape=ellipse];
     "indra" [label="Indra" fillcolor="#4fd16b" shape=ellipse];
     "jatayu" [label="Jaṭāyu" fillcolor="#4fd16b" shape=ellipse];
+    "jayatirtha" [label="Jayatīrtha" fillcolor="#4fd16b" shape=ellipse];
     "jivanmukti" [label="jīvanmukti" fillcolor="#4fd16b" shape=ellipse];
     "jnana-marga" [label="jñāna-mārga" fillcolor="#4fd16b" shape=ellipse];
     "kadru" [label="Kadrū" fillcolor="#4fd16b" shape=ellipse];
@@ -1210,6 +1211,13 @@ digraph ancient_texts {
   "jati" -> "plato-forms" [style=dashed color="#00993366"];
   "jati" -> "aristotle-substance" [style=dashed color="#00993366"];
   "jati" -> "pramana-nyaya" [style=dashed color="#0066cc66"];
+  "jayatirtha" -> "dvaita-vedanta" [style=solid color="#33333333"];
+  "jayatirtha" -> "madhva" [style=dashed color="#cc660066"];
+  "jayatirtha" -> "dvaita-vedanta" [style=solid color="#55555533"];
+  "jayatirtha" -> "abhava" [style=dashed color="#0066cc66"];
+  "jayatirtha" -> "navya-nyaya" [style=dashed color="#0066cc66"];
+  "jayatirtha" -> "vyasatirtha" [style=dashed color="#0066cc66"];
+  "jayatirtha" -> "gangesha" [style=dotted color="#cc000099"];
   "jejjata" -> "haricandra" [style=dashed color="#0066cc66"];
   "jejjata" -> "charaka" [style=dashed color="#cc660066"];
   "jejjata" -> "sushruta" [style=dashed color="#cc660066"];
@@ -2638,6 +2646,8 @@ digraph ancient_texts {
   "vyasatirtha" -> "nrisimhasrama" [style=dashed color="#0066cc66"];
   "vyasatirtha" -> "sriharsa" [style=dashed color="#00993366"];
   "vyasatirtha" -> "sriharsa" [style=dotted color="#cc000099"];
+  "vyasatirtha" -> "jayatirtha" [style=dashed color="#cc660066"];
+  "vyasatirtha" -> "navya-nyaya" [style=dashed color="#0066cc66"];
   "vyavahara-naya" -> "naya" [style=solid color="#33333333"];
   "vyavahara-naya" -> "dravyarthika-naya" [style=solid color="#33333333"];
   "vyavahara-naya" -> "anekantavada" [style=solid color="#33333333"];
