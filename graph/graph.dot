@@ -309,6 +309,7 @@ digraph ancient_texts {
     "tisata" [label="Tīsaṭa" fillcolor="#2e9e63" shape=ellipse];
     "tridosha" [label="Tridoṣa" fillcolor="#2e9e63" shape=ellipse];
     "vagbhata" [label="Vāgbhaṭa" fillcolor="#2e9e63" shape=ellipse];
+    "vrnda" [label="Vṛnda" fillcolor="#2e9e63" shape=ellipse];
   }
   subgraph "cluster_Samkhya-Yoga" { style=invis; peripheries=0;
     "citta-vritti" [label="citta-vṛtti" fillcolor="#c77dff" shape=ellipse];
@@ -396,9 +397,6 @@ digraph ancient_texts {
     "samsara" [label="saṃsāra" fillcolor="#ff6fa5" shape=ellipse];
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
-  }
-  subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "vrnda" [label="vrnda" fillcolor="#777777" shape=box];
   }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
     "ahura-mazda" [label="Ahura Mazdā" fillcolor="#9aa0a6" shape=ellipse];
@@ -2667,6 +2665,18 @@ digraph ancient_texts {
   "vritra" -> "verethragna" [style=dotted color="#cc000099"];
   "vritra" -> "bali" [style=dashed color="#00993366"];
   "vritra" -> "vishnu" [style=dashed color="#0066cc66"];
+  "vrnda" -> "ayurveda" [style=solid color="#33333333"];
+  "vrnda" -> "sushruta" [style=dashed color="#cc660066"];
+  "vrnda" -> "charaka" [style=dashed color="#cc660066"];
+  "vrnda" -> "candrata" [style=dashed color="#0066cc66"];
+  "vrnda" -> "niscalakara" [style=dashed color="#0066cc66"];
+  "vrnda" -> "cakrapanidatta" [style=dashed color="#0066cc66"];
+  "vrnda" -> "tisata" [style=dashed color="#0066cc66"];
+  "vrnda" -> "jejjata" [style=dashed color="#0066cc66"];
+  "vrnda" -> "hemadri" [style=dashed color="#0066cc66"];
+  "vrnda" -> "rasesvara" [style=dotted color="#cc000099"];
+  "vrnda" -> "nagarjuna" [style=dashed color="#0066cc66"];
+  "vrnda" -> "sunyata" [style=dashed color="#0066cc66"];
   "vyapti" -> "pramana" [style=solid color="#33333333"];
   "vyapti" -> "pramana-nyaya" [style=solid color="#33333333"];
   "vyapti" -> "hetu-vidya" [style=solid color="#33333333"];
