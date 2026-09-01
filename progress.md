@@ -55,6 +55,7 @@ one of these twelve to turn out other than advertised, and record it when it doe
 | 10 | `tisata` | the *Cikitsākalikā*; Candraṭa's father, whose authority-list omits Vāgbhaṭa | pending |
 | 11 | `niscalakara` | the *Ratnaprabhā* — a witness in four Batch 44/45 nodes | pending |
 | 12 | `vrnda` | the *Siddhayoga* | pending |
+| **13** | **`abhava`** | ⚠ **added mid-batch** (precedent: Batch 45 wrote `nathamuni` and `udayana` out of queue order to close stubs it had opened). `avacchedaka.md` opened a `formalizes: abhava` edge, and absence is **Navya-Nyāya's own seventh category** — the one addition to Kaṇāda's six. Matilal's *Doctrine of Negation* (Harvard 1968), obtained and read at first hand this batch, is a whole monograph on it | pending |
 
 Then: a chapter (or two) over the new nodes, `check_all.py`, run-log, rotate Batch 45's log to the archive.
 
