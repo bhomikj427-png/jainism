@@ -21,7 +21,7 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 ## ▶ NEXT SESSION — start here
 
-**The repo is fully green.** `python graph/check_all.py` → **ALL CHECKS PASS**; chapter coverage **387/387** with an empty `KNOWN_UNCOVERED` table. No outstanding maintenance, no red gate. The next unit of work is a **new concept batch (48)** — suggestions at the end of the Batch 47 run-log below.
+**The repo is fully green.** `python graph/check_all.py` → **ALL CHECKS PASS**; chapter coverage **387/387** with an empty `KNOWN_UNCOVERED` table. No outstanding maintenance, no red gate. Batch 48 is **OPEN** — the queue is immediately below.
 
 ⚠ **Read before opening Batch 48.** Batches 44–47 each falsified their own queue premises. Batch 47 falsified **two of its own four named tests** (T2 and T4 both came back different from what the queue expected) and **corrected two already-committed corpus files**. The suggestions below are **leads to test, not facts**.
 
@@ -58,6 +58,38 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 | **D4** | The **follow-up debt** from Batches 43–46 is nearly untouched | ~11 items carried; Batch 46 closed 1 and opened 8 |
 
 **Recommendation for Batch 48: spend it on depth and debt** — add new nodes only where a written chapter already depends on a node that does not exist. Growth resumes at 49. ⚠ But the drifts are **independent of any batch**: `DRIFT.md` is designed to be picked up in its own session, and does not need this file's run-logs.
+
+---
+
+## ▶ Batch 48 — OPEN (2026-09-02). Theme: **the commentarial tiers below Pāṇini** — the people the corpus already reaches its grammar claims *through*, and has no node for.
+
+**Why these, and why now.** Batch 47 built the grammatical tradition's top tier (Pāṇini, Kātyāyana, Patañjali, Bhartṛhari) and immediately discovered it was standing on a **fifth tier it had not written**: Ch 40 §2 leans on a maxim of **Kaiyaṭa's** that the batch could not verify; `avacchedaka.md` reaches the *Vākyapadīya* only through **Helārāja**; the *Mahābhāṣya* node records a commentarial stack **five tiers deep** and names none of the tiers. A grep finds **19 files** invoking Kaiyaṭa / Kāśikā / Nāgeśa / Yāska / Bhaṭṭoji against **zero** nodes — the identical signal that opened Batch 47.
+
+This is a **depth batch in the sense progress.md recommended** — every node below is one a *written chapter already depends on* — while still adding nodes. It also pays two named Batch 47 follow-ups (#1 and #2) at first hand rather than carrying them a fifth time.
+
+| # | key | state | why it is queued |
+|---|---|---|---|
+| 1 | `kaiyata` | pending | ⭐ Follow-up #1. Ch 40 §2 leans on his *yathottaraṃ* maxim, **unverified** (the source 403'd). |
+| 2 | `kasika` | pending | The Vṛtti that made the Aṣṭādhyāyī readable — and a joint-authorship question. |
+| 3 | `helaraja` | pending | ⭐ The corpus reaches both `bhartrhari` and `avacchedaka` *through* him. Abhyankar has only 2 hits. |
+| 4 | `nagesha-bhatta` | pending | Tier 5. He **redefined what a Vārttika is** — a definition the corpus quoted in Batch 47. |
+| 5 | `bhattoji-dikshita` | pending | The *Siddhāntakaumudī* — the re-ordering that displaced the Aṣṭādhyāyī in teaching. |
+| 6 | `kaundabhatta` | pending | Bhaṭṭoji's nephew; the *Vaiyākaraṇabhūṣaṇa*. **0 Abhyankar hits under that spelling** — may be blocked. |
+| 7 | `yaska` | pending | The person, distinct from the text `nirukta` — the split `panini`/`astadhyayi` already models. |
+| 8 | `vararuci` | pending | ⭐ To hold the split Abhyankar *argues for* and his own dictionary does not carry across entries. |
+| 9 | `pratyahara` | pending | Batch 47's sharpest lexical result: **a device Pāṇini uses constantly and never names**. |
+| 10 | `sphotasiddhi` | pending | ⭐ Follow-up #2. Maṇḍana Miśra's second career, absent from a node the corpus thought it knew. |
+
+### The four named tests (⚠ **leads to test, not facts** — Batches 44–47 each falsified their own queue premises)
+
+| test | what is queued | what would falsify it |
+|---|---|---|
+| **T1** | Kaiyaṭa's *yathottaraṃ hi munitrayasya prāmāṇyam* — "the later sage has the greater authority" — is real, is Kaiyaṭa's, and means what Ch 40 §2 says. | The maxim is post-Kaiyaṭa, or is a *scholarly* summary retrojected onto him (the Batch 47 mechanism), or governs something narrower than authority-in-general. |
+| **T2** | Batch 47 found the "unreliable across its own entries" pathology **inside a single-author dictionary**. A *node* can hold the Vararuci split whole. | Finding the split is not Abhyankar's own argument but an artefact of reading two entries as one witness. |
+| **T3** | Helārāja is reachable **at first hand**; the corpus's `avacchedaka`→grammar edge does not rest on Matilal alone. | Only 2 Abhyankar hits. If no independent source reaches him, `helaraja` goes **blocked** and the T3 edge stays single-sourced — which is D2 in `DRIFT.md`, measured rather than asserted. |
+| **T4** | The *Sphoṭasiddhi* changes what `mandana-mishra.md` can say — a Mīmāṃsaka-turned-Advaitin who also wrote on the grammarians' central doctrine. | The attribution is contested, or the *Sphoṭasiddhi* Maṇḍana is a different man (the batch's own name-collision risk, and Batch 47 found six). |
+
+⚠ **Standing cautions in force.** (a) Abhyankar is a **session-scratchpad download** — re-acquire per the recipe above; confirmed working again 2026-09-02. (b) Batch 47's source-weighting rule: **"read at first hand" and "specialist" are strong for what a discipline knows internally, weak for anything resting on outside scholarship that has moved — chronology above all.** Every node below is a *person with a date*, so this caution is maximally live for this batch.
 
 ---
 
