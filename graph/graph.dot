@@ -404,6 +404,7 @@ digraph ancient_texts {
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
     "astadhyayi" [label="Aṣṭādhyāyī" fillcolor="#9aa0a6" shape=ellipse];
     "bhartrhari" [label="Bhartṛhari" fillcolor="#9aa0a6" shape=ellipse];
+    "helaraja" [label="Helārāja" fillcolor="#9aa0a6" shape=ellipse];
     "kaiyata" [label="Kaiyaṭa" fillcolor="#9aa0a6" shape=ellipse];
     "karaka" [label="kāraka" fillcolor="#9aa0a6" shape=ellipse];
     "kasika" [label="Kāśikā" fillcolor="#9aa0a6" shape=ellipse];
@@ -732,6 +733,7 @@ digraph ancient_texts {
   "avacchedaka" -> "vyapti" [style=dashed color="#0066cc66"];
   "avacchedaka" -> "jati" [style=dashed color="#0066cc66"];
   "avacchedaka" -> "vakyapadiya" [style=dashed color="#cc660066"];
+  "avacchedaka" -> "helaraja" [style=dashed color="#0066cc66"];
   "avadhi-jnana" -> "pramana" [style=solid color="#33333333"];
   "avadhi-jnana" -> "upayoga" [style=solid color="#33333333"];
   "avadhi-jnana" -> "manah-paryaya-jnana" [style=dashed color="#0066cc66"];
@@ -1162,6 +1164,13 @@ digraph ancient_texts {
   "haricandra" -> "hemadri" [style=dashed color="#0066cc66"];
   "haricandra" -> "indu" [style=dashed color="#0066cc66"];
   "haricandra" -> "arunadatta" [style=dashed color="#0066cc66"];
+  "helaraja" -> "vyakarana" [style=solid color="#55555533"];
+  "helaraja" -> "vakyapadiya" [style=dashed color="#cc660066"];
+  "helaraja" -> "bhartrhari" [style=dashed color="#cc660066"];
+  "helaraja" -> "avacchedaka" [style=dashed color="#0066cc66"];
+  "helaraja" -> "advaita-vedanta" [style=dashed color="#0066cc66"];
+  "helaraja" -> "carvaka" [style=dashed color="#0066cc66"];
+  "helaraja" -> "sphota" [style=dashed color="#00993366"];
   "hemacandra" -> "anekantavada" [style=solid color="#55555533"];
   "hemacandra" -> "mallisena" [style=solid color="#55555533"];
   "hemacandra" -> "syadvada" [style=dashed color="#0066cc66"];
@@ -2635,6 +2644,7 @@ digraph ancient_texts {
   "vakyapadiya" -> "jati" [style=dashed color="#0066cc66"];
   "vakyapadiya" -> "dravya-vaisheshika" [style=dashed color="#0066cc66"];
   "vakyapadiya" -> "tattvacintamani" [style=dashed color="#00993366"];
+  "vakyapadiya" -> "helaraja" [style=solid color="#55555533"];
   "vakyapadiya" -> "karaka" [style=dashed color="#0066cc66"];
   "valmiki" -> "bhakti" [style=dashed color="#0066cc66"];
   "valmiki" -> "vishnu" [style=dashed color="#0066cc66"];
