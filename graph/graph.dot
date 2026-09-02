@@ -407,7 +407,6 @@ digraph ancient_texts {
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "paribhasha" [label="paribhasha" fillcolor="#777777" shape=box];
     "prakrta-prakasha" [label="prakrta-prakasha" fillcolor="#777777" shape=box];
   }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
@@ -427,6 +426,7 @@ digraph ancient_texts {
     "makkhali-gosala" [label="Makkhali Gosāla" fillcolor="#9aa0a6" shape=ellipse];
     "nagesha-bhatta" [label="Nāgeśa Bhaṭṭa" fillcolor="#9aa0a6" shape=ellipse];
     "panini" [label="Pāṇini" fillcolor="#9aa0a6" shape=ellipse];
+    "paribhasha" [label="paribhāṣā" fillcolor="#9aa0a6" shape=ellipse];
     "patanjali-grammarian" [label="Patañjali (vaiyākaraṇa)" fillcolor="#9aa0a6" shape=ellipse];
     "pratyahara" [label="pratyāhāra" fillcolor="#9aa0a6" shape=ellipse];
     "sabdabrahman" [label="śabdabrahman" fillcolor="#9aa0a6" shape=ellipse];
@@ -1898,6 +1898,13 @@ digraph ancient_texts {
   "parashurama" -> "mahabharata" [style=solid color="#55555533"];
   "parashurama" -> "ramayana" [style=solid color="#55555533"];
   "parashurama" -> "rama" [style=dashed color="#0066cc66"];
+  "paribhasha" -> "vyakarana" [style=solid color="#33333333"];
+  "paribhasha" -> "astadhyayi" [style=solid color="#55555533"];
+  "paribhasha" -> "katantra" [style=dashed color="#0066cc66"];
+  "paribhasha" -> "candra-vyakarana" [style=dashed color="#0066cc66"];
+  "paribhasha" -> "hemacandra" [style=dashed color="#0066cc66"];
+  "paribhasha" -> "indu" [style=dashed color="#00993366"];
+  "paribhasha" -> "nagesha-bhatta" [style=dashed color="#00993366"];
   "parijata" -> "samudra-manthana" [style=solid color="#33333333"];
   "parijata" -> "kalpavriksha" [style=dashed color="#0066cc66"];
   "parijata" -> "kalpavriksha" [style=dotted color="#cc000099"];
