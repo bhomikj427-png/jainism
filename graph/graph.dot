@@ -427,6 +427,7 @@ digraph ancient_texts {
     "patanjali-grammarian" [label="Patañjali (vaiyākaraṇa)" fillcolor="#9aa0a6" shape=ellipse];
     "prakrta-prakasha" [label="Prākṛtaprakāśa" fillcolor="#9aa0a6" shape=ellipse];
     "pratyahara" [label="pratyāhāra" fillcolor="#9aa0a6" shape=ellipse];
+    "punyaraja" [label="Puṇyarāja" fillcolor="#9aa0a6" shape=ellipse];
     "sabdabrahman" [label="śabdabrahman" fillcolor="#9aa0a6" shape=ellipse];
     "sarvavarman" [label="Sarvavarman" fillcolor="#9aa0a6" shape=ellipse];
     "sphota" [label="sphoṭa" fillcolor="#9aa0a6" shape=ellipse];
@@ -2161,6 +2162,12 @@ digraph ancient_texts {
   "punya" -> "papa" [style=dashed color="#0066cc66"];
   "punya" -> "karma" [style=dashed color="#0066cc66"];
   "punya" -> "moksha" [style=dotted color="#cc000099"];
+  "punyaraja" -> "vakyapadiya" [style=solid color="#33333333"];
+  "punyaraja" -> "bhartrhari" [style=dashed color="#cc660066"];
+  "punyaraja" -> "helaraja" [style=dashed color="#00993366"];
+  "punyaraja" -> "candra-vyakarana" [style=dashed color="#00993366"];
+  "punyaraja" -> "kaiyata" [style=dashed color="#00993366"];
+  "punyaraja" -> "kasika" [style=dashed color="#0066cc66"];
   "purusha-samkhya" -> "jiva" [style=dashed color="#00993366"];
   "purusha-samkhya" -> "atman-vedanta" [style=dotted color="#cc000099"];
   "purusha-samkhya" -> "prakriti-samkhya" [style=solid color="#55555533"];
@@ -2754,6 +2761,7 @@ digraph ancient_texts {
   "vakyapadiya" -> "jati" [style=dashed color="#0066cc66"];
   "vakyapadiya" -> "dravya-vaisheshika" [style=dashed color="#0066cc66"];
   "vakyapadiya" -> "tattvacintamani" [style=dashed color="#00993366"];
+  "vakyapadiya" -> "punyaraja" [style=solid color="#55555533"];
   "vakyapadiya" -> "helaraja" [style=solid color="#55555533"];
   "vakyapadiya" -> "karaka" [style=dashed color="#0066cc66"];
   "valmiki" -> "bhakti" [style=dashed color="#0066cc66"];

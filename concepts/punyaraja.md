@@ -1,0 +1,64 @@
+---
+term_iast: Puṇyarāja
+tradition: Vyākaraṇa (Bhartṛhari's school); Kashmir
+source_text: Ṭīkā on Vākyapadīya kāṇḍas I–II
+status: contested
+confidence: medium
+---
+
+## Gloss / Divergence map
+
+**Puṇyarāja** — "born in **Kashmir** in the last decades of **800 CE**," who "identified himself as **Rājānakaśūravarma**" and studied under **Śaśāṅkaśiṣya** — wrote the *Ṭīkā* on **kāṇḍas I and II** of [[bhartrhari|Bhartṛhari's]] [[vakyapadiya|*Vākyapadīya*]]. With [[helaraja|Helārāja]] on kāṇḍa III he makes up what Abhyankar calls the *Vākyapadīya*'s "**excellent commentary**" — ⭐ **two men, a century or more apart, described as one work.**
+
+| point | reading | who holds it |
+|---|---|---|
+| the **kāṇḍa I** commentary is Puṇyarāja's | the standard attribution | Abhyankar; the printed editions |
+| ⚠ it "was written by **Bhartṛhari himself**" | "**some scholars**" | **Abhyankar**, reporting |
+| ⚠ it "is an **abridged version of Bhartṛhari's own *Vṛtti*** and it is **wrongly attributed to Puṇyarāja**" | ⭐ **Peri Sarveswara Sharma** | Nath's study |
+| the **kāṇḍa II** *Ṭīkā*'s authorship is itself disputed | ⭐ **Ashok Aklujkar, "The authorship of the *Vākya-kāṇḍa-ṭīkā*" (1974)** | a named article on precisely this |
+| the *Vṛtti* on kāṇḍas I–II is Bhartṛhari's | disputed | **Aklujkar, "The Authorship of Vākyapadīya-Vṛtti" (1972)** |
+| **state of the texts** | kāṇḍa I "has **many gaps** in it and hence **cannot be taken as complete**"; the kāṇḍa II *Ṭīkā*, "including the *Vṛtti* of **Harivṛṣabha**, is available **in full**" | Nath |
+
+## Reasoning across signals
+
+**⭐⭐⭐ The closer of this batch, and it lands on the batch's own unfinished business.** Batch 47 flagged, and [[candra-vyakarana]] narrowed this batch, a contradiction about **Candrācārya**: blamed for the *Mahābhāṣya*'s neglect, or credited with its revival. The corpus established two things — that Abhyankar gives the address as ***Vākyapadīya* II.489**, and that the blame-verse is **VP 2.484**, naming Vaiji, Saubhava and Haryakṣa. **Both verses are in kāṇḍa II.** ⭐ **Puṇyarāja is the commentator on kāṇḍa II.**
+
+And the coincidences stack:
+- The revival Bhartṛhari is said to record is a revival of Mahābhāṣya study **in Kashmir**, corroborated by **Kalhaṇa**, a Kashmiri chronicler.
+- **Puṇyarāja is a Kashmiri**, c. 800 CE.
+- [[kaiyata|Kaiyaṭa]], whose ladder of authority the corpus spent Batch 48 on, is **also Kashmiri**.
+
+⭐⭐ **So the verses about a Kashmiri revival of the Mahābhāṣya are read through a Kashmiri commentator writing three centuries later, in a tradition a fourth Kashmiri would later systematise.** ⚠ **This does not impugn the reading and the corpus does not suggest it does.** It is exactly the situation [[nyasa-vyakarana]] set out from working editors: the commentary is simultaneously the **only long-range witness** and an **interested** one — and here, unusually, the corpus can **name the interest**. ⭐ **That is the most the corpus can honestly say, and it is worth saying: the open question is not merely unread, it is unread *through a specific apparatus whose standpoint is known*.** ⚠ **No source consulted connects Puṇyarāja's region to his handling of these verses**; the observation is the corpus's, from three separately sourced facts, and it is a **reason to read VP II.481–490 with the commentary and the region in view**, not a conclusion about what is in it.
+
+**⚠ Three overlapping authorship disputes, and the corpus does not merge them.** They are separate questions and the literature keeps them separate:
+
+1. **The *Vṛtti* on kāṇḍas I–II** — Bhartṛhari's or not? **Aklujkar 1972.** (This is Batch 47's follow-up #5, which [[helaraja]] narrowed and named.)
+2. **The *Ṭīkā* on kāṇḍa II** — Puṇyarāja's or not? ⭐ **Aklujkar 1974**, a *separate* article. **This is new to the corpus.**
+3. **The commentary on kāṇḍa I** — Puṇyarāja's, or Bhartṛhari's own, or ⭐ **an abridgement of Bhartṛhari's *Vṛtti* misattributed to Puṇyarāja** (**Peri Sarveswara Sharma**).
+
+⭐ **Note that (3) is a third possibility neither Abhyankar nor the corpus had**: not "Puṇyarāja wrote it" and not "Bhartṛhari wrote it," but "**someone abridged Bhartṛhari and the abridgement acquired Puṇyarāja's name**." ⚠ That is a *fourth* transmission mechanism this batch has met, alongside loss ([[candra-vyakarana]]), accretion ([[prakrta-prakasha]]) and detachment ([[hemacandra]]): **an abridgement displacing and then being mistaken for the work of a known commentator.** ⭐ And it is the same move the batch has watched succeed openly elsewhere — [[katantra]] abridging Pāṇini, [[kasika]] as a beginners' gloss, Varadarāja's *Laghusiddhāntakaumudī* displacing [[bhattoji-dikshita|Bhaṭṭoji's]] full text. **Here the abridgement did not merely displace its original; it changed authors.**
+
+**⭐ He wrote a fifty-nine-verse synopsis of his own base text.** Nath: Puṇyarāja composed a **59-verse synopsis** of kāṇḍa II's contents "in a lucid style, that the students and scholars can easily enter into the concepts." ⭐⭐ **This batch has been, from end to end, about making difficult texts enterable** — a grammar teachable in six months ([[sarvavarman]]); a beginners' gloss that became the only full commentary on Pāṇini ([[kasika]]); a rival system that "ignores many unimportant rules"; an author's own abridgement outranking his full work ([[kaundabhatta]], from Batch 48). ⭐ **And here the philosopher's commentator writes a verse summary so that students "can easily enter."** ⚠ The corpus notes the recurrence and does **not** build a thesis on it: these nodes were selected because they were the corpus's gap, and abridgement is over-represented in any teaching literature. **A pattern worth naming and not worth generalising.**
+
+**⚠ One man, two names — the collision problem inverted, and self-reported.** Puṇyarāja "**identified himself as Rājānakaśūravarma**." ⭐ Every collision this batch has flagged — Candra, Nyāsa, Vararuci, Jinendrabuddhi, Haradatta — runs **many men into one name**. This runs the other way: **one man under two names, on his own authority.** ⚠ **The corpus records it and draws nothing from it**; *Rājānaka* is a Kashmiri title and the second form may be a full formal name rather than an alias, which no source consulted clarifies. ⭐ But it is a useful corrective to the batch's own habit: **the corpus has spent ten nodes learning to distrust name-identity, and here is the reminder that name-*difference* is equally weak evidence.**
+
+**⚠ What the corpus still does not have, stated exactly.** Not one verse of the *Ṭīkā* has been read; **VP II.481–490 remains unread in any edition**; and the four scholars who between them own this node's disputes — **Aklujkar** (twice), **Peri Sarveswara Sharma**, and whoever edited the **Benares Sanskrit Series** text of 1884 — are all known only through one 2018 study and one dictionary entry. ⭐ **But the follow-up is now cheap and precisely addressed**, which it was not at the start of this batch: kāṇḍas I–II with Puṇyarāja's *Ṭīkā* were **published in the Benares Sanskrit Series in 1884** (out of copyright), and **K. A. Subramania Iyer's English translation of kāṇḍa II** exists and is already on the corpus's follow-up list from Batch 48.
+
+**Independence (§4 signal 1).** **Abhyankar** at first hand — thin but confirming: the *Ṭīkā* on kāṇḍas I and II; the *Vākyapadīya*'s three kāṇḍas (Padakāṇḍa/Brahmakāṇḍa, Vākyakāṇḍa, Saṃkīrṇakāṇḍa); "an excellent commentary written by **Puṇyarāja and Helārāja**"; and "some scholars hold the view that the commentary on the first kāṇḍa was written by **Bhartṛhari himself**." **Sarath P. Nath, *Vākyapadīya: a Study of the Concept of Sentence* (2018)** — fetched: the Kashmir birth in the last decades of 800 CE, **Rājānakaśūravarma**, **Śaśāṅkaśiṣya**, the gappy kāṇḍa I and complete kāṇḍa II, **Harivṛṣabha's *Vṛtti***, the **Benares Sanskrit Series 1884** publication, **Peri Sarveswara Sharma's** misattribution thesis, and the **59-verse synopsis**. **Search-level** — the two **Aklujkar** articles with titles and years (1972, 1974). ⚠ They agree wherever they overlap and do not overlap much: Abhyankar supplies the attribution and one dissent, Nath the biography and a second dissent, search the third. **CONTESTED**, confidence **medium** — ⚠ **the disputes are real, named and unresolved here, and no part of the text has been read.**
+
+## Sources
+
+- **K. V. Abhyankar, *A Dictionary of Sanskrit Grammar***, s.vv. *Vākyapadīya* and the *Ṭīkā* headword — **read at first hand**, https://archive.org/details/dictionary-of-sanskrit-grammar-abhyankar: the *Vākyapadīya* "consists of three chapters the Padakāṇḍa or Brahmakāṇḍa, the Vākyakāṇḍa and the Saṃkīrṇakāṇḍa, and has got an **excellent commentary written by Puṇyarāja and Helārāja**"; the commentary "written by Puṇyarāja on the **first and the second Kāṇḍa**"; "**Some scholars hold the view that the commentary on the first kāṇḍa was written by Bhartṛhari himself.**" ⚠ **Gives no date, no region, no biography** — the entry is two sentences.
+- **Sarath P. Nath, *Vākyapadīya: a Study of the Concept of Sentence* (2018), §6.2(c) "Commentaries of Vākyapadīya,"** https://www.wisdomlib.org/hinduism/essay/vakyapadiya-study-of-the-concept-of-sentence/d/doc1146151.html — **fetched**: "born in **Kashmir** in the last decades of **800 CE**"; "identified himself as **Rājānakaśūravarma**"; studied under **Śaśāṅkaśiṣya**; the first canto's commentary "has **many gaps** in it and hence cannot be taken as complete"; "the **Ṭīkā on the second canto including the *Vṛtti* of Harivṛṣabha is available in full**"; the first two cantos with his Ṭīkā "**published by Benares Sanskrit Series, Benares in 1884**"; ⭐ **Peri Sarveswara Sharma**: "the commentary on the first canto is an **abridged version of Bhartṛhari's own *Vṛtti*** and it is **wrongly attributed to Puṇyarāja**"; and the **59-verse synopsis** of the second canto, written "in a lucid style, that the students and scholars can easily enter into the concepts." ⚠ A doctoral study hosted on a website; the corpus already uses this study at [[helaraja]].
+- **Ashok Aklujkar, "The Authorship of the *Vākyapadīya-Vṛtti*" (1972)** and ⭐ **"The Authorship of the *Vākya-kāṇḍa-ṭīkā*" (1974)** — ⚠ **titles and years via search only; neither read, and no journal or volume was obtained.** ⭐ The second is **new to this corpus** and is squarely on this node's central question; the first is Batch 47's follow-up #5, which [[helaraja]] named and this node dates.
+- **Identified but not read:** (1) ⭐⭐ ***Vākyapadīya* kāṇḍa II, verses c. 481–490, with Puṇyarāja's *Ṭīkā*** — **the item that would close the Candrācārya follow-up outright.** The **Benares Sanskrit Series (1884)** edition of kāṇḍas I–II with the *Ṭīkā* is out of copyright; **K. A. Subramania Iyer's** English kāṇḍa II is already carried from Batch 48. (2) **Aklujkar 1974**, then **1972**. (3) **Peri Sarveswara Sharma** on the kāṇḍa-I abridgement. (4) The 59-verse synopsis itself. (5) Whether **Harivṛṣabha** is a name of Bhartṛhari — ⚠ a further identity question this node has surfaced and not touched.
+- Cross-checked in-corpus against `helaraja.md` (⭐ the other half of the *Vākyapadīya*'s "excellent commentary," and where Batch 47's follow-up #5 was narrowed), `vakyapadiya.md`, `bhartrhari.md`, `candra-vyakarana.md` (⭐ the Candrācārya question this node localises), `mahabhashya.md` (which carries it as an open question), `kaiyata.md` (the third Kashmiri). §4 signal 4.
+
+## Links
+
+- part-of: vakyapadiya | its commentator on **kāṇḍas I–II** — the other two-thirds of the work [[helaraja]] covers in kāṇḍa III
+- historically-influenced-by: bhartrhari | ⚠ and the boundary is disputed in three separate ways: the *Vṛtti*'s authorship (Aklujkar 1972), the kāṇḍa-II *Ṭīkā*'s (Aklujkar 1974), and whether the kāṇḍa-I commentary is an abridgement of Bhartṛhari misattributed to him (Peri Sarveswara Sharma)
+- structurally-parallel-to: helaraja | ⭐ two commentators a century or more apart, on different kāṇḍas of one book, whom Abhyankar's entry runs together as "an excellent commentary" — and **both** are cases where the corpus reaches Bhartṛhari only through a later reader
+- structurally-parallel-to: candra-vyakarana | ⭐⭐ he is the **apparatus** for the verses that batch-49 node is arguing about: VP 2.484 and 2.489 are both in **his** kāṇḍa, and he is a Kashmiri writing about a Kashmiri revival three centuries on
+- structurally-parallel-to: kaiyata | the third Kashmiri in this cluster — and the corpus's picture of how the *Mahābhāṣya* was rescued and then ranked is being read, at both ends, through Kashmiri commentators
+- shares-vocabulary-with: kasika | ⭐ the 59-verse synopsis "that the students and scholars can easily enter into the concepts" — the same impulse that produced a beginners' gloss on Pāṇini and a grammar teachable in six months

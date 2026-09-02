@@ -57,7 +57,7 @@ balarama	Hindu (Vaiṣṇava) — and Jain (as Baladeva, a śalākāpuruṣa)	co
 bali	Hindu (Vaiṣṇava / Puranic; Kerala regional/devotional)	contested	medium	6	बलि
 bandha	Jain	converged	medium	16	बन्ध
 bhakti	cross-tradition (Vedānta, Vaiṣṇava, also Jain and Buddhist parallels)	converged	medium	21	भक्ति
-bhartrhari	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	12	भर्तृहरि
+bhartrhari	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	13	भर्तृहरि
 bhattoji-dikshita	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	converged	medium	8	भट्टोजिदीक्षित
 bodhicitta	Buddhist (Mahāyāna)	converged	medium	11	बोधिचित्त
 bodhisattva	Buddhist (Mahāyāna; also Theravāda antecedent)	converged	medium	14	बोधिसत्त्व
@@ -66,7 +66,7 @@ brahma-sutra	Vedānta (Uttara Mīmāṃsā; āstika darśana)	converged	medium	3
 brahmacarya	Jain	converged	medium	8	ब्रह्मचर्य
 brahman	Vedanta	converged	medium	51	ब्रह्मन्
 cakrapanidatta	Hindu (Āyurveda; Bengal, Pāla period)	converged	medium	16	चक्रपाणिदत्त
-candra-vyakarana	Vyākaraṇa (Sanskrit grammatical tradition) — non-Pāṇinian; Buddhist	contested	medium	13	
+candra-vyakarana	Vyākaraṇa (Sanskrit grammatical tradition) — non-Pāṇinian; Buddhist	contested	medium	14	
 candragomin	Buddhist (Indian Mahāyāna); Vyākaraṇa — non-Pāṇinian	contested	medium	9	
 candrata	Āyurveda (commentator and formulary-compiler)	converged	medium	11	
 carvaka	Cārvāka / Lokāyata (nāstika materialist)	converged	medium	17	चार्वाक
@@ -120,7 +120,7 @@ halahala	Hindu (epic / Purāṇic)	converged	medium	4	हालाहल
 hanuman	Hindu (Vaiṣṇava bhakti — Rāma cult; pan-Hindu; some Śaiva framing)	converged	medium	6	हनुमान्
 haradatta	Vyākaraṇa (Pāṇinian, "Southern School"); Śaiva; also Dharmaśāstra (attributed)	contested	medium	8	
 haricandra	Āyurveda (commentator on the Carakasaṃhitā)	converged	medium	13	
-helaraja	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	10	हेलाराज
+helaraja	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	11	हेलाराज
 hemacandra	Jain (Śvetāmbara; Caulukya-period Gujarat)	converged	medium	18	हेमचन्द्र
 hemadri	Āyurveda (Aṣṭāṅgahṛdaya commentary) / Dharmaśāstra (Yādava court, Devagiri)	converged	medium	13	हेमाद्रि
 henosis	Greek / Late Antique (Neoplatonist mysticism)	converged	medium	11	
@@ -142,7 +142,7 @@ jiva	Jain	converged	medium	32	जीव
 jivanmukti	Hindu (Advaita Vedānta; also Yoga; pan-Indic comparandum)	converged	medium	13	जीवन्मुक्ति
 jnana-marga	Vedānta (Advaita primary; cross-āstika)	converged	medium	10	ज्ञानमार्ग
 kadru	Hindu (epic / Purāṇic)	converged	medium	4	कद्रू
-kaiyata	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	12	कैयट
+kaiyata	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	13	कैयट
 kala-bhairava	Hindu (Śaiva; Tantra / Kāpālika; also Vajrayāna Buddhist)	converged	medium	4	काल भैरव
 kala-dravya	Jain	converged	medium	11	काल
 kali	Hindu (Śākta; Tantric; pan-Hindu Purāṇic)	converged	medium	5	काली
@@ -162,7 +162,7 @@ kartikeya	Hindu (pan-Indian Vedic-Purāṇic; esp. Tamil Śaiva as Murukaṉ)	co
 karuna	Buddhist (Theravāda + Mahāyāna)	converged	medium	12	करुणा
 karunya	Jain	converged	medium	10	कारुण्य
 kashaya	Jain	converged	medium	16	कषाय
-kasika	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	15	काशिका
+kasika	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	16	काशिका
 katantra	Vyākaraṇa (Sanskrit grammatical tradition) — non-Pāṇinian	contested	medium	12	कातन्त्र
 katyayana	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	11	कात्यायन
 kaundabhatta	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	converged	medium	7	कौण्डभट्ट
@@ -282,6 +282,7 @@ pseudo-dionysius	Christian Neoplatonist (probably Syrian; corpus before 532 CE)	
 psyche-neoplatonic	Neoplatonism (Greek)	converged	high	6	
 pudgala	Jain	converged	medium	18	पुद्गल
 punya	Jain	converged	medium	10	पुण्य
+punyaraja	Vyākaraṇa (Bhartṛhari's school); Kashmir	contested	medium	7	
 purusha-samkhya	Samkhya	converged	medium	9	पुरुष (साङ्ख्य)
 pyrrhonism	Greek (Pyrrhonian scepticism)	converged	medium	14	(no Sanskrit equivalent)
 quantum-complementarity	Modern Physics	converged	medium	6	
@@ -370,7 +371,7 @@ vacaspati-mishra	Advaita Vedānta (Bhāmatī-prasthāna); pan-darśana commentat
 vagbhata	Hindu (Āyurveda)	contested	medium	20	वाग्भट
 vaiseshika-sutra	Nyāya-Vaiśeṣika (Vaiśeṣika; Kaṇāda)	converged	medium	23	वैशेषिकसूत्र
 vaishnavism	Vedic / Hindu (Vaiṣṇava; bhakti traditions and Vedānta schools)	converged	medium	18	वैष्णव
-vakyapadiya	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	14	वाक्यपदीय
+vakyapadiya	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	16	वाक्यपदीय
 valmiki	Hindu (Itihāsa tradition)	converged	medium	5	वाल्मीकि
 vamana	Hindu (Vedic → Vaiṣṇava)	converged	medium	6	वामन
 varaha	Hindu (Vedic → Vaiṣṇava)	converged	medium	6	वराह
