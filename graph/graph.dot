@@ -406,10 +406,14 @@ digraph ancient_texts {
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
+  subgraph "cluster_unwritten" { style=invis; peripheries=0;
+    "durgasimha" [label="durgasimha" fillcolor="#777777" shape=box];
+  }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
     "ahura-mazda" [label="Ahura Mazdā" fillcolor="#9aa0a6" shape=ellipse];
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
     "astadhyayi" [label="Aṣṭādhyāyī" fillcolor="#9aa0a6" shape=ellipse];
+    "bhamaha" [label="Bhāmaha" fillcolor="#9aa0a6" shape=ellipse];
     "bhartrhari" [label="Bhartṛhari" fillcolor="#9aa0a6" shape=ellipse];
     "bhattoji-dikshita" [label="Bhaṭṭoji Dīkṣita" fillcolor="#9aa0a6" shape=ellipse];
     "helaraja" [label="Helārāja" fillcolor="#9aa0a6" shape=ellipse];
@@ -795,6 +799,13 @@ digraph ancient_texts {
   "bhakti" -> "dana" [style=dashed color="#0066cc66"];
   "bhakti" -> "tirthankara" [style=dotted color="#cc000099"];
   "bhakti" -> "prahlada" [style=solid color="#55555533"];
+  "bhamaha" -> "prakrta-prakasha" [style=solid color="#55555533"];
+  "bhamaha" -> "nyasa-vyakarana" [style=dashed color="#00993366"];
+  "bhamaha" -> "durgasimha" [style=dashed color="#0066cc66"];
+  "bhamaha" -> "abhinavagupta" [style=dotted color="#cc000099"];
+  "bhamaha" -> "appayya-dikshita" [style=dotted color="#cc000099"];
+  "bhamaha" -> "utpaladeva" [style=dotted color="#cc000099"];
+  "bhamaha" -> "vararuci" [style=dashed color="#cc660066"];
   "bhartrhari" -> "vakyapadiya" [style=solid color="#55555533"];
   "bhartrhari" -> "vyakarana" [style=solid color="#55555533"];
   "bhartrhari" -> "sabdabrahman" [style=solid color="#55555533"];
