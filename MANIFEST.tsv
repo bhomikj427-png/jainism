@@ -57,7 +57,7 @@ balarama	Hindu (Vaiṣṇava) — and Jain (as Baladeva, a śalākāpuruṣa)	co
 bali	Hindu (Vaiṣṇava / Puranic; Kerala regional/devotional)	contested	medium	6	बलि
 bandha	Jain	converged	medium	16	बन्ध
 bhakti	cross-tradition (Vedānta, Vaiṣṇava, also Jain and Buddhist parallels)	converged	medium	21	भक्ति
-bhamaha	Prākṛt grammar (commentarial)	contested	medium	7	
+bhamaha	Prākṛt grammar (commentarial)	contested	medium	8	
 bhartrhari	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	13	भर्तृहरि
 bhattoji-dikshita	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	converged	medium	8	भट्टोजिदीक्षित
 bodhicitta	Buddhist (Mahāyāna)	converged	medium	11	बोधिचित्त
@@ -91,7 +91,7 @@ dharmottara	Buddhist (Dignāga–Dharmakīrti line; Kashmiri school)	converged	m
 dharmottara-nyayabindu	Buddhist (Dharmakīrti / Dharmottara — Kashmiri pramāṇavāda)	converged	medium	11	न्यायबिन्दु
 dhatu	Āyurveda	contested	medium	17	धातु
 dhyana-jain	Jain	converged	medium	9	ध्यान (जैन)
-digambara	Jain	converged	medium	10	दिगम्बर
+digambara	Jain	converged	medium	11	दिगम्बर
 dignaga-pramana	Buddhist	converged	medium	28	प्रमाण (दिग्नाग)
 dravya	Jain	converged	medium	27	द्रव्य
 dravya-vaisheshika	Nyaya-Vaisheshika	converged	medium	16	द्रव्य (वैशेषिक)
@@ -122,7 +122,7 @@ hanuman	Hindu (Vaiṣṇava bhakti — Rāma cult; pan-Hindu; some Śaiva framin
 haradatta	Vyākaraṇa (Pāṇinian, "Southern School"); Śaiva; also Dharmaśāstra (attributed)	contested	medium	8	
 haricandra	Āyurveda (commentator on the Carakasaṃhitā)	converged	medium	13	
 helaraja	Vyākaraṇa (Sanskrit grammatical tradition; vedāṅga)	contested	medium	11	हेलाराज
-hemacandra	Jain (Śvetāmbara; Caulukya-period Gujarat)	converged	medium	18	हेमचन्द्र
+hemacandra	Jain (Śvetāmbara; Caulukya-period Gujarat)	converged	medium	19	हेमचन्द्र
 hemadri	Āyurveda (Aṣṭāṅgahṛdaya commentary) / Dharmaśāstra (Yādava court, Devagiri)	converged	medium	13	हेमाद्रि
 henosis	Greek / Late Antique (Neoplatonist mysticism)	converged	medium	11	
 hetu-vidya	Buddhist (Dignāga–Dharmakīrti line)	converged	medium	22	हेतुविद्या
@@ -172,7 +172,7 @@ ketu	Hindu (Purāṇic; jyotiṣa)	converged	medium	5	केतु
 kevala-jnana	Jain	converged	medium	19	केवलज्ञान
 krishna	Hindu (Vaiṣṇava; pan-Hindu)	contested	medium	17	कृष्ण
 kumarila-bhatta	Mīmāṃsā (Bhāṭṭa sub-school; āstika darśana)	converged	medium	11	कुमारिल भट्ट
-kundakunda	Jain	converged	medium	8	कुन्दकुन्द
+kundakunda	Jain	converged	medium	9	कुन्दकुन्द
 kurma	Hindu (Vedic → Vaiṣṇava)	contested	medium	6	कूर्म
 lakshmi	Hindu (Vaiṣṇava / Śākta)	converged	medium	15	लक्ष्मी
 leshya	Jain	converged	medium	7	लेश्या
@@ -263,7 +263,7 @@ prahlada	Hindu (Vaiṣṇava; epic/Purāṇic)	converged	medium	12	प्रह�
 prajnakaragupta	Buddhist (pramāṇa / logico-epistemological school)	converged	medium	11	प्रज्ञाकरगुप्त
 prakasatman	Advaita Vedānta (Vivaraṇa-prasthāna)	contested	medium	21	प्रकाशात्मन्
 prakriti-samkhya	Samkhya	converged	medium	28	प्रकृति (साङ्ख्य)
-prakrta-prakasha	Prākṛt grammar (vyākaraṇa applied to the Middle Indic dialects)	contested	medium	10	
+prakrta-prakasha	Prākṛt grammar (vyākaraṇa applied to the Middle Indic dialects)	contested	medium	11	
 pramana	Jain	converged	medium	24	प्रमाण
 pramana-nyaya	Nyaya-Vaisheshika	converged	medium	37	प्रमाण (न्याय)
 pramana-samuccaya	Buddhist (pramāṇavāda; Yogācāra-leaning)	converged	medium	9	प्रमाणसमुच्चय
@@ -317,6 +317,7 @@ sarvavarman	Vyākaraṇa (Sanskrit grammatical tradition) — non-Pāṇinian	co
 sat	Jain	converged	medium	18	सत्
 satkaryavada	Sāṃkhya (primary); Yoga; Vedānta (Advaita + Viśiṣṭādvaita)	converged	medium	12	सत्कार्यवाद
 satya	Jain	converged	medium	9	सत्य
+sauraseni	Prākṛt (Middle Indic) — a literary/dramatic register, and a Jain doctrinal language	contested	medium	5	
 shad-avashyaka	Jain	converged	medium	7	षडावश्यक
 shaivism	Hindu (Śaiva; āstika darśana; tantric and bhakti traditions)	converged	medium	31	शैव
 shakti	Hindu (Śākta; Śaiva — especially Kashmir Śaivism; Tantric traditions)	converged	medium	14	शक्ति

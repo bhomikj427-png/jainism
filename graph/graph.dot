@@ -80,6 +80,7 @@ digraph ancient_texts {
     "saptabhangi" [label="saptabhaṅgī" fillcolor="#ffd23f" shape=ellipse];
     "sat" [label="sat" fillcolor="#ffd23f" shape=ellipse];
     "satya" [label="satya" fillcolor="#ffd23f" shape=ellipse];
+    "sauraseni" [label="Śaurasenī" fillcolor="#ffd23f" shape=ellipse];
     "shad-avashyaka" [label="ṣaḍāvaśyaka" fillcolor="#ffd23f" shape=ellipse];
     "shruta-jnana" [label="śrutajñāna" fillcolor="#ffd23f" shape=ellipse];
     "siddha" [label="siddha" fillcolor="#ffd23f" shape=ellipse];
@@ -801,8 +802,9 @@ digraph ancient_texts {
   "bhakti" -> "prahlada" [style=solid color="#55555533"];
   "bhamaha" -> "prakrta-prakasha" [style=solid color="#55555533"];
   "bhamaha" -> "nyasa-vyakarana" [style=dashed color="#00993366"];
+  "bhamaha" -> "sauraseni" [style=solid color="#33333333"];
   "bhamaha" -> "durgasimha" [style=dashed color="#0066cc66"];
-  "bhamaha" -> "abhinavagupta" [style=dotted color="#cc000099"];
+  "bhamaha" -> "abhinavagupta" [style=dashed color="#cc660066"];
   "bhamaha" -> "appayya-dikshita" [style=dotted color="#cc000099"];
   "bhamaha" -> "utpaladeva" [style=dotted color="#cc000099"];
   "bhamaha" -> "vararuci" [style=dashed color="#cc660066"];
@@ -2402,6 +2404,10 @@ digraph ancient_texts {
   "satya" -> "ahimsa" [style=solid color="#33333333"];
   "satya" -> "aparigraha" [style=solid color="#33333333"];
   "satya" -> "karma" [style=solid color="#33333333"];
+  "sauraseni" -> "prakrta-prakasha" [style=solid color="#33333333"];
+  "sauraseni" -> "hemacandra" [style=dashed color="#00993366"];
+  "sauraseni" -> "digambara" [style=dashed color="#0066cc66"];
+  "sauraseni" -> "kundakunda" [style=dotted color="#cc000099"];
   "shad-avashyaka" -> "charitra" [style=solid color="#33333333"];
   "shad-avashyaka" -> "samvara" [style=solid color="#33333333"];
   "shad-avashyaka" -> "nirjara" [style=solid color="#55555533"];
