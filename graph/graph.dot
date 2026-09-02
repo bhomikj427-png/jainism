@@ -426,6 +426,7 @@ digraph ancient_texts {
     "patanjali-grammarian" [label="Patañjali (vaiyākaraṇa)" fillcolor="#9aa0a6" shape=ellipse];
     "pratyahara" [label="pratyāhāra" fillcolor="#9aa0a6" shape=ellipse];
     "sabdabrahman" [label="śabdabrahman" fillcolor="#9aa0a6" shape=ellipse];
+    "sarvavarman" [label="Sarvavarman" fillcolor="#9aa0a6" shape=ellipse];
     "sphota" [label="sphoṭa" fillcolor="#9aa0a6" shape=ellipse];
     "vakyapadiya" [label="Vākyapadīya" fillcolor="#9aa0a6" shape=ellipse];
     "vararuci" [label="Vararuci" fillcolor="#9aa0a6" shape=ellipse];
@@ -2308,6 +2309,12 @@ digraph ancient_texts {
   "sarvajnatman" -> "prakasatman" [style=dotted color="#cc000099"];
   "sarvajnatman" -> "vacaspati-mishra" [style=dashed color="#0066cc66"];
   "sarvajnatman" -> "prakriti-samkhya" [style=dotted color="#cc000099"];
+  "sarvavarman" -> "katantra" [style=solid color="#55555533"];
+  "sarvavarman" -> "vyakarana" [style=solid color="#55555533"];
+  "sarvavarman" -> "panini" [style=dashed color="#cc660066"];
+  "sarvavarman" -> "kartikeya" [style=dashed color="#00993366"];
+  "sarvavarman" -> "sarasvati" [style=dashed color="#00993366"];
+  "sarvavarman" -> "vararuci" [style=dashed color="#00993366"];
   "sat" -> "dravya" [style=solid color="#33333333"];
   "sat" -> "paryaya" [style=solid color="#55555533"];
   "sat" -> "anekantavada" [style=solid color="#55555533"];
@@ -2712,6 +2719,7 @@ digraph ancient_texts {
   "vararuci" -> "katyayana" [style=dotted color="#cc000099"];
   "vararuci" -> "vyakarana" [style=solid color="#55555533"];
   "vararuci" -> "katantra" [style=solid color="#55555533"];
+  "vararuci" -> "sarvavarman" [style=dashed color="#00993366"];
   "vararuci" -> "prakrta-prakasha" [style=solid color="#55555533"];
   "vararuci" -> "patanjali" [style=dashed color="#00993366"];
   "vararuci" -> "kasika" [style=dashed color="#00993366"];

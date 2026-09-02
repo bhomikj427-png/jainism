@@ -49,6 +49,7 @@ confidence: medium
 - often-conflated-with-NOT-equivalent: katyayana | ⚠ **the split this node exists to draw.** Patañjali knows a Vararuci and calls him a **poet**; the Ślokavārttikakāra credits the Vārttikas to Kātyāyana; the two are joined only by later writers — helped by a second Vararuci who bore *Kātyāyana* as a gotra name
 - expressed-by: vyakarana | ⚠ and only partly: Vararuci (2)'s Prākṛt grammar and Kātantra adhyāya IV belong to **rival** systems — which Batch 49 has now given nodes
 - expressed-by: katantra | ⭐ its **fourth adhyāya**, the rest being Sarvavarman's — and by Vararuci **(2)**, the separate later grammarian, not the Vārttikakāra
+- structurally-parallel-to: sarvavarman | ⚠ from **this** end the relation looks different: Vararuci (2)'s only Sanskrit-grammar work is **one quarter of another man's book**, and his own name is attached to the adhyāya nobody's origin-legend covers — Kārttikeya dictates I–III
 - expressed-by: prakrta-prakasha | the *Prākṛtaprakāśa*, also Vararuci (2)'s — the corpus's first node for **Prākṛt** grammar
 - structurally-parallel-to: patanjali | the corpus's other name that draws multiple attributions — three there, **four** here, and the causes differ: a theological motor there, a bare name-plus-gotra collision here
 - structurally-parallel-to: kasika | ⭐ both are places where this batch met a non-Pāṇinian grammar in passing — the Kātantra here, the Buddhist Cāndra-Vyākaraṇa there — and both are recorded as gaps rather than filled
