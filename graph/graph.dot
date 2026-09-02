@@ -106,6 +106,7 @@ digraph ancient_texts {
     "asanga" [label="Asaṅga" fillcolor="#ff8c5a" shape=ellipse];
     "bodhicitta" [label="bodhicitta" fillcolor="#ff8c5a" shape=ellipse];
     "bodhisattva" [label="bodhisattva" fillcolor="#ff8c5a" shape=ellipse];
+    "candra-vyakarana" [label="Cāndra-vyākaraṇa" fillcolor="#ff8c5a" shape=ellipse];
     "catuskoti" [label="catuṣkoṭi" fillcolor="#ff8c5a" shape=ellipse];
     "citta" [label="citta" fillcolor="#ff8c5a" shape=ellipse];
     "dharmakirti" [label="Dharmakīrti" fillcolor="#ff8c5a" shape=ellipse];
@@ -402,7 +403,6 @@ digraph ancient_texts {
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "candra-vyakarana" [label="candra-vyakarana" fillcolor="#777777" shape=box];
     "paribhasha" [label="paribhasha" fillcolor="#777777" shape=box];
     "prakrta-prakasha" [label="prakrta-prakasha" fillcolor="#777777" shape=box];
   }
@@ -863,6 +863,14 @@ digraph ancient_texts {
   "cakrapanidatta" -> "agni-ayurveda" [style=dashed color="#0066cc66"];
   "cakrapanidatta" -> "vagbhata" [style=dashed color="#0066cc66"];
   "cakrapanidatta" -> "dalhana" [style=dashed color="#0066cc66"];
+  "candra-vyakarana" -> "vyakarana" [style=solid color="#33333333"];
+  "candra-vyakarana" -> "astadhyayi" [style=dotted color="#cc000099"];
+  "candra-vyakarana" -> "panini" [style=dashed color="#cc660066"];
+  "candra-vyakarana" -> "katyayana" [style=dashed color="#cc660066"];
+  "candra-vyakarana" -> "kaiyata" [style=dashed color="#00993366"];
+  "candra-vyakarana" -> "katantra" [style=dashed color="#0066cc66"];
+  "candra-vyakarana" -> "paribhasha" [style=dashed color="#0066cc66"];
+  "candra-vyakarana" -> "mahabhashya" [style=dashed color="#0066cc66"];
   "candrata" -> "ayurveda" [style=solid color="#33333333"];
   "candrata" -> "haricandra" [style=dashed color="#cc660066"];
   "candrata" -> "jejjata" [style=dashed color="#cc660066"];
