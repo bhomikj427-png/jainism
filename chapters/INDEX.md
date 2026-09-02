@@ -59,6 +59,8 @@
 | 39 Filling in the Blanks: How the Record Gets Made | [cross-tradition/39-filling-in-the-blanks.md](cross-tradition/39-filling-in-the-blanks.md) | jayatīrtha · vedānta-deśika · vimuktātman · tīsaṭa · niścalakara · vṛnda | drafted |
 | 40 What Grammar Was For: Pāṇini & the Ancillary Sciences | [hindu/shastra/40-what-grammar-was-for.md](hindu/shastra/40-what-grammar-was-for.md) | vyākaraṇa · pāṇini · aṣṭādhyāyī · kāraka · kātyāyana · patañjali (vaiyākaraṇa) · mahābhāṣya · nirukta | drafted |
 | 41 The Word as the World: Bhartṛhari & Grammar's Claim to Be a Darśana | [hindu/darsana/41-the-word-as-the-world.md](hindu/darsana/41-the-word-as-the-world.md) | bhartṛhari · vākyapadīya · sphoṭa · śabdabrahman | drafted |
+| 42 The Ladder and the Boundary: Pāṇini's Commentators & the Size of a Text | [hindu/shastra/42-the-ladder-and-the-boundary.md](hindu/shastra/42-the-ladder-and-the-boundary.md) | kaiyaṭa · kāśikā · bhaṭṭoji dīkṣita · nāgeśa bhaṭṭa · vararuci · pratyāhāra · yāska | drafted |
+| 43 Meaning Read In: Helārāja, Kauṇḍabhaṭṭa & What Commentary Adds | [hindu/darsana/43-meaning-read-in.md](hindu/darsana/43-meaning-read-in.md) | helārāja · kauṇḍabhaṭṭa · sphoṭasiddhi | drafted |
 
 ---
 
@@ -91,8 +93,14 @@
 > a Vedānta-founders chapter (`hindu/darsana/`), and a cross-tradition dialecticians chapter that spans Nyāya, Advaita,
 > Dvaita **and** Jainism.
 >
-> **→ The next unit of work is therefore a concept batch in `progress.md` (Batch 46), not a chapter.** New nodes first;
-> a chapter over them afterwards. When new concepts are written, re-derive this roadmap again by the method below.
+> **→ The next unit of work is a concept batch in `progress.md`, not a chapter.** New nodes first; a chapter over them
+> afterwards. When new concepts are written, re-derive this roadmap again by the method below.
+>
+> **Chapters 42 and 43** were derived from Batch 48's ten nodes, taking a **two-way split that repeats the Ch 40 / Ch 41 one on purpose**:
+> the commentators who worked on grammar's **technique** went to `hindu/shastra/` (Ch 42), and the three who worked on its **theory of
+> meaning** to `hindu/darsana/` (Ch 43) — same batch, in two cases the same century, different category. ⭐ **Ch 42 §2 corrects Ch 40 §2.2,
+> and Ch 40 has been patched in place with a SUPERSEDED banner pointing at it** — the first time a chapter in this corpus has been
+> corrected by a later one rather than left to go quietly stale (`DRIFT.md` D3).
 >
 > ⚠ **One standing debt this roadmap cannot fix by itself: [Ch 11 (The Vedānta Family)](hindu/darsana/11-vedanta.md)
 > now predates Chs 25, 30, 34, 36 and 37**, all of which build on it, and it has never been re-read against them.

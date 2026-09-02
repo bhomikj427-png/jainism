@@ -60,9 +60,13 @@ The tradition drew the consequence explicitly. A maxim attributed to **Kaiyaṭa
 
 **This inverts the assumption a modern reader brings**: that a commentary is subordinate to its text, and that the earliest witness is the best. Here the rule runs the other way, and it is *stated*, not merely practised.
 
-⚠ **Provenance, flagged rather than buried.** The *munitraya* is verified at first hand in Abhyankar. **The ranking is not.** The maxim reaches this corpus through secondary report only; the primary scholarship (*Evolution of the Notion of Authority (Prāmāṇya) in the Pāṇinian Tradition*) returned HTTP 403, and the formula is **not in Abhyankar** under *yathottara* — checked directly in the scan. It is load-bearing for this chapter and it is unverified. **Carried as a follow-up, and you should read §2 knowing that.**
+✅ **Provenance — RESOLVED in Batch 48; this paragraph is kept for the record.** When written, the maxim reached this corpus through secondary report only: the primary scholarship returned HTTP 403, and the formula is **not in Abhyankar** under *yathottara* (checked directly, and checked again in Batch 48 with the same result). **It is now verified at first hand** — Deshpande, 26th J. Gonda Lecture (2018), gives the wording exactly as above and locates it: ***Pradīpa* on *Mahābhāṣya* on P. 1.1.29, Vol. I: 217**. The attribution to Kaiyaṭa is correct.
+
+⚠ **But the same source bounds the maxim, and §2.2 below is WRONG as written.** Deshpande's next clause: the authority of the sages "increases successively, and **it effectively peaks in Patañjali**." **The rule ranks three men and stops** — it does not generalise into "a later commentator outranks an earlier one," so Kaiyaṭa (tier 4) and Nāgeśa (tier 5) fall **outside the scope of the principle Kaiyaṭa himself wrote**. See **[Ch 42 §2](42-the-ladder-and-the-boundary.md#2--the-maxim-verified--and-the-ceiling-chapter-40-missed)**, which supersedes §2.2, and `kaiyata.md`.
 
 ### §2.2 Why it is not decadence
+
+> ⚠⚠ **SUPERSEDED, Batch 48 — read this section as a record of a corrected argument.** Its two mundane causes (below) stand and are good. Its **framing claim does not**: the maxim supplies **no warrant at all** for the climb above Patañjali, because it peaks at Patañjali. ⭐ The correction makes the parallel with Navya-Nyāya's drift **closer, not weaker** — in *both* literatures the climb is unlicensed, and in one of them somebody wrote a rule that looks like a licence and is not. **[Ch 42 §2.2–§2.4](42-the-ladder-and-the-boundary.md) carries the corrected argument**, including Deshpande's explanation of why the rule stops where it does.
 
 Batch 46 found, in a wholly unrelated literature, that Navya-Nyāya's object of study "migrates upward": by the 17th century the live text is a commentary on a commentary (`tattvacintamani`). There it looked like drift — a tradition losing contact with its roots.
 
