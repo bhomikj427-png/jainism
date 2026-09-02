@@ -64,6 +64,39 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 ---
 
+## Batch 50 — OPEN (2026-09-02). **The DEPTH batch the corpus asked for.**
+
+Theme: **read the primary sources this corpus has been describing at second hand.** Batch 49 closed by arguing
+that follow-ups 1–3 were free, located, and would each close a named test. This batch takes that advice.
+
+### Depth reads (each discharges a named Batch 49 follow-up)
+
+| id | source | follow-up | state |
+|---|---|---|---|
+| **D-A** | **Cowell 1854**, *The Prākṛta-prakāśa … with the Commentary (Manoramā) of Bhāmaha* (archive.org `b30093016`, 390 KB djvu.txt, clean OCR) | **#2** | **READ** |
+| **D-B** | **Kāśikāvṛtti with the *Padamañjarī* and the *Nyāsa*** (archive.org `wssi_kasika-vritti-part-1-…`) | **#1 = T3** | pending |
+| **D-C** | ***Vākyapadīya* II with Puṇyarāja's *Ṭīkā*** / Iyer's English kāṇḍa II | **#3** | pending |
+
+### The queue
+
+| # | key | state | why |
+|---|---|---|---|
+| 1 | `bhamaha` | pending | opened by D-A — the Manoramā's commentator, and **collision candidate #13** (grammarian vs. the *Kāvyālaṅkāra*'s ālaṅkārika) |
+| 2 | `sauraseni` | pending | opened by D-A — ⭐ the dialect that is *prakṛti* to two others **and whose commentary is lost** |
+| 3 | `vyadi` | pending | pre-Patañjali; the first paribhāṣā writer. Referenced in 5 files, written in none |
+| 4 | `durgasimha` | pending | the Kātantra's commentator; a live 8th-vs-9th/10th-c. split |
+| 5 | `maitreya-raksita` | pending | the *Tantrapradīpa* — the text Batch 49's OCR defect misattributed |
+| 6 | `jainendra-vyakarana` | pending | the Jain Sanskrit grammar |
+| 7 | `devanandin` | pending | its author |
+| 8 | `sakatayana` | pending | ⚠ two of them — another collision |
+| 9 | `candrakirti` | pending | "the clearest hole" (Batch 49) |
+| 10 | *(reserved)* | pending | to be set by whichever of D-B / D-C opens the most |
+
+⚠ **Scope-lock (§8).** Work only these, in order, one at a time, committing each. Typed links to unwritten
+nodes are allowed; writing those files this run is not.
+
+---
+
 ## Batch 49 — CLOSED (2026-09-02). 10/10 concepts; 397 → 407 nodes; 2473 → 2545 edges. Plus Ch 44 and Ch 45.
 
 Theme: **the grammars that lost.** **`python graph/check_all.py` → ALL CHECKS PASS**; chapter coverage **407/407**, `KNOWN_UNCOVERED` empty, structural + conformance audits **CLEAN**, **0 orphans, 0 unwritten stubs**.
