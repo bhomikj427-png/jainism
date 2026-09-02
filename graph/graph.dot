@@ -131,6 +131,7 @@ digraph ancient_texts {
     "nibbana-theravada" [label="nibbāna (Theravāda)" fillcolor="#ff8c5a" shape=ellipse];
     "nirvana-buddhist" [label="nirvāṇa (Buddhist)" fillcolor="#ff8c5a" shape=ellipse];
     "nirvana-mahayana" [label="apratiṣṭhita-nirvāṇa" fillcolor="#ff8c5a" shape=ellipse];
+    "nyasa-vyakarana" [label="Nyāsa (Kāśikāvivaraṇapañjikā)" fillcolor="#ff8c5a" shape=ellipse];
     "paticcasamuppada-pali" [label="paṭicca-samuppāda" fillcolor="#ff8c5a" shape=ellipse];
     "prajnakaragupta" [label="Prajñākaragupta" fillcolor="#ff8c5a" shape=ellipse];
     "pramana-samuccaya" [label="Pramāṇasamuccaya" fillcolor="#ff8c5a" shape=ellipse];
@@ -406,7 +407,6 @@ digraph ancient_texts {
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
     "haradatta" [label="haradatta" fillcolor="#777777" shape=box];
-    "nyasa-vyakarana" [label="nyasa-vyakarana" fillcolor="#777777" shape=box];
     "paribhasha" [label="paribhasha" fillcolor="#777777" shape=box];
     "prakrta-prakasha" [label="prakrta-prakasha" fillcolor="#777777" shape=box];
   }
@@ -1830,6 +1830,11 @@ digraph ancient_texts {
   "nrisimhasrama" -> "citsukha" [style=dashed color="#00993366"];
   "nrisimhasrama" -> "dvaita-vedanta" [style=dashed color="#0066cc66"];
   "nrisimhasrama" -> "appayya-dikshita" [style=dashed color="#0066cc66"];
+  "nyasa-vyakarana" -> "kasika" [style=solid color="#33333333"];
+  "nyasa-vyakarana" -> "astadhyayi" [style=dashed color="#cc660066"];
+  "nyasa-vyakarana" -> "mahabhashya" [style=dashed color="#00993366"];
+  "nyasa-vyakarana" -> "helaraja" [style=dashed color="#00993366"];
+  "nyasa-vyakarana" -> "nikshepa" [style=dotted color="#cc000099"];
   "nyaya-sutra" -> "pramana-nyaya" [style=solid color="#55555533"];
   "nyaya-sutra" -> "anumana-nyaya" [style=solid color="#55555533"];
   "nyaya-sutra" -> "hetvabhasa" [style=solid color="#55555533"];
