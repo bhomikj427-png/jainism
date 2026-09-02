@@ -2,8 +2,8 @@
 
 > **⚠️ ORIENTATION — read this before acting (kept short on purpose; loaded on every startup — closed run-logs are rotated to `progress-archive.md`).**
 > This project has **two parallel structures**, and they are NOT interchangeable:
-> 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 48 CLOSED — 397 concepts, 2473 edges** (`check_all.py`: ALL CHECKS PASS).
-> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Ch 42 and Ch 43** (and **Ch 40 patched in place** — its §2.2 superseded by Ch 42 §2). Previously Ch 40 and Ch 41, written over Batch 47's twelve grammar nodes and **deliberately split across two folders** (`hindu/shastra/` and `hindu/darsana/`) because the tradition itself changed category. **Chapter coverage is 397 / 397 and `KNOWN_UNCOVERED` is EMPTY.** Verify with `python graph/check_chapters.py`, never by hand. → **The next unit of work is a NEW BATCH (49) — see the end of the Batch 47 run-log below.** Write new nodes first, then a chapter over them, then re-derive the roadmap in `chapters/INDEX.md` by the method recorded there. ⚠ Do NOT re-derive coverage by hand-diffing — that is what let a false "340/340" stand for 43 batches. Run **`python graph/check_chapters.py`**: it joins the index to `concepts/` (handling the IAST-vs-filename key split) and exits non-zero on any real gap. NOTE: `hindu/` has a **second level** (`darsana/`, `devotional/`, `scripture/`, `shastra/`) — see `chapters/INDEX.md` header for what goes where.
+> 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 49 CLOSED — 407 concepts, 2545 edges** (`check_all.py`: ALL CHECKS PASS).
+> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Ch 44 and Ch 45** (and **Ch 40 patched in place** — its §2.2 superseded by Ch 42 §2). Previously Ch 40 and Ch 41, written over Batch 47's twelve grammar nodes and **deliberately split across two folders** (`hindu/shastra/` and `hindu/darsana/`) because the tradition itself changed category. **Chapter coverage is 407 / 407 and `KNOWN_UNCOVERED` is EMPTY.** Verify with `python graph/check_chapters.py`, never by hand. → **The next unit of work is a NEW BATCH (49) — see the end of the Batch 47 run-log below.** Write new nodes first, then a chapter over them, then re-derive the roadmap in `chapters/INDEX.md` by the method recorded there. ⚠ Do NOT re-derive coverage by hand-diffing — that is what let a false "340/340" stand for 43 batches. Run **`python graph/check_chapters.py`**: it joins the index to `concepts/` (handling the IAST-vs-filename key split) and exits non-zero on any real gap. NOTE: `hindu/` has a **second level** (`darsana/`, `devotional/`, `scripture/`, `shastra/`) — see `chapters/INDEX.md` header for what goes where.
 >
 > **"chapter" ≠ "batch."** If the user says "chapter," they mean a file in `chapters/` — open `chapters/INDEX.md` for the next number; do NOT answer with a "Suggested Batch" from this file. (This mistake has recurred across sessions — see `chapter-vs-batch` memory.)
 
@@ -15,55 +15,16 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 > **🗂  Run-log rotation (token discipline, CLAUDE.md §7/§9).** Closed run-logs older than the current run live in **`progress-archive.md`** (append-only; git is the canonical history). This file keeps only the orientation header, the anchor text, and the **most recent activity** so startup stays cheap. When you finish a batch: append the new run-summary here, then move the *previously* newest run-log block into `progress-archive.md`. Full history: `progress-archive.md` or `git log`.
 
-### Corpus milestone: **397 concepts across 48 batches; 43 chapters.** 2473 edges. 0 orphans. 0 unwritten stubs. **`python graph/check_all.py` → ALL CHECKS PASS**: structural + conformance audits CLEAN, no duplicate/phantom groups, and **chapter coverage 397/397 with an empty `KNOWN_UNCOVERED` table.** Nothing is red and nothing is excused.
+### Corpus milestone: **407 concepts across 49 batches; 45 chapters.** 2545 edges. 0 orphans. 0 unwritten stubs. **`python graph/check_all.py` → ALL CHECKS PASS**: structural + conformance audits CLEAN, no duplicate/phantom groups, and **chapter coverage 397/397 with an empty `KNOWN_UNCOVERED` table.** Nothing is red and nothing is excused.
 
 ---
 
-## ▶ BATCH 49 — OPEN (2026-09-02). Theme: **the grammars that lost.**
-
-**Why this batch.** Batch 48 named it the largest structural hole it opened: *"Batches 40–48 have treated 'Sanskrit grammar' as coextensive with the Pāṇinian tradition."* The dedup-gate grep confirms the shape that opened Batches 47 and 48 — **terms invoked across many committed files against zero nodes**:
-
-| term | files invoking it | nodes |
-|---|---|---|
-| `Haradatta` | **9** (`astadhyayi`, `helaraja`, `kaiyata`, `kasika`, `madhva`, `nagesha-bhatta`, `panini`, `pratyahara`, `sphota`) | 0 |
-| `Jinendrabuddhi` / `Nyāsa` | **8** | 0 |
-| `paribhāṣā` | **6** (`astadhyayi`, `bhattoji-dikshita`, `indu`, `karaka`, `kasika`, `nagesha-bhatta`) | 0 |
-| `Cāndra` / `Candragomin` | 3 (`kasika`, `mahabhashya`, `vararuci`) | 0 |
-| `Kātantra` | 2 (`katyayana`, `vararuci`) | 0 |
-
-⚠ **`Kātantra` scores 92 hits in Abhyankar and 2 in this corpus.** That ratio is the batch's premise in one number.
-
-### The queue
-
-| # | key | state | why |
-|---|---|---|---|
-| 1 | `katantra` | pending | the rival system — the most-used grammar in eastern India and Kashmir |
-| 2 | `sarvavarman` | pending | its author |
-| 3 | `candra-vyakarana` | pending | the **Buddhist** grammar; `kasika.md` already records the Kāśikā's awareness of it |
-| 4 | `candragomin` | pending | its author. ⚠ dedup: **not** `candrata` (the Āyurvedic commentator, already written) |
-| 5 | `jinendrabuddhi` | pending | ⭐⭐ **T2** — see below |
-| 6 | `nyasa-vyakarana` | pending | the *Kāśikāvivaraṇapañjikā*. ⚠ tradition-suffixed: `nyāsa` is **also** a Jain/Pāṇinian technical term inside `nikshepa.md` |
-| 7 | `haradatta` | pending | the *Padamañjarī*; Batch 48's named control case for Kaiyaṭa's hierarchy |
-| 8 | `paribhasha` | pending | the metarule as a technical node — **T4** |
-| 9 | `prakrta-prakasha` | pending | Vararuci's Prakrit grammar; the corpus has **no node for Prākṛt grammar at all** |
-| 10 | `punyaraja` | pending | *Vākyapadīya* II's commentator; the third leg of the Helārāja/Puṇyarāja pair |
-
-### The four named tests (⚠ **leads to test, not facts** — Batches 44–48 each falsified their own premises)
-
-- **T1 — is the Kātantra a *rival* or a *simplification*?** Expectation: it competes in **use** and not in **theory** — i.e. it never contests Pāṇini's authority, only his pedagogy. If so, "the winner's account" is the wrong frame and the batch's own premise is falsified.
-- **T2 — ⭐⭐ is the grammarian Jinendrabuddhi the same man as Dignāga's commentator?** The corpus **already carries both**, in `panini.md`/`kasika.md` (the 8th-c. Buddhist author of the *Nyāsa*) and in `pramana-samuccaya.md` (the *Ṭīkā* from which the lost Sanskrit is reconstructed) — **and has never noticed they share a name.** Either outcome is a result: one man = an unnoticed grammar↔pramāṇa edge; two men = name-collision **#9**, found inside the corpus rather than in a source.
-- **T3 — does Haradatta's non-hierarchical reading of the three sages survive first-hand checking?** Deshpande used it to explain why Kaiyaṭa's ladder stops at Patañjali (Batch 48's best result). The corpus is currently holding one side of that contrast without a node for the other.
-- **T4 — is *paribhāṣā* Pāṇinian property or shared technology?** The direct test of the batch premise: if the rival systems have their own paribhāṣā literatures, the metalinguistic layer is the discipline's, not one school's.
-
-**Rules in force:** §8 dedup gate before every file · one concept at a time, commit each · Abhyankar re-downloaded and confirmed working (642 "Panini" hits) · Batch 47's source-weighting caution (**specialist = strong on internal knowledge, weak on chronology**) · Batch 48's §0 discipline on optimality/formal-systems claims.
-
----
 
 ## ▶ NEXT SESSION — start here
 
-**The repo is fully green.** `python graph/check_all.py` → **ALL CHECKS PASS**; chapter coverage **397/397** with an empty `KNOWN_UNCOVERED` table. No outstanding maintenance, no red gate. The next unit of work is a **new concept batch (49)** — suggestions at the end of the Batch 48 run-log below. ⭐ **Batch 48's largest opening is structural**: the corpus has treated "Sanskrit grammar" as coextensive with the Pāṇinian tradition for nine chapters, and has now met two rival systems (Kātantra, Cāndra-Vyākaraṇa) with no nodes for either.
+**The repo is fully green.** `python graph/check_all.py` → **ALL CHECKS PASS**; chapter coverage **407/407** with an empty `KNOWN_UNCOVERED` table. No outstanding maintenance, no red gate. The next unit of work is a **new concept batch (50)** — suggestions at the end of the Batch 49 run-log below. ⭐ **But read the last bullet there first: Batch 49 argues for a DEPTH batch instead**, and names three free, located primary sources that would each close a named test. ✅ **Batch 48's largest opening — the rival grammars — was CLOSED by Batch 49**, which wrote both systems, both authors, the corpus's first Prākṛt-grammar node, and the shared metalanguage. ⭐ **Batch 49's own largest opening is different in kind: it is DEBT, not coverage.**
 
-⚠ **Read before opening Batch 49.** Batches 44–48 each falsified their own queue premises. **Batch 48 falsified two of its four named tests (T2, T4) — and T4's false premise was the corpus's own follow-up list.** It corrected or qualified **five** committed concept files and **patched a chapter in place**. The suggestions below are **leads to test, not facts**.
+⚠ **Read before opening Batch 50.** Batches 44–49 each falsified something they queued. **Batch 49 confirmed three of its four named tests, falsified the *frame* of the fourth, and then falsified its own headline finding two nodes after committing it.** It corrected or qualified **five** committed files, **two of them written inside the same batch**. The suggestions below are **leads to test, not facts**.
 
 ⚠ **A new standing caution on source-weighting, produced by Batch 47 and applying to every future batch:** **"read at first hand" and "specialist" are strong marks for what a discipline knows *internally*** — vocabulary, manuscript contents, which attributions the tradition itself doubts — **and weak for anything depending on outside scholarship that has moved, chronology above all.** Abhyankar (1961) is authoritative on *pratyāhāra* and out of date on Bhartṛhari's century, and both are true of the same book. See Ch 40 §8.2.
 
@@ -101,109 +62,111 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 ---
 
-## Batch 48 — CLOSED (2026-09-02). 10/10 concepts; 387 → 397 nodes; 2410 → 2473 edges. Plus Ch 42 and Ch 43, and a patch to Ch 40.
+---
 
-Theme: **the commentarial tiers below Pāṇini.** A grep found **19 files** invoking Kaiyaṭa / Kāśikā / Nāgeśa / Yāska / Bhaṭṭoji against **zero** nodes — the identical signal that opened Batch 47. **`python graph/check_all.py` → ALL CHECKS PASS**, chapter coverage **397/397**, structural + conformance audits **CLEAN**.
+## Batch 49 — CLOSED (2026-09-02). 10/10 concepts; 397 → 407 nodes; 2473 → 2545 edges. Plus Ch 44 and Ch 45.
+
+Theme: **the grammars that lost.** **`python graph/check_all.py` → ALL CHECKS PASS**; chapter coverage **407/407**, `KNOWN_UNCOVERED` empty, structural + conformance audits **CLEAN**, **0 orphans, 0 unwritten stubs**.
 
 ### The ten
 
 | # | key | status / conf | the one-line finding |
 |---|---|---|---|
-| 1 | `kaiyata` | **contested** / medium | ⭐⭐ **T1 confirmed *and* bounded** — the maxim is real and cited (*Pradīpa* on M.Bh. on P. 1.1.29), and it **peaks at Patañjali**, one tier below its own author. |
-| 2 | `kasika` | **contested** / medium | ⭐ **The only full commentary on Pāṇini is a beginners' gloss** — and Batch 47's source rule predicted *both* of Abhyankar's postures. |
-| 3 | `helaraja` | **contested** / medium | ⭐⭐ **T3: reachable at first hand** (an open-access critical edition) — and reading him **qualified an edge the corpus had already drawn**. |
-| 4 | `nagesha-bhatta` | **contested** / medium | ⭐ The tradition's terminus — and a **misparsed appositive** that turned a teaching lineage into a bloodline. |
-| 5 | `bhattoji-dikshita` | converged / medium | ⭐ **The order Sanskrit grammar is taught in is not Pāṇini's.** |
-| 6 | `kaundabhatta` | converged / medium | ⭐⭐ **The direction of borrowing reverses** — grammar restates its own semantics in Navya-Nyāya's idiom. |
-| 7 | `yaska` | **contested** / medium | ⭐⭐ **Follow-up #3 closed at the primary level** — Kautsa's six objections and Yāska's six replies, in Sarup. |
-| 8 | `vararuci` | **contested** / medium | ⭐⭐ **T2 falsified — four men**, and Abhyankar's entry is an argument, not a self-contradiction. |
-| 9 | `pratyahara` | converged / medium | ⭐ **A theorem read at first hand, and four limits in the author's own words.** |
-| 10 | `sphotasiddhi` | converged / medium | ⚠⚠ **T4 falsified — the gap was in the follow-up, not the corpus.** |
+| 1 | `katantra` | contested / medium | ⭐⭐ **T1: the batch's own premise was the wrong shape.** It didn't lose — it won classrooms while Pāṇini won prestige. |
+| 2 | `sarvavarman` | contested / **low** | ⭐⭐⭐ **The evidential circle closes**: the sole witness to his date is a text whose own existence that same episode explains. |
+| 3 | `candra-vyakarana` | contested / medium | ⭐⭐⭐ **A transmission accident read as an authorial choice — and this corpus made it too.** |
+| 4 | `candragomin` | contested / medium | ⭐⭐ **Collision #10, the first a specialist had already split — and the split did not propagate.** |
+| 5 | `jinendrabuddhi` | contested / medium | ⭐⭐⭐ **T2 confirmed, and the collision was inside this corpus.** |
+| 6 | `nyasa-vyakarana` | converged / medium | ⭐⭐⭐ **"Manuscripts in India last no more than about five hundred years."** Read at first hand. |
+| 7 | `haradatta` | contested / medium | ⭐⭐ **T3 answered in the honest negative — and Pāṇinian grammar turns out to have regions.** |
+| 8 | `paribhasha` | converged / medium | ⭐⭐⭐ **T4 confirmed with a census: nine systems, fifteen collections, 500+ maxims.** |
+| 9 | `prakrta-prakasha` | contested / medium | ⭐⭐ The corpus's **first Prākṛt-grammar node**, and the terminal module's third instance. |
+| 10 | `punyaraja` | contested / medium | ⭐⭐ The batch closes on **the apparatus its own open question must be read through.** |
 
-### The four named tests, and how they came back
+### The four named tests
 
 | test | queued expectation | result |
 |---|---|---|
-| **T1** — is Kaiyaṭa's *yathottaraṃ* maxim real and his? | yes, hopefully verifiable | ✅ **Confirmed, with an address** — Deshpande's Gonda Lecture gives *Pradīpa* on M.Bh. on P. 1.1.29, Vol. I: 217. ⚠ **And bounded**: "it effectively peaks in Patañjali." **Two committed files corrected** (`mahabhashya.md`, `vyakarana.md`) **plus Ch 40 §2.2.** |
-| **T2** — can a node hold the Vararuci split whole? | a two-way split | ❌ **Falsified twice over.** The split is **four-way**, numbered by Abhyankar himself — and reading the entry in **full** shows it is a **disambiguation that argues**, not the pathology Batch 47 diagnosed from two-thirds of it. Batch 46's *set-of-witnesses* generalisation survives; the stronger claim does not. |
-| **T3** — is Helārāja reachable at first hand? | probably `blocked` (2 bare Abhyankar hits) | ✅ **Confirmed, better than expected** — Li's Cambridge PhD (2018) is an open-access critical edition **and translation**. ⭐ **A D1 result.** And it forced a caveat onto `avacchedaka.md`. |
-| **T4** — does the *Sphoṭasiddhi* change `mandana-mishra.md`? | yes — "a node the corpus thought it knew has a second career" | ⚠⚠ **False premise.** `mandana-mishra.md` **already had it**, in front-matter *and* gloss. A §4-signal-4 grep would have closed the follow-up before it opened. |
+| **T1** — rival or simplification? | "competes in use, not in theory" | ✅ **Confirmed — and the *frame* falsified.** "The winner's account" is the wrong shape: the Kātantra "attained… a very prominent place among text-books… in Behar, Bengal and Gujarat," has a large unpublished commentarial literature, and (⚠ single-sourced) shaped **Kaccāyana and the Dravidian grammarians**. **Prestige was mistaken for reach.** |
+| **T2** — is the grammarian Jinendrabuddhi Dignāga's commentator? | either outcome is a result | ✅ **Affirmative in the mainstream** (Hayes 1983, Funayama 1999, Steinkellner 2005; **Kobayashi 1977** dissenting). ⭐ **The corpus held both halves in separate files and had never noticed.** |
+| **T3** — does Haradatta's non-hierarchical reading survive first-hand checking? | hopefully yes | ⚠ **NOT DISCHARGED, and the node says so.** Deshpande was read at first hand in Batch 48, so the corpus is one remove from Haradatta rather than two — but **the *Padamañjarī* was not opened, and it is free on archive.org bound with the *Nyāsa*. Not blocked; not done.** |
+| **T4** — is *paribhāṣā* Pāṇinian property or shared technology? | shared, probably | ✅✅ **Confirmed in its strongest form, with a census** — and larger than the question: *paribhāṣā* is shared across **śāstra**, not just across the grammatical systems. |
 
 ### ⭐ The engine findings
 
-**1. Who decides how big a text is.** The batch's governing question, and the answer is always *a commentator, invisibly*. Abhyankar: the Aṣṭādhyāyī's count is 3,983 "as commented upon by the writers of the **Kāśikā and the Siddhāntakaumudī**" — a 7th-c. beginners' gloss and a 17th-c. re-ordering, a millennium apart, cited as one canon. Of those, **Patañjali reclassifies 9 as Vārttikas and 2 as Gaṇasūtras**. Seventeen centuries later **Nāgeśa** reclassifies *Vārttikas* into two classes and Kātyāyana's corpus falls **~5,000 → ~1,400** — and "there are **some manuscript copies which give this reduced number**." ⭐ **The tradition's first great commentator and its last both resize a canon by reclassifying genre. Neither discovers anything.**
+**1. ⭐⭐⭐ The corpus falsified its own headline finding, two nodes after committing it.** `katantra` was built on Abhyankar's preface — "**the special feature of all these grammars was that they entirely omitted the Vedic peculiarities and accents**" — and drew the conclusion that what makes a grammar "a different system" is that it stops being a **vedāṅga**, which is Ch 40's thesis. **Ramhari Timalsina (Heidelberg) falsifies the strong form**: the Cāndravyākaraṇa had **eight** chapters — 7 Vedic, 8 svara — placed **at the end** rather than distributed as Pāṇini does, and **they were lost**. Abhyankar describes the *received* text and misreports the *composed* one. ⭐ **The surviving claim is weaker and better**, and is now stated in both files. ⚠ **Abhyankar is not shown wrong; his class-level generalisation is shown to be assembled from received texts** — the third time in three batches that a reference work's general statement outruns what its own entries license.
 
-**2. ⭐⭐ The ladder's own rule installs a ceiling below the ladder's top.** Kaiyaṭa wrote a principle of *ascending* authority that stops at Patañjali — tier 3 — while himself standing on tier 4 and Nāgeśa on tier 5. Nāgeśa's empirical gloss (*uttarottarasya bahulakṣyadarśitvāt*, "the later has seen wider usage") **over-generates**: by his own reason he should outrank Patañjali, and he instead calls him *bhagavān*. **Deshpande's explanation is the batch's best single result:** Kaiyaṭa knew Patañjali-as-Śeṣa and *not* Pāṇini-taught-by-Śiva, while **Haradatta** knew the reverse and produced a *complementary*, non-hierarchical view. ⭐ **The ranking stops at Patañjali because the myth stops at Patañjali** — extending `patanjali.md`'s Batch 47 "theological motor" finding from the *conflation* to the *authority structure*. (Deshpande hedges with "perhaps"; recorded with his hedge.)
+**2. ⭐⭐ The terminal module, and three fates.** The correction opened a real structural finding: **Pāṇini interleaves; the rivals modularise.** Cāndra (Vedic + svara + 86 paribhāṣās at the end) → **lost**. Hemacandra (book 8 = Prākṛt) → **detached and became the famous part**. *Prākṛtaprakāśa* (3 dialect chapters) → **accreted, 8 chapters to 12**. And it is the same fact as the pedagogy: **the organisation that makes a grammar teachable makes its parts detachable.** ⚠ Three instances, offered as a pattern, not a law; and the corpus deliberately does **not** now re-read the Kātantra's omission as a loss.
 
-**3. ⭐⭐ The traffic between grammar and logic runs both ways.** Batches 46/47 established grammar → Navya-Nyāya (the *avacchedaka*'s ancestry). Batch 48 found the return leg: **Bhaṭṭoji and Kauṇḍabhaṭṭa "respond to Naiyāyikas and Mīmāṃsakas by reformulating" the speech-form/meaning relation "in terms of cognition."** Two separate transfers, five centuries apart, opposite directions, each sourced; **no net "influence" asserted.** Ch 38 had one leg of a two-way exchange.
+**3. ⭐⭐⭐ "Manuscripts in India last no more than about five hundred years."** Ajotikar, Ajotikar & Scharf, **read at first hand** (the fetch tool could not parse the PDF; extracted locally with `pypdf`). The oldest readable Kāśikāvṛtti manuscript is **early 15th c.**; its first commentator wrote in the **8th or 9th**. ⭐ **The commentaries are not a later layer on the text — they are the older evidence.** This **relocates** the Batch 48 caveat rather than withdrawing it: mediation is not avoidable, it is **universal**, so the discipline is to say **which commentary you stand on**. Second time in three batches a chapter has been answered by a later one rather than left to go stale (D3).
 
-**4. ⭐ The reading-apparatus mechanism caught on the corpus's own citation.** Li's critical edition shows **Helārāja reading five philosophical schools out of Bhartṛhari's five synonyms of *dravya*** — two of them Advaita, which Bronkhorst finds "conspicuously absent in listings of philosophical schools during Bhartṛhari's time." `avacchedaka.md`'s central claim reaches *Vākyapadīya* III **through Helārāja's gloss**. **Edge not withdrawn** — Li treats a *different* chapter, and the corpus checked — but the caveat is now on it: **the corpus has never seen those verses apart from the commentary.** This is `sphota.md`'s Batch 47 finding in a second literature, and the first time the corpus caught it operating on **itself**. ⚠ Batch 47's corollary applied throughout: **the mechanism is not corrupting, it is invisible.**
+**4. ⭐⭐ The argument from silence, stated technically.** Same source: a critical edition may treat a manuscript's silence as support, but "**subcommentaries as a rule specifically mention only a small proportion of the words in the base text… one cannot assume that silence regarding a reading in the base text indicates support.**" ⚠ **Direct consequence for this corpus**: wherever a file says *the commentator does not dispute X*, that is worth **zero**. **Recorded as an un-audited exposure, not as cleared.** And their coverage-measurement problem is the same instrument that produces `mahabhashya.md`'s 1,228-of-3,981.
 
-### ⚠ Six sources caught being wrong — five on chronology or genealogy, and the sixth is us
+**5. ⭐⭐ T4's census.** Abhyankar states it — "**many Paribhāṣās are common, with their wordings quite similar or sometimes identical in the different systems**"… the total "**may well-nigh exceed 500**" — and **compiled the collection himself**: fifteen works, nine systems, counts 62–140. ⭐ **At the level where grammar reasons about itself there was no winner and no loser; there was one discipline.** Stronger still, the systems shared a **method**: each "drew similar Jñāpakas from the wording of the Sūtras **in their systems**." ⚠ And that method is reading doctrine out of a text's incidental features — the Sphoṭāyana/Śalātura move — **licensed, named, and institutionalised.**
+
+**6. ⭐⭐ Pāṇinian grammar had regions, and the corpus did not know.** **Eastern** (Jinendrabuddhi), **Southern** (Haradatta), **Benares** — which "follow [the *Padamañjarī*] more than… the *Nyāsa*." And the Benares school is the Varanasi household Batch 48 reconstructed. ⚠ **The theological inference is explicitly refused**: Buddhist vs Śaiva vs Brahminical writes itself, Abhyankar gives no reason, and **three other explanations sit on the same page.**
+
+### ⚠ Sources caught being wrong — and two of the six are us
 
 | # | source | failure |
 |---|---|---|
-| 1 | **Abhyankar** | Kaiyaṭa: a flat "11th century" where careful usage gives only a *pre-13th-c.* bound |
-| 2 | Wikipedia, *Siddhāntakaumudī* | its author "lived during **1700–1800**" — ~150 years off — and an 1870 **print** date given as the work's date |
-| 3 | Wikipedia, *Kāśikāvṛttī* | "c. the 7th century" with **no evidence offered at all** |
-| 4 | **Hindupedia** | "Bhaṭṭoji Dīkṣita was his grandfather" (of Nāgeśa) — see below |
-| 5 | search summaries | reproducing Abhyankar verbatim and reading as independent corroboration |
-| 6 | ⚠ **this corpus** | Batch 47 follow-up #2 (T4) |
+| 1 | **Abhyankar** | the class-level Vedic-omission claim (finding 1) — and, separately, printing the *Kathāsaritsāgara* as biography under *Sarvavarman* while calling it "very little historical value" under *Pāṇini* |
+| 2 | **wisdomlib "Vyakarana glossary"** | ⚠ **is Abhyankar reprinted verbatim** — caught at first hand, and caught **twice** in this batch (`katantra`, `haradatta`). **Standing rule: never count them as two.** |
+| 3 | **Wikipedia, "Chandragomin"** | merges two figures a specialist separated, **and does not mention the grammar at all** |
+| 4 | **Wikipedia, "Haradatta"** | gives him the Āpastamba and Gautama *Dharmasūtra* commentaries with **no argument and no doubt raised** |
+| 5 | ⚠ **this corpus** | the vedāṅga generalisation (finding 1) — falsified two nodes later, in the same batch |
+| 6 | ⚠ **this corpus** | an **OCR gap reattached a relative clause to the wrong noun**: the *Nyāsa* reported as "fragmentary" when the clause belongs to Maitreya Rakṣita's *Tantrapradīpa*. ⭐ **The Batch 48 Hindupedia appositive defect by a different road** — caught by an independent source, not by re-reading |
 
-⭐ **#4 is worth keeping as a specimen.** Three sources say *"Nāgeśabhaṭṭa was a pupil of Haridīkṣita, **the grandson of Bhaṭṭojidīkṣita**."* Drop the teacher and the appositive re-attaches to Nāgeśa. **A relative clause changing which noun it modifies turns a teaching lineage into a blood one.** ⚠ **And the check reversed the blame**: the obvious inference was that the *summariser* misparsed; fetching Hindupedia directly showed **the page itself asserts it**. Hindupedia also names Nāgeśa's father as **Śiva Bhaṭṭa** — the entry carrying the material that sits badly with its own claim, which is **the Vararuci pattern in a crowd-sourced source**. The generalisation holds across both source types, as predicted.
+⭐ **A seventh entry that is not a failure**: the WebFetch summariser reported EAST's host institution as "**Anthropic**." Corrected from the URL (IKGA / Austrian Academy of Sciences) and noted in-file.
 
-⭐ **And #6 is the one that matters.** The corpus has spent two batches charging reference works with not checking themselves across their own entries. **`sphotasiddhi` is that defect, in this corpus.** Recorded rather than dropped: *a batch that reports only the tests it passes is not running tests.*
+### The collision taxonomy, now at six generators
 
-### §0 discipline — `pratyahara`, the batch's most exposed node
+| generator | instance |
+|---|---|
+| a **personal name** | Vararuci, Patañjali, Kātyāyana |
+| a **place-name** | *Kāśikā* |
+| a **doctrine-name** | *Sphoṭavāda* |
+| a **short form** | **Candra** — a Prākṛt grammarian, and Candrācārya |
+| ⭐ a **genre label** | ***Nyāsa*** (5 systems), ***Paribhāṣāvṛtti*** (4) |
+| ⭐ a **title in another śāstra** | **Haradatta** — grammar/dharma. ⚠ **Undiagnosed on purpose** |
 
-**Petersen 2004 (Proposition 4.2: "Pāṇini's Śivasūtras form an optimal S-alphabet") was read as a PDF, not through summaries** — deliberately, because it is the most inflatable claim in the grammar literature. The proof is real (Hasse-diagram planarity; a K₃,₃ minor; **249 K5-triples** forcing the doubled *h*). **Four limits taken from the author's own words**, including that optimal **explicitly does not mean shortest** — "provably the shortest possible alphabet" is **false**, and is the form the claim usually takes. **No formal-systems edge drawn**, on the `avacchedaka` precedent. ⭐ What *is* earned: the ordering is demonstrably fitted to the classes the grammar needs — and **Kiparsky (1991) reached the same result from inside Pāṇini's own economy principle**, sharing no premises. ⚠ Kiparsky unread.
+⭐ **And the inverse, which the corpus had never met: one man, two names, self-reported** — Puṇyarāja "identified himself as **Rājānakaśūravarma**." **Name-*difference* is equally weak evidence.**
+
+⭐ **The rule was sharpened rather than broken.** Steinkellner's ground as summarised — "identical author-name in the colophons" — is *in form* the inference the corpus distrusts, and applied naively would put it on Kobayashi's side against three later specialists. **The load is carried by Hayes's and Funayama's style-and-citation evidence, not the name.** So: **distrust identifications that rest on the name *alone*.** That is exactly what Vararuci never had.
 
 ### What the batch did to its own corpus
 
-**Five committed files corrected or qualified, and one chapter patched in place:**
+**Five committed files corrected or qualified, three of them written inside this same batch:**
 
-1. **`mahabhashya.md`** — the *yathottaraṃ* maxim gave "doctrinal warrant" to a five-tier climb it does not reach. Corrected; the parallel to `tattvacintamani` is now **closer**, not weaker — in both literatures the climb is unlicensed.
-2. **`vyakarana.md`** — Batch 47's "unverified at first hand" caveat **discharged**, and its scope corrected.
-3. **`katyayana.md`** — Batch 47's "pathology of the entry as a unit of writing" **narrowed** to the true defect: a missing cross-reference. Plus the *gotra*-name mechanism it did not have.
-4. **`avacchedaka.md`** — the Helārāja caveat added to its central edge.
-5. **`astadhyayi.md`**, **`panini.md`**, **`mandana-mishra.md`**, **`bhattoji-dikshita.md`** — new typed edges (the Kāśikā's full coverage against the Mahābhāṣya's 31%; the Pāṇini/Yāska shared roster; the *Sphoṭasiddhi*).
-6. ⭐ **`chapters/hindu/shastra/40-what-grammar-was-for.md` patched in place** — §2.1's provenance flag marked RESOLVED, and **§2.2 given a SUPERSEDED banner** pointing at Ch 42 §2. **The first time a chapter in this corpus has been corrected by a later one rather than left to go quietly stale** (`DRIFT.md` D3).
+1. **`katantra.md`** — the vedāṅga generalisation **corrected in place** (by `candra-vyakarana`), and its origin-myth **seniority assumption qualified** (by `haradatta`). ⭐ **Two corrections, from two different later nodes, to one file, inside one batch.**
+2. **`jinendrabuddhi.md`** — the "fragmentary state" **misattribution corrected in four places** (by `nyasa-vyakarana`).
+3. **`mahabhashya.md`** — the Batch 47 Candrācārya contradiction **narrowed, explicitly not closed**, with both verse addresses supplied.
+4. **`vararuci.md`** — the recorded gap ("no node for the Kātantra, Sarvavarman, or Prākṛt grammar at all") **DISCHARGED**, with the sentence left standing as the record of the gap being found.
+5. **`kasika.md`** — wired to **both** its commentators, and its Jinendrabuddhi note updated with the Dignāga result.
 
-### Name-collisions: two more, taking the running total to eight
+### Follow-ups carried into Batch 50
 
-**`Kāśikā`** — flagged by **Abhyankar himself** before the corpus could make it: the title is reused for unrelated commentaries "as possibly they were written at Kāśī" (Hari Dīkṣita's on the *Vaiyākaraṇabhūṣaṇasāra*; Vaidyanātha's on the *Paribhāṣenduśekhara*). **`Sphoṭavāda`** — Kauṇḍabhaṭṭa wrote one; per LinguIndic so did Nāgeśa; **neither read.** ⭐ **Three different generators now on record: a personal name (Vararuci, Patañjali, Kātyāyana), a place-name (Kāśikā), a doctrine-name (Sphoṭavāda).**
+**New, and the first three are cheap:**
 
-### The teaching layer
+1. ⭐⭐ **The *Padamañjarī* and the *Nyāsa*** — the Kāśikāvṛtti with **both** is free on archive.org. **This is T3, and it was not blocked, only not done.**
+2. ⭐⭐ **Cowell 1854** — the *Prākṛtaprakāśa* with an **English translation** and Bhāmaha's *Manoramā*, out of copyright for a century. The corpus has described a Prākṛt grammar it has not opened.
+3. ⭐⭐ ***Vākyapadīya* II.481–490** — Benares Sanskrit Series 1884 with Puṇyarāja's *Ṭīkā*, or **Iyer's English kāṇḍa II**. **Would close the Candrācārya question outright.**
+4. ⭐ **Ramhari Timalsina**, *The Vedic and Svara Chapters of the Cāndravyākaraṇa* — ⚠ **the load-bearing source of this batch's biggest correction, and it was not read** (publisher returned Access-Denied).
+5. **Abhyankar's own *Paribhāṣāsaṃgraha*** (15 texts in one volume) and **Kielhorn's *Paribhāṣenduśekhara*** (text + English translation).
+6. ⚠ **Kobayashi 1977** — a **D2 case**: the corpus knows the dissenting position only as a negative sign in someone else's bibliography. Also **Steinkellner 2005 pp. xl–xlii**, **Hayes 1983**, **Funayama 1999**.
+7. **Aklujkar 1974**, "The Authorship of the *Vākya-kāṇḍa-ṭīkā*" — new to the corpus; and **Aklujkar 1972** (Batch 47's follow-up #5, now dated).
+8. **Patrick Olivelle (2005), pp. 301 ff.** — the only cited authority on collision candidate #12.
+9. **Andrew Ollett, *Language of the Snakes*** (OA, MUSE) — the named authority on how the grammarians constituted Prākṛt; located, not retrievable.
+10. **The *Asiatische Studien* 2018 paribhāṣā issue** (405/403) — directly on where paribhāṣās come from.
+11. **Liebich 1919** on the Kātantra; the **Kātantrasūtras** (Calcutta 1927 / Saini 1987); **Hoernle 1880** on Caṇḍa; **Pischel**.
+12. ⚠ **Is the Kaccāyana/Dravidian influence claim true?** Single-sourced, and if it holds, T1's correction is much larger than stated.
+13. ⚠ **An un-audited exposure**: every place a file argues from a commentator's silence (engine finding 4).
+14. ⭐ **`candrakirti` has no node** — the corpus has `madhyamaka`, `nagarjuna`, `yogacara`. Opened by `candragomin`.
 
-| ch | title | folder | nodes |
-|---|---|---|---|
-| **42** | The Ladder and the Boundary: Pāṇini's Commentators & the Size of a Text | `hindu/shastra/` | 7 |
-| **43** | Meaning Read In: Helārāja, Kauṇḍabhaṭṭa & What Commentary Adds | `hindu/darsana/` | 3 |
+**Carried from earlier batches, still open:** Phillips's *Tattvacintāmaṇi*; **Matilal 1968 Parts II–III, in hand and still unused**; Potter; Neevel 1977; the *Ratnaprabhā* and *Siddhayoga*; **P. V. Sharma**; Ingalls 1951; the D. Ch./D. C. Bhattacharyya question; the Digvijaya dating in `shankara.md`; the 42-vs-93 *nāma*-karma discrepancy; `dhatu.md`'s three-vs-four dispute; `balarama.md` single-sourced; **Valerie Stoker**; Lance Nelson; Renou, Woods (1914), Dasgupta (1922); Vergiani 2014; Deshpande 1998; the *Vaiyākaraṇabhūṣaṇasāra*. ⚠ **`karma-vargana.md` is no longer the only `low`-confidence node — `sarvavarman.md` joins it, and for a different reason: not thin sources but one source that is a fairy tale.** ⚠ **Ch 11 is now thirteen chapters out of date.**
 
-The two-way split **repeats Ch 40/41's on purpose**: technique → śāstra, theory of meaning → darśana. Same batch, in two cases the same century, different category.
+### Suggested Batch 50 (names only — **leads to test, not facts**)
 
-### Follow-ups carried into Batch 49
-
-**New, from this batch:**
-
-1. ⭐⭐ **The rival grammars.** Batches 40–48 have treated "Sanskrit grammar" as coextensive with the Pāṇinian tradition. This batch brushed against **two** rival systems: the **Kātantra** (Sarvavarman + Vararuci's 4th adhyāya) and the Buddhist **Cāndra-Vyākaraṇa**. **No node for either, or for Prākṛt grammar at all.** The largest structural hole the batch opened.
-2. ⭐ **Kiparsky, "Economy and the Construction of the Śivasūtras" (1991)** — known through one sentence of Petersen's; the independent half of `pratyahara`'s strongest claim.
-3. ⭐ **K. A. Subramania Iyer** would supply **two** unread primary texts at once: the *Sphoṭasiddhi* (1966, text + English translation) and *Vākyapadīya* III with Helārāja (Deccan College, 1963 — which contains the **Adhikaraṇasamuddeśa**, the one item that would settle the `avacchedaka` caveat either way).
-4. **Vergiani, "Āgamārthānusāribhiḥ: Helārāja's use of quotations"** (*J. Indian Philos.* 2014) — directly on `helaraja`'s central question; paywalled.
-5. **The Kāśikā's date.** Every source asserts the 7th century; the only evidence anyone cites is **Yijing** — the witness `bhartrhari.md` records the consensus as having **discredited**. **One sentence of one pilgrim, rejected where it dates Bhartṛhari and relied on where it dates Jayāditya.** Recorded as a tension; the primary scholarship is unread.
-6. **Pascale Haag, *Studies in the Kāśikāvṛtti: The Section on Pratyāhāras*** — a critical edition of the passage where the tradition states the doctrine; would test `pratyahara`'s philological half at first hand.
-7. **Kumārila's *Ślokavārttika* on sphoṭa** — the corpus holds the objection's *existence*, not its text. **Exactly the position Ch 40 §7 was in about Kautsa, which Ch 42 §7 fixed. The precedent says it is fixable.**
-8. **The *Vaiyākaraṇabhūṣaṇasāra*** (ch. XIV, *Sphoṭanirṇaya*, separately translated) — the cheapest way to read Kauṇḍabhaṭṭa at all. And ⚠ **is Bhaṭṭoji's *Vaiyākaraṇasiddhāntakārikā* the same text as his *Vaiyākaraṇamatonmajjana*?** Very likely; unstated by any source consulted.
-9. **Deshpande 1998** (*HEL* 20/1) — Persée serves metadata only and 403s on the PDF; ResearchGate 403'd in Batch 47. The 2018 lecture supersedes the need but not the argument.
-10. **"Appayya Dīkṣita and the Lineage of Bhaṭṭoji Dīkṣita"** (*J. Indian Philos.* 2014) — would settle the genealogy that #4 above turns on.
-
-**Carried from earlier batches, still open:** Phillips's *Tattvacintāmaṇi* translation; **Matilal 1968 Parts II–III, in hand and still unused — the cheapest high-value item in the corpus**; Potter's *Padārthatattvanirūpaṇa*; Neevel 1977; the *Ratnaprabhā* and *Siddhayoga*; **P. V. Sharma** (met four times in Batch 46, always in rebuttal); Ingalls 1951; the D. Ch./D. C. Bhattacharyya question; the Digvijaya dating tension in `shankara.md`; `karma-vargana.md` still the only `low`-confidence node; the 42-vs-93 *nāma*-karma discrepancy; `dhatu.md`'s three-vs-four dispute; `balarama.md` single-sourced; **Valerie Stoker**; Lance Nelson; a critical *Lakṣaṇāvalī*; the *Vākyapadīya*'s "635 verses"; Kaiyaṭa's fuller *Mahābhāṣyadīpikā*; **Renou, Woods (1914), Dasgupta (1922)**. ⚠ **Ch 11 is now eleven chapters out of date.**
-
-⭐ **Batch 47 follow-ups CLOSED this batch:** #1 (the *yathottaraṃ* maxim — verified **and** bounded), #3 (the Kautsa controversy — Yāska's reply read in Sarup), #5 (the kāṇḍa I–II *Vṛtti* — narrowed, with Aklujkar named). #2 was **falsified as a false premise**.
-
-### Suggested Batch 49 (names only — **leads to test, not facts**)
-
-- ⭐ **Opened directly by this batch, and the structural hole:** `katantra` · `sarvavarman` · `candra-vyakarana` / `candragomin` · `prakrta-prakasha` — **the non-Pāṇinian grammars.** A batch here would test whether the corpus's picture of "Sanskrit grammar" has been the winner's account all along.
-- **Also opened:** `haradatta` (whose *complementary* reading of the three sages is the control case for Kaiyaṭa's hierarchy) · `punyaraja` · `jinendrabuddhi` / `nyasa` · `vaidyanatha-payagunde` (tier 6) · `varadaraja` · `sesha-krsna` · `paribhasha` as a technical node.
-- **Still open from Batches 46/47:** `madhava-nidana` / `madhavakara` · `vijayaraksita` · `srikanthadatta` · `annambhatta` / `tarkasangraha` · `jagadisha-tarkalankara` · `vardhamana-upadhyaya` · `sridhara` · `jayanta-bhatta` · `parasara-bhatta` · `yadavaprakasha`.
-- **Maintenance:** ⚠ **Ch 11 predates the entire Advaita-lineage cluster and now also Chs 36–43.** ⭐ **Ch 40 shows the fix is cheap** — a SUPERSEDED banner and a pointer, not a rewrite.
+- ⭐ **Opened directly by this batch:** `candrakirti` (the clearest hole) · `durgasimha` (the Kātantra's commentator, and a live 8th-vs-9th/10th-century split) · `jainendra-vyakarana` / `devanandin` · `sakatayana` · `maitreya-raksita` · `vyadi` (pre-Patañjali, and the first paribhāṣā writer) · `bhoja` / `sarasvatikanthabharana`.
+- **Still open from 46–48:** `madhava-nidana` / `madhavakara` · `vijayaraksita` · `srikanthadatta` · `annambhatta` / `tarkasangraha` · `jagadisha-tarkalankara` · `vardhamana-upadhyaya` · `sridhara` · `jayanta-bhatta` · `parasara-bhatta` · `yadavaprakasha` · `vaidyanatha-payagunde` · `varadaraja` · `sesha-krsna`.
+- ⭐⭐ **A different kind of batch, and this one has earned it: a DEPTH batch.** Follow-ups 1–3 above are all **free, located, and would each close a named test at the primary level.** Batches 44–49 have each opened more primary-source debt than they closed (`DRIFT.md` D1). **Three reads would discharge T3, give the corpus its first Prākṛt text at first hand, and close the Candrācārya question.**
