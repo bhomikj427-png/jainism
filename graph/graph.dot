@@ -802,7 +802,6 @@ digraph ancient_texts {
   "bhakti" -> "prahlada" [style=solid color="#55555533"];
   "bhamaha" -> "prakrta-prakasha" [style=solid color="#55555533"];
   "bhamaha" -> "nyasa-vyakarana" [style=dashed color="#00993366"];
-  "bhamaha" -> "sauraseni" [style=solid color="#33333333"];
   "bhamaha" -> "durgasimha" [style=dashed color="#0066cc66"];
   "bhamaha" -> "abhinavagupta" [style=dashed color="#cc660066"];
   "bhamaha" -> "appayya-dikshita" [style=dotted color="#cc000099"];
