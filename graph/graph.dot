@@ -201,6 +201,7 @@ digraph ancient_texts {
     "govinda-bhagavatpada" [label="Govinda Bhagavatpāda" fillcolor="#4fd16b" shape=ellipse];
     "halahala" [label="hālāhala" fillcolor="#4fd16b" shape=ellipse];
     "hanuman" [label="Hanumān" fillcolor="#4fd16b" shape=ellipse];
+    "haradatta" [label="Haradatta" fillcolor="#4fd16b" shape=ellipse];
     "hiranyakashipu" [label="Hiraṇyakaśipu" fillcolor="#4fd16b" shape=ellipse];
     "indra" [label="Indra" fillcolor="#4fd16b" shape=ellipse];
     "jatayu" [label="Jaṭāyu" fillcolor="#4fd16b" shape=ellipse];
@@ -406,7 +407,6 @@ digraph ancient_texts {
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "haradatta" [label="haradatta" fillcolor="#777777" shape=box];
     "paribhasha" [label="paribhasha" fillcolor="#777777" shape=box];
     "prakrta-prakasha" [label="prakrta-prakasha" fillcolor="#777777" shape=box];
   }
@@ -1195,6 +1195,13 @@ digraph ancient_texts {
   "hanuman" -> "bhakti" [style=dashed color="#0066cc66"];
   "hanuman" -> "shiva" [style=dashed color="#0066cc66"];
   "hanuman" -> "mahabharata" [style=dashed color="#0066cc66"];
+  "haradatta" -> "vyakarana" [style=solid color="#55555533"];
+  "haradatta" -> "kasika" [style=dashed color="#cc660066"];
+  "haradatta" -> "nyasa-vyakarana" [style=dashed color="#cc660066"];
+  "haradatta" -> "mahabhashya" [style=dashed color="#cc660066"];
+  "haradatta" -> "kaiyata" [style=dashed color="#00993366"];
+  "haradatta" -> "jinendrabuddhi" [style=dashed color="#00993366"];
+  "haradatta" -> "patanjali" [style=dotted color="#cc000099"];
   "haricandra" -> "ayurveda" [style=solid color="#33333333"];
   "haricandra" -> "charaka" [style=dashed color="#cc660066"];
   "haricandra" -> "vagbhata" [style=dotted color="#cc000099"];
