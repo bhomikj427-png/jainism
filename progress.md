@@ -19,6 +19,46 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 ---
 
+## ▶ BATCH 49 — OPEN (2026-09-02). Theme: **the grammars that lost.**
+
+**Why this batch.** Batch 48 named it the largest structural hole it opened: *"Batches 40–48 have treated 'Sanskrit grammar' as coextensive with the Pāṇinian tradition."* The dedup-gate grep confirms the shape that opened Batches 47 and 48 — **terms invoked across many committed files against zero nodes**:
+
+| term | files invoking it | nodes |
+|---|---|---|
+| `Haradatta` | **9** (`astadhyayi`, `helaraja`, `kaiyata`, `kasika`, `madhva`, `nagesha-bhatta`, `panini`, `pratyahara`, `sphota`) | 0 |
+| `Jinendrabuddhi` / `Nyāsa` | **8** | 0 |
+| `paribhāṣā` | **6** (`astadhyayi`, `bhattoji-dikshita`, `indu`, `karaka`, `kasika`, `nagesha-bhatta`) | 0 |
+| `Cāndra` / `Candragomin` | 3 (`kasika`, `mahabhashya`, `vararuci`) | 0 |
+| `Kātantra` | 2 (`katyayana`, `vararuci`) | 0 |
+
+⚠ **`Kātantra` scores 92 hits in Abhyankar and 2 in this corpus.** That ratio is the batch's premise in one number.
+
+### The queue
+
+| # | key | state | why |
+|---|---|---|---|
+| 1 | `katantra` | pending | the rival system — the most-used grammar in eastern India and Kashmir |
+| 2 | `sarvavarman` | pending | its author |
+| 3 | `candra-vyakarana` | pending | the **Buddhist** grammar; `kasika.md` already records the Kāśikā's awareness of it |
+| 4 | `candragomin` | pending | its author. ⚠ dedup: **not** `candrata` (the Āyurvedic commentator, already written) |
+| 5 | `jinendrabuddhi` | pending | ⭐⭐ **T2** — see below |
+| 6 | `nyasa-vyakarana` | pending | the *Kāśikāvivaraṇapañjikā*. ⚠ tradition-suffixed: `nyāsa` is **also** a Jain/Pāṇinian technical term inside `nikshepa.md` |
+| 7 | `haradatta` | pending | the *Padamañjarī*; Batch 48's named control case for Kaiyaṭa's hierarchy |
+| 8 | `paribhasha` | pending | the metarule as a technical node — **T4** |
+| 9 | `prakrta-prakasha` | pending | Vararuci's Prakrit grammar; the corpus has **no node for Prākṛt grammar at all** |
+| 10 | `punyaraja` | pending | *Vākyapadīya* II's commentator; the third leg of the Helārāja/Puṇyarāja pair |
+
+### The four named tests (⚠ **leads to test, not facts** — Batches 44–48 each falsified their own premises)
+
+- **T1 — is the Kātantra a *rival* or a *simplification*?** Expectation: it competes in **use** and not in **theory** — i.e. it never contests Pāṇini's authority, only his pedagogy. If so, "the winner's account" is the wrong frame and the batch's own premise is falsified.
+- **T2 — ⭐⭐ is the grammarian Jinendrabuddhi the same man as Dignāga's commentator?** The corpus **already carries both**, in `panini.md`/`kasika.md` (the 8th-c. Buddhist author of the *Nyāsa*) and in `pramana-samuccaya.md` (the *Ṭīkā* from which the lost Sanskrit is reconstructed) — **and has never noticed they share a name.** Either outcome is a result: one man = an unnoticed grammar↔pramāṇa edge; two men = name-collision **#9**, found inside the corpus rather than in a source.
+- **T3 — does Haradatta's non-hierarchical reading of the three sages survive first-hand checking?** Deshpande used it to explain why Kaiyaṭa's ladder stops at Patañjali (Batch 48's best result). The corpus is currently holding one side of that contrast without a node for the other.
+- **T4 — is *paribhāṣā* Pāṇinian property or shared technology?** The direct test of the batch premise: if the rival systems have their own paribhāṣā literatures, the metalinguistic layer is the discipline's, not one school's.
+
+**Rules in force:** §8 dedup gate before every file · one concept at a time, commit each · Abhyankar re-downloaded and confirmed working (642 "Panini" hits) · Batch 47's source-weighting caution (**specialist = strong on internal knowledge, weak on chronology**) · Batch 48's §0 discipline on optimality/formal-systems claims.
+
+---
+
 ## ▶ NEXT SESSION — start here
 
 **The repo is fully green.** `python graph/check_all.py` → **ALL CHECKS PASS**; chapter coverage **397/397** with an empty `KNOWN_UNCOVERED` table. No outstanding maintenance, no red gate. The next unit of work is a **new concept batch (49)** — suggestions at the end of the Batch 48 run-log below. ⭐ **Batch 48's largest opening is structural**: the corpus has treated "Sanskrit grammar" as coextensive with the Pāṇinian tradition for nine chapters, and has now met two rival systems (Kātantra, Cāndra-Vyākaraṇa) with no nodes for either.
