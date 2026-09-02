@@ -63,6 +63,7 @@
 | 43 Meaning Read In: Helārāja, Kauṇḍabhaṭṭa & What Commentary Adds | [hindu/darsana/43-meaning-read-in.md](hindu/darsana/43-meaning-read-in.md) | helārāja · kauṇḍabhaṭṭa · sphoṭasiddhi | drafted |
 | 44 The Grammars That Lost: Kātantra, Cāndra, Prākṛt & the Metalanguage Everyone Shared | [hindu/shastra/44-the-grammars-that-lost.md](hindu/shastra/44-the-grammars-that-lost.md) | kātantra · sarvavarman · cāndra-vyākaraṇa · candragomin · prākṛtaprakāśa · paribhāṣā | drafted |
 | 45 The Witness Problem: When the Commentary Outlives the Manuscript | [cross-tradition/45-the-witness-problem.md](cross-tradition/45-the-witness-problem.md) | jinendrabuddhi · nyāsa (kāśikāvivaraṇapañjikā) · haradatta · puṇyarāja | drafted |
+| 46 Opening the Book: What Changed When the Corpus Finally Read Its Sources | [cross-tradition/46-opening-the-book.md](cross-tradition/46-opening-the-book.md) | bhāmaha · śaurasenī · durgasiṃha | drafted |
 
 ---
 

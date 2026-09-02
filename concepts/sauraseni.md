@@ -77,7 +77,7 @@ Pischel's classification, as Ollett reports it: the Jains used **Ardhamāgadhī*
 
 ## Links
 
-- part-of: prakrta-prakasha | ⭐ Section XII — ⚠ **and the corpus's two first-hand sources disagree about whether it was ever commented on**: Cowell reads the absence as **loss**, Ollett as a **terminus**, with an eleventh-century witness. Ollett is taken
+- aggregates-into: prakrta-prakasha | ⭐ Section XII — **and `aggregates-into` rather than `part-of` on purpose: it was not a part of the book, it became one.** ⚠ **and the corpus's two first-hand sources disagree about whether it was ever commented on**: Cowell reads the absence as **loss**, Ollett as a **terminus**, with an eleventh-century witness. Ollett is taken
 - structurally-parallel-to: hemacandra | ⭐ the same language, described twice on the same plan: Hemacandra's Śaurasenī chapter (8.4.260–286) is what Cowell prints as his **Appendix C**, because he could not translate Vararuci's — and both close by deferring the remainder to a declared base
 - shares-vocabulary-with: digambara | ⭐⭐ **"Jain Śaurasenī" is Pischel's name for the language of the Digambara doctrinal literature** — so [[kundakunda]] and [[samayasara]] are in it. ⚠ **And Ollett's warning travels with the fact**: the "Prākṛt = popular = egalitarian Jainism" story is "sentimental and indigenist," a §0 inflation into modern politics rather than modern physics
 - often-conflated-with-NOT-equivalent: kundakunda | ⚠ **the split the map must teach**: "Jain Śaurasenī" is a **modern scholarly classification** (Pischel's) of the language Kundakunda's works are transmitted in — **not** a language Kundakunda named, and not the stage Śaurasenī the grammarians describe. Same word, three referents

@@ -152,6 +152,7 @@ Batch 49 carried as follow-up #12: "⚠ **Is the Kaccāyana/Dravidian influence 
 
 ## Links
 
+- aggregates-from: sauraseni | ⭐⭐**[B50]** the complementary inverse of Śaurasenī's `aggregates-into` — **the text absorbed the module it had not had**, and Bhāmaha's commentary stopping short of it dates the absorption
 - is-a-type-of: vyakarana | ⭐ the discipline applied to **Prākṛt** — and ⭐**[B50]** the application is literal: *adhikāra* at I.1 and II.1, a *pratyāhāra* at IV.1, and Cowell glossing I.1 by citing **Pāṇini I.1.70**
 - structurally-parallel-to: katantra | ⚠**[B50] narrowed**: Ollett confirms the debt ("overlooked, perhaps because they are obvious") — shared **topical** arrangement, shared terminology (*āmantraṇa-*, *bhūta-*, *bhaviṣyat-*), nominal suffixes appended in both — but his n. 27 blocks the stronger reading: "**the list of topics, however, is very different**." **A parallel of method, not of content**
 - structurally-parallel-to: candra-vyakarana | ⚠**[B50] corrected**: both have terminal modules, but the fates are not symmetric events. Candragomin's Vedic chapters were **lost** — a transmission accident. This text's dialect chapters were **added**, and the addition **changed the category of its own subject**

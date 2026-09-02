@@ -407,9 +407,6 @@ digraph ancient_texts {
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
-  subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "durgasimha" [label="durgasimha" fillcolor="#777777" shape=box];
-  }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
     "ahura-mazda" [label="Ahura Mazdā" fillcolor="#9aa0a6" shape=ellipse];
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
@@ -417,6 +414,7 @@ digraph ancient_texts {
     "bhamaha" [label="Bhāmaha" fillcolor="#9aa0a6" shape=ellipse];
     "bhartrhari" [label="Bhartṛhari" fillcolor="#9aa0a6" shape=ellipse];
     "bhattoji-dikshita" [label="Bhaṭṭoji Dīkṣita" fillcolor="#9aa0a6" shape=ellipse];
+    "durgasimha" [label="Durgasiṃha" fillcolor="#9aa0a6" shape=ellipse];
     "helaraja" [label="Helārāja" fillcolor="#9aa0a6" shape=ellipse];
     "kaiyata" [label="Kaiyaṭa" fillcolor="#9aa0a6" shape=ellipse];
     "karaka" [label="kāraka" fillcolor="#9aa0a6" shape=ellipse];
@@ -1076,6 +1074,11 @@ digraph ancient_texts {
   "durga" -> "kali" [style=dashed color="#0066cc66"];
   "durga" -> "shaivism" [style=solid color="#33333333"];
   "durga" -> "avatara-vedanta" [style=dashed color="#00993366"];
+  "durgasimha" -> "katantra" [style=solid color="#55555533"];
+  "durgasimha" -> "bhamaha" [style=dashed color="#0066cc66"];
+  "durgasimha" -> "paribhasha" [style=dashed color="#0066cc66"];
+  "durgasimha" -> "nirukta" [style=dotted color="#cc000099"];
+  "durgasimha" -> "sarvavarman" [style=dotted color="#cc000099"];
   "dvaita-vedanta" -> "brahma-sutra" [style=dashed color="#cc660066"];
   "dvaita-vedanta" -> "jiva" [style=dashed color="#00993366"];
   "dvaita-vedanta" -> "jiva" [style=dotted color="#cc000099"];
@@ -2052,6 +2055,7 @@ digraph ancient_texts {
   "prakriti-samkhya" -> "guna-samkhya" [style=solid color="#55555533"];
   "prakriti-samkhya" -> "purusha-samkhya" [style=dashed color="#00993366"];
   "prakriti-samkhya" -> "varsaganya" [style=dashed color="#0066cc66"];
+  "prakrta-prakasha" -> "sauraseni" [style=solid color="#55555533"];
   "prakrta-prakasha" -> "vyakarana" [style=solid color="#33333333"];
   "prakrta-prakasha" -> "katantra" [style=dashed color="#00993366"];
   "prakrta-prakasha" -> "candra-vyakarana" [style=dashed color="#00993366"];
@@ -2403,7 +2407,7 @@ digraph ancient_texts {
   "satya" -> "ahimsa" [style=solid color="#33333333"];
   "satya" -> "aparigraha" [style=solid color="#33333333"];
   "satya" -> "karma" [style=solid color="#33333333"];
-  "sauraseni" -> "prakrta-prakasha" [style=solid color="#33333333"];
+  "sauraseni" -> "prakrta-prakasha" [style=solid color="#55555533"];
   "sauraseni" -> "hemacandra" [style=dashed color="#00993366"];
   "sauraseni" -> "digambara" [style=dashed color="#0066cc66"];
   "sauraseni" -> "kundakunda" [style=dotted color="#cc000099"];
