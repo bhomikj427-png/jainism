@@ -2055,8 +2055,10 @@ digraph ancient_texts {
   "prakrta-prakasha" -> "katantra" [style=dashed color="#00993366"];
   "prakrta-prakasha" -> "candra-vyakarana" [style=dashed color="#00993366"];
   "prakrta-prakasha" -> "hemacandra" [style=dashed color="#00993366"];
+  "prakrta-prakasha" -> "paribhasha" [style=dashed color="#00993366"];
   "prakrta-prakasha" -> "candragomin" [style=dotted color="#cc000099"];
   "prakrta-prakasha" -> "sarvavarman" [style=dashed color="#0066cc66"];
+  "prakrta-prakasha" -> "vararuci" [style=dashed color="#cc660066"];
   "pramana-nyaya" -> "pramana" [style=dashed color="#0066cc66"];
   "pramana-nyaya" -> "pramana" [style=dotted color="#cc000099"];
   "pramana-nyaya" -> "dravya-vaisheshika" [style=solid color="#33333333"];
