@@ -61,6 +61,8 @@
 | 41 The Word as the World: Bhartṛhari & Grammar's Claim to Be a Darśana | [hindu/darsana/41-the-word-as-the-world.md](hindu/darsana/41-the-word-as-the-world.md) | bhartṛhari · vākyapadīya · sphoṭa · śabdabrahman | drafted |
 | 42 The Ladder and the Boundary: Pāṇini's Commentators & the Size of a Text | [hindu/shastra/42-the-ladder-and-the-boundary.md](hindu/shastra/42-the-ladder-and-the-boundary.md) | kaiyaṭa · kāśikā · bhaṭṭoji dīkṣita · nāgeśa bhaṭṭa · vararuci · pratyāhāra · yāska | drafted |
 | 43 Meaning Read In: Helārāja, Kauṇḍabhaṭṭa & What Commentary Adds | [hindu/darsana/43-meaning-read-in.md](hindu/darsana/43-meaning-read-in.md) | helārāja · kauṇḍabhaṭṭa · sphoṭasiddhi | drafted |
+| 44 The Grammars That Lost: Kātantra, Cāndra, Prākṛt & the Metalanguage Everyone Shared | [hindu/shastra/44-the-grammars-that-lost.md](hindu/shastra/44-the-grammars-that-lost.md) | kātantra · sarvavarman · cāndra-vyākaraṇa · candragomin · prākṛtaprakāśa · paribhāṣā | drafted |
+| 45 The Witness Problem: When the Commentary Outlives the Manuscript | [cross-tradition/45-the-witness-problem.md](cross-tradition/45-the-witness-problem.md) | jinendrabuddhi · nyāsa (kāśikāvivaraṇapañjikā) · haradatta · puṇyarāja | drafted |
 
 ---
 
@@ -101,6 +103,10 @@
 > meaning** to `hindu/darsana/` (Ch 43) — same batch, in two cases the same century, different category. ⭐ **Ch 42 §2 corrects Ch 40 §2.2,
 > and Ch 40 has been patched in place with a SUPERSEDED banner pointing at it** — the first time a chapter in this corpus has been
 > corrected by a later one rather than left to go quietly stale (`DRIFT.md` D3).
+>
+> **Chapters 44 and 45** were derived from Batch 49's ten nodes, taking a **two-way split of a different kind** from Ch 40/41 and Ch 42/43. Those split by *subject* — technique to `hindu/shastra/`, theory of meaning to `hindu/darsana/`. This one splits by **what the material is evidence about**: the six **grammars** went to `hindu/shastra/` (Ch 44), and the four **commentators** to `cross-tradition/` (Ch 45), because they turned out to be about **transmission** rather than about grammar — continuing Chs 29, 34 and 39. ⚠ **Ch 44's own header records that its folder is wrong in an instructive way**: one of its grammars is Buddhist, one of its authors a layman, and its central finding is that these systems *left* the frame `hindu/` names. It stays there because it is continuous with Chs 40 and 42 as śāstra, and the strain is the chapter's subject.
+>
+> ⭐ **Ch 45 §1.2 half-repays and half-corrects Ch 42/Ch 43**: Batch 48 flagged commentarial mediation as a **risk**; working editors of the Kāśikāvṛtti call the same fact **invaluable**, because "manuscripts in India last no more than about five hundred years." The caveat is **relocated, not withdrawn** — the second time in three batches that a chapter has been answered by a later one rather than left to go stale (`DRIFT.md` D3).
 >
 > ⚠ **One standing debt this roadmap cannot fix by itself: [Ch 11 (The Vedānta Family)](hindu/darsana/11-vedanta.md)
 > now predates Chs 25, 30, 34, 36 and 37**, all of which build on it, and it has never been re-read against them.
