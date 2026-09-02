@@ -68,6 +68,7 @@ The **Cāndra-vyākaraṇa** (*Cāndrasūtra*) is the **Buddhist** non-Pāṇini
 - historically-influenced-by: panini | its declared base; three-quarters the length, six (received) adhyāyas against eight
 - historically-influenced-by: katyayana | ⭐ it takes at least one **vārttika into the sūtra text itself** — the correction absorbed rather than stacked above
 - structurally-parallel-to: kaiyata | ⭐⭐ two opposite answers to nine centuries of accumulated correction: rank the commentators (the Pāṇinian ladder) or **rewrite the root text** (Candragomin). No polemical relation is asserted
+- aggregates-into: candragomin | ⭐ the corpus's usual sūtra→commentator edge, with the tradition's usual gap closed: the *Cāndravṛtti* is **the author's own**. Where the Pāṇinian line needed nine centuries and four tiers to gloss its root text, this one arrived with its commentary attached
 - shares-vocabulary-with: katantra | the two non-Pāṇinian systems of this batch; both in Abhyankar's single list, both edited into modern circulation by Bruno Liebich
 - shares-vocabulary-with: paribhasha | it has its **own numbered Paribhāṣāpāṭha** — Abhyankar cites Cāndra Par. 28 and Par. 14 for maxims the Pāṇinian tradition numbers elsewhere
 - shares-vocabulary-with: mahabhashya | ⚠ **the connection is a person, not a doctrine**: its author is very likely the Candrācārya whom Bhartṛhari credits with recovering Mahābhāṣya study in Kashmir — narrowed this batch, not closed

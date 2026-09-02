@@ -47,7 +47,6 @@ confidence: medium
 - expressed-by: candra-vyakarana | its author — on every source that knows the grammar exists
 - expressed-by: vyakarana | ⚠ and from outside it twice over: a **Buddhist** and a **layman**, in a discipline that described itself as an auxiliary of the Veda
 - historically-influenced-by: panini | the Cāndra is "based on Pāṇini's grammar"; three-quarters its length
-- often-conflated-with-NOT-equivalent: candrakirti | ⚠ **not a conflation of the two men with each other but of the debate with the grammar**: on Mark Tatz's division the Nālandā opponent is a **seventh-century** Candragomin, and the fifth-century grammarian never met him. ⚠ `candrakirti` is an **unwritten** node
 - shares-vocabulary-with: yogacara | ⚠ the affiliation attributed to the debater (Vijñānavāda), **not** a doctrine found in the grammar — no source consulted reads Yogācāra out of the Cāndrasūtra, and §0 forbids supplying it
 - structurally-parallel-to: sarvavarman | ⭐ two non-Pāṇinian grammars whose authors are, in their own traditions' stories, **laymen who taught someone more powerful than themselves** — a king in six months, a monastic philosopher over seven years
 - structurally-parallel-to: hemacandra | the corpus's other grammarian-of-another-religion who was also a poet, dramatist and doctrinal author — the polymath shape the vyākaraṇa nodes keep producing outside the Brahminical mainstream

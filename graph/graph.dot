@@ -404,7 +404,6 @@ digraph ancient_texts {
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
   subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "candrakirti" [label="candrakirti" fillcolor="#777777" shape=box];
     "paribhasha" [label="paribhasha" fillcolor="#777777" shape=box];
     "prakrta-prakasha" [label="prakrta-prakasha" fillcolor="#777777" shape=box];
   }
@@ -870,13 +869,13 @@ digraph ancient_texts {
   "candra-vyakarana" -> "panini" [style=dashed color="#cc660066"];
   "candra-vyakarana" -> "katyayana" [style=dashed color="#cc660066"];
   "candra-vyakarana" -> "kaiyata" [style=dashed color="#00993366"];
+  "candra-vyakarana" -> "candragomin" [style=solid color="#55555533"];
   "candra-vyakarana" -> "katantra" [style=dashed color="#0066cc66"];
   "candra-vyakarana" -> "paribhasha" [style=dashed color="#0066cc66"];
   "candra-vyakarana" -> "mahabhashya" [style=dashed color="#0066cc66"];
   "candragomin" -> "candra-vyakarana" [style=solid color="#55555533"];
   "candragomin" -> "vyakarana" [style=solid color="#55555533"];
   "candragomin" -> "panini" [style=dashed color="#cc660066"];
-  "candragomin" -> "candrakirti" [style=dotted color="#cc000099"];
   "candragomin" -> "yogacara" [style=dashed color="#0066cc66"];
   "candragomin" -> "sarvavarman" [style=dashed color="#00993366"];
   "candragomin" -> "hemacandra" [style=dashed color="#00993366"];
