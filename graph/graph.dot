@@ -406,9 +406,6 @@ digraph ancient_texts {
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
-  subgraph "cluster_unwritten" { style=invis; peripheries=0;
-    "prakrta-prakasha" [label="prakrta-prakasha" fillcolor="#777777" shape=box];
-  }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
     "ahura-mazda" [label="Ahura Mazdā" fillcolor="#9aa0a6" shape=ellipse];
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
@@ -428,6 +425,7 @@ digraph ancient_texts {
     "panini" [label="Pāṇini" fillcolor="#9aa0a6" shape=ellipse];
     "paribhasha" [label="paribhāṣā" fillcolor="#9aa0a6" shape=ellipse];
     "patanjali-grammarian" [label="Patañjali (vaiyākaraṇa)" fillcolor="#9aa0a6" shape=ellipse];
+    "prakrta-prakasha" [label="Prākṛtaprakāśa" fillcolor="#9aa0a6" shape=ellipse];
     "pratyahara" [label="pratyāhāra" fillcolor="#9aa0a6" shape=ellipse];
     "sabdabrahman" [label="śabdabrahman" fillcolor="#9aa0a6" shape=ellipse];
     "sarvavarman" [label="Sarvavarman" fillcolor="#9aa0a6" shape=ellipse];
@@ -2041,6 +2039,12 @@ digraph ancient_texts {
   "prakriti-samkhya" -> "guna-samkhya" [style=solid color="#55555533"];
   "prakriti-samkhya" -> "purusha-samkhya" [style=dashed color="#00993366"];
   "prakriti-samkhya" -> "varsaganya" [style=dashed color="#0066cc66"];
+  "prakrta-prakasha" -> "vyakarana" [style=solid color="#33333333"];
+  "prakrta-prakasha" -> "katantra" [style=dashed color="#00993366"];
+  "prakrta-prakasha" -> "candra-vyakarana" [style=dashed color="#00993366"];
+  "prakrta-prakasha" -> "hemacandra" [style=dashed color="#00993366"];
+  "prakrta-prakasha" -> "candragomin" [style=dotted color="#cc000099"];
+  "prakrta-prakasha" -> "sarvavarman" [style=dashed color="#0066cc66"];
   "pramana-nyaya" -> "pramana" [style=dashed color="#0066cc66"];
   "pramana-nyaya" -> "pramana" [style=dotted color="#cc000099"];
   "pramana-nyaya" -> "dravya-vaisheshika" [style=solid color="#33333333"];
