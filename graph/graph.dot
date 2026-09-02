@@ -401,6 +401,11 @@ digraph ancient_texts {
     "tapas" [label="tapas" fillcolor="#ff6fa5" shape=ellipse];
     "vyapti" [label="vyāpti" fillcolor="#ff6fa5" shape=ellipse];
   }
+  subgraph "cluster_unwritten" { style=invis; peripheries=0;
+    "candra-vyakarana" [label="candra-vyakarana" fillcolor="#777777" shape=box];
+    "paribhasha" [label="paribhasha" fillcolor="#777777" shape=box];
+    "prakrta-prakasha" [label="prakrta-prakasha" fillcolor="#777777" shape=box];
+  }
   subgraph "cluster_unknown" { style=invis; peripheries=0;
     "ahura-mazda" [label="Ahura Mazdā" fillcolor="#9aa0a6" shape=ellipse];
     "ajivika" [label="ājīvika" fillcolor="#9aa0a6" shape=ellipse];
@@ -411,6 +416,7 @@ digraph ancient_texts {
     "kaiyata" [label="Kaiyaṭa" fillcolor="#9aa0a6" shape=ellipse];
     "karaka" [label="kāraka" fillcolor="#9aa0a6" shape=ellipse];
     "kasika" [label="Kāśikā" fillcolor="#9aa0a6" shape=ellipse];
+    "katantra" [label="Kātantra" fillcolor="#9aa0a6" shape=ellipse];
     "katyayana" [label="Kātyāyana" fillcolor="#9aa0a6" shape=ellipse];
     "kaundabhatta" [label="Kauṇḍabhaṭṭa" fillcolor="#9aa0a6" shape=ellipse];
     "mahabhashya" [label="Mahābhāṣya" fillcolor="#9aa0a6" shape=ellipse];
@@ -1415,6 +1421,13 @@ digraph ancient_texts {
   "kasika" -> "mahabhashya" [style=dashed color="#cc660066"];
   "kasika" -> "bhartrhari" [style=dashed color="#00993366"];
   "kasika" -> "kaiyata" [style=dashed color="#00993366"];
+  "katantra" -> "vyakarana" [style=solid color="#33333333"];
+  "katantra" -> "astadhyayi" [style=dotted color="#cc000099"];
+  "katantra" -> "panini" [style=dashed color="#cc660066"];
+  "katantra" -> "kasika" [style=dashed color="#00993366"];
+  "katantra" -> "kartikeya" [style=dashed color="#00993366"];
+  "katantra" -> "paribhasha" [style=dashed color="#0066cc66"];
+  "katantra" -> "candra-vyakarana" [style=dashed color="#0066cc66"];
   "katyayana" -> "vyakarana" [style=solid color="#55555533"];
   "katyayana" -> "astadhyayi" [style=dashed color="#cc660066"];
   "katyayana" -> "mahabhashya" [style=solid color="#33333333"];
@@ -2698,6 +2711,8 @@ digraph ancient_texts {
   "varaha" -> "vishnu" [style=dashed color="#0066cc66"];
   "vararuci" -> "katyayana" [style=dotted color="#cc000099"];
   "vararuci" -> "vyakarana" [style=solid color="#55555533"];
+  "vararuci" -> "katantra" [style=solid color="#55555533"];
+  "vararuci" -> "prakrta-prakasha" [style=solid color="#55555533"];
   "vararuci" -> "patanjali" [style=dashed color="#00993366"];
   "vararuci" -> "kasika" [style=dashed color="#00993366"];
   "varsaganya" -> "kapila" [style=dashed color="#cc660066"];
