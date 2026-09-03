@@ -70,6 +70,31 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 ---
 
+## Batch 51 — OPEN (2026-09-03). **Finish Batch 50's queue, and take the depth read it did not reach.**
+
+Theme: **the six names Batch 49 opened and Batch 50 left unwritten**, plus **D-C**, the one depth read carried
+unattempted from two batches. ⚠ Batch 50 was cut short at the user's request with six of ten concepts unwritten;
+all six keys were re-checked free against the live filesystem at the top of this batch (§8 dedup gate).
+
+### The depth read
+
+| id | source | carried from | status |
+|---|---|---|---|
+| **D-C** | ***Vākyapadīya* II.481–490** with Puṇyarāja's *Ṭīkā* — or **Iyer's English kāṇḍa II** | Batch 49 #3, Batch 50 (not attempted) | ⏳ attempting first, because ⭐ **the passage names Vyāḍi's *Saṅgraha***, and `vyadi` is the batch's first node |
+
+### Queue
+
+| # | key | why it is here | state |
+|---|---|---|---|
+| 1 | `vyadi` | pre-Patañjali; Haribhāskara calls him **the first writer on paribhāṣās**; **referenced in 5 committed files and written in none** | pending |
+| 2 | `sakatayana` | ⚠ **two of them** — the pre-Pāṇinian one Yāska sides with, and the 9th-c. Jain; a collision candidate on arrival | pending |
+| 3 | `devanandin` | ⚠⚠ **Pūjyapāda Devanandin is named in ~60 committed Jain files** (the *Sarvārthasiddhi*) **and has no node** — the largest single unwritten person in the corpus | pending |
+| 4 | `jainendra-vyakarana` | the grammar attributed to the same man; has its own Paribhāṣāpāṭha in Abhyankar's census | pending |
+| 5 | `candrakirti` | ⚠ **a gap `candragomin.md` named explicitly**: the corpus has `madhyamaka`, `nagarjuna`, `yogacara` and **no Candrakīrti** | pending |
+| 6 | `maitreya-raksita` | Pāṇinian commentator, the *Tantrapradīpa* on the *Nyāsa* | pending |
+
+---
+
 ## Batch 50 — CLOSED (2026-09-02). **The corpus's first deliberate DEPTH batch.** 3 new nodes; 407 → 410; 2545 → 2564 edges. Plus Ch 46.
 
 Theme: **read the sources this corpus had been describing at second hand.** ⚠ **Cut short of its ten-concept queue at the user's request** — six queued names stand unwritten, listed below. **`python graph/check_all.py` → ALL CHECKS PASS**; chapter coverage **410/410**, `KNOWN_UNCOVERED` empty, structural + conformance audits **CLEAN**, **0 orphans, 0 unwritten stubs**.
