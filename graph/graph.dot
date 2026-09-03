@@ -112,6 +112,7 @@ digraph ancient_texts {
     "bodhisattva" [label="bodhisattva" fillcolor="#ff8c5a" shape=ellipse];
     "candra-vyakarana" [label="Cāndra-vyākaraṇa" fillcolor="#ff8c5a" shape=ellipse];
     "candragomin" [label="Candragomin" fillcolor="#ff8c5a" shape=ellipse];
+    "candrakirti" [label="Candrakīrti" fillcolor="#ff8c5a" shape=ellipse];
     "catuskoti" [label="catuṣkoṭi" fillcolor="#ff8c5a" shape=ellipse];
     "citta" [label="citta" fillcolor="#ff8c5a" shape=ellipse];
     "dharmakirti" [label="Dharmakīrti" fillcolor="#ff8c5a" shape=ellipse];
@@ -894,9 +895,19 @@ digraph ancient_texts {
   "candragomin" -> "candra-vyakarana" [style=solid color="#55555533"];
   "candragomin" -> "vyakarana" [style=solid color="#55555533"];
   "candragomin" -> "panini" [style=dashed color="#cc660066"];
+  "candragomin" -> "candrakirti" [style=dotted color="#cc000099"];
   "candragomin" -> "yogacara" [style=dashed color="#0066cc66"];
   "candragomin" -> "sarvavarman" [style=dashed color="#00993366"];
   "candragomin" -> "hemacandra" [style=dashed color="#00993366"];
+  "candrakirti" -> "madhyamaka" [style=solid color="#55555533"];
+  "candrakirti" -> "prasanga-nagarjuna" [style=solid color="#55555533"];
+  "candrakirti" -> "dvisatya" [style=solid color="#55555533"];
+  "candrakirti" -> "mulamadhyamakakarika" [style=dashed color="#cc660066"];
+  "candrakirti" -> "nagarjuna" [style=dashed color="#cc660066"];
+  "candrakirti" -> "santaraksita" [style=dotted color="#cc000099"];
+  "candrakirti" -> "candragomin" [style=dotted color="#cc000099"];
+  "candrakirti" -> "pramana-samuccaya" [style=dashed color="#0066cc66"];
+  "candrakirti" -> "vijnaptimatrata" [style=dashed color="#00993366"];
   "candrata" -> "ayurveda" [style=solid color="#33333333"];
   "candrata" -> "haricandra" [style=dashed color="#cc660066"];
   "candrata" -> "jejjata" [style=dashed color="#cc660066"];
@@ -2101,6 +2112,7 @@ digraph ancient_texts {
   "pramana-samuccaya" -> "apoha" [style=solid color="#55555533"];
   "pramana-samuccaya" -> "hetu-vidya" [style=solid color="#55555533"];
   "pramana-samuccaya" -> "vijnaptimatrata" [style=dashed color="#cc660066"];
+  "pramana-samuccaya" -> "candrakirti" [style=dashed color="#0066cc66"];
   "pramana-samuccaya" -> "nyaya-sutra" [style=dashed color="#00993366"];
   "pramana-samuccaya" -> "nyaya-sutra" [style=dotted color="#cc000099"];
   "pramana" -> "naya" [style=solid color="#55555533"];
