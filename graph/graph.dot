@@ -428,6 +428,7 @@ digraph ancient_texts {
     "katyayana" [label="Kātyāyana" fillcolor="#9aa0a6" shape=ellipse];
     "kaundabhatta" [label="Kauṇḍabhaṭṭa" fillcolor="#9aa0a6" shape=ellipse];
     "mahabhashya" [label="Mahābhāṣya" fillcolor="#9aa0a6" shape=ellipse];
+    "maitreya-raksita" [label="Maitreya Rakṣita" fillcolor="#9aa0a6" shape=ellipse];
     "makkhali-gosala" [label="Makkhali Gosāla" fillcolor="#9aa0a6" shape=ellipse];
     "nagesha-bhatta" [label="Nāgeśa Bhaṭṭa" fillcolor="#9aa0a6" shape=ellipse];
     "panini" [label="Pāṇini" fillcolor="#9aa0a6" shape=ellipse];
@@ -1240,6 +1241,7 @@ digraph ancient_texts {
   "haradatta" -> "kasika" [style=dashed color="#cc660066"];
   "haradatta" -> "nyasa-vyakarana" [style=dashed color="#cc660066"];
   "haradatta" -> "mahabhashya" [style=dashed color="#cc660066"];
+  "haradatta" -> "maitreya-raksita" [style=dashed color="#00993366"];
   "haradatta" -> "kaiyata" [style=dashed color="#00993366"];
   "haradatta" -> "jinendrabuddhi" [style=dashed color="#00993366"];
   "haradatta" -> "patanjali" [style=dotted color="#cc000099"];
@@ -1639,6 +1641,14 @@ digraph ancient_texts {
   "mahavira" -> "ajivika" [style=dashed color="#0066cc66"];
   "mahavira" -> "makkhali-gosala" [style=dashed color="#0066cc66"];
   "mahavira" -> "utsarpini-avasarpini" [style=dashed color="#cc660066"];
+  "maitreya-raksita" -> "nyasa-vyakarana" [style=dashed color="#cc660066"];
+  "maitreya-raksita" -> "jinendrabuddhi" [style=dashed color="#cc660066"];
+  "maitreya-raksita" -> "kasika" [style=dashed color="#cc660066"];
+  "maitreya-raksita" -> "mahabhashya" [style=dashed color="#cc660066"];
+  "maitreya-raksita" -> "vyakarana" [style=solid color="#55555533"];
+  "maitreya-raksita" -> "haradatta" [style=dashed color="#00993366"];
+  "maitreya-raksita" -> "vyadi" [style=dashed color="#00993366"];
+  "maitreya-raksita" -> "candra-vyakarana" [style=dashed color="#0066cc66"];
   "maitri-jain" -> "ahimsa" [style=solid color="#33333333"];
   "maitri-jain" -> "pramoda" [style=dashed color="#0066cc66"];
   "maitri-jain" -> "karunya" [style=dashed color="#0066cc66"];
