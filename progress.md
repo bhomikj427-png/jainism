@@ -2,8 +2,8 @@
 
 > **⚠️ ORIENTATION — read this before acting (kept short on purpose; loaded on every startup — closed run-logs are rotated to `progress-archive.md`).**
 > This project has **two parallel structures**, and they are NOT interchangeable:
-> 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 50 CLOSED — 410 concepts, 2564 edges** (a DEPTH batch: 3 nodes, 2 primary sources read, 4 committed files corrected) (`check_all.py`: ALL CHECKS PASS).
-> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Ch 46** (*Opening the Book*), and before it Ch 44 and Ch 45 (and **Ch 40 patched in place** — its §2.2 superseded by Ch 42 §2). Previously Ch 40 and Ch 41, written over Batch 47's twelve grammar nodes and **deliberately split across two folders** (`hindu/shastra/` and `hindu/darsana/`) because the tradition itself changed category. **Chapter coverage is 410 / 410 and `KNOWN_UNCOVERED` is EMPTY.** Verify with `python graph/check_chapters.py`, never by hand. → **The next unit of work is a NEW BATCH (51) — see the end of the Batch 50 run-log below.** Write new nodes first, then a chapter over them, then re-derive the roadmap in `chapters/INDEX.md` by the method recorded there. ⚠ Do NOT re-derive coverage by hand-diffing — that is what let a false "340/340" stand for 43 batches. Run **`python graph/check_chapters.py`**: it joins the index to `concepts/` (handling the IAST-vs-filename key split) and exits non-zero on any real gap. NOTE: `hindu/` has a **second level** (`darsana/`, `devotional/`, `scripture/`, `shastra/`) — see `chapters/INDEX.md` header for what goes where.
+> 1. **Concepts / batches** → `concepts/*.md`, the graph nodes. Work is queued in "**batches**" here in `progress.md`. Latest: **Batch 51 CLOSED — 417 concepts, 2631 edges** (the second DEPTH batch: 7 nodes, and **15 committed files corrected or amended**) (`check_all.py`: ALL CHECKS PASS).
+> 2. **Chapters** → `chapters/*.md`, the human-readable **teaching layer** (prose reading-views, NOT graph nodes; `build_graph.py` ignores them). Indexed in **`chapters/INDEX.md`**. Latest: **Ch 47** (*What a Name Can and Cannot Tell You*), and before it **Ch 46** (*Opening the Book*), and before it Ch 44 and Ch 45 (and **Ch 40 patched in place** — its §2.2 superseded by Ch 42 §2). Previously Ch 40 and Ch 41, written over Batch 47's twelve grammar nodes and **deliberately split across two folders** (`hindu/shastra/` and `hindu/darsana/`) because the tradition itself changed category. **Chapter coverage is 417 / 417 and `KNOWN_UNCOVERED` is EMPTY.** Verify with `python graph/check_chapters.py`, never by hand. → **The next unit of work is a NEW BATCH (52) — see NEXT SESSION and the end of the Batch 51 run-log below.** Write new nodes first, then a chapter over them, then re-derive the roadmap in `chapters/INDEX.md` by the method recorded there. ⚠ Do NOT re-derive coverage by hand-diffing — that is what let a false "340/340" stand for 43 batches. Run **`python graph/check_chapters.py`**: it joins the index to `concepts/` (handling the IAST-vs-filename key split) and exits non-zero on any real gap. NOTE: `hindu/` has a **second level** (`darsana/`, `devotional/`, `scripture/`, `shastra/`) — see `chapters/INDEX.md` header for what goes where.
 >
 > **"chapter" ≠ "batch."** If the user says "chapter," they mean a file in `chapters/` — open `chapters/INDEX.md` for the next number; do NOT answer with a "Suggested Batch" from this file. (This mistake has recurred across sessions — see `chapter-vs-batch` memory.)
 
@@ -15,26 +15,35 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 > **🗂  Run-log rotation (token discipline, CLAUDE.md §7/§9).** Closed run-logs older than the current run live in **`progress-archive.md`** (append-only; git is the canonical history). This file keeps only the orientation header, the anchor text, and the **most recent activity** so startup stays cheap. When you finish a batch: append the new run-summary here, then move the *previously* newest run-log block into `progress-archive.md`. Full history: `progress-archive.md` or `git log`.
 
-### Corpus milestone: **410 concepts across 50 batches; 46 chapters.** 2564 edges. 0 orphans. 0 unwritten stubs. **`python graph/check_all.py` → ALL CHECKS PASS**: structural + conformance audits CLEAN, no duplicate/phantom groups, and **chapter coverage 410/410 with an empty `KNOWN_UNCOVERED` table.** Nothing is red and nothing is excused.
+### Corpus milestone: **417 concepts across 51 batches; 47 chapters.** 2631 edges. 0 orphans. 0 unwritten stubs. **`python graph/check_all.py` → ALL CHECKS PASS**: structural + conformance audits CLEAN, no duplicate/phantom groups, and **chapter coverage 417/417 with an empty `KNOWN_UNCOVERED` table.** Nothing is red and nothing is excused.
 
 ---
 
 
 ## ▶ NEXT SESSION — start here
 
-**The repo is fully green.** `python graph/check_all.py` → **ALL CHECKS PASS**; chapter coverage **410/410** with an empty `KNOWN_UNCOVERED` table. No outstanding maintenance, no red gate.
+**The repo is fully green.** `python graph/check_all.py` → **ALL CHECKS PASS**; chapter coverage **417/417** with an empty `KNOWN_UNCOVERED` table; 417 nodes, 2631 edges, 0 orphans, 0 dangling stubs, 0 duplicate groups. No outstanding maintenance, no red gate.
 
-⭐⭐⭐ **Batch 50 was the corpus's first deliberate DEPTH batch, and it paid.** Three nodes and two books read at first hand **corrected four committed files, superseded one of the corpus's own proposed mechanisms, added a seventh collision generator, and turned up a §0 failure mode the charter does not name.** ⚠ **Ten shallow nodes would not have done any of that** — and `DRIFT.md` D1 says the shallow route is the one the corpus defaults to. **Consider running another depth batch before resuming growth.**
+⭐⭐⭐ **Batches 50 and 51 were both DEPTH batches and both paid, in the same currency: they corrected far more than they added.** Batch 50 — 3 nodes, 4 committed files corrected. **Batch 51 — 7 nodes, and FIFTEEN committed files corrected or amended.** ⚠ **Neither result was reachable by adding shallow nodes**, and `DRIFT.md` D1 says the shallow route is the one the corpus defaults to. **A third depth batch is the recommendation, and Batch 51's follow-ups 1–3 are already free, located and open-access.**
 
-▶ **The next unit of work has an obvious shape: FINISH BATCH 50'S QUEUE.** ⚠ It was **cut short at the user's request** with **six of ten concepts unwritten** — `vyadi`, `maitreya-raksita`, `jainendra-vyakarana`, `devanandin`, `sakatayana`, `candrakirti`. All are still free keys, all still opened by Batch 49, and `vyadi` is referenced in five committed files and written in none. **Depth read D-C (*Vākyapadīya* II with Puṇyarāja) was also not attempted and remains the cheapest open item.**
+▶ **Batch 51 finished Batch 50's cut-short queue in full** — all six queued names written (as seven nodes, because `sakatayana` turned out to be a typed split), plus **depth read D-C**, which closes the **Candrācārya follow-up carried since Batch 47**. Nothing from that queue is outstanding.
 
-⚠ **One question for the user, not decidable here (§10 fork).** Batch 50 finding 7 argues that **§0 should name inflation into modern *politics* alongside modern physics** — same mechanism, and a specialist aims it at this repository's own anchor tradition. **That is an edit to the prime directive, so it is left for you.**
+▶ **The next unit of work: three gaps this batch NAMED and deliberately did not fill** (§8 scope-lock), each argued for by the node that found it:
+- **`yapaniya`** — the third Jain sect. The corpus has `digambara` and `svetambara`, and `sakatayana-jain` establishes that **the sect's entire surviving literature is four works by one grammarian**.
+- **`aryadeva`** — exposed by `candrakirti` exactly as `candragomin` exposed `candrakirti` one batch earlier.
+- **`saranadeva` / `durghata-vrtti`** — Abhyankar's abbreviation list treats it as a standing citation source, and it carries the contemporary reference that dates `maitreya-raksita`.
 
-⚠ **Read before opening Batch 51.** Batches 44–50 each falsified something they queued. **Batch 49 confirmed three of its four named tests, falsified the *frame* of the fourth, and then falsified its own headline finding two nodes after committing it.** It corrected or qualified **five** committed files, **two of them written inside the same batch**. The suggestions below are **leads to test, not facts**.
+⚠ **One question for the user, not decidable here (§10 fork) — and it now rests on TWO cases, not one.** Batch 50 finding 7 argued that **§0 should name inflation into modern *politics* alongside modern physics.** Batch 51 finding 8 is a second, independent instance: **Goldman's Foreword to Jaini 1991** names "a theory of ancient India as a place of **social and gender equality**" as an Orientalist / Hindu-Renaissance construction — aimed at the same tradition, from a different specialist, decade and discipline. **That is an edit to the prime directive, so it is left for you.**
 
-⚠ **A new standing caution on source-weighting, produced by Batch 47 and applying to every future batch:** **"read at first hand" and "specialist" are strong marks for what a discipline knows *internally*** — vocabulary, manuscript contents, which attributions the tradition itself doubts — **and weak for anything depending on outside scholarship that has moved, chronology above all.** Abhyankar (1961) is authoritative on *pratyāhāra* and out of date on Bhartṛhari's century, and both are true of the same book. See Ch 40 §8.2.
+⚠ **Read before opening Batch 52.** Batches 44–51 have each falsified something they queued. **Batch 51 falsified four of its own committed files, two of them Buddhist nodes written in Batch 12, and one of its own findings was weakened by the node written immediately after it.** The suggestions below are **leads to test, not facts**.
 
-⚠ **Abhyankar's dictionary is a session-scratchpad download and does not persist.** Re-downloaded and confirmed working again 2026-09-02. Re-download before any further grammar work — the method is the Meulenbeld one: take `server` and `dir` from `https://archive.org/metadata/dictionary-of-sanskrit-grammar-abhyankar`, then request `DictionaryOfSanskritGrammar_abhyankar_djvu.txt` from that host directly. ⚠ **Use that item, NOT `a-dictionary-of-sanskrit-grammar-kv-abhyankar-1961-gos`** — the latter's OCR is unusable (Devanagari-mis-OCR'd; zero hits for "Panini"). **Confirmed working this batch.**
+⚠ **Two standing cautions on source-weighting, the second new in Batch 51:**
+1. **(Batch 47)** "read at first hand" and "specialist" are strong marks for what a discipline knows *internally* — vocabulary, manuscript contents, which attributions the tradition itself doubts — **and weak for anything depending on outside scholarship that has moved, chronology above all.**
+2. ⭐ **(Batch 51)** **Extend that past chronology: a reference work's statements about *what survives* are exactly as perishable as its statements about dates, because a manuscript can be found.** Abhyankar (1961) calls the *Tantrapradīpa* "available only in a fragmentary state"; it was **printed in full in 2007** from a 220-folio manuscript. ⚠ **"Known through its citers" is not a synonym for "lost."**
+
+⚠ **Abhyankar's dictionary is a session-scratchpad download and does not persist.** Re-downloaded and confirmed working again 2026-09-03. The method: take `server` and `dir` from `https://archive.org/metadata/dictionary-of-sanskrit-grammar-abhyankar`, then request `DictionaryOfSanskritGrammar_abhyankar_djvu.txt` from that host directly. ⚠ **Use that item, NOT `a-dictionary-of-sanskrit-grammar-kv-abhyankar-1961-gos`** — the latter's OCR is unusable. ⚠⚠ **And Batch 51 caught him contradicting himself twice more** (Vyāḍi's date; Maitreya Rakṣita's date). **He is the corpus's best grammar source and he is a 1961 compilation of a tradition's own reports; treat unreconciled notices as the tradition's disagreement, not as his error.**
+
+⭐ **A retrieval method worth reusing, found in Batch 51:** when a publisher blocks an article page (De Gruyter 405, academia.edu 403, institutional IRIS 403), **`https://api.crossref.org/works/<DOI>` will usually still hand over the authors, pagination and the full abstract.** That is how the *Asiatische Studien* paribhāṣā follow-up, dead for two batches, was part-discharged.
 
 ---
 
@@ -70,122 +79,93 @@ Secondary: Hermann Jacobi translations in Sacred Books of the East; Pandit Sukhl
 
 ---
 
-## Batch 51 — OPEN (2026-09-03). **Finish Batch 50's queue, and take the depth read it did not reach.**
+## Batch 51 — CLOSED (2026-09-03). **Finished Batch 50's queue and took its unattempted depth read.** 6 queued names → **7 new nodes**; 410 → **417**; 2564 → **2631 edges**. Plus **Ch 47**.
 
-Theme: **the six names Batch 49 opened and Batch 50 left unwritten**, plus **D-C**, the one depth read carried
-unattempted from two batches. ⚠ Batch 50 was cut short at the user's request with six of ten concepts unwritten;
-all six keys were re-checked free against the live filesystem at the top of this batch (§8 dedup gate).
+Theme, discovered rather than planned: **every node turned on a name — and in four of seven, the corpus was the party making the mistake.** **`python graph/check_all.py` → ALL CHECKS PASS**; chapter coverage **417/417**, `KNOWN_UNCOVERED` empty, structural + conformance audits **CLEAN**, **0 orphans, 0 dangling stubs, 0 duplicate groups**.
 
-### The depth read
+### The depth read — D-C, carried unattempted from Batches 49 and 50, now CLOSED
 
-| id | source | carried from | status |
-|---|---|---|---|
-| **D-C** | ***Vākyapadīya* II.481–490** with Puṇyarāja's *Ṭīkā* — or **Iyer's English kāṇḍa II** | Batch 49 #3, Batch 50 (not attempted) | ⏳ attempting first, because ⭐ **the passage names Vyāḍi's *Saṅgraha***, and `vyadi` is the batch's first node |
+| id | source | result |
+|---|---|---|
+| **D-C** | ***Vākyapadīya* kāṇḍa II, 2.480–2.486** — **GRETIL** scholarly e-text + **Ashok Aklujkar, "Interpreting Vākyapadīya 2.486 Historically" (AOS, Toronto, 1978)**, pp. 1–11 | ⭐⭐⭐ **READ. The Candrācārya follow-up carried since Batch 47 is CLOSED — hypothesis confirmed and its arithmetic refuted in the same move.** |
+| ⚠ | **Iyer's English kāṇḍa II**, both archive.org identifiers | ⛔ **DEAD — garbled Devanāgarī OCR, zero Latin hits.** `DRIFT.md` D1's rule again; recorded so it is not re-spent |
 
-### Queue
-
-| # | key | why it is here | state |
-|---|---|---|---|
-| 1 | `vyadi` | pre-Patañjali; Haribhāskara calls him **the first writer on paribhāṣās**; **referenced in 5 committed files and written in none** | pending |
-| 2 | `sakatayana` | ⚠ **two of them** — the pre-Pāṇinian one Yāska sides with, and the 9th-c. Jain; a collision candidate on arrival | pending |
-| 3 | `devanandin` | ⚠⚠ **Pūjyapāda Devanandin is named in ~60 committed Jain files** (the *Sarvārthasiddhi*) **and has no node** — the largest single unwritten person in the corpus | pending |
-| 4 | `jainendra-vyakarana` | the grammar attributed to the same man; has its own Paribhāṣāpāṭha in Abhyankar's census | pending |
-| 5 | `candrakirti` | ⚠ **a gap `candragomin.md` named explicitly**: the corpus has `madhyamaka`, `nagarjuna`, `yogacara` and **no Candrakīrti** | pending |
-| 6 | `maitreya-raksita` | Pāṇinian commentator, the *Tantrapradīpa* on the *Nyāsa* | pending |
-
----
-
-## Batch 50 — CLOSED (2026-09-02). **The corpus's first deliberate DEPTH batch.** 3 new nodes; 407 → 410; 2545 → 2564 edges. Plus Ch 46.
-
-Theme: **read the sources this corpus had been describing at second hand.** ⚠ **Cut short of its ten-concept queue at the user's request** — six queued names stand unwritten, listed below. **`python graph/check_all.py` → ALL CHECKS PASS**; chapter coverage **410/410**, `KNOWN_UNCOVERED` empty, structural + conformance audits **CLEAN**, **0 orphans, 0 unwritten stubs**.
-
-### The depth reads — the actual unit of work
-
-| id | source | Batch 49 follow-up | result |
-|---|---|---|---|
-| **D-A** | **Cowell 1854**, the *Prākṛtaprakāśa* with Bhāmaha's *Manoramā* (archive.org `b30093016`) | **#2** | ⭐⭐⭐ **READ.** An 1854 critical edition from six collated MSS **with an English translation** — usable under §1 precisely because someone else did the translating |
-| **D-A′** | **Andrew Ollett, *Language of the Snakes*** (archive.org `dli.doa.049`) | **#9** | ⭐⭐⭐⭐ **READ, and Batch 49's record of it CORRECTED.** Batch 49 filed it "located and NOT retrievable"; MUSE and the author's page are still dead, but the DOAB copy is on archive.org. **The corpus had recorded a dead end as a property of the book rather than of the route it tried.** |
-| **D-B** | Kāśikāvṛtti with the *Padamañjarī* + *Nyāsa* | **#1 = T3** | ⚠ **ATTEMPTED, NOT DISCHARGED — and the follow-up turns out to have been mis-specified.** See below |
-| **D-C** | ***Vākyapadīya* II with Puṇyarāja** | **#3** | ⚠ **NOT ATTEMPTED** — batch ended first. Still the cheapest open item |
-
-### The three nodes
+### The seven nodes
 
 | # | key | status / conf | the one-line finding |
 |---|---|---|---|
-| 1 | `bhamaha` | contested / medium | ⭐⭐ **Collision #13 — and the corpus's own Batch 49 rule predicted the specialist's verdict in a case it had not seen.** |
-| 2 | `sauraseni` | contested / medium | ⭐⭐⭐ **The same gap read twice**: Cowell's *loss* vs Ollett's *terminus*, decided by an 11th-c. witness. The corpus's first node for a Prākṛt **language**. |
-| 3 | `durgasimha` | contested / **low** | ⭐⭐⭐ **An attribution caught happening between two manuscripts.** Four identity questions on one name; the corpus's third `low` node, for a third distinct reason. |
+| 1 | `vyadi` | contested / medium | ⭐⭐ Referenced in 5 files, written in none. **Abhyankar dates him twice, incompatibly** — and Aufrecht and MW already say there are **four Vyāḍis** |
+| 2 | `sakatayana` | contested / medium | ⭐⭐⭐ **The eighth collision generator: the PATRONYMIC**, and it is nobody's error |
+| 3 | `sakatayana-jain` | contested / medium | ⭐⭐⭐ **The entire surviving literature of the Yāpanīya sect is four works by one grammarian** |
+| 4 | `devanandin` | contested / medium | ⭐⭐⭐⭐ **58 files cite Pūjyapāda, 2 cite Devanandin, 0 join them. They are one man.** |
+| 5 | `jainendra-vyakarana` | contested / medium | ⭐⭐⭐ **28 of 32 Abhyankar mentions are a Pāṇinian term it REPLACED** — including *vṛddhi*, the term of P. I.1.1 |
+| 6 | `candrakirti` | contested / medium | ⭐⭐⭐ **"Prāsaṅgika" is a 12th-c. Tibetan label and the corpus taught it as a 7th-c. Indian school** |
+| 7 | `maitreya-raksita` | contested / medium | ⭐⭐⭐ **A religion inferred from a name — and a source out of date rather than wrong** |
 
 ### ⭐ The engine findings
 
-**1. ⭐⭐⭐⭐ The corpus's most interesting unsourced claim was true, and the finding built on it was the wrong size.** Batch 49 filed "8 chapters expanded to 12" as **terminal-module architecture**. Ollett proves it from **one word** — "Māhārāṣṭrī" appears in the expanded recension and not the older one, because the core text had nothing to contrast its subject with — and shows the addition was **ontological**: "a **pluralization of the category of 'Prakrit'**… Prakrit, now Māhārāṣṭrī, no longer stood **above** the other languages, but **alongside** them." ⭐ **Adding three chapters demoted the book's own subject from a genus to a species.** ⚠ The corpus had the shape of the event and none of its content **because it had read *about* the text and not *in* it** — `DRIFT.md` D1 as a worked example rather than a metric.
+**1. ⭐⭐⭐⭐ The corpus's most-cited author had no node because it did not recognise his name.** `grep -l "Pūjyapāda" concepts/*.md | wc -l` → **58**; `Devanandin` → **2**; both → **0**. ⭐ **And the *how* is the finding, not the *what*.** The identity is in the abbreviation list of the dictionary the corpus has read at first hand since Batch 47, and `paribhasha.md` **quoted the sentence containing both names** and tabulated it as "gloss by Abhyankar himself, on maxims in Abhayanandin's *Mahāvṛtti*." ⚠ **Not a reading failure — a compression failure: a census keeps the countable columns and drops the nominal ones.** ⭐⭐ §2 of the charter *prescribes* tabulation for contested material. **This is that instruction's cost, observed once and measurable.**
 
-**2. ⭐⭐⭐ And the mechanism the corpus proposed is superseded.** Batch 49's "the organisation that makes a grammar teachable makes its parts detachable" is replaced, for **two of its three instances**, by a documented event: the threefold schema became **sixfold** (adding Śaurasenī, Māgadhī, Paiśācī) in **Rudraṭa, Kashmir, early 9th c.**; the "expanded" *Light* is listed among the multilingual grammars of that moment, and **Hemacandra's book 8 adopts the six languages as its organizing principle**. ⚠ **Untested for the third instance** (the Cāndra's Vedic chapters, *lost* rather than added). **Recorded as supersession, not refutation** — the earlier reasoning generalised from architecture when the evidence was about audience.
+**2. ⭐⭐⭐ An eighth collision generator, and it is neither accident nor device.** The six from Batch 49 are accidents; Batch 50's seventh (name-as-warrant) is deliberate. **A patronymic is structural** — Monier-Williams glosses *Śākaṭāyana* as a *patronymic*, the *Purāṇa Index* as "a *pravara* of the Bhārgavas." Many bearers is the word working correctly. ⚠⚠ **And it cuts backwards inside the batch**: `vyadi`'s Dākṣāyaṇa argument dates the man by treating a patronymic as individuating. **The second node weakened the first and both stand.**
 
-**3. ⭐⭐⭐ The same gap, read twice — and the corpus made the error too, inside this batch.** Cowell reads the missing Bhāmaha commentary on §XII as **loss** (and on that basis leaves it untranslated, the only such section). Ollett reads it as a **terminus**, with **Abhinavagupta** (11th c.) describing a Vararuci "**excluding regional languages such as Śaurasenī." ⚠⚠ `bhamaha.md` was **written and committed** taking Cowell at face value and building a Ch 45 illustration on it; `sauraseni` corrected it hours later. ⭐ **Batch 49 caught a transmission accident read as an authorial choice; this is the mirror — a redactional terminus read as a transmission accident.** Both sit at the **end** of a text, where "absent" and "lost" are hardest to tell apart.
+**3. ⭐⭐⭐ The corpus has been teaching a Tibetan map as an Indian one.** SEP (Hayes): Svātantrika/Prāsaṅgika are "**not used by Indian Mādhyamikas themselves**"; Wikipedia: the categorisation "only arose in **Tibet during the 12th century**." ⚠⚠ **And `santaraksita.md` already said the Svātantrika label was "later Tibetan doxography" — the corpus knew it in one file and not in the other, since Batch 12.** ⭐ Third instance of one pattern (`rasesvara`, `vishishtadvaita`): **a doxographer's category read back as a thing that existed.**
 
-**4. ⭐⭐⭐ A seventh collision generator, and unlike the six it is not confusion but WARRANT.** Ollett: "**Vararuci-Kātyāyana was the go-to sage for authorizing additions and interventions in these new non-Pāṇinian systems.**" ⭐ **The attributions are not errors; they are claims.** The corpus now separates *is this the same man?* (usually no) from *why was he named?* (usually a reason). ⭐⭐ And `durgasimha` supplies the mechanism as a **bare catalogue fact**: the Kātantra *Paribhāṣāvṛtti*'s **Poona MS is anonymous; the India Office copy names Durgasiṃha**. One text, two manuscripts, an author appearing in one of them.
+**4. ⭐⭐⭐⭐ The corpus's catalogue of a habit turned out to describe its own principal modern source.** It had recorded Haradatta reading a **doctrine** out of *Sphoṭāyana* and Jinendrabuddhi reading a **biography** out of *Śalātura*, and `paribhasha.md` records that the technique (*jñāpaka*) is named and institutionalised. **The third instance is Abhyankar reading a RELIGION out of "Maitreya Rakṣita"** — hedged twice by him, and repeated unhedged by this corpus. ⚠ **A method that only ever finds the fault in the eleventh century is not a method.**
 
-**5. ⭐⭐ T4 confirmed in a stronger form than Batch 49 could reach.** Read at first hand in Cowell: **I.1 and II.1 are *adhikāra*s, IV.1 turns on a *pratyāhāra*, and Cowell glosses I.1 by citing Pāṇini I.1.70.** ⭐ **The shared metalanguage crosses the *language* boundary**, not merely the boundary between rival Sanskrit systems.
+**5. ⭐⭐⭐ A source out of date rather than wrong — a NEW CATEGORY for Batch 47's standing caution.** Abhyankar (1961): the *Tantrapradīpa* is "available only in a fragmentary state at present." **It was published in full in 2007** (ed. Kanjilal, Kolkata, 267 pp.) from a **220-folio manuscript in the Sāhitya Sabhā collection, Coochbehar**. ⭐ Batch 47 said a specialist is weak wherever outside scholarship has moved, "chronology above all." **Extend it: statements about *what survives* are exactly as perishable as dates, because a manuscript can be found.** ⚠ **"Known through its citers" is not a synonym for "lost"** — Vyāḍi's *Saṅgraha* is gone; this one was in north Bengal the whole time.
 
-**6. ⭐⭐ The rule against arguments from silence is a scalpel, not a broom.** `bhamaha` discounted Ollett's Abhinavagupta point wholesale. Ollett draws **two** inferences from him and only one is from silence; the other is a **positive description of the text's contents** — and it is what overturns Cowell. ⚠ **Using Batch 49's rule as a broom cost the node a real fact for several hours.**
+**6. ⭐⭐⭐ D-C closed, and the correction is sharper than the confirmation.** The blame-verse and the credit-verse are different verses with different names — **confirmed**. ⚠⚠ **But "five verses later" was arithmetic across two editions' numbering.** On one scale the gap is **two**: GRETIL 2.483/2.485, Aklujkar 2.484/2.486, Abhyankar's II.489 a third scale. ⭐ **And the text supplies the reason the corpus could only guess at**: *śuṣka-tarkānusāribhiḥ* against *bhāṣya-bījānusāribhiḥ* — **a deliberate antithesis on matched compounds, not a stray name.** ⚠ **Cost: Aklujkar holds the ten epilogue verses to be a pupil's, not Bhartṛhari's.**
 
-**7. ⚠⚠ A §0 failure mode the charter has no name for: inflation into modern POLITICS.** Pischel's **Jain Śaurasenī** is the **Digambara doctrinal language** — so `kundakunda` and `samayasara` are in it, which nothing in this repository previously said. ⚠ Ollett's warning travels with the fact: the "Prākṛt = popular = egalitarian Jainism" story is "**sentimental and indigenist**." ⭐ **Identical mechanism to the physics case §0 already guards against — a structural fact quietly mapped onto a flattering modern category — and aimed at the tradition this repository is anchored on.**
+**7. ⭐⭐ A Batch-50 finding QUALIFIED, not confirmed.** T4 held that the metalanguage crosses system boundaries. **The Jainendra keeps the whole paribhāṣā machinery (108 maxims) and discards the vocabulary.** ⭐ **What crosses is the *technique*, not the *terminology* — and they are separable because one system separated them.** ⚠ The sectarian reading of the substitution is **flagged and refused**: no source gives a motive, and brevity is an ordinary alternative.
 
-**8. ⭐⭐⭐ The mis-specified follow-up.** T3 was carried as "**cheap** — the text is free on archive.org." The download works (3.8 MB) and its OCR is garbled Devanagari — **but that is not the real obstacle.** The *Padamañjarī* is an **untranslated** Sanskrit commentary and **§1 forbids this corpus from translating it**; what T3 needs is a published translation or study, and a bounded search found none. ⭐ **"Free on archive.org" was never a reason to think T3 was cheap.** ⚠ **General lesson for the queue (D1): a *located* source is not a *read* one, and an *untranslated* located source may not be readable at all. A follow-up list that does not distinguish these overstates its own health.**
+**8. ⚠⚠ Batch 50's §0 charter question now has TWO cases.** Finding 7 of that batch (inflation into modern **politics**) reappears here from a different specialist, decade and discipline, aimed at the same tradition: **Goldman's Foreword to Jaini 1991** names "a theory of ancient India as a place of **social and gender equality**" as an Orientalist / Hindu-Renaissance construction — precisely the reading `sakatayana-jain` invites. **Still a §10 fork for the user; it now rests on two independent instances rather than one.**
 
-### ⚠ Sources caught being wrong — and three of the six are us
+**9. ⭐⭐ Two claims the batch went looking for and REFUSED.** (a) That the MMK's Sanskrit survives only inside the *Prasannapadā* — ⚠ **unverified**; SEP confirms only that the commentary survives in Sanskrit, and Wikipedia's MMK article, **asked directly**, does not address the root text. (b) The wisdomlib "Vyādi = Bhalipā" entry — **a dental-*d* word folded into a retroflex-*ḍ* lemma by a search index.** ⭐ Both are collisions **generated by modern retrieval rather than by ancient scribes.**
+
+**10. ⭐ The wisdomlib = Abhyankar trap is now PROVEN, not inferred.** Batch 50 deduced it from a collision. The site **credits him by name** — "Wikisource: *A dictionary of Sanskrit grammar* (K. V. Abhyankar)" — and its first sentence is verbatim the scan. **Anything agreeing with Abhyankar from that source is not a second signal.**
+
+### ⚠ Sources caught being wrong — and FOUR of eight are us
 
 | # | source | failure |
 |---|---|---|
-| 1 | **Cowell 1854** | reads a **terminus as a loss** (§XII); dates **Hemacandra to the 13th c.** (he is 12th — corrected by Ollett *and* by this corpus's own node); and grounds the Vararuci=Kātyāyana identification on "**universal popular belief**… and the direct testimony of Somadeva" — ⭐ **the *Kathāsaritsāgara*, i.e. the exact evidential circle `sarvavarman` identified. He states it openly, which is what makes correction possible** |
-| 2 | **Cowell 1854** | the **Kaccāyana inference**, made on the name alone — ⭐⭐ **and Batch 49's rule picks Ollett over him without knowing either.** Follow-up #12's Pali half answered; **the Dravidian half remains untested** |
-| 3 | **Abhyankar** | prints **two unreconciled notices** of the *Kātantradhātuvṛtti* *Manoramā*'s author; **has no headword for this Bhāmaha at all** |
-| 4 | ⚠ **this corpus** | `bhamaha.md` — the "lost commentary" reading, **corrected within the same batch** (finding 3) |
-| 5 | ⚠ **this corpus** | `bhamaha.md` — the over-broad refusal of an argument from silence (finding 6) |
-| 6 | ⚠ **this corpus** | `haradatta.md` cited **Wikipedia "Padamañjari" and "Haradatta" as two sources**; a fetch of the latter returns the former **verbatim**. ⭐ **Third instance in three batches of one text nearly counted as two — and the first the corpus did to itself, in the very node that flagged the wisdomlib=Abhyankar trap** |
-
-⭐ **A seventh that is not a failure but is worth recording**: a web-search summary asked directly whether the two Bhāmahas are one man answered "**No**" — by explaining that the *Manoramā* and the *Kāvyālaṅkāra* are **different works**, which was never the question. **A confident right-shaped answer for the wrong reason**, and the corpus would have cited it as independent agreement with Ollett.
-
-### The collision taxonomy: now seven generators and fifteen candidates
-
-⭐ **New generator (7th): the name as WARRANT** — deliberate, not accidental (finding 4).
-**New candidates:** **#13** Bhāmaha (grammarian / ālaṅkārika) — **split**, by Ollett *and*, independently and earlier, by **Ghosh**; **#14** Durgasiṃha / Durgācārya (Kātantra / *Nirukta* — two *vedāṅgas*), raised by Abhyankar and left open; **#15** Durgasiṃha = **Amarasiṃha**, "some scholars" holding the name to be **a title** — ⭐ the inverse form: one man, two designations, one of them not a name. Plus two flagged and undecided: **"Appayya Dīkṣita III"** and an **Utpaladeva** who commented on a lost *Prākṛtadīpikā*.
+| 1 | **Abhyankar** | dates **Vyāḍi** twice, incompatibly (contemporary of Pāṇini / after Kātyāyana, before Patañjali) |
+| 2 | **Abhyankar** | dates **Maitreya Rakṣita** twice (beginning / middle of the 12th c.) |
+| 3 | **Abhyankar** | ⭐ **out of date rather than wrong** — the "fragmentary" *Tantrapradīpa*, printed in full in 2007 |
+| 4 | **Wikipedia, "Chandrakirti"** | c. 600–650 in the lead, c. 600–670 in the infobox |
+| 5 | ⚠ **this corpus** | `bodhisattva.md` gave the ***Bodhicaryāvatāra* to Candrakīrti**; it is **Śāntideva's**, and `bodhicitta.md` has it right five times |
+| 6 | ⚠⚠ **this corpus** | the same sentence claimed "`madhyamaka.md` notes" it. **It does not mention the work at all.** ⭐ **A §4-signal-4 corpus-internal check done from memory — wrong author and false citation in one clause. This is what §8's "never recall a linked concept from memory" is for.** |
+| 7 | ⚠ **this corpus** | `paribhasha.md`'s census dropped the names that would have identified Devanandin |
+| 8 | ⚠ **this corpus** | `madhyamaka.md` / `prasanga-nagarjuna.md` taught 12th-c. Tibetan labels as 7th-c. Indian schools |
 
 ### What the batch did to its own corpus
 
-**Four committed files corrected, two of them written inside this batch:**
-1. **`prakrta-prakasha.md`** — rewritten on first-hand reading: the 8→12 claim confirmed *and reinterpreted*, the structure counted (521 sūtras, 12 sections), the four things it said it did not know answered, the `katantra` parallel **narrowed to method-not-content**, the `candra-vyakarana` parallel **corrected**.
-2. **`bhamaha.md`** — twice (findings 3 and 6), hours after being committed.
-3. **`haradatta.md`** — T3's mis-specification, collision #12 advanced **on non-name evidence for the first time**, the date question moved (a source from another śāstra independently lands beside the 13th-c. outlier), and the two-Wikipedias defect.
-4. **`sauraseni.md`/`prakrta-prakasha.md`** — `part-of` replaced by **`aggregates-into`/`aggregates-from`** on purpose: ⭐ *it was not a part of the book, it became one.*
+**Fifteen committed files corrected or amended**: `candra-vyakarana` · `mahabhashya` · `punyaraja` · `vakyapadiya` (the D-C read) · `paribhasha` (census row restored; the *Asiatische Studien* follow-up part-discharged) · `bhartrhari` · `tattvartha-sutra` · `jinendrabuddhi` (collision #17 + the 2007 edition) · `madhyamaka` · `prasanga-nagarjuna` · `mulamadhyamakakarika` · `bodhisattva` · `haradatta` · `candragomin` · `pramana-samuccaya`.
 
-⭐ **And two edges were written and then removed rather than forced**: §5 has no type for "is the evidence for," and a person is not `part-of` a language. **Some real relations get no edge.**
+⭐ **One follow-up part-discharged by a method worth reusing**: the *Asiatische Studien* paribhāṣā article returned **405** for two batches. **Crossref's API handed over the authors, pagination and the full abstract** — Candotti & Pontillo, 72.2 (2018), 515–566 — and the abstract alone puts Vyāḍi's collection **after** Patañjali, against Abhyankar. **When a publisher blocks the page, Crossref usually still has the metadata.**
 
-### ⚠ What this batch did NOT do
+⭐ **Three edges drafted and struck rather than forced** (`vyadi` → `rasesvara`; the four-Vyāḍis conflation; a mistyped dating edge), and **two inbound edges written from their own nodes' vantage rather than mirrored** to clear the orphan check.
 
-- **Six queued concepts unwritten**: `vyadi`, `maitreya-raksita`, `jainendra-vyakarana`, `devanandin`, `sakatayana`, `candrakirti`. All still free keys; all still opened by Batch 49.
-- **D-C not attempted** — the *Vākyapadīya* II / Puṇyarāja read that would close the Candrācārya question.
-- **T3 not discharged** (finding 8) and **Olivelle not read** — now known to be **paywalled** (Springer 303 → auth endpoint; academia.edu 403; DOI lookup 404). ⭐ **The sharpest single D2 item the corpus holds: a specialist has answered collision #12 and the corpus cannot read the answer.**
+### Follow-ups carried into Batch 52
 
-### Follow-ups carried into Batch 51
+1. ⭐⭐⭐ **Jaini 1991 Chapter II** — a complete published English translation of the *Strīnirvāṇaprakaraṇa* with autocommentary, **open access and already downloaded**; this batch used its notes and not its translation. **The cheapest primary-source read the corpus currently holds.**
+2. ⭐⭐ **Kanjilal's 2007 *Tantrapradīpa*** — a text the corpus's own authority called fragmentary, printed in full, with an English component.
+3. ⭐⭐ **The mechanically checkable question**: does the *Sarvārthasiddhi* use **Jainendra** technical terms where a Pāṇinian would use Pāṇini's? One man, two books.
+4. ⭐ **La Vallée Poussin 1903–13** — settles the MMK Sanskrit-survival question **and** the verse-numbering problem for the *Prasannapadā*.
+5. **Aklujkar pp. 12–21 and his Parts 2–3**; **Rau's critical edition** (the only thing that fixes VP numbering).
+6. **Abhyankar's *Paribhāṣāsaṃgraha*** — it *prints* Vyāḍi's *Paribhāṣāsūcana*; wanted by `vyadi` and `paribhasha` both.
+7. **Candotti & Pontillo in full** (De Gruyter 405 / academia.edu 403 / Pisa IRIS 403 — all dead).
+8. ***Nirukta* I.8 and I.12–13 in Sarup** — the two Śākaṭāyana/Gārgya disputes, in a translation the corpus already has a route to.
+9. ⭐ **Aufrecht's *Catalogus Catalogorum* at first hand** — the source of the four-Vyāḍis split.
+10. ⚠ **A lead not pursued (§8 scope-lock):** Jaini describes the ***nokarma-vargaṇā***, "the most auspicious kind of karmic matter… which ordinarily accounts for the involuntary biological functions suitable to the nature of each species" — ⭐ **directly relevant to `karma-vargana.md`, from a specialist source that node has never seen.**
 
-1. ⭐⭐ **D-C: *Vākyapadīya* II.481–490** with Puṇyarāja's *Ṭkā*, or **Iyer's English kāṇḍa II** — unchanged from Batch 49, and now the **cheapest** open item.
-2. ⭐⭐ **Nitti-Dolci, *Les grammairiens prakrits* (1938/1972)** — **new top D2 item**: the source of both the grammar-of-a-text thesis and the demonstration of the expansion, known to the corpus **only through Ollett**.
-3. ⭐ **Ollett is downloaded and only ch. 5–6 were read.** ⚠ 941 KB, 1,920 "Prakrit" hits — chs. 1–4 and 7 are unread and bear directly on `sauraseni`, `digambara`, `kundakunda`.
-4. **Ghosh's *Prākṛtakalpataru* introduction, pp. xvii–xviii** — the independent argument against the Bhāmaha identification.
-5. **Eggeling 1876**, the Kātantra with Durgasiṃha's commentary — out of copyright, and ⭐ **the book through which the Kātantra actually reached modern scholarship**.
-6. ⭐ **Abhyankar's *Paribhāṣāsaṃgraha* (B.O.R.I.)** — now with a **second** reason: he cites it for the Poona-vs-India-Office manuscript question.
-7. **Olivelle (paywalled)**; **Pischel**; **Westergaard 1862** (nine Kātyāyanas); **Rudraṭa** and **Namisādhu (1069)**; the ***Nāṭyaśāstra*** — ⚠ **the corpus still has no node for it**; **Durgācārya on the *Nirukta*** (the other half of #14).
-8. ⚠ **The Dravidian half of Batch 49 follow-up #12** — untouched.
-9. ⚠ **`paribhasha.md` flagged**: its census row "Durgasiṃha, 65 maxims" rests on an attribution **its own source doubts**. The count survives; the attribution does not.
-10. ⚠ **A charter question for the user (§10 fork, not decided here):** finding 7 suggests **§0 should name inflation into modern *politics* alongside modern physics.** That is an edit to the prime directive and is **not** a mechanical fix.
+**Carried from earlier batches, still open:** Matilal 1968 Parts II–III (in hand, still unused); Phillips's *Tattvacintāmaṇi*; Potter; Neevel 1977; the *Ratnaprabhā* and *Siddhayoga*; **P. V. Sharma**; Ingalls 1951; Nitti-Dolci; Ollett chs. 1–4 and 7; Ghosh's *Prākṛtakalpataru*; Eggeling 1876; Olivelle (paywalled); the *Nāṭyaśāstra* (still no node); the Dravidian half of Batch 49 follow-up #12; the D. Ch./D. C. Bhattacharyya question; the Digvijaya dating in `shankara.md`; the 42-vs-93 *nāma*-karma discrepancy; `dhatu.md`'s three-vs-four dispute; `balarama.md` single-sourced; Valerie Stoker.
 
-**Carried from earlier batches, still open:** Phillips's *Tattvacintāmaṇi*; **Matilal 1968 Parts II–III, in hand and still unused**; Potter; Neevel 1977; the *Ratnaprabhā* and *Siddhayoga*; **P. V. Sharma**; Ingalls 1951; the D. Ch./D. C. Bhattacharyya question; the Digvijaya dating in `shankara.md`; the 42-vs-93 *nāma*-karma discrepancy; `dhatu.md`'s three-vs-four dispute; `balarama.md` single-sourced; **Valerie Stoker**; Lance Nelson; Renou, Woods (1914), Dasgupta (1922); Vergiani 2014; Deshpande 1998; the *Vaiyākaraṇabhūṣaṇasāra*; **Kobayashi 1977**; **Aklujkar 1974/1972**; the *Asiatische Studien* 2018 paribhāṣā issue; Liebich 1919; Hoernle 1880. ⚠ **`durgasimha.md` becomes the corpus's third `low`-confidence node**, joining `karma-vargana` (thin sources) and `sarvavarman` (one source that is a fairy tale) — **for a third distinct reason: one good source that says four times over that it does not know.** ⚠ **Ch 11 is now fourteen chapters out of date.**
+### Suggested Batch 52 (names only — **leads to test, not facts**)
 
-### Suggested Batch 51 (names only — **leads to test, not facts**)
+- ⭐⭐⭐ **Three gaps this batch NAMED and did not fill**, each argued for by its own node: **`yapaniya`** (the third Jain sect — the corpus has `digambara` and `svetambara`, and the sect's entire surviving literature is now a node) · **`aryadeva`** (exposed by `candrakirti` exactly as `candragomin` exposed `candrakirti`) · **`saranadeva` / `durghata-vrtti`** (Abhyankar treats it as a standing citation source, and it dates `maitreya-raksita`).
+- ⭐⭐ **Another DEPTH batch.** Batches 50 and 51 both spent their value on reading rather than adding, and both corrected more committed files than they created nodes (4 and 15). Follow-ups 1–3 above are **free, located, and each closes a named test at the primary level.**
+- ⭐ **Opened by this batch:** `abhayanandin` · `sarvarthasiddhi` (⚠ or keep it inside `devanandin`) · `prabhacandra` (⚠ **two of them — the Śākaṭāyana commentator and the Digambara logician who quotes Śākaṭāyana; a live collision**) · `natyashastra` (still a real hole) · `maharastri` · `rudrata` · `amarakosha` · `durgacarya` · `kavyalankara-bhamaha`.
+- **Still open from 46–50:** `madhava-nidana` / `madhavakara` · `vijayaraksita` · `srikanthadatta` · `annambhatta` / `tarkasangraha` · `jagadisha-tarkalankara` · `vardhamana-upadhyaya` · `sridhara` · `jayanta-bhatta` · `parasara-bhatta` · `yadavaprakasha` · `vaidyanatha-payagunde` · `varadaraja` · `sesha-krsna` · `bhoja` / `sarasvatikanthabharana`.
 
-- ⭐⭐ **Finish Batch 50's queue first** — six names, all still opened and unwritten: `vyadi` (pre-Patañjali; the first paribhāṣā writer; referenced in 5 files) · `maitreya-raksita` · `jainendra-vyakarana` / `devanandin` · `sakatayana` (⚠ two of them) · `candrakirti`.
-- ⭐ **Opened by this batch:** `natyashastra` (⚠ a real hole — `chapters/INDEX.md` already reserves `hindu/shastra/` for it) · `maharastri` · `rudrata` · `nitti-dolci`? (no — people, not scholars) · `amarakosha` · `durgacarya` · `kavyalankara-bhamaha`.
-- **Still open from 46–49:** `madhava-nidana` / `madhavakara` · `vijayaraksita` · `srikanthadatta` · `annambhatta` / `tarkasangraha` · `jagadisha-tarkalankara` · `vardhamana-upadhyaya` · `sridhara` · `jayanta-bhatta` · `parasara-bhatta` · `yadavaprakasha` · `vaidyanatha-payagunde` · `varadaraja` · `sesha-krsna` · `bhoja` / `sarasvatikanthabharana`.
-- ⭐⭐⭐ **And the depth batch earned its keep — do it again.** Three nodes and two books corrected **four committed files, superseded one of the corpus's own mechanisms, added a collision generator, and found a §0 failure mode the charter does not name.** ⚠ **Ten shallow nodes would not have done any of that**, and `DRIFT.md` D1 says the shallow route is what the corpus defaults to.
+---
+
