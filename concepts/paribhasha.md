@@ -30,7 +30,7 @@ And in the ***Paribhāṣāsaṃgraha*** — ⭐ "a work containing a collection
 | vi | short gloss by **Bhāvamiśra** | 62 | Kātantra |
 | vii | anonymous | 96 | Kātantra |
 | viii | anonymous | 118 | Kālāpa |
-| ix | gloss **by Abhyankar himself**, on maxims in Abhayanandin's *Mahāvṛtti* | 108 | Jainendra |
+| ix | gloss **by Abhyankar himself**, on maxims in Abhayanandin's *Mahāvṛtti* **on the *Jainendra Vyākaraṇa* of [[devanandin\|Pūjyapāda Devanandin]]** | 108 | Jainendra |
 | x | given by **Bhoja** in *Sārasvatīkaṇṭhābharaṇa* I.ii | 118 | Bhoja's system |
 | xi | **Hemahaṃsagaṇi** — ⭐ and there they "are called by the name ***nyāya***" | 140 | Haima ([[hemacandra]]) |
 | xii | **Puruṣottamadeva** | 120 | Pāṇini |

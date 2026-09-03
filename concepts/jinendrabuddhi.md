@@ -41,10 +41,18 @@ He is **also** the name on the ***Viśālāmalavatī***, the ṭīkā on [[prama
 | whose | on what | system |
 |---|---|---|
 | **Jinendrabuddhi** | the Kāśikāvṛtti | Pāṇinian |
-| **Devanandin** | the Jainendra grammar | Jainendra |
+| **Devanandin** | the Jainendra grammar | Jainendra — ⚠⚠ **and he is also called *Jinendrabuddhi*; see below** |
 | **Prabhācandra** | the *Amoghavṛtti* on Śākaṭāyana | Śākaṭāyana |
 | a *Vṛtti* (and Hemahaṃsagaṇi's on the Paribhāṣāvṛtti) | [[hemacandra|Hemacandra's]] *Śabdānuśāsana* | Haima |
 | **Ugrabhūti** (11th c.), called *Śiṣyahita* | the [[katantra|Kātantra]] | Kātantra |
+
+### ⚠⚠ Collision #17, opened in Batch 51: **this node's own name belongs to two grammarians**
+
+⭐⭐⭐ **[[devanandin|Pūjyapāda Devanandin]], the 6th-century Digambara author of the *Jainendra Vyākaraṇa* and the *Sarvārthasiddhi*, is also called *Jinendrabuddhi*.** The statement is verbatim in **Vijay K. Jain's 2018 Preface** — "Three other names of Ācārya Pūjyapāda find mention in Jaina literature: **Deva, Devanandi, and Jinendrabuddhi**" — i.e. in **the corpus's own long-standing *Sarvārthasiddhi* source**, whose front matter it had never read.
+
+⚠ **So the table above contains the collision twice over.** Two of its five rows are the same *name*: an 8th-century **Buddhist** of the eastern Pāṇinian school, and a 6th-century **Jain** ācārya of Karnataka — **both grammarians, both credited with a work called *Nyāsa***, and **Abhyankar names them one sentence apart in the entry this node was built from**, calling one of them by his other name.
+
+⭐ **Two generators running at once**: the **genre label** this node identified (fifth generator), and an **alternate name**. ⚠ **No source consulted says anyone has actually conflated them**, and they cannot be one man — two centuries and two religions apart. The edge is drawn anyway, because §5 makes the map's job teaching the distinction rather than waiting for someone to fall into it.
 
 ⭐ The corpus's running taxonomy of collision generators was: a **personal name** (Vararuci, Patañjali, Kātyāyana), a **place-name** (Kāśikā), a **doctrine-name** (Sphoṭavāda), a **short form** (Candra). ⭐ **This is a fifth and the most systematic of them — a *genre* label.** Every system's principal sub-commentary is *the Nyāsa* of that system, the way every system has *its* Paribhāṣāpāṭha. ⚠ **This is why the batch gives the work its own tradition-suffixed node, [[nyasa-vyakarana]]**, rather than letting an unqualified `nyasa` stand — and the suffix is doing real work, since **`nyāsa` is *also* a live technical term elsewhere in this corpus**, at [[nikshepa]].
 
@@ -67,6 +75,7 @@ He is **also** the name on the ***Viśālāmalavatī***, the ṭīkā on [[prama
 
 ## Links
 
+- often-conflated-with-NOT-equivalent: devanandin | ⚠⚠ **collision #17, opened Batch 51**: *Jinendrabuddhi* is also a name of the 6th-c. Digambara Pūjyapāda Devanandin (Vijay K. Jain 2018, Preface). Both are grammarians and **both wrote a work called *Nyāsa***
 - expressed-by: nyasa-vyakarana | its author — and he titled it *Kāśikāvivaraṇapañjikā*; "Nyāsa" is what everyone else calls it
 - expressed-by: pramana-samuccaya | ⭐⭐ **the edge the corpus did not know it should have drawn.** On the majority reading (Hayes 1983, Funayama 1999, Steinkellner 2005; Kobayashi 1977 dissenting) the *Viśālāmalavatī* is by this same man — making the principal Sanskrit witness to Dignāga's largely-lost text a work of the Kāśikā's great commentator
 - expressed-by: vyakarana | of its "**eastern school**" — a regional division of the Pāṇinian tradition the corpus has not otherwise recorded

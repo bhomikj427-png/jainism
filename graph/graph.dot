@@ -25,6 +25,7 @@ digraph ancient_texts {
     "bandha" [label="bandha" fillcolor="#ffd23f" shape=ellipse];
     "brahmacarya" [label="brahmacarya" fillcolor="#ffd23f" shape=ellipse];
     "charitra" [label="cāritra" fillcolor="#ffd23f" shape=ellipse];
+    "devanandin" [label="Devanandin (Pūjyapāda)" fillcolor="#ffd23f" shape=ellipse];
     "dharma-dravya" [label="dharmāstikāya" fillcolor="#ffd23f" shape=ellipse];
     "dhyana-jain" [label="dhyāna (Jain)" fillcolor="#ffd23f" shape=ellipse];
     "digambara" [label="digambara" fillcolor="#ffd23f" shape=ellipse];
@@ -34,6 +35,7 @@ digraph ancient_texts {
     "gunasthana" [label="guṇasthāna" fillcolor="#ffd23f" shape=ellipse];
     "hemacandra" [label="Hemacandra" fillcolor="#ffd23f" shape=ellipse];
     "iryapathika-asrava" [label="īryāpathika-āsrava" fillcolor="#ffd23f" shape=ellipse];
+    "jainendra-vyakarana" [label="Jainendra Vyākaraṇa" fillcolor="#ffd23f" shape=ellipse];
     "jina" [label="jina" fillcolor="#ffd23f" shape=ellipse];
     "jiva" [label="jīva" fillcolor="#ffd23f" shape=ellipse];
     "kala-dravya" [label="kāla" fillcolor="#ffd23f" shape=ellipse];
@@ -995,6 +997,16 @@ digraph ancient_texts {
   "democritus-atom" -> "sunyata" [style=dotted color="#cc000099"];
   "democritus-atom" -> "epicurus-atom" [style=dashed color="#00993366"];
   "democritus-atom" -> "epicurus-atom" [style=dotted color="#cc000099"];
+  "devanandin" -> "jainendra-vyakarana" [style=solid color="#55555533"];
+  "devanandin" -> "tattvartha-sutra" [style=dashed color="#cc660066"];
+  "devanandin" -> "vyakarana" [style=solid color="#55555533"];
+  "devanandin" -> "panini" [style=dashed color="#cc660066"];
+  "devanandin" -> "kundakunda" [style=dashed color="#cc660066"];
+  "devanandin" -> "jinendrabuddhi" [style=dotted color="#cc000099"];
+  "devanandin" -> "sakatayana-jain" [style=dashed color="#00993366"];
+  "devanandin" -> "hemacandra" [style=dashed color="#00993366"];
+  "devanandin" -> "candragomin" [style=dashed color="#00993366"];
+  "devanandin" -> "paribhasha" [style=dashed color="#0066cc66"];
   "dhamma" -> "abhidharma" [style=solid color="#55555533"];
   "dhamma" -> "theravada" [style=solid color="#55555533"];
   "dhamma" -> "pratityasamutpada" [style=solid color="#55555533"];
@@ -1312,6 +1324,14 @@ digraph ancient_texts {
   "iryapathika-asrava" -> "jivanmukti" [style=dotted color="#cc000099"];
   "jaimini" -> "mimamsa-sutra" [style=solid color="#55555533"];
   "jaimini" -> "badarayana" [style=dashed color="#00993366"];
+  "jainendra-vyakarana" -> "astadhyayi" [style=dashed color="#cc660066"];
+  "jainendra-vyakarana" -> "panini" [style=dashed color="#cc660066"];
+  "jainendra-vyakarana" -> "paribhasha" [style=solid color="#55555533"];
+  "jainendra-vyakarana" -> "vyakarana" [style=solid color="#33333333"];
+  "jainendra-vyakarana" -> "candra-vyakarana" [style=dashed color="#00993366"];
+  "jainendra-vyakarana" -> "katantra" [style=dashed color="#00993366"];
+  "jainendra-vyakarana" -> "prakrta-prakasha" [style=dashed color="#00993366"];
+  "jainendra-vyakarana" -> "hemacandra" [style=dashed color="#0066cc66"];
   "jatayu" -> "ramayana" [style=solid color="#33333333"];
   "jatayu" -> "aruna" [style=dashed color="#0066cc66"];
   "jatayu" -> "sampati" [style=dashed color="#0066cc66"];
@@ -1342,6 +1362,7 @@ digraph ancient_texts {
   "jina" -> "gunasthana" [style=solid color="#55555533"];
   "jina" -> "nirvana-buddhist" [style=dashed color="#0066cc66"];
   "jina" -> "acarya" [style=solid color="#55555533"];
+  "jinendrabuddhi" -> "devanandin" [style=dotted color="#cc000099"];
   "jinendrabuddhi" -> "nyasa-vyakarana" [style=solid color="#55555533"];
   "jinendrabuddhi" -> "pramana-samuccaya" [style=solid color="#55555533"];
   "jinendrabuddhi" -> "vyakarana" [style=solid color="#55555533"];
