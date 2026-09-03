@@ -79,6 +79,7 @@ The batch queued this and it **fails** for Bhartṛhari's authorship. IEP is exp
 - expressed-by: vakyapadiya | his principal work, and the text in which the grammatical tradition acquires a metaphysics
 - expressed-by: vyakarana | the grammarian who argued the discipline into darśana status — a promotion claimed rather than granted
 - expressed-by: sabdabrahman | word-monism: reality as a *pariṇāma* of the language-principle, stated in the Vākyapadīya's opening verse
+- historically-influenced-by: vyadi | ⚠ **Abhyankar's word is "possibly"** and it is kept: "Bhartṛhari, possibly following Yāska and Vyāḍi, has developed the theory of *dyotaka* as contrasted with *vācaka*." ⭐ And independently of doctrine, the *Vākyapadīya*'s epilogue opens on the **loss of Vyāḍi's *Saṅgraha*** (2.480)
 - historically-influenced-by: mahabhashya | his Mahābhāṣyadīpikā (Tripādī) is a commentary on Patañjali — and he takes over the sphoṭa/dhvani distinction he found there
 - formalizes: sphota | he did not invent it but he generalised it, extending it from Patañjali's narrower use to varṇa, pada and vākya alike
 - structurally-parallel-to: parinamavada | ⚠ his monism is a *pariṇāma* (real transformation) doctrine, not a *vivarta* (appearance) one — which places him structurally with Pariṇāmavāda despite the "one reality" language he shares with Advaita

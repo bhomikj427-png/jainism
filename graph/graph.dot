@@ -437,6 +437,7 @@ digraph ancient_texts {
     "vakyapadiya" [label="Vākyapadīya" fillcolor="#9aa0a6" shape=ellipse];
     "vararuci" [label="Vararuci" fillcolor="#9aa0a6" shape=ellipse];
     "verethragna" [label="Vərəθraγna" fillcolor="#9aa0a6" shape=ellipse];
+    "vyadi" [label="Vyāḍi" fillcolor="#9aa0a6" shape=ellipse];
     "vyakarana" [label="vyākaraṇa" fillcolor="#9aa0a6" shape=ellipse];
   }
   "abhava" -> "navya-nyaya" [style=solid color="#33333333"];
@@ -808,6 +809,7 @@ digraph ancient_texts {
   "bhartrhari" -> "vakyapadiya" [style=solid color="#55555533"];
   "bhartrhari" -> "vyakarana" [style=solid color="#55555533"];
   "bhartrhari" -> "sabdabrahman" [style=solid color="#55555533"];
+  "bhartrhari" -> "vyadi" [style=dashed color="#cc660066"];
   "bhartrhari" -> "mahabhashya" [style=dashed color="#cc660066"];
   "bhartrhari" -> "sphota" [style=solid color="#55555533"];
   "bhartrhari" -> "parinamavada" [style=dashed color="#00993366"];
@@ -1913,6 +1915,7 @@ digraph ancient_texts {
   "parashurama" -> "ramayana" [style=solid color="#55555533"];
   "parashurama" -> "rama" [style=dashed color="#0066cc66"];
   "paribhasha" -> "vyakarana" [style=solid color="#33333333"];
+  "paribhasha" -> "vyadi" [style=solid color="#55555533"];
   "paribhasha" -> "astadhyayi" [style=solid color="#55555533"];
   "paribhasha" -> "katantra" [style=dashed color="#0066cc66"];
   "paribhasha" -> "candra-vyakarana" [style=dashed color="#0066cc66"];
@@ -2928,6 +2931,16 @@ digraph ancient_texts {
   "vrnda" -> "rasesvara" [style=dotted color="#cc000099"];
   "vrnda" -> "nagarjuna" [style=dashed color="#0066cc66"];
   "vrnda" -> "sunyata" [style=dashed color="#0066cc66"];
+  "vyadi" -> "paribhasha" [style=solid color="#55555533"];
+  "vyadi" -> "vyakarana" [style=solid color="#55555533"];
+  "vyadi" -> "panini" [style=dashed color="#cc660066"];
+  "vyadi" -> "katyayana" [style=dashed color="#cc660066"];
+  "vyadi" -> "mahabhashya" [style=dashed color="#0066cc66"];
+  "vyadi" -> "jati" [style=dashed color="#0066cc66"];
+  "vyadi" -> "vakyapadiya" [style=dashed color="#0066cc66"];
+  "vyadi" -> "vararuci" [style=dashed color="#00993366"];
+  "vyadi" -> "sarvavarman" [style=dashed color="#00993366"];
+  "vyadi" -> "nirukta" [style=dashed color="#00993366"];
   "vyakarana" -> "ayurveda" [style=dashed color="#00993366"];
   "vyakarana" -> "sabda-pramana" [style=dashed color="#0066cc66"];
   "vyakarana" -> "mimamsa-sutra" [style=dotted color="#cc000099"];
